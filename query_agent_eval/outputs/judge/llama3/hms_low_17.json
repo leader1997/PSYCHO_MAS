@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_17",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:58:54.495049+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑crafted for a low‑risk student case, providing clear safety communication, explanations of key XAI contributors (binge drinking and academic impairment), and actionable support recommendations. It aligns with the model’s risk interpretation and avoids diagnostic or causal language. However, it covers only two of the five positive contributors and one protective factor; expanding coverage to include other relevant features such as campus belonging, weekend sleep, institution size, and public status would improve XAI alignment."
+}

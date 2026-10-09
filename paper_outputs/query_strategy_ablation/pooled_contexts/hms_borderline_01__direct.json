@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_borderline_01",
+  "arm": "direct",
+  "n_queries": 1,
+  "n_raw_hits": 5,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.937433,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",
+      "pool_rank": 1
+    },
+    {
+      "rank": 2,
+      "score": 0.854674,
+      "chunk_id": "DOC_A001_p8_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 8,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 8 a total of 27 articles met the criteria for this review and each article was appraised using the Johns Hopkins Nursing Evidence-Based Practice Research and Non-Research Evidence Appraisal Tool. Table A2 outlines the Appraisal Table of the 27 articles (see Appendix A). Available Knowledge/Review of the Literature According to the U.S. Preventative Services Task Force (USPSTF), depression is among the leading causes of disability in individuals 15 years of age and older (Siu & U.S. Preventive Services Task Force (USPSTF), 2016). By 2020, depressive disorders are predicted to be the second leading cause of disability and death (Soltani, Smith, Beck, & Johnson, 2014). Prevalence of depression among college students accounts for approximately 16.7% and is more than twice as common among college students compared to the general population (Liu et al., 2019; English & Campbell, 2019). Thus, depression is highly prevalent and appears to be increasing. Depression is one of the leading health concerns in college population, yet roughly half of college students with depression receive treatment (English & Campbell, 2019). Mental health among college students affects important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity, which should be a significant concern for certain stakeholders such as campus administrators, college professors, and parents (Lipson, Gaddis, Heinze, & Eisenberg, 2015; Ebert et al., 2018). In addition, depression has been associated with increased health care costs such as emergency department visits and inpatient hospitalizations (Wright et al., 2015). In the United States alone, the total cost of mental illness in young",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",
+      "pool_rank": 2
+    },
+    {
+      "rank": 3,
+      "score": 0.852428,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",
+      "pool_rank": 3
+    },
+    {
+      "rank": 4,
+      "score": 0.842374,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",
+      "pool_rank": 4
+    },
+    {
+      "rank": 5,
+      "score": 0.841223,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",
+      "pool_rank": 5
+    }
+  ]
+}

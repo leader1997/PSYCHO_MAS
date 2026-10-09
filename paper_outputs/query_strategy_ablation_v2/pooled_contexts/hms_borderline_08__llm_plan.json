@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_borderline_08",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.998393,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?",
+      "query_qid": "Q5",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.979438,
+      "chunk_id": "DOC_C003_p2_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "2 INTRODUCTION Following the peak of the COVID-19 pandemic, former Surgeon General Vivek Murthy declared loneliness as a public health issue due to its association with mental and physical well-being (US HHS, 2023). Research studies consistently show that young adults report the highest rates of loneliness across the population (Ellard et al., 2022). Loneliness is described as a personal feeling of insufficient close connections in social relationships or having fewer social interactions than one wishes, regardless of the actual level of social engagement one has (Ellard et al., 2023; Yang, 2019). It should therefore be understood as a subjective experience that is not entirely dependent on the number of social interactions. Loneliness has widespread effects on mental health and well-being, and is associated with heart disease and premature death (US HHS, 2023). This report summarizes findings about student loneliness from research studies conducted at The Ohio State University. HIGHLIGHTS • Nationally, the prevalence of loneliness in students is on the decline (p < .001). • At Ohio State, the proportion of students categorized as lonely has significantly declined over time, with 53.2% of students categorized as lonely in 2022 and 43.2% of students categorized as lonely in 2025. • At Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive",
+      "query_qid": "Q3",
+      "pool_rank": 2
+    },
+    {
+      "rank": 2,
+      "score": 0.947449,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further",
+      "query_qid": "Q3",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.937281,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "Q4",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.933769,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)",
+      "query_qid": "Q1",
+      "pool_rank": 5
+    }
+  ]
+}

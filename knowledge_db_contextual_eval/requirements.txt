@@ -1,0 +1,4 @@
+numpy>=1.24
+pypdf>=4.0
+pyyaml>=6.0
+requests>=2.28

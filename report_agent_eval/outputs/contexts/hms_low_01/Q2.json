@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_01",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+  "retrieval_query": "protective factors flourishing academic impairment correlation with student mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:28.908350+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.905297,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial."
+    },
+    {
+      "rank": 2,
+      "score": 0.89402,
+      "chunk_id": "DOC_B001_p1_c1",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Predictors of mental health and academic outcomes in first-year university students: Identifying prevention and early-intervention targets A. Duffy, C. Keown-Stoneman, S. Goodday, J. Horrocks, M. Lowe, N. King, W. Pickett, S. H. McNevin, S. Cunningham, D. Rivera, L. Bisdounis, C. R. Bowie, K. Harkness and K. E. A. Saunders Background Although there is growing interest in mental health problems in university students there is limited understanding of the scope of need and determinants to inform intervention efforts. Aims To longitudinally examine the extent and persistence of mental health symptoms and the importance of psychosocial and life- style factors for student mental health and academic outcomes. Method Undergraduates at a Canadian university were invited to com- plete electronic surveys at entry and completion of their first year. The baseline survey measured important distal and prox- imal risk factors and the follow-up assessed mental health and well-being. Surveys were linked to academic grades. Multivariable models of risk factors and mental health and aca- demic outcomes were fit and adjusted for confounders. Results In 1530 students surveyed at entry to university 28% and 33% screened positive for clinically significant depressive and anxiety symptoms respectively, which increased to 36% and 39% at the completion of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower"
+    },
+    {
+      "rank": 3,
+      "score": 0.881196,
+      "chunk_id": "DOC_B001_p2_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever harmed yourself without the intent of ending your life ’, ‘have you had any thoughts of ending your life ’ and ‘have you made a suicide attempt.’ Owing to the bias associated with dichotomising variables and decreased power, we examined secondary mental health outcomes as total symptom scores on the PHQ-9 and GAD- 7. Functional impairment related to depressive and anxiety symp- toms was assessed by asking ‘how difficult have these symptoms made it for you to do your work, take care of things at home, or get along with others? ’ rated from 0 (not difficult at all) to 3 (extremely difficult). Respondents rating 2 or 3 were considered to have significant impairment associated with their symptoms. Academic outcomes Academic outcomes included cumulative grade point average (GPA) abstracted from the university database and well-being at university indexed by the School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between"
+    },
+    {
+      "rank": 4,
+      "score": 0.842113,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 5,
+      "score": 0.832798,
+      "chunk_id": "DOC_D003_p3_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "3 Americans are inundated with messages about success—in school, in a profession, in parenting, in relationships—without appreciating that successful performance rests on a foundation of mental health. United States Surgeon General’s Report on Mental Health, 1999 1. INTRODUCTION Among children and adolescents in the United States, mental disorders are estimated to account for a larger burden of disease, as measured in disability- adjusted life years (DALYs), than any ot her class of health conditions (Michaud et al., 2006). One of the primary concerns in younger populations is that mental health problems may affect human capital accumulation—in particular, the amount and productivity of schooling—whi ch may in turn have lifelong consequences for employment, income, and other outcomes. Understanding the link between mental health and academic success is therefore a crucial step towards assessing the returns to preventing, detecting, and trea ting mental health issues among young people. In this paper we analyze the conn ection between mental health and detailed measures of academic success during college. In the modern economy, college education has become an increa singly important component of human capital, and is associated with substantially higher earnings (Jaeger & Page, 1996; Kane & Rouse, 1995) and better health outcomes (Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have"
+    }
+  ]
+}

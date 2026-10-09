@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_17",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "What are the best practices for assessing social support and campus belonging (belong1) to provide actionable insights into mitigating risk?",
+  "retrieval_query": "assessment strategies for campus belonging and social support in mental health screening",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:43.727473+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.996504,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 2,
+      "score": 0.924426,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 3,
+      "score": 0.896521,
+      "chunk_id": "DOC_F002_p2_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of social support is instrumental support, which is the provision of tangible assis- tance such as resources and practical help [22]. This enhances the well-being of the provider and the recipient–if the provider is emotionally engaged when supporting the recipient [23]. Students often receive instrumental support from family in the form of financial resources such as tuition and allowances, and from friends who may share food, cars, and even a couch for sleeping. In academic settings, students also receive instrumental support from teachers through the clarification of concepts, correction of misconceptions, elaboration on discussed topics, and demonstrations of problem solving and skill development behaviors. This form of instrumental support can reduce anxiety and increase help-seeking behavior, intrinsic motiva- tion, and effort [22]. Another form of social support is emotional support, which is the provision of care, con- cern, and empathy [24]. This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved"
+    },
+    {
+      "rank": 4,
+      "score": 0.894707,
+      "chunk_id": "DOC_F003_p3_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 3,
+      "category_code": "F_sleep_wellbeing",
+      "text": "1050 Dutcher et al. opportunities for socialization and growth. Understand- ing the factors that lead to depression in students would help identify targets of intervention. Furthermore, using experience sampling in daily life allows for earlier detection of risk and thus could lead to earlier imple- mentation of interventions to help students thrive on campus. Social factors emerge as a possible target of interven- tion because of their relationship with a variety of men- tal health and success outcomes. However, greater work needs to be done to determine whether loneliness inter- ventions are effective or that interventions can increase social contact among young adults (Masi et al., 2011). However, there are effective interventions for belonging in this developmental context (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011), suggesting that probing the relationship between feelings of belonging and depression could yield insight for effec- tive future interventions. Importantly, belonging is not the same as feeling like one is socially connected or supported by other people. Theories on belonging note that belonging is about not just having close relation- ships but rather whether someone feels as if they belong in a certain social context (Walton & Brady, 2017). Although close relationships can be a source of belonging in a context (Shook & Clay, 2012), individu- als’ subjective feelings of belonging may not always overlap with their feelings of social connection. Because belonging appears to be a unique facet of social life, it is important to examine the unique contributions that feelings of belonging have to mental health beyond"
+    },
+    {
+      "rank": 5,
+      "score": 0.869312,
+      "chunk_id": "DOC_F002_p2_c3",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved well-being [27–29]. In college students, increases in belonging are associated with improved psychological well- being [30, 31] and reduced depressive symptoms, even after controlling for other social factors such as loneliness and frequency of social interactions [32]. Belonging does not emerge simply from being around others or having a social support network; engagement with the members of that network through communication or other interactions is also required [33]. Most social support and engagement studies focus on their links to depression and anxiety (e.g. [18]). However, mental health should not be conceptualized merely as the absence of mental illness; subjective well-being (SWB) and other positive experiences are also important (e.g., [34, 35]). SWB is a construct that encompasses life satisfaction, optimism, the absence of negative emotions, and the presence of positive emotions [36]. Increases in SWB are associated with a variety of positive outcomes, including good health, work success, more prosocial behavior, and better relationships with others [37, 38]. PLOS MENT AL HEALTH Well-being in college students PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 2 / 20 independen t consultan t to Seity. IR and MH are related to the founders of Seity Health and were reimburse"
+    }
+  ]
+}

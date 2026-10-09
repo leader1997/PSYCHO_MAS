@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_14",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:47:04.252093+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing a comprehensive framework for interpreting the model’s prediction, gathering evidence on key risk contributors, addressing protective factors, calibration, safety communication, and support planning. It aligns well with scientific knowledge bases and supports expert reporting. However, it does not cover all major XAI contributors (e.g., Flourishing, Current financial situation, Campus belonging item 1), which limits full alignment with the model’s feature importance profile. The plan appropriately adapts to a high‑risk scenario but could further tailor question priorities or depth based on probability nuances."
+}

@@ -1,0 +1,5 @@
+gap,detail
+report_eval_n,Only 2 preset cases evaluated (target 3).
+query_plans,Fewer than 3 saved query plans; re-run pipeline with RUN_PIPELINE=True.
+expert_review,No completed expert review scores (template only).
+ragas,RAGAS not run on generated reports in this evaluation pass.

@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_10",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "How do the identified protective factors (e.g., high Flourishing score, age, low loneliness) contribute to mitigating the overall predicted screening risk in this specific student profile?",
+  "retrieval_query": "clinical interpretation of strong protective factors reducing depression/anxiety screening risk",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:15.166532+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.878267,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 2,
+      "score": 0.873776,
+      "chunk_id": "DOC_B003_p2_c3",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "screening for, and assessing the severity of GAD symptoms in both clinical and research con- texts [22]. Conducted on a large primary care sample, the first validation study of GAD-7 found good reliability, as well as criterion, construct, factorial, and procedural validity. Subse- quently, the psychometric properties of GAD-7 have been evaluated in different sample of patients, including other primary care samples [23, 24], psychiatric patients [25–27], people with addiction [28], pregnant woman [29, 30], and outpatients [29–31]. GAD-7 has also shown strong psychometric properties in different populations, such as general adults [32], elderly [33, 34] as well as people from different culture and countries [35–39]. In academic set- ting, validation was performed among Korean university students [40], Portuguese college stu- dents [41] and Saudi university male students [42]. In the context of Bangladesh, GAD-7 has been widely used in various studies as a screening tool for anxiety symptoms among adults and university students [11–13]. Moreover, Faisal et al. (2021) explored the psychometric properties of the Bengali version of the GAD-7; however, the main focus of the paper was to assess the impact of the COVID-19 pandemic on anxiety, depressive symptoms and mental health status of university students [14]. Thus, a detailed assessment of factorial validity of GAD-7 focusing on Bangladeshi students has not been carried out yet. Regardless of adequate internal consistency and moderate to strong correlation with other comorbid disorders (depression, worry, etc.), findings regarding the factor structure of GAD-7 have not been consistent [43, 44]. Some studies showed a unidimensional factor structure [37, 41, 45–47]; which aligns"
+    },
+    {
+      "rank": 3,
+      "score": 0.860842,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 4,
+      "score": 0.838416,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 5,
+      "score": 0.831095,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    }
+  ]
+}

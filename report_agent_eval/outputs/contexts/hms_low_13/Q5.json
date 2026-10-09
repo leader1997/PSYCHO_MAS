@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_13",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "Given that the model is calibrated and the probability (0.0577) is significantly below the threshold (0.5), what are the inherent limitations of using this score for individual student risk assessment?",
+  "retrieval_query": "limitations of predictive screening models when far from decision threshold",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:56.154500+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.930924,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 2,
+      "score": 0.919065,
+      "chunk_id": "DOC_H004_p1_c2",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "black boxes that do not explain their predictions in a way that humans can understand. The lack of transparency and accountability of predictive models can have (and has already had) severe consequences; there have been cases of people incorrectly denied parole [ 1], poor bail decisions leading to the release of dangerous criminals, ML-based pollution models stating that highly polluted air was safe to breathe [ 2], and generally poor use of limited valuable resources in criminal justice, medicine, energy reliability, ﬁnance, and in other domains [3]. Rather than trying to create models that are inherently interpretable, there has been a recent explosion of work on “Explainable ML,” where a second (posthoc) model is created to explain the ﬁrst black box model. This is problematic. Explanations are often not reliable, and can be misleading, as we discuss below. If we instead use models that are inherently interpretable, they provide their own explanations, which are faithful to what the model actually computes. In what follows, we discuss the problems with Explainable ML, followed by the challenges in Interpretable ML. This document is mainly relevant to high-stakes decision making and troubleshooting models, which are the main two reasons one might require an interpretable or explainable model. Interpretability is a domain-speciﬁc notion [4, 5, 6, 7], so there cannot be an all-purpose deﬁnition. Usually, however, an interpretable machine learning model is constrained in model form so that it is either useful to someone, or obeys structural knowledge of the domain, such as monotonicity [e.g., 8], causality, structural (generative) constraints, additivity [9], or physical"
+    },
+    {
+      "rank": 3,
+      "score": 0.904356,
+      "chunk_id": "DOC_H003_p1_c3",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "commercial advantage and that copies bear this notice and the full citation on the ﬁrst page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission and/or a fee. Request permissions from permissions@acm.org. KDD 2016 San Francisco, CA, USA c⃝ 2016 Copyright held by the owner/author(s). Publication rights licensed to ACM. ISBN 978-1-4503-4232-2/16/08. . . $15.00 DOI: http://dx.doi.org/10.1145/2939672.2939778 how much the human understands a model’s behaviour, as opposed to seeing it as a black box. Determining trust in individual predictions is an important problem when the model is used for decision making. When using machine learning for medical diagnosis [ 6] or terrorism detection, for example, predictions cannot be acted upon on blind faith, as the consequences may be catastrophic. Apart from trusting individual predictions, there is also a need to evaluate the model as a whole before deploying it “in the wild”. To make this decision, users need to be conﬁdent that the model will perform well on real-world data, according to the metrics of interest. Currently, models are evaluated using accuracy metrics on an available validation dataset. However, real-world data is often signiﬁcantly diﬀerent, and further, the evaluation metric may not be indicative of the product’s goal. Inspecting individual predictions and their explanations is a worthwhile solution, in addition to such metrics. In this case, it is important to aid users by suggesting which instances to inspect, especially for large"
+    },
+    {
+      "rank": 4,
+      "score": 0.887687,
+      "chunk_id": "DOC_H004_p2_c2",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "the title, as the recent papers do). Recent work on explainability of black boxes – rather than interpretability of models – contains and perpetuates critical misconceptions that have generally gone unnoticed, but that can have a lasting negative impact on the widespread use of machine learning models in society. Let us spend some time discussing this before discussing possible solutions. (i) It is a myth that there is necessarily a trade-off between accuracy and interpretability. There is a widespread belief that more complex models are more accurate, meaning that a complicated black box is necessary for top predictive performance. However, this is often not true, particularly when the data are structured, with a good representation in terms of naturally meaningful features. When considering problems that have structured data with meaningful features, there is often no signiﬁcant difference in performance between more complex classiﬁers (deep neural networks, boosted decision trees, random forests) and much simpler classiﬁers (logistic regression, decision lists) after preprocessing. (Appendix B discusses this further.) In data science problems, where structured data with meaningful features are constructed as part of the data science process, there tends to be little difference between algorithms, assuming that the data scientist follows a standard process for knowledge discovery [such as KDD, CRISP-DM, or BigData, see 15, 16, 17]. Even for applications such as computer vision, where deep learning has major performance gains, and where interpretability is much more difﬁcult to deﬁne, some forms of interpretability can be imbued directly into the models without losing accuracy. This will be discussed more later in the"
+    },
+    {
+      "rank": 5,
+      "score": 0.817606,
+      "chunk_id": "DOC_H004_p3_c1",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 3,
+      "category_code": "H_xai_calibration",
+      "text": "Figure 1: A ﬁctional depiction of the “accuracy-interpretability trade-off,” taken from the DARPA XAI (Explain- able Artiﬁcial Intelligence) Broad Agency Announcement [18]. not worse. Efforts working within a knowledge discovery process led me to work in interpretable machine learning [20]. Speciﬁcally, I participated in a large-scale effort to predict electrical grid failures across New York City. The data were messy, including free text documents (trouble tickets), accounting data about electrical cables from as far back as the 1890’s, inspections data from a brand new manhole inspections program; even the structured data were not easily integrated into a database, and there were confounding issues and other problems. Algorithms on a static dataset were at most 1% different in performance, but the ability to interpret and reprocess the data led to signiﬁcant improvements in performance, including correcting problems with the dataset, and revealing false assumptions about the data generation process. The most accurate predictors we found were sparse models with meaningful features that were constructed through the iterative process. The belief that there is always a trade-off between accuracy and interpretability has led many researchers to forgo the attempt to produce an interpretable model. This problem is compounded by the fact that researchers are now trained in deep learning, but not in interpretable machine learning. Worse, toolkits of machine learning algorithms offer little in the way of useful interfaces for interpretable machine learning methods. To our knowledge, all recent review and commentary articles on this topic imply (implicitly or explicitly) that the trade-off between interpretability and accuracy generally occurs. It could be"
+    }
+  ]
+}

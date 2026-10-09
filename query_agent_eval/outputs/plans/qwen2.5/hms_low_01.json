@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_01",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:00:32.384419+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_01",
+    "risk_interpretation": {
+      "probability": 0.05,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How does the model's prediction probability of 0.05 compare to the decision threshold of 0.5, and what does this imply for the student's screening risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of model prediction probabilities in relation to decision thresholds",
+        "expected_evidence": [
+          "model prediction interpretation",
+          "decision threshold significance"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the context and implications of the low probability relative to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does the institution size (inst_size) feature, which contributed 0.0001 to the model's prediction, influence the student's screening risk?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "impact of institutional size on depression/anxiety screening risk",
+        "expected_evidence": [
+          "institutional size and its impact",
+          "model feature contribution interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the specific influence of this minor contributor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the flourishing (flourish) feature, which contributed -0.4198 to the model's prediction and is at a high level, affect the student's screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "impact of flourishing on depression/anxiety screening risk",
+        "expected_evidence": [
+          "flourishing and its impact",
+          "model feature contribution interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "Highlight the protective factor's influence."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model calibration and uncertainty in predictions",
+        "expected_evidence": [
+          "calibration status",
+          "near-threshold effects"
+        ],
+        "priority": "low",
+        "rationale": "Address any concerns about the model's reliability."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How can we ensure that this low-risk screening result is communicated in a way that neither reassures nor misleads the student or their support network?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating low-risk screening results",
+        "expected_evidence": [
+          "communication strategies",
+          "risk management"
+        ],
+        "priority": "high",
+        "rationale": "Provide guidance on non-diagnostic communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": false,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.05,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How does the model's prediction probability of 0.05 compare to the decision threshold of 0.5, and what does this imply for the student's screening risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of model prediction probabilities in relation to decision thresholds\",\n      \"expected_evidence\": [\"model prediction interpretation\", \"decision threshold significance\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the context and implications of the low probability relative to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does the institution size (inst_size) feature, which contributed 0.0001 to the model's prediction, influence the student's screening risk?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"impact of institutional size on depression/anxiety screening risk\",\n      \"expected_evidence\": [\"institutional size and its impact\", \"model feature contribution interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the specific influence of this minor contributor.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the flourishing (flourish) feature, which contributed -0.4198 to the model's prediction and is at a high level, affect the student's screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"impact of flourishing on depression/anxiety screening risk\",\n      \"expected_evidence\": [\"flourishing and its impact\", \"model feature contribution interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Highlight the protective factor's influence.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model calibration and uncertainty in predictions\",\n      \"expected_evidence\": [\"calibration status\", \"near-threshold effects\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Address any concerns about the model's reliability.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we ensure that this low-risk screening result is communicated in a way that neither reassures nor misleads the student or their support network?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating low-risk screening results\",\n      \"expected_evidence\": [\"communication strategies\", \"risk management\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Provide guidance on non-diagnostic communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": false,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_17",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "What specific details about Academic Impairment (aca_impa) are necessary to understand its negative contribution, ensuring it is interpreted as a sign of stability rather than neglect?",
+  "retrieval_query": "clinical interpretation of academic impairment status as a protective factor in mental health screening",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:41.587759+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.92659,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 2,
+      "score": 0.875158,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial."
+    },
+    {
+      "rank": 3,
+      "score": 0.856959,
+      "chunk_id": "DOC_D003_p3_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "(Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have considered a range of factors—such as financial aid (Dynarski, 1999) and academic and social involvement (Tinto, 1998)—that affect re maining in and completing college. Another important factor may be mental health. Mental disorders frequently have firs t onset shortly befo re or during the typical college age range (18-24) (Kessler et al., 2005), yet relatively little is known about the link between mental heal th and academic success in college. Understanding this connection could be va luable due to the many ways in which college settings can reach young people; co llege represents the only time in many people’s lives when a single setting enco mpasses their main activities, social networks, and a range of supportive services and organizations. We examine how symptoms of me ntal disorders predict academic outcomes during college using unique data collected at a large, academically"
+    },
+    {
+      "rank": 4,
+      "score": 0.844429,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 5,
+      "score": 0.812673,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    }
+  ]
+}

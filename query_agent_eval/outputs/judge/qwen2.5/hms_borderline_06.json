@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_06",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:51:23.765837+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing strong support for an expert-facing report. It covers key XAI contributors (loneliness and flourishing) and protective factors, but omits evidence on other major contributors such as positive mental health, campus belonging, and age, which slightly reduces the xai_alignment score. All questions are answerable via scientific literature, adapt well to the borderline risk probability, and maintain safety by avoiding diagnostic or treatment language."
+}

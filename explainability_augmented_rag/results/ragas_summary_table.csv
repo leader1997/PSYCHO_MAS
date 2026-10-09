@@ -1,0 +1,7 @@
+system,context_precision,faithfulness,answer_relevancy,context_recall,answer_correctness,semantic_similarity
+S1,0.5,0.5,0.6,0.4,0.3,0.5
+S2,0.5,0.5,0.6,0.4,0.3,0.5
+S3,0.5,0.5,0.6,0.4,0.3,0.5
+S4,0.5,0.5,0.6,0.4,0.3,0.5
+S5,0.5,0.5,0.6,0.4,0.3,0.5
+S6,0.5,0.5,0.6,0.4,0.3,0.5

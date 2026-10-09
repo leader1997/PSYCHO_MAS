@@ -1,0 +1,13 @@
+Area,Metric,Value
+1. Prediction,Best AUC (XGBoost),0.853
+1. Prediction,Operational AUC (CatBoost),0.852
+1. Prediction,PR-AUC (XGBoost),0.823
+1. Prediction,Bootstrap AUC 95% CI (XGBoost),0.853 [0.844–0.862]
+1. Prediction,ECE (XGBoost),0.033
+2. XAI,Top aggregated feature,aca_impa (0.300)
+2. XAI,Cross-model agreement (aca_impa),1.00
+2. XAI,Stability (Random Forest),0.972
+2. XAI,Faithfulness drop (DCNv2),0.206
+3. Query agent,Best judge (gemma4),99.1%
+4. Retrieval,Best contextual Recall@5,0.825 (Ollama+hybrid)
+5. Report quality,Safety / schema pass,100% / 100%

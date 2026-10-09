@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_borderline_10",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.98298,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few",
+      "query_qid": "Q6",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.96843,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial.",
+      "query_qid": "Q4",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.959598,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "Q1",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.942548,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?",
+      "query_qid": "Q5",
+      "pool_rank": 4
+    },
+    {
+      "rank": 2,
+      "score": 0.940207,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,",
+      "query_qid": "Q4",
+      "pool_rank": 5
+    }
+  ]
+}

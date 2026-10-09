@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_09",
+  "stratum": "low",
+  "qid": "Q1",
+  "question": "Given the low prediction probability (0.0565) relative to the decision threshold (0.5), what is the clinical interpretation of this substantial margin, and how should the expert communicate that the model's confidence in a low screening risk state is high?",
+  "retrieval_query": "clinical interpretation of low prediction probability vs threshold",
+  "question_type": "risk_interpretation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:00.087357+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.924842,
+      "chunk_id": "DOC_H002_p1_c3",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "detection network is not able to conﬁdently predict the presence or absence of immediate obstructions, the car should rely more on the output of other sensors for braking. Alternatively, in automated health care, control should be passed on to human doctors when the conﬁdence of a dis- ease diagnosis network is low (Jiang et al., 2012). Specif- ically, a network should provide a calibrated conﬁdence measure in addition to its prediction. In other words, the probability associated with the predicted class label should reﬂect its ground truth correctness likelihood. Calibrated conﬁdence estimates are also important for model interpretability. Humans have a natural cognitive in- tuition for probabilities (Cosmides & Tooby, 1996). Good conﬁdence estimates provide a valuable extra bit of infor- mation to establish trustworthiness with the user – espe- cially for neural networks, whose classiﬁcation decisions are often difﬁcult to interpret. Further, good probability estimates can be used to incorporate neural networks into other probabilistic models. For example, one can improve performance by combining network outputs with a lan- arXiv:1706.04599v2 [cs.LG] 3 Aug 2017"
+    },
+    {
+      "rank": 2,
+      "score": 0.844623,
+      "chunk_id": "DOC_H003_p2_c1",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "sneeze weight headache no fatigue age Flu sneeze headache Model Data and Prediction Explainer (LIME) Explanation Explainer (LIME) Human makes decision Explanation no fatigue sneeze headache active Human makes decision Figure 1: Explaining individual predictions. A model predicts that a patient has the ﬂu, and LIME highlights the symptoms in the patient’s history that led to the prediction. Sneeze and headache are portrayed as contributing to the “ﬂu” prediction, while “no fatigue” is evidence against it. With these, a doctor can make an informed decision about whether to trust the model’s prediction. getting humans to trust and use machine learning eﬀectively, if the explanations are faithful and intelligible. The process of explaining individual predictions is illus- trated in Figure 1. It is clear that a doctor is much better positioned to make a decision with the help of a model if intelligible explanations are provided. In this case, an ex- planation is a small list of symptoms with relative weights – symptoms that either contribute to the prediction (in green) or are evidence against it (in red). Humans usually have prior knowledge about the application domain, which they can use to accept (trust) or reject a prediction if they understand the reasoning behind it. It has been observed, for example, that providing explanations can increase the acceptance of movie recommendations [12] and other automated systems [8]. Every machine learning application also requires a certain measure of overall trust in the model. Development and evaluation of a classiﬁcation model often consists of collect- ing annotated data, of which a held-out subset"
+    },
+    {
+      "rank": 3,
+      "score": 0.82325,
+      "chunk_id": "DOC_H002_p2_c3",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "ˆY, ˆP ), where ˆY is a class prediction and ˆP is its associ- ated conﬁdence, i.e. probability of correctness. We would like the conﬁdence estimate ˆP to be calibrated, which in- tuitively means that ˆP represents a true probability. For example, given 100 predictions, each with conﬁdence of 0.8, we expect that 80 should be correctly classiﬁed. More formally, we deﬁne perfect calibration as P ( ˆY =Y | ˆP =p ) =p, ∀p∈ [0, 1] (1) where the probability is over the joint distribution. In all practical settings, achieving perfect calibration is impos- sible. Additionally, the probability in (1) cannot be com- puted using ﬁnitely many samples since ˆP is a continuous random variable. This motivates the need for empirical ap- proximations that capture the essence of (1). Reliability Diagrams (e.g. Figure 1 bottom) are a visual representation of model calibration (DeGroot & Fienberg, 1983; Niculescu-Mizil & Caruana, 2005). These diagrams plot expected sample accuracy as a function of conﬁdence. If the model is perfectly calibrated – i.e. if (1) holds – then the diagram should plot the identity function. Any devia- tion from a perfect diagonal represents miscalibration. To estimate the expected accuracy from ﬁnite samples, we group predictions intoM interval bins (each of size 1/M) and calculate the accuracy of each bin. Let Bm be the set of indices of samples whose prediction conﬁdence falls into the intervalIm = (m−1 M , m M ]. The accuracy ofBm is acc(Bm) = 1 |Bm| ∑ i∈Bm 1(ˆyi =yi), where ˆyi andyi are the predicted and true class"
+    },
+    {
+      "rank": 4,
+      "score": 0.797786,
+      "chunk_id": "DOC_H001_p1_c2",
+      "doc_id": "DOC_H001",
+      "title": "From local explanations to global understanding with explainable AI trees",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "set of tools for understanding global model structure based on combining many local explanations of each prediction. We apply these tools to three medical machine learning problems and show how combining many high-quality local explanations allows us to represent global structure while retaining local faithfulness to the original model. These tools enable us to i) identify high magnitude but low frequency non-linear mortality risk factors in the general US population, ii) highlight distinct population sub-groups with shared risk characteristics, iii) identify non-linear interaction eﬀects among risk factors for chronic kidney disease, and iv) monitor a machine learning model deployed in a hospital by identifying which features are degrading the model’s performance over time. Given the popularity of tree-based machine learning models, these improvements to their interpretability have implications across a broad set of domains. 1 Introduction Machine learning models based on trees are the most popular non-linear models in use today [29, 20]. Random forests, gradient boosted trees, and other tree-based models are used in ﬁnance, medicine, biology, customer retention, advertising, supply chain management, manufacturing, public health, and many other areas to make predictions based on sets of input features (Figure 1A left). In these applications it is often important to have models that are both accurate and interpretable, where being interpretable means that we can understand how the model uses the input features to make predictions [41]. Yet while there is a rich history ofglobal interpretation methods for trees that summarize the impact of input features on the model as a whole, much less attention has been paid tolocal"
+    },
+    {
+      "rank": 5,
+      "score": 0.768441,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)"
+    }
+  ]
+}

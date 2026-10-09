@@ -1,0 +1,38 @@
+project:
+  name: knowledge_db_contextual_eval
+
+paths:
+  knowledge_db_root: "../knowledge_db"
+  metadata_jsonl: "../knowledge_db/metadata/selected_documents.jsonl"
+  search_queries: "../knowledge_db/logs/search_queries_used.txt"
+  # Reuse embeddings/chunks from the original notebook run when present
+  legacy_cache_dir: "../knowledge_db/logs/contextual_eval_cache"
+  cache_dir: "cache"
+  outputs_dir: "outputs"
+  charts_dir: "outputs/charts"
+
+ollama:
+  base_url: "http://localhost:11434"
+  embed_model: nomic-embed-text
+  context_model: qwen2.5:latest
+  request_timeout_seconds: 300
+  embed_retries: 3
+
+corpus:
+  max_pages_per_doc: 8
+  max_chunks_per_doc: 8
+  words_per_chunk: 260
+  chunk_overlap: 60
+  min_chunk_chars: 250
+  max_embed_chars: 6000
+
+eval:
+  top_k: 8
+  dense_weight: 0.70
+  conditions:
+    - plain
+    - metadata_context
+    - ollama_context
+  modes:
+    - dense
+    - hybrid

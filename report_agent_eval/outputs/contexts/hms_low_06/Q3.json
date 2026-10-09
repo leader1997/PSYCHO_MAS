@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_06",
+  "stratum": "low",
+  "qid": "Q3",
+  "question": "What is the clinical interpretation of 'Exercise frequency' contributing positively to the model's prediction, and what evidence supports this feature's role in screening models?",
+  "retrieval_query": "relationship between exercise frequency and depression/anxiety screening risk contribution",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:27.757201+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 2,
+      "score": 0.925197,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 3,
+      "score": 0.90978,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,"
+    },
+    {
+      "rank": 4,
+      "score": 0.871949,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 5,
+      "score": 0.855974,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    }
+  ]
+}

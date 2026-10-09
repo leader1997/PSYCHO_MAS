@@ -1,0 +1,7 @@
+setting,experiment_description,n_features,auc,pr_auc,f1,brier,top5_features
+E1_full,Full model (all 25 features),25,0.853226077922971,0.8230696527969651,0.7527839643652561,0.1560963412518203,"aca_impa, lonely, flourish, fincur, age"
+E2_no_aca_impa,Remove aca_impa (circularity test),24,0.8173419379135719,0.7882525243877762,0.7134199134199134,0.17423874347127696,"lonely, flourish, fincur, sub_any, sleep_wknight"
+E3_no_proximal,Remove outcome-proximal MH variables,22,0.7851835265802494,0.7432309728704479,0.6989010989010989,0.18851948641705485,"lonely, fincur, age, belong1, sub_any"
+E4_social_financial_sleep,"Social, financial, sleep, lifestyle only",9,0.77601011500197,0.7245308716579291,0.6928499496475328,0.19248472286807802,"lonely, fincur, belong1, sleep_wknight, belong2"
+E5_no_demographics,Remove demographics,21,0.8482652145171508,0.8166976737601448,0.7473285074112375,0.15849864341856543,"aca_impa, lonely, flourish, fincur, sleep_wknight"
+E6_no_institution,Remove institution variables,22,0.8614878493698865,0.8369672671818187,0.7589270459593371,0.15169649920780548,"aca_impa, flourish, lonely, fincur, age"

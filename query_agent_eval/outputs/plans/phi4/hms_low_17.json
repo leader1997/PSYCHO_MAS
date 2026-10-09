@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_17",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T10:03:41.378923+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_17",
+    "risk_interpretation": {
+      "probability": 0.0586,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.0586 in relation to the decision threshold of 0.5 for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of low prediction probability below decision threshold",
+        "expected_evidence": [
+          "interpretation of low-risk probabilities",
+          "decision-making based on thresholds"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the risk level and its implications is crucial for contextualizing the model's output."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does binge drinking (binge1pl) contribute to elevated depression/anxiety screening risk, and what evidence supports this?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "impact of binge drinking on mental health risks",
+        "expected_evidence": [
+          "research on binge drinking and mental health",
+          "statistical data linking binge drinking to depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "Binge drinking is a major contributor, necessitating evidence-based understanding."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does campus belonging (belong1) play in influencing elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "effects of campus belonging on mental health",
+        "expected_evidence": [
+          "studies on social belonging and mental health outcomes",
+          "data on student engagement and well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Campus belonging is a significant factor, requiring contextual evidence."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does flourishing (flourish) act as a protective factor against elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "role of flourishing in mental health protection",
+        "expected_evidence": [
+          "research on flourishing and its impact on reducing mental health risks",
+          "evidence of positive psychological states as protective factors"
+        ],
+        "priority": "high",
+        "rationale": "Flourishing is a high-level protective contributor, warranting detailed exploration."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic screening results",
+        "expected_evidence": [
+          "guidelines on interpreting non-diagnostic mental health screenings",
+          "communication strategies for low-risk outcomes"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear communication about the tool's limitations is essential."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_17\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0586,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.0586 in relation to the decision threshold of 0.5 for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of low prediction probability below decision threshold\",\n      \"expected_evidence\": [\n        \"interpretation of low-risk probabilities\",\n        \"decision-making based on thresholds\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the risk level and its implications is crucial for contextualizing the model's output.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does binge drinking (binge1pl) contribute to elevated depression/anxiety screening risk, and what evidence supports this?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"impact of binge drinking on mental health risks\",\n      \"expected_evidence\": [\n        \"research on binge drinking and mental health\",\n        \"statistical data linking binge drinking to depression/anxiety\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Binge drinking is a major contributor, necessitating evidence-based understanding.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does campus belonging (belong1) play in influencing elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"effects of campus belonging on mental health\",\n      \"expected_evidence\": [\n        \"studies on social belonging and mental health outcomes\",\n        \"data on student engagement and well-being\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Campus belonging is a significant factor, requiring contextual evidence.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does flourishing (flourish) act as a protective factor against elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"role of flourishing in mental health protection\",\n      \"expected_evidence\": [\n        \"research on flourishing and its impact on reducing mental health risks\",\n        \"evidence of positive psychological states as protective factors\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Flourishing is a high-level protective contributor, warranting detailed exploration.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic screening results\",\n      \"expected_evidence\": [\n        \"guidelines on interpreting non-diagnostic mental health screenings\",\n        \"communication strategies for low-risk outcomes\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear communication about the tool's limitations is essential.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_high_11",
+  "model": "llama3",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:08:43.516356+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_11",
+    "risk_interpretation": {
+      "probability": 0.967,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the elevated screening risk indicating about this student's mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert review with a clear understanding of the elevated risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How did 'Academic impairment' contribute to the model's prediction of this student's mental health?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert review with a clear understanding of the XAI contributors."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How did 'Flourishing' contribute to the model's prediction of this student's mental health?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert review with a clear understanding of the XAI contributors."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factor, such as 'Weeknight sleep', contributed negatively to the model's prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert review with a clear understanding of the protective factors."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations or uncertainties in this model's prediction, and how might they impact our understanding of this student's mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "low",
+        "rationale": "To provide expert review with a clear understanding of the model's limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate this elevated screening risk to the student in a way that is both accurate and non-diagnostic?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert review with a clear understanding of how to communicate the risk."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_high_11\",\n  \"risk_interpretation\": {\n    \"probability\": 0.967,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the elevated screening risk indicating about this student's mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert review with a clear understanding of the elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How did 'Academic impairment' contribute to the model's prediction of this student's mental health?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert review with a clear understanding of the XAI contributors.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How did 'Flourishing' contribute to the model's prediction of this student's mental health?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert review with a clear understanding of the XAI contributors.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factor, such as 'Weeknight sleep', contributed negatively to the model's prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert review with a clear understanding of the protective factors.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations or uncertainties in this model's prediction, and how might they impact our understanding of this student's mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide expert review with a clear understanding of the model's limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate this elevated screening risk to the student in a way that is both accurate and non-diagnostic?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert review with a clear understanding of how to communicate the risk.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: The question plan includes 6 questions that cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, safety communication, and expert support considerations."
+}

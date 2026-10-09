@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_06",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:10:09.025558+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_06",
+    "risk_interpretation": {
+      "probability": 0.0535,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 5.35% in relation to the decision threshold of 50% for elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of model prediction probabilities relative to decision thresholds",
+        "expected_evidence": [
+          "model interpretation",
+          "decision threshold significance"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the context and implications of the low probability."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support or refute the contribution of 'Exercise frequency' (exerc) to the model's prediction, given its positive impact on risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "evidence for exercise and mental health",
+        "expected_evidence": [
+          "studies linking exercise with reduced depression/anxiety",
+          "impact of exercise frequency on mental well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the reliability of this feature's contribution."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the 'Academic impairment' (aca_impa) factor, with a significant negative impact on risk prediction, influence our understanding of the student's mental health status?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "impact of academic performance on mental health",
+        "expected_evidence": [
+          "studies linking academic performance and mental well-being",
+          "academic impairment as a protective factor"
+        ],
+        "priority": "medium",
+        "rationale": "Evaluate the strength of this protective factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the potential limitations or uncertainties in the model's prediction, particularly given its calibrated status and near-threshold probability?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model calibration and uncertainty",
+        "expected_evidence": [
+          "calibration methods",
+          "uncertainty measures in machine learning models"
+        ],
+        "priority": "low",
+        "rationale": "Address any potential model limitations."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the low risk of elevated screening to the student and their support network, ensuring it does not lead to false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communicating mental health risks without causing distress",
+        "expected_evidence": [
+          "best practices in communicating mental health risks",
+          "strategies for avoiding false reassurance"
+        ],
+        "priority": "high",
+        "rationale": "Ensure appropriate and effective communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_06\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0535,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 5.35% in relation to the decision threshold of 50% for elevated screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of model prediction probabilities relative to decision thresholds\",\n      \"expected_evidence\": [\"model interpretation\", \"decision threshold significance\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the context and implications of the low probability.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support or refute the contribution of 'Exercise frequency' (exerc) to the model's prediction, given its positive impact on risk?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"evidence for exercise and mental health\",\n      \"expected_evidence\": [\"studies linking exercise with reduced depression/anxiety\", \"impact of exercise frequency on mental well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the reliability of this feature's contribution.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the 'Academic impairment' (aca_impa) factor, with a significant negative impact on risk prediction, influence our understanding of the student's mental health status?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"impact of academic performance on mental health\",\n      \"expected_evidence\": [\"studies linking academic performance and mental well-being\", \"academic impairment as a protective factor\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Evaluate the strength of this protective factor.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the potential limitations or uncertainties in the model's prediction, particularly given its calibrated status and near-threshold probability?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model calibration and uncertainty\",\n      \"expected_evidence\": [\"calibration methods\", \"uncertainty measures in machine learning models\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Address any potential model limitations.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the low risk of elevated screening to the student and their support network, ensuring it does not lead to false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communicating mental health risks without causing distress\",\n      \"expected_evidence\": [\"best practices in communicating mental health risks\", \"strategies for avoiding false reassurance\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure appropriate and effective communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

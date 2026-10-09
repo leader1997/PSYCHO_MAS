@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_19",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What are the clinical guidelines and best practices for interpreting an 'elevated screening risk' score (e.g., >0.9) in a non-diagnostic context, specifically regarding immediate follow-up steps?",
+      "question_type": "risk_interpretation",
+      "stratum": "high",
+      "answer": "An elevated screening score (e.g., >0.9) should be treated as a positive screen for depression or other mental‑health concerns rather than a diagnosis. The next step is to administer a more comprehensive instrument—such as the PHQ‑9—to confirm symptom severity and identify specific depressive symptoms. If the individual reports suicidal or homicidal ideation, or if the score suggests imminent risk, an immediate safety assessment should be conducted and a safety plan developed; referral to counseling or crisis services must occur promptly. In school settings, this aligns with guidelines that require timely referrals for students who endorse self‑harm thoughts or other high‑risk behaviors. Finally, document the screening result, follow‑up actions, and any referrals made, ensuring continuity of care while respecting the non‑diagnostic nature of the initial screen.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:34:31.431893+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the evidence base linking academic impairment (aca_impa) as a feature contributing to elevated depression/anxiety screening risk, and what are appropriate psychoeducational resources for this specific area?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Evidence from school‑based screening literature shows that poor academic progress is routinely used as an indicator of elevated mental‑health risk, with students who report “poor academic progress” often flagged for further assessment of depression or anxiety (Context 1). This practice reflects a recognized association between academic impairment and psychological distress, supported by findings that students with lower well‑being also experience poorer academic outcomes (Context 5). The evidence base therefore treats academic impairment as a statistical contributor to risk rather than a causal factor. No specific psychoeducational resources for addressing academic impairment in the context of depression or anxiety are provided in the retrieved passages; additional resources would need to be sourced from other literature or practice guidelines.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:35:43.742295+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What are evidence-based interventions and psychoeducational strategies for mitigating the risk associated with reported loneliness in college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Screening data can identify classrooms or student subgroups that report low perceived social support, enabling targeted classroom‑level interventions that address group dynamics and foster supportive peer interactions (Context 1). Evidence linking higher perceived social support to lower depressive symptoms suggests that programs which build social networks—such as structured peer‑mentoring or collaborative activities—are likely to mitigate loneliness risk (Context 2). Psychoeducational strategies that routinely ask students about well‑being reduce stigma, empower self‑esteem, and provide actionable information for both students and staff, supporting early identification of isolation (Context 1). Integrating brief depression screening tools like the PHQ‑2/PHQ‑9 into campus health services allows timely referral to counseling when loneliness is associated with depressive symptoms, ensuring that support remains accessible and sustainable (Context 4). If a student’s reported loneliness co‑occurs with significant depressive symptoms or other risk indicators, referral to qualified mental‑health professionals should be made promptly.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:37:03.191955+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "How does campus belonging (belong2) function as a protective factor against elevated screening risk, and what institutional supports can be leveraged to enhance this sense of connection?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Campus belonging functions as a protective factor by enhancing subjective well‑being and reducing depressive symptoms even when controlling for loneliness or general social interaction (Context 5). Emotional support fosters belonging, which in turn improves overall well‑being; lack of belonging is linked to greater negative affect and poorer self‑reported mental health (Contexts 1–3). Because belonging also predicts better academic outcomes and persistence, it buffers students against the stressors that elevate screening risk (Context 3). Institutions can strengthen this sense of connection by mandating participation in curricular or co‑curricular activities explicitly designed to promote belonging and well‑being, monitoring student well‑being regularly, and providing safe spaces for emotional expression (Contexts 1–2). Proven interventions—such as those described by Brady et al., Murphy et al., and Walton & Cohen—offer structured programs that can be integrated into campus life to cultivate belonging and mitigate mental‑health risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:38:05.860568+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of using ML screening tools (like CatBoost) for individual mental health risk assessment, particularly regarding feature interaction and non-captured variables?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine‑learning models such as CatBoost can only learn relationships that are present in the input data; if interactions between well‑being indicators (e.g., life satisfaction, school belonging) and social determinants of mental health are not explicitly encoded or captured, the model will miss their joint predictive effect.  Screening instruments described in the evidence routinely ask about positive mental health, adverse early life experiences, and other contextual factors that may be omitted from a typical ML feature set, leaving those protective or risk‑enhancing variables unrepresented.  Because many students mask depressive symptoms or present with somatic complaints (as noted for complaint‑based screening), self‑report data fed into an ML model can under‑detect depression unless the model is trained on a broader range of symptom expressions.  Consequently, individual risk scores may be biased toward the features that are measured and fail to reflect unmeasured variables such as family support or cultural attitudes toward mental health.  When high‑risk predictions arise, schools should still follow established protocols for immediate assessment and referral to qualified mental‑health services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:39:16.318288+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or their guardian, ensuring safety without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "The screening results indicate that your child may be experiencing challenges related to mental health, but this is not a diagnosis—just an indication that further assessment could be helpful. We recommend scheduling a brief follow‑up with our school counselor or another trusted professional to explore these concerns in more detail. If the screening suggests any risk of harm to self or others, we will respond immediately and arrange for urgent support as outlined in our safety protocol. In all cases, we aim to connect families and students with appropriate services promptly while maintaining a supportive, non‑alarmist tone.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:40:41.560777+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What are the recommended multi-disciplinary referral pathways (e.g., counseling, academic advising, financial aid) for a student presenting with high screening risk due to combined factors like academic impairment and loneliness?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "When a student screens high for both academic impairment and loneliness, the school’s multi‑tiered system of supports (MTSS) recommends moving them to Tier 2 interventions. Tier 2 typically includes a referral to the school counselor or mental‑health specialist for individual or group counseling that targets coping skills and social connection—an approach supported by the screening protocol’s emphasis on timely referrals to “school and community mental health services” (Context 1, 2). Concurrently, the student should be connected with academic support services such as tutoring, study‑skills workshops, or an individualized education plan review; MTSS guidance notes that screening data help prioritize which students need more individualized academic assistance versus classroom‑wide supports (Context 5). If the screening reveals broader systemic barriers—such as financial strain—the guidance office can forward the case to the financial aid office for assistance, ensuring a coordinated, multi‑disciplinary response. All referrals should be documented and followed up promptly to provide timely support.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:42:32.385501+00:00"
+    }
+  }
+}

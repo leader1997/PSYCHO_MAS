@@ -1,0 +1,105 @@
+{
+  "case_id": "hms_low_13",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:53:19.503094+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_13",
+    "risk_interpretation": {
+      "probability": 0.0577,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a 5.77% probability for elevated depression/anxiety screening risk according to the CatBoost model?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of 5.77% probability for elevated depression/anxiety screening risk in CatBoost model",
+        "expected_evidence": [
+          "interpretation of the given probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the overall risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'weeknight sleep' to the model prediction?",
+        "linked_xai_factor": "'sleep_wknight'",
+        "retrieval_query": "Evidence for the contribution of 'sleep_wknight' in depression/anxiety screening risk prediction",
+        "expected_evidence": [
+          "evidence supporting the contribution of weeknight sleep"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributing factor"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'weekend sleep' to the model prediction?",
+        "linked_xai_factor": "'sleep_wkend'",
+        "retrieval_query": "Evidence for the contribution of 'sleep_wkend' in depression/anxiety screening risk prediction",
+        "expected_evidence": [
+          "evidence supporting the contribution of weekend sleep"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a contributing factor"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'exercise frequency' to the model prediction?",
+        "linked_xai_factor": "'exerc'",
+        "retrieval_query": "Evidence for the contribution of 'exerc' in depression/anxiety screening risk prediction",
+        "expected_evidence": [
+          "evidence supporting the contribution of exercise frequency"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of 'academic impairment' in this case?",
+        "linked_xai_factor": "'aca_impa'",
+        "retrieval_query": "Evidence for the protective effect of 'aca_impa' in depression/anxiety screening risk prediction",
+        "expected_evidence": [
+          "evidence supporting the protective effect of academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a protective factor"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What safety measures should be considered when communicating these findings to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures for communication of depression/anxiety screening risk findings",
+        "expected_evidence": [
+          "safety measures for communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_13\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0577,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a 5.77% probability for elevated depression/anxiety screening risk according to the CatBoost model?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of 5.77% probability for elevated depression/anxiety screening risk in CatBoost model\",\n         \"expected_evidence\": [\"interpretation of the given probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the overall risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'weeknight sleep' to the model prediction?\",\n         \"linked_xai_factor\": \"'sleep_wknight'\",\n         \"retrieval_query\": \"Evidence for the contribution of 'sleep_wknight' in depression/anxiety screening risk prediction\",\n         \"expected_evidence\": [\"evidence supporting the contribution of weeknight sleep\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributing factor\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'weekend sleep' to the model prediction?\",\n         \"linked_xai_factor\": \"'sleep_wkend'\",\n         \"retrieval_query\": \"Evidence for the contribution of 'sleep_wkend' in depression/anxiety screening risk prediction\",\n         \"expected_evidence\": [\"evidence supporting the contribution of weekend sleep\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a contributing factor\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'exercise frequency' to the model prediction?\",\n         \"linked_xai_factor\": \"'exerc'\",\n         \"retrieval_query\": \"Evidence for the contribution of 'exerc' in depression/anxiety screening risk prediction\",\n         \"expected_evidence\": [\"evidence supporting the contribution of exercise frequency\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of 'academic impairment' in this case?\",\n         \"linked_xai_factor\": \"'aca_impa'\",\n         \"retrieval_query\": \"Evidence for the protective effect of 'aca_impa' in depression/anxiety screening risk prediction\",\n         \"expected_evidence\": [\"evidence supporting the protective effect of academic impairment\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a protective factor\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures should be considered when communicating these findings to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures for communication of depression/anxiety screening risk findings\",\n         \"expected_evidence\": [\"safety measures for communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

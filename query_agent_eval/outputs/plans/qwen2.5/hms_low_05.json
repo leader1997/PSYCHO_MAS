@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_05",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:08:24.026902+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_05",
+    "risk_interpretation": {
+      "probability": 0.0531,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How does the model's prediction probability of 0.0531 compare to the decision threshold of 0.5, and what does this imply about the student's risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of model prediction probabilities relative to decision thresholds",
+        "expected_evidence": [
+          "model prediction interpretation",
+          "decision threshold significance"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the risk level based on the probability and threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do the protective factors (academic impairment, flourishing, loneliness, financial situation, age) contribute to reducing the student's screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "impact of protective factors on depression/anxiety screening risk",
+        "expected_evidence": [
+          "protective factor effects",
+          "negative contribution interpretation"
+        ],
+        "priority": "high",
+        "rationale": "Highlight the role of protective factors in mitigating risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "safety_communication",
+        "question": "What are the key safety considerations for this student, and how can they be communicated to ensure non-diagnostic language is used?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies in mental health screening",
+        "expected_evidence": [
+          "safety communication guidelines",
+          "non-diagnostic language examples"
+        ],
+        "priority": "high",
+        "rationale": "Ensure the communication is supportive and non-intrusive."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated, what are the potential limitations or uncertainties in the prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model calibration and its implications on predictions",
+        "expected_evidence": [
+          "calibration status",
+          "uncertainty in model predictions"
+        ],
+        "priority": "medium",
+        "rationale": "Address any uncertainties or limitations in the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account for this student, given their low-risk profile and protective factors?",
+        "linked_xai_factor": null,
+        "retrieval_query": "support strategies for students with low screening risk",
+        "expected_evidence": [
+          "low-risk support strategies",
+          "protective factor-based interventions"
+        ],
+        "priority": "medium",
+        "rationale": "Provide guidance on appropriate support measures."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": false,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0531,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How does the model's prediction probability of 0.0531 compare to the decision threshold of 0.5, and what does this imply about the student's risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of model prediction probabilities relative to decision thresholds\",\n      \"expected_evidence\": [\"model prediction interpretation\", \"decision threshold significance\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the risk level based on the probability and threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do the protective factors (academic impairment, flourishing, loneliness, financial situation, age) contribute to reducing the student's screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"impact of protective factors on depression/anxiety screening risk\",\n      \"expected_evidence\": [\"protective factor effects\", \"negative contribution interpretation\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Highlight the role of protective factors in mitigating risk.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the key safety considerations for this student, and how can they be communicated to ensure non-diagnostic language is used?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies in mental health screening\",\n      \"expected_evidence\": [\"safety communication guidelines\", \"non-diagnostic language examples\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure the communication is supportive and non-intrusive.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated, what are the potential limitations or uncertainties in the prediction for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model calibration and its implications on predictions\",\n      \"expected_evidence\": [\"calibration status\", \"uncertainty in model predictions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Address any uncertainties or limitations in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account for this student, given their low-risk profile and protective factors?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"support strategies for students with low screening risk\",\n      \"expected_evidence\": [\"low-risk support strategies\", \"protective factor-based interventions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provide guidance on appropriate support measures.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": false,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

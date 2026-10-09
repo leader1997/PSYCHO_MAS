@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_05",
+  "model": "qwen2.5",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:27:43.482860+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_05",
+    "risk_interpretation": {
+      "probability": 0.9722,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.9722 in relation to the decision threshold of 0.5 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near or above a high risk threshold",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Risk assessment frameworks"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the correct understanding of the elevated screening risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the contribution of 'Academic impairment' (aca_impa) in increasing the model's prediction probability?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic performance on mental health screening outcomes",
+        "expected_evidence": [
+          "Studies linking academic performance with depression/anxiety",
+          "Surveys measuring academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To validate the significant contribution of this feature."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the role of 'Loneliness' (lonely) in increasing the model's prediction probability?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Impact of loneliness on mental health screening outcomes",
+        "expected_evidence": [
+          "Research on loneliness and depression/anxiety",
+          "Surveys measuring feelings of loneliness"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the moderate contribution of this feature."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factors, such as 'Campus belonging (item 1)' (belong1), are present in the student's profile and how do they influence the model's prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Impact of social support on mental health screening outcomes",
+        "expected_evidence": [
+          "Studies linking social belonging with reduced depression/anxiety",
+          "Surveys measuring campus belonging"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the mitigating effects of protective factors."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Understanding model calibration and uncertainty in mental health screening predictions",
+        "expected_evidence": [
+          "Model calibration documentation",
+          "Uncertainty quantification methods"
+        ],
+        "priority": "medium",
+        "rationale": "To address the near-threshold prediction and its implications."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should we communicate safety and non-diagnostic information to this student's parents or guardians, considering their elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health screening results to families",
+        "expected_evidence": [
+          "Guidelines for parental communication",
+          "Case studies of effective communication strategies"
+        ],
+        "priority": "high",
+        "rationale": "To ensure appropriate and sensitive communication."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account for this student, given the elevated screening risk identified by the model?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Support strategies for students with elevated mental health screening risks",
+        "expected_evidence": [
+          "Recommendations from mental health experts",
+          "Case studies of support interventions"
+        ],
+        "priority": "high",
+        "rationale": "To inform the development of a comprehensive support plan."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9722,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.9722 in relation to the decision threshold of 0.5 for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near or above a high risk threshold\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Risk assessment frameworks\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the correct understanding of the elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the contribution of 'Academic impairment' (aca_impa) in increasing the model's prediction probability?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic performance on mental health screening outcomes\",\n      \"expected_evidence\": [\"Studies linking academic performance with depression/anxiety\", \"Surveys measuring academic impairment\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To validate the significant contribution of this feature.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the role of 'Loneliness' (lonely) in increasing the model's prediction probability?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"Impact of loneliness on mental health screening outcomes\",\n      \"expected_evidence\": [\"Research on loneliness and depression/anxiety\", \"Surveys measuring feelings of loneliness\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the moderate contribution of this feature.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factors, such as 'Campus belonging (item 1)' (belong1), are present in the student's profile and how do they influence the model's prediction?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Impact of social support on mental health screening outcomes\",\n      \"expected_evidence\": [\"Studies linking social belonging with reduced depression/anxiety\", \"Surveys measuring campus belonging\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the mitigating effects of protective factors.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Understanding model calibration and uncertainty in mental health screening predictions\",\n      \"expected_evidence\": [\"Model calibration documentation\", \"Uncertainty quantification methods\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To address the near-threshold prediction and its implications.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate safety and non-diagnostic information to this student's parents or guardians, considering their elevated screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health screening results to families\",\n      \"expected_evidence\": [\"Guidelines for parental communication\", \"Case studies of effective communication strategies\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure appropriate and sensitive communication.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account for this student, given the elevated screening risk identified by the model?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Support strategies for students with elevated mental health screening risks\",\n      \"expected_evidence\": [\"Recommendations from mental health experts\", \"Case studies of support interventions\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To inform the development of a comprehensive support plan.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

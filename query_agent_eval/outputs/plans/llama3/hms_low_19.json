@@ -1,0 +1,85 @@
+{
+  "case_id": "hms_low_19",
+  "model": "llama3",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T06:01:13.436482+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_19",
+    "risk_interpretation": {
+      "probability": 0.0604,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What are the implications of a low screening risk for this student's mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "mental health",
+          "low risk"
+        ],
+        "priority": "high",
+        "rationale": "To ensure non-diagnostic communication and provide reassurance."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the positive contribution of exercise frequency to the model's risk prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "exercise",
+          "risk prediction"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the XAI contributors and their impact on the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the student's academic impairment contribute to a lower predicted screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "academic impairment",
+          "screening risk"
+        ],
+        "priority": "medium",
+        "rationale": "To highlight the protective factors that mitigate the student's risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "What are some potential support considerations for this student based on their institutional size and public institution status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "institutional size",
+          "public institution"
+        ],
+        "priority": "low",
+        "rationale": "To provide expert-facing support considerations that take into account the student's institutional context."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_low_19\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0604,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the implications of a low screening risk for this student's mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"mental health\", \"low risk\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure non-diagnostic communication and provide reassurance.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the evidence supporting the positive contribution of exercise frequency to the model's risk prediction?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"exercise\", \"risk prediction\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the XAI contributors and their impact on the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the student's academic impairment contribute to a lower predicted screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"academic impairment\", \"screening risk\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To highlight the protective factors that mitigate the student's risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are some potential support considerations for this student based on their institutional size and public institution status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"institutional size\", \"public institution\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide expert-facing support considerations that take into account the student's institutional context.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote that since the case is low risk, I've generated questions that focus on providing reassurance and highlighting protective factors. The questions also aim to provide expert-facing support considerations based on the student's institutional context."
+}

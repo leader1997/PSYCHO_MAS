@@ -1,0 +1,66 @@
+{
+  "model": "phi4",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "In interpreting an elevated depression/anxiety screening risk score, such as a high prediction probability (0.9795), it is important to consider established guidelines and practices for non-diagnostic contexts. The Patient Health Questionnaire-2 (PHQ-2) is recommended as an initial screening tool in college health settings due to its simplicity and ease of administration. A positive result on the PHQ-2 should prompt further evaluation with a more comprehensive tool, such as the PHQ-9, which can provide greater insight into depression severity. Additionally, referral to counseling services for those who screen positively is advised to ensure appropriate follow-up care. While screening tools like the PHQ-2 and PHQ-9 are valuable in identifying potential cases of depression, they do not diagnose but rather indicate a need for further assessment by qualified professionals. In primary care settings, interventions such as patient-targeted feedback following positive screenings have shown promise in reducing depression severity and enhancing engagement with mental healthcare services. However, these findings should be interpreted cautiously, recognizing that screening tools identify potential risk factors rather than definitive causes of depression or anxiety. For individuals identified at elevated risk, referral to qualified support is recommended for comprehensive evaluation and management.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:14:46.325725+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Current scientific literature suggests a significant association between academic impairment and elevated screening risk for depression and anxiety in young adults. Studies indicate that co-occurring depression and anxiety are linked to lower cumulative grade point averages (GPA) among college students, even when controlling for prior academic performance and other variables (Context 2). This relationship is particularly pronounced among those with positive screens for both conditions. Additionally, mental health symptoms have been shown to contribute to functional impairment in work and social interactions, which may further impact academic success (Context 1). While these findings highlight the importance of addressing mental health issues to potentially improve academic outcomes, they are primarily descriptive and do not establish causality. Further research, possibly through randomized trials, is needed to definitively determine causal relationships between mental health and academic performance. For individuals at elevated risk, referral to qualified support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:15:10.740750+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity worry contributes to elevated screening risk for depression and anxiety as it is a significant factor in basic needs insecurity, which correlates strongly with mental health issues among students. According to the provided contexts, 44% of students experience clinically significant symptoms of anxiety and/or depression, and 57% of those who had previously stopped out of college did so due to mental health issues. Basic needs insecurity, including food insecurity, is particularly prevalent among marginalized student groups such as Black, Indigenous, LGBTQIA+, and former foster youth, which may exacerbate stress and contribute to mental health challenges.\n\nFor psychoeducational resources, while specific recommendations are not detailed in the provided contexts, it is advisable for institutions to offer support services that address both basic needs insecurity and its psychological impacts. This could include counseling services, financial aid guidance, food pantries, and housing assistance programs. Referral to qualified mental health professionals should be considered for students exhibiting elevated risk factors.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:15:34.012159+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Institutional type (inst_type) and age are protective mechanisms that contribute to student resilience through their influence on social-emotional-behavioral skills development and well-being indicators. School mental health screening identifies strengths and needs across different institutional types, allowing for tailored supports that enhance students' sense of belonging and life satisfaction. Age-specific screening data can reveal trends in well-being and social-emotional strengths, enabling schools to implement targeted interventions that address the unique needs of various age groups. By focusing on both strengths and symptoms, these factors help reduce stigma and empower students, contributing positively to their academic success and long-term outcomes. Highlighting these protective mechanisms provides a balanced view by emphasizing resilience-building opportunities within different institutional contexts and developmental stages. For elevated risks identified through screening, referral to qualified support is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:15:55.769577+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine learning models like CatBoost have limitations when applied to complex human behavioral data due to their reliance on statistical patterns rather than causal understanding. These models may struggle with capturing nuanced aspects of mental health conditions such as depression, which are influenced by a wide range of factors including cultural stigma and somatic symptom reporting (Context 1). Additionally, while these models can identify risk factors or symptoms associated with mental health issues, they do not account for the full spectrum of individual experiences and environmental influences that contribute to mental well-being (Contexts 2 & 3).\n\nIn an expert report, it is crucial to communicate that machine learning outputs should be interpreted as indicators rather than definitive diagnoses. The models can assist in identifying students at risk but cannot replace comprehensive clinical evaluations or culturally sensitive assessments. Furthermore, the limitations of these models necessitate a multi-tiered approach to mental health screening and intervention (Context 3), ensuring that identified risks are followed by appropriate support services. It is also important to emphasize the need for continuous evaluation and adaptation of screening procedures to improve their effectiveness and accuracy over time (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:16:23.870381+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When presenting an elevated screening risk to a student or supervising professional, it is crucial to employ non-diagnostic communication strategies that emphasize understanding and support rather than labeling. Begin by ensuring confidentiality and creating a safe environment for discussion. Use clear, empathetic language to explain the purpose of the screening as a tool for identifying strengths and needs, not as a diagnosis. Highlight the importance of early identification in connecting students with appropriate supports and resources.\n\nImmediate safety protocols require that any student identified at risk for harm to self or others be assessed promptly by qualified mental health professionals. Referrals should be made swiftly to ensure timely access to necessary services. It is essential to communicate these steps clearly to both students and their families, offering them the opportunity to consent or opt out of further assessments as appropriate.\n\nFor cases involving elevated risks, such as suicidal or homicidal ideation, it is imperative to refer the student to qualified support immediately, ensuring that they receive a comprehensive assessment by mental health professionals. This approach aligns with best practices in promoting safety and well-being while respecting individual rights and cultural sensitivities.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:16:52.033832+00:00"
+    }
+  }
+}

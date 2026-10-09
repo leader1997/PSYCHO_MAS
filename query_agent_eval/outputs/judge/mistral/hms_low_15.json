@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_15",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:58:16.185079+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant and well-aligned with the model’s XAI contributors, covering all major factors. It leverages scientific knowledge for answerability, supports expert reporting, adapts appropriately to a low-risk scenario, maintains strict safety standards by avoiding diagnostic or causal language, and presents clear, distinct questions."
+}

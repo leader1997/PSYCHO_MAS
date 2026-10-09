@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_10",
+  "stratum": "low",
+  "qid": "Q3",
+  "question": "What clinical context should be provided regarding features that contributed positively to the model prediction (e.g., sleep quality, campus belonging) when these factors are minor contributors in a low-risk profile?",
+  "retrieval_query": "clinical interpretation of moderate positive screening risk features in the context of strong protective factors",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:17.344899+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.951011,
+      "chunk_id": "DOC_B003_p2_c3",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "screening for, and assessing the severity of GAD symptoms in both clinical and research con- texts [22]. Conducted on a large primary care sample, the first validation study of GAD-7 found good reliability, as well as criterion, construct, factorial, and procedural validity. Subse- quently, the psychometric properties of GAD-7 have been evaluated in different sample of patients, including other primary care samples [23, 24], psychiatric patients [25–27], people with addiction [28], pregnant woman [29, 30], and outpatients [29–31]. GAD-7 has also shown strong psychometric properties in different populations, such as general adults [32], elderly [33, 34] as well as people from different culture and countries [35–39]. In academic set- ting, validation was performed among Korean university students [40], Portuguese college stu- dents [41] and Saudi university male students [42]. In the context of Bangladesh, GAD-7 has been widely used in various studies as a screening tool for anxiety symptoms among adults and university students [11–13]. Moreover, Faisal et al. (2021) explored the psychometric properties of the Bengali version of the GAD-7; however, the main focus of the paper was to assess the impact of the COVID-19 pandemic on anxiety, depressive symptoms and mental health status of university students [14]. Thus, a detailed assessment of factorial validity of GAD-7 focusing on Bangladeshi students has not been carried out yet. Regardless of adequate internal consistency and moderate to strong correlation with other comorbid disorders (depression, worry, etc.), findings regarding the factor structure of GAD-7 have not been consistent [43, 44]. Some studies showed a unidimensional factor structure [37, 41, 45–47]; which aligns"
+    },
+    {
+      "rank": 2,
+      "score": 0.858378,
+      "chunk_id": "DOC_G004_p5_c1",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "MESSAGE FRAMING FOR HEALTH 5 dominant in shaping their responses to health communications than their dispositional motivations. Perceived Susceptibility Perceived susceptibility is another key moderator of people’s responses to framed health messages. When people perceive themselves as susceptible to a health condition, they may be especially vigilant against possibility of negative health outcomes; in regulatory focus terms, they are prevention-focused concerning the health issue. In contrast, when people perceive low susceptibility to a health condition, they may be especially eager to achieve and maintain positive outcomes; they are promotion-focused concerning the health issue. This regulatory focus-based account (cf. Lee & Aaker, 2004) predicts that gain-framed messages should be more effective for those who perceive low susceptibility to a health problem, but loss-framed messages should be more effective for those who perceive high susceptibility. In a study that manipulated young adults’ perceptions of risk for mononucleosis, Lee and Aaker (2004) found that a gain-framed message promoted more interest in a preventive supplement against mononucleosis than a loss-framed message among people told that they were at low risk; in contrast, a loss-framed message promoted more interest for those told that they were at high risk. Naturally occurring beliefs about susceptibility likewise moderate message framing effects, as shown in studies of middle-to-older-aged women considering mammography screening (Gallagher, Updegraff, Rothman, & Sims, 2011), middle-aged adults considering colorectal cancer screening (Ferrer, Klein, Zajac, Land, & Ling, 2012), and young adults considering HIV-testing (Hull, 2012). Hull (2012) also showed that perceived susceptibility interacted with message framing to increase participants’ elaboration of the message, which mediated the"
+    },
+    {
+      "rank": 3,
+      "score": 0.833646,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 4,
+      "score": 0.782163,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 5,
+      "score": 0.772864,
+      "chunk_id": "DOC_G004_p5_c2",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "message framing effects, as shown in studies of middle-to-older-aged women considering mammography screening (Gallagher, Updegraff, Rothman, & Sims, 2011), middle-aged adults considering colorectal cancer screening (Ferrer, Klein, Zajac, Land, & Ling, 2012), and young adults considering HIV-testing (Hull, 2012). Hull (2012) also showed that perceived susceptibility interacted with message framing to increase participants’ elaboration of the message, which mediated the effects of framing on intentions to get tested."
+    }
+  ]
+}

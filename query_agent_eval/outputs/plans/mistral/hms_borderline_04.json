@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_borderline_04",
+  "model": "mistral",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:14:39.615470+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_04",
+    "risk_interpretation": {
+      "probability": 0.4995,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given the model's prediction probability of 0.4995, what does it mean for this student's depression and anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Model prediction interpretation for depression and anxiety screening",
+        "expected_evidence": [
+          "Interpretation of 0.4995 probability"
+        ],
+        "priority": "high",
+        "rationale": "To clarify the student's risk level based on the model's prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Loneliness' to this student's depression and anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for Loneliness as a contributor to depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the contribution of loneliness"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind the significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Flourishing' to this student's depression and anxiety screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for Flourishing as a contributor to depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the contribution of flourishing"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the less significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Positive mental health' to this student's depression and anxiety screening risk?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "Evidence for Positive mental health as a contributor to depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the contribution of positive mental health"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the less significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Age' to this student's depression and anxiety screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Evidence for Age as a contributor to depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the contribution of age"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the less significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Exercise frequency' to this student's depression and anxiety screening risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Evidence for Exercise frequency as a contributor to depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the contribution of exercise frequency"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the less significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of 'Current financial situation' for this student?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Evidence for Current financial situation as a protective factor for depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the protective effect of current financial situation"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind the significant protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of 'Academic impairment' for this student?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for Academic impairment as a protective factor for depression and anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the protective effect of academic impairment"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the less significant protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What are some important safety considerations when communicating this student's depression and anxiety screening risk to relevant parties?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for communication of depression and anxiety screening risk",
+        "expected_evidence": [
+          "Safety considerations for communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and effective communication about the student's depression and anxiety screening risk."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_borderline_04\",\n     \"risk_interpretation\": {\n       \"probability\": 0.4995,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"borderline\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"Given the model's prediction probability of 0.4995, what does it mean for this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Model prediction interpretation for depression and anxiety screening\",\n         \"expected_evidence\": [\"Interpretation of 0.4995 probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To clarify the student's risk level based on the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Loneliness' to this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for Loneliness as a contributor to depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of loneliness\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind the significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Flourishing' to this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for Flourishing as a contributor to depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of flourishing\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the less significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Positive mental health' to this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": \"positiveMH\",\n         \"retrieval_query\": \"Evidence for Positive mental health as a contributor to depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of positive mental health\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the less significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Age' to this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"Evidence for Age as a contributor to depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of age\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the less significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Exercise frequency' to this student's depression and anxiety screening risk?\",\n         \"linked_xai_factor\": \"exerc\",\n         \"retrieval_query\": \"Evidence for Exercise frequency as a contributor to depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of exercise frequency\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the less significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of 'Current financial situation' for this student?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"Evidence for Current financial situation as a protective factor for depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the protective effect of current financial situation\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind the significant protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of 'Academic impairment' for this student?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for Academic impairment as a protective factor for depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting the protective effect of academic impairment\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the less significant protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some important safety considerations when communicating this student's depression and anxiety screening risk to relevant parties?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for communication of depression and anxiety screening risk\",\n         \"expected_evidence\": [\"Safety considerations for communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and effective communication about the student's depression and anxiety screening risk.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

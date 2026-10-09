@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_high_01",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:16:11.839783+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_01",
+    "risk_interpretation": {
+      "probability": 0.9795,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical guidelines interpretation of high depression anxiety screening risk",
+        "expected_evidence": [
+          "Recommended follow-up steps for elevated screening risk.",
+          "Distinction between screening risk and clinical diagnosis in student mental health."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for a high-risk case to guide the expert review process and ensure appropriate next steps are suggested, rather than just stating the score."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment correlation with student mental health outcomes",
+        "expected_evidence": [
+          "Evidence supporting the link between academic stress/impairment and depressive symptoms.",
+          "Contextualizing 'academic impairment' as a risk feature."
+        ],
+        "priority": "high",
+        "rationale": "This is the single largest positive contributor (1.2582) and requires deep evidence to justify its weight in the report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "impact of food insecurity on mental health outcomes in students",
+        "expected_evidence": [
+          "Mechanism by which resource scarcity (like food worry) affects mood.",
+          "Evidence-based psychoeducational interventions for food insecurity."
+        ],
+        "priority": "high",
+        "rationale": "Food worry is a high contributor and represents a critical socioeconomic stressor that must be contextualized in the report."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+        "linked_xai_factor": "age, inst_type",
+        "retrieval_query": "protective role of age and institution type in mental health screening",
+        "expected_evidence": [
+          "Literature on developmental resilience factors related to age.",
+          "How institutional support structures mitigate risk."
+        ],
+        "priority": "medium",
+        "rationale": "It is crucial to include protective factors (age, institution type) to prevent the report from being solely focused on risk, providing a balanced view."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of ML models in mental health screening",
+        "expected_evidence": [
+          "Bias or over-reliance risks associated with predictive modeling.",
+          "Best practices for communicating model uncertainty to clinicians."
+        ],
+        "priority": "medium",
+        "rationale": "Even when calibrated, acknowledging model limitations is essential for responsible expert reporting."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication for high mental health screening risk",
+        "expected_evidence": [
+          "Scripting/language guidelines avoiding diagnostic language.",
+          "Immediate safety assessment protocols (e.g., suicide risk screening)."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure the report adheres strictly to non-diagnostic, safe communication standards."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9795,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical guidelines interpretation of high depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Recommended follow-up steps for elevated screening risk.\",\n        \"Distinction between screening risk and clinical diagnosis in student mental health.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for a high-risk case to guide the expert review process and ensure appropriate next steps are suggested, rather than just stating the score.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment correlation with student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence supporting the link between academic stress/impairment and depressive symptoms.\",\n        \"Contextualizing 'academic impairment' as a risk feature.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the single largest positive contributor (1.2582) and requires deep evidence to justify its weight in the report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"impact of food insecurity on mental health outcomes in students\",\n      \"expected_evidence\": [\n        \"Mechanism by which resource scarcity (like food worry) affects mood.\",\n        \"Evidence-based psychoeducational interventions for food insecurity.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food worry is a high contributor and represents a critical socioeconomic stressor that must be contextualized in the report.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?\",\n      \"linked_xai_factor\": \"age, inst_type\",\n      \"retrieval_query\": \"protective role of age and institution type in mental health screening\",\n      \"expected_evidence\": [\n        \"Literature on developmental resilience factors related to age.\",\n        \"How institutional support structures mitigate risk.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"It is crucial to include protective factors (age, institution type) to prevent the report from being solely focused on risk, providing a balanced view.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of ML models in mental health screening\",\n      \"expected_evidence\": [\n        \"Bias or over-reliance risks associated with predictive modeling.\",\n        \"Best practices for communicating model uncertainty to clinicians.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Even when calibrated, acknowledging model limitations is essential for responsible expert reporting.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication for high mental health screening risk\",\n      \"expected_evidence\": [\n        \"Scripting/language guidelines avoiding diagnostic language.\",\n        \"Immediate safety assessment protocols (e.g., suicide risk screening).\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure the report adheres strictly to non-diagnostic, safe communication standards.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScreeningNarrative",
+  "type": "object",
+  "required": [
+    "case_id",
+    "screening_summary",
+    "model_explanation",
+    "evidence_grounding",
+    "recommended_next_step",
+    "limitations",
+    "citations",
+    "safety_status"
+  ]
+}

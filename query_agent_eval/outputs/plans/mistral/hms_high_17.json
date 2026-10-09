@@ -1,0 +1,105 @@
+{
+  "case_id": "hms_high_17",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:21:22.629216+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_17",
+    "risk_interpretation": {
+      "probability": 0.9644,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given the model's prediction probability of 0.9644 and a decision threshold of 0.5, what does it mean for this student to have an elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Definition of elevated screening risk in the context of student mental health.",
+        "expected_evidence": [
+          "Definition of elevated screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of academic impairment (aca_impa) to this student's elevated screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment's impact on student mental health.",
+        "expected_evidence": [
+          "Evidence for academic impairment's impact on student mental health"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of food insecurity worry (food_worry) to this student's elevated screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food insecurity worry's impact on student mental health.",
+        "expected_evidence": [
+          "Evidence for food insecurity worry's impact on student mental health"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "What additional considerations should be taken into account when reviewing this student's case, given their elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Additional factors to consider for students with elevated screening risks.",
+        "expected_evidence": [
+          "Additional factors to consider for students with elevated screening risks"
+        ],
+        "priority": "high",
+        "rationale": "To guide the expert in their review and decision-making process."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for students with elevated screening risks?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep's protective effect on student mental health.",
+        "expected_evidence": [
+          "Evidence for weeknight sleep's protective effect on student mental health"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a protective factor in this case."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What safety measures should be communicated to this student, given their elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures for students with elevated screening risks.",
+        "expected_evidence": [
+          "Safety measures for students with elevated screening risks"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student's safety and provide appropriate guidance."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_17\",\n     \"risk_interpretation\": {\n       \"probability\": 0.9644,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"Given the model's prediction probability of 0.9644 and a decision threshold of 0.5, what does it mean for this student to have an elevated screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Definition of elevated screening risk in the context of student mental health.\",\n         \"expected_evidence\": [\"Definition of elevated screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide a clear understanding of the risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of academic impairment (aca_impa) to this student's elevated screening risk?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment's impact on student mental health.\",\n         \"expected_evidence\": [\"Evidence for academic impairment's impact on student mental health\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor to the risk prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of food insecurity worry (food_worry) to this student's elevated screening risk?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food insecurity worry's impact on student mental health.\",\n         \"expected_evidence\": [\"Evidence for food insecurity worry's impact on student mental health\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor to the risk prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"expert_support_consideration\",\n         \"question\": \"What additional considerations should be taken into account when reviewing this student's case, given their elevated screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Additional factors to consider for students with elevated screening risks.\",\n         \"expected_evidence\": [\"Additional factors to consider for students with elevated screening risks\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To guide the expert in their review and decision-making process.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for students with elevated screening risks?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep's protective effect on student mental health.\",\n         \"expected_evidence\": [\"Evidence for weeknight sleep's protective effect on student mental health\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a protective factor in this case.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures should be communicated to this student, given their elevated screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures for students with elevated screening risks.\",\n         \"expected_evidence\": [\"Safety measures for students with elevated screening risks\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the student's safety and provide appropriate guidance.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

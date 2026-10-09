@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_08",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What is the relationship between perceived loneliness and elevated screening risk, particularly in the context of student populations?",
+  "retrieval_query": "loneliness correlation with depression anxiety screening risk students",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:49.408845+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.894685,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 2,
+      "score": 0.868003,
+      "chunk_id": "DOC_C001_p2_c3",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further lead to deleterious health outcomes ( 14). Loneliness is suggested to be a precursor of depression ( 15, 16). In addition, research evidence also suggested perceived soc ial support could reduce the feeling of loneliness experienced by adolescents ( 17). Moreover, in a recent study conducted by Liang et al. ( 18), loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants. Therefore, we expect ed that loneliness was not only directly associated with symptoms of depression, but also played a mediation role in the association between social support and depressive symptoms among rural adolescents. Although perceived social support could inﬂuence loneliness among adolescents, not all adolescents with lower levels of perceived social support report higher levels of loneliness. Therefore, it is of great importance to explore the inﬂuential factor that might moderate the relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies ("
+    },
+    {
+      "rank": 3,
+      "score": 0.834229,
+      "chunk_id": "DOC_C003_p4_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 4,
+      "category_code": "C_loneliness_isolation",
+      "text": "4 Table 2. Ohio State student loneliness question responses in 2025, by educational level Graduate/ Undergraduate % Some of the time or Often All Students Professional Students Students How often do you feel a lack of 55.5% 55.6% 55.1% companionship? How often do you feel left out? 60.9% 62.4% 57.6% How often do you feel isolated 57.7% 58.3% 56.4% from others? Percent of students screened 43.1% 44.0% 41.1% positive for loneliness Note. N’s presented in ranges. Undergraduate Students n = 664-665; Graduate/Professional Students n = 314 Table 3 displays the differences in Ohio State loneliness score over time, comparing the results of the 2022 and 2025 NCHA at Ohio State. The overall percentage of students screening positive for loneliness has gone down significantly between 2022 and 2025, as has the percentage of undergraduate students screening positive for loneliness. The percentage of graduate and professional students screening positive for loneliness has gone down as well, but this difference is not statistically significance. Table 3. Percentage of Ohio State students who screened positive for loneliness over time 2022 2025 Statistical Significance n Percentage n Percentage All Students 541 53.2% 429 43.2% *** Undergraduate 394 56.2% 292 44.0% *** Graduate/Professional 140 45.9% 129 41.1% Loneliness at Ohio State and Year in School As students may be at higher risk of loneliness based on demographic factors, we explored differences in loneliness by educational level, disability status, generational status, sex and race. There were no significant differences by race and sex using the Ohio State data; however, the broader literature has identified differences by race"
+    },
+    {
+      "rank": 4,
+      "score": 0.834116,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 5,
+      "score": 0.832478,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    }
+  ]
+}

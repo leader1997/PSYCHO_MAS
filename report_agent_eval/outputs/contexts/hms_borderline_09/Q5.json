@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_09",
+  "stratum": "borderline",
+  "qid": "Q5",
+  "question": "What are the potential links between food insecurity worry (a positive contributor) and elevated screening risk, and what resources should be considered for expert referral?",
+  "retrieval_query": "connection between food insecurity and mental health screening outcomes",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:59.535171+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.945123,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in"
+    },
+    {
+      "rank": 2,
+      "score": 0.925304,
+      "chunk_id": "DOC_E002_p2_c1",
+      "doc_id": "DOC_E002",
+      "title": "The impact of material hardship severity and frequency on health",
+      "page": 2,
+      "category_code": "E_financial_food",
+      "text": "PLOS One | https://doi.org/10.1371/journal.pone.0335790 October 30, 2025 2 / 16 directly, rather than relying on traditional measures of household income or poverty rates, which are often not fully reflective of lived experience. Material hardship matters not only as an indicator of economic disadvantage, but also as a determinant of health. A growing body of research links hardship to higher rates of adverse mental and physical health consequences, especially among vulner- able populations. Studies of families and their children [2–4], young and working-age adults [5,6], and the elderly [7] have found a consistent association between facing one or more material hardships and health outcomes, such as depression, stress, trouble sleeping, and suicidal thoughts. While the mental health effects appear to be relatively consistent across hardship indicators, e.g., all contribute to issues like anxiety and depression, the physical health effects may be more specific. Evidence shows, for example, chronic food inse- curity contributes to issues of diabetes and hypertension [8], while energy insecurity exposes households to environmental toxins and indoor pollution [9], and health insecurity can exacerbate the physical health conditions an individual already experi- ences due to delayed or avoided care [10]. While the prevalence of material hardship is well studied, the consequences to health are less comprehensively understood. Much of the extant literature relies on cross-sectional data, limited sample sizes, and/or individual hardships in isolation. Further, little existing research on the relationship between material hardship and health examines hardships comparatively within models (e.g., the relative effect of food versus housing hardship on mental health) or between models (e.g., the relative"
+    },
+    {
+      "rank": 3,
+      "score": 0.866513,
+      "chunk_id": "DOC_E001_p7_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 7,
+      "category_code": "E_financial_food",
+      "text": "7 7 36% of students involved with the carceral system experience homelessness. 72% of former foster youth experience housing insecurity. 62% of students with disabilities experience basic needs insecurity related to food and/or housing—13 percentage points higher than students without disabilities (56%). The link between student basic needs security and persistence is unequivocal: 52% of Pell Grant recipients experience food insecurity—17 percentage points higher than non- Pell Grant recipients (35%). 79% of student respondents to our survey who had previously stopped out of college (and subsequently re-enrolled), or were considering stopping out of college, told us it was due to basic needs insecurity (emotional stress/ mental health, lacking money for living expenses, childcare/caregiver responsibilities, lack of transportation, lack of access to internet/technology) or financial reasons (cost of attendance/ insufficient financial aid, cost of textbooks or course materials, unexpected financial expense/emergency)."
+    },
+    {
+      "rank": 4,
+      "score": 0.86532,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 5,
+      "score": 0.848184,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,"
+    }
+  ]
+}

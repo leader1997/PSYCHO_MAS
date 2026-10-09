@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "embed_model": "nomic-embed-text",
+    "context_model": "qwen2.5:latest",
+    "limit_docs": 18,
+    "doc_ids": "DOC_B006,DOC_B002,DOC_C002,DOC_D001,DOC_E001,DOC_H001,DOC_I001",
+    "max_pages": 3,
+    "chunks_per_doc": 1,
+    "top_k": 3,
+    "context_mode": "metadata"
+  },
+  "doc_count": 7,
+  "chunk_count": 7,
+  "elapsed_seconds": 62.85,
+  "plain": {
+    "mrr": 0.9047619047619048,
+    "recall_at_k": 1.0
+  },
+  "contextual": {
+    "mrr": 0.9047619047619048,
+    "recall_at_k": 1.0
+  },
+  "contextual_examples": [
+    {
+      "chunk_id": "DOC_B002_p1_c1",
+      "context": "Document: Psychometric Properties of the GAD-7 among College Students - PMC. Category: B_college_depression_anxiety. Topic: Abstract. The GAD-7 is a brief, freely available questionnaire measuring anxiety, which is a common mental health problem among college students.. Page: 1.",
+      "preview": "Psychometric Properties of the GAD-7 among College Students: Reliability, Validity, Factor Structure, and Measurement Invariance Agnes E. White, Justin E. Karr Department of Psychology, University of Kentucky. Abstract T"
+    },
+    {
+      "chunk_id": "DOC_B006_p1_c1",
+      "context": "Document: [PDF] PATIENT HEALTH QUESTIONNAIRE-9 (PHQ-9). Category: B_college_depression_anxiety. Topic: PATIENT HEALTH QUESTIONNAIRE-9. (PHQ-9). Over the last 2 weeks, how often have you been bothered by any of the following problems? (Use \u201c\u2713\u201d to indicate your .... Page: 1.",
+      "preview": "PATIENT HEALTH QUESTIONNAIRE-9 (PHQ-9) Over the last 2 weeks, how often have you been bothered by any of the following problems? (Use \u201c\u2714\u201d to indicate your answer) Not at all Several days More than half the days Nearly ev"
+    },
+    {
+      "chunk_id": "DOC_C002_p1_c1",
+      "context": "Document: [PDF] The Revised UCLA Loneliness Scale: Concurrent and Discriminant. Category: C_loneliness_isolation. Topic: Study 1 presents a revised version of the self-report UCLA (University of California, Los Angeles) Loneliness Scale, designed to counter the possible effects .... Page: 1.",
+      "preview": "Journa l o f Personality an d Socia l Psycholog y 1980, Vol . 39 , No . 3 , 472-48 0 The Revise d UCL A Lonelines s Scale: Concurren t an d Discriminan t Validit y Evidenc e Dan Russel l Universit y o f Iow a Letitia A ."
+    },
+    {
+      "chunk_id": "DOC_D001_p1_c1",
+      "context": "Document: [PDF] Effect of Perceived Academic Stress on Students' Performance. Category: D_academic_impairment. Topic: The results showed significant effect of academic stress on student's performance. There was a non-significant difference between male and female university .... Page: 1.",
+      "preview": "FWU Journal of Social Sciences, Winter 2013, Vol. 7, No. 2, 146-151 146 Effect of Perceived Academic Stress on Students\u2019 Performance Mussarat Jabeen Khan G. C. University, Lahore Seema Altaf and Hafsa Kausar Internationa"
+    },
+    {
+      "chunk_id": "DOC_E001_p2_c1",
+      "context": "Document: [PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report. Category: E_financial_food. Topic: The Hope Center Student Basic Needs Survey is the most comprehensive in the field: it uniquely offers insight into a wide range of student basic .... Page: 2.",
+      "preview": "2 About The Hope Center for Student Basic Needs The Hope Center for Student Basic Needs at the Lewis Katz School of Medicine at Temple University is an action-oriented research, policy, and capacity-building center, remo"
+    }
+  ]
+}

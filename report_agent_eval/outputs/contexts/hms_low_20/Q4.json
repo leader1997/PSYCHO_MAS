@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_20",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "What are the implications of 'Campus belonging' (belong1) contributing positively to the model prediction, and how can this be differentiated from general social isolation?",
+  "retrieval_query": "Differentiating between low campus belonging and generalized social isolation in student mental health screening.",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:52:14.430425+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.947936,
+      "chunk_id": "DOC_F003_p3_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 3,
+      "category_code": "F_sleep_wellbeing",
+      "text": "1050 Dutcher et al. opportunities for socialization and growth. Understand- ing the factors that lead to depression in students would help identify targets of intervention. Furthermore, using experience sampling in daily life allows for earlier detection of risk and thus could lead to earlier imple- mentation of interventions to help students thrive on campus. Social factors emerge as a possible target of interven- tion because of their relationship with a variety of men- tal health and success outcomes. However, greater work needs to be done to determine whether loneliness inter- ventions are effective or that interventions can increase social contact among young adults (Masi et al., 2011). However, there are effective interventions for belonging in this developmental context (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011), suggesting that probing the relationship between feelings of belonging and depression could yield insight for effec- tive future interventions. Importantly, belonging is not the same as feeling like one is socially connected or supported by other people. Theories on belonging note that belonging is about not just having close relation- ships but rather whether someone feels as if they belong in a certain social context (Walton & Brady, 2017). Although close relationships can be a source of belonging in a context (Shook & Clay, 2012), individu- als’ subjective feelings of belonging may not always overlap with their feelings of social connection. Because belonging appears to be a unique facet of social life, it is important to examine the unique contributions that feelings of belonging have to mental health beyond"
+    },
+    {
+      "rank": 2,
+      "score": 0.94641,
+      "chunk_id": "DOC_F003_p2_c2",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This connec- tion to the university community is often referred to as “school belonging,” which is thought to be the extent to which students feel personally accepted, respected, included, and supported by others in the school social environment (Goodenow & Grady, 1993). Indeed, initial research into feelings of belonging in adolescents and young adults has begun to examine school belonging and the consequences of low feelings of belonging. This work has found that lack of belonging is both increasing in this population and associated with greater negative affect (Twenge et al., 2021) and worse self-reported mental health (Gopalan & Brady, 2020). On the other hand, higher levels of school belonging are also linked to better academic outcomes (Pittman & Richmond, 2007) and greater persistence in engineer - ing (Marra et al., 2012), which has influenced our understanding of the important role that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is"
+    },
+    {
+      "rank": 3,
+      "score": 0.939777,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 4,
+      "score": 0.93924,
+      "chunk_id": "DOC_F003_p2_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is associated with higher rates of depression, par - ticularly in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Initial cross-sectional work has also identified lack of belonging as a predictor of depressive symptoms (Parr et al., 2020). Many self-report assessments of depressive symptoms include questions that assess social functioning; for example, the Center for Epidemiological Studies-Depression (CES-D) scale asks participants to rate social-functioning statements such as “I talked less than usual,” “People were unfriendly,” “I felt that people dislike me,” and “I felt lonely” (Lewinsohn et al., 1997), suggesting that depres- sive symptoms overlap with social experiences as well. The relationship between social factors and depression in young adults specifically has important implications as well. College students often have access to mental health treatment on campus, but the majority with mood disorders do not seek treatment (Blanco et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health"
+    },
+    {
+      "rank": 5,
+      "score": 0.937589,
+      "chunk_id": "DOC_F002_p1_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being. Introduction On May 2, 2023, the Surgeon General of the United States stated the country was experiencing an epidemic of loneliness and isolation so severe that the negative health impacts were compa- rable to smoking 15 cigarettes a day [1]. Connecting with others was described as key to over- coming this epidemic, but establishing and maintaining connections is particularly challenging for college students. The transition from high school requires that students, who are already navigating myriad psychological changes during mid- to late-adolescence [2], adapt to unfamiliar academic and social environments while coping with newfound indepen- dence and novel living arrangements [3]. The widespread adoption of virtual instruction since the onset of the COVID-19 pandemic has created new barriers to connecting and increased students’ screen time, which is associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging"
+    }
+  ]
+}

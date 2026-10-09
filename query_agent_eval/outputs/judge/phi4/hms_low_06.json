@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_06",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:28:53.644740+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and well-structured, covering key XAI contributors and protective factors. It is fully answerable using a scientific knowledge database and would provide meaningful support for an expert-facing report. The plan appropriately adapts to the low-risk probability context, maintains safety by avoiding diagnostic or treatment language, and presents clear, non-redundant questions."
+}

@@ -1,0 +1,138 @@
+{
+  "case_id": "hms_high_01",
+  "stratum": "high",
+  "test_index": 477,
+  "structured_case": {
+    "case_id": "hms_high_01",
+    "prediction_probability": 0.9795,
+    "decision_threshold": 0.5,
+    "risk_label": "elevated_screening_risk",
+    "calibration": {
+      "calibration_status": "calibrated",
+      "near_threshold": false
+    },
+    "xai_contributors": [
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "contribution": 1.2582,
+        "direction": "increases predicted screening risk",
+        "interpretation": "This feature contributed positively to the model's risk prediction (level: high)."
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "contribution": 0.7275,
+        "direction": "increases predicted screening risk",
+        "interpretation": "This feature contributed positively to the model's risk prediction (level: low)."
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "contribution": 0.4153,
+        "direction": "increases predicted screening risk",
+        "interpretation": "This feature contributed positively to the model's risk prediction (level: low)."
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "contribution": 0.3445,
+        "direction": "increases predicted screening risk",
+        "interpretation": "This feature contributed positively to the model's risk prediction (level: medium)."
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "contribution": 0.3241,
+        "direction": "increases predicted screening risk",
+        "interpretation": "This feature contributed positively to the model's risk prediction (level: high)."
+      }
+    ],
+    "protective_contributors": [
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "contribution": -0.0289,
+        "direction": "decreases predicted screening risk",
+        "interpretation": "This feature contributed negatively to the model's risk prediction (level: low)."
+      },
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "contribution": -0.0274,
+        "direction": "decreases predicted screening risk",
+        "interpretation": "This feature contributed negatively to the model's risk prediction (level: high)."
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "contribution": -0.0144,
+        "direction": "decreases predicted screening risk",
+        "interpretation": "This feature contributed negatively to the model's risk prediction (level: medium)."
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "contribution": -0.0132,
+        "direction": "decreases predicted screening risk",
+        "interpretation": "This feature contributed negatively to the model's risk prediction (level: low)."
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "contribution": -0.0124,
+        "direction": "decreases predicted screening risk",
+        "interpretation": "This feature contributed negatively to the model's risk prediction (level: low)."
+      }
+    ],
+    "student_profile": {
+      "feature_levels": {
+        "age": "high",
+        "gender_male": "unknown",
+        "gender_female": "low",
+        "international": "low",
+        "fincur": "low",
+        "finpast": "medium",
+        "food_worry": "high",
+        "sleep_wknight": "low",
+        "sleep_wkend": "medium",
+        "exerc": "unknown",
+        "belong1": "high",
+        "belong2": "high",
+        "lonely": "medium",
+        "aca_impa": "high",
+        "flourish": "low",
+        "positiveMH": "low",
+        "sub_any": "low",
+        "binge1pl": "low",
+        "smok_cig": "unknown",
+        "discrim_race": "low",
+        "discrim_gender": "low",
+        "discrim_sexual": "low",
+        "inst_type": "low",
+        "inst_size": "low",
+        "inst_public": "medium"
+      }
+    },
+    "model_name": "CatBoost"
+  },
+  "expected": {
+    "xai_features": [
+      "aca_impa",
+      "flourish",
+      "fincur",
+      "lonely",
+      "food_worry"
+    ],
+    "protective_features": [
+      "inst_type",
+      "age",
+      "finpast",
+      "sub_any",
+      "discrim_gender"
+    ],
+    "has_protective": true,
+    "planning_strategy": "high_risk",
+    "stratum": "high"
+  }
+}

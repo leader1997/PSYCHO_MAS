@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_03",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:33:35.110614+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly aligned with the XAI contributors, well-structured for knowledge‑base answerability, and supports expert reporting. It adapts appropriately to a low‑risk scenario, maintains safety by avoiding diagnostic or treatment language, and presents clear, distinct questions. Minor improvement could be made in tailoring the first safety question more specifically to the case context."
+}

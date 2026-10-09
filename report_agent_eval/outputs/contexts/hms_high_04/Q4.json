@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_04",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What is the established role of adequate weeknight sleep in mitigating screening risk for depression/anxiety, and how should this protective factor be emphasized during expert review?",
+  "retrieval_query": "weeknight sleep quality impact on anxiety depression prevention",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:59.945647+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.866153,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 2,
+      "score": 0.825096,
+      "chunk_id": "DOC_A003_p5_c2",
+      "doc_id": "DOC_A003",
+      "title": "[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "of depression, anxiety, and stress (p < 0.001). Other factors such as age, study field, family income, khat chewing, and insomnia were also significantly associated with depression (p < 0.05). Conclusion: The study reveals high prevalence rates of depression, anxiety, stress, and insomnia among university students in Yemen, with notable gender disparities and associations with various sociodemographic and lifestyle factors. These findings underscore the need for targeted mental health interventions and support services tailored to the specific needs of this population. Keywords: Depression, Anxiety, Stress, Insomnia, University Students, Yemen, Mental Health."
+    },
+    {
+      "rank": 3,
+      "score": 0.81906,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students."
+    },
+    {
+      "rank": 4,
+      "score": 0.798567,
+      "chunk_id": "DOC_A001_p5_c2",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of depression, college students may participate in activities that could impact their well-being and could lead to substance abuse, self-"
+    },
+    {
+      "rank": 5,
+      "score": 0.794865,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    }
+  ]
+}

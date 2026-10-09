@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_17",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:50:42.648244+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_17",
+    "risk_interpretation": {
+      "probability": 0.0586,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate communication strategy to convey that a low screening probability does not equate to an absence of risk, while avoiding false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communicating low depression anxiety screening risk without false reassurance",
+        "expected_evidence": [
+          "Guidelines for communicating negative or low-risk mental health screening results.",
+          "Best practices for non-diagnostic communication in student support."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question. Since the risk is low, careful language is needed to ensure follow-up care remains appropriate without causing undue anxiety or minimizing genuine concerns."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What contextual information regarding binge drinking (binge1pl) is needed to interpret its contribution to the model prediction, specifically concerning frequency and severity?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "clinical assessment of binge drinking patterns in college students related to mental health screening",
+        "expected_evidence": [
+          "Criteria for assessing alcohol use risk beyond simple binary measures.",
+          "Correlation between acute substance misuse and elevated depression/anxiety screening risk."
+        ],
+        "priority": "high",
+        "rationale": "Binge drinking is the highest positive contributor. We need clinical depth to interpret this factor, moving beyond a simple 'high' score."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How should the high contribution of Flourishing (flourish) and Age be leveraged in the expert report to support considerations for expert review, emphasizing resilience?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "interpreting flourishing scores as protective factors against depression anxiety screening risk",
+        "expected_evidence": [
+          "Theoretical frameworks linking positive psychological states (e.g., Flourishing) to mental health resilience.",
+          "How age acts as a protective factor in college student mental health contexts."
+        ],
+        "priority": "high",
+        "rationale": "Flourishing and Age are the strongest negative contributors, indicating significant protective factors that must be highlighted for expert review."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What specific details about Academic Impairment (aca_impa) are necessary to understand its negative contribution, ensuring it is interpreted as a sign of stability rather than neglect?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "clinical interpretation of academic impairment status as a protective factor in mental health screening",
+        "expected_evidence": [
+          "Distinction between temporary and chronic academic difficulties.",
+          "How stable academic functioning supports overall psychological well-being."
+        ],
+        "priority": "medium",
+        "rationale": "Academic Impairment is a major protective factor. We must ensure the interpretation is nuanced and supportive, not judgmental."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the best practices for assessing social support and campus belonging (belong1) to provide actionable insights into mitigating risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "assessment strategies for campus belonging and social support in mental health screening",
+        "expected_evidence": [
+          "Interventions targeting feelings of isolation or lack of belonging.",
+          "Relationship between perceived social integration and depression anxiety risk."
+        ],
+        "priority": "medium",
+        "rationale": "Belonging is a key contributing factor. The report needs to suggest actionable areas for support based on this feature."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the model's calibration status and low probability, what are the known limitations of using predictive screening models for non-diagnostic purposes in a general student population?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of ML prediction models in mental health screening context",
+        "expected_evidence": [
+          "Model scope and applicability limitations (e.g., cultural bias, specific demographics).",
+          "The difference between predictive probability and clinical diagnosis."
+        ],
+        "priority": "medium",
+        "rationale": "Even with good calibration, model limitations must be stated to manage expert expectations and maintain scientific rigor."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_17\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0586,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate communication strategy to convey that a low screening probability does not equate to an absence of risk, while avoiding false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communicating low depression anxiety screening risk without false reassurance\",\n      \"expected_evidence\": [\n        \"Guidelines for communicating negative or low-risk mental health screening results.\",\n        \"Best practices for non-diagnostic communication in student support.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question. Since the risk is low, careful language is needed to ensure follow-up care remains appropriate without causing undue anxiety or minimizing genuine concerns.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What contextual information regarding binge drinking (binge1pl) is needed to interpret its contribution to the model prediction, specifically concerning frequency and severity?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"clinical assessment of binge drinking patterns in college students related to mental health screening\",\n      \"expected_evidence\": [\n        \"Criteria for assessing alcohol use risk beyond simple binary measures.\",\n        \"Correlation between acute substance misuse and elevated depression/anxiety screening risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Binge drinking is the highest positive contributor. We need clinical depth to interpret this factor, moving beyond a simple 'high' score.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How should the high contribution of Flourishing (flourish) and Age be leveraged in the expert report to support considerations for expert review, emphasizing resilience?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"interpreting flourishing scores as protective factors against depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Theoretical frameworks linking positive psychological states (e.g., Flourishing) to mental health resilience.\",\n        \"How age acts as a protective factor in college student mental health contexts.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Flourishing and Age are the strongest negative contributors, indicating significant protective factors that must be highlighted for expert review.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What specific details about Academic Impairment (aca_impa) are necessary to understand its negative contribution, ensuring it is interpreted as a sign of stability rather than neglect?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"clinical interpretation of academic impairment status as a protective factor in mental health screening\",\n      \"expected_evidence\": [\n        \"Distinction between temporary and chronic academic difficulties.\",\n        \"How stable academic functioning supports overall psychological well-being.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Academic Impairment is a major protective factor. We must ensure the interpretation is nuanced and supportive, not judgmental.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the best practices for assessing social support and campus belonging (belong1) to provide actionable insights into mitigating risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"assessment strategies for campus belonging and social support in mental health screening\",\n      \"expected_evidence\": [\n        \"Interventions targeting feelings of isolation or lack of belonging.\",\n        \"Relationship between perceived social integration and depression anxiety risk.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Belonging is a key contributing factor. The report needs to suggest actionable areas for support based on this feature.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the model's calibration status and low probability, what are the known limitations of using predictive screening models for non-diagnostic purposes in a general student population?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of ML prediction models in mental health screening context\",\n      \"expected_evidence\": [\n        \"Model scope and applicability limitations (e.g., cultural bias, specific demographics).\",\n        \"The difference between predictive probability and clinical diagnosis.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Even with good calibration, model limitations must be stated to manage expert expectations and maintain scientific rigor.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

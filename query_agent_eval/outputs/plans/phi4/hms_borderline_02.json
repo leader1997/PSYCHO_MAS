@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_borderline_02",
+  "model": "phi4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:19:55.188696+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_02",
+    "risk_interpretation": {
+      "probability": 0.4997,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of borderline prediction probabilities in mental health screenings",
+        "expected_evidence": [
+          "interpretation of borderline predictions",
+          "decision-making under uncertainty"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a near-threshold probability is crucial for interpreting borderline cases."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate its impact?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "impact of loneliness on mental health risks and mitigation strategies",
+        "expected_evidence": [
+          "effects of loneliness on mental health",
+          "interventions for reducing loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is a major contributor to the model's prediction, warranting detailed exploration."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does binge drinking play in increasing depression/anxiety screening risk?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "effects of binge drinking on mental health risks",
+        "expected_evidence": [
+          "relationship between binge drinking and mental health",
+          "prevention strategies for binge drinking"
+        ],
+        "priority": "medium",
+        "rationale": "Binge drinking is a high-level contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does exercise frequency contribute to reducing depression/anxiety screening risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "benefits of exercise on mental health and anxiety reduction",
+        "expected_evidence": [
+          "impact of regular exercise on mental well-being",
+          "exercise as a protective factor against anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "Exercise is identified as a high-level protective contributor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of using machine learning models like CatBoost for predicting depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and challenges of CatBoost in mental health predictions",
+        "expected_evidence": [
+          "model accuracy and reliability issues",
+          "contextual factors affecting model performance"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding model limitations is essential for interpreting borderline cases."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "guidelines on interpreting screening results",
+          "communication strategies for non-clinical assessments"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear communication about the tool's purpose is critical."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What considerations should experts keep in mind when reviewing borderline cases of depression/anxiety screening?",
+        "linked_xai_factor": null,
+        "retrieval_query": "expert review strategies for borderline mental health screenings",
+        "expected_evidence": [
+          "factors influencing expert decision-making",
+          "contextual factors affecting risk assessment"
+        ],
+        "priority": "high",
+        "rationale": "Guiding experts in their review process is essential for accurate interpretation."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.4997,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of borderline prediction probabilities in mental health screenings\",\n      \"expected_evidence\": [\n        \"interpretation of borderline predictions\",\n        \"decision-making under uncertainty\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a near-threshold probability is crucial for interpreting borderline cases.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate its impact?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"impact of loneliness on mental health risks and mitigation strategies\",\n      \"expected_evidence\": [\n        \"effects of loneliness on mental health\",\n        \"interventions for reducing loneliness\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is a major contributor to the model's prediction, warranting detailed exploration.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does binge drinking play in increasing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"effects of binge drinking on mental health risks\",\n      \"expected_evidence\": [\n        \"relationship between binge drinking and mental health\",\n        \"prevention strategies for binge drinking\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Binge drinking is a high-level contributor to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does exercise frequency contribute to reducing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"benefits of exercise on mental health and anxiety reduction\",\n      \"expected_evidence\": [\n        \"impact of regular exercise on mental well-being\",\n        \"exercise as a protective factor against anxiety\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Exercise is identified as a high-level protective contributor.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of using machine learning models like CatBoost for predicting depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and challenges of CatBoost in mental health predictions\",\n      \"expected_evidence\": [\n        \"model accuracy and reliability issues\",\n        \"contextual factors affecting model performance\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding model limitations is essential for interpreting borderline cases.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"guidelines on interpreting screening results\",\n        \"communication strategies for non-clinical assessments\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear communication about the tool's purpose is critical.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What considerations should experts keep in mind when reviewing borderline cases of depression/anxiety screening?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"expert review strategies for borderline mental health screenings\",\n      \"expected_evidence\": [\n        \"factors influencing expert decision-making\",\n        \"contextual factors affecting risk assessment\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Guiding experts in their review process is essential for accurate interpretation.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

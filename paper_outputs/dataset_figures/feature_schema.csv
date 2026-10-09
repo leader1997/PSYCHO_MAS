@@ -1,0 +1,26 @@
+Construct,Variable,Description,Type,Missing %
+Demographics,age,Respondent age (years),numeric,0.0
+Demographics,gender_male,Identifies as male (0/1),binary,72.3
+Demographics,gender_female,Identifies as female (0/1),binary,33.4
+Demographics,international,International student (0/1),binary,1.8
+Financial stress,fincur,Current financial situation (stress scale),numeric,6.4
+Financial stress,finpast,Financial situation growing up (stress scale),numeric,6.5
+Financial stress,food_worry,Worried about running out of food,numeric,6.8
+Lifestyle / health behaviour,sleep_wknight,Typical sleep on weeknights (hours),numeric,60.7
+Lifestyle / health behaviour,sleep_wkend,Typical sleep on weekends (hours),numeric,60.7
+Lifestyle / health behaviour,exerc,Exercise frequency,numeric,54.7
+Social connectedness,belong1,Sense of belonging on campus (item 1),numeric,7.2
+Social connectedness,belong2,Sense of belonging on campus (item 2),numeric,59.2
+Social connectedness,lonely,Self-reported loneliness,binary,12.4
+Academic / wellbeing,aca_impa,Academic impairment due to mental/emotional difficulties,numeric,11.4
+Academic / wellbeing,flourish,Flourishing scale (psychological wellbeing),numeric,10.8
+Academic / wellbeing,positiveMH,Positive mental health index,binary,10.8
+Substance use,sub_any,Any substance use (0/1),binary,14.6
+Substance use,binge1pl,One or more binge-drinking episodes,binary,13.1
+Substance use,smok_cig,Cigarette smoking,binary,21.4
+Discrimination,discrim_race,Experienced racial discrimination,binary,8.6
+Discrimination,discrim_gender,Experienced gender discrimination,binary,9.0
+Discrimination,discrim_sexual,Experienced sexual-orientation discrimination,binary,9.0
+Institutional context,inst_type,Institution type,numeric,0.0
+Institutional context,inst_size,Institution size,numeric,0.0
+Institutional context,inst_public,Public institution (0/1),binary,0.0

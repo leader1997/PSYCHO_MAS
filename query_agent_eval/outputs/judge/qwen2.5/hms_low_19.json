@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_19",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:37:41.862481+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing useful information for an expert report. It covers key XAI contributors such as exercise frequency and academic impairment but omits other significant risk factors (e.g., campus belonging, institution type/size). The plan adapts appropriately to the low-risk context and maintains safety by avoiding diagnostic or treatment language. Overall, it is a solid set of questions with minor gaps in full XAI coverage."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_02",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:02:58.997119+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the high‑risk case, providing clear risk interpretation, a focused XAI contributor explanation, protective factor identification, uncertainty discussion, and safety‑oriented communication. It supports an expert report effectively and adapts to the elevated probability. However, coverage of all key XAI contributors could be expanded beyond 'aca_impa', and some questions (e.g., Q3) might benefit from more precise wording. Overall, it is a strong plan with minor room for improvement."
+}

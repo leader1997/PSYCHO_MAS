@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_02",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:18:56.063391+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_02",
+    "risk_interpretation": {
+      "probability": 0.9743,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the high prediction probability (0.9743) and elevated screening risk label, what are the established clinical guidelines for interpreting this result in a non-diagnostic context to guide expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical guidelines interpretation of high depression/anxiety screening risk",
+        "expected_evidence": [
+          "Recommended next steps for elevated screening risk.",
+          "Best practices for communicating model-derived risk scores to clinicians."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for a high-risk case, ensuring the report provides actionable clinical context rather than just raw data interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current scientific literature regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment correlation with student mental health outcomes",
+        "expected_evidence": [
+          "Evidence linking academic stress or impairment to depressive symptoms.",
+          "Contextualizing the magnitude of this feature's contribution."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single strongest positive contributor (1.1747), which is critical for understanding the primary risk driver in this specific case."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the established pathways linking nutritional stress/insecurity to mental health symptoms?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "link between food insecurity and anxiety/depression in students",
+        "expected_evidence": [
+          "Biological or psychological mechanisms connecting food worry to mood disorders.",
+          "Severity correlation of food insecurity with mental health outcomes."
+        ],
+        "priority": "high",
+        "rationale": "Addresses a major positive contributor (0.389) and requires deep contextual evidence beyond simple correlation."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the theoretical relationship between low flourishing scores and increased screening risk, particularly in the context of student mental health?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "low flourishing score correlation with depression/anxiety risk",
+        "expected_evidence": [
+          "Definition and measurement of 'flourishing' in psychological literature.",
+          "How deficits in positive functioning predict mental health vulnerability."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a key contributor (0.821) that represents a deficit in positive coping/well-being, requiring theoretical grounding for interpretation."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the protective role of adequate weeknight sleep (sleep_wknight) in mitigating elevated screening risk for depression and anxiety?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "protective effect of consistent sleep patterns on student mental health",
+        "expected_evidence": [
+          "Evidence detailing how stable sleep contributes to emotional regulation.",
+          "The clinical significance of maintaining good sleep hygiene in high-risk populations."
+        ],
+        "priority": "medium",
+        "rationale": "Mandatory inclusion of a protective factor, providing balance and resilience context for the expert report."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations or scope restrictions of using ML models like CatBoost for screening student mental health, especially regarding cultural variability or comorbidity?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and generalizability of AI screening tools in academic settings",
+        "expected_evidence": [
+          "Model bias warnings (e.g., demographic groups not represented).",
+          "Need for human clinical judgment over algorithmic output."
+        ],
+        "priority": "medium",
+        "rationale": "Crucial step to manage expectations and prevent over-reliance on the model, addressing inherent uncertainty."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "What are the best practices for communicating an elevated screening risk result to a student and their guardian while strictly adhering to non-diagnostic, supportive language?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for mental health screening results",
+        "expected_evidence": [
+          "Phrasing guidelines that avoid definitive statements of illness.",
+          "Focus on 'support considerations' rather than 'treatment plans'."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question to ensure the final report is ethically sound and clinically appropriate."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9743,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the high prediction probability (0.9743) and elevated screening risk label, what are the established clinical guidelines for interpreting this result in a non-diagnostic context to guide expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical guidelines interpretation of high depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Recommended next steps for elevated screening risk.\",\n        \"Best practices for communicating model-derived risk scores to clinicians.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for a high-risk case, ensuring the report provides actionable clinical context rather than just raw data interpretation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current scientific literature regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment correlation with student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence linking academic stress or impairment to depressive symptoms.\",\n        \"Contextualizing the magnitude of this feature's contribution.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single strongest positive contributor (1.1747), which is critical for understanding the primary risk driver in this specific case.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the established pathways linking nutritional stress/insecurity to mental health symptoms?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"link between food insecurity and anxiety/depression in students\",\n      \"expected_evidence\": [\n        \"Biological or psychological mechanisms connecting food worry to mood disorders.\",\n        \"Severity correlation of food insecurity with mental health outcomes.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses a major positive contributor (0.389) and requires deep contextual evidence beyond simple correlation.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the theoretical relationship between low flourishing scores and increased screening risk, particularly in the context of student mental health?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"low flourishing score correlation with depression/anxiety risk\",\n      \"expected_evidence\": [\n        \"Definition and measurement of 'flourishing' in psychological literature.\",\n        \"How deficits in positive functioning predict mental health vulnerability.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a key contributor (0.821) that represents a deficit in positive coping/well-being, requiring theoretical grounding for interpretation.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the protective role of adequate weeknight sleep (sleep_wknight) in mitigating elevated screening risk for depression and anxiety?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"protective effect of consistent sleep patterns on student mental health\",\n      \"expected_evidence\": [\n        \"Evidence detailing how stable sleep contributes to emotional regulation.\",\n        \"The clinical significance of maintaining good sleep hygiene in high-risk populations.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Mandatory inclusion of a protective factor, providing balance and resilience context for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations or scope restrictions of using ML models like CatBoost for screening student mental health, especially regarding cultural variability or comorbidity?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and generalizability of AI screening tools in academic settings\",\n      \"expected_evidence\": [\n        \"Model bias warnings (e.g., demographic groups not represented).\",\n        \"Need for human clinical judgment over algorithmic output.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Crucial step to manage expectations and prevent over-reliance on the model, addressing inherent uncertainty.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the best practices for communicating an elevated screening risk result to a student and their guardian while strictly adhering to non-diagnostic, supportive language?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for mental health screening results\",\n      \"expected_evidence\": [\n        \"Phrasing guidelines that avoid definitive statements of illness.\",\n        \"Focus on 'support considerations' rather than 'treatment plans'.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question to ensure the final report is ethically sound and clinically appropriate.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_09",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:30:19.228932+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_09",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the prediction probability (0.5012) is marginally above the decision threshold (0.5), what clinical guidelines support interpreting 'elevated screening risk' in a borderline context, and what are the next steps for expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical interpretation of elevated screening risk near 50% probability",
+        "expected_evidence": [
+          "Guidelines for follow-up assessment when prediction is near threshold.",
+          "Definition and clinical utility of 'elevated screening risk' in non-diagnostic settings."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline (0.5012 vs 0.5), requiring specific guidance on how to interpret this narrow margin for expert review."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "uncertainty_limitation",
+        "question": "Since the model prediction is highly calibrated and near the decision threshold, what are the known limitations or sources of uncertainty associated with using this specific screening tool for borderline risk assessment?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model calibration limitations in high-uncertainty screening contexts",
+        "expected_evidence": [
+          "Discussion on model confidence intervals near the threshold.",
+          "Factors that might increase prediction uncertainty (e.g., cultural context, single assessment point)."
+        ],
+        "priority": "high",
+        "rationale": "The 'borderline' status and explicit calibration information necessitate questions about model reliability and limitations."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the established relationship between chronic loneliness (a major positive contributor) and increased screening risk for depression/anxiety, particularly in academic settings?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "clinical evidence linking loneliness to elevated depression anxiety screening risk",
+        "expected_evidence": [
+          "Literature review on the impact of social isolation on mental health outcomes.",
+          "Recommendations for assessing and mitigating loneliness in students."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the single largest positive contributor (0.38) and requires deep contextual evidence to guide discussion."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How can existing protective factors, such as 'Flourishing' status or low 'Academic Impairment,' be leveraged in the expert report to provide a balanced view and guide strengths-based support considerations?",
+        "linked_xai_factor": "flourish, aca_impa",
+        "retrieval_query": "integrating protective factors into mental health screening reports",
+        "expected_evidence": [
+          "Best practices for framing resilience and strengths in risk assessment.",
+          "Strategies to balance high-risk features with positive coping mechanisms."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are strong (Flourishing, Academic Impairment) and must be included to prevent a purely deficit-based report."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the potential links between food insecurity worry (a positive contributor) and elevated screening risk, and what resources should be considered for expert referral?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "connection between food insecurity and mental health screening outcomes",
+        "expected_evidence": [
+          "Clinical guidelines linking nutritional stress to anxiety/depression.",
+          "Available campus resources for addressing food security."
+        ],
+        "priority": "medium",
+        "rationale": "Food worry is a specific, high-concern feature that requires contextual evidence beyond just the statistical contribution."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic language and communication strategies should be used when discussing elevated screening risk with a student to ensure safety, maintain rapport, and avoid false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for mental health screening results",
+        "expected_evidence": [
+          "Scripts or phrasing recommendations for discussing risk without diagnosing.",
+          "Best practices for follow-up safety planning."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure ethical and safe communication regardless of the risk level."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5012,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the prediction probability (0.5012) is marginally above the decision threshold (0.5), what clinical guidelines support interpreting 'elevated screening risk' in a borderline context, and what are the next steps for expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical interpretation of elevated screening risk near 50% probability\",\n      \"expected_evidence\": [\n        \"Guidelines for follow-up assessment when prediction is near threshold.\",\n        \"Definition and clinical utility of 'elevated screening risk' in non-diagnostic settings.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline (0.5012 vs 0.5), requiring specific guidance on how to interpret this narrow margin for expert review.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Since the model prediction is highly calibrated and near the decision threshold, what are the known limitations or sources of uncertainty associated with using this specific screening tool for borderline risk assessment?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model calibration limitations in high-uncertainty screening contexts\",\n      \"expected_evidence\": [\n        \"Discussion on model confidence intervals near the threshold.\",\n        \"Factors that might increase prediction uncertainty (e.g., cultural context, single assessment point).\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The 'borderline' status and explicit calibration information necessitate questions about model reliability and limitations.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the established relationship between chronic loneliness (a major positive contributor) and increased screening risk for depression/anxiety, particularly in academic settings?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"clinical evidence linking loneliness to elevated depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Literature review on the impact of social isolation on mental health outcomes.\",\n        \"Recommendations for assessing and mitigating loneliness in students.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the single largest positive contributor (0.38) and requires deep contextual evidence to guide discussion.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How can existing protective factors, such as 'Flourishing' status or low 'Academic Impairment,' be leveraged in the expert report to provide a balanced view and guide strengths-based support considerations?\",\n      \"linked_xai_factor\": \"flourish, aca_impa\",\n      \"retrieval_query\": \"integrating protective factors into mental health screening reports\",\n      \"expected_evidence\": [\n        \"Best practices for framing resilience and strengths in risk assessment.\",\n        \"Strategies to balance high-risk features with positive coping mechanisms.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are strong (Flourishing, Academic Impairment) and must be included to prevent a purely deficit-based report.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the potential links between food insecurity worry (a positive contributor) and elevated screening risk, and what resources should be considered for expert referral?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"connection between food insecurity and mental health screening outcomes\",\n      \"expected_evidence\": [\n        \"Clinical guidelines linking nutritional stress to anxiety/depression.\",\n        \"Available campus resources for addressing food security.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Food worry is a specific, high-concern feature that requires contextual evidence beyond just the statistical contribution.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic language and communication strategies should be used when discussing elevated screening risk with a student to ensure safety, maintain rapport, and avoid false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for mental health screening results\",\n      \"expected_evidence\": [\n        \"Scripts or phrasing recommendations for discussing risk without diagnosing.\",\n        \"Best practices for follow-up safety planning.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure ethical and safe communication regardless of the risk level.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

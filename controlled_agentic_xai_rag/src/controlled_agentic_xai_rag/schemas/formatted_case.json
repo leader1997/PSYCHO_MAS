@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FormattedCase",
+  "type": "object",
+  "required": [
+    "case_id",
+    "prediction_probability",
+    "risk_threshold",
+    "risk_category",
+    "calibration_status",
+    "top_xai_contributors",
+    "protective_factors",
+    "safety_constraints",
+    "feature_levels"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "prediction_probability": { "type": "number" },
+    "risk_threshold": { "type": "number" },
+    "risk_category": { "type": "string" },
+    "calibration_status": { "type": "string" },
+    "top_xai_contributors": { "type": "array" },
+    "protective_factors": { "type": "array" },
+    "safety_constraints": { "type": "object" },
+    "feature_levels": { "type": "object" }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_03",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9737) and 'elevated screening risk' label, what are the established clinical guidelines for escalating care or initiating further comprehensive assessment in this specific context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "In this setting, a high probability and an “elevated screening risk” label indicate that the brief PHQ‑2 screen has identified a likely case of depression. The next evidence‑based step is to administer the full PHQ‑9 to determine symptom severity and functional impact (Context 1). If the PHQ‑9 score reaches moderate or greater severity—or if any suicidal ideation or safety concerns are noted—the student should be referred promptly to campus counseling services or a primary care provider for a comprehensive assessment, in line with guidelines that prioritize early identification and linkage to mental health care among college students (Context 1). This escalation pathway follows the recommended practice of moving from an initial screen to a more detailed evaluation and timely referral.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:22:56.893402+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the scientific literature regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, specifically considering its high contribution score?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Scientific studies show that academic impairment is a significant contributor to the likelihood of screening positive for depressive and anxiety symptoms. In a longitudinal Canadian university cohort, students who reported lower grades during their first year were more likely to screen positive for clinically significant depression (28 % at entry rising to 36 %) and anxiety (33 % to 39 %), indicating a strong statistical association between poorer academic performance and mental‑health risk【4】【5】. Screening protocols routinely flag students with poor academic progress as high‑risk, underscoring the role of academic impairment in early identification of depression and anxiety【1】. Thus, evidence supports that aca_impa has a high contribution score to elevated screening risk for these disorders.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:23:41.280672+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the established psychoeducational resources for addressing nutritional anxiety in college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food‑worry contributes to elevated screening risk because the survey data show that 41 % of students experience food insecurity and 44 % report clinically significant anxiety or depression, indicating a strong association between basic‑needs stress and mental‑health symptoms. Students who are Pell Grant recipients—who already face higher financial strain—are 17 percentage points more likely to be food insecure (52 % vs. 35 %), further amplifying the risk of psychological distress. The report also notes that basic‑needs insecurity is a key reason students stop out or consider stopping, underscoring its impact on academic engagement and well‑being. No specific psychoeducational resources for addressing nutritional anxiety are identified in the retrieved evidence; additional research would be needed to recommend targeted interventions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:24:49.377108+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the established risk factors and protective mechanisms associated with loneliness (lonely) in young adults, particularly when it contributes positively to screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Loneliness among college‑aged young adults is a well‑documented risk factor for physical and mental health problems, including depression, anxiety, and lower academic retention (Bonsaksen et al., 2022; Zhai & Carney, 2024). The National College Health Assessment flags students as lonely when their UCLA 3‑item score reaches six or more, a threshold that correlates with heightened screening risk for depressive symptoms. Low perceived social support—defined as the cognitive appraisal of relationship quality and quantity—is strongly linked to higher loneliness scores and a roughly six‑fold increase in depressive symptoms compared with students reporting high support (Context 2). Protective mechanisms include early establishment of a sense of community; students who report strong start‑of‑semester community ties experience significantly less mid‑semester loneliness, and broader research shows that higher perceived social support is associated with lower depression and anxiety rates, reduced suicide risk, and greater life satisfaction among college students (Ohio State study, 2025; Context 3). Thus, loneliness can serve as a positive screening indicator when combined with assessments of perceived support and community integration.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:26:53.121392+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What is the clinical significance of stable weeknight sleep patterns (sleep_wknight) as a protective factor against elevated screening risk, and what are best practices for promoting healthy sleep hygiene?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence shows that disrupted or inadequate sleep is a significant contributor to depressive and anxious symptoms among college students (Context 2) and is listed as an individual‑level risk factor for psychological distress in a recent scoping review (Context 5). While the retrieved sources do not directly quantify the protective effect of *stable* weeknight sleep patterns, the inverse relationship between poor sleep and mental health suggests that regular, consistent sleep timing could mitigate screening risk. The same review emphasizes that integrated, multi‑level strategies—including promoting healthy sleep hygiene—are essential for fostering student well‑being (Context 5). Specific best practices for establishing such hygiene are not detailed in the provided evidence; therefore, counselors should refer to established sleep‑health guidelines or institutional wellness programs rather than rely on these sources alone.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:28:05.115012+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the known limitations of this specific screening tool (CatBoost model) when assessing depression/anxiety, and what demographic or situational variables might affect its predictive accuracy?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The provided passages do not describe the CatBoost model itself, so no specific limitations of that algorithm are documented here.  \nIn general, school‑based screening tools can show reduced accuracy if they have not been validated across diverse cultural groups; the text notes that acceptability varies by culture (Context 2).  \nStudent wellbeing levels and risk behaviors such as suicidal ideation or poor academic progress are highlighted as factors influencing the relevance of screening results (Contexts 5 and 2).  \nThe guidance recommends piloting a screener with small groups to identify and correct issues before full deployment, implying that implementation context can affect predictive performance (Contexts 1 and 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:29:39.565217+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student and their guardian, ensuring immediate safety concerns are addressed without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Based on the screening results, it appears that you may be experiencing some concerns related to your emotional well‑being. We want to ensure your safety and will arrange for a more detailed assessment with our mental health team as soon as possible—this is part of the school’s defined process for triaging students who may need higher‑tier supports (Context 4). In the meantime, please let us know if you feel unsafe or need immediate help; you can contact the school counselor directly or call emergency services (911). We will keep both you and your guardian informed about next steps and any referrals to community mental health resources. This approach follows our protocol for responding immediately to risk of harm to self or others while avoiding diagnostic language (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:30:51.394769+00:00"
+    }
+  }
+}

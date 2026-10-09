@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_20",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "How do high levels of 'Flourishing' and 'Academic Impairment' contribute to the overall resilience profile, and what are the clinical implications for expert review?",
+  "retrieval_query": "Clinical significance of high flourishing scores and low academic impairment in student mental health risk assessment.",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:52:09.690144+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.983275,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 2,
+      "score": 0.881315,
+      "chunk_id": "DOC_B001_p2_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever harmed yourself without the intent of ending your life ’, ‘have you had any thoughts of ending your life ’ and ‘have you made a suicide attempt.’ Owing to the bias associated with dichotomising variables and decreased power, we examined secondary mental health outcomes as total symptom scores on the PHQ-9 and GAD- 7. Functional impairment related to depressive and anxiety symp- toms was assessed by asking ‘how difficult have these symptoms made it for you to do your work, take care of things at home, or get along with others? ’ rated from 0 (not difficult at all) to 3 (extremely difficult). Respondents rating 2 or 3 were considered to have significant impairment associated with their symptoms. Academic outcomes Academic outcomes included cumulative grade point average (GPA) abstracted from the university database and well-being at university indexed by the School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between"
+    },
+    {
+      "rank": 3,
+      "score": 0.873574,
+      "chunk_id": "DOC_B001_p2_c4",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between males and females in c h a n g e si nc o n t i n u o u sm e n t a lh e a l t ho u t c o m e so v e rt i m ei nt h ea n a - lysis sample ( n = 1530). Distributions of continuous outcomes were checked for normality. PHQ-9 and GAD-7 total scores were positively skewed and were normalised with a square root transformation, whereas cumulative GPA was negatively skewed and was normalised with a square root transformation. School connectedness scores were not skewed and did not require normalisation. All adjusted models had a variance inflation factor <4 suggesting multicollinearity was not a significant factor in the models. Adjusted and unadjusted logistic regression models for binary mental health outcomes (PHQ-9 /GAD-7 clinical cut-offs and suicidal thoughts/attempts) and linear regression models for continuous out- comes (PHQ-9/GAD-7 total scores, cumulative GPA, School Connectedness score) were fit to determine associations between time 1 predictors and time 2 outcomes. For binary mental health out- comes, both new onset (positive screen at time 2 only) and persistent (positive screen at both time 1 and time 2) were included as"
+    },
+    {
+      "rank": 4,
+      "score": 0.836562,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 5,
+      "score": 0.834821,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    }
+  ]
+}

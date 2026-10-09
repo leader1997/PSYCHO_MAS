@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_04",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:17:06.223895+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_04",
+    "risk_interpretation": {
+      "probability": 0.0515,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given the low prediction probability (0.0515) significantly below the decision threshold (0.5), what is the appropriate clinical interpretation of this result, emphasizing that it does not rule out screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting low depression/anxiety screening scores relative to established clinical thresholds",
+        "expected_evidence": [
+          "Guidelines for interpreting negative screening results in student mental health.",
+          "Contextualizing the gap between model probability and clinical risk assessment."
+        ],
+        "priority": "high",
+        "rationale": "Essential for low-risk cases to prevent false reassurance while confirming the current status relative to established guidelines."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "What is the clinical significance of high protective factors, such as 'Flourishing' and 'Age', in mitigating predicted screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Protective role of flourishing and age in student mental health outcomes",
+        "expected_evidence": [
+          "Evidence linking high levels of flourishing to resilience against depression/anxiety.",
+          "How age acts as a protective factor in college-age screening models."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are strong evidence points and must be highlighted for the expert report. Grouping them allows for comprehensive retrieval."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How do features related to campus belonging (belong1, belong2) and institution size contribute positively to the model's prediction of elevated screening risk?",
+        "linked_xai_factor": "belong1, belong2, inst_size",
+        "retrieval_query": "Association between institutional size/campus belonging metrics and student mental health risk",
+        "expected_evidence": [
+          "Literature review on how campus environment factors influence screening risk.",
+          "Specific research linking large institution sizes to increased perceived isolation or stress."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the primary positive contributors (risk increases) in a structured manner, guiding contextual retrieval for the expert report."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical meaning of low 'Academic Impairment' (aca_impa) contributing negatively to screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic impairment status on depression and anxiety screening outcomes",
+        "expected_evidence": [
+          "Understanding the relationship between academic performance/impairment and mental health screening.",
+          "How low levels of academic impairment are associated with resilience."
+        ],
+        "priority": "medium",
+        "rationale": "Focuses on a key protective factor (aca_impa) that is distinct from general well-being measures, providing depth to the XAI section."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of using machine learning models for non-diagnostic student depression/anxiety screening, and what contextual factors should be considered when interpreting these results?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Limitations and applicability domain of ML models in campus mental health screening",
+        "expected_evidence": [
+          "Model limitations regarding individual variability.",
+          "Best practices for integrating model output with qualitative clinical judgment."
+        ],
+        "priority": "high",
+        "rationale": "Crucial step to manage expectations and provide necessary context on the scientific basis of the report, especially since the risk is low."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What are the standardized non-diagnostic communication guidelines for presenting screening results to an expert audience?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Non-diagnostic language guidelines for mental health screening reports",
+        "expected_evidence": [
+          "Standard phrasing to avoid implying diagnosis or causality.",
+          "Best practices for communicating risk levels without causing undue alarm."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure the final report adheres strictly to non-diagnostic, safety-first language."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0515,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"Given the low prediction probability (0.0515) significantly below the decision threshold (0.5), what is the appropriate clinical interpretation of this result, emphasizing that it does not rule out screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting low depression/anxiety screening scores relative to established clinical thresholds\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting negative screening results in student mental health.\",\n        \"Contextualizing the gap between model probability and clinical risk assessment.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Essential for low-risk cases to prevent false reassurance while confirming the current status relative to established guidelines.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the clinical significance of high protective factors, such as 'Flourishing' and 'Age', in mitigating predicted screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Protective role of flourishing and age in student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence linking high levels of flourishing to resilience against depression/anxiety.\",\n        \"How age acts as a protective factor in college-age screening models.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are strong evidence points and must be highlighted for the expert report. Grouping them allows for comprehensive retrieval.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How do features related to campus belonging (belong1, belong2) and institution size contribute positively to the model's prediction of elevated screening risk?\",\n      \"linked_xai_factor\": \"belong1, belong2, inst_size\",\n      \"retrieval_query\": \"Association between institutional size/campus belonging metrics and student mental health risk\",\n      \"expected_evidence\": [\n        \"Literature review on how campus environment factors influence screening risk.\",\n        \"Specific research linking large institution sizes to increased perceived isolation or stress.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the primary positive contributors (risk increases) in a structured manner, guiding contextual retrieval for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical meaning of low 'Academic Impairment' (aca_impa) contributing negatively to screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic impairment status on depression and anxiety screening outcomes\",\n      \"expected_evidence\": [\n        \"Understanding the relationship between academic performance/impairment and mental health screening.\",\n        \"How low levels of academic impairment are associated with resilience.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Focuses on a key protective factor (aca_impa) that is distinct from general well-being measures, providing depth to the XAI section.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of using machine learning models for non-diagnostic student depression/anxiety screening, and what contextual factors should be considered when interpreting these results?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Limitations and applicability domain of ML models in campus mental health screening\",\n      \"expected_evidence\": [\n        \"Model limitations regarding individual variability.\",\n        \"Best practices for integrating model output with qualitative clinical judgment.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial step to manage expectations and provide necessary context on the scientific basis of the report, especially since the risk is low.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the standardized non-diagnostic communication guidelines for presenting screening results to an expert audience?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Non-diagnostic language guidelines for mental health screening reports\",\n      \"expected_evidence\": [\n        \"Standard phrasing to avoid implying diagnosis or causality.\",\n        \"Best practices for communicating risk levels without causing undue alarm.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure the final report adheres strictly to non-diagnostic, safety-first language.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

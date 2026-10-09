@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_20",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:28:08.203601+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 2,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is generally relevant, safe, and answerable using a knowledge database. However, it covers only one major XAI contributor (Academic impairment) despite several high-contributing features being present, which limits its alignment with the full explanatory model. The questions are clear and distinct, and they adapt appropriately to the high-risk context."
+}

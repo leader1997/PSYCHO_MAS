@@ -1,0 +1,8 @@
+query,expected_docs,top_docs,hit_rank,reciprocal_rank
+PHQ-9 depression screening instrument for college students,"DOC_A009,DOC_B006,DOC_B007","DOC_B006,DOC_B002,DOC_D001",1,1.0
+GAD-7 anxiety scale validation among college students,"DOC_B002,DOC_B003","DOC_B002,DOC_D001,DOC_E001",1,1.0
+loneliness scale social isolation depression among students,"DOC_C001,DOC_C002,DOC_C003","DOC_C002,DOC_D001,DOC_E001",1,1.0
+academic stress impairment depression anxiety university students,"DOC_D001,DOC_D002,DOC_D003,DOC_D004","DOC_D001,DOC_B002,DOC_E001",1,1.0
+food insecurity financial stress mental health college students,"DOC_E001,DOC_E002,DOC_E003","DOC_D001,DOC_B002,DOC_E001",3,0.3333333333333333
+SHAP feature attribution explainable AI calibration probability,"DOC_H001,DOC_H002,DOC_H003,DOC_H005","DOC_H001,DOC_I001,DOC_B002",1,1.0
+RAG citation faithfulness hallucination evaluation retrieval augmented generation,"DOC_I001,DOC_I002,DOC_I003,DOC_I004,DOC_I005,DOC_I006","DOC_I001,DOC_H001,DOC_E001",1,1.0

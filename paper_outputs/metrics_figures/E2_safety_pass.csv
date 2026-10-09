@@ -1,0 +1,6 @@
+Metric,Value,n
+Safety pass,100%,2
+XAI alignment pass,100%,2
+Schema-valid reports,100%,2
+Citations fully supported,25 / 32,32
+Citations partially supported,7 / 32,32

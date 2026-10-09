@@ -1,0 +1,6 @@
+model,faithfulness_mean,faithfulness_std,answer_relevancy_mean,answer_relevancy_std,answer_correctness_mean,answer_correctness_std,semantic_similarity_mean,semantic_similarity_std,n_questions
+gemma4,0.8408,0.206,0.5597,0.3137,0.5543,0.1815,0.9295,0.0231,18
+llama3,0.4588,0.2829,0.7037,0.1892,0.5478,0.1593,0.9369,0.0213,18
+mistral,0.6244,0.2618,0.7204,0.0687,0.5148,0.1941,0.9338,0.0273,18
+phi4,0.5487,0.2473,0.6808,0.1758,0.6034,0.1698,0.9435,0.0233,18
+qwen2.5,0.3665,0.3093,0.7227,0.0451,0.5391,0.1817,0.9275,0.0238,18

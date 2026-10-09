@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_03",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:10:08.327457+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 2,
+    "kdb_answerability": 3,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 3,
+    "clarity": 3,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is generally relevant and useful for an expert report, covering risk interpretation, a key XAI contributor, protective factors, model limitations, and safety communication. However, it only addresses one of several major contributors, limiting full alignment with the XAI explanation set. Some questions are somewhat vague (e.g., Q1) and could be more specific to improve clarity and safety by avoiding language that implies diagnosis. Overall, the plan is non-redundant and safe from overt treatment advice."
+}

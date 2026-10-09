@@ -1,0 +1,25 @@
+slice,n,keyword_recall@5,keyword_precision@5,answer_correctness,answer_relevancy,faithfulness,context_precision,safety_judge,behavior_alignment,category,difficulty,answer_type
+overall,100,0.1567,0.082,0.7975,0.941,0.8485,0.8045,0.945,0.778,,,
+category,7,0.0,0.0,0.5571,0.7,0.5429,0.8286,0.6429,0.7,Ablation studies and metrics,,
+category,10,0.1,0.04,0.685,0.98,0.76,0.79,0.9,0.84,Controlled agentic workflow,,
+category,12,0.1528,0.0667,0.75,0.975,0.8583,0.8042,0.9583,0.7875,Evidence grounding and citation faithfulness,,
+category,8,0.1667,0.075,0.75,0.95,0.8188,0.7875,0.9375,0.775,Local Ollama evaluation and judging,,
+category,12,0.2083,0.1167,0.9833,0.9833,0.975,0.8167,1.0,0.7667,Non-diagnostic safety and boundaries,,
+category,10,0.075,0.06,0.89,0.95,0.95,0.78,0.95,0.8,Retrieval and corpus quality,,
+category,5,0.1,0.04,0.8,0.96,0.98,0.8,1.0,0.56,Robustness and edge cases,,
+category,12,0.1667,0.0667,0.7083,0.9167,0.8167,0.8,0.9583,0.7667,Screening communication and narrative quality,,
+category,12,0.3819,0.2333,0.9833,0.95,0.925,0.825,1.0,0.7958,Student mental-health factors and evidence use,,
+category,12,0.0972,0.05,0.75,0.9667,0.8,0.8083,1.0,0.8417,XAI interpretation and limitations,,
+difficulty,32,0.1484,0.075,0.7812,0.9406,0.7953,0.8109,0.9219,0.8062,,easy,
+difficulty,15,0.1444,0.0667,0.7567,0.9533,0.8533,0.7933,0.9333,0.6267,,hard,
+difficulty,53,0.1651,0.0906,0.8189,0.9377,0.8792,0.8038,0.9623,0.8038,,medium,
+answer_type,12,0.3819,0.2333,0.9833,0.95,0.925,0.825,1.0,0.7958,,,domain
+answer_type,8,0.1667,0.075,0.75,0.95,0.8188,0.7875,0.9375,0.775,,,evaluation
+answer_type,12,0.1667,0.0667,0.7083,0.9167,0.8167,0.8,0.9583,0.7667,,,generation
+answer_type,12,0.1528,0.0667,0.75,0.975,0.8583,0.8042,0.9583,0.7875,,,grounding
+answer_type,10,0.1,0.04,0.685,0.98,0.76,0.79,0.9,0.84,,,methodology
+answer_type,7,0.0,0.0,0.5571,0.7,0.5429,0.8286,0.6429,0.7,,,metrics
+answer_type,10,0.075,0.06,0.89,0.95,0.95,0.78,0.95,0.8,,,retrieval
+answer_type,5,0.1,0.04,0.8,0.96,0.98,0.8,1.0,0.56,,,robustness
+answer_type,12,0.2083,0.1167,0.9833,0.9833,0.975,0.8167,1.0,0.7667,,,safety
+answer_type,12,0.0972,0.05,0.75,0.9667,0.8,0.8083,1.0,0.8417,,,xai

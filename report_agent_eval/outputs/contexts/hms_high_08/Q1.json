@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_08",
+  "stratum": "high",
+  "qid": "Q1",
+  "question": "Given the high prediction probability (0.9713) for elevated depression/anxiety screening risk, what are the established clinical guidelines and support considerations for expert review when interpreting such a strong model output?",
+  "retrieval_query": "clinical guidelines interpretation high prediction probability elevated depression anxiety screening risk",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:42.913529+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.909729,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 2,
+      "score": 0.848136,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 3,
+      "score": 0.845978,
+      "chunk_id": "DOC_G001_p1_c3",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety, monitoring and supervision. The multicentre GET.FEEDBACK.GP RCT is the first trial in primary care that tests the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening. Its results have the potential to influence future depression guidelines and will be disseminated in scientific as well as patient- friendly language. Trial registration number NCT03988985. INTRODUCTION Major depression is one of the most disabling disorders worldwide and affects one out of ten individuals over their lifetime.1 2 However, major depression is under- recognised, diag- nosed incorrectly and thus often remains untreated.3 4 In turn, undetected depression Strengths and limitations of this study ► GET.FEEDBACK.GP is an extension of the DEPSCREEN- INFO trial, which indicated that pro- viding direct feedback to patients after depression screening reduces depression severity in cardiac patients. ► GET.FEEDBACK.GP is the first multicentre three- arm randomised controlled trial to test the efficacy of patient- targeted feedback as an adjunct to depres- sion screening in primary care. ► The novel feedback intervention is open- source, de- veloped for busy primary care settings and adapted to general practitioners’ and patients’ needs and preferences. ► As depression screening is feasible for primary care, no feasibility study for the feedback"
+    },
+    {
+      "rank": 4,
+      "score": 0.829096,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 5,
+      "score": 0.80299,
+      "chunk_id": "DOC_G001_p1_c2",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "primary care suffers from depression, which often remains undetected. Evidence regarding the efficacy of depression screening in primary care, however, is inconsistent. A previous single- centre randomised controlled trial (RCT) in cardiac patients, the DEPSCREEN- INFO trial, provided the first evidence that written feedback to patients following a positive depression screening reduces depression severity and leads to more comprehensive patient engagement in mental healthcare. To amplify these effects, the feedback should be tailored according to patients’ needs and preferences. The GET.FEEDBACK.GP RCT will test the efficacy of this patient- targeted feedback intervention in primary care. Methods and analysis The multicentre three- arm GET. FEEDBACK.GP RCT aims to recruit a total of 1074 primary care patients from North, East and South Germany. Patients will be screened for depression using the Patient Health Questionnaire-9 (PHQ-9). In the case of a positive depression screening result (PHQ-9 score ≥10), the participant will be randomised into one of three groups to either receive (a) patient- targeted and general practitioner (GP)- targeted feedback regarding the depression screening results, (b) only GP- targeted feedback or (c) no feedback. Patients will be followed over a period of 12 months. The primary outcome is depression severity (PHQ-9) 6 months after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety,"
+    }
+  ]
+}

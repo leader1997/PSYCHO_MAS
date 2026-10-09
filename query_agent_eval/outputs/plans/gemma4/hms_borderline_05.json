@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_05",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:12:16.492223+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_05",
+    "risk_interpretation": {
+      "probability": 0.5006,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.5006) is marginally above the decision threshold (0.5), what are the clinical guidelines for interpreting a 'near-threshold' result in elevated depression/anxiety screening risk, especially when calibration confirms proximity to the cutoff?",
+        "linked_xai_factor": "null",
+        "retrieval_query": "clinical interpretation of near-threshold prediction probability 0.5 vs decision threshold 0.5 for student mental health screening",
+        "expected_evidence": [
+          "Guidelines on interpreting borderline risk scores.",
+          "Recommended follow-up actions when model output is close to the established cutoff."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline (0.5006 vs 0.5) and calibration notes 'near_threshold'. This question addresses the primary uncertainty in the prediction, which is crucial for expert review."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What specific clinical context or assessment tools are needed to better understand the contribution of 'Substance use' (sub_any), which is a high-impact feature contributing positively to the elevated screening risk?",
+        "linked_xai_factor": "sub_any",
+        "retrieval_query": "clinical guidelines for assessing substance use impact on depression and anxiety screening in college students",
+        "expected_evidence": [
+          "Best practices for quantifying the severity of substance use.",
+          "How to differentiate between current risk and historical usage patterns."
+        ],
+        "priority": "high",
+        "rationale": "Substance use is a major, high-impact contributor. This question seeks actionable clinical depth rather than just accepting the model's weight."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should 'Academic impairment' (aca_impa), identified as a strong positive contributor to elevated screening risk, be differentiated from general academic stress or performance anxiety in the context of depression/anxiety screening?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "differentiating between functional impairment and generalized academic stress in mental health assessment",
+        "expected_evidence": [
+          "Criteria for defining 'impairment' versus 'difficulty'.",
+          "Assessment methods to gauge the severity of academic impact."
+        ],
+        "priority": "high",
+        "rationale": "Academic impairment is the single strongest positive contributor. This question ensures the expert reviews the *nature* of the impairment, not just its presence."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "Considering the protective contributions from 'Current financial situation' (fincur) and 'Flourishing', what are evidence-based strategies to leverage these existing strengths in the support considerations for expert review?",
+        "linked_xai_factor": "fincur, flourish",
+        "retrieval_query": "evidence-based interventions leveraging financial stability and flourishing states for mental health resilience",
+        "expected_evidence": [
+          "Psychoeducational strategies to reinforce protective factors.",
+          "Resources connecting financial wellness to mental health outcomes."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are strong mitigators. This question ensures the report doesn't just list them, but suggests how they can be actively used in support planning."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "expert_support_consideration",
+        "question": "Given the conflicting signals—high risk contributors (substance use, academic impairment) versus strong protective factors (financial stability, flourishing)—what is the optimal framework for synthesizing these elements into a cohesive support consideration for expert review?",
+        "linked_xai_factor": "null",
+        "retrieval_query": "frameworks for integrating conflicting risk and resilience data in mental health assessment reports",
+        "expected_evidence": [
+          "Models or frameworks for holistic case synthesis.",
+          "Guidance on prioritizing intervention targets when multiple factors are present."
+        ],
+        "priority": "high",
+        "rationale": "This is the meta-question that guides the expert to synthesize all previous findings into a coherent, actionable narrative, preventing simple listing of pros and cons."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic language should be used when communicating the elevated screening risk to the student or their guardian, ensuring appropriate urgency without causing undue alarm?",
+        "linked_xai_factor": "null",
+        "retrieval_query": "best practices for non-diagnostic communication of mental health screening results to students",
+        "expected_evidence": [
+          "Sample language scripts for risk disclosure.",
+          "Guidelines on maintaining student autonomy and reducing stigma."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question. Ensures the final report adheres to ethical communication standards, avoiding alarmist or diagnostic language."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5006,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.5006) is marginally above the decision threshold (0.5), what are the clinical guidelines for interpreting a 'near-threshold' result in elevated depression/anxiety screening risk, especially when calibration confirms proximity to the cutoff?\",\n      \"linked_xai_factor\": \"null\",\n      \"retrieval_query\": \"clinical interpretation of near-threshold prediction probability 0.5 vs decision threshold 0.5 for student mental health screening\",\n      \"expected_evidence\": [\n        \"Guidelines on interpreting borderline risk scores.\",\n        \"Recommended follow-up actions when model output is close to the established cutoff.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline (0.5006 vs 0.5) and calibration notes 'near_threshold'. This question addresses the primary uncertainty in the prediction, which is crucial for expert review.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What specific clinical context or assessment tools are needed to better understand the contribution of 'Substance use' (sub_any), which is a high-impact feature contributing positively to the elevated screening risk?\",\n      \"linked_xai_factor\": \"sub_any\",\n      \"retrieval_query\": \"clinical guidelines for assessing substance use impact on depression and anxiety screening in college students\",\n      \"expected_evidence\": [\n        \"Best practices for quantifying the severity of substance use.\",\n        \"How to differentiate between current risk and historical usage patterns.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Substance use is a major, high-impact contributor. This question seeks actionable clinical depth rather than just accepting the model's weight.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should 'Academic impairment' (aca_impa), identified as a strong positive contributor to elevated screening risk, be differentiated from general academic stress or performance anxiety in the context of depression/anxiety screening?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"differentiating between functional impairment and generalized academic stress in mental health assessment\",\n      \"expected_evidence\": [\n        \"Criteria for defining 'impairment' versus 'difficulty'.\",\n        \"Assessment methods to gauge the severity of academic impact.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Academic impairment is the single strongest positive contributor. This question ensures the expert reviews the *nature* of the impairment, not just its presence.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"Considering the protective contributions from 'Current financial situation' (fincur) and 'Flourishing', what are evidence-based strategies to leverage these existing strengths in the support considerations for expert review?\",\n      \"linked_xai_factor\": \"fincur, flourish\",\n      \"retrieval_query\": \"evidence-based interventions leveraging financial stability and flourishing states for mental health resilience\",\n      \"expected_evidence\": [\n        \"Psychoeducational strategies to reinforce protective factors.\",\n        \"Resources connecting financial wellness to mental health outcomes.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are strong mitigators. This question ensures the report doesn't just list them, but suggests how they can be actively used in support planning.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the conflicting signals—high risk contributors (substance use, academic impairment) versus strong protective factors (financial stability, flourishing)—what is the optimal framework for synthesizing these elements into a cohesive support consideration for expert review?\",\n      \"linked_xai_factor\": \"null\",\n      \"retrieval_query\": \"frameworks for integrating conflicting risk and resilience data in mental health assessment reports\",\n      \"expected_evidence\": [\n        \"Models or frameworks for holistic case synthesis.\",\n        \"Guidance on prioritizing intervention targets when multiple factors are present.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the meta-question that guides the expert to synthesize all previous findings into a coherent, actionable narrative, preventing simple listing of pros and cons.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic language should be used when communicating the elevated screening risk to the student or their guardian, ensuring appropriate urgency without causing undue alarm?\",\n      \"linked_xai_factor\": \"null\",\n      \"retrieval_query\": \"best practices for non-diagnostic communication of mental health screening results to students\",\n      \"expected_evidence\": [\n        \"Sample language scripts for risk disclosure.\",\n        \"Guidelines on maintaining student autonomy and reducing stigma.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question. Ensures the final report adheres to ethical communication standards, avoiding alarmist or diagnostic language.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_11",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:45:21.918768+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the case, covering key XAI contributors and protective factors while remaining safe and non‑diagnostic. It leverages scientific knowledge for answerability and provides useful context for an expert report. However, it could better adapt to the low‑risk probability by explicitly addressing uncertainty or limitations."
+}

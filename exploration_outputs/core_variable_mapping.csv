@@ -1,0 +1,12 @@
+,survey_year,weight,age,gender,depression_score,depression_any,depression_major,anxiety_score,anxiety_any,phq9_items,gad7_items,therapy_any,meds_any,suicide_ideation,self_injury,flourishing,gpa,school_id,inst_type,inst_size,inst_public
+2007-2013,survey_year,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,keyes_flourish,gpa,schoolnumber,,,
+2013-2014,survey_year,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,gpa,schoolnum,,,
+2016-2017,survey,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,gpa_sr,schoolnum,,,
+2017-2018,survey,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,gpa_sr,,inst_type,inst_size,inst_public
+2018-2019,survey,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,gpa_sr,schoolnum,inst_type,inst_size,inst_public
+2019-2020,survey,nrweight,age,gender,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,gpa_sr,schoolnum,inst_type,inst_size,inst_public
+2020-2021,survey,nrweight,age,gender_female,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,,schoolnum,,,
+2021-2022,survey,nrweight,age,gender_female,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,,schoolnum,inst_type,inst_size,inst_public
+2022-2023,,nrweight,age,gender_female,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,,schoolnum,inst_type,inst_size,inst_public
+2023-2024,,nrweight,age,gender_female,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,,schoolnum,inst_type,inst_size,inst_public
+2024-2025,,nrweight,age,gender_female,deprawsc,dep_any,dep_maj,anx_score,anx_any,phq9_1,gad7_1,ther_any,meds_any,sui_idea,sib_any,flourish,,schoolnum,inst_type,inst_size,inst_public

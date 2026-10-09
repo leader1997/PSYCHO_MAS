@@ -1,0 +1,7 @@
+condition,mode,Hit@5
+Plain,dense,0.6825
+Plain,hybrid,0.7937
+Metadata,dense,0.6508
+Metadata,hybrid,0.746
+Ollama context,dense,0.6825
+Ollama context,hybrid,0.8254

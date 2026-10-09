@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="430.0" y="28" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700">MRR@5 delta on collection queries</text>
+<line x1="505.0" y1="40" x2="505.0" y2="218" stroke="#333"/>
+<text x="218" y="74" text-anchor="end" font-family="Arial" font-size="13">Ollama hybrid - plain hybrid</text>
+<line x1="505.0" y1="70" x2="682.4" y2="70" stroke="#59A14F" stroke-width="14"/>
+<text x="690.4" y="74" text-anchor="start" font-family="Arial" font-size="13">+0.0471</text>
+<text x="218" y="116" text-anchor="end" font-family="Arial" font-size="13">Metadata hybrid - plain hybrid</text>
+<line x1="505.0" y1="112" x2="514.8" y2="112" stroke="#59A14F" stroke-width="14"/>
+<text x="522.8" y="116" text-anchor="start" font-family="Arial" font-size="13">+0.0026</text>
+<text x="218" y="158" text-anchor="end" font-family="Arial" font-size="13">Metadata dense - plain dense</text>
+<line x1="505.0" y1="154" x2="780.0" y2="154" stroke="#59A14F" stroke-width="14"/>
+<text x="788.0" y="158" text-anchor="start" font-family="Arial" font-size="13">+0.0730</text>
+<text x="218" y="200" text-anchor="end" font-family="Arial" font-size="13">Ollama dense - plain dense</text>
+<line x1="505.0" y1="196" x2="534.8" y2="196" stroke="#59A14F" stroke-width="14"/>
+<text x="542.8" y="200" text-anchor="start" font-family="Arial" font-size="13">+0.0079</text>
+</svg>

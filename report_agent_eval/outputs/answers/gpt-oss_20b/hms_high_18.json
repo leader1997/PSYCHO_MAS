@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_18",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9631) and 'elevated screening risk' label, what are evidence-based support considerations for expert review regarding immediate psychoeducational resources or follow-up assessment pathways?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "The high probability and elevated risk flag warrant an immediate, evidence‑based response that prioritizes early identification and safe referral. First, administer the PHQ‑9 to confirm severity, as the screening protocol in Context 1 shows that a positive PHQ‑2 followed by a PHQ‑9 leads to timely counseling referrals. Second, provide psychoeducational materials on coping strategies and the importance of social support—research in Context 3 demonstrates that higher perceived support reduces depression and anxiety symptoms. Third, conduct a brief safety assessment for suicidal ideation; if present, refer urgently to campus mental health services or crisis resources, consistent with the risk mitigation highlighted in Context 5. Finally, schedule a follow‑up appointment within one week to monitor symptom change and reinforce engagement with counseling or peer support groups, aligning with the early identification emphasis noted across the evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:32:54.815953+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the clinical significance of 'Academic impairment' (aca_impa) being a major feature contributing to the model prediction, and what are best practices for assessing its impact on student mental health?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment emerging as a major predictor in the model underscores its role as a statistical marker of how mental health difficulties translate into tangible academic outcomes such as lower GPA and increased dropout risk—findings consistently reported for depression and co‑occurring anxiety (Eisenberg et al., 2009; Golberstein et al., 2005). Because symptoms like anhedonia drive the negative association with performance, routine screening for depressive affect and anxiety disorders can identify students at greatest risk of academic decline. Best practice therefore involves a multi‑tiered assessment: (1) administer validated mental‑health questionnaires alongside academic record monitoring to detect early GPA dips; (2) evaluate procrastination levels, which correlate positively with stress, anxiety, and depression, as an intermediate behavior that may mediate impairment; and (3) employ within‑person longitudinal analyses to distinguish transient from persistent deficits. Such systematic screening enables timely referral for counseling or support services while also informing institutional interventions aimed at reducing dropout rates.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:33:59.997008+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How should social factors, specifically 'Loneliness' (lonely) and low 'Campus belonging' (belong2), be interpreted in the context of elevated screening risk, and what interventions target these specific deficits?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Elevated scores on loneliness (lonely) and low campus belonging (belong2) flag students at higher risk for depression, anxiety, and academic disengagement, as both factors are linked to poorer mental‑health outcomes and lower retention rates (Context 5; Context 4).  Screening that identifies these deficits can trigger early, tiered supports before symptoms intensify (Context 3).  Evidence‑based belonging interventions—such as structured peer‑mentoring programs, inclusive group activities, and campus climate initiatives—have shown effectiveness in reducing depressive symptoms and improving well‑being (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011) (Context 1).  For loneliness, while definitive interventions are still being evaluated, approaches that increase structured social contact and teach social skills can mitigate isolation and its negative health impacts (Masi et al., 2011; Context 1).  Integrating these targeted strategies into a multi‑tiered system of supports ensures that students with high loneliness or low belonging receive timely, evidence‑grounded assistance.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:35:10.246451+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the role of protective factors (e.g., low 'Food insecurity worry' or stable 'Institution type') in mitigating elevated screening risk, and how should these strengths be integrated into expert support considerations?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The retrieved sources do not provide data on food‑insecurity worry or institution type, so their specific influence on screening risk cannot be quantified here. However, the evidence consistently shows that assessing strengths—such as overall well‑being, social support, and life satisfaction—alongside symptoms can improve early identification and reduce escalation of mental health problems (Context 3; Context 4). In practice, experts should incorporate strength indicators into triage protocols, using them to inform tiered supports and to monitor resilience over time. This approach aligns with the multi‑tiered system model described in Context 4, which emphasizes that early detection of both risk and protective factors can guide more cost‑effective, individualized interventions (Context 3). When strengths are identified, they should be highlighted in student profiles and used to tailor supportive services, ensuring that resources are allocated not only to those at greatest risk but also to reinforce existing resilience.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:36:13.059619+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations and sources of uncertainty for this specific machine learning model (CatBoost) when applied to student mental health screening, particularly regarding feature interaction or population generalization?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The retrieved passages focus on depression screening tools (PHQ‑2/PHQ‑9) and study design considerations for college students, but none discuss the CatBoost algorithm or its performance characteristics. Consequently, there is no evidence in these sources to identify specific limitations or uncertainties related to feature interactions or population generalization for CatBoost when applied to student mental‑health screening. Without such information, a grounded assessment of CatBoost’s constraints cannot be provided here.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:37:20.872509+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the standardized, non-diagnostic communication protocol for informing a student or guardian about an elevated screening risk score, ensuring appropriate safety planning without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "A school screening team should first provide students and families with clear, non‑diagnostic information about the purpose of the screener before it is administered, offering consent or opt‑out options (Context 3). If a student’s score indicates elevated risk for self‑harm or harm to others, the team must notify the student/guardian promptly using supportive language that emphasizes safety and available help rather than labeling the student as “diagnosed” (Context 1). The notification should include an immediate safety assessment—determining whether the student is in danger—and a brief safety plan outlining next steps, such as contacting a mental‑health professional or crisis line (Context 1). A defined triage process then directs the student to Tier 2 or Tier 3 services and ensures timely referral to school or community supports (Context 3). Finally, follow‑up communication confirms that help is underway and offers ongoing check‑ins, thereby maintaining safety while minimizing unnecessary alarm.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:38:34.818721+00:00"
+    }
+  }
+}

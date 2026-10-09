@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_09",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:21:22.380513+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 2,
+    "kdb_answerability": 2,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing a solid foundation for an expert-facing report. However, it covers only a subset of the key XAI contributors (loneliness and flourishing) and relies heavily on model outputs rather than external scientific knowledge, limiting its alignment with all major contributors and KDB answerability. The plan adapts moderately to the borderline risk level but could incorporate more tailored questions based on probability thresholds."
+}

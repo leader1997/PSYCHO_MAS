@@ -1,0 +1,5 @@
+experiment,model,student_level_auc,institution_heldout_auc_mean,institution_heldout_auc_std,delta_auc_student_minus_heldout,student_level_pr_auc,institution_heldout_pr_auc_mean,institution_heldout_pr_auc_std,student_level_brier,institution_heldout_brier_mean,institution_heldout_brier_std
+E1_full,CatBoost,0.852041,0.854679,0.004474,-0.002638,0.824839,0.82851,0.005026,0.156911,0.155257,0.00266
+E1_full,XGBoost,0.853226,0.855512,0.0046,-0.002286,0.82307,0.829648,0.005065,0.156096,0.154766,0.002939
+E6_no_institution,CatBoost,0.852041,0.85448,0.004065,-0.002439,0.824839,0.828067,0.005484,0.156911,0.1554,0.002439
+E6_no_institution,XGBoost,0.853226,0.855288,0.004137,-0.002062,0.82307,0.829422,0.005207,0.156096,0.155006,0.002696

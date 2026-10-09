@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_12",
+  "stratum": "high",
+  "qid": "Q3",
+  "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are evidence-based strategies for addressing basic needs deficits in the context of mental health support?",
+  "retrieval_query": "link between food insecurity worry and depression anxiety screening risk interventions",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:39.016389+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.961619,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in"
+    },
+    {
+      "rank": 2,
+      "score": 0.888047,
+      "chunk_id": "DOC_A003_p5_c2",
+      "doc_id": "DOC_A003",
+      "title": "[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "of depression, anxiety, and stress (p < 0.001). Other factors such as age, study field, family income, khat chewing, and insomnia were also significantly associated with depression (p < 0.05). Conclusion: The study reveals high prevalence rates of depression, anxiety, stress, and insomnia among university students in Yemen, with notable gender disparities and associations with various sociodemographic and lifestyle factors. These findings underscore the need for targeted mental health interventions and support services tailored to the specific needs of this population. Keywords: Depression, Anxiety, Stress, Insomnia, University Students, Yemen, Mental Health."
+    },
+    {
+      "rank": 3,
+      "score": 0.862193,
+      "chunk_id": "DOC_D003_p4_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "4 competitive, public university. We surveyed a random sample of approximately 2,800 undergraduate and graduate students abou t a range of mental health issues in fall 2005, and we conducted a follow-up survey with a subset of the sample in fall 2007. In this paper we focus on thre e of the most common types of mental disorders among adolescents and young adu lts: depression, anxiety disorders, and eating disorders. We link the survey data on mental health to academic measures collected from the university’s administrative records. This is the first study, to our knowledge, that examines how mental health predicts GPA and dropping out in a random sample of college students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, even after controlling for symptoms of anxiety and eating disorders, prior academic performance, and other cova riates. Depression also appears to interact with anxiety; the association between depression and academic outcomes is particularly strong among students who also have a positive screen for an anxiety disorder. Among the symptoms of depression, the strongest negative predictor of academic performance is anhe donia (lack of pleasure and interest in usual activities). By contrast, negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with"
+    },
+    {
+      "rank": 4,
+      "score": 0.859754,
+      "chunk_id": "DOC_E002_p2_c1",
+      "doc_id": "DOC_E002",
+      "title": "The impact of material hardship severity and frequency on health",
+      "page": 2,
+      "category_code": "E_financial_food",
+      "text": "PLOS One | https://doi.org/10.1371/journal.pone.0335790 October 30, 2025 2 / 16 directly, rather than relying on traditional measures of household income or poverty rates, which are often not fully reflective of lived experience. Material hardship matters not only as an indicator of economic disadvantage, but also as a determinant of health. A growing body of research links hardship to higher rates of adverse mental and physical health consequences, especially among vulner- able populations. Studies of families and their children [2–4], young and working-age adults [5,6], and the elderly [7] have found a consistent association between facing one or more material hardships and health outcomes, such as depression, stress, trouble sleeping, and suicidal thoughts. While the mental health effects appear to be relatively consistent across hardship indicators, e.g., all contribute to issues like anxiety and depression, the physical health effects may be more specific. Evidence shows, for example, chronic food inse- curity contributes to issues of diabetes and hypertension [8], while energy insecurity exposes households to environmental toxins and indoor pollution [9], and health insecurity can exacerbate the physical health conditions an individual already experi- ences due to delayed or avoided care [10]. While the prevalence of material hardship is well studied, the consequences to health are less comprehensively understood. Much of the extant literature relies on cross-sectional data, limited sample sizes, and/or individual hardships in isolation. Further, little existing research on the relationship between material hardship and health examines hardships comparatively within models (e.g., the relative effect of food versus housing hardship on mental health) or between models (e.g., the relative"
+    },
+    {
+      "rank": 5,
+      "score": 0.850521,
+      "chunk_id": "DOC_E001_p7_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 7,
+      "category_code": "E_financial_food",
+      "text": "7 7 36% of students involved with the carceral system experience homelessness. 72% of former foster youth experience housing insecurity. 62% of students with disabilities experience basic needs insecurity related to food and/or housing—13 percentage points higher than students without disabilities (56%). The link between student basic needs security and persistence is unequivocal: 52% of Pell Grant recipients experience food insecurity—17 percentage points higher than non- Pell Grant recipients (35%). 79% of student respondents to our survey who had previously stopped out of college (and subsequently re-enrolled), or were considering stopping out of college, told us it was due to basic needs insecurity (emotional stress/ mental health, lacking money for living expenses, childcare/caregiver responsibilities, lack of transportation, lack of access to internet/technology) or financial reasons (cost of attendance/ insufficient financial aid, cost of textbooks or course materials, unexpected financial expense/emergency)."
+    }
+  ]
+}

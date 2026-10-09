@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_08",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "Given the strong negative contribution of 'Flourishing' (-0.4325) and 'Academic Impairment' (-0.9399), what is the clinical weight or interpretation of these protective factors in mitigating elevated depression/anxiety screening risk?",
+  "retrieval_query": "clinical significance of flourishing and academic impairment as protective factors against student mental health risks",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:51.469374+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.891152,
+      "chunk_id": "DOC_F004_p2_c1",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Zhao and Hua 10.3389/fpsyg.2025.1585058 Frontiers in Psychology 02 frontiersin.org Universities have been increasingly implementing initiatives that address and assess various aspects of student wellbeing, recognizing its critical role in fostering academic and personal flourishing. These initiatives include positive psychology interventions (e.g., Hall et al., 2024), mental health services (e.g., Osborn et al., 2022), curriculum- embedded activities (e.g., Upsher et al., 2022 ), and wellbeing assessments (e.g., Williams et al., 2017 ). Universities profoundly influence students’ learning experiences, making it crucial to comprehensively understand how university experience, as one of the key factors, shapes student wellbeing and flourishing in order to inform effective institutional practices and policies (Baik et al., 2019; Campbell et al., 2022; Gilmore et al., 2025; Riva et al., 2020). 1.1 University students’ wellbeing Defining wellbeing is complex and multifaceted, with multiple theoretical frameworks present in the literature (Marsh et al., 2020). While definitions of wellbeing vary across frameworks and in the higher education context (e.g., Barkham et al., 2019; Dodd et al., 2021), these frameworks often distinguish between hedonic and eudaimonic wellbeing. Hedonic wellbeing primarily involves happiness and life satisfaction, focusing on the cognitive and affective facets of wellbeing, such as subjective experiences of joy, contentment, and overall life satisfaction, as posited by Diener’s (1984) theory of subjective wellbeing. Eudaimonic wellbeing, rooted in the concept of living a fulfilling and meaningful life (Steger, 2009), involves realizing one’s potential and pursuing personal growth (Ryff, 1989; Ryan and Deci, 2001 ). Additionally, social wellbeing is another crucial dimension, particularly in a university context ( Eloff et al., 2022; Makaremi"
+    },
+    {
+      "rank": 2,
+      "score": 0.884107,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 3,
+      "score": 0.88022,
+      "chunk_id": "DOC_F004_p1_c3",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "and flourishing holds the promise of better preparing students not only for academic success but also for leading fulfilling lives and contributing meaningfully to society, underscoring that university is not just a pathway to better jobs; it is also a means to better lives (OECD, 2012). Achieving a high state of wellbeing, or student flourishing, is crucial for students to thrive both academically and personally. OPEN ACCESS EDITED BY Eirini Karakasidou, Panteion University, Greece REVIEWED BY Bernhard Schmitz, Darmstadt University of Technology, Germany Athena Daniilidou, University of Macedonia, Greece *CORRESPONDENCE Yue Zhao myzhao@hku.hk RECEIVED 28 February 2025 ACCEPTED 30 June 2025 PUBLISHED 24 July 2025 CITATION Zhao Y and Hua Y (2025) The prediction of student wellbeing and flourishing from university learning experiences. Front. Psychol. 16:1585058. doi: 10.3389/fpsyg.2025.1585058 COPYRIGHT © 2025 Zhao and Hua. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. TYPE Brief Research Report PUBLISHED 24 July 2025 DOI 10.3389/fpsyg.2025.1585058"
+    },
+    {
+      "rank": 4,
+      "score": 0.86694,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 5,
+      "score": 0.856953,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    }
+  ]
+}

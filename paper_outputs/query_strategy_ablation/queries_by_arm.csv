@@ -1,0 +1,49 @@
+case_id,arm,qid,retrieval_query,source
+hms_low_01,direct,D1,"college student not elevated screening risk screening probability 0.05 contributing factors: Public institution, Institution size",direct_case_xai_card
+hms_low_01,template,T_risk,interpreting elevated depression anxiety screening risk college students non-diagnostic guidelines,template_risk
+hms_low_01,template,T_xai_1,Public institution and college student depression anxiety screening evidence (inst_public),template_xai:inst_public
+hms_low_01,template,T_xai_2,Institution size and college student depression anxiety screening evidence (inst_size),template_xai:inst_size
+hms_low_01,template,T_prot_1,Academic impairment protective factors student mental health screening,template_protective:aca_impa
+hms_low_01,template,T_prot_2,Loneliness protective factors student mental health screening,template_protective:lonely
+hms_low_01,template,T_prot_3,Flourishing protective factors student mental health screening,template_protective:flourish
+hms_low_01,template,T_safety,non-diagnostic screening communication referral college counseling,template_safety
+hms_low_01,llm_plan,Q1,non-diagnostic communication strategies for low depression/anxiety screening risk,llm_query_planning_agent
+hms_low_01,llm_plan,Q2,protective factors flourishing academic impairment correlation with student mental health outcomes,llm_query_planning_agent
+hms_low_01,llm_plan,Q3,association between public institution attendance and student mental health screening risk,llm_query_planning_agent
+hms_low_01,llm_plan,Q4,financial stability impact on student mental health outcomes,llm_query_planning_agent
+hms_low_01,llm_plan,Q5,limitations of predictive models for low-risk scores in mental health screening,llm_query_planning_agent
+hms_low_01,llm_plan,Q6,contextual factors for expert interpretation of low depression/anxiety screening scores,llm_query_planning_agent
+hms_borderline_01,direct,D1,"college student elevated screening risk screening probability 0.5001 contributing factors: Current financial situation, Loneliness, Age, Campus belonging (item 1), Binge drinking",direct_case_xai_card
+hms_borderline_01,template,T_risk,interpreting elevated depression anxiety screening risk college students non-diagnostic guidelines,template_risk
+hms_borderline_01,template,T_xai_1,Current financial situation and college student depression anxiety screening evidence (fincur),template_xai:fincur
+hms_borderline_01,template,T_xai_2,Loneliness and college student depression anxiety screening evidence (lonely),template_xai:lonely
+hms_borderline_01,template,T_xai_3,Age and college student depression anxiety screening evidence (age),template_xai:age
+hms_borderline_01,template,T_xai_4,Campus belonging (item 1) and college student depression anxiety screening evidence (belong1),template_xai:belong1
+hms_borderline_01,template,T_xai_5,Binge drinking and college student depression anxiety screening evidence (binge1pl),template_xai:binge1pl
+hms_borderline_01,template,T_prot_1,Flourishing protective factors student mental health screening,template_protective:flourish
+hms_borderline_01,template,T_prot_2,Academic impairment protective factors student mental health screening,template_protective:aca_impa
+hms_borderline_01,template,T_prot_3,Positive mental health protective factors student mental health screening,template_protective:positiveMH
+hms_borderline_01,template,T_safety,non-diagnostic screening communication referral college counseling,template_safety
+hms_borderline_01,llm_plan,Q1,clinical interpretation of near-threshold elevated depression/anxiety screening risk,llm_query_planning_agent
+hms_borderline_01,llm_plan,Q2,impact of social isolation and loneliness on student depression and anxiety screening risk,llm_query_planning_agent
+hms_borderline_01,llm_plan,Q3,relationship between current financial strain and mental health screening risk in students,llm_query_planning_agent
+hms_borderline_01,llm_plan,Q4,protective role of flourishing and positive psychological resources against depression/anxiety,llm_query_planning_agent
+hms_borderline_01,llm_plan,Q5,role of positive mental health in buffering environmental stressors for students,llm_query_planning_agent
+hms_borderline_01,llm_plan,Q6,non-diagnostic communication strategies for elevated mental health screening results,llm_query_planning_agent
+hms_high_01,direct,D1,"college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",direct_case_xai_card
+hms_high_01,template,T_risk,interpreting elevated depression anxiety screening risk college students non-diagnostic guidelines,template_risk
+hms_high_01,template,T_xai_1,Academic impairment and college student depression anxiety screening evidence (aca_impa),template_xai:aca_impa
+hms_high_01,template,T_xai_2,Flourishing and college student depression anxiety screening evidence (flourish),template_xai:flourish
+hms_high_01,template,T_xai_3,Current financial situation and college student depression anxiety screening evidence (fincur),template_xai:fincur
+hms_high_01,template,T_xai_4,Loneliness and college student depression anxiety screening evidence (lonely),template_xai:lonely
+hms_high_01,template,T_xai_5,Food insecurity worry and college student depression anxiety screening evidence (food_worry),template_xai:food_worry
+hms_high_01,template,T_prot_1,Institution type protective factors student mental health screening,template_protective:inst_type
+hms_high_01,template,T_prot_2,Age protective factors student mental health screening,template_protective:age
+hms_high_01,template,T_prot_3,Past financial stress protective factors student mental health screening,template_protective:finpast
+hms_high_01,template,T_safety,non-diagnostic screening communication referral college counseling,template_safety
+hms_high_01,llm_plan,Q1,clinical guidelines interpretation of high depression anxiety screening risk,llm_query_planning_agent
+hms_high_01,llm_plan,Q2,academic impairment correlation with student mental health outcomes,llm_query_planning_agent
+hms_high_01,llm_plan,Q3,impact of food insecurity on mental health outcomes in students,llm_query_planning_agent
+hms_high_01,llm_plan,Q4,protective role of age and institution type in mental health screening,llm_query_planning_agent
+hms_high_01,llm_plan,Q5,limitations of ML models in mental health screening,llm_query_planning_agent
+hms_high_01,llm_plan,Q6,non-diagnostic communication for high mental health screening risk,llm_query_planning_agent

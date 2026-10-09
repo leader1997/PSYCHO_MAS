@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_16",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:20:16.952083+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 2,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 4,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and well‑structured for a high‑risk student case, providing clear risk interpretation, contributor evidence, protective factors, uncertainty discussion, and safety communication. It covers the major XAI contributors but omits several other influential features, limiting full alignment with the model’s explanation space. Many questions rely on case‑specific data rather than general scientific knowledge, reducing kdb answerability. Overall, it offers strong support for an expert report while maintaining non‑diagnostic framing and safety considerations."
+}

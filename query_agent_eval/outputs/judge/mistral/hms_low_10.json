@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_10",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:48:35.666300+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is generally well‑structured and safe, providing clear risk interpretation, evidence for key XAI contributors, a protective factor, and safety communication. It covers most major contributors but omits the public institution factor and several protective factors, slightly reducing alignment with the full XAI set. The questions are answerable via scientific literature and would support an expert report, though adaptation to the low‑risk context could be expanded."
+}

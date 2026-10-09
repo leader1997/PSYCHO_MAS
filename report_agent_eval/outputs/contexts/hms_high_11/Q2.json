@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_11",
+  "stratum": "high",
+  "qid": "Q2",
+  "question": "What are the established relationships between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, particularly when this feature contributes significantly to the model prediction?",
+  "retrieval_query": "Impact of academic impairment on student mental health outcomes and screening risk factors",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:21.830403+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.931058,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 2,
+      "score": 0.899813,
+      "chunk_id": "DOC_B001_p1_c1",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Predictors of mental health and academic outcomes in first-year university students: Identifying prevention and early-intervention targets A. Duffy, C. Keown-Stoneman, S. Goodday, J. Horrocks, M. Lowe, N. King, W. Pickett, S. H. McNevin, S. Cunningham, D. Rivera, L. Bisdounis, C. R. Bowie, K. Harkness and K. E. A. Saunders Background Although there is growing interest in mental health problems in university students there is limited understanding of the scope of need and determinants to inform intervention efforts. Aims To longitudinally examine the extent and persistence of mental health symptoms and the importance of psychosocial and life- style factors for student mental health and academic outcomes. Method Undergraduates at a Canadian university were invited to com- plete electronic surveys at entry and completion of their first year. The baseline survey measured important distal and prox- imal risk factors and the follow-up assessed mental health and well-being. Surveys were linked to academic grades. Multivariable models of risk factors and mental health and aca- demic outcomes were fit and adjusted for confounders. Results In 1530 students surveyed at entry to university 28% and 33% screened positive for clinically significant depressive and anxiety symptoms respectively, which increased to 36% and 39% at the completion of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower"
+    },
+    {
+      "rank": 3,
+      "score": 0.889919,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 4,
+      "score": 0.866966,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial."
+    },
+    {
+      "rank": 5,
+      "score": 0.834917,
+      "chunk_id": "DOC_B001_p2_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever harmed yourself without the intent of ending your life ’, ‘have you had any thoughts of ending your life ’ and ‘have you made a suicide attempt.’ Owing to the bias associated with dichotomising variables and decreased power, we examined secondary mental health outcomes as total symptom scores on the PHQ-9 and GAD- 7. Functional impairment related to depressive and anxiety symp- toms was assessed by asking ‘how difficult have these symptoms made it for you to do your work, take care of things at home, or get along with others? ’ rated from 0 (not difficult at all) to 3 (extremely difficult). Respondents rating 2 or 3 were considered to have significant impairment associated with their symptoms. Academic outcomes Academic outcomes included cumulative grade point average (GPA) abstracted from the university database and well-being at university indexed by the School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between"
+    }
+  ]
+}

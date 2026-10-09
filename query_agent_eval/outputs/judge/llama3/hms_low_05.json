@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_05",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:37:34.250066+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and well‑aligned with the model’s protective contributors, providing clear, non‑diagnostic inquiries that support expert reporting. It adapts appropriately to a low‑risk scenario and avoids overt treatment advice. Minor caution: phrasing in Q2/Q3 could be perceived as causal; slightly rewording to emphasize explanatory rather than causal language would strengthen safety compliance."
+}

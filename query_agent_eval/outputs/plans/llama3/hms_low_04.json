@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_low_04",
+  "model": "llama3",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:34:02.446761+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_04",
+    "risk_interpretation": {
+      "probability": 0.0515,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "Is the student's low screening risk a reliable indication of their mental health status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "high",
+        "rationale": "To ensure that the expert-facing report accurately communicates the student's low screening risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What features contributed positively to the model's risk prediction, and how do these factors impact the student's mental health?",
+        "linked_xai_factor": "belong1, belong2, inst_size",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert-facing support considerations that highlight the features contributing to the model's risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How do the student's academic impairment, age, flourishing, and loneliness levels contribute to their low screening risk?",
+        "linked_xai_factor": "aca_impa, age, flourish, lonely",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert-facing support considerations that highlight the protective factors contributing to the student's low screening risk."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_low_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0515,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"Is the student's low screening risk a reliable indication of their mental health status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure that the expert-facing report accurately communicates the student's low screening risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What features contributed positively to the model's risk prediction, and how do these factors impact the student's mental health?\",\n      \"linked_xai_factor\": \"belong1, belong2, inst_size\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert-facing support considerations that highlight the features contributing to the model's risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do the student's academic impairment, age, flourishing, and loneliness levels contribute to their low screening risk?\",\n      \"linked_xai_factor\": \"aca_impa, age, flourish, lonely\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert-facing support considerations that highlight the protective factors contributing to the student's low screening risk.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote that since the case is low risk, I generated only three questions to provide expert-facing support considerations. The questions focus on safety communication, XAI contributor evidence, and protective factors."
+}

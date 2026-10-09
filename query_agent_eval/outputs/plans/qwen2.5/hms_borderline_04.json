@@ -1,0 +1,137 @@
+{
+  "case_id": "hms_borderline_04",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:46:11.366809+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_04",
+    "risk_interpretation": {
+      "probability": 0.4995,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.4995 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of near-threshold probabilities in predictive models",
+        "expected_evidence": [
+          "near-threshold probability interpretation",
+          "decision threshold impact"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the borderline nature of this prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's interpretation that loneliness (Loneliness) is a major contributor to the elevated screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "elevated depression/anxiety screening risk due to loneliness in students",
+        "expected_evidence": [
+          "studies linking loneliness to mental health",
+          "surveys on student loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Validate the importance of this XAI factor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does a high current financial situation (Current financial situation) contribute to reducing the student's screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stability and its impact on mental health in students",
+        "expected_evidence": [
+          "studies linking financial stability to reduced stress",
+          "surveys on financial well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the protective effect of this factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What uncertainties or limitations should we consider in interpreting the model's prediction given its near-threshold status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "uncertainties and limitations of predictive models with near-threshold probabilities",
+        "expected_evidence": [
+          "model calibration issues",
+          "near-threshold probability implications"
+        ],
+        "priority": "medium",
+        "rationale": "Address potential model uncertainties."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the borderline nature of this screening risk to the student and their support network without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating borderline mental health risks",
+        "expected_evidence": [
+          "communication strategies for borderline cases",
+          "guidelines on non-diagnostic language"
+        ],
+        "priority": "high",
+        "rationale": "Ensure safe and effective communication."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's interpretation that academic impairment (Academic impairment) is a minor contributor to the elevated screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic performance and its correlation with mental health in students",
+        "expected_evidence": [
+          "studies linking academic performance to mental health",
+          "surveys on student academic stress"
+        ],
+        "priority": "low",
+        "rationale": "Support the minor contribution of this XAI factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's interpretation that flourishing (Flourishing) is a minor contributor to the elevated screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "mental well-being and its impact on depression/anxiety screening risks",
+        "expected_evidence": [
+          "studies linking positive mental health to reduced risk",
+          "surveys on flourishing"
+        ],
+        "priority": "low",
+        "rationale": "Support the minor contribution of this XAI factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's interpretation that positive mental health (Positive mental health) is a minor contributor to the elevated screening risk?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "mental well-being and its impact on depression/anxiety screening risks",
+        "expected_evidence": [
+          "studies linking positive mental health to reduced risk",
+          "surveys on flourishing"
+        ],
+        "priority": "low",
+        "rationale": "Support the minor contribution of this XAI factor."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.4995,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.4995 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of near-threshold probabilities in predictive models\",\n      \"expected_evidence\": [\"near-threshold probability interpretation\", \"decision threshold impact\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the borderline nature of this prediction.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's interpretation that loneliness (Loneliness) is a major contributor to the elevated screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"elevated depression/anxiety screening risk due to loneliness in students\",\n      \"expected_evidence\": [\"studies linking loneliness to mental health\", \"surveys on student loneliness\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Validate the importance of this XAI factor.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does a high current financial situation (Current financial situation) contribute to reducing the student's screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stability and its impact on mental health in students\",\n      \"expected_evidence\": [\"studies linking financial stability to reduced stress\", \"surveys on financial well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the protective effect of this factor.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What uncertainties or limitations should we consider in interpreting the model's prediction given its near-threshold status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"uncertainties and limitations of predictive models with near-threshold probabilities\",\n      \"expected_evidence\": [\"model calibration issues\", \"near-threshold probability implications\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Address potential model uncertainties.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the borderline nature of this screening risk to the student and their support network without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating borderline mental health risks\",\n      \"expected_evidence\": [\"communication strategies for borderline cases\", \"guidelines on non-diagnostic language\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure safe and effective communication.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's interpretation that academic impairment (Academic impairment) is a minor contributor to the elevated screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic performance and its correlation with mental health in students\",\n      \"expected_evidence\": [\"studies linking academic performance to mental health\", \"surveys on student academic stress\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Support the minor contribution of this XAI factor.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's interpretation that flourishing (Flourishing) is a minor contributor to the elevated screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"mental well-being and its impact on depression/anxiety screening risks\",\n      \"expected_evidence\": [\"studies linking positive mental health to reduced risk\", \"surveys on flourishing\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Support the minor contribution of this XAI factor.\"\n    },\n    {\n      \"question_id\": \"Q8\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's interpretation that positive mental health (Positive mental health) is a minor contributor to the elevated screening risk?\",\n      \"linked_xai_factor\": \"positiveMH\",\n      \"retrieval_query\": \"mental well-being and its impact on depression/anxiety screening risks\",\n      \"expected_evidence\": [\"studies linking positive mental health to reduced risk\", \"surveys on flourishing\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Support the minor contribution of this XAI factor.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

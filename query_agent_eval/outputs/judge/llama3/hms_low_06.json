@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_06",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:39:21.534408+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is largely relevant and useful for an expert report, with clear safety framing and no diagnostic or treatment advice. It covers key XAI contributors but omits the institution size factor, slightly lowering alignment. The questions are answerable via scientific literature, though some rely on case data. Overall, it provides a solid foundation for low‑risk screening review."
+}

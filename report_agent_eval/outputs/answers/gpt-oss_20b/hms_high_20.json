@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_20",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What are best practices for communicating an elevated depression/anxiety screening risk score (0.9627) to a student in a non-diagnostic manner, ensuring validation of distress without causing undue alarm or panic?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Acknowledge the student’s feelings first: “I see you’ve been feeling quite distressed lately.”  \nExplain that the score of 0.9627 indicates a high risk level for depression or anxiety, but it is not a diagnosis—just an early signal that warrants closer attention (Context 1).  \nEmphasize that this proactive screening is part of a multi‑tiered approach designed to help students learn coping skills and address concerns before they worsen (Context 1).  \nSuggest next steps: a brief follow‑up assessment with the PHQ‑9 and, if needed, a referral to campus counseling services, as recommended for positive screens (Context 2).  \nReassure that early identification can improve academic performance, social connectedness, and overall well‑being, so taking these steps is a constructive move toward better health (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:44:10.002970+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the clinical significance of academic impairment (aca_impa) as a feature contributing positively to elevated screening risk, and what are evidence-based support considerations for students experiencing this?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment is a statistically significant contributor to elevated screening risk because studies show that depression—and when combined with anxiety—predicts lower GPA and higher dropout probability (Eisenberg et al., 2009). Forms of academic impairment such as procrastination are linked to heightened stress and anxiety, especially during crises like the COVID‑19 pandemic (Context 3). Early identification through routine screening protocols (e.g., PHQ‑2/PHQ‑9 integrated into health‑center workflows) has been demonstrated to improve detection rates and enable timely referrals to counseling services (Context 4). Evidence‑based supports for students experiencing impairment include individual or group psychotherapy, academic accommodations, and structured skill‑building programs; these interventions are cost‑effective compared with later intensive care (Context 5). Counselors should monitor flagged students closely and ensure prompt linkage to appropriate mental‑health resources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:45:19.076924+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do acute stressors, specifically food insecurity worry and current financial instability (food_worry, fincur), contribute to elevated screening risk, and what are the most effective psychoeducational interventions?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Acute stressors such as food‑worry and financial instability are statistically linked to higher screening risk because they represent material hardship that mediates psychological distress. Studies show that individuals who struggle to meet basic needs report poorer self‑rated health, more sleep problems, and elevated rates of depression, anxiety, and suicidal thoughts (Context 1). Food insecurity alone affects roughly 13 million U.S. households and is associated with higher depression and stress scores (Context 2). In families with children, increases in food and utility hardship correlate with heightened parental anxiety and stress, which in turn raise child emotional distress (Context 3). For students, basic‑needs insecurity predicts mental‑health challenges and academic disengagement, underscoring its role as a risk factor for screening outcomes (Contexts 4–5).\n\nThe evidence retrieved does not specify particular psychoeducational interventions that have been empirically validated to mitigate these risks. Consequently, while addressing food and financial insecurity is likely beneficial, targeted psychoeducational strategies remain an area requiring further research.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:46:40.881212+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the protective role of stable weeknight sleep (sleep_wknight) in mitigating elevated screening risk, and how can maintaining this routine be integrated into support considerations?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence from a recent scoping review (Context 4) identifies poor sleep as an individual‑level risk factor for depression and anxiety among college students. Consistent weeknight sleep can therefore act as a protective contributor by reducing the likelihood of elevated screening scores, counterbalancing other stressors such as academic pressure or financial strain. In practice, support services could incorporate brief sleep‑hygiene modules into routine health check‑ins, encourage regular bedtime routines, and use self‑report or wearable metrics to monitor adherence. By framing stable weeknight sleep as a modifiable protective factor, counselors can tailor interventions that address both sleep habits and broader psychosocial supports.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:47:43.790580+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "Given moderate loneliness (lonely), what are evidence-based, low-barrier strategies for fostering social connection and belonging that can support students with elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Evidence from Ohio State shows that students who report a strong sense of community early in their first semester experience significantly less loneliness later (p < .05)【Context 4】, indicating that fostering an initial feeling of belonging is a low‑barrier strategy for reducing loneliness. Encouraging participation in campus activities or small group settings that promote supportive relationships can help build this sense of community; the university’s trend data also reveal increasing agreement that social relationships are supportive and rewarding between 2022 and 2025【Context 4】【Context 5】. High levels of social support have been linked to lower depression, anxiety, and suicide risk among college students【Context 3】, underscoring the mental‑health benefits of such connection strategies. Therefore, interventions that facilitate early community engagement—such as orientation programs, peer‑mentorship pairings, or low‑cost club participation—are evidence‑based, low‑barrier approaches to enhance belonging for students identified as lonely.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:49:00.228202+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What specific differential diagnostic considerations or next steps should the expert review consider when interpreting a high screening risk score, particularly regarding the need for professional assessment versus psychoeducation?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A high score on the PHQ‑2 should prompt a full PHQ‑9 assessment, as the PHQ‑9 has established construct validity and reliable psychometric properties in university populations (Context 1). If the PHQ‑9 indicates moderate to severe depressive symptoms or suicidal ideation, referral to counseling services is recommended; this pathway is supported by the study protocol that links positive screening to professional evaluation and referral (Contexts 4 and 5). Psychoeducation can be offered concurrently, but it should not replace a formal assessment when risk thresholds are exceeded. Clinicians should also consider differential presentations such as somatic complaints or anxiety disorders that may mimic depressive symptoms, especially in settings where complaint‑based screening under‑detects depression (Context 5). Thus, the next step is a structured clinical interview or professional evaluation rather than solely psychoeducational outreach when a high screening risk score is observed.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:49:45.241491+00:00"
+    }
+  }
+}

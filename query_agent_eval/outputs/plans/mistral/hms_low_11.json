@@ -1,0 +1,153 @@
+{
+  "case_id": "hms_low_11",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:49:24.182099+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_11",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the 5.72% probability for this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of a 5.72% probability in mental health screening",
+        "expected_evidence": [
+          "interpretation of 5.72% probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the positive contribution of 'belong1' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'belong1'",
+        "retrieval_query": "Evidence for the positive contribution of 'belong1' in mental health screening",
+        "expected_evidence": [
+          "evidence for positive contribution of 'belong1'"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of this major contributor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the positive contribution of 'exerc' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'exerc'",
+        "retrieval_query": "Evidence for the positive contribution of 'exerc' in mental health screening",
+        "expected_evidence": [
+          "evidence for positive contribution of 'exerc'"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of this minor contributor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the positive contribution of 'inst_public' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'inst_public'",
+        "retrieval_query": "Evidence for the positive contribution of 'inst_public' in mental health screening",
+        "expected_evidence": [
+          "evidence for positive contribution of 'inst_public'"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of this minor contributor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the positive contribution of 'inst_size' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'inst_size'",
+        "retrieval_query": "Evidence for the positive contribution of 'inst_size' in mental health screening",
+        "expected_evidence": [
+          "evidence for positive contribution of 'inst_size'"
+        ],
+        "priority": "low",
+        "rationale": "To understand the impact of this minor contributor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the negative contribution of 'aca_impa' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'aca_impa'",
+        "retrieval_query": "Evidence for the negative contribution of 'aca_impa' in mental health screening",
+        "expected_evidence": [
+          "evidence for negative contribution of 'aca_impa'"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of this protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the negative contribution of 'lonely' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'lonely'",
+        "retrieval_query": "Evidence for the negative contribution of 'lonely' in mental health screening",
+        "expected_evidence": [
+          "evidence for negative contribution of 'lonely'"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of this protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the negative contribution of 'age' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'age'",
+        "retrieval_query": "Evidence for the negative contribution of 'age' in mental health screening",
+        "expected_evidence": [
+          "evidence for negative contribution of 'age'"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of this protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the negative contribution of 'flourish' to this student's elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "'flourish'",
+        "retrieval_query": "Evidence for the negative contribution of 'flourish' in mental health screening",
+        "expected_evidence": [
+          "evidence for negative contribution of 'flourish'"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of this protective factor."
+      },
+      {
+        "question_id": "Q10",
+        "question_type": "safety_communication",
+        "question": "What safety considerations should be made when communicating these results to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for non-diagnostic communication in mental health screening",
+        "expected_evidence": [
+          "safety considerations for non-diagnostic communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_11\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0572,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the 5.72% probability for this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of a 5.72% probability in mental health screening\",\n         \"expected_evidence\": [\"interpretation of 5.72% probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the positive contribution of 'belong1' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'belong1'\",\n         \"retrieval_query\": \"Evidence for the positive contribution of 'belong1' in mental health screening\",\n         \"expected_evidence\": [\"evidence for positive contribution of 'belong1'\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of this major contributor.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the positive contribution of 'exerc' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'exerc'\",\n         \"retrieval_query\": \"Evidence for the positive contribution of 'exerc' in mental health screening\",\n         \"expected_evidence\": [\"evidence for positive contribution of 'exerc'\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of this minor contributor.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the positive contribution of 'inst_public' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'inst_public'\",\n         \"retrieval_query\": \"Evidence for the positive contribution of 'inst_public' in mental health screening\",\n         \"expected_evidence\": [\"evidence for positive contribution of 'inst_public'\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of this minor contributor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the positive contribution of 'inst_size' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'inst_size'\",\n         \"retrieval_query\": \"Evidence for the positive contribution of 'inst_size' in mental health screening\",\n         \"expected_evidence\": [\"evidence for positive contribution of 'inst_size'\"],\n         \"priority\": \"low\",\n         \"rationale\": \"To understand the impact of this minor contributor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the negative contribution of 'aca_impa' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'aca_impa'\",\n         \"retrieval_query\": \"Evidence for the negative contribution of 'aca_impa' in mental health screening\",\n         \"expected_evidence\": [\"evidence for negative contribution of 'aca_impa'\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of this protective factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the negative contribution of 'lonely' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'lonely'\",\n         \"retrieval_query\": \"Evidence for the negative contribution of 'lonely' in mental health screening\",\n         \"expected_evidence\": [\"evidence for negative contribution of 'lonely'\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of this protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the negative contribution of 'age' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'age'\",\n         \"retrieval_query\": \"Evidence for the negative contribution of 'age' in mental health screening\",\n         \"expected_evidence\": [\"evidence for negative contribution of 'age'\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of this protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the negative contribution of 'flourish' to this student's elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"'flourish'\",\n         \"retrieval_query\": \"Evidence for the negative contribution of 'flourish' in mental health screening\",\n         \"expected_evidence\": [\"evidence for negative contribution of 'flourish'\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of this protective factor.\"\n       },\n       {\n         \"question_id\": \"Q10\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety considerations should be made when communicating these results to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for non-diagnostic communication in mental health screening\",\n         \"expected_evidence\": [\"safety considerations for non-diagnostic communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

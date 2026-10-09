@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_low_02",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:14:04.468635+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_02",
+    "risk_interpretation": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a low prediction probability (0.0505) relative to the decision threshold (0.5) for interpreting elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "low prediction probability interpretation in non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "Interpretation of low probabilities in predictive models",
+          "Decision threshold implications"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the model's output relative to the decision threshold is crucial for accurate risk communication."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does exercise frequency contribute to elevated depression/anxiety screening risk, and what are its known effects on mental health?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "exercise frequency impact on mental health",
+        "expected_evidence": [
+          "Effects of exercise on mental health",
+          "Exercise as a factor in depression/anxiety models"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding the role of exercise in risk prediction helps contextualize its contribution."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the relationship between weekend sleep patterns and elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "weekend sleep impact on mental health",
+        "expected_evidence": [
+          "Impact of sleep patterns on mental health",
+          "Sleep as a factor in depression/anxiety models"
+        ],
+        "priority": "medium",
+        "rationale": "Weekend sleep is an important lifestyle factor affecting mental health."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does institution size influence elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "institution size impact on student mental health",
+        "expected_evidence": [
+          "Effects of institutional environment on mental health",
+          "Institution size as a factor in depression/anxiety models"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding the environmental context provided by institution size is important for risk interpretation."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What role does academic impairment play in decreasing elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment as a protective factor for mental health",
+        "expected_evidence": [
+          "Academic performance and its impact on mental health",
+          "Protective factors in mental health models"
+        ],
+        "priority": "medium",
+        "rationale": "Identifying protective factors helps balance the understanding of risk contributors."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "How does age contribute to decreasing elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "age as a protective factor in mental health screenings",
+        "expected_evidence": [
+          "Age-related trends in mental health",
+          "Impact of age on depression/anxiety risk"
+        ],
+        "priority": "medium",
+        "rationale": "Age is a significant demographic factor influencing mental health outcomes."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "Best practices for communicating non-diagnostic results",
+          "Guidelines for interpreting screening tools"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear communication about the tool's purpose is essential to prevent misinterpretation."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0505,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a low prediction probability (0.0505) relative to the decision threshold (0.5) for interpreting elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"low prediction probability interpretation in non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"Interpretation of low probabilities in predictive models\",\n        \"Decision threshold implications\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the model's output relative to the decision threshold is crucial for accurate risk communication.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does exercise frequency contribute to elevated depression/anxiety screening risk, and what are its known effects on mental health?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"exercise frequency impact on mental health\",\n      \"expected_evidence\": [\n        \"Effects of exercise on mental health\",\n        \"Exercise as a factor in depression/anxiety models\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding the role of exercise in risk prediction helps contextualize its contribution.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the relationship between weekend sleep patterns and elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"sleep_wkend\",\n      \"retrieval_query\": \"weekend sleep impact on mental health\",\n      \"expected_evidence\": [\n        \"Impact of sleep patterns on mental health\",\n        \"Sleep as a factor in depression/anxiety models\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Weekend sleep is an important lifestyle factor affecting mental health.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does institution size influence elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"institution size impact on student mental health\",\n      \"expected_evidence\": [\n        \"Effects of institutional environment on mental health\",\n        \"Institution size as a factor in depression/anxiety models\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding the environmental context provided by institution size is important for risk interpretation.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What role does academic impairment play in decreasing elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment as a protective factor for mental health\",\n      \"expected_evidence\": [\n        \"Academic performance and its impact on mental health\",\n        \"Protective factors in mental health models\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Identifying protective factors helps balance the understanding of risk contributors.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does age contribute to decreasing elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"age\",\n      \"retrieval_query\": \"age as a protective factor in mental health screenings\",\n      \"expected_evidence\": [\n        \"Age-related trends in mental health\",\n        \"Impact of age on depression/anxiety risk\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Age is a significant demographic factor influencing mental health outcomes.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"Best practices for communicating non-diagnostic results\",\n        \"Guidelines for interpreting screening tools\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear communication about the tool's purpose is essential to prevent misinterpretation.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

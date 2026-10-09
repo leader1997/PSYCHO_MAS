@@ -1,0 +1,150 @@
+{
+  "case_id": "hms_borderline_08",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:54:41.520251+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_08",
+    "risk_interpretation": {
+      "probability": 0.5011,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.5011, given that it is near the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting probabilities close to a decision threshold in machine learning models",
+        "expected_evidence": [
+          "Explanations on how probabilities near thresholds are interpreted",
+          "Guidance on handling borderline cases"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of this prediction and its implications."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can you provide more information on how academic impairment (aca_impa) contributes to the elevated screening risk, as indicated by a contribution of 0.9118?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic performance on mental health and depression/anxiety screening risks",
+        "expected_evidence": [
+          "Studies linking academic impairment to depression or anxiety",
+          "Examples of interventions for students with academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To identify specific areas where support might be needed."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the current financial situation (fincur) contribute to reducing the screening risk, as indicated by a contribution of -0.1335?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Impact of financial stability on mental health and depression/anxiety screening risks",
+        "expected_evidence": [
+          "Research linking financial stress to mental health",
+          "Examples of how stable finances can support mental well-being"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the protective factors at play."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the potential limitations or uncertainties in this model's prediction, given that it is near the decision threshold?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Understanding and addressing uncertainty in machine learning models with near-threshold predictions",
+        "expected_evidence": [
+          "Information on how to handle uncertain predictions",
+          "Examples of when a second opinion might be necessary"
+        ],
+        "priority": "medium",
+        "rationale": "To ensure the reliability of our decision-making process."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the results to the student and their support network, ensuring that it is non-diagnostic and supportive?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health screening results without diagnostic language",
+        "expected_evidence": [
+          "Guidelines on non-diagnostic communication",
+          "Examples of supportive messaging"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the communication is appropriate and reassuring."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account for a student with an elevated screening risk, given their profile?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Support strategies for students identified as having an elevated screening risk",
+        "expected_evidence": [
+          "Recommendations for support services",
+          "Examples of effective interventions"
+        ],
+        "priority": "medium",
+        "rationale": "To guide the development of a supportive plan."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does the positive mental health (positiveMH) feature contribute to the elevated screening risk, as indicated by a contribution of 0.1203?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "Impact of positive mental health on depression/anxiety screening risks",
+        "expected_evidence": [
+          "Studies linking positive mental health to increased risk",
+          "Examples of how positive mental health can still be a concern"
+        ],
+        "priority": "low",
+        "rationale": "To understand the nuances of this factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does campus belonging (belong1) contribute to the elevated screening risk, as indicated by a contribution of 0.0011?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Impact of social support and belonging on mental health and depression/anxiety screening risks",
+        "expected_evidence": [
+          "Research linking campus belonging to mental well-being",
+          "Examples of how low levels of belonging can affect students"
+        ],
+        "priority": "low",
+        "rationale": "To understand the specific impact of this factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does being at a public institution (inst_public) contribute to the elevated screening risk, as indicated by a contribution of 0.0002?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "Impact of institutional type on mental health and depression/anxiety screening risks",
+        "expected_evidence": [
+          "Studies comparing public vs private institutions",
+          "Examples of how institutional environment can affect students"
+        ],
+        "priority": "low",
+        "rationale": "To understand the specific impact of this factor."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_08\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5011,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.5011, given that it is near the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting probabilities close to a decision threshold in machine learning models\",\n      \"expected_evidence\": [\"Explanations on how probabilities near thresholds are interpreted\", \"Guidance on handling borderline cases\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the significance of this prediction and its implications.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can you provide more information on how academic impairment (aca_impa) contributes to the elevated screening risk, as indicated by a contribution of 0.9118?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic performance on mental health and depression/anxiety screening risks\",\n      \"expected_evidence\": [\"Studies linking academic impairment to depression or anxiety\", \"Examples of interventions for students with academic impairment\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To identify specific areas where support might be needed.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the current financial situation (fincur) contribute to reducing the screening risk, as indicated by a contribution of -0.1335?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"Impact of financial stability on mental health and depression/anxiety screening risks\",\n      \"expected_evidence\": [\"Research linking financial stress to mental health\", \"Examples of how stable finances can support mental well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the protective factors at play.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the potential limitations or uncertainties in this model's prediction, given that it is near the decision threshold?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Understanding and addressing uncertainty in machine learning models with near-threshold predictions\",\n      \"expected_evidence\": [\"Information on how to handle uncertain predictions\", \"Examples of when a second opinion might be necessary\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To ensure the reliability of our decision-making process.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the results to the student and their support network, ensuring that it is non-diagnostic and supportive?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health screening results without diagnostic language\",\n      \"expected_evidence\": [\"Guidelines on non-diagnostic communication\", \"Examples of supportive messaging\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the communication is appropriate and reassuring.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account for a student with an elevated screening risk, given their profile?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Support strategies for students identified as having an elevated screening risk\",\n      \"expected_evidence\": [\"Recommendations for support services\", \"Examples of effective interventions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To guide the development of a supportive plan.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does the positive mental health (positiveMH) feature contribute to the elevated screening risk, as indicated by a contribution of 0.1203?\",\n      \"linked_xai_factor\": \"positiveMH\",\n      \"retrieval_query\": \"Impact of positive mental health on depression/anxiety screening risks\",\n      \"expected_evidence\": [\"Studies linking positive mental health to increased risk\", \"Examples of how positive mental health can still be a concern\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To understand the nuances of this factor.\"\n    },\n    {\n      \"question_id\": \"Q8\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does campus belonging (belong1) contribute to the elevated screening risk, as indicated by a contribution of 0.0011?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Impact of social support and belonging on mental health and depression/anxiety screening risks\",\n      \"expected_evidence\": [\"Research linking campus belonging to mental well-being\", \"Examples of how low levels of belonging can affect students\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To understand the specific impact of this factor.\"\n    },\n    {\n      \"question_id\": \"Q9\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does being at a public institution (inst_public) contribute to the elevated screening risk, as indicated by a contribution of 0.0002?\",\n      \"linked_xai_factor\": \"inst_public\",\n      \"retrieval_query\": \"Impact of institutional type on mental health and depression/anxiety screening risks\",\n      \"expected_evidence\": [\"Studies comparing public vs private institutions\", \"Examples of how institutional environment can affect students\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To understand the specific impact of this factor.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

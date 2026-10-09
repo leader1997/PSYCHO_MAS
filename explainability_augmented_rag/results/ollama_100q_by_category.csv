@@ -1,0 +1,11 @@
+category,keyword_recall@5,keyword_precision@5,answer_correctness,answer_relevancy,faithfulness,context_precision,safety_judge,behavior_alignment
+Ablation studies and metrics,0.0,0.0,0.5571,0.7,0.5429,0.8286,0.6429,0.7
+Controlled agentic workflow,0.1,0.04,0.685,0.98,0.76,0.79,0.9,0.84
+Evidence grounding and citation faithfulness,0.1528,0.0667,0.75,0.975,0.8583,0.8042,0.9583,0.7875
+Local Ollama evaluation and judging,0.1667,0.075,0.75,0.95,0.8188,0.7875,0.9375,0.775
+Non-diagnostic safety and boundaries,0.2083,0.1167,0.9833,0.9833,0.975,0.8167,1.0,0.7667
+Retrieval and corpus quality,0.075,0.06,0.89,0.95,0.95,0.78,0.95,0.8
+Robustness and edge cases,0.1,0.04,0.8,0.96,0.98,0.8,1.0,0.56
+Screening communication and narrative quality,0.1667,0.0667,0.7083,0.9167,0.8167,0.8,0.9583,0.7667
+Student mental-health factors and evidence use,0.3819,0.2333,0.9833,0.95,0.925,0.825,1.0,0.7958
+XAI interpretation and limitations,0.0972,0.05,0.75,0.9667,0.8,0.8083,1.0,0.8417

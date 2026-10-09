@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_borderline_03",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:07:20.590594+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_03",
+    "risk_interpretation": {
+      "probability": 0.5004,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.5004) is extremely close to the decision threshold (0.5), what clinical guidelines or statistical considerations should be used to interpret this 'near-threshold' result, especially when calibration status is confirmed?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting near-threshold screening risk prediction borderline cases",
+        "expected_evidence": [
+          "Guidelines for interpreting probabilities close to the decision threshold.",
+          "Impact of model calibration status on clinical interpretation."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline, making uncertainty and threshold interpretation critical for expert review. This question addresses the primary ambiguity."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the established clinical correlations between moderate levels of loneliness and elevated screening risk for depression/anxiety, particularly in a university student population?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "clinical correlation between loneliness and anxiety screening risk in students",
+        "expected_evidence": [
+          "Evidence linking social isolation to mental health outcomes.",
+          "Contextualizing the 'medium' level of loneliness contribution."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the single largest positive contributor and requires deep contextual evidence for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does high worry regarding food insecurity contribute to elevated screening risk, and what are the recommended psychoeducational resources for addressing this specific stressor?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "impact of food insecurity worry on mental health screening risk and intervention strategies",
+        "expected_evidence": [
+          "Mechanism by which financial/nutritional worries impact mood.",
+          "Evidence-based resources for food insecurity support."
+        ],
+        "priority": "high",
+        "rationale": "Food worry is a high-level contributing factor and represents a significant, actionable life stressor that must be addressed in the report."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the clinical implications of 'Academic Impairment' (low level) contributing negatively to screening risk, and how should this protective factor be framed for expert consideration?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "protective role of academic engagement in reducing depression anxiety screening risk",
+        "expected_evidence": [
+          "Theoretical basis for academic success mitigating mental health risks.",
+          "Best practices for discussing protective factors with students."
+        ],
+        "priority": "high",
+        "rationale": "The strongest negative contributor must be thoroughly explained to balance the high-risk findings and guide positive intervention focus."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "In a screening context, how should 'Flourishing' (medium level) be defined and utilized to support the expert understanding of resilience and positive mental health?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "defining and utilizing flourishing as a protective factor in student mental health screening",
+        "expected_evidence": [
+          "Operational definition of 'Flourishing' beyond simple well-being.",
+          "How to integrate positive psychological concepts into risk reports."
+        ],
+        "priority": "medium",
+        "rationale": "This is a key protective factor that needs precise, non-vague clinical framing for the expert report."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the recommended psychoeducational strategies or resources to address low levels of weeknight sleep disruption in relation to elevated screening risk?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "psychoeducation for improving sleep hygiene and reducing anxiety symptoms",
+        "expected_evidence": [
+          "Evidence-based recommendations for sleep hygiene.",
+          "Linking poor sleep to increased emotional vulnerability."
+        ],
+        "priority": "medium",
+        "rationale": "Sleep is a common, actionable factor contributing to risk; providing concrete advice helps the expert plan follow-up."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "What are the mandatory safety guidelines and non-diagnostic communication scripts that must be used when discussing elevated screening risk with a student, ensuring appropriate referral pathways?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication protocols for high anxiety screening risk",
+        "expected_evidence": [
+          "Safety netting procedures.",
+          "Language guidelines to avoid pathologizing or diagnosing."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety check. Ensures the report focuses on support, not diagnosis."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_03\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5004,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.5004) is extremely close to the decision threshold (0.5), what clinical guidelines or statistical considerations should be used to interpret this 'near-threshold' result, especially when calibration status is confirmed?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting near-threshold screening risk prediction borderline cases\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting probabilities close to the decision threshold.\",\n        \"Impact of model calibration status on clinical interpretation.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline, making uncertainty and threshold interpretation critical for expert review. This question addresses the primary ambiguity.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the established clinical correlations between moderate levels of loneliness and elevated screening risk for depression/anxiety, particularly in a university student population?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"clinical correlation between loneliness and anxiety screening risk in students\",\n      \"expected_evidence\": [\n        \"Evidence linking social isolation to mental health outcomes.\",\n        \"Contextualizing the 'medium' level of loneliness contribution.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the single largest positive contributor and requires deep contextual evidence for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does high worry regarding food insecurity contribute to elevated screening risk, and what are the recommended psychoeducational resources for addressing this specific stressor?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"impact of food insecurity worry on mental health screening risk and intervention strategies\",\n      \"expected_evidence\": [\n        \"Mechanism by which financial/nutritional worries impact mood.\",\n        \"Evidence-based resources for food insecurity support.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food worry is a high-level contributing factor and represents a significant, actionable life stressor that must be addressed in the report.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the clinical implications of 'Academic Impairment' (low level) contributing negatively to screening risk, and how should this protective factor be framed for expert consideration?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"protective role of academic engagement in reducing depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Theoretical basis for academic success mitigating mental health risks.\",\n        \"Best practices for discussing protective factors with students.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The strongest negative contributor must be thoroughly explained to balance the high-risk findings and guide positive intervention focus.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"In a screening context, how should 'Flourishing' (medium level) be defined and utilized to support the expert understanding of resilience and positive mental health?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"defining and utilizing flourishing as a protective factor in student mental health screening\",\n      \"expected_evidence\": [\n        \"Operational definition of 'Flourishing' beyond simple well-being.\",\n        \"How to integrate positive psychological concepts into risk reports.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This is a key protective factor that needs precise, non-vague clinical framing for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the recommended psychoeducational strategies or resources to address low levels of weeknight sleep disruption in relation to elevated screening risk?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"psychoeducation for improving sleep hygiene and reducing anxiety symptoms\",\n      \"expected_evidence\": [\n        \"Evidence-based recommendations for sleep hygiene.\",\n        \"Linking poor sleep to increased emotional vulnerability.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Sleep is a common, actionable factor contributing to risk; providing concrete advice helps the expert plan follow-up.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the mandatory safety guidelines and non-diagnostic communication scripts that must be used when discussing elevated screening risk with a student, ensuring appropriate referral pathways?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication protocols for high anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Safety netting procedures.\",\n        \"Language guidelines to avoid pathologizing or diagnosing.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety check. Ensures the report focuses on support, not diagnosis.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

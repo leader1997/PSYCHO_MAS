@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_low_01",
+  "arm": "llm_plan",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "answer": "The provided evidence does not contain specific guidance regarding the appropriate non-diagnostic communication strategy for a student who screens with a low risk probability. The retrieved contexts discuss the purpose of mental health screening, defining it as a systematic process to identify both strengths and needs across the student body. They also detail the necessity of timely referrals for students identified as being at risk for mental illness or harm. However, no information is available concerning the communication protocols required to prevent false reassurance when a student screens low risk.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain information regarding the specific correlation between \"Flourish\" or \"ACA Impairment\" status and reduced screening risk for depression and anxiety. However, the context does discuss the relationship between general well-being and outcomes. Research suggests that students who report average to high levels of well-being experience better current and long-term outcomes, including academic success, compared to those who report low levels of well-being. Importantly, these findings regarding better outcomes are noted to remain true regardless of the level of psychological distress or impairment reported by students.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "The provided evidence does not establish a general association between attending a public institution and an elevated screening risk for depression or anxiety among college students. While one context describes a specific protocol for depression screening at an identified public college, recommending the use of the PHQ-2 as a first step screen, the material does not provide data or findings regarding the correlation between institutional type and risk levels. The available information focuses on the necessity of screening for depression in college students and the recommended screening procedures within a public college setting.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "answer": "Based on the provided evidence, there is no information detailing the relationship between high current financial stability and a reduced screening risk of depression or anxiety in young adults. The retrieved contexts discuss the psychometric properties of depression screening tools like the PHQ-9, the general benefits of early mental health screening, and the economic considerations of mental healthcare services. However, none of the passages address the specific role of personal financial stability in mitigating screening risk for mental health conditions.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided evidence does not specify the known limitations or scope restrictions of a screening model when predicting risk far below an established decision threshold, such as a 0.05 probability. However, the context does discuss general psychometric limitations of screening tools. Specifically, techniques based on classical test theory (CTT) have been noted to potentially provide inaccurate diagnoses and fail to account for the heterogeneity of individual items. Researchers suggest that item response theory (IRT) approaches are considered more robust for assessing the psychometric properties of screening scales, as they offer a richer description of item performance and are considered independent of the sample and test.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "answer": "When interpreting a low screening risk score, an expert should consider the comprehensive context of the individual, recognizing that screening is designed to identify both needs and strengths. Contextual factors to review include the student's indicators of well-being, life satisfaction, school belonging, and broader social determinants of mental health. Furthermore, the expert should be aware of the technical limitations of the screening instrument, as some measurement models suggest that a low score may be influenced by the test itself or the individual's ability. Ultimately, the interpretation should view the screening process as a systematic effort to gather valuable information about the student's overall mental health status.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_low_01"
+    }
+  },
+  "n_contexts": 5
+}

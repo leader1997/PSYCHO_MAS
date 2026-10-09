@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_10",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9681) indicating elevated depression/anxiety screening risk, what are the established clinical guidelines for interpreting and escalating this level of automated screening risk in an academic support setting?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A probability of 0.9681 suggests a positive screen for depression/anxiety and warrants the same response as a PHQ‑2 or PHQ‑9 score that meets clinical cut‑offs. First, confirm the finding with a full PHQ‑9 if not already administered; scores ≥10 are considered clinically significant (Context 5). Provide immediate written feedback to the student and offer an appointment with campus counseling services, following the routine referral pathway used in college health centers (Context 1). Ensure that the student is asked about suicidal thoughts or intent during this encounter, as elevated risk requires prompt safety assessment. Finally, schedule a follow‑up visit within 2–4 weeks to monitor symptom change and engagement with mental‑health care, consistent with best practices for early identification in academic settings (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:18:50.101414+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the evidence base linking high levels of academic impairment (aca_impa) to increased screening risk for depression and anxiety, particularly in college student populations?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "In two longitudinal studies of random samples of college students, depression was found to significantly predict lower GPA and higher dropout rates even after controlling for prior academic performance and other covariates (Context 1; Context 3). The association was strongest among students who also screened positive for an anxiety disorder, indicating that academic impairment co‑occurs with elevated depressive and anxious symptoms. Within‑person fixed‑effects analyses confirmed that fluctuations in depressive and anxiety symptoms were associated with concurrent declines in GPA (Context 1; Context 3). These findings suggest that high levels of academic impairment can serve as a statistical contributor to increased screening risk for depression and anxiety among college students. Additional cross‑sectional data show that a substantial proportion of students report high procrastination and stress during the pandemic, which are linked to lower academic functioning and higher anxiety (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:20:03.547149+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the established connections between nutritional stress and mood disorders in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food‑worry reflects material hardship that has been shown to mediate depressive symptomatology; Heflin and Iceland found that among low‑income adults the largest mediating effect on depression came from basic‑needs insecurity after controlling for other sociodemographic variables. Individuals who struggle to meet their food needs are more likely to report poor health, sleep problems, higher rates of depression, stress, and suicidal thoughts (Heflin & Iceland; Heflin et al.). Nutritional stress has also been linked to increased anxiety and depressive reports across age groups, including young adults, with studies noting that food hardship is associated with higher anxiety and depression in children, the elderly, and pregnant women—patterns that extend to university students experiencing basic‑needs insecurity. Consequently, elevated food‑worry scores contribute to heightened screening risk by signaling a significant psychosocial stressor that predicts subsequent mood disorder symptoms over and above other social factors such as loneliness or belonging. If a student’s food‑worry score indicates high risk, referral to campus counseling services or community resources for food assistance is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:21:00.595603+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the established psychological mechanisms linking feelings of loneliness (lonely) to increased screening risk for depression and anxiety?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Loneliness reflects a perceived gap between desired and actual social connections, which activates chronic stress pathways—enhanced sympathetic tone, increased HPA‑axis activity, reduced inflammatory regulation, and altered glucocorticoid‑responsive gene expression (Context 2). These physiological changes are linked to mood dysregulation and have been shown to elevate depressive and anxious symptoms in college populations. Cognitive appraisal of low perceived social support further amplifies negative affect; students reporting weaker support are up to six times more likely to experience depression than those with stronger support (Context 2). Together, the mismatch between desired and actual relationships and the ensuing stress physiology explain why loneliness is a robust contributor to higher screening rates for depression and anxiety among students.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:22:30.229508+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the protective factors and resilience strategies associated with institutional size (inst_size) or campus belonging (belong2) that can mitigate elevated screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Protective factors linked to campus belonging are emotional support from peers and family, frequent and satisfying social interactions, and a strong sense of belonging—each associated with lower depression, anxiety, and higher well‑being (Romeo et al., 2024). Institutional contributors that reinforce these factors include inclusive policies, accessible mental‑health resources, welcoming campus climates, and structured curricular or co‑curricular activities designed to foster community; such institutional supports have been shown to reduce psychological distress across diverse settings (Scoping review, 2015–2024). Resilience strategies therefore involve actively seeking emotional support, maintaining regular social engagement, participating in campus events that build a sense of belonging, and utilizing available mental‑health services. These approaches mitigate elevated screening risk by buffering stressors such as academic pressure or financial strain (Context 2).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:23:48.758444+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the known limitations of predictive screening models (e.g., CatBoost) when applied to individual mental health assessment, and how should these limitations be communicated to an expert reviewer?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Predictive screening models such as CatBoost inherit the same measurement limitations that affect traditional depression scales: scores are “test‑dependent” (Context 3), so a low prediction may reflect either a person’s low latent trait or characteristics of the training data, and item heterogeneity is not fully captured by standard tree‑based algorithms (Context 5). Because these models are trained on specific samples, their performance can degrade when applied to culturally or clinically different populations, a concern highlighted in the limitations sections of several studies (Contexts 1–4). Moreover, tree ensembles provide limited interpretability; they identify statistical contributors rather than causal factors and cannot replace clinical judgment. When presenting results to an expert reviewer, frame each prediction as a probabilistic estimate with associated uncertainty metrics, emphasize that external validation on diverse cohorts is essential, and recommend that model outputs be used to flag individuals for further assessment rather than to make definitive diagnoses.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:25:04.124475+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What non-diagnostic language must be used when communicating elevated screening risk to an expert team, ensuring that the communication focuses on support considerations rather than implying a diagnosis?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When reporting an elevated screening result to the expert team, use language that identifies the student as “at risk” based on the screening score rather than assigning a diagnostic label. Indicate that the finding warrants further assessment to determine the appropriate level of support—such as Tier 2 or Tier 3 services—and note any immediate safety concerns that require prompt evaluation. Emphasize the need for timely referral to school and community mental‑health resources, framing the communication around the provision of supportive interventions rather than a clinical diagnosis. This approach aligns with best practices for triaging students while maintaining a focus on safety and support planning.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:26:01.192358+00:00"
+    }
+  }
+}

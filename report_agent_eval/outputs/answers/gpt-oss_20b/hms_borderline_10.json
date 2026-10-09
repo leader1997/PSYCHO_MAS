@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_10",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5012) is extremely close to the decision threshold (0.5), what are the established guidelines for interpreting marginal or borderline screening scores in non-diagnostic depression/anxiety contexts?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "When a screening probability falls just above or below the decision threshold (e.g., 0.5012 vs. 0.5), established practice treats it as an “at‑risk” signal rather than a definitive diagnosis. Schools typically employ a multi‑tiered system: Tier 1 universal screening flags all students, and those with borderline scores are moved to Tier 2 for more detailed assessment or brief intervention (Context 1). A defined triage process is used to determine whether further evaluation or immediate safety action is needed; if the score suggests potential self‑harm risk, an urgent response protocol must be activated (Context 2). All borderline findings and subsequent follow‑up steps should be documented so that students can receive timely support while maintaining a clear record of screening outcomes.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:59:18.375961+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What clinical context or severity guidelines should be provided regarding 'Loneliness' (contribution: 0.4396) to help the expert evaluate its impact on elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Loneliness is routinely screened in higher‑education settings using the UCLA 3‑item scale, where a total score of 6 or more classifies a student as “lonely.” National NCHA data show that roughly half of students fall into this category (≈54 % in 2024), with slightly lower rates among graduate/professional cohorts (≈44 %). Ohio State trends mirror the national pattern, with a decline from 53.2 % to 43.2 % between 2022 and 2025; early‑semester loneliness predicts later scores, while strong initial community feelings mitigate risk. Because loneliness is a subjective experience independent of actual interaction quantity, elevated scores should prompt monitoring for concurrent mental‑health concerns (e.g., depression, anxiety) and academic outcomes such as retention. If loneliness persists or co‑occurs with significant distress, referral to qualified student support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:00:43.972392+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What are the recommended screening protocols or risk stratification guidelines when 'Food insecurity worry' (contribution: 0.0993) is identified as a contributing factor to elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "When a student reports food‑insecurity worry, the first step is to incorporate that social determinant into a universal screening instrument—most school and college protocols now include items on basic needs insecurity (Context 3). The data should then be used within a multi‑tiered system of supports: students with mild concerns receive classroom coping skills or resource referrals, while those with more pronounced worry are escalated to Tier 2 counseling or community services (Context 2, Context 5). If the student also screens positive on a brief depression screen such as PHQ‑2/PHQ‑9, which has been shown to be feasible and effective in college health settings (Context 4), they should receive an immediate referral for mental‑health assessment. All referrals must be timely; any student who may pose a safety risk requires urgent evaluation per school protocols (Context 5). Finally, ongoing monitoring of well‑being, life satisfaction, and school belonging can help track whether the interventions are reducing both food insecurity worry and associated emotional distress (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:02:18.771173+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "How should the protective role of 'Academic impairment' (contribution: -1.1212) be interpreted in relation to overall screening risk, and what does this suggest about academic stability?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "The negative coefficient (–1.1212) for Academic impairment indicates that this factor statistically reduces the overall screening risk score; students who show fewer signs of academic difficulty are less likely to be flagged as high‑risk. This pattern is consistent with evidence from Eisenberg et al. and Duffy et al., which document that depression and anxiety are associated with lower GPA and higher dropout probability, implying that stable academic performance can buffer against mental‑health related risk. Thus, the model suggests that maintaining academic stability—evidenced by sustained grades or continued enrollment—is a protective contributor to overall risk assessment. This underscores the importance of monitoring and supporting students’ academic progress as part of early‑intervention strategies.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:03:45.880422+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are evidence-based, non-diagnostic support considerations for expert review when a student presents with elevated screening risk due to multiple intersecting factors (e.g., loneliness and food worry)?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "When a student screens at elevated risk for multiple intersecting concerns such as loneliness and food worry, the first evidence‑based step is to place them within a multi‑tiered system of supports (MTSS). Screening data can be used to identify core social‑emotional–behavioral skills that the student may need—such as coping strategies for anxiety or techniques to build peer connection—and these can be taught in classroom or small group settings before problems worsen. The screening process should also capture broader social determinants, including food insecurity, so that appropriate referrals to community resources (e.g., school meal programs or local food banks) can be made promptly. Families and students should be actively involved in the planning and implementation of these supports, with clear communication about consent, confidentiality, and available services. Finally, any indication of imminent risk—whether self‑harm or harm to others—must trigger an immediate safety assessment and referral to Tier 2 or Tier 3 mental health services as outlined by school screening protocols.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:04:55.464307+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized communication guidelines for conveying 'elevated screening risk' results to a student in a manner that is non-diagnostic, destigmatizing, and encourages follow-up without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "The retrieved evidence does not specify a formal set of wording or procedural steps for communicating an “elevated screening risk” result.  Context 1 notes that schools should have a defined process for assessing results, triaging students to higher‑tier supports, and responding immediately if there is a risk of harm to self or others.  Context 3 emphasizes timely referrals to school and community mental‑health services once a student is identified as at risk.  These passages imply that communication should be brief, non‑diagnostic, and framed in terms of well‑being and available supports rather than pathology; it should invite the student to discuss next steps without inducing alarm.  When an elevated risk is flagged, the protocol requires immediate safety assessment and referral to qualified mental‑health professionals, ensuring the student receives appropriate follow‑up while maintaining confidentiality and destigmatizing language.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:05:49.433486+00:00"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "hms_borderline_01",
+  "model": "phi4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:16:33.127454+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_01",
+    "risk_interpretation": {
+      "probability": 0.5001,
+      "threshold": 0.5,
+      "risk_level": "borderline",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability that is just above the decision threshold for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of borderline prediction probabilities in mental health screenings",
+        "expected_evidence": [
+          "interpretation of borderline predictions",
+          "decision-making under uncertainty"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a borderline probability is crucial for accurate risk interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does current financial situation influence elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "impact of financial situation on mental health risks",
+        "expected_evidence": [
+          "financial stress and mental health correlation"
+        ],
+        "priority": "high",
+        "rationale": "Financial situation is a major contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does loneliness play in elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "effects of loneliness on mental health risks",
+        "expected_evidence": [
+          "psychological impact of loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is a significant factor in the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does campus belonging affect elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "influence of campus belonging on mental health risks",
+        "expected_evidence": [
+          "campus environment and student well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Campus belonging is a high-level contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What impact does binge drinking have on elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "relationship between binge drinking and mental health risks",
+        "expected_evidence": [
+          "substance use and mental health correlation"
+        ],
+        "priority": "medium",
+        "rationale": "Binge drinking is a high-level contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "How does flourishing mitigate elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "role of flourishing in reducing mental health risks",
+        "expected_evidence": [
+          "positive psychology and resilience"
+        ],
+        "priority": "high",
+        "rationale": "Flourishing is a high-level protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of using a calibrated model near the decision threshold for predicting elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of calibrated models at decision thresholds",
+        "expected_evidence": [
+          "model calibration and prediction reliability"
+        ],
+        "priority": "high",
+        "rationale": "Understanding model limitations is essential for interpreting borderline predictions."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "How should elevated depression/anxiety screening risk be communicated to ensure non-diagnostic understanding?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating mental health screening results",
+        "expected_evidence": [
+          "communication strategies in mental health screenings"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear, non-diagnostic communication is critical."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5001,\n    \"threshold\": 0.5,\n    \"risk_level\": \"borderline\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability that is just above the decision threshold for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of borderline prediction probabilities in mental health screenings\",\n      \"expected_evidence\": [\n        \"interpretation of borderline predictions\",\n        \"decision-making under uncertainty\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a borderline probability is crucial for accurate risk interpretation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does current financial situation influence elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"impact of financial situation on mental health risks\",\n      \"expected_evidence\": [\n        \"financial stress and mental health correlation\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Financial situation is a major contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does loneliness play in elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"effects of loneliness on mental health risks\",\n      \"expected_evidence\": [\n        \"psychological impact of loneliness\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is a significant factor in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does campus belonging affect elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"influence of campus belonging on mental health risks\",\n      \"expected_evidence\": [\n        \"campus environment and student well-being\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Campus belonging is a high-level contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What impact does binge drinking have on elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"relationship between binge drinking and mental health risks\",\n      \"expected_evidence\": [\n        \"substance use and mental health correlation\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Binge drinking is a high-level contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does flourishing mitigate elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"role of flourishing in reducing mental health risks\",\n      \"expected_evidence\": [\n        \"positive psychology and resilience\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Flourishing is a high-level protective factor.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of using a calibrated model near the decision threshold for predicting elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of calibrated models at decision thresholds\",\n      \"expected_evidence\": [\n        \"model calibration and prediction reliability\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding model limitations is essential for interpreting borderline predictions.\"\n    },\n    {\n      \"question_id\": \"Q8\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should elevated depression/anxiety screening risk be communicated to ensure non-diagnostic understanding?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating mental health screening results\",\n      \"expected_evidence\": [\n        \"communication strategies in mental health screenings\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear, non-diagnostic communication is critical.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

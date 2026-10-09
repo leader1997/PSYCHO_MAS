@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_07",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What are the known limitations of using ML screening tools (like CatBoost) for depression/anxiety risk assessment, particularly when key variables (e.g., sleep patterns) have 'unknown' data points?",
+  "retrieval_query": "limitations and biases in machine learning models used for mental health screening",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:38.614617+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.932647,
+      "chunk_id": "DOC_H003_p1_c3",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "commercial advantage and that copies bear this notice and the full citation on the ﬁrst page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission and/or a fee. Request permissions from permissions@acm.org. KDD 2016 San Francisco, CA, USA c⃝ 2016 Copyright held by the owner/author(s). Publication rights licensed to ACM. ISBN 978-1-4503-4232-2/16/08. . . $15.00 DOI: http://dx.doi.org/10.1145/2939672.2939778 how much the human understands a model’s behaviour, as opposed to seeing it as a black box. Determining trust in individual predictions is an important problem when the model is used for decision making. When using machine learning for medical diagnosis [ 6] or terrorism detection, for example, predictions cannot be acted upon on blind faith, as the consequences may be catastrophic. Apart from trusting individual predictions, there is also a need to evaluate the model as a whole before deploying it “in the wild”. To make this decision, users need to be conﬁdent that the model will perform well on real-world data, according to the metrics of interest. Currently, models are evaluated using accuracy metrics on an available validation dataset. However, real-world data is often signiﬁcantly diﬀerent, and further, the evaluation metric may not be indicative of the product’s goal. Inspecting individual predictions and their explanations is a worthwhile solution, in addition to such metrics. In this case, it is important to aid users by suggesting which instances to inspect, especially for large"
+    },
+    {
+      "rank": 2,
+      "score": 0.904784,
+      "chunk_id": "DOC_H004_p1_c1",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead Cynthia Rudin Duke University cynthia@cs.duke.edu Abstract Black box machine learning models are currently being used for high stakes decision-making throughout society, causing problems throughout healthcare, criminal justice, and in other domains. People have hoped that creating methods for explaining these black box models will alleviate some of these problems, but trying to explain black box models, rather than creating models that are interpretable in the ﬁrst place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward – it is to design models that are inherently interpretable. This manuscript clariﬁes the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identiﬁes challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision. 1 Introduction There has been an increasing trend in healthcare and criminal justice to leverage machine learning (ML) for high-stakes prediction applications that deeply impact human lives. Many of the ML models are black boxes that do not explain their predictions in a way that humans can understand. The lack of transparency and accountability of predictive models can have (and has already had) severe consequences; there have been cases of people incorrectly denied parole [ 1], poor bail decisions leading to the release of dangerous criminals, ML-based pollution models stating that highly polluted"
+    },
+    {
+      "rank": 3,
+      "score": 0.885789,
+      "chunk_id": "DOC_B007_p2_c3",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have used IRT models to assess the psychometric properties of the PHQ -9 and only one in college students (37,42-68). Given the high prevalence of depression among college students (69,70) it is important to evaluate the validity and utility of the PHQ -9 in this population. The appropriate detection and management of depression in health science students could translate into significant potential benefits if the psychometric properties of screening instruments such as the PHQ-9 are optimized (71,72). Therefore, this study aimed to evaluate the psychometrics of the Colombian version of the PHQ-9 adapted for university students using IRT models and to assess possible item biases as a function of gender. METHODOLOGY Population and sample This cross-sectional observational study evaluated the psychometric performance of the PHQ -9. Stratified random sampling was applied according to academic program, semester, and sex, where each stratum had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research"
+    },
+    {
+      "rank": 4,
+      "score": 0.873617,
+      "chunk_id": "DOC_H003_p1_c1",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer Marco T ulio Ribeiro University of Washington Seattle, WA 98105, USA marcotcr@cs.uw.edu Sameer Singh University of Washington Seattle, WA 98105, USA sameer@cs.uw.edu Carlos Guestrin University of Washington Seattle, WA 98105, USA guestrin@cs.uw.edu ABSTRACT Despite widespread adoption, machine learning models re- main mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation tech- nique that explains the predictions of any classiﬁer in an in- terpretable and faithful manner, by learning an interpretable model locally around the prediction. We also propose a method to explain models by presenting representative indi- vidual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization prob- lem. We demonstrate the ﬂexibility of these methods by explaining diﬀerent models for text (e.g. random forests) and image classiﬁcation (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classiﬁer, and identifying why a classiﬁer should not be trusted. 1. INTRODUCTION Machine learning is at the core of many recent advances in science and technology. Unfortunately, the"
+    },
+    {
+      "rank": 5,
+      "score": 0.856031,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    }
+  ]
+}

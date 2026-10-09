@@ -1,0 +1,16 @@
+case_id,query_type,query_text
+high_risk_case,risk_communication,"Retrieve evidence about how elevated depression/anxiety screening risk should be communicated in a non-diagnostic, non-clinical way to college students."
+high_risk_case,feature_specific,"Retrieve evidence about how Academic impairment, Flourishing, Current financial situation are associated with student depression/anxiety screening risk in survey-based studies."
+high_risk_case,protective_factor,Retrieve evidence about protective factors such as protective survey features and help-seeking or social support for student mental health.
+high_risk_case,safety,"Retrieve evidence about safe, non-stigmatizing, non-clinical mental-health communication and ethical limitations of screening tools."
+high_risk_case,referral,Retrieve evidence about appropriate next steps and referrals when a student shows elevated depression/anxiety screening risk.
+low_risk_case,risk_communication,"Retrieve evidence about how elevated depression/anxiety screening risk should be communicated in a non-diagnostic, non-clinical way to college students."
+low_risk_case,feature_specific,Retrieve evidence about how survey features are associated with student depression/anxiety screening risk in survey-based studies.
+low_risk_case,protective_factor,"Retrieve evidence about protective factors such as Academic impairment, Loneliness, Flourishing and help-seeking or social support for student mental health."
+low_risk_case,safety,"Retrieve evidence about safe, non-stigmatizing, non-clinical mental-health communication and ethical limitations of screening tools."
+low_risk_case,referral,Retrieve evidence about appropriate next steps and referrals when a student shows elevated depression/anxiety screening risk.
+borderline_risk_case,risk_communication,"Retrieve evidence about how elevated depression/anxiety screening risk should be communicated in a non-diagnostic, non-clinical way to college students."
+borderline_risk_case,feature_specific,"Retrieve evidence about how Current financial situation, Loneliness are associated with student depression/anxiety screening risk in survey-based studies."
+borderline_risk_case,protective_factor,"Retrieve evidence about protective factors such as Flourishing, Academic impairment, Positive mental health and help-seeking or social support for student mental health."
+borderline_risk_case,safety,"Retrieve evidence about safe, non-stigmatizing, non-clinical mental-health communication and ethical limitations of screening tools."
+borderline_risk_case,referral,Retrieve evidence about appropriate next steps and referrals when a student shows elevated depression/anxiety screening risk.

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_16",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:30:31.936069+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_16",
+    "risk_interpretation": {
+      "probability": 0.0583,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0583 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near or below the decision threshold.",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Threshold setting rationale"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the risk level based on the prediction probability and decision threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the contribution of 'Campus belonging (item 1)' to the model's risk prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Research on campus belonging and its impact on mental health.",
+        "expected_evidence": [
+          "Studies linking campus belonging with student well-being",
+          "Surveys measuring campus belonging"
+        ],
+        "priority": "medium",
+        "rationale": "Validate the contribution of this feature to the risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the role of 'Exercise frequency' in contributing to the model's risk prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Research on exercise and mental health.",
+        "expected_evidence": [
+          "Studies linking physical activity with reduced depression/anxiety",
+          "Surveys measuring exercise habits"
+        ],
+        "priority": "medium",
+        "rationale": "Support the contribution of this feature to the risk prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What evidence can we find supporting the protective role of 'Academic impairment' in reducing the model's screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Research on academic performance and mental health.",
+        "expected_evidence": [
+          "Studies showing better academic performance correlates with lower depression/anxiety",
+          "Surveys measuring academic stress"
+        ],
+        "priority": "medium",
+        "rationale": "Validate the protective role of this feature."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How can we address the model's calibration status and its impact on the prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Understanding model calibration and its implications.",
+        "expected_evidence": [
+          "Calibration methods for machine learning models",
+          "Impact of calibration on predictive accuracy"
+        ],
+        "priority": "low",
+        "rationale": "Ensure that the model's calibration status is understood and considered."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the low risk of elevated depression/anxiety screening to the student and their support network?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health risks.",
+        "expected_evidence": [
+          "Guidelines for non-diagnostic communication",
+          "Strategies for supporting students with low-risk screenings"
+        ],
+        "priority": "high",
+        "rationale": "Provide appropriate and reassuring communication to the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_16\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0583,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0583 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near or below the decision threshold.\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Threshold setting rationale\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the risk level based on the prediction probability and decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the contribution of 'Campus belonging (item 1)' to the model's risk prediction?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Research on campus belonging and its impact on mental health.\",\n      \"expected_evidence\": [\"Studies linking campus belonging with student well-being\", \"Surveys measuring campus belonging\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Validate the contribution of this feature to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the role of 'Exercise frequency' in contributing to the model's risk prediction?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"Research on exercise and mental health.\",\n      \"expected_evidence\": [\"Studies linking physical activity with reduced depression/anxiety\", \"Surveys measuring exercise habits\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Support the contribution of this feature to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence can we find supporting the protective role of 'Academic impairment' in reducing the model's screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Research on academic performance and mental health.\",\n      \"expected_evidence\": [\"Studies showing better academic performance correlates with lower depression/anxiety\", \"Surveys measuring academic stress\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Validate the protective role of this feature.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How can we address the model's calibration status and its impact on the prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Understanding model calibration and its implications.\",\n      \"expected_evidence\": [\"Calibration methods for machine learning models\", \"Impact of calibration on predictive accuracy\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Ensure that the model's calibration status is understood and considered.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the low risk of elevated depression/anxiety screening to the student and their support network?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health risks.\",\n      \"expected_evidence\": [\"Guidelines for non-diagnostic communication\", \"Strategies for supporting students with low-risk screenings\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Provide appropriate and reassuring communication to the student.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

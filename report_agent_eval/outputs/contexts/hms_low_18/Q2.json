@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_18",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "How should the positive contribution of 'Institution size' (inst_size) be interpreted when the student profile indicates a low level, and this feature contributes positively to the model's risk prediction?",
+  "retrieval_query": "clinical interpretation of institutional size features contributing to screening risk in college students",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:50.287564+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.93457,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 2,
+      "score": 0.90439,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 3,
+      "score": 0.881944,
+      "chunk_id": "DOC_B007_p2_c4",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research objectives and signed an informed consent form. This project was approved by the Ethics Committee of a university in Colombia. A sociodemographic characteristics instrument was applied to all participants, and all of them completed the PHQ -9 (1). The PHQ -9 is a screening scale that measures the presence and severity of depressive symptoms (1) and consists of nine symptoms of the DSM-IV MDE criterion A (74). These nine items are arranged in the form of an adjectival-type scale assessing the presence of the symptom in the last two weeks (\"not at all,” \"several days,” \"more than half of the days\" and \"almost every day\"), which are scored from 0 to 3, reaching a score between 0 and 27 (75). It can be self - or hetero - administered and is used either algorithmically to make a probable diagnosis of an MDE or as a continuous measure of scores ranging from 0 to 27 and cut -off"
+    },
+    {
+      "rank": 4,
+      "score": 0.875775,
+      "chunk_id": "DOC_A002_p2_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "challenging to derive thorough and valuable insights across a range of contexts because of the fragmented nature of these investigations. Although there are many review articles discussing different aspects of psychological distress among college students, the majority only discuss select features of individual symptoms, demographic factors, or individual intervention approaches [ 5]. The larger social, institutional, and policy environments in which pupils live and learn are ignored in these assessments. Integrative frameworks are urgently needed to reflect the complex- ity of interacting variables, as mental health is a complex and contextually embedded phenomenon [8,9]. One such framework is the Socio-Ecological Model (SEM), which conceptualizes human behavior and health outcomes as the result of dynamic interplays across multiple layers of influence: individual, interpersonal, institutional (organizational), community, and policy. This model has been widely used in public health, education, and psychology to examine health disparities, guide multi-level interventions, and inform system-oriented policy development [10]. The SEM is well suited to understanding college student mental health because it considers how personal characteristics (e.g., coping skills, self-efficacy), social relationships (e.g., peer and family support), institutional environments (e.g., access to mental health"
+    },
+    {
+      "rank": 5,
+      "score": 0.854228,
+      "chunk_id": "DOC_A002_p3_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "on psychological distress, specifically stress, anxiety, and depression, among college students. It is unique in applying the Socio-Ecological Model as the organizing framework to catego- rize the determinants of psychological distress across five interrelated levels. By focusing on review articles, this study draws on aggregated evidence from hundreds of primary studies, providing a high-level yet comprehensive synthesis of the factors contributing to student mental health outcomes in the pre- and post-pandemic eras. It aims to highlight where the literature has concentrated and, crucially, where it remains underdeveloped, particularly regarding structural and policy-level interventions. The following objectives guided this review. 1. To identify and map the determinants of stress, anxiety, and depression among college students, as reported in review articles published between 2015 and 2024. 2. To categorize these determinants using the five levels of the Socio-Ecological Model: individual, interpersonal, institutional, community, and policy. 3. To identify research gaps and opportunities for future inquiry, particularly about underexplored SEM levels and vulnerable student populations. 4. To generate evidence-informed recommendations for higher education institutions, public health agencies, and policymakers. Individual-level characteristics, such as gender, personality traits, coping mechanisms, and academic stress, have been the primary focus of previous assessments of college stu- dents’ mental health [6,7,11]. Even if they are unquestionably significant, focusing on this limit runs the risk of pathologizing children without addressing the larger systemic pres- sures they encounter. Institutional policies on grading, online teaching platforms, faculty support, and mental health services significantly shape students’ day-to-day experiences. However, they are often treated as peripheral in psychological research [ 11]. Similarly, community"
+    }
+  ]
+}

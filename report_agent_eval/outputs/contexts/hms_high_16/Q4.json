@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_16",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What are the protective effects of institutional context (e.g., institution type or size) on student mental health, and how should these factors be weighed against high-risk indicators during expert review?",
+  "retrieval_query": "Protective role of institutional environment in mitigating student distress",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:30.601349+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.994132,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 2,
+      "score": 0.945099,
+      "chunk_id": "DOC_A002_p2_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "challenging to derive thorough and valuable insights across a range of contexts because of the fragmented nature of these investigations. Although there are many review articles discussing different aspects of psychological distress among college students, the majority only discuss select features of individual symptoms, demographic factors, or individual intervention approaches [ 5]. The larger social, institutional, and policy environments in which pupils live and learn are ignored in these assessments. Integrative frameworks are urgently needed to reflect the complex- ity of interacting variables, as mental health is a complex and contextually embedded phenomenon [8,9]. One such framework is the Socio-Ecological Model (SEM), which conceptualizes human behavior and health outcomes as the result of dynamic interplays across multiple layers of influence: individual, interpersonal, institutional (organizational), community, and policy. This model has been widely used in public health, education, and psychology to examine health disparities, guide multi-level interventions, and inform system-oriented policy development [10]. The SEM is well suited to understanding college student mental health because it considers how personal characteristics (e.g., coping skills, self-efficacy), social relationships (e.g., peer and family support), institutional environments (e.g., access to mental health"
+    },
+    {
+      "rank": 3,
+      "score": 0.941886,
+      "chunk_id": "DOC_F004_p2_c5",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "of understanding and enhancing the student learning experiences. The learning experiences of university students involve the synergy of internal and external factors that shape students’ university experience and engagement. Internally, it involves students’ cognitive, social, and value development as they engage in academic and extracurricular activities both inside and outside the classroom. Externally, it includes the learning environment, such as students’ perceptions of assessment, quality teaching, feedback, and clear goals and standards provided by teachers to foster student engagement and achieve desirable educational outcomes. Both internal and external factors of the student learning experiences play a substantial role in wellbeing (Baik et al., 2019; Gilmore et al., 2025). Research highlights the importance of internal factors in student wellbeing. Academic competencies such as critical thinking, problem- solving, and teamwork have been linked to positive outcomes across multiple wellbeing domains, including physical, social, and environmental wellbeing (Baumann et al., 2014; Vázquez-Parra et al., 2023). Academic and social experiences also play a central role in fostering wellbeing ( Brooker and Vu, 2020 ), particularly through students’ sense of purpose and meaningful engagement in learning (Stanton et al., 2016). Social participation and a sense of community further support wellbeing across diverse university contexts"
+    },
+    {
+      "rank": 4,
+      "score": 0.910969,
+      "chunk_id": "DOC_A002_p3_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "on psychological distress, specifically stress, anxiety, and depression, among college students. It is unique in applying the Socio-Ecological Model as the organizing framework to catego- rize the determinants of psychological distress across five interrelated levels. By focusing on review articles, this study draws on aggregated evidence from hundreds of primary studies, providing a high-level yet comprehensive synthesis of the factors contributing to student mental health outcomes in the pre- and post-pandemic eras. It aims to highlight where the literature has concentrated and, crucially, where it remains underdeveloped, particularly regarding structural and policy-level interventions. The following objectives guided this review. 1. To identify and map the determinants of stress, anxiety, and depression among college students, as reported in review articles published between 2015 and 2024. 2. To categorize these determinants using the five levels of the Socio-Ecological Model: individual, interpersonal, institutional, community, and policy. 3. To identify research gaps and opportunities for future inquiry, particularly about underexplored SEM levels and vulnerable student populations. 4. To generate evidence-informed recommendations for higher education institutions, public health agencies, and policymakers. Individual-level characteristics, such as gender, personality traits, coping mechanisms, and academic stress, have been the primary focus of previous assessments of college stu- dents’ mental health [6,7,11]. Even if they are unquestionably significant, focusing on this limit runs the risk of pathologizing children without addressing the larger systemic pres- sures they encounter. Institutional policies on grading, online teaching platforms, faculty support, and mental health services significantly shape students’ day-to-day experiences. However, they are often treated as peripheral in psychological research [ 11]. Similarly, community"
+    },
+    {
+      "rank": 5,
+      "score": 0.856383,
+      "chunk_id": "DOC_E001_p8_c2",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 8,
+      "category_code": "E_financial_food",
+      "text": "that reduce basic needs insecurity and the cost of attendance. We also feature institutional recommendations throughout the report, drawing from the work of hundreds of colleges and universities with whom we are proud to collaborate through our Hope Impact Partnerships (HIP) program. From expanding supports to dismantling barriers, we are inspired by their commitment to strengthening ecosystems of support for students and see their dedication as a model for institutions across the country. We also include student quotes throughout the report; after all, students are the ones with lived expertise about basic needs insecurity. These quotes are responses to a qualitative item on our survey: “What does the world need to know about being a college student?” Their responses serve as much-needed reminders that the status quo isn’t working—that we must rebuild a system in which students are humans first. Meeting students’ basic needs assures their long-term health, improves their educational outcomes, and in turn, contributes to a more robust workforce and society. By prioritizing basic needs security, we take a meaningful step toward a more equitable, compassionate world where every student has the resources and opportunities to thrive."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_07",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:17:14.858762+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_07",
+    "risk_interpretation": {
+      "probability": 0.501,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.501) is extremely close to the decision threshold (0.5), what are the established guidelines for interpreting model output when a case falls into this near-threshold, borderline range?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting machine learning prediction probability near decision threshold in mental health screening",
+        "expected_evidence": [
+          "Guidelines for handling borderline risk scores.",
+          "Impact of minor score variations on clinical interpretation."
+        ],
+        "priority": "high",
+        "rationale": "The case is explicitly borderline (0.501 vs 0.5), requiring specific guidance on interpreting model confidence at this critical boundary."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What clinical context and severity levels should be considered when reviewing 'Loneliness' as the primary feature contributing to elevated screening risk, especially given its high contribution weight?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "clinical significance of loneliness in depression/anxiety screening",
+        "expected_evidence": [
+          "Severity scales for loneliness and mental health.",
+          "Correlation between perceived loneliness and elevated screening risk."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the single largest positive contributor, making its clinical interpretation paramount."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should 'Food insecurity worry' be contextualized in relation to other stressors (e.g., financial stress) when assessing elevated screening risk, and what are the associated academic support considerations?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "relationship between food insecurity worry and mental health outcomes in students",
+        "expected_evidence": [
+          "Impact of nutritional stress on mood.",
+          "Academic resources for addressing food/financial instability."
+        ],
+        "priority": "high",
+        "rationale": "Food worry is a significant, actionable contributor that requires specific contextualization beyond just the score."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the clinical implications of 'Academic impairment' being identified as a strong protective factor, and how should this mitigating evidence be weighed against other risk factors?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "protective role of academic engagement in mental health screening",
+        "expected_evidence": [
+          "Evidence linking academic success/engagement to resilience.",
+          "Methodology for weighting protective factors against risk scores."
+        ],
+        "priority": "high",
+        "rationale": "The strongest negative contributor (protective factor) must be thoroughly reviewed to balance the overall risk picture."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "expert_support_consideration",
+        "question": "What specific, non-diagnostic support considerations should be provided to an expert reviewer when synthesizing multiple contributing factors (e.g., loneliness vs. academic impairment) into a comprehensive report?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for generating expert reports from multi-factorial mental health screening data",
+        "expected_evidence": [
+          "Structure of an expert-facing support report.",
+          "Guidelines for synthesizing conflicting risk/protective evidence."
+        ],
+        "priority": "medium",
+        "rationale": "This question guides the overall structure and tone of the final, high-level expert document."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What is the standardized, non-diagnostic language required for communicating elevated screening risk to a student and their support system, ensuring appropriate safety protocols are followed?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for high mental health screening risk",
+        "expected_evidence": [
+          "Standardized language for psychoeducation.",
+          "Mandatory safety check procedures following elevated screening risk."
+        ],
+        "priority": "high",
+        "rationale": "Essential mandatory question to ensure ethical and safe communication practices are followed."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_07\",\n  \"risk_interpretation\": {\n    \"probability\": 0.501,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.501) is extremely close to the decision threshold (0.5), what are the established guidelines for interpreting model output when a case falls into this near-threshold, borderline range?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting machine learning prediction probability near decision threshold in mental health screening\",\n      \"expected_evidence\": [\n        \"Guidelines for handling borderline risk scores.\",\n        \"Impact of minor score variations on clinical interpretation.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is explicitly borderline (0.501 vs 0.5), requiring specific guidance on interpreting model confidence at this critical boundary.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What clinical context and severity levels should be considered when reviewing 'Loneliness' as the primary feature contributing to elevated screening risk, especially given its high contribution weight?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"clinical significance of loneliness in depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Severity scales for loneliness and mental health.\",\n        \"Correlation between perceived loneliness and elevated screening risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the single largest positive contributor, making its clinical interpretation paramount.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should 'Food insecurity worry' be contextualized in relation to other stressors (e.g., financial stress) when assessing elevated screening risk, and what are the associated academic support considerations?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"relationship between food insecurity worry and mental health outcomes in students\",\n      \"expected_evidence\": [\n        \"Impact of nutritional stress on mood.\",\n        \"Academic resources for addressing food/financial instability.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food worry is a significant, actionable contributor that requires specific contextualization beyond just the score.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the clinical implications of 'Academic impairment' being identified as a strong protective factor, and how should this mitigating evidence be weighed against other risk factors?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"protective role of academic engagement in mental health screening\",\n      \"expected_evidence\": [\n        \"Evidence linking academic success/engagement to resilience.\",\n        \"Methodology for weighting protective factors against risk scores.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The strongest negative contributor (protective factor) must be thoroughly reviewed to balance the overall risk picture.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What specific, non-diagnostic support considerations should be provided to an expert reviewer when synthesizing multiple contributing factors (e.g., loneliness vs. academic impairment) into a comprehensive report?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for generating expert reports from multi-factorial mental health screening data\",\n      \"expected_evidence\": [\n        \"Structure of an expert-facing support report.\",\n        \"Guidelines for synthesizing conflicting risk/protective evidence.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This question guides the overall structure and tone of the final, high-level expert document.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the standardized, non-diagnostic language required for communicating elevated screening risk to a student and their support system, ensuring appropriate safety protocols are followed?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for high mental health screening risk\",\n      \"expected_evidence\": [\n        \"Standardized language for psychoeducation.\",\n        \"Mandatory safety check procedures following elevated screening risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Essential mandatory question to ensure ethical and safe communication practices are followed.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

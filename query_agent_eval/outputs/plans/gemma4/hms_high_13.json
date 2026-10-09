@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_high_13",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:47:43.833844+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_13",
+    "risk_interpretation": {
+      "probability": 0.9661,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the high prediction probability (0.9661) and elevated screening risk, what are the established clinical guidelines for immediate expert review and follow-up assessment in a non-diagnostic setting?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical guidelines for managing students with high elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Recommended next steps for high-risk screening results.",
+          "Criteria for mandatory expert follow-up."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for a high-risk case to guide immediate, safe action and support the 'support considerations' section of the report."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current scientific understanding regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, specifically when this feature contributes highly to the model prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "relationship between academic impairment and student mental health screening risk",
+        "expected_evidence": [
+          "Evidence linking academic stress/impairment to depressive symptoms.",
+          "Contextualizing the role of academic performance in overall well-being."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single most dominant positive contributor (1.1036), which must be thoroughly contextualized for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How do social factors, such as reported loneliness (lonely) and low flourishing scores (flourish), contribute to the model's prediction of elevated screening risk in college students?",
+        "linked_xai_factor": "lonely, flourish",
+        "retrieval_query": "impact of loneliness and lack of flourishing on student mental health outcomes",
+        "expected_evidence": [
+          "Psychological mechanisms linking social isolation to anxiety/depression.",
+          "Interventions targeting sense of belonging."
+        ],
+        "priority": "high",
+        "rationale": "Groups the two major psychosocial contributors (loneliness and flourishing) for a comprehensive review, which is critical in student mental health screening."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the established benefits of high exercise frequency (exerc) as a protective factor against elevated depression/anxiety screening risk in young adults?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "exercise frequency as a protective factor for student mental health",
+        "expected_evidence": [
+          "Biological and psychological benefits of physical activity.",
+          "Recommendations for integrating exercise into campus wellness programs."
+        ],
+        "priority": "high",
+        "rationale": "Focuses on the strongest negative contributor, providing evidence to balance the high-risk prediction and guide positive support considerations."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of predictive screening models (like CatBoost) when interpreting elevated depression/anxiety screening risk, particularly regarding correlation versus causation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and interpretation guidelines for ML-based mental health screening tools",
+        "expected_evidence": [
+          "Distinction between predictive probability and clinical diagnosis.",
+          "Need for multi-modal assessment."
+        ],
+        "priority": "medium",
+        "rationale": "Essential to temper the high risk score with model limitations, ensuring the expert understands that the prediction is not a diagnosis."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic language and communication strategies should be used when discussing elevated depression/anxiety screening risk with a student to ensure safety, reduce stigma, and encourage help-seeking behavior?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for mental health screening results",
+        "expected_evidence": [
+          "Best practices for psychoeducation.",
+          "Language to avoid (e.g., 'cause,' 'has')."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question ensuring the report adheres to ethical and non-diagnostic communication standards."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_13\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9661,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the high prediction probability (0.9661) and elevated screening risk, what are the established clinical guidelines for immediate expert review and follow-up assessment in a non-diagnostic setting?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical guidelines for managing students with high elevated depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Recommended next steps for high-risk screening results.\",\n        \"Criteria for mandatory expert follow-up.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for a high-risk case to guide immediate, safe action and support the 'support considerations' section of the report.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current scientific understanding regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, specifically when this feature contributes highly to the model prediction?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"relationship between academic impairment and student mental health screening risk\",\n      \"expected_evidence\": [\n        \"Evidence linking academic stress/impairment to depressive symptoms.\",\n        \"Contextualizing the role of academic performance in overall well-being.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single most dominant positive contributor (1.1036), which must be thoroughly contextualized for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How do social factors, such as reported loneliness (lonely) and low flourishing scores (flourish), contribute to the model's prediction of elevated screening risk in college students?\",\n      \"linked_xai_factor\": \"lonely, flourish\",\n      \"retrieval_query\": \"impact of loneliness and lack of flourishing on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Psychological mechanisms linking social isolation to anxiety/depression.\",\n        \"Interventions targeting sense of belonging.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Groups the two major psychosocial contributors (loneliness and flourishing) for a comprehensive review, which is critical in student mental health screening.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the established benefits of high exercise frequency (exerc) as a protective factor against elevated depression/anxiety screening risk in young adults?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"exercise frequency as a protective factor for student mental health\",\n      \"expected_evidence\": [\n        \"Biological and psychological benefits of physical activity.\",\n        \"Recommendations for integrating exercise into campus wellness programs.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Focuses on the strongest negative contributor, providing evidence to balance the high-risk prediction and guide positive support considerations.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of predictive screening models (like CatBoost) when interpreting elevated depression/anxiety screening risk, particularly regarding correlation versus causation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and interpretation guidelines for ML-based mental health screening tools\",\n      \"expected_evidence\": [\n        \"Distinction between predictive probability and clinical diagnosis.\",\n        \"Need for multi-modal assessment.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Essential to temper the high risk score with model limitations, ensuring the expert understands that the prediction is not a diagnosis.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic language and communication strategies should be used when discussing elevated depression/anxiety screening risk with a student to ensure safety, reduce stigma, and encourage help-seeking behavior?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for mental health screening results\",\n      \"expected_evidence\": [\n        \"Best practices for psychoeducation.\",\n        \"Language to avoid (e.g., 'cause,' 'has').\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question ensuring the report adheres to ethical and non-diagnostic communication standards.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

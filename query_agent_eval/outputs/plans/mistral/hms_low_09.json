@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_low_09",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:45:25.543666+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_09",
+    "risk_interpretation": {
+      "probability": 0.0565,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a 5.65% probability in terms of elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of probability for depression and anxiety screening risk",
+        "expected_evidence": [
+          "interpretation of 5.65% probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the model's prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of exercise frequency to the model's prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Evidence for exercise frequency contribution in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for exercise frequency contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of exercise frequency in the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of weekend sleep to the model's prediction?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "Evidence for weekend sleep contribution in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for weekend sleep contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of weekend sleep in the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of weeknight sleep to the model's prediction?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep contribution in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for weeknight sleep contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of weeknight sleep in the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of institution size to the model's prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Evidence for institution size contribution in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for institution size contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of institution size in the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of public institution to the model's prediction?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "Evidence for public institution contribution in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for public institution contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of public institution in the model's prediction."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of academic impairment against elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for protective effect of academic impairment in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for protective effect of academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of academic impairment as a protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of age against elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Evidence for protective effect of age in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for protective effect of age"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of age as a protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What are some safety considerations when communicating about low elevated depression/anxiety screening risk to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for communication about low depression and anxiety screening risk",
+        "expected_evidence": [
+          "safety considerations for communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_09\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0565,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a 5.65% probability in terms of elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of probability for depression and anxiety screening risk\",\n         \"expected_evidence\": [\"interpretation of 5.65% probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of exercise frequency to the model's prediction?\",\n         \"linked_xai_factor\": \"exerc\",\n         \"retrieval_query\": \"Evidence for exercise frequency contribution in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for exercise frequency contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of exercise frequency in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of weekend sleep to the model's prediction?\",\n         \"linked_xai_factor\": \"sleep_wkend\",\n         \"retrieval_query\": \"Evidence for weekend sleep contribution in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for weekend sleep contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of weekend sleep in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of weeknight sleep to the model's prediction?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep contribution in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for weeknight sleep contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of weeknight sleep in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of institution size to the model's prediction?\",\n         \"linked_xai_factor\": \"inst_size\",\n         \"retrieval_query\": \"Evidence for institution size contribution in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for institution size contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of institution size in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of public institution to the model's prediction?\",\n         \"linked_xai_factor\": \"inst_public\",\n         \"retrieval_query\": \"Evidence for public institution contribution in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for public institution contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of public institution in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of academic impairment against elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for protective effect of academic impairment in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for protective effect of academic impairment\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of academic impairment as a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of age against elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"Evidence for protective effect of age in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for protective effect of age\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of age as a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some safety considerations when communicating about low elevated depression/anxiety screening risk to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for communication about low depression and anxiety screening risk\",\n         \"expected_evidence\": [\"safety considerations for communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

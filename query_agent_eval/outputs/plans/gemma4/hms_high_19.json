@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_19",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T20:03:58.421791+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_19",
+    "risk_interpretation": {
+      "probability": 0.9628,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the clinical guidelines and best practices for interpreting an 'elevated screening risk' score (e.g., >0.9) in a non-diagnostic context, specifically regarding immediate follow-up steps?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical guidelines elevated screening risk interpretation high probability",
+        "expected_evidence": [
+          "Definition and clinical implications of 'elevated screening risk'",
+          "Recommended next steps for follow-up assessment in high-risk students"
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for a high-risk case to guide immediate, safe interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence base linking academic impairment (aca_impa) as a feature contributing to elevated depression/anxiety screening risk, and what are appropriate psychoeducational resources for this specific area?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment link to student mental health screening risk evidence base",
+        "expected_evidence": [
+          "Relationship between academic stress/impairment and depression symptoms",
+          "Psychoeducational interventions for students experiencing academic difficulties"
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single largest positive contributor (1.1165) to guide targeted support."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are evidence-based interventions and psychoeducational strategies for mitigating the risk associated with reported loneliness in college students?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "evidence based interventions for student loneliness anxiety depression screening",
+        "expected_evidence": [
+          "Effectiveness of social skills training or group therapy for loneliness",
+          "Strategies to build campus community and reduce isolation"
+        ],
+        "priority": "high",
+        "rationale": "Addresses a significant contributing factor (0.3564) requiring specific intervention knowledge."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does campus belonging (belong2) function as a protective factor against elevated screening risk, and what institutional supports can be leveraged to enhance this sense of connection?",
+        "linked_xai_factor": "belong2",
+        "retrieval_query": "protective role of campus belonging in student mental health outcomes",
+        "expected_evidence": [
+          "Mechanism by which belonging reduces psychological distress",
+          "Examples of institutional programs promoting a sense of community"
+        ],
+        "priority": "medium",
+        "rationale": "Must include protective factors to provide a balanced view and actionable strengths."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of using ML screening tools (like CatBoost) for individual mental health risk assessment, particularly regarding feature interaction and non-captured variables?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of machine learning models in student mental health screening",
+        "expected_evidence": [
+          "Scope limitations of predictive models (e.g., inability to capture nuance)",
+          "Importance of clinical judgment over algorithmic output"
+        ],
+        "priority": "medium",
+        "rationale": "Crucial for managing expectations and ensuring the expert understands the tool's boundaries."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or their guardian, ensuring safety without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for mental health screening results",
+        "expected_evidence": [
+          "Recommended phrasing and tone for high-risk communication",
+          "Guidelines to avoid pathologizing the student based on the score"
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety check to prevent miscommunication or alarm."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What are the recommended multi-disciplinary referral pathways (e.g., counseling, academic advising, financial aid) for a student presenting with high screening risk due to combined factors like academic impairment and loneliness?",
+        "linked_xai_factor": null,
+        "retrieval_query": "multi-disciplinary support plan for students with elevated mental health screening risk",
+        "expected_evidence": [
+          "Integration of academic, social, and psychological supports",
+          "Best practices for coordinating care among different campus departments"
+        ],
+        "priority": "high",
+        "rationale": "Guides the expert in creating a holistic, actionable support plan."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_19\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9628,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the clinical guidelines and best practices for interpreting an 'elevated screening risk' score (e.g., >0.9) in a non-diagnostic context, specifically regarding immediate follow-up steps?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical guidelines elevated screening risk interpretation high probability\",\n      \"expected_evidence\": [\n        \"Definition and clinical implications of 'elevated screening risk'\",\n        \"Recommended next steps for follow-up assessment in high-risk students\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for a high-risk case to guide immediate, safe interpretation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the evidence base linking academic impairment (aca_impa) as a feature contributing to elevated depression/anxiety screening risk, and what are appropriate psychoeducational resources for this specific area?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment link to student mental health screening risk evidence base\",\n      \"expected_evidence\": [\n        \"Relationship between academic stress/impairment and depression symptoms\",\n        \"Psychoeducational interventions for students experiencing academic difficulties\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single largest positive contributor (1.1165) to guide targeted support.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are evidence-based interventions and psychoeducational strategies for mitigating the risk associated with reported loneliness in college students?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"evidence based interventions for student loneliness anxiety depression screening\",\n      \"expected_evidence\": [\n        \"Effectiveness of social skills training or group therapy for loneliness\",\n        \"Strategies to build campus community and reduce isolation\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses a significant contributing factor (0.3564) requiring specific intervention knowledge.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does campus belonging (belong2) function as a protective factor against elevated screening risk, and what institutional supports can be leveraged to enhance this sense of connection?\",\n      \"linked_xai_factor\": \"belong2\",\n      \"retrieval_query\": \"protective role of campus belonging in student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Mechanism by which belonging reduces psychological distress\",\n        \"Examples of institutional programs promoting a sense of community\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Must include protective factors to provide a balanced view and actionable strengths.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of using ML screening tools (like CatBoost) for individual mental health risk assessment, particularly regarding feature interaction and non-captured variables?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of machine learning models in student mental health screening\",\n      \"expected_evidence\": [\n        \"Scope limitations of predictive models (e.g., inability to capture nuance)\",\n        \"Importance of clinical judgment over algorithmic output\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Crucial for managing expectations and ensuring the expert understands the tool's boundaries.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or their guardian, ensuring safety without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for mental health screening results\",\n      \"expected_evidence\": [\n        \"Recommended phrasing and tone for high-risk communication\",\n        \"Guidelines to avoid pathologizing the student based on the score\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety check to prevent miscommunication or alarm.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are the recommended multi-disciplinary referral pathways (e.g., counseling, academic advising, financial aid) for a student presenting with high screening risk due to combined factors like academic impairment and loneliness?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"multi-disciplinary support plan for students with elevated mental health screening risk\",\n      \"expected_evidence\": [\n        \"Integration of academic, social, and psychological supports\",\n        \"Best practices for coordinating care among different campus departments\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Guides the expert in creating a holistic, actionable support plan.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

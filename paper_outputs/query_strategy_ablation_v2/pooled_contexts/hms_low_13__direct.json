@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_low_13",
+  "arm": "direct",
+  "n_queries": 1,
+  "n_raw_hits": 5,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.98318,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",
+      "pool_rank": 1
+    },
+    {
+      "rank": 2,
+      "score": 0.918535,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",
+      "pool_rank": 2
+    },
+    {
+      "rank": 3,
+      "score": 0.903401,
+      "chunk_id": "DOC_A001_p1_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS 1 The Importance of Screening and Early Identification of Depression in College Students Elizabeth Nino This project submitted to Dr. Cheryl Swayne School of Nursing Marieb College of Health & Human Services Florida Gulf Coast University in partial fulfillment of the requirements for the degree of Doctor of Nursing Practice Approved: April 28, 2020 Dr. Cheryl Swayne",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",
+      "pool_rank": 3
+    },
+    {
+      "rank": 4,
+      "score": 0.889015,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",
+      "pool_rank": 4
+    },
+    {
+      "rank": 5,
+      "score": 0.886026,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",
+      "pool_rank": 5
+    }
+  ]
+}

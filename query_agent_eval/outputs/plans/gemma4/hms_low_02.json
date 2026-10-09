@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_02",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:11:51.632467+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_02",
+    "risk_interpretation": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "Given the low prediction probability (0.0505) and 'not elevated screening risk' label, what is the appropriate communication strategy to ensure that the student understands this result does not equate to zero risk or eliminate the need for ongoing support?",
+        "linked_xai_factor": null,
+        "retrieval_query": "low-risk screening result communication best practices non-diagnostic language",
+        "expected_evidence": [
+          "Guidelines for communicating low screening risk results.",
+          "Phrasing to avoid false reassurance in mental health screenings."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question for all cases, especially when the result is reassuringly low, to prevent misinterpretation by both student and expert."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "The model identified 'Academic impairment' (aca_impa) as a major protective factor. What is the clinical significance of low academic impairment in reducing the predicted screening risk, and how should this be contextualized for expert review?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "protective role of low academic impairment on depression anxiety screening risk",
+        "expected_evidence": [
+          "Clinical interpretation of high functioning/low impairment as a resilience marker.",
+          "How to integrate protective factors into expert-facing reports."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the strongest negative contributor, providing deep context on why this factor is beneficial and how it should be reported."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "The student profile indicates a high 'Flourishing' score, which contributed negatively to the model prediction. What specific aspects of flourishing are most strongly correlated with reduced screening risk in this population?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "relationship between flourishing and decreased depression anxiety screening risk",
+        "expected_evidence": [
+          "Definition and clinical utility of 'Flourishing' as a protective factor.",
+          "Evidence linking high flourishing scores to mental well-being outcomes."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the second most impactful protective factor, ensuring the expert understands the depth of this resilience marker."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "The feature 'Exercise frequency' contributed positively to the model prediction. What is the current scientific understanding regarding the relationship between exercise frequency and elevated depression/anxiety screening risk in students?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "exercise frequency contribution to mental health screening risk",
+        "expected_evidence": [
+          "Evidence supporting or refuting the link between physical activity levels and anxiety symptoms.",
+          "Contextualizing 'unknown' feature data in XAI interpretation."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a positive contributor. Since the student status is 'unknown', context on this variable's predictive power is crucial."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "Considering multiple strong protective factors (e.g., age, financial stability, low loneliness), how should the expert report synthesize these cumulative positive indicators to build a holistic picture of student resilience?",
+        "linked_xai_factor": "age, fincur, lonely",
+        "retrieval_query": "synthesizing multiple protective factors for mental health risk assessment",
+        "expected_evidence": [
+          "Frameworks for reporting cumulative resilience scores.",
+          "Best practices for integrating socio-economic and developmental protective factors."
+        ],
+        "priority": "high",
+        "rationale": "Groups several strong, non-overlapping protective factors to provide a comprehensive view of the student's strengths, which is vital in low-risk reports."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations or scope restrictions of this specific screening model (CatBoost) when applied to non-diagnostic student depression and anxiety screening, particularly regarding population generalization?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and generalizability of machine learning models for student mental health screening",
+        "expected_evidence": [
+          "Model validation scope (e.g., specific demographics or academic settings).",
+          "Guidance on when model predictions should be treated as suggestive rather than definitive."
+        ],
+        "priority": "medium",
+        "rationale": "Essential for managing expectations and providing necessary caution regarding the predictive tool itself, regardless of the low risk score."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0505,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"Given the low prediction probability (0.0505) and 'not elevated screening risk' label, what is the appropriate communication strategy to ensure that the student understands this result does not equate to zero risk or eliminate the need for ongoing support?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"low-risk screening result communication best practices non-diagnostic language\",\n      \"expected_evidence\": [\n        \"Guidelines for communicating low screening risk results.\",\n        \"Phrasing to avoid false reassurance in mental health screenings.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question for all cases, especially when the result is reassuringly low, to prevent misinterpretation by both student and expert.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"The model identified 'Academic impairment' (aca_impa) as a major protective factor. What is the clinical significance of low academic impairment in reducing the predicted screening risk, and how should this be contextualized for expert review?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"protective role of low academic impairment on depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Clinical interpretation of high functioning/low impairment as a resilience marker.\",\n        \"How to integrate protective factors into expert-facing reports.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the strongest negative contributor, providing deep context on why this factor is beneficial and how it should be reported.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"The student profile indicates a high 'Flourishing' score, which contributed negatively to the model prediction. What specific aspects of flourishing are most strongly correlated with reduced screening risk in this population?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"relationship between flourishing and decreased depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Definition and clinical utility of 'Flourishing' as a protective factor.\",\n        \"Evidence linking high flourishing scores to mental well-being outcomes.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the second most impactful protective factor, ensuring the expert understands the depth of this resilience marker.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"The feature 'Exercise frequency' contributed positively to the model prediction. What is the current scientific understanding regarding the relationship between exercise frequency and elevated depression/anxiety screening risk in students?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"exercise frequency contribution to mental health screening risk\",\n      \"expected_evidence\": [\n        \"Evidence supporting or refuting the link between physical activity levels and anxiety symptoms.\",\n        \"Contextualizing 'unknown' feature data in XAI interpretation.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a positive contributor. Since the student status is 'unknown', context on this variable's predictive power is crucial.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"Considering multiple strong protective factors (e.g., age, financial stability, low loneliness), how should the expert report synthesize these cumulative positive indicators to build a holistic picture of student resilience?\",\n      \"linked_xai_factor\": \"age, fincur, lonely\",\n      \"retrieval_query\": \"synthesizing multiple protective factors for mental health risk assessment\",\n      \"expected_evidence\": [\n        \"Frameworks for reporting cumulative resilience scores.\",\n        \"Best practices for integrating socio-economic and developmental protective factors.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Groups several strong, non-overlapping protective factors to provide a comprehensive view of the student's strengths, which is vital in low-risk reports.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations or scope restrictions of this specific screening model (CatBoost) when applied to non-diagnostic student depression and anxiety screening, particularly regarding population generalization?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and generalizability of machine learning models for student mental health screening\",\n      \"expected_evidence\": [\n        \"Model validation scope (e.g., specific demographics or academic settings).\",\n        \"Guidance on when model predictions should be treated as suggestive rather than definitive.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Essential for managing expectations and providing necessary caution regarding the predictive tool itself, regardless of the low risk score.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

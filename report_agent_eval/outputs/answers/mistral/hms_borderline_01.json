@@ -1,0 +1,66 @@
+{
+  "model": "mistral",
+  "case_id": "hms_borderline_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Given the prediction probability of 0.5001 is extremely close to the decision threshold of 0.5, the clinical guidelines for interpreting 'near-threshold' results in student mental health screening suggest a cautious approach. The Patient Health Questionnaire-2 (PHQ-2) may be useful as an initial screening tool for depression among college students, as it can easily be administered by healthcare providers at the college health center [Context 1]. However, due to the proximity of the prediction probability to the decision threshold, a positive result should not be automatically interpreted as a definitive case of depression. Instead, further evaluation with the PHQ-9 and possible referral to counseling services is recommended [Context 1].\n\nThe importance of early identification of depression in college students is underscored by the high prevalence of mental health disorders among this population, which can negatively impact their physical health, mental health, relationships, academic performance, and quality of life [Context 3]. Despite this, depression has often been overlooked, and people suffering from anxiety disorders are frequently under-diagnosed or treated inadequately [Context 4]. Therefore, it is crucial to employ reliable and valid screening tools like the PHQ-2 and PHQ-9 for early detection and intervention.\n\nIf the near-threshold result persists after further evaluation, it may be prudent to consider a referral to qualified mental health support services, as untreated depression in college students can have severe consequences [Context 3]. It is essential to emphasize that this system does not diagnose or prescribe treatment but aims to facilitate early identification and appropriate referrals for further evaluation and care.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:41:31.374038+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "The provided evidence supports a relationship between reported loneliness and elevated screening risk in college students, particularly when other protective factors are present. Loneliness, defined as the disparity between one's desired and actual levels of social relationships (Context 1, Context 4), is associated with enhanced sympathetic tonus, increased HPA activation, reduced inflammatory control, and decreased expression of genes regulating glucocorticoid responses (Context 1). These physiological changes might further lead to deleterious health outcomes (Context 1). Loneliness is suggested to be a precursor of depression (Context 1, Context 3), and research evidence also suggests that perceived social support could reduce the feeling of loneliness experienced by adolescents (Context 2). However, not all adolescents with lower levels of perceived social support report higher levels of loneliness (Context 2).\n\nIn addition, a substantial body of research has shown that mental health challenges are mitigated by social support among college students (Context 3), and high levels of social support are associated with reduced levels of depression and anxiety (Context 3). Therefore, it is reasonable to infer that lower levels of perceived social support and higher levels of loneliness could contribute to an elevated screening risk for depressive symptoms in college students.\n\nIt is important to note that not all students who report high levels of loneliness or low levels of perceived social support will develop depressive symptoms, as other factors may moderate this relationship (Context 2). Furthermore, the evidence does not establish a causal relationship between loneliness and elevated screening risk; it only suggests a statistical association.\n\nIn light of these findings, it is recommended that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being (Context 5). This could help mitigate the negative health impacts associated with loneliness among college students.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:41:45.411598+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Current financial instability (fincur) contributes to elevated screening risk in a student population by increasing stress levels, which can exacerbate social, emotional, and behavioral difficulties. This is particularly relevant during the university period, as it represents a high-risk time for mental health problems due to various stressors, including financing studies (Context 3).\n\nSchool mental health screening, conducted systematically for all students, can help identify those experiencing or at risk of experiencing such difficulties (Context 2). By connecting students and families to cost-effective services like individual and group outpatient mental health services (Context 1), early intervention strategies can be employed to address financial instability-related stressors.\n\nStrategies for mitigating this specific stressor include:\n1. Universal school screening, which can detect the onset of challenges early so they can be addressed before they escalate (Context 2).\n2. A multi-tiered system of supports (MTSS), ensuring appropriate supports are provided to more than just those students who present with the highest level of risk (Context 2).\n3. Addressing possible trends in certain subsets of a school’s population, such as providing classroom supports directly to groups with intensive social-emotional-behavioral needs (Context 4).\n4. Informing students and families about screening procedures in advance and offering the opportunity to consent or opt out (Context 5).\n5. Gradually rolling out initial screening efforts to ensure the effectiveness of all processes before scaling up (Context 5).\n6. Responding immediately to risk of harm to self and others, and having a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:41:58.186425+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "High 'Flourishing' scores (flourish) in individuals, particularly those with relatively low levels of social support, can mitigate elevated screening risk by providing positive affect, a sense of predictability and stability, and recognition of self-worth. This is supported by evidence from studies that show a generalized beneficial effect of social support on overall well-being (Context 1, Context 2).\n\nThe protective factor of high flourish scores can be emphasized to the expert reviewer by highlighting its role in reducing psychological distress among college students, such as stress, anxiety, and depression (Context 4). Additionally, it is important to note that this effect is particularly significant for those with lower levels of social support.\n\nHowever, it's crucial to remember that while high flourish scores can contribute positively to mental health outcomes, they should not be considered a cure or substitute for professional help when elevated risk is present. In such cases, referral to qualified support services may be necessary (not provided in context).\n\nThe evidence suggests that the protective effect of high flourish scores operates through a buffering mechanism, where it helps individuals cope with stressful events (Context 3). This implies that interventions aimed at enhancing social support and flourishing could potentially reduce psychological distress among college students.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:42:08.602896+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "The provided evidence supports that maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors in first-year university students, such as loneliness and financial strain. This is indicated by studies showing that modifiable psychosocial and lifestyle factors at entry are associated with positive screens for mental health outcomes at completion of the first year (Context 1). Additionally, emotional wellbeing of first-year students is critical for determining future academic success, with mental health problems and negative experiences being strong predictors of academic difficulties among female students but not male students. Instead, positive social interaction predicted less academic difficulties in male students (Context 2). Furthermore, a lack of positive social relationships has been linked to negative psychological states such as anxiety or depression, which may ultimately influence physical health either through direct effects on physiological processes or behavioral patterns that increase risk for disease and mortality (Context 4). Lastly, research highlights the importance of internal factors in student wellbeing, including academic competencies and social participation, both of which are associated with positive mental health outcomes (Context 5). However, it is important to note that these findings are based on self-reported data and may not fully capture the complexity of mental health experiences among university students. For elevated risk cases, qualified support should be sought for appropriate intervention measures.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:42:19.108150+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "The standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team involve a multi-tiered approach that emphasizes empathy while maintaining professional boundaries. Screening is conducted systematically for all students, not just those at risk, using reliable tools that consider factors like reliability, feasibility, cost, and fit with the goals of screening (Context 2 & 3).\n\nWhen discussing elevated screening risk, it's essential to inform students and families about the screening procedures in advance, offer the opportunity to consent or opt out, and share information about screening in multiple formats prior to implementation (Context 3). Schools should start small by piloting screening procedures with small groups of students, making course corrections, and building on successes before scaling up to the entire student population (Context 4).\n\nIn cases where a college student screens positive for depression using tools like the Patient Health Questionnaire-2 (PHQ-2), they should be further evaluated and possibly referred to counseling services (Context 5). It's crucial to address mental health concerns early, as untreated depression can lead to significant morbidity, mortality, disability, and increased risk of suicide (Context 5).\n\nIn all cases, it's essential to have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. If there is a risk of harm to self or others, immediate action should be taken (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:42:30.534565+00:00"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "The retrieved evidence does not provide general established clinical guidelines for interpreting an arbitrary high prediction probability score in a non-diagnostic setting. However, specific protocols are detailed based on screening tools and settings. For college students who screen positive using the PHQ-2, the recommended approach is further evaluation with the PHQ-9, followed by possible referral to counseling services (Context 1). In primary care settings utilizing the PHQ-9, a positive result (score $\\geq$10) initiates participation in studies that test targeted feedback interventions for patients and general practitioners (Context 5). These protocols emphasize moving beyond initial screening through further assessment and structured follow-up care.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:02:51.430856+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The scientific literature suggests a consistent association between elevated screening risk for depression and anxiety and lower academic outcomes in young adults. Specifically, studies have found that depression is a significant predictor of both lower Grade Point Average (GPA) and an increased probability of dropping out during college years. This link is further supported by findings indicating that co-occurring symptoms of depression and anxiety are associated with reduced GPA when analyzed using within-person fixed effects models. Furthermore, research has shown that general depressive and anxious symptoms were associated with poorer academic outcomes among university students. These studies characterize the relationship as an association between mental health status and academic success, rather than establishing definitive causal links.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:03:11.380519+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The retrieved evidence indicates that basic needs insecurity, which includes food and housing concerns, is highly prevalent among various student populations, but it does not describe the specific mechanism by which worry about food insecurity contributes to an elevated screening risk for depression or anxiety. While the context notes that mental health issues are a significant factor leading students to stop out of college, no direct link between food insecurity worry and increased symptoms of anxiety/depression is provided. Furthermore, the provided passages do not contain any recommended psychoeducational resources for these concerns.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:03:33.382007+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The provided context does not contain information regarding protective mechanisms associated with institutional type ($\\text{inst\\_type}$). However, screening data can shed light on strengths and concerns specific to subsets of a population, such as certain grade or age groups, which is critical for providing equitable supports. To provide a balanced view of resilience, it is beneficial to systematically gather information about indicators of well-being and social-emotional strengths alongside distress levels. Research suggests that students who report average to high levels of well-being experience better current and long-term outcomes, including academic success, regardless of their level of psychological distress or impairment. Analyzing these trends at the group level can help prioritize supports and inform targeted prevention strategies for a school or community.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:03:56.354876+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The provided context passages do not contain any information regarding the known limitations of machine learning models, such as CatBoost, when applied to complex human behavioral data. Therefore, it is not possible to advise on how these specific technical limitations should be communicated within an expert report based solely on the retrieved evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:04:11.892949+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Non-diagnostic communication strategies require involving students and families in the planning, implementation, and informing processes by sharing information about screening procedures in multiple formats prior to the effort [Context 3]. It is recommended that these communications offer the opportunity for consent or opt-out. Regarding immediate safety protocols, any risk of harm to self or others must be addressed immediately, requiring a defined process to assess screening results and triage students who need further evaluation [Context 1, Context 3]. Furthermore, screening teams are responsible for ensuring that any student identified as potentially dangerous is assessed further without delay to ensure their safety [Context 1].",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:04:37.001819+00:00"
+    }
+  }
+}

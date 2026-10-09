@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_16",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "What are evidence-based, low-intensity psychoeducational resources (e.g., workshops, self-guided modules) that can be recommended to a student with a low screening risk but who exhibits minor areas of concern?",
+  "retrieval_query": "low intensity psychoeducation for college students mental wellness",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:32.953966+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.900223,
+      "chunk_id": "DOC_F003_p2_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is associated with higher rates of depression, par - ticularly in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Initial cross-sectional work has also identified lack of belonging as a predictor of depressive symptoms (Parr et al., 2020). Many self-report assessments of depressive symptoms include questions that assess social functioning; for example, the Center for Epidemiological Studies-Depression (CES-D) scale asks participants to rate social-functioning statements such as “I talked less than usual,” “People were unfriendly,” “I felt that people dislike me,” and “I felt lonely” (Lewinsohn et al., 1997), suggesting that depres- sive symptoms overlap with social experiences as well. The relationship between social factors and depression in young adults specifically has important implications as well. College students often have access to mental health treatment on campus, but the majority with mood disorders do not seek treatment (Blanco et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health"
+    },
+    {
+      "rank": 2,
+      "score": 0.848892,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 3,
+      "score": 0.844689,
+      "chunk_id": "DOC_A001_p1_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS 1 The Importance of Screening and Early Identification of Depression in College Students Elizabeth Nino This project submitted to Dr. Cheryl Swayne School of Nursing Marieb College of Health & Human Services Florida Gulf Coast University in partial fulfillment of the requirements for the degree of Doctor of Nursing Practice Approved: April 28, 2020 Dr. Cheryl Swayne"
+    },
+    {
+      "rank": 4,
+      "score": 0.836547,
+      "chunk_id": "DOC_F003_p2_c2",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This connec- tion to the university community is often referred to as “school belonging,” which is thought to be the extent to which students feel personally accepted, respected, included, and supported by others in the school social environment (Goodenow & Grady, 1993). Indeed, initial research into feelings of belonging in adolescents and young adults has begun to examine school belonging and the consequences of low feelings of belonging. This work has found that lack of belonging is both increasing in this population and associated with greater negative affect (Twenge et al., 2021) and worse self-reported mental health (Gopalan & Brady, 2020). On the other hand, higher levels of school belonging are also linked to better academic outcomes (Pittman & Richmond, 2007) and greater persistence in engineer - ing (Marra et al., 2012), which has influenced our understanding of the important role that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is"
+    },
+    {
+      "rank": 5,
+      "score": 0.827621,
+      "chunk_id": "DOC_D002_p5_c1",
+      "doc_id": "DOC_D002",
+      "title": "[PDF] Depression and College Students - Counseling Center",
+      "page": 5,
+      "category_code": "D_academic_impairment",
+      "text": "5 Q. If I think I may have depression, where can I get help? A. Most colleges provide mental health services through counseling centers, student health centers, or both.1 Check out your college website for information. Counseling centers offer students free or very low-cost mental health services. Some counseling centers provide short-term or long-term counseling or psychotherapy, also called talk therapy. These centers may also refer you to mental health care providers in the community for additional services. Student health centers provide basic health care services to students at little or no cost. A doctor or health care provider may be able to diagnose and treat depression or refer you to other mental health services. If your college does not provide all of the mental health care you need, your insurance may cover additional mental health services. Many college students have insurance through their colleges, parents, or employers. 1 If you are insured, contact your insurance company to find out about your mental health care coverage. Q. How can I help myself if I am depressed? A. If you have depression, you may feel exhausted, helpless, and hopeless. But it is important to realize that these feelings are part of the illness. Treatment can help you feel better. To help yourself feel better: Try to see a professional as soon as possible. Research shows that getting treatment sooner rather than later can relieve symptoms quicker and reduce the length of time treatment is needed. Break up large tasks into small ones, and do what you can as you can. Try"
+    }
+  ]
+}

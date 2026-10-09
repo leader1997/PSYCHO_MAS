@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_01",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:01:47.287042+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_01",
+    "risk_interpretation": {
+      "probability": 0.5001,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical interpretation of near-threshold elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Guidelines for borderline risk classification.",
+          "Impact of model calibration status on clinical decision making."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline (0.5001 vs 0.5). This question addresses the ambiguity and uncertainty inherent in such a close prediction, which is critical for expert review."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "impact of social isolation and loneliness on student depression and anxiety screening risk",
+        "expected_evidence": [
+          "Literature review linking loneliness to mental health outcomes.",
+          "Contextualizing the severity of loneliness as a predictor."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the highest contributing risk factor. Understanding its clinical weight is essential for contextualizing the report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "relationship between current financial strain and mental health screening risk in students",
+        "expected_evidence": [
+          "Academic literature on financial stress and depression/anxiety.",
+          "Non-clinical support resources for student financial stability."
+        ],
+        "priority": "high",
+        "rationale": "Financial stress is the second major contributing factor. The question must provide both evidence of risk and actionable, non-diagnostic context."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "protective role of flourishing and positive psychological resources against depression/anxiety",
+        "expected_evidence": [
+          "Evidence detailing how high levels of flourishing buffer mental health risk.",
+          "Best practices for communicating protective factors in a support report."
+        ],
+        "priority": "high",
+        "rationale": "Flourishing is the strongest protective factor. This question ensures its mitigating role is properly highlighted, balancing the overall risk picture."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "role of positive mental health in buffering environmental stressors for students",
+        "expected_evidence": [
+          "Psychological models describing resilience and positive mental health.",
+          "Strategies to reinforce existing strengths."
+        ],
+        "priority": "medium",
+        "rationale": "This reinforces the protective narrative using a secondary, but important, factor. It adds depth without redundancy."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for elevated mental health screening results",
+        "expected_evidence": [
+          "Best practices for psychoeducation regarding screening tools.",
+          "Scripting guidelines to avoid alarm or false reassurance."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question covering safety and communication best practices, ensuring the report is clinically responsible."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5001,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical interpretation of near-threshold elevated depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Guidelines for borderline risk classification.\",\n        \"Impact of model calibration status on clinical decision making.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline (0.5001 vs 0.5). This question addresses the ambiguity and uncertainty inherent in such a close prediction, which is critical for expert review.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"impact of social isolation and loneliness on student depression and anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Literature review linking loneliness to mental health outcomes.\",\n        \"Contextualizing the severity of loneliness as a predictor.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the highest contributing risk factor. Understanding its clinical weight is essential for contextualizing the report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"relationship between current financial strain and mental health screening risk in students\",\n      \"expected_evidence\": [\n        \"Academic literature on financial stress and depression/anxiety.\",\n        \"Non-clinical support resources for student financial stability.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Financial stress is the second major contributing factor. The question must provide both evidence of risk and actionable, non-diagnostic context.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"protective role of flourishing and positive psychological resources against depression/anxiety\",\n      \"expected_evidence\": [\n        \"Evidence detailing how high levels of flourishing buffer mental health risk.\",\n        \"Best practices for communicating protective factors in a support report.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Flourishing is the strongest protective factor. This question ensures its mitigating role is properly highlighted, balancing the overall risk picture.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?\",\n      \"linked_xai_factor\": \"positiveMH\",\n      \"retrieval_query\": \"role of positive mental health in buffering environmental stressors for students\",\n      \"expected_evidence\": [\n        \"Psychological models describing resilience and positive mental health.\",\n        \"Strategies to reinforce existing strengths.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This reinforces the protective narrative using a secondary, but important, factor. It adds depth without redundancy.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for elevated mental health screening results\",\n      \"expected_evidence\": [\n        \"Best practices for psychoeducation regarding screening tools.\",\n        \"Scripting guidelines to avoid alarm or false reassurance.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question covering safety and communication best practices, ensuring the report is clinically responsible.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

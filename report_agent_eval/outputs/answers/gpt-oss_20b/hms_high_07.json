@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_07",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9721) and elevated screening risk, what specific clinical guidelines or expert support considerations should be provided to the reviewing professional regarding immediate next steps?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "Given the very high risk score, the reviewing professional should immediately administer a PHQ‑9 to confirm severity and assess for suicidal ideation or intent. If any suicidality is indicated—or if the PHQ‑9 score reaches a threshold warranting urgent care—the clinician must respond to risk of harm to self or others right away, following institutional crisis protocols (e.g., safety planning, contacting campus counseling services, and, if necessary, emergency services). The student should be triaged to Tier 2 or Tier 3 support per the defined screening‑assessment process, with a formal referral to the college’s counseling center for further evaluation and treatment. Documentation of the screening outcome, risk level, and referral action is essential for continuity of care and quality improvement reporting. If resources allow, consider integrating the student into a multi‑tiered system of supports (MTSS) to monitor progress and adjust interventions as needed.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:56:39.138453+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the established relationship between 'Academic impairment' (aca_impa) and elevated screening risk, particularly when this factor contributes highly to the model prediction?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Evidence shows that academic impairment—operationalized as low GPA, dropout risk, or high procrastination—is strongly associated with poorer mental‑health outcomes.  Studies report that depression predicts lower cumulative GPA and a higher probability of dropping out (Eisenberg et al., 2009), and that academic procrastination correlates positively with stress, anxiety, and depressive symptoms (r≈0.4–0.47).  Screening protocols routinely flag students with poor academic progress as at elevated risk for mental‑health problems or self‑harm (see Context 1).  Consequently, when a predictive model assigns a high weight to an “academic impairment” feature, it reflects a statistically significant contributor to the overall screening risk score and warrants timely referral to support services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:58:18.538506+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does 'Food insecurity worry' (food_worry) contribute to elevated screening risk, and what are the associated psychoeducational resources for addressing this specific concern?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food‑insecurity worry elevates screening risk because it is strongly linked to mental‑health symptoms—44 % of respondents reported clinically significant anxiety or depression—and to academic disengagement, with 79 % of students who stopped out citing basic‑needs insecurity as a reason (Context 4). The report notes that 41 % of the sample experience food insecurity and that Pell Grant recipients are disproportionately affected (52 % versus 35 %) (Context 5), underscoring how financial strain can heighten stress. Psychoeducational resources for students worried about food include campus basic‑needs programs, counseling services, and financial‑aid offices; the report’s “Use of Public Resources and Campus Supports” section outlines these supports (Context 3). When risk is elevated, counselors should refer students to qualified mental‑health professionals or campus resource centers.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:59:39.144661+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with maintaining regular 'Weeknight sleep' (sleep_wknight) and how can these factors be emphasized in communication to mitigate risk?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The retrieved sources do not describe specific protective mechanisms linked to maintaining a regular week‑night sleep schedule for college students, nor do they provide evidence on how such patterns might be highlighted in outreach efforts. While poor sleep is identified as an individual‑level risk factor that can worsen academic performance and well‑being (Context 2), the literature presented does not quantify or explain the benefits of consistent night‑time rest. Consequently, any communication strategy should acknowledge the general role of adequate sleep in supporting mental health—an inference supported by broader research on sleep and stress—but it cannot cite concrete protective mechanisms from these particular studies. Further empirical work is needed to clarify how regular week‑night sleep contributes to resilience against anxiety, depression, or academic decline among university students.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:00:42.988567+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of using ML screening tools (like CatBoost) for depression/anxiety risk assessment, particularly when key variables (e.g., sleep patterns) have 'unknown' data points?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Evidence from studies of high‑stakes decision making shows that black‑box models such as CatBoost are difficult to trust because their internal reasoning is opaque, and evaluation metrics derived from a validation set may overestimate performance when applied to real‑world data (Context 1). The lack of transparency also makes it hard to assess how missing or “unknown” values for key predictors—like sleep patterns—affect individual predictions. While interpretable models are recommended in high‑stakes settings (Context 2), the current evidence does not detail specific performance drops when variables are unknown. Therefore, without additional data on imputation strategies or robustness analyses, we cannot quantify the exact limitations of using CatBoost with missing sleep information from these sources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:02:07.968692+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language must be used when communicating an elevated screening risk to a student or their guardian, ensuring that the communication is supportive without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When sharing an elevated screening result, frame it as a *proactive observation* rather than a diagnosis: for example, “Your responses indicate that you may be experiencing higher levels of stress or anxiety than is typical.” Emphasize that the finding is part of a routine screening aimed at early identification so challenges can be addressed before they worsen. Clarify that this does not mean a mental‑health disorder has been diagnosed: “This result simply highlights an area where additional support could be helpful.” Offer concrete next steps in a supportive tone, such as, “We can discuss coping strategies and resources with your counselor or school psychologist to help you feel more supported.” Finally, reassure the student or guardian that the goal is collaborative prevention and early intervention, not labeling or pathologizing.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:03:25.101423+00:00"
+    }
+  }
+}

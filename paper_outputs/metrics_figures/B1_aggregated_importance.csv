@@ -1,0 +1,13 @@
+feature,final_importance,agreement_score,agreement_level,tree_topk_frac,neural_topk_frac
+aca_impa,0.3,1.0,high,1.0,1.0
+lonely,0.1691,1.0,high,1.0,1.0
+flourish,0.1387,1.0,high,1.0,1.0
+fincur,0.082,1.0,high,1.0,1.0
+positiveMH,0.049,1.0,high,1.0,1.0
+age,0.0326,0.7778,high,0.8,0.6667
+food_worry,0.0306,1.0,high,1.0,1.0
+sleep_wknight,0.0295,1.0,high,1.0,1.0
+sub_any,0.0261,0.7778,high,1.0,0.3333
+finpast,0.019,0.5556,medium,1.0,0.0
+exerc,0.0177,0.2222,low,0.0,0.3333
+discrim_gender,0.0169,0.3333,low,0.2,0.6667

@@ -1,0 +1,29 @@
+failure_type,subtype,frequency,example,cause,proposed_fix
+retrieval,missing_relevant_chunk,1,Q002,low P@5=0.00 (dense),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q003,low P@5=0.00 (dense),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q005,low P@5=0.00 (dense),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q001,low P@5=0.00 (bm25),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q002,low P@5=0.00 (bm25),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q003,low P@5=0.00 (bm25),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q005,low P@5=0.00 (bm25),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q002,low P@5=0.00 (hybrid),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q003,low P@5=0.00 (hybrid),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q005,low P@5=0.00 (hybrid),Use hybrid+reranker; improve gold chunk mapping
+retrieval,missing_relevant_chunk,1,Q002,low P@5=0.00 (hybrid_rerank),Use hybrid+reranker; improve gold chunk mapping
+safety,diagnostic_overclaiming,1,high_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,high_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,high_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,low_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,low_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,low_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,borderline_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,borderline_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+safety,diagnostic_overclaiming,1,borderline_risk_case,"[""diagnostic_overclaiming: matched patterns ['\\\\bclinical diagnosis\\\\b']""]",Revision loop + stronger prompts
+generation,low_ragas_score,1,Q001,system=S1,Full context to RAGAS; improve retrieval
+generation,low_ragas_score,1,Q002,system=S1,Full context to RAGAS; improve retrieval
+generation,low_ragas_score,1,Q003,system=S1,Full context to RAGAS; improve retrieval
+generation,low_ragas_score,1,Q004,system=S1,Full context to RAGAS; improve retrieval
+generation,low_ragas_score,1,Q005,system=S1,Full context to RAGAS; improve retrieval
+generation,low_ragas_score,5,,,
+retrieval,missing_relevant_chunk,11,,,
+safety,diagnostic_overclaiming,9,,,

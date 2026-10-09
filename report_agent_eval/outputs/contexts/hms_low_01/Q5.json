@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_01",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+  "retrieval_query": "limitations of predictive models for low-risk scores in mental health screening",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:35.369574+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.955259,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 2,
+      "score": 0.945121,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 3,
+      "score": 0.906787,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 4,
+      "score": 0.906759,
+      "chunk_id": "DOC_A007_p6_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few students and getting feedback or starting with a classroom or grade and then making corrections/adjustments to the process rather than starting the screening process with an entire school or district. Mental health screening, Mental health screening, planning, and implementationplanning, and implementation"
+    },
+    {
+      "rank": 5,
+      "score": 0.895535,
+      "chunk_id": "DOC_B001_p2_c4",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between males and females in c h a n g e si nc o n t i n u o u sm e n t a lh e a l t ho u t c o m e so v e rt i m ei nt h ea n a - lysis sample ( n = 1530). Distributions of continuous outcomes were checked for normality. PHQ-9 and GAD-7 total scores were positively skewed and were normalised with a square root transformation, whereas cumulative GPA was negatively skewed and was normalised with a square root transformation. School connectedness scores were not skewed and did not require normalisation. All adjusted models had a variance inflation factor <4 suggesting multicollinearity was not a significant factor in the models. Adjusted and unadjusted logistic regression models for binary mental health outcomes (PHQ-9 /GAD-7 clinical cut-offs and suicidal thoughts/attempts) and linear regression models for continuous out- comes (PHQ-9/GAD-7 total scores, cumulative GPA, School Connectedness score) were fit to determine associations between time 1 predictors and time 2 outcomes. For binary mental health out- comes, both new onset (positive screen at time 2 only) and persistent (positive screen at both time 1 and time 2) were included as"
+    }
+  ]
+}

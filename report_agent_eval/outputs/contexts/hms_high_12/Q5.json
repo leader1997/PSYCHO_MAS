@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_12",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What are the known limitations of machine learning models in predicting mental health screening risk, particularly concerning causality versus correlation and individual variability?",
+  "retrieval_query": "limitations of ML models for depression anxiety prediction causality correlation",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:43.330702+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.893829,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 2,
+      "score": 0.842099,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 3,
+      "score": 0.813753,
+      "chunk_id": "DOC_B002_p1_c2",
+      "doc_id": "DOC_B002",
+      "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "the one-factor model (RMSEA=.098, CFI=.994) and the two-factor model (RMSEA=.069, CFI=.997), albeit with a high inter-factor correlation (r=.91). Measurement invariance was supported across gender, race/ethnicity, and college class for both models. The findings support using the GAD-7 total score among U.S. college students, as is common in practice, but also provided evidence for the two-factor model in this population. Considering its parsimony, the total score would be preferable in applied settings for a quick measurement of anxiety symptom severity. Keywords GAD-7; Anxiety; Young Adult; Gender Identity; Racial Groups; Psychometrics; Factor Analysis; Statistical Correspondence concerning this article should be directed to Justin E. Karr, Ph.D., Department of Psychology, University of Kentucky, 171 Funkhouser Drive, 012D Kastle Hall, Lexington, KY 40506-0044 (jkarr@uky.edu). Declaration of Interest Statement The authors have no conflicts of interests to disclose. HHS Public Access Author manuscript Transl Issues Psychol Sci. Author manuscript; available in PMC 2025 July 02. Author Manuscript Author Manuscript Author Manuscript Author Manuscript"
+    },
+    {
+      "rank": 4,
+      "score": 0.792531,
+      "chunk_id": "DOC_H004_p1_c2",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "black boxes that do not explain their predictions in a way that humans can understand. The lack of transparency and accountability of predictive models can have (and has already had) severe consequences; there have been cases of people incorrectly denied parole [ 1], poor bail decisions leading to the release of dangerous criminals, ML-based pollution models stating that highly polluted air was safe to breathe [ 2], and generally poor use of limited valuable resources in criminal justice, medicine, energy reliability, ﬁnance, and in other domains [3]. Rather than trying to create models that are inherently interpretable, there has been a recent explosion of work on “Explainable ML,” where a second (posthoc) model is created to explain the ﬁrst black box model. This is problematic. Explanations are often not reliable, and can be misleading, as we discuss below. If we instead use models that are inherently interpretable, they provide their own explanations, which are faithful to what the model actually computes. In what follows, we discuss the problems with Explainable ML, followed by the challenges in Interpretable ML. This document is mainly relevant to high-stakes decision making and troubleshooting models, which are the main two reasons one might require an interpretable or explainable model. Interpretability is a domain-speciﬁc notion [4, 5, 6, 7], so there cannot be an all-purpose deﬁnition. Usually, however, an interpretable machine learning model is constrained in model form so that it is either useful to someone, or obeys structural knowledge of the domain, such as monotonicity [e.g., 8], causality, structural (generative) constraints, additivity [9], or physical"
+    },
+    {
+      "rank": 5,
+      "score": 0.78753,
+      "chunk_id": "DOC_H003_p2_c1",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "sneeze weight headache no fatigue age Flu sneeze headache Model Data and Prediction Explainer (LIME) Explanation Explainer (LIME) Human makes decision Explanation no fatigue sneeze headache active Human makes decision Figure 1: Explaining individual predictions. A model predicts that a patient has the ﬂu, and LIME highlights the symptoms in the patient’s history that led to the prediction. Sneeze and headache are portrayed as contributing to the “ﬂu” prediction, while “no fatigue” is evidence against it. With these, a doctor can make an informed decision about whether to trust the model’s prediction. getting humans to trust and use machine learning eﬀectively, if the explanations are faithful and intelligible. The process of explaining individual predictions is illus- trated in Figure 1. It is clear that a doctor is much better positioned to make a decision with the help of a model if intelligible explanations are provided. In this case, an ex- planation is a small list of symptoms with relative weights – symptoms that either contribute to the prediction (in green) or are evidence against it (in red). Humans usually have prior knowledge about the application domain, which they can use to accept (trust) or reject a prediction if they understand the reasoning behind it. It has been observed, for example, that providing explanations can increase the acceptance of movie recommendations [12] and other automated systems [8]. Every machine learning application also requires a certain measure of overall trust in the model. Development and evaluation of a classiﬁcation model often consists of collect- ing annotated data, of which a held-out subset"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_01",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+  "retrieval_query": "financial stability impact on student mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:33.237664+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.891192,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 2,
+      "score": 0.856684,
+      "chunk_id": "DOC_D003_p3_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "3 Americans are inundated with messages about success—in school, in a profession, in parenting, in relationships—without appreciating that successful performance rests on a foundation of mental health. United States Surgeon General’s Report on Mental Health, 1999 1. INTRODUCTION Among children and adolescents in the United States, mental disorders are estimated to account for a larger burden of disease, as measured in disability- adjusted life years (DALYs), than any ot her class of health conditions (Michaud et al., 2006). One of the primary concerns in younger populations is that mental health problems may affect human capital accumulation—in particular, the amount and productivity of schooling—whi ch may in turn have lifelong consequences for employment, income, and other outcomes. Understanding the link between mental health and academic success is therefore a crucial step towards assessing the returns to preventing, detecting, and trea ting mental health issues among young people. In this paper we analyze the conn ection between mental health and detailed measures of academic success during college. In the modern economy, college education has become an increa singly important component of human capital, and is associated with substantially higher earnings (Jaeger & Page, 1996; Kane & Rouse, 1995) and better health outcomes (Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have"
+    },
+    {
+      "rank": 3,
+      "score": 0.856263,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 4,
+      "score": 0.84439,
+      "chunk_id": "DOC_B001_p1_c1",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Predictors of mental health and academic outcomes in first-year university students: Identifying prevention and early-intervention targets A. Duffy, C. Keown-Stoneman, S. Goodday, J. Horrocks, M. Lowe, N. King, W. Pickett, S. H. McNevin, S. Cunningham, D. Rivera, L. Bisdounis, C. R. Bowie, K. Harkness and K. E. A. Saunders Background Although there is growing interest in mental health problems in university students there is limited understanding of the scope of need and determinants to inform intervention efforts. Aims To longitudinally examine the extent and persistence of mental health symptoms and the importance of psychosocial and life- style factors for student mental health and academic outcomes. Method Undergraduates at a Canadian university were invited to com- plete electronic surveys at entry and completion of their first year. The baseline survey measured important distal and prox- imal risk factors and the follow-up assessed mental health and well-being. Surveys were linked to academic grades. Multivariable models of risk factors and mental health and aca- demic outcomes were fit and adjusted for confounders. Results In 1530 students surveyed at entry to university 28% and 33% screened positive for clinically significant depressive and anxiety symptoms respectively, which increased to 36% and 39% at the completion of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower"
+    },
+    {
+      "rank": 5,
+      "score": 0.836528,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,"
+    }
+  ]
+}

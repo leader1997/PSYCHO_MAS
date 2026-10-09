@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_borderline_03",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.975077,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?",
+      "query_qid": "Q3",
+      "pool_rank": 1
+    },
+    {
+      "rank": 2,
+      "score": 0.939759,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "Q3",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.905323,
+      "chunk_id": "DOC_C003_p4_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 4,
+      "category_code": "C_loneliness_isolation",
+      "text": "4 Table 2. Ohio State student loneliness question responses in 2025, by educational level Graduate/ Undergraduate % Some of the time or Often All Students Professional Students Students How often do you feel a lack of 55.5% 55.6% 55.1% companionship? How often do you feel left out? 60.9% 62.4% 57.6% How often do you feel isolated 57.7% 58.3% 56.4% from others? Percent of students screened 43.1% 44.0% 41.1% positive for loneliness Note. N’s presented in ranges. Undergraduate Students n = 664-665; Graduate/Professional Students n = 314 Table 3 displays the differences in Ohio State loneliness score over time, comparing the results of the 2022 and 2025 NCHA at Ohio State. The overall percentage of students screening positive for loneliness has gone down significantly between 2022 and 2025, as has the percentage of undergraduate students screening positive for loneliness. The percentage of graduate and professional students screening positive for loneliness has gone down as well, but this difference is not statistically significance. Table 3. Percentage of Ohio State students who screened positive for loneliness over time 2022 2025 Statistical Significance n Percentage n Percentage All Students 541 53.2% 429 43.2% *** Undergraduate 394 56.2% 292 44.0% *** Graduate/Professional 140 45.9% 129 41.1% Loneliness at Ohio State and Year in School As students may be at higher risk of loneliness based on demographic factors, we explored differences in loneliness by educational level, disability status, generational status, sex and race. There were no significant differences by race and sex using the Ohio State data; however, the broader literature has identified differences by race",
+      "query_qid": "Q2",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.892106,
+      "chunk_id": "DOC_B003_p2_c1",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "several substantial revisions, GAD was characterized as an independent anxiety disorder with diagnostic description. In the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), GAD has been stated to include both psychological symptoms such as per- sistent worrying and overthinking, difficulty handling uncertainty, restlessness, indecisiveness, etc. as well as physiological symptoms such as fatigue, sleeplessness, muscle tension, nervous- ness, nausea, irritability, etc. [6, 7]. Findings from general population surveys of approximately 150000 adults in 26 countries indicated that DSM-5 GAD had a combined lifetime prevalence of 3.7%, 12-month prevalence of 1.8%, and 30-day prevalence of 0.8% [8]. Among South Asian countries, as of 2017, the prevalence and severity of anxiety disorder is the highest in Bangladesh. 4.4% of the Bangladeshi population is estimated to have this disorder and it contributes to 4% of the total years lived with disability (YLD) [9, 10]. Specifically, a study estimated prevalence of GAD to be around 37.3% among individuals of Bangladesh aged between 13 to 63 years [11]. The prevalence of symptoms of anxiety was particularly high in case of univer- sity students [12, 13]. A recent study conducted by Faisal et al. (2021) indicated that approxi- mately 40% of Bangladeshi students suffered from symptoms of moderate to severe GAD, a rate which is higher than those reported in the studies conducted on general people [14, 15]. Univer- sity students go through significant changes in their emotional (e.g., loneliness, personal auton- omy) and physical environment (e.g., transition from college to university) [16]. They also deal with the pressure of competition for good",
+      "query_qid": "Q6",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.88802,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.",
+      "query_qid": "Q5",
+      "pool_rank": 5
+    }
+  ]
+}

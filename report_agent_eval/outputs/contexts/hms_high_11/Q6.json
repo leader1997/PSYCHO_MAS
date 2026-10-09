@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_11",
+  "stratum": "high",
+  "qid": "Q6",
+  "question": "What specific follow-up assessment components or specialized support considerations should an expert review when a student presents with concurrent risks related to academic impairment, food insecurity, and social isolation?",
+  "retrieval_query": "Multifactorial risk assessment protocols for students presenting with socioeconomic and academic distress",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:30.437799+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.96567,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 2,
+      "score": 0.929881,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 3,
+      "score": 0.884932,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 4,
+      "score": 0.883904,
+      "chunk_id": "DOC_B001_p2_c1",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Method Overview of study design The authors assert that all procedures contributing to this work comply with the ethical standards of the relevant national and insti- tutional committees on human experimentation and with the Helsinki Declaration of 1975, as revised in 2008 and was approved by the Queen ’s University and Affiliated Teaching Hospitals Research Ethics Board (HSREB PSIY-609-18). Details of the study protocol are published elsewhere. 13 Briefly, U-Flourish is a longitudinal prospective study of a large cohort of undergraduate students representative of the first-year student body at Queen’s University. 14 During the first few weeks of starting university (September 2018) all first-year students were sent a link via their student email to a Letter of Information and after providing consent completed the time 1 survey. This survey asked about demographic, family and personal health information and included brief validated measures of candidate distal and proximal risk factors including early loss, childhood adversity, social, psycho- logical and lifestyle risk factors, as well as anxiety and depressive symptoms, suicidal ideation and lifetime suicide attempts and self-harm. At the end of the academic year and before final exams (March 2019), students who completed the time 1 survey were sent a link to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured"
+    },
+    {
+      "rank": 5,
+      "score": 0.880503,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and"
+    }
+  ]
+}

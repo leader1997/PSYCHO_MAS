@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_borderline_07",
+  "model": "llama3",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:15:54.876437+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_07",
+    "risk_interpretation": {
+      "probability": 0.501,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the significance of the prediction probability (0.501) in the context of this student's elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "student profile",
+          "prediction probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide expert support for understanding the borderline case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does the feature 'lonely' contribute positively to the model's risk prediction, and what implications does this have for the student's support plan?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "xai contributors",
+          "student profile"
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert support for understanding the XAI contributor 'lonely'."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the significance of the feature 'aca_impa' in decreasing the predicted screening risk, and how can this be leveraged to support the student?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "protective contributors",
+          "student profile"
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert support for understanding the protective factor 'aca_impa'."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of the model's prediction in this borderline case, and how can these be addressed to ensure a comprehensive support plan?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "calibration",
+          "student profile"
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert support for understanding the uncertainty and limitations of the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What are some key considerations for communicating the elevated screening risk to this student, and how can these be balanced with a focus on support and non-diagnostic language?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "student profile",
+          "risk interpretation"
+        ],
+        "priority": "low",
+        "rationale": "To provide expert support for communicating the elevated screening risk in a safe and supportive manner."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the given structured case:\n\n{\n  \"case_id\": \"hms_borderline_07\",\n  \"risk_interpretation\": {\n    \"probability\": 0.501,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the significance of the prediction probability (0.501) in the context of this student's elevated screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"student profile\", \"prediction probability\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert support for understanding the borderline case.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does the feature 'lonely' contribute positively to the model's risk prediction, and what implications does this have for the student's support plan?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"xai contributors\", \"student profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert support for understanding the XAI contributor 'lonely'.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the significance of the feature 'aca_impa' in decreasing the predicted screening risk, and how can this be leveraged to support the student?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"protective contributors\", \"student profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert support for understanding the protective factor 'aca_impa'.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of the model's prediction in this borderline case, and how can these be addressed to ensure a comprehensive support plan?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"calibration\", \"student profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert support for understanding the uncertainty and limitations of the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are some key considerations for communicating the elevated screening risk to this student, and how can these be balanced with a focus on support and non-diagnostic language?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"student profile\", \"risk interpretation\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide expert support for communicating the elevated screening risk in a safe and supportive manner.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote that I have generated 5 questions, which is within the preferred range of 5 to 9 questions. The questions cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication."
+}

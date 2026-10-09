@@ -1,0 +1,10 @@
+case_id,stratum,arm,n_queries,hit_at_k,recall_at_k,mrr_at_k,ndcg_at_k,n_relevant_in_pool,n_pooled,n_unique_docs,xai_coverage,n_xai_factors,xai_covered,xai_missing
+hms_low_01,low,direct,1,1.0,1.0,1.0,1.0,5,5,3,0.0,2,,inst_public|inst_size
+hms_low_01,low,template,7,1.0,1.0,1.0,1.0,5,5,3,0.0,2,,inst_public|inst_size
+hms_low_01,low,llm_plan,6,1.0,1.0,1.0,1.0,5,5,3,0.0,2,,inst_public|inst_size
+hms_borderline_01,borderline,direct,1,1.0,1.0,1.0,1.0,5,5,3,0.8,5,fincur|age|belong1|binge1pl,lonely
+hms_borderline_01,borderline,template,10,1.0,1.0,1.0,1.0,5,5,4,0.8,5,fincur|lonely|age|belong1,binge1pl
+hms_borderline_01,borderline,llm_plan,6,1.0,1.0,1.0,1.0,5,5,4,0.6,5,fincur|lonely|age,belong1|binge1pl
+hms_high_01,high,direct,1,1.0,1.0,1.0,1.0,5,5,4,0.8,5,aca_impa|flourish|fincur|food_worry,lonely
+hms_high_01,high,template,10,1.0,1.0,1.0,1.0,5,5,2,0.8,5,aca_impa|flourish|fincur|lonely,food_worry
+hms_high_01,high,llm_plan,6,1.0,1.0,1.0,1.0,5,5,3,0.8,5,aca_impa|flourish|fincur|food_worry,lonely

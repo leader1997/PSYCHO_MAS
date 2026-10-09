@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_17",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "How do protective factors, such as adequate weeknight sleep and low substance use (sleep_wknight, sub_any), modify the overall risk profile, and what are best practices for reinforcing these positive coping mechanisms?",
+  "retrieval_query": "protective factors sleep substance use mental health resilience college students",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:43.380454+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.956563,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 2,
+      "score": 0.927236,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 3,
+      "score": 0.891748,
+      "chunk_id": "DOC_A001_p5_c2",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of depression, college students may participate in activities that could impact their well-being and could lead to substance abuse, self-"
+    },
+    {
+      "rank": 4,
+      "score": 0.875587,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 5,
+      "score": 0.839999,
+      "chunk_id": "DOC_D003_p3_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "(Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have considered a range of factors—such as financial aid (Dynarski, 1999) and academic and social involvement (Tinto, 1998)—that affect re maining in and completing college. Another important factor may be mental health. Mental disorders frequently have firs t onset shortly befo re or during the typical college age range (18-24) (Kessler et al., 2005), yet relatively little is known about the link between mental heal th and academic success in college. Understanding this connection could be va luable due to the many ways in which college settings can reach young people; co llege represents the only time in many people’s lives when a single setting enco mpasses their main activities, social networks, and a range of supportive services and organizations. We examine how symptoms of me ntal disorders predict academic outcomes during college using unique data collected at a large, academically"
+    }
+  ]
+}

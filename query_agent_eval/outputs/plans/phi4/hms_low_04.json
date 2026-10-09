@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_low_04",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:20:59.303893+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_04",
+    "risk_interpretation": {
+      "probability": 0.0515,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.0515 in relation to the decision threshold of 0.5 for not elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Implications of low prediction probabilities below decision thresholds in non-diagnostic depression and anxiety screenings",
+        "expected_evidence": [
+          "Understanding of model calibration status",
+          "Interpretation guidelines for low-risk predictions"
+        ],
+        "priority": "high",
+        "rationale": "Clarifies the meaning of a low probability score relative to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does 'Campus belonging (item 1)' contribute to the model's prediction, and what evidence supports its impact on elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Impact of campus belonging on student mental health outcomes",
+        "expected_evidence": [
+          "Studies linking campus belonging with mental health risks",
+          "Evidence supporting medium-level contribution to model prediction"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a significant positive contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the role of 'Campus belonging (item 2)' in increasing predicted screening risk?",
+        "linked_xai_factor": "belong2",
+        "retrieval_query": "Role of campus belonging on student mental health risks",
+        "expected_evidence": [
+          "Research findings on campus belonging and its effects on mental health",
+          "Contextual evidence for medium-level contribution"
+        ],
+        "priority": "medium",
+        "rationale": "Explores another significant positive contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does 'Institution size' influence the model's prediction of elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Impact of institution size on student mental health outcomes",
+        "expected_evidence": [
+          "Studies examining the relationship between institution size and mental health risks",
+          "Evidence for medium-level contribution to model prediction"
+        ],
+        "priority": "medium",
+        "rationale": "Investigates a positive contributor with medium impact."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What evidence supports the protective role of 'Academic impairment' in decreasing predicted screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Protective effects of academic impairment on mental health risks",
+        "expected_evidence": [
+          "Research on how academic impairment can mitigate depression/anxiety risks",
+          "Evidence for low-level negative contribution"
+        ],
+        "priority": "medium",
+        "rationale": "Highlights a significant protective factor with a large negative impact."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "How does 'Age' serve as a protective factor in reducing the predicted screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Role of age in mitigating mental health risks among students",
+        "expected_evidence": [
+          "Studies on age-related resilience to depression/anxiety",
+          "Evidence for high-level negative contribution"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a major protective factor with significant impact."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "Guidelines on conveying limitations and scope of non-diagnostic tools",
+          "Communication strategies for low-risk results"
+        ],
+        "priority": "high",
+        "rationale": "Ensures clarity in the communication of screening outcomes."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0515,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.0515 in relation to the decision threshold of 0.5 for not elevated screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Implications of low prediction probabilities below decision thresholds in non-diagnostic depression and anxiety screenings\",\n      \"expected_evidence\": [\n        \"Understanding of model calibration status\",\n        \"Interpretation guidelines for low-risk predictions\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarifies the meaning of a low probability score relative to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does 'Campus belonging (item 1)' contribute to the model's prediction, and what evidence supports its impact on elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Impact of campus belonging on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Studies linking campus belonging with mental health risks\",\n        \"Evidence supporting medium-level contribution to model prediction\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a significant positive contributor to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence supports the role of 'Campus belonging (item 2)' in increasing predicted screening risk?\",\n      \"linked_xai_factor\": \"belong2\",\n      \"retrieval_query\": \"Role of campus belonging on student mental health risks\",\n      \"expected_evidence\": [\n        \"Research findings on campus belonging and its effects on mental health\",\n        \"Contextual evidence for medium-level contribution\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Explores another significant positive contributor to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does 'Institution size' influence the model's prediction of elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"Impact of institution size on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Studies examining the relationship between institution size and mental health risks\",\n        \"Evidence for medium-level contribution to model prediction\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Investigates a positive contributor with medium impact.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence supports the protective role of 'Academic impairment' in decreasing predicted screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Protective effects of academic impairment on mental health risks\",\n      \"expected_evidence\": [\n        \"Research on how academic impairment can mitigate depression/anxiety risks\",\n        \"Evidence for low-level negative contribution\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Highlights a significant protective factor with a large negative impact.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does 'Age' serve as a protective factor in reducing the predicted screening risk?\",\n      \"linked_xai_factor\": \"age\",\n      \"retrieval_query\": \"Role of age in mitigating mental health risks among students\",\n      \"expected_evidence\": [\n        \"Studies on age-related resilience to depression/anxiety\",\n        \"Evidence for high-level negative contribution\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a major protective factor with significant impact.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"Guidelines on conveying limitations and scope of non-diagnostic tools\",\n        \"Communication strategies for low-risk results\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensures clarity in the communication of screening outcomes.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

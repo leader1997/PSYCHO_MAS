@@ -1,0 +1,117 @@
+{
+  "case_id": "hms_low_15",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:57:04.084366+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_15",
+    "risk_interpretation": {
+      "probability": 0.0579,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a 5.79% probability in terms of elevated depression/anxiety screening risk for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of probability in depression and anxiety screening for students",
+        "expected_evidence": [
+          "interpretation of 5.79% probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context to the risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'belong1' (Campus belonging) to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Evidence for Campus belonging contribution in depression and anxiety screening model",
+        "expected_evidence": [
+          "evidence supporting 'belong1' contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'exerc' (Exercise frequency) to the model prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Evidence for Exercise frequency contribution in depression and anxiety screening model",
+        "expected_evidence": [
+          "evidence supporting 'exerc' contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of an unknown-level contributor"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'sleep_wknight' (Weeknight sleep) to the model prediction?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for Weeknight sleep contribution in depression and anxiety screening model",
+        "expected_evidence": [
+          "evidence supporting 'sleep_wknight' contribution"
+        ],
+        "priority": "low",
+        "rationale": "To understand the role of a low-level contributor"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'inst_public' (Public institution) to the model prediction?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "Evidence for Public institution contribution in depression and anxiety screening model",
+        "expected_evidence": [
+          "evidence supporting 'inst_public' contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a medium-level contributor"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of 'aca_impa' (Academic impairment) for this student?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for Academic impairment as a protective factor in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'aca_impa' protection"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major protective factor"
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "What are some general safety measures and resources that can be suggested to this student for managing stress and anxiety?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for managing stress and anxiety in students",
+        "expected_evidence": [
+          "general safety measures and resources"
+        ],
+        "priority": "high",
+        "rationale": "To provide non-diagnostic communication"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_15\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0579,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a 5.79% probability in terms of elevated depression/anxiety screening risk for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of probability in depression and anxiety screening for students\",\n         \"expected_evidence\": [\"interpretation of 5.79% probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context to the risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'belong1' (Campus belonging) to the model prediction?\",\n         \"linked_xai_factor\": \"belong1\",\n         \"retrieval_query\": \"Evidence for Campus belonging contribution in depression and anxiety screening model\",\n         \"expected_evidence\": [\"evidence supporting 'belong1' contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'exerc' (Exercise frequency) to the model prediction?\",\n         \"linked_xai_factor\": \"exerc\",\n         \"retrieval_query\": \"Evidence for Exercise frequency contribution in depression and anxiety screening model\",\n         \"expected_evidence\": [\"evidence supporting 'exerc' contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of an unknown-level contributor\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'sleep_wknight' (Weeknight sleep) to the model prediction?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for Weeknight sleep contribution in depression and anxiety screening model\",\n         \"expected_evidence\": [\"evidence supporting 'sleep_wknight' contribution\"],\n         \"priority\": \"low\",\n         \"rationale\": \"To understand the role of a low-level contributor\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'inst_public' (Public institution) to the model prediction?\",\n         \"linked_xai_factor\": \"inst_public\",\n         \"retrieval_query\": \"Evidence for Public institution contribution in depression and anxiety screening model\",\n         \"expected_evidence\": [\"evidence supporting 'inst_public' contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a medium-level contributor\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of 'aca_impa' (Academic impairment) for this student?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for Academic impairment as a protective factor in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'aca_impa' protection\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major protective factor\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some general safety measures and resources that can be suggested to this student for managing stress and anxiety?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for managing stress and anxiety in students\",\n         \"expected_evidence\": [\"general safety measures and resources\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide non-diagnostic communication\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

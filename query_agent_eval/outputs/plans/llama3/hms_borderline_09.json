@@ -1,0 +1,96 @@
+{
+  "case_id": "hms_borderline_09",
+  "model": "llama3",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:19:51.518640+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_09",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the probability of elevated depression and anxiety screening risk based on the model's prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the student's risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the contribution of loneliness to the model's prediction, and how does it impact the screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "contribution",
+          "interpretation"
+        ],
+        "priority": "high",
+        "rationale": "To provide insight into the features contributing to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the contribution of flourishing to the model's prediction, and how does it impact the screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "contribution",
+          "interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the protective factors that may mitigate the student's risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of the model in predicting elevated depression and anxiety screening risk, and how can these limitations be addressed?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "calibration_status",
+          "near_threshold"
+        ],
+        "priority": "medium",
+        "rationale": "To provide transparency about the model's limitations and potential biases."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What are some general strategies for supporting students with elevated depression and anxiety screening risk, without providing diagnostic or treatment recommendations?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "general_strategies"
+        ],
+        "priority": "low",
+        "rationale": "To provide a safe and non-diagnostic communication approach."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_borderline_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5012,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the probability of elevated depression and anxiety screening risk based on the model's prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"probability\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide a clear understanding of the student's risk level.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the contribution of loneliness to the model's prediction, and how does it impact the screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"contribution\", \"interpretation\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide insight into the features contributing to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the contribution of flourishing to the model's prediction, and how does it impact the screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"contribution\", \"interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the protective factors that may mitigate the student's risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of the model in predicting elevated depression and anxiety screening risk, and how can these limitations be addressed?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"calibration_status\", \"near_threshold\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide transparency about the model's limitations and potential biases.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are some general strategies for supporting students with elevated depression and anxiety screening risk, without providing diagnostic or treatment recommendations?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"general_strategies\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide a safe and non-diagnostic communication approach.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: The question plan includes 5 questions that cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication."
+}

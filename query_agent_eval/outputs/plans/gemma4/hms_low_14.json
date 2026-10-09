@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_14",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:43:15.827111+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_14",
+    "risk_interpretation": {
+      "probability": 0.0577,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What are the best practices for communicating a 'not elevated screening risk' result to an expert, ensuring non-false reassurance and maintaining appropriate clinical caution?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices communication low depression anxiety screening risk not false reassurance",
+        "expected_evidence": [
+          "Guidelines for communicating negative mental health screen results.",
+          "Language to avoid when discussing low screening risk."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all plans, especially low-risk, to ensure safe and responsible communication that avoids minimizing potential concerns."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How does the presence of strong protective factors (e.g., academic impairment status, age, current financial stability) mitigate or offset elevated screening risk predictions in a scientific context?",
+        "linked_xai_factor": null,
+        "retrieval_query": "impact of multiple protective factors on depression anxiety screening scores",
+        "expected_evidence": [
+          "Literature review detailing the buffering effect of resilience and stability factors.",
+          "Clinical guidelines for interpreting strong negative contributions from protective variables."
+        ],
+        "priority": "high",
+        "rationale": "The case has multiple, highly impactful protective contributors (e.g., aca_impa: -0.9743). This question is crucial to explain the low risk score robustly and positively for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are evidence-based, non-diagnostic strategies or contextual considerations that can be provided to mitigate the influence of 'Gender discrimination' as a feature contributing positively to screening risk?",
+        "linked_xai_factor": "discrim_gender",
+        "retrieval_query": "mitigation strategies for gender discrimination related mental health screening",
+        "expected_evidence": [
+          "Intervention models addressing systemic bias in student populations.",
+          "Contextual support resources for students facing gender-related stress."
+        ],
+        "priority": "high",
+        "rationale": "This is the largest positive XAI contributor. The report needs actionable, non-diagnostic strategies rather than just stating the risk factor exists."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are effective psychoeducational resources or campus support mechanisms that address low 'Campus belonging' scores, which contributed positively to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "campus interventions for improving student belonging and mental health outcomes",
+        "expected_evidence": [
+          "Best practices for community building in higher education.",
+          "Psychoeducational modules focused on social integration."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the second major positive contributor. Focus must be on actionable, systemic support rather than individual deficit."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should an expert interpret a low screening risk score (0.0577) when the model is calibrated, but the prediction remains highly dependent on specific feature inputs?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting low probability mental health screen scores model limitations",
+        "expected_evidence": [
+          "Guidelines for interpreting predictive probabilities vs. clinical diagnosis.",
+          "Discussion of residual risk or unmeasured variables in screening models."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for low-risk cases to prevent over-reliance on the model and guide the expert toward holistic assessment, acknowledging inherent uncertainty."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "What are general recommendations for follow-up support considerations for students who present with a low screening risk but exhibit multiple moderate risk features (e.g., public institution status, belonging)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "follow up support for non-elevated mental health screen results with mixed risk factors",
+        "expected_evidence": [
+          "Tiered intervention models for proactive student wellness.",
+          "Recommendations for routine check-ins or psychoeducation."
+        ],
+        "priority": "medium",
+        "rationale": "Provides a structured way to guide the expert on next steps that are supportive but not alarmist, covering the overall mixed profile."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_14\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0577,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the best practices for communicating a 'not elevated screening risk' result to an expert, ensuring non-false reassurance and maintaining appropriate clinical caution?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices communication low depression anxiety screening risk not false reassurance\",\n      \"expected_evidence\": [\n        \"Guidelines for communicating negative mental health screen results.\",\n        \"Language to avoid when discussing low screening risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all plans, especially low-risk, to ensure safe and responsible communication that avoids minimizing potential concerns.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the presence of strong protective factors (e.g., academic impairment status, age, current financial stability) mitigate or offset elevated screening risk predictions in a scientific context?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"impact of multiple protective factors on depression anxiety screening scores\",\n      \"expected_evidence\": [\n        \"Literature review detailing the buffering effect of resilience and stability factors.\",\n        \"Clinical guidelines for interpreting strong negative contributions from protective variables.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case has multiple, highly impactful protective contributors (e.g., aca_impa: -0.9743). This question is crucial to explain the low risk score robustly and positively for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are evidence-based, non-diagnostic strategies or contextual considerations that can be provided to mitigate the influence of 'Gender discrimination' as a feature contributing positively to screening risk?\",\n      \"linked_xai_factor\": \"discrim_gender\",\n      \"retrieval_query\": \"mitigation strategies for gender discrimination related mental health screening\",\n      \"expected_evidence\": [\n        \"Intervention models addressing systemic bias in student populations.\",\n        \"Contextual support resources for students facing gender-related stress.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the largest positive XAI contributor. The report needs actionable, non-diagnostic strategies rather than just stating the risk factor exists.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are effective psychoeducational resources or campus support mechanisms that address low 'Campus belonging' scores, which contributed positively to the model prediction?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"campus interventions for improving student belonging and mental health outcomes\",\n      \"expected_evidence\": [\n        \"Best practices for community building in higher education.\",\n        \"Psychoeducational modules focused on social integration.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the second major positive contributor. Focus must be on actionable, systemic support rather than individual deficit.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should an expert interpret a low screening risk score (0.0577) when the model is calibrated, but the prediction remains highly dependent on specific feature inputs?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting low probability mental health screen scores model limitations\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting predictive probabilities vs. clinical diagnosis.\",\n        \"Discussion of residual risk or unmeasured variables in screening models.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for low-risk cases to prevent over-reliance on the model and guide the expert toward holistic assessment, acknowledging inherent uncertainty.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are general recommendations for follow-up support considerations for students who present with a low screening risk but exhibit multiple moderate risk features (e.g., public institution status, belonging)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"follow up support for non-elevated mental health screen results with mixed risk factors\",\n      \"expected_evidence\": [\n        \"Tiered intervention models for proactive student wellness.\",\n        \"Recommendations for routine check-ins or psychoeducation.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provides a structured way to guide the expert on next steps that are supportive but not alarmist, covering the overall mixed profile.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

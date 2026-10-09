@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_16",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T12:00:10.070574+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the case, covering all key XAI contributors and protective factors. It is clear, non‑redundant, and safely framed for an expert report. Minor room for improvement in tailoring questions more tightly to the low‑risk context."
+}

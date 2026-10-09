@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_10",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What are the protective factors and resilience strategies associated with institutional size (inst_size) or campus belonging (belong2) that can mitigate elevated screening risk?",
+  "retrieval_query": "protective factors mitigating depression anxiety in college students institution size belonging",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:15.230591+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.948149,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    },
+    {
+      "rank": 2,
+      "score": 0.873468,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 3,
+      "score": 0.871691,
+      "chunk_id": "DOC_F002_p1_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being. Introduction On May 2, 2023, the Surgeon General of the United States stated the country was experiencing an epidemic of loneliness and isolation so severe that the negative health impacts were compa- rable to smoking 15 cigarettes a day [1]. Connecting with others was described as key to over- coming this epidemic, but establishing and maintaining connections is particularly challenging for college students. The transition from high school requires that students, who are already navigating myriad psychological changes during mid- to late-adolescence [2], adapt to unfamiliar academic and social environments while coping with newfound indepen- dence and novel living arrangements [3]. The widespread adoption of virtual instruction since the onset of the COVID-19 pandemic has created new barriers to connecting and increased students’ screen time, which is associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging"
+    },
+    {
+      "rank": 4,
+      "score": 0.864451,
+      "chunk_id": "DOC_F002_p1_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "RESEA RCH ARTICL E The importance of belonging for well-being in college students Isabella Romeo ID 1 , Harold Stanislaw ID 2 *, Jamie McCreary 2 , Marcus Hawley ID 3 1 Kinesiolog y and Public Health Department and Biologic al Sciences Department, Californi a Polytechn ic State Univers ity, San Luis Obispo, California, United States of America, 2 Department of Psycholog y, Californi a State University , Stanislaus , Turlock, California, United States of America, 3 Materials Engineeri ng Department , California Polytechn ic State University, San Luis Obispo, Californi a, United States of America * HStanis law@csustan .edu Abstract College students are vulnerable to mental health challenges that include depression, anxi- ety, and suicidal thoughts. We examined how subjective well-being in 369 college students in the United States was affected by the number friends or family members who could pro- vide essential needs (instrumental support) or with whom intimate or personal matters could be discussed (emotional support), the frequency of engaging with others, satisfaction with these engagements , and the sense of belonging. Engagem ent satisfaction was affected by emotional support and engagement frequency. Instrumental support had no significant effect, but this could be an artifact of our sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in"
+    },
+    {
+      "rank": 5,
+      "score": 0.864431,
+      "chunk_id": "DOC_F002_p1_c3",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging for well-being in college students. PLOS Ment Health 1(1): e0000057. https://d oi.org/10.1371/j ournal. pmen.0000 057 Editor: Jinjin Lu, Xi’an Jiaotong-Liv erpool University , CHINA Received: December 2, 2023 Accepted: April 25, 2024 Published: June 13, 2024 Copyright: © 2024 Romeo et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricte d use, distribu tion, and reproduction in any medium, provided the original author and source are credited. Data Availabilit y Statement: Anonymized data files are available at https://osf.i o/utcz7/?view _ only=20bfd 747fba64bfac0 65b3951483 df6. Funding: This research was supported in part by an award from the Stanislau s County Office of Education (www.stanc oe.org) to Seity Health, LLC (www.seity health.com). Seity Health, in turn, funded reassigne d time (“release time”) for 0% of the academic workload of HS (contract GRT- 003262), to conduct research on well-be ing and outcomes involving Seity products and services. Seity also funded a retainer for JM to serve as an"
+    }
+  ]
+}

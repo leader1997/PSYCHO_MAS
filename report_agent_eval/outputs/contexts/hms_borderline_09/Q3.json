@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_09",
+  "stratum": "borderline",
+  "qid": "Q3",
+  "question": "What is the established relationship between chronic loneliness (a major positive contributor) and increased screening risk for depression/anxiety, particularly in academic settings?",
+  "retrieval_query": "clinical evidence linking loneliness to elevated depression anxiety screening risk",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:55.248337+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.944703,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 2,
+      "score": 0.930772,
+      "chunk_id": "DOC_C001_p2_c3",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further lead to deleterious health outcomes ( 14). Loneliness is suggested to be a precursor of depression ( 15, 16). In addition, research evidence also suggested perceived soc ial support could reduce the feeling of loneliness experienced by adolescents ( 17). Moreover, in a recent study conducted by Liang et al. ( 18), loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants. Therefore, we expect ed that loneliness was not only directly associated with symptoms of depression, but also played a mediation role in the association between social support and depressive symptoms among rural adolescents. Although perceived social support could inﬂuence loneliness among adolescents, not all adolescents with lower levels of perceived social support report higher levels of loneliness. Therefore, it is of great importance to explore the inﬂuential factor that might moderate the relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies ("
+    },
+    {
+      "rank": 3,
+      "score": 0.792464,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    },
+    {
+      "rank": 4,
+      "score": 0.784479,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 5,
+      "score": 0.767447,
+      "chunk_id": "DOC_G002_p5_c1",
+      "doc_id": "DOC_G002",
+      "title": "[PDF] DNP Project - Maryville University",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "5 DEPRESSION SCREENING OF UNIVERSITY STUDENTS Table of Contents LIST OF FIGURES .........................................................................................................................8 LIST OF TABLES ...........................................................................................................................9 ABSTRACT………………………………………………………………………………….…..10 Chapter 1 INTRODUCTION…………………………………………………………………….12 Problem ………………………………….…………...……………………….…………13 Purpose………………………………………………………………..………………….14 Type of Inquiry……………………………………………………...……………………15 Background Knowledge …………………………………………….………...…………15 Significance…………………………………………………………..…………………..17 Significance to Nursing Practice………………...………..………………...………17 Significance to Healthcare……………………………………………...…………..19 Significance to Advanced Practice Nursing Practice …………………….………..19 Project Support……………………………………….………………..…………………20 Chapter 2 LITERATURE SYNTHESIS………………………………………………….……..22 Search History…………………………………………………………………..……….22 Integrated Review of Literature…………………………………………………………23 Incidence of Risk Factors…………………………………………………………23 Screening Tool…………………………………………………………………….25 Barriers……………………………………………………………………………28 Interventions………………………………………………………………………29 Literature Critique……………………………………………………………………….30 Strengths of Evidence…………………………..………………………………….31 Weaknesses of Evidence………………………………….……………………….31 Gaps……………………………………………………………………………….31 Limitations………………………………………………………………………. 32 Concepts and Definitions………………………………..………………………………32 Theoretical Framework…………………………………………...……………………..32"
+    }
+  ]
+}

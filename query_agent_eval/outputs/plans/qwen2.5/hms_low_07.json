@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_07",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:12:22.766021+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_07",
+    "risk_interpretation": {
+      "probability": 0.0544,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0544 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near the decision threshold.",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Threshold impact on risk classification"
+        ],
+        "priority": "high",
+        "rationale": "To ensure accurate understanding of the prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the contribution of 'Exercise frequency' (exerc) to the model's risk prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Studies on exercise and mental health.",
+        "expected_evidence": [
+          "Research articles",
+          "Meta-analyses"
+        ],
+        "priority": "medium",
+        "rationale": "To validate the impact of exercise frequency."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does 'Age' (age) contribute to reducing the predicted screening risk, and what evidence supports this?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Research on age and mental health.",
+        "expected_evidence": [
+          "Demographic studies",
+          "Longitudinal research"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the protective role of age."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What evidence can we find to support the contribution of 'Flourishing' (flourish) in reducing the predicted screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Studies on flourishing and mental well-being.",
+        "expected_evidence": [
+          "Psychological research",
+          "Well-being surveys"
+        ],
+        "priority": "medium",
+        "rationale": "To validate the protective effect of flourishing."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Model calibration and uncertainty.",
+        "expected_evidence": [
+          "Calibration documentation",
+          "Uncertainty analysis"
+        ],
+        "priority": "medium",
+        "rationale": "To address any model limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the low risk of elevated screening for depression and anxiety to the student, ensuring it is non-diagnostic?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices in communicating mental health risks.",
+        "expected_evidence": [
+          "Guidelines on communication",
+          "Case studies"
+        ],
+        "priority": "high",
+        "rationale": "To provide clear and supportive communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_07\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0544,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0544 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near the decision threshold.\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Threshold impact on risk classification\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure accurate understanding of the prediction.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the contribution of 'Exercise frequency' (exerc) to the model's risk prediction?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"Studies on exercise and mental health.\",\n      \"expected_evidence\": [\"Research articles\", \"Meta-analyses\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To validate the impact of exercise frequency.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does 'Age' (age) contribute to reducing the predicted screening risk, and what evidence supports this?\",\n      \"linked_xai_factor\": \"age\",\n      \"retrieval_query\": \"Research on age and mental health.\",\n      \"expected_evidence\": [\"Demographic studies\", \"Longitudinal research\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the protective role of age.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence can we find to support the contribution of 'Flourishing' (flourish) in reducing the predicted screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"Studies on flourishing and mental well-being.\",\n      \"expected_evidence\": [\"Psychological research\", \"Well-being surveys\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To validate the protective effect of flourishing.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and near the threshold, what are the potential limitations or uncertainties in this prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Model calibration and uncertainty.\",\n      \"expected_evidence\": [\"Calibration documentation\", \"Uncertainty analysis\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To address any model limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the low risk of elevated screening for depression and anxiety to the student, ensuring it is non-diagnostic?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices in communicating mental health risks.\",\n      \"expected_evidence\": [\"Guidelines on communication\", \"Case studies\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide clear and supportive communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

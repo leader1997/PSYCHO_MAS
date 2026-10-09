@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_07",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:32:12.648407+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the case’s risk level and XAI contributors, providing clear, evidence‑based inquiries that avoid diagnostic or treatment language. It covers key factors (exercise, campus belonging, academic impairment, age) and includes a safety communication question, making it highly useful for an expert report while remaining concise and non‑redundant."
+}

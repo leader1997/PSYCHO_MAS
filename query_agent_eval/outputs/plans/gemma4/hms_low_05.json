@@ -1,0 +1,85 @@
+{
+  "case_id": "hms_low_05",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:19:29.793257+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_05",
+    "risk_interpretation": {
+      "probability": 0.0531,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What are the established protocols for communicating low screening risk results to an expert while ensuring immediate safety concerns or acute symptom changes are not overlooked?",
+        "linked_xai_factor": null,
+        "retrieval_query": "protocols for communicating low depression/anxiety screening risk and identifying escalation criteria",
+        "expected_evidence": [
+          "Guidelines on when to override a low-risk score based on clinical observation.",
+          "Best practices for non-diagnostic communication of mental health screening results."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question. Establishes the safety net and prevents false reassurance, which is critical in all risk levels but especially when scores are low."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do multiple protective factors (e.g., high flourishing, low loneliness, strong academic impairment mitigation) collectively contribute to a reduced elevated depression/anxiety screening risk profile?",
+        "linked_xai_factor": "flourish, lonely, aca_impa",
+        "retrieval_query": "collective impact of protective factors on student mental health screening scores",
+        "expected_evidence": [
+          "Literature review detailing the synergistic effect of flourishing and low loneliness.",
+          "Clinical guidelines interpreting multiple negative contributions to model risk prediction."
+        ],
+        "priority": "high",
+        "rationale": "The case has multiple strong protective factors. This question synthesizes their combined impact, which is more valuable than analyzing them individually for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "expert_support_consideration",
+        "question": "Given a low screening risk score, what are evidence-based, proactive support considerations (e.g., psychoeducation, resource linking) that can be recommended to the expert without implying an elevated need for intervention?",
+        "linked_xai_factor": null,
+        "retrieval_query": "low-risk mental health screening follow-up strategies and preventative student support",
+        "expected_evidence": [
+          "Non-clinical interventions suitable for low-risk students.",
+          "Strategies for promoting resilience in the academic setting."
+        ],
+        "priority": "medium",
+        "rationale": "Since the risk is low, the expert needs actionable, preventative advice that doesn't over-treat or cause unnecessary alarm. This guides the 'support considerations' section of the report."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the inherent limitations of this screening model, specifically regarding its inability to assess clinical diagnosis, severity, or acute symptom presentation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of student mental health screening models",
+        "expected_evidence": [
+          "Disclaimer language for model output.",
+          "Distinction between screening risk and clinical diagnosis."
+        ],
+        "priority": "medium",
+        "rationale": "Crucial for managing expectations. Even with good calibration, the expert must understand that the score is only a measure of *screening* risk, not a definitive diagnosis or severity level."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0531,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the established protocols for communicating low screening risk results to an expert while ensuring immediate safety concerns or acute symptom changes are not overlooked?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"protocols for communicating low depression/anxiety screening risk and identifying escalation criteria\",\n      \"expected_evidence\": [\n        \"Guidelines on when to override a low-risk score based on clinical observation.\",\n        \"Best practices for non-diagnostic communication of mental health screening results.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question. Establishes the safety net and prevents false reassurance, which is critical in all risk levels but especially when scores are low.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do multiple protective factors (e.g., high flourishing, low loneliness, strong academic impairment mitigation) collectively contribute to a reduced elevated depression/anxiety screening risk profile?\",\n      \"linked_xai_factor\": \"flourish, lonely, aca_impa\",\n      \"retrieval_query\": \"collective impact of protective factors on student mental health screening scores\",\n      \"expected_evidence\": [\n        \"Literature review detailing the synergistic effect of flourishing and low loneliness.\",\n        \"Clinical guidelines interpreting multiple negative contributions to model risk prediction.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case has multiple strong protective factors. This question synthesizes their combined impact, which is more valuable than analyzing them individually for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given a low screening risk score, what are evidence-based, proactive support considerations (e.g., psychoeducation, resource linking) that can be recommended to the expert without implying an elevated need for intervention?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"low-risk mental health screening follow-up strategies and preventative student support\",\n      \"expected_evidence\": [\n        \"Non-clinical interventions suitable for low-risk students.\",\n        \"Strategies for promoting resilience in the academic setting.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Since the risk is low, the expert needs actionable, preventative advice that doesn't over-treat or cause unnecessary alarm. This guides the 'support considerations' section of the report.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the inherent limitations of this screening model, specifically regarding its inability to assess clinical diagnosis, severity, or acute symptom presentation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of student mental health screening models\",\n      \"expected_evidence\": [\n        \"Disclaimer language for model output.\",\n        \"Distinction between screening risk and clinical diagnosis.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Crucial for managing expectations. Even with good calibration, the expert must understand that the score is only a measure of *screening* risk, not a definitive diagnosis or severity level.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

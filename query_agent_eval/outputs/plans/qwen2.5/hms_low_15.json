@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_15",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:28:30.290790+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_15",
+    "risk_interpretation": {
+      "probability": 0.0579,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0579 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near the decision threshold.",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Threshold setting rationale"
+        ],
+        "priority": "high",
+        "rationale": "To ensure accurate risk assessment."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's prediction that 'Campus belonging (item 1)' increases the screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Research on campus belonging and mental health.",
+        "expected_evidence": [
+          "Studies linking campus belonging with depression/anxiety",
+          "Surveys measuring student satisfaction"
+        ],
+        "priority": "medium",
+        "rationale": "To validate the model's feature contribution."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the model's prediction that 'Exercise frequency' increases the screening risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Research on exercise and mental health.",
+        "expected_evidence": [
+          "Studies linking physical activity with depression/anxiety",
+          "Surveys measuring exercise habits"
+        ],
+        "priority": "medium",
+        "rationale": "To validate the model's feature contribution."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What evidence can we gather to support the protective factor 'Academic impairment' in reducing screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Research on academic performance and mental health.",
+        "expected_evidence": [
+          "Studies linking academic success with lower depression/anxiety rates",
+          "Surveys measuring academic stress"
+        ],
+        "priority": "medium",
+        "rationale": "To validate the protective factor's impact."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How can we communicate to stakeholders that this screening is non-diagnostic and should not be used for treatment decisions?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices in communicating non-diagnostic screening results.",
+        "expected_evidence": [
+          "Guidelines on non-diagnostic screening communication",
+          "Examples of effective stakeholder communications"
+        ],
+        "priority": "high",
+        "rationale": "To ensure appropriate use and interpretation."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_15\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0579,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0579 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near the decision threshold.\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Threshold setting rationale\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure accurate risk assessment.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's prediction that 'Campus belonging (item 1)' increases the screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Research on campus belonging and mental health.\",\n      \"expected_evidence\": [\"Studies linking campus belonging with depression/anxiety\", \"Surveys measuring student satisfaction\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To validate the model's feature contribution.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the model's prediction that 'Exercise frequency' increases the screening risk?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"Research on exercise and mental health.\",\n      \"expected_evidence\": [\"Studies linking physical activity with depression/anxiety\", \"Surveys measuring exercise habits\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To validate the model's feature contribution.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence can we gather to support the protective factor 'Academic impairment' in reducing screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Research on academic performance and mental health.\",\n      \"expected_evidence\": [\"Studies linking academic success with lower depression/anxiety rates\", \"Surveys measuring academic stress\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To validate the protective factor's impact.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate to stakeholders that this screening is non-diagnostic and should not be used for treatment decisions?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices in communicating non-diagnostic screening results.\",\n      \"expected_evidence\": [\"Guidelines on non-diagnostic screening communication\", \"Examples of effective stakeholder communications\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure appropriate use and interpretation.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

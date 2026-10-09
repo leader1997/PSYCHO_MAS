@@ -1,0 +1,36 @@
+project:
+  name: ollama_contextual_eval
+
+paths:
+  # Reuse the controlled_agentic_xai_rag corpus and benchmark
+  mas_root: ".."
+  chunks_csv: "../controlled_agentic_xai_rag/data/processed_chunks.csv"
+  corpus_metadata_csv: "../controlled_agentic_xai_rag/data/corpus_metadata.csv"
+  benchmark_csv: "../controlled_agentic_xai_rag/data/benchmarks/rag_benchmark_100_questions.csv"
+  cache_dir: "cache"
+  outputs_dir: "outputs"
+
+ollama:
+  base_url: "http://localhost:11434"
+  embed_model: nomic-embed-text
+  context_model: qwen2.5:latest
+  inter_call_delay_seconds: 0.25
+  request_timeout_seconds: 600
+
+eval:
+  k: 10
+  rrf_k: 60
+  question_limit: 100
+  chunk_limit: null  # null = all chunks; set e.g. 800 for smoke tests
+  representations:
+    - plain
+    - metadata
+    - ollama_context
+  retrieval_modes:
+    - dense
+    - hybrid
+
+contextual:
+  # Anthropic cookbook-style prompt (adapted for Ollama chat)
+  max_document_chars: 12000
+  max_context_tokens_approx: 120

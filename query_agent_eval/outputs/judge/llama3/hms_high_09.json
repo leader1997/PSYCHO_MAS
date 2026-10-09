@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_09",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:06:03.930562+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 2,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and well‑structured, providing a solid foundation for an expert report. It effectively adapts to the high‑risk probability and includes safety‑oriented guidance without diagnostic or treatment language. However, it falls short in XAI alignment: only one of five major contributing factors (Academic impairment) is addressed, leaving other significant contributors such as Food insecurity worry, Loneliness, Flourishing, and Current financial situation unexamined. Expanding the plan to cover these would improve explanatory depth."
+}

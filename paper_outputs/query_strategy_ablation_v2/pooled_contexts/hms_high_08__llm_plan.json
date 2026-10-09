@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_high_08",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.934406,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "Q6",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.92196,
+      "chunk_id": "DOC_E002_p3_c2",
+      "doc_id": "DOC_E002",
+      "title": "The impact of material hardship severity and frequency on health",
+      "page": 3,
+      "category_code": "E_financial_food",
+      "text": "lead to negative consequences to health, long-term financial stability, and social outcomes [4,17,18]. Individuals who struggle to meet their basic needs, like living in stable housing conditions or having enough food to eat, are more likely to report poor health and psychological distress. These associations have been documented among children, working age adults, and the elderly [5,7,19]. Among adults, material hardship has been significantly associated with lower self-reported health, problems falling and staying asleep, higher rates of depression, stress, and suicidal thoughts [19]. In their study of depression among low-income adults, Heflin and Iceland [4] found that material hardship played the largest mediating role in reported rates of depression after controlling for numerous other sociodemographic factors. Additional scholarship has found that elderly Americans are especially vulnerable to the negative physical and mental health consequences of material hardship because they are more reliant on the healthcare system [20]. Similar findings have been shown across specific domains of material hardship. Children, the elderly, and pregnant women are particularly susceptible to severe negative physical and mental health consequences of food hardship, includ- ing diabetes, hypertension, and higher reports of anxiety and depression [21–23]. Housing hardship, which has risen in recent years with an increase in the average rent-to-income ratio (RTI) [24], is associated with physical health maladies the come from living in poor housing conditions [9,25] and mental health stressors resulting from facing the threat of eviction [26,27]. Further, because housing makes up a large share of the expenses for many lower-income households, housing hardship is correlated with other forms of hardship like",
+      "query_qid": "Q3",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.915051,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test",
+      "query_qid": "Q2",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.894685,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further",
+      "query_qid": "Q4",
+      "pool_rank": 4
+    },
+    {
+      "rank": 2,
+      "score": 0.876042,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in",
+      "query_qid": "Q3",
+      "pool_rank": 5
+    }
+  ]
+}

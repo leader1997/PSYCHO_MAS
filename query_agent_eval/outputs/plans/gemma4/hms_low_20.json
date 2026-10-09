@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_20",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:59:15.331889+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_20",
+    "risk_interpretation": {
+      "probability": 0.0613,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic language to use when communicating a low screening risk result, ensuring that reassurance does not minimize potential student distress?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating negative mental health screening results in college students without causing false reassurance.",
+        "expected_evidence": [
+          "Guidelines on non-diagnostic communication of low risk scores",
+          "Strategies to validate student experience regardless of screening outcome"
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all low-risk cases. Focuses on empathetic, non-minimizing language."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do high levels of 'Flourishing' and 'Academic Impairment' contribute to the overall resilience profile, and what are the clinical implications for expert review?",
+        "linked_xai_factor": "flourish, aca_impa",
+        "retrieval_query": "Clinical significance of high flourishing scores and low academic impairment in student mental health risk assessment.",
+        "expected_evidence": [
+          "Literature linking flourishing to resilience against depression/anxiety",
+          "Interpretation guidelines for protective factors in screening reports"
+        ],
+        "priority": "high",
+        "rationale": "Addresses the strongest and most clinically relevant protective factors, which are key to building confidence in the low-risk finding."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical context for 'Past financial stress' (finpast) contributing positively to the model prediction, and what follow-up questions should be considered?",
+        "linked_xai_factor": "finpast",
+        "retrieval_query": "Impact of past financial stress on student mental health screening risk; recommended assessment strategies.",
+        "expected_evidence": [
+          "Academic literature linking historical financial stress to anxiety/depression symptoms",
+          "Contextual questions for expert review regarding financial history"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a significant positive contributor (financial stress) that warrants deeper contextual understanding, even if the risk is low."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the implications of 'Campus belonging' (belong1) contributing positively to the model prediction, and how can this be differentiated from general social isolation?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Differentiating between low campus belonging and generalized social isolation in student mental health screening.",
+        "expected_evidence": [
+          "Definitions of 'campus belonging' vs. 'social support'",
+          "Clinical relevance of belonging scores in risk assessment"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a key positive contributor (belonging) to ensure the expert understands the specific nature of the risk factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that this is a screening tool and not a diagnostic instrument, what are the known limitations or potential biases (e.g., cultural, temporal) of the model's prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Limitations and scope of using ML models for student mental health screening; bias mitigation.",
+        "expected_evidence": [
+          "Model limitations statement for depression/anxiety screening",
+          "Guidelines on interpreting probability scores vs. clinical diagnosis"
+        ],
+        "priority": "high",
+        "rationale": "Crucial step in low-risk reporting to prevent over-reliance on the model and manage expectations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "For students with a low screening risk but multiple identified contributing factors (e.g., financial stress, belonging), what general psychoeducational resources or proactive check-ins are recommended for expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Proactive mental health support strategies for students with low screening risk but multiple identified stressors.",
+        "expected_evidence": [
+          "Psychoeducational resources for financial stress and belonging",
+          "Best practices for routine follow-up care in college settings"
+        ],
+        "priority": "medium",
+        "rationale": "Provides actionable, non-diagnostic support considerations for the expert to use during the review."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_20\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0613,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic language to use when communicating a low screening risk result, ensuring that reassurance does not minimize potential student distress?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating negative mental health screening results in college students without causing false reassurance.\",\n      \"expected_evidence\": [\n        \"Guidelines on non-diagnostic communication of low risk scores\",\n        \"Strategies to validate student experience regardless of screening outcome\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all low-risk cases. Focuses on empathetic, non-minimizing language.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do high levels of 'Flourishing' and 'Academic Impairment' contribute to the overall resilience profile, and what are the clinical implications for expert review?\",\n      \"linked_xai_factor\": \"flourish, aca_impa\",\n      \"retrieval_query\": \"Clinical significance of high flourishing scores and low academic impairment in student mental health risk assessment.\",\n      \"expected_evidence\": [\n        \"Literature linking flourishing to resilience against depression/anxiety\",\n        \"Interpretation guidelines for protective factors in screening reports\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the strongest and most clinically relevant protective factors, which are key to building confidence in the low-risk finding.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical context for 'Past financial stress' (finpast) contributing positively to the model prediction, and what follow-up questions should be considered?\",\n      \"linked_xai_factor\": \"finpast\",\n      \"retrieval_query\": \"Impact of past financial stress on student mental health screening risk; recommended assessment strategies.\",\n      \"expected_evidence\": [\n        \"Academic literature linking historical financial stress to anxiety/depression symptoms\",\n        \"Contextual questions for expert review regarding financial history\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a significant positive contributor (financial stress) that warrants deeper contextual understanding, even if the risk is low.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the implications of 'Campus belonging' (belong1) contributing positively to the model prediction, and how can this be differentiated from general social isolation?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Differentiating between low campus belonging and generalized social isolation in student mental health screening.\",\n      \"expected_evidence\": [\n        \"Definitions of 'campus belonging' vs. 'social support'\",\n        \"Clinical relevance of belonging scores in risk assessment\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a key positive contributor (belonging) to ensure the expert understands the specific nature of the risk factor.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that this is a screening tool and not a diagnostic instrument, what are the known limitations or potential biases (e.g., cultural, temporal) of the model's prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Limitations and scope of using ML models for student mental health screening; bias mitigation.\",\n      \"expected_evidence\": [\n        \"Model limitations statement for depression/anxiety screening\",\n        \"Guidelines on interpreting probability scores vs. clinical diagnosis\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial step in low-risk reporting to prevent over-reliance on the model and manage expectations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"For students with a low screening risk but multiple identified contributing factors (e.g., financial stress, belonging), what general psychoeducational resources or proactive check-ins are recommended for expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Proactive mental health support strategies for students with low screening risk but multiple identified stressors.\",\n      \"expected_evidence\": [\n        \"Psychoeducational resources for financial stress and belonging\",\n        \"Best practices for routine follow-up care in college settings\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provides actionable, non-diagnostic support considerations for the expert to use during the review.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

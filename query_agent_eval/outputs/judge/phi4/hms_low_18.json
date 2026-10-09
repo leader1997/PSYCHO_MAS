@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_18",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T10:08:03.009130+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑structured and largely relevant to the low‑risk student case. It covers key XAI contributors (institution size, flourishing, academic impairment) but omits other protective factors such as loneliness, age, and positive mental health, which slightly reduces alignment with the full contributor set. All questions are answerable via scientific literature, clear, non‑redundant, and safely framed without diagnostic or treatment language. The plan appropriately adapts to a low‑risk context by including communication guidance for non‑elevated screening results."
+}

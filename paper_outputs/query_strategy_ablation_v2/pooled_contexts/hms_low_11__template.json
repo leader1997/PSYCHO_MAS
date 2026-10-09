@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_low_11",
+  "arm": "template",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.962515,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of",
+      "query_qid": "T3",
+      "retrieval_query": "Exercise frequency college student mental health screening evidence",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.954813,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of",
+      "query_qid": "T2",
+      "retrieval_query": "Campus belonging (item 1) college student depression anxiety screening evidence",
+      "pool_rank": 2
+    },
+    {
+      "rank": 2,
+      "score": 0.948317,
+      "chunk_id": "DOC_A001_p8_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 8,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 8 a total of 27 articles met the criteria for this review and each article was appraised using the Johns Hopkins Nursing Evidence-Based Practice Research and Non-Research Evidence Appraisal Tool. Table A2 outlines the Appraisal Table of the 27 articles (see Appendix A). Available Knowledge/Review of the Literature According to the U.S. Preventative Services Task Force (USPSTF), depression is among the leading causes of disability in individuals 15 years of age and older (Siu & U.S. Preventive Services Task Force (USPSTF), 2016). By 2020, depressive disorders are predicted to be the second leading cause of disability and death (Soltani, Smith, Beck, & Johnson, 2014). Prevalence of depression among college students accounts for approximately 16.7% and is more than twice as common among college students compared to the general population (Liu et al., 2019; English & Campbell, 2019). Thus, depression is highly prevalent and appears to be increasing. Depression is one of the leading health concerns in college population, yet roughly half of college students with depression receive treatment (English & Campbell, 2019). Mental health among college students affects important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity, which should be a significant concern for certain stakeholders such as campus administrators, college professors, and parents (Lipson, Gaddis, Heinze, & Eisenberg, 2015; Ebert et al., 2018). In addition, depression has been associated with increased health care costs such as emergency department visits and inpatient hospitalizations (Wright et al., 2015). In the United States alone, the total cost of mental illness in young",
+      "query_qid": "T2",
+      "retrieval_query": "Campus belonging (item 1) college student depression anxiety screening evidence",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.944225,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "T1",
+      "retrieval_query": "interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.941402,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.",
+      "query_qid": "T5",
+      "retrieval_query": "Academic impairment protective factors college student mental health screening",
+      "pool_rank": 5
+    }
+  ]
+}

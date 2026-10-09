@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_01",
+  "stratum": "low",
+  "qid": "Q6",
+  "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+  "retrieval_query": "contextual factors for expert interpretation of low depression/anxiety screening scores",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:37.505573+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.98026,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)"
+    },
+    {
+      "rank": 2,
+      "score": 0.910715,
+      "chunk_id": "DOC_G002_p8_c1",
+      "doc_id": "DOC_G002",
+      "title": "[PDF] DNP Project - Maryville University",
+      "page": 8,
+      "category_code": "G_screening_communication",
+      "text": "8 DEPRESSION SCREENING OF UNIVERSITY STUDENTS LIST OF FIGURES Figure 1. Age Breakdown of Students…………………………………………………………..49 Figure 2. Gender of Subject…………………………………………………………………………..…50 Figure 3 Ethnicity of Students…………………………………………………………………………. .51 Figure 4 First Year College Student or Not…………………………………………………………..52. Figure 5 Reasons for Referral to Counseling Services………………………………………………55. Figure 6 Statistical Information of the Student Referred for Counseling Services……………….56 Figure 7 PHQ-2 Scores of Students…………………………………………………………………….57. Figure 8 PHQ-2 and PHQ-9 scores of Students Referred during Project………………………..58"
+    },
+    {
+      "rank": 3,
+      "score": 0.872821,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 4,
+      "score": 0.865926,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 5,
+      "score": 0.862445,
+      "chunk_id": "DOC_B003_p3_c1",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 3,
+      "category_code": "B_college_depression_anxiety",
+      "text": "indicated a two-dimensional factor structure [25, 27]. Given the lack of consensus regarding the factor structure of GAD-7 in different contexts, a comprehensive validation study for Ban- gladeshi university students may be beneficial for an easy and cost-effective screening of anxi- ety disorders in this population. Against this backdrop, we conducted this study with the objective of investigating the reli- ability and factorial validity of GAD-7 in the context of university students in Bangladesh. To this effect, the research mainly aimed to assess whether the original one-dimensional model or a model containing both somatic and cognitive-emotional factors is appropriate for both public and private university students. We further examined the convergent validity of GAD-7 with other relevant measures of mental health conditions, namely Patient Health Questionnaire-9 (PHQ-9) and Patient Health Questionnaire Anxiety-Depression Scale (PHQ-ADS). Finally, we examined the mean GAD-7 score of the students across different demographic and socioeco- nomic correlates. We expect that the study will contribute to the growing body of literature per- taining to validation studies assessing symptoms of anxiety disorders in university students. Methods Procedure and sampling A repeated cross-sectional survey design was used to collect responses among the university students of Bangladesh. Data was collected in two waves: July 18-July 31, 2020 and February 10-February 22, 2021; the survey Administration software Google Form [48]. Snowball sam- pling strategy was utilized to capture both public and private university students. To be eligible for the study, the participants had to meet the following criteria: (a) be willing to participate in the study; (b) be enrolled in any"
+    }
+  ]
+}

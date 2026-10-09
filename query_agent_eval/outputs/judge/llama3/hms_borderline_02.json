@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_02",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:08:03.375526+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑crafted, clear, and safe, providing useful evidence for an expert report. It covers key XAI contributors (loneliness and flourishing) but omits several other influential features, limiting full alignment with the model’s explanation space."
+}

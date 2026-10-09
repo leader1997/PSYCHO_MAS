@@ -1,0 +1,66 @@
+{
+  "model": "phi4",
+  "case_id": "hms_borderline_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "The provided contexts do not offer explicit clinical guidelines for interpreting 'near-threshold' results in student mental health screening when calibration confirms proximity to a decision threshold. However, they emphasize the importance of early identification and accurate assessment of depression among college students using tools like the PHQ-2 and PHQ-9. Given that these tools are widely used for their reliability and validity, it is implied that any near-threshold results should be carefully considered in context with additional evaluations or follow-up assessments to ensure comprehensive understanding and appropriate referral if necessary. For elevated risk cases, especially those close to the threshold, referring students to qualified mental health support services is advisable to address potential under-detection issues inherent in screening tools.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:11:47.099433+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "The relationship between reported loneliness and elevated screening risk in college students is supported by evidence indicating that loneliness acts as a common risk factor for depressive symptoms. Loneliness is defined as the disparity between one's desired and actual levels of social relationships, which can lead to enhanced sympathetic tone, increased HPA activation, reduced inflammatory control, and decreased expression of genes regulating glucocorticoid responses (Context 2). This physiological impact may contribute to mental health challenges among college students.\n\nResearch highlights that perceived social support plays a protective role against loneliness and depressive symptoms. Students with lower levels of social support are significantly more likely to experience depression, while those with higher levels report better mental health outcomes (Context 1). Furthermore, loneliness partially mediates the relationship between perceived social support and depressive symptoms, suggesting it not only directly affects depression but also influences how social support impacts mental health (Context 2).\n\nDespite these protective factors, elevated rates of anxiety and depression among college students have been exacerbated by recent events such as the COVID-19 pandemic. This underscores the importance of monitoring student well-being and promoting belonging through curricular and co-curricular activities designed to enhance social connections (Context 5). For those at elevated risk, referral to qualified support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:12:21.150249+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Current financial instability (fincur) contributes as a statistical factor to elevated screening risk by increasing stressors related to financing studies, making new friends, and living away from home, which are prevalent among university students. This period is marked by accelerated brain growth and heightened sensitivity to stress, coinciding with the peak risk for onset of mental disorders associated with high morbidity, such as academic failure or dropout (Context 3). Financial instability can exacerbate these challenges, potentially leading to increased rates of mental health issues.\n\nTo mitigate this specific stressor in a student population, evidence-based strategies include implementing universal school mental health screening to identify students at risk early and connect them to cost-effective services like individual and group outpatient mental health services (Context 1). Additionally, promoting comprehensive school mental health strategies through a multi-tiered system of supports can help address financial-related stressors before they escalate by teaching core social-emotional-behavioral skills (Context 2). Schools should also consider piloting screening procedures with small groups to adapt and refine processes effectively, ensuring timely referrals to appropriate support services (Context 5). For students identified as being at immediate risk due to financial instability or other factors, referral to qualified mental health professionals is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:12:53.316047+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "High 'Flourishing' scores indicate strong protective factors against elevated screening risk by enhancing overall well-being through integration in large social networks, which provide regular positive experiences and socially rewarded roles (Contexts 1 & 2). This integration fosters positive affect, stability, and self-worth, potentially mitigating negative psychological states like anxiety or depression that could influence physical health. The buffering hypothesis suggests that perceived availability of interpersonal resources responsive to stress can protect against adverse effects of stressful events (Context 3), while the main effect model highlights benefits from being part of a large social network (Context 3). Emphasizing these protective factors, such as strong familial ties and friendships, is crucial for experts reviewing screening results, as they contribute significantly to reducing psychological distress among college students by providing instrumental and emotional support (Contexts 4 & 5). These insights underscore the importance of fostering supportive environments and networks to enhance student well-being.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:13:18.892173+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "The evidence suggests that maintaining positive mental health acts as a buffer against stressors such as loneliness and financial strain through several mechanisms. Context 4 highlights that social support is positively related to mental health outcomes, suggesting that strong social networks can provide regular positive experiences and stable roles, which contribute to overall well-being by offering positive affect, predictability, stability, and recognition of self-worth. This implies that students with robust social connections may experience reduced anxiety or depression, thereby mitigating the impact of stressors like loneliness.\n\nAdditionally, Context 5 emphasizes the role of internal factors such as cognitive, social, and value development in student well-being. Academic competencies and meaningful engagement in learning foster a sense of purpose, which can buffer against external stressors by enhancing students' resilience and coping mechanisms. Thus, positive mental health, supported by both social networks and personal academic growth, serves as a protective factor that helps students manage the challenges associated with university life.\n\nFor elevated risks, referral to qualified support services is recommended to ensure comprehensive care and intervention.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:13:46.976740+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When discussing elevated screening risk with a student, it is essential to communicate empathetically while maintaining professional boundaries. Begin by explaining that mental health screenings are proactive measures designed to identify and address potential challenges before they escalate, as part of a comprehensive school mental health strategy (Context 1 & 2). Emphasize the importance of early identification in promoting well-being and preventing issues from worsening. Ensure students understand that screening is not diagnostic but rather a tool for gathering information to support their needs effectively.\n\nFor expert teams, highlight that screenings are conducted systematically across all student populations to inform prevention and intervention strategies (Context 1 & 2). Stress the importance of using reliable tools and processes in planning and implementing these screenings. Encourage collaboration with students and families throughout the process to ensure transparency and consent (Context 3).\n\nIn both contexts, if elevated risk is identified, recommend referral to qualified support services for further evaluation and intervention, ensuring that appropriate follow-up actions are taken promptly (Context 1 & 3). This approach maintains empathy while upholding professional standards.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:14:14.247727+00:00"
+    }
+  }
+}

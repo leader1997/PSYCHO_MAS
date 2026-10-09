@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_04",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.4995) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' or near-threshold screening result, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "When a PHQ‑9–derived probability is 0.4995—essentially indistinguishable from the 0.5 decision cut‑off and confirmed by calibration—it should be treated as a borderline result rather than a definitive screen‑positive or negative. School and college screening protocols (Contexts 2, 4) recommend that such ambiguous findings trigger an additional assessment step: repeat the screener, administer a more detailed instrument (e.g., full PHQ‑9 after a PHQ‑2 screen), or conduct a brief clinical interview to clarify symptom severity. If any risk indicators are present—suicidal ideation, self‑harm thoughts, or other safety concerns—the guidelines in Context 5 mandate an immediate response and referral to appropriate mental‑health services. In the absence of acute risk, the student should be triaged to Tier 2 or 3 supports per the defined process for near‑threshold results, ensuring timely follow‑up and monitoring.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:09:30.346626+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are the established mechanisms by which chronic loneliness contributes to elevated depression/anxiety screening risk in young adults, and what types of interventions target this specific factor?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Chronic loneliness in young adults is linked to elevated depression and anxiety risk through both physiological and psychological pathways. Physiologically, perceived social isolation has been associated with heightened sympathetic tone, increased hypothalamic‑pituitary‑adrenal (HPA) axis activation, reduced inflammatory control, and lower expression of genes that regulate glucocorticoid responses, all of which can contribute to mood dysregulation (Context 1–2). Psychologically, loneliness represents a persistent mismatch between desired and actual social relationships, functioning as a precursor to depressive symptoms and mediating the relationship between perceived social support and depression (Context 2). Interventions that target this factor typically aim to enhance perceived social support—such as strengthening community ties or family involvement—which can reduce feelings of loneliness and thereby lower depressive symptomatology (Context 2). While specific intervention modalities are not detailed in the retrieved evidence, the data suggest that programs designed to increase supportive relationships may mitigate the impact of chronic loneliness on mental‑health screening risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:10:52.372806+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does strong current financial stability ('fincur') act as a protective factor against elevated depression/anxiety screening risk, and what resources can be provided to reinforce this resilience?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Strong current financial stability reduces basic‑needs insecurity—food, housing, and transportation—which research links directly to emotional stress and higher rates of depression and anxiety (Context 2). When students do not face the daily uncertainty of meeting living expenses, they experience lower overall psychological distress, which in turn is associated with better academic performance and well‑being (Contexts 1 and 4). Financial aid programs, budgeting workshops, and counseling on managing student loans serve as concrete resources that reinforce this resilience by helping students maintain stable finances (Context 3). Additional supports such as emergency food pantries, housing assistance services, and access to campus financial counseling can further buffer against the mental‑health risks tied to economic hardship. If a student screens at elevated risk for depression or anxiety despite financial stability, timely referral to school or community mental‑health services is recommended (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:12:08.822555+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the recommended approaches to address low levels of 'flourishing' and 'positive mental health' that contribute positively, but moderately, to screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "To enhance flourishing and positive mental health among students, universities should adopt a multi‑layered strategy that combines individual‑level supports with institutional initiatives. First, creating safe spaces where students can express feelings and receive emotional support strengthens belonging—a key driver of subjective well‑being and reduced depressive symptoms (Context 2). Second, embedding positive psychology interventions and curriculum‑based wellbeing activities into courses has been shown to raise life satisfaction and promote personal growth, thereby boosting both hedonic and eudaimonic flourishing (Context 3). Third, systematic wellbeing assessments paired with a whole‑university prevention framework allow early identification of students at risk and timely referral to counseling services, which are linked to lower anxiety, depression, and suicide risk when social support is high (Contexts 1 and 5). Together, these approaches address the moderate but meaningful contribution of flourishing to overall mental health screening outcomes.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:13:04.948742+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What specific support considerations should be provided to students with mixed risk profiles (e.g., high protective factors but also significant loneliness) to ensure comprehensive, non-diagnostic follow-up?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "Use a universal screening that captures both protective factors (well‑being, school belonging) and risk signals such as loneliness, enabling the MTSS to identify students who have high strengths but also significant isolation【Context 2】. Offer tier‑2 interventions that build social‑emotional skills and promote peer connectedness—e.g., small‑group activities or mentorship programs—to directly address loneliness while reinforcing existing protective factors【Context 1】【Context 2】. Provide brief coping‑skill lessons in classrooms when screening reveals elevated stress or anxiety, which can reduce the impact of isolation on mental health【Context 1】. Ensure that any student flagged for loneliness receives a timely referral to school or community support services, such as individual or group counseling and peer‑support groups, because early intervention is less costly than later intensive care【Context 3】【Context 5】. Involve families in the planning process and keep them informed about screening results and available supports, which helps sustain protective factors outside of school【Context 5】.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:15:05.357866+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the best practices for communicating screening results to students and their support networks while maintaining a non-diagnostic, supportive, and encouraging tone?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "Before any results are shared, schools should provide students and families with clear, multi‑format information about the purpose of screening, how data will be used, and options for consent or opt‑out (Context 1). When communicating individual outcomes, use a patient‑friendly, non‑diagnostic language that acknowledges strengths while describing risk indicators, mirroring the approach recommended in the GET.FEEDBACK.GP trial where feedback was delivered in lay terms (Context 2). Results should be presented promptly and accompanied by an explanation of next steps, including timely referrals for those identified at higher risk and a safety plan if self‑harm or harm to others is indicated (Context 5). Finally, schools can refine their communication protocols through small‑scale pilots that allow teams to adjust tone and content before full implementation (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:16:29.440810+00:00"
+    }
+  }
+}

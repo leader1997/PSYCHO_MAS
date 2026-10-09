@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_13",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:40:11.362841+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_13",
+    "risk_interpretation": {
+      "probability": 0.0577,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic language and communication guidelines should be used when communicating a low elevated depression/anxiety screening risk to both the student and the expert support team?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for low screening risk",
+        "expected_evidence": [
+          "Best practices for communicating negative screening results.",
+          "Language to avoid false reassurance or minimizing student concerns."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all cases, especially low-risk ones, to ensure appropriate and non-alarming communication."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do strong protective factors (e.g., high Flourishing, low Academic Impairment) contextually mitigate the interpretation of minor risk increases from other features?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical weight of flourishing and academic impairment in depression/anxiety screening",
+        "expected_evidence": [
+          "Scientific literature on protective factors' impact on mental health outcomes.",
+          "Guidance on how strong protective scores override minor risk contributors."
+        ],
+        "priority": "high",
+        "rationale": "The case has multiple, highly impactful protective factors that must be emphasized to contextualize the low overall risk score."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical significance of sleep pattern changes (weeknight vs. weekend) contributing to a low elevated screening risk, and what are typical behavioral patterns associated with these features?",
+        "linked_xai_factor": "sleep_wknight | sleep_wkend",
+        "retrieval_query": "clinical interpretation of weeknight and weekend sleep variability in student mental health screening",
+        "expected_evidence": [
+          "Correlation between sleep patterns and depression/anxiety severity.",
+          "Contextualizing minor sleep contributions when overall risk is low."
+        ],
+        "priority": "high",
+        "rationale": "Sleep features are the largest positive contributors; their clinical meaning must be established for expert review."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should minor contributions from institutional characteristics (e.g., size, public status) and exercise frequency be interpreted when they are far below the primary risk drivers?",
+        "linked_xai_factor": "inst_size | inst_public | exerc",
+        "retrieval_query": "interpreting low-magnitude environmental features in mental health screening models",
+        "expected_evidence": [
+          "Guidance on feature importance when contributions are minimal.",
+          "Contextualizing institutional factors vs. individual student risk."
+        ],
+        "priority": "medium",
+        "rationale": "These contributors are small but present; they need context to prevent over-interpretation by the expert."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and the probability (0.0577) is significantly below the threshold (0.5), what are the inherent limitations of using this score for individual student risk assessment?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of predictive screening models when far from decision threshold",
+        "expected_evidence": [
+          "Understanding model uncertainty and calibration in low-risk scenarios.",
+          "When a low score does not guarantee absence of risk."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for managing expert expectations regarding the predictive power vs. absolute certainty of the screening tool."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "What are general best practices or next steps for follow-up support considerations for expert review when a student presents with low elevated screening risk but exhibits specific behavioral patterns (e.g., sleep variability)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "follow-up strategies for students with low depression/anxiety screening risk but identified behavioral concerns",
+        "expected_evidence": [
+          "Non-clinical support resources (e.g., academic advising, wellness workshops).",
+          "Recommendations for proactive monitoring rather than immediate intervention."
+        ],
+        "priority": "medium",
+        "rationale": "Provides actionable, non-diagnostic guidance for the expert team to move beyond just interpreting the score."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_13\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0577,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic language and communication guidelines should be used when communicating a low elevated depression/anxiety screening risk to both the student and the expert support team?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for low screening risk\",\n      \"expected_evidence\": [\n        \"Best practices for communicating negative screening results.\",\n        \"Language to avoid false reassurance or minimizing student concerns.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all cases, especially low-risk ones, to ensure appropriate and non-alarming communication.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do strong protective factors (e.g., high Flourishing, low Academic Impairment) contextually mitigate the interpretation of minor risk increases from other features?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical weight of flourishing and academic impairment in depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Scientific literature on protective factors' impact on mental health outcomes.\",\n        \"Guidance on how strong protective scores override minor risk contributors.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case has multiple, highly impactful protective factors that must be emphasized to contextualize the low overall risk score.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical significance of sleep pattern changes (weeknight vs. weekend) contributing to a low elevated screening risk, and what are typical behavioral patterns associated with these features?\",\n      \"linked_xai_factor\": \"sleep_wknight | sleep_wkend\",\n      \"retrieval_query\": \"clinical interpretation of weeknight and weekend sleep variability in student mental health screening\",\n      \"expected_evidence\": [\n        \"Correlation between sleep patterns and depression/anxiety severity.\",\n        \"Contextualizing minor sleep contributions when overall risk is low.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Sleep features are the largest positive contributors; their clinical meaning must be established for expert review.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should minor contributions from institutional characteristics (e.g., size, public status) and exercise frequency be interpreted when they are far below the primary risk drivers?\",\n      \"linked_xai_factor\": \"inst_size | inst_public | exerc\",\n      \"retrieval_query\": \"interpreting low-magnitude environmental features in mental health screening models\",\n      \"expected_evidence\": [\n        \"Guidance on feature importance when contributions are minimal.\",\n        \"Contextualizing institutional factors vs. individual student risk.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"These contributors are small but present; they need context to prevent over-interpretation by the expert.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and the probability (0.0577) is significantly below the threshold (0.5), what are the inherent limitations of using this score for individual student risk assessment?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of predictive screening models when far from decision threshold\",\n      \"expected_evidence\": [\n        \"Understanding model uncertainty and calibration in low-risk scenarios.\",\n        \"When a low score does not guarantee absence of risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for managing expert expectations regarding the predictive power vs. absolute certainty of the screening tool.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are general best practices or next steps for follow-up support considerations for expert review when a student presents with low elevated screening risk but exhibits specific behavioral patterns (e.g., sleep variability)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"follow-up strategies for students with low depression/anxiety screening risk but identified behavioral concerns\",\n      \"expected_evidence\": [\n        \"Non-clinical support resources (e.g., academic advising, wellness workshops).\",\n        \"Recommendations for proactive monitoring rather than immediate intervention.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provides actionable, non-diagnostic guidance for the expert team to move beyond just interpreting the score.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,7 @@
+# Pinned stack verified with ragas.evaluate() (Python 3.11/3.12)
+ragas==0.1.22
+langchain-openai==0.1.25
+langchain-core==0.2.43
+langchain-community==0.2.15
+datasets>=2.14,<4
+huggingface-hub>=0.19.3,<1.0

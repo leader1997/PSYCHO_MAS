@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_04",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What are the established clinical guidelines and best practices for interpreting an 'elevated screening risk' in non-diagnostic student mental health support, particularly when the probability exceeds 0.9?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "When a screening tool yields an elevated probability (e.g., > 0.9), the evidence recommends treating it as a signal that the student likely meets criteria for depression or other mental‑health concerns rather than a definitive diagnosis. The standard practice is to administer a more comprehensive instrument—such as the PHQ‑9 following a positive PHQ‑2—to confirm symptom severity and identify specific risk factors, including suicidal ideation. If any self‑harm thoughts are reported, an immediate safety assessment should be conducted and the student referred promptly to counseling or crisis services. In a multi‑tiered school setting, such high‑risk scores would trigger Tier 3 intensive supports (e.g., individualized therapy, close monitoring) while also ensuring that all referrals are made in a timely manner and that follow‑up is scheduled. These steps align with current guidelines for early identification, prevention, and cost‑effective intervention in student mental‑health programs.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:32:15.507798+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the scientific literature regarding the relationship between academic impairment (e.g., poor grades, missed assignments) and elevated screening risk for depression/anxiety in college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Scientific studies consistently find that depression is linked to poorer academic performance in college students. One longitudinal survey of 2,800 undergraduates showed that depressive symptoms predict lower GPA and a higher probability of dropping out even after controlling for prior achievement, anxiety, eating‑disorder symptoms, and other covariates (Context 5). The association was strongest when depression co‑occurred with an anxiety screen; the combined effect on academic outcomes exceeded either disorder alone. In a separate sample of medical students during the COVID‑19 pandemic, high levels of academic procrastination were positively correlated with stress, anxiety, and depression scores (r ≈ 0.47–0.48 for anxiety and stress, r ≈ 0.40 for depression; Contexts 1–4), suggesting that maladaptive study behaviors may both reflect and reinforce mental‑health risk. Together, these findings indicate that elevated screening risk for depression or anxiety is statistically associated with academic impairment such as lower grades or missed assignments, and students exhibiting both should be considered for supportive interventions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:33:39.479073+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do factors like perceived loneliness and low campus belonging contribute to the model's prediction of elevated screening risk, and what are evidence-based interventions for improving these areas?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The model flags perceived loneliness and low campus belonging as statistical contributors to elevated screening risk because research consistently links both to higher depressive symptoms in college students (Context 2, Context 5). Low belonging predicts end‑of‑term depression even after controlling for loneliness and daily social interactions, indicating it adds unique variance to the risk estimate (Context 2). Loneliness itself contributes through its documented association with increased depression rates among young adults (Cacioppo et al., 2006; Matthews et al., 2016) as noted in Context 5. Evidence‑based interventions that have demonstrated effectiveness for improving belonging include structured programs described by Brady et al. (2020), Murphy et al. (2020), and Walton & Cohen (2007, 2011) (Context 1). Programs that foster emotional support and active engagement—such as campus‑wide initiatives requiring participation in curricular or co‑curricular activities designed to promote belonging—have been recommended to enhance well‑being and reduce depressive symptoms (Context 4, Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:35:17.779049+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the established role of adequate weeknight sleep in mitigating screening risk for depression/anxiety, and how should this protective factor be emphasized during expert review?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Context 2 reports that insomnia was significantly associated with depression (p < 0.05), indicating that poor sleep contributes to mental‑health risk among university students. While the studies do not directly quantify how adequate weeknight sleep mitigates screening risk, the inverse relationship suggests that sufficient sleep could serve as a protective factor. During expert review, clinicians should therefore assess sleep duration and quality routinely, noting that interventions targeting insomnia may reduce depression and anxiety risk. Emphasizing sleep hygiene as a modifiable contributor can help integrate early‑intervention strategies into routine mental‑health screening.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:36:40.109631+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of predictive screening models (e.g., reliance on self-report, inability to capture acute events) when assessing student mental health risk?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Predictive screening tools for student mental health often rely on self‑reported symptom checklists. As noted in Context 1, students may mask depressive symptoms or present somatic complaints to avoid stigma, leading complaint‑based approaches and brief instruments like the PHQ‑2 to under‑detect depression. Context 2 highlights that classical test theory (CTT)–based scoring can produce inaccurate diagnoses because it ignores item heterogeneity; although item response theory (IRT) offers improvements, it still depends on respondents’ item responses. The retrieved evidence does not provide information about whether these models capture acute or rapidly emerging mental‑health events, so the extent to which they miss sudden crises remains unclear.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:38:19.777014+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language should be used when communicating an elevated screening risk to a student, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When a student’s screening score indicates an elevated risk, it is helpful to frame the conversation as an observation rather than a diagnosis. For example, you might say, “Your responses suggest you may be experiencing higher levels of stress or anxiety.” This wording reflects the proactive nature of screening—used to gather information for prevention and early‑intervention strategies (Context 1)—without labeling the student with a disorder. Express empathy by acknowledging how challenging this can feel: “I understand that this might feel overwhelming.” Maintain professional boundaries by offering collaborative next steps, such as, “We can discuss what support options are available and decide together how to proceed.” Finally, remind the student that the screening results help inform tailored prevention strategies across all tiers of support (Context 2).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:39:49.480728+00:00"
+    }
+  }
+}

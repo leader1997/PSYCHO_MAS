@@ -1,0 +1,17 @@
+{
+  "card_type": "model_performance",
+  "model": "Logistic Regression",
+  "family": "ML",
+  "metrics": {
+    "auc": 0.8469,
+    "accuracy": 0.7662,
+    "f1": 0.7446,
+    "macro_f1": 0.7645,
+    "recall": 0.7588,
+    "pr_auc": 0.8175,
+    "brier": 0.1596
+  },
+  "stability_score": 0.9628,
+  "calibration_score": 0.8404,
+  "model_weight": 0.6185
+}

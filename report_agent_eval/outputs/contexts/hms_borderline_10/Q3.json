@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_10",
+  "stratum": "borderline",
+  "qid": "Q3",
+  "question": "What are the recommended screening protocols or risk stratification guidelines when 'Food insecurity worry' (contribution: 0.0993) is identified as a contributing factor to elevated screening risk?",
+  "retrieval_query": "screening protocol for food insecurity worry and mental health co-occurrence",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:05.980442+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.928359,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in"
+    },
+    {
+      "rank": 2,
+      "score": 0.842914,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 3,
+      "score": 0.828665,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 4,
+      "score": 0.824962,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students."
+    },
+    {
+      "rank": 5,
+      "score": 0.822893,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    }
+  ]
+}

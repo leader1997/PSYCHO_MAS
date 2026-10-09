@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_18",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:53:57.605193+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_18",
+    "risk_interpretation": {
+      "probability": 0.0591,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given the predicted probability (0.0591) is significantly below the decision threshold (0.5), what clinical interpretation should be provided to confirm that this result indicates a low likelihood of elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting low prediction probability vs high decision threshold in mental health screening",
+        "expected_evidence": [
+          "Guidelines for interpreting probabilities far below the established clinical threshold.",
+          "Definition of 'low risk' in the context of depression/anxiety screening."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to interpret the core finding and contextualize the low probability relative to the required decision boundary, which is crucial for a low-risk report."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should the positive contribution of 'Institution size' (inst_size) be interpreted when the student profile indicates a low level, and this feature contributes positively to the model's risk prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "clinical interpretation of institutional size features contributing to screening risk in college students",
+        "expected_evidence": [
+          "Contextual guidelines for interpreting positive contributions from demographic/institutional factors.",
+          "Potential confounding variables related to institution size and mental health outcomes."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single major XAI contributor, ensuring its meaning is correctly contextualized in the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the clinical weight of multiple strong protective factors—specifically high 'Flourishing' and low 'Academic Impairment'—in mitigating screening risk, even when other minor features contribute positively?",
+        "linked_xai_factor": "flourish, aca_impa",
+        "retrieval_query": "clinical significance of multiple protective factors (e.g., flourishing, low academic impairment) in reducing depression/anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting the cumulative effect of strong positive mental health indicators.",
+          "Guidelines for prioritizing protective factors during expert review."
+        ],
+        "priority": "high",
+        "rationale": "Groups the two most impactful and clinically relevant protective factors to build a robust, evidence-based argument against elevated risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are general guidelines for incorporating diverse positive indicators (e.g., age, positive mental health status) into the expert report to support a low-risk assessment?",
+        "linked_xai_factor": "age, positiveMH",
+        "retrieval_query": "best practices for reporting multiple protective factors in non-diagnostic student screening reports",
+        "expected_evidence": [
+          "Examples of framing diverse protective factors (e.g., age, general well-being) without overstating their impact.",
+          "Recommendations for integrating demographic strengths into risk assessment narratives."
+        ],
+        "priority": "medium",
+        "rationale": "Ensures that the overall positive profile is communicated professionally and avoids redundancy with Q3."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of using machine learning models for screening student mental health, particularly regarding identifying subtle or emerging symptoms that may not be captured by current features?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of AI/ML models in non-diagnostic student depression anxiety screening",
+        "expected_evidence": [
+          "Discussion on model generalizability and feature limitations.",
+          "Best practices for acknowledging uncertainty in predictive risk scores."
+        ],
+        "priority": "high",
+        "rationale": "Crucial step to maintain scientific rigor by addressing the inherent limitations of the technology, regardless of calibration status."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What specific communication guidelines must be followed when discussing this low-risk screening result with the student to ensure they understand that the outcome is non-diagnostic and does not preclude future assessment?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for students receiving low risk mental health screening results",
+        "expected_evidence": [
+          "Scripts or talking points for communicating screening results without causing false reassurance.",
+          "Protocols for follow-up care planning after a negative screen."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question to guide the human interaction and prevent misinterpretation of the result by the student or referring party."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_18\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0591,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"Given the predicted probability (0.0591) is significantly below the decision threshold (0.5), what clinical interpretation should be provided to confirm that this result indicates a low likelihood of elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting low prediction probability vs high decision threshold in mental health screening\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting probabilities far below the established clinical threshold.\",\n        \"Definition of 'low risk' in the context of depression/anxiety screening.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to interpret the core finding and contextualize the low probability relative to the required decision boundary, which is crucial for a low-risk report.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should the positive contribution of 'Institution size' (inst_size) be interpreted when the student profile indicates a low level, and this feature contributes positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"clinical interpretation of institutional size features contributing to screening risk in college students\",\n      \"expected_evidence\": [\n        \"Contextual guidelines for interpreting positive contributions from demographic/institutional factors.\",\n        \"Potential confounding variables related to institution size and mental health outcomes.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single major XAI contributor, ensuring its meaning is correctly contextualized in the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the clinical weight of multiple strong protective factors—specifically high 'Flourishing' and low 'Academic Impairment'—in mitigating screening risk, even when other minor features contribute positively?\",\n      \"linked_xai_factor\": \"flourish, aca_impa\",\n      \"retrieval_query\": \"clinical significance of multiple protective factors (e.g., flourishing, low academic impairment) in reducing depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Evidence supporting the cumulative effect of strong positive mental health indicators.\",\n        \"Guidelines for prioritizing protective factors during expert review.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Groups the two most impactful and clinically relevant protective factors to build a robust, evidence-based argument against elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are general guidelines for incorporating diverse positive indicators (e.g., age, positive mental health status) into the expert report to support a low-risk assessment?\",\n      \"linked_xai_factor\": \"age, positiveMH\",\n      \"retrieval_query\": \"best practices for reporting multiple protective factors in non-diagnostic student screening reports\",\n      \"expected_evidence\": [\n        \"Examples of framing diverse protective factors (e.g., age, general well-being) without overstating their impact.\",\n        \"Recommendations for integrating demographic strengths into risk assessment narratives.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Ensures that the overall positive profile is communicated professionally and avoids redundancy with Q3.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of using machine learning models for screening student mental health, particularly regarding identifying subtle or emerging symptoms that may not be captured by current features?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of AI/ML models in non-diagnostic student depression anxiety screening\",\n      \"expected_evidence\": [\n        \"Discussion on model generalizability and feature limitations.\",\n        \"Best practices for acknowledging uncertainty in predictive risk scores.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial step to maintain scientific rigor by addressing the inherent limitations of the technology, regardless of calibration status.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What specific communication guidelines must be followed when discussing this low-risk screening result with the student to ensure they understand that the outcome is non-diagnostic and does not preclude future assessment?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for students receiving low risk mental health screening results\",\n      \"expected_evidence\": [\n        \"Scripts or talking points for communicating screening results without causing false reassurance.\",\n        \"Protocols for follow-up care planning after a negative screen.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question to guide the human interaction and prevent misinterpretation of the result by the student or referring party.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

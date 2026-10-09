@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_05",
+  "stratum": "borderline",
+  "qid": "Q2",
+  "question": "What specific clinical context or assessment tools are needed to better understand the contribution of 'Substance use' (sub_any), which is a high-impact feature contributing positively to the elevated screening risk?",
+  "retrieval_query": "clinical guidelines for assessing substance use impact on depression and anxiety screening in college students",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:03.536819+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.958813,
+      "chunk_id": "DOC_A001_p5_c2",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of depression, college students may participate in activities that could impact their well-being and could lead to substance abuse, self-"
+    },
+    {
+      "rank": 2,
+      "score": 0.953367,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 3,
+      "score": 0.949078,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 4,
+      "score": 0.911592,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students."
+    },
+    {
+      "rank": 5,
+      "score": 0.901794,
+      "chunk_id": "DOC_D002_p2_c2",
+      "doc_id": "DOC_D002",
+      "title": "[PDF] Depression and College Students - Counseling Center",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "Health Assessment (ACHA-NCHA)—a nationwide survey of college students at 2- and 4-year institutions— found that nearly 30 percent of college students reported feeling “so depressed that it was difficult to function” at some time in the past year. 2 Depression can affect your academic performance in college. 3 Studies suggest that college students who have depression are more likely to smoke. 4 Research suggests that students with depression do not necessarily drink alcohol more heavily than other college students. But students with depression, especially women, are more likely to drink to get drunk and experience problems related to alcohol abuse, such as engaging in unsafe sex. 5 It is not uncommon for students who have depression to self-medicate with street drugs. Depression is also a major risk factor for suicide. 6 Better diagnosis and treatment of depression can help reduce suicide rates among college students. In the Fall 2009 ACHA–NCHA survey, about 6 percent of college students reported seriously considering suicide, and about 1 percent reported attempting suicide in the previous year. 2 Suicide is the third leading cause of death for teens and young adults ages 15 to 24. 7 Students should also be aware that the warning signs can be different in men vs. women. 30 percent of college students reported feeling “so depressed that it was difficult to function”"
+    }
+  ]
+}

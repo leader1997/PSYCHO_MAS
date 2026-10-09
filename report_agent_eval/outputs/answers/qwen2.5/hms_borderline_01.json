@@ -1,0 +1,66 @@
+{
+  "model": "qwen2.5",
+  "case_id": "hms_borderline_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Given the prediction probability of 0.5001 is extremely close to the decision threshold of 0.5, near-threshold results should be interpreted with caution. In student mental health screening, such results indicate a borderline case where the individual may or may not meet clinical criteria for depression. Calibration confirming proximity suggests that these results are reliable but still require careful consideration. Clinicians should consider further assessment using tools like the PHQ-9 and possibly referral to counseling services to ensure accurate identification and appropriate support for students exhibiting near-threshold symptoms of depression.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:07:32.724774+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "The evidence suggests that reported loneliness is associated with elevated screening risk for depression among college students, even when protective factors such as perceived social support are present. Studies indicate that lower levels of perceived social support increase the likelihood of experiencing symptoms of depression (9), and that perceived social isolation (loneliness) can mediate this relationship by exacerbating depressive symptoms (18). However, not all individuals with low social support report high levels of loneliness, highlighting the importance of considering additional factors that may moderate these relationships.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:07:40.065495+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Current financial instability (fincur) contributes to elevated screening risk by increasing stress levels among students, potentially leading to social, emotional, and behavioral difficulties. Evidence suggests that financial strain can negatively impact well-being and academic performance, making fincur a significant contributor to mental health challenges in the student population. To mitigate this stressor, schools should implement universal mental health screenings that include questions about life satisfaction, social determinants of mental health, and adverse early life experiences. Additionally, providing timely referrals to cost-effective services such as individual and group outpatient mental health support can help address these issues before they escalate.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:07:47.707467+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "High 'Flourishing' scores (flourish) can serve as a strong protective factor by enhancing overall well-being and providing emotional and instrumental support, which may mitigate elevated screening risk among college students. Emphasizing this protective factor to expert reviewers should highlight its role in buffering against stressors and promoting resilience, thereby supporting the development of comprehensive intervention strategies that integrate social support mechanisms.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:07:54.191240+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Positive mental health appears to act as a buffer against other stressors such as loneliness and financial strain among first-year university students, as evidenced by studies showing that modifiable psychosocial factors at entry are associated with better mental health outcomes at the end of the year (Context 1). Additionally, social support has been linked to positive mental health outcomes through providing stable roles and positive experiences, which may mitigate the impact of stressors (Context 4). However, more research is needed to fully understand the mechanisms underlying these relationships.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:01.498502+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When discussing elevated screening risk with a student and an expert team, it is important to maintain empathy while ensuring professional boundaries. Communicate openly about the purpose of the screening process, emphasizing its proactive nature in identifying needs before they escalate. Provide clear, transparent information about the screening tool used, including how confidentiality will be maintained and that participation is voluntary. Encourage students and families to ask questions and express concerns, fostering a supportive environment where mental health discussions are normalized. Ensure that follow-up support mechanisms are in place for those identified as needing further assistance, aligning with a multi-tiered system of supports approach.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:08.958996+00:00"
+    }
+  }
+}

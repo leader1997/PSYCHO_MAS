@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_19",
+  "model": "qwen2.5",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:56:37.974967+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_19",
+    "risk_interpretation": {
+      "probability": 0.9628,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.9628 in relation to the decision threshold of 0.5 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near or above a decision threshold",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Risk assessment frameworks"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the correct understanding of the elevated risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the model's prediction that academic impairment (aca_impa) is a major contributor to this student's elevated screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic performance on mental health",
+        "expected_evidence": [
+          "Research studies",
+          "Surveys"
+        ],
+        "priority": "high",
+        "rationale": "To validate the significance of this feature in predicting elevated risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence to support the model's prediction that loneliness (lonely) is a contributing factor to this student's elevated screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Impact of loneliness on mental health outcomes",
+        "expected_evidence": [
+          "Research studies",
+          "Surveys"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of loneliness in predicting elevated risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factors, such as institutional type (inst_type) and institution size (inst_size), can we use to support this student's overall mental health status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Impact of institutional environment on student well-being",
+        "expected_evidence": [
+          "Research studies",
+          "Surveys"
+        ],
+        "priority": "medium",
+        "rationale": "To highlight the positive influence of these factors."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we address the model's calibration status, which is calibrated but near the threshold, in our support report?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting calibrated models with near-threshold predictions",
+        "expected_evidence": [
+          "Model calibration guidelines",
+          "Risk assessment frameworks"
+        ],
+        "priority": "medium",
+        "rationale": "To provide context for the uncertainty in the prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the importance of non-diagnostic support to this student and their family, given the elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health risks without diagnostic language",
+        "expected_evidence": [
+          "Guidelines",
+          "Best practice documents"
+        ],
+        "priority": "high",
+        "rationale": "To ensure appropriate support and avoid unnecessary alarm."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What expert considerations should be taken into account when formulating a support plan for this student, given the identified risk factors?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Expert considerations in mental health screening and intervention planning",
+        "expected_evidence": [
+          "Clinical guidelines",
+          "Best practice documents"
+        ],
+        "priority": "high",
+        "rationale": "To ensure a comprehensive and evidence-based support plan."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_19\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9628,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.9628 in relation to the decision threshold of 0.5 for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near or above a decision threshold\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Risk assessment frameworks\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the correct understanding of the elevated risk level.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the model's prediction that academic impairment (aca_impa) is a major contributor to this student's elevated screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic performance on mental health\",\n      \"expected_evidence\": [\"Research studies\", \"Surveys\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To validate the significance of this feature in predicting elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence to support the model's prediction that loneliness (lonely) is a contributing factor to this student's elevated screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"Impact of loneliness on mental health outcomes\",\n      \"expected_evidence\": [\"Research studies\", \"Surveys\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the role of loneliness in predicting elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factors, such as institutional type (inst_type) and institution size (inst_size), can we use to support this student's overall mental health status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Impact of institutional environment on student well-being\",\n      \"expected_evidence\": [\"Research studies\", \"Surveys\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To highlight the positive influence of these factors.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we address the model's calibration status, which is calibrated but near the threshold, in our support report?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting calibrated models with near-threshold predictions\",\n      \"expected_evidence\": [\"Model calibration guidelines\", \"Risk assessment frameworks\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide context for the uncertainty in the prediction.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the importance of non-diagnostic support to this student and their family, given the elevated screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health risks without diagnostic language\",\n      \"expected_evidence\": [\"Guidelines\", \"Best practice documents\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure appropriate support and avoid unnecessary alarm.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What expert considerations should be taken into account when formulating a support plan for this student, given the identified risk factors?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Expert considerations in mental health screening and intervention planning\",\n      \"expected_evidence\": [\"Clinical guidelines\", \"Best practice documents\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure a comprehensive and evidence-based support plan.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

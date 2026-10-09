@@ -1,0 +1,66 @@
+{
+  "card_type": "global_feature_importance",
+  "task": "depression_classification",
+  "top_features": [
+    {
+      "feature": "aca_impa",
+      "importance": 0.3,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "lonely",
+      "importance": 0.1691,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "flourish",
+      "importance": 0.1387,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "fincur",
+      "importance": 0.082,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "positiveMH",
+      "importance": 0.049,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "age",
+      "importance": 0.0326,
+      "agreement_score": 0.78,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "food_worry",
+      "importance": 0.0306,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "sleep_wknight",
+      "importance": 0.0295,
+      "agreement_score": 1.0,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "sub_any",
+      "importance": 0.0261,
+      "agreement_score": 0.78,
+      "agreement_level": "high"
+    },
+    {
+      "feature": "finpast",
+      "importance": 0.019,
+      "agreement_score": 0.56,
+      "agreement_level": "medium"
+    }
+  ]
+}

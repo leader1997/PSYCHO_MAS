@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_16",
+  "stratum": "low",
+  "qid": "Q3",
+  "question": "How should minor increases in screening risk associated with 'Campus Belonging' (belong1/belong2) or 'Exercise Frequency' be contextualized when the overall model prediction is low, without suggesting a causal link?",
+  "retrieval_query": "contextualizing minor positive XAI contributions in low-risk screening reports",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:30.719065+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.823577,
+      "chunk_id": "DOC_G004_p5_c2",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "message framing effects, as shown in studies of middle-to-older-aged women considering mammography screening (Gallagher, Updegraff, Rothman, & Sims, 2011), middle-aged adults considering colorectal cancer screening (Ferrer, Klein, Zajac, Land, & Ling, 2012), and young adults considering HIV-testing (Hull, 2012). Hull (2012) also showed that perceived susceptibility interacted with message framing to increase participants’ elaboration of the message, which mediated the effects of framing on intentions to get tested."
+    },
+    {
+      "rank": 2,
+      "score": 0.82126,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 3,
+      "score": 0.820953,
+      "chunk_id": "DOC_A007_p6_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few students and getting feedback or starting with a classroom or grade and then making corrections/adjustments to the process rather than starting the screening process with an entire school or district. Mental health screening, Mental health screening, planning, and implementationplanning, and implementation"
+    },
+    {
+      "rank": 4,
+      "score": 0.794411,
+      "chunk_id": "DOC_G004_p3_c2",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 3,
+      "category_code": "G_screening_communication",
+      "text": "to favorable versus unfavorable outcomes (Carver & White, 1994; Elliot & Thrash, 2002). Approach/avoidance theorists (Carver & White, 1994; Elliot & Thrash, 2002) view this disposition as the extent to which people are motivated to approach favorable outcomes (approach orientation) or avoid unfavorable outcomes (avoidance orientation). Regulatory focus theorists (Higgins, 1997) view this disposition as the extent to which people are sensitive to the presence or absence of positive events (promotion regulatory focus) or to the presence or absence of negative events (prevention"
+    },
+    {
+      "rank": 5,
+      "score": 0.766383,
+      "chunk_id": "DOC_G004_p5_c1",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "MESSAGE FRAMING FOR HEALTH 5 dominant in shaping their responses to health communications than their dispositional motivations. Perceived Susceptibility Perceived susceptibility is another key moderator of people’s responses to framed health messages. When people perceive themselves as susceptible to a health condition, they may be especially vigilant against possibility of negative health outcomes; in regulatory focus terms, they are prevention-focused concerning the health issue. In contrast, when people perceive low susceptibility to a health condition, they may be especially eager to achieve and maintain positive outcomes; they are promotion-focused concerning the health issue. This regulatory focus-based account (cf. Lee & Aaker, 2004) predicts that gain-framed messages should be more effective for those who perceive low susceptibility to a health problem, but loss-framed messages should be more effective for those who perceive high susceptibility. In a study that manipulated young adults’ perceptions of risk for mononucleosis, Lee and Aaker (2004) found that a gain-framed message promoted more interest in a preventive supplement against mononucleosis than a loss-framed message among people told that they were at low risk; in contrast, a loss-framed message promoted more interest for those told that they were at high risk. Naturally occurring beliefs about susceptibility likewise moderate message framing effects, as shown in studies of middle-to-older-aged women considering mammography screening (Gallagher, Updegraff, Rothman, & Sims, 2011), middle-aged adults considering colorectal cancer screening (Ferrer, Klein, Zajac, Land, & Ling, 2012), and young adults considering HIV-testing (Hull, 2012). Hull (2012) also showed that perceived susceptibility interacted with message framing to increase participants’ elaboration of the message, which mediated the"
+    }
+  ]
+}

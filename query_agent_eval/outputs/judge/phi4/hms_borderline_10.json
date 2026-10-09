@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_10",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:49:48.221074+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is comprehensive, well-aligned with the model’s XAI contributors, and fully tailored to the borderline risk scenario. All questions are clear, non-redundant, and grounded in scientific knowledge, ensuring they will provide actionable insights for expert support while maintaining strict safety and non-diagnostic framing."
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_07",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:24:46.252348+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_07",
+    "risk_interpretation": {
+      "probability": 0.0544,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate communication strategy for a student with an elevated depression/anxiety screening risk score that falls significantly below the established decision threshold, ensuring non-diagnostic language and avoiding false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating low screening risk scores in mental health settings",
+        "expected_evidence": [
+          "Guidelines on interpreting negative screening results",
+          "Non-diagnostic language guidelines for student support staff"
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for low-risk cases to guide safe, non-alarming communication and manage expectations regarding the screening tool's limitations."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do high levels of protective factors (e.g., Flourishing, Age, Financial Stability) generally mitigate or counteract the predictive weight of minor risk-increasing features in depression/anxiety screening models?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Impact of resilience and protective factors on mental health screening outcomes",
+        "expected_evidence": [
+          "Literature review detailing the buffering effect of Flourishing scores",
+          "Clinical guidelines on utilizing protective factor data in risk assessment"
+        ],
+        "priority": "high",
+        "rationale": "The case has multiple strong protective contributors (Flourish, Age, Fincur). This question validates their clinical significance and how they stabilize the low-risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical interpretation of a moderate contribution from 'Campus belonging' (belong1) as an increased screening risk feature, especially when other protective factors are present?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Clinical significance of campus belonging scores in student mental health risk assessment",
+        "expected_evidence": [
+          "Contextual guidelines for interpreting 'Campus belonging' features",
+          "Relationship between sense of community and screening outcomes"
+        ],
+        "priority": "medium",
+        "rationale": "Covers a specific, moderate-level XAI contributor. It helps the expert understand if this minor risk factor warrants attention despite the low overall score."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How do institutional characteristics, such as 'Institution size' and 'Public institution' status, contribute to the model's prediction of elevated depression/anxiety screening risk in a general population context?",
+        "linked_xai_factor": "inst_size, inst_public",
+        "retrieval_query": "Systemic factors (institution size, public status) and mental health vulnerability among students",
+        "expected_evidence": [
+          "Research linking institutional environment to student stress levels",
+          "Interpretation guidelines for demographic/institutional features in screening models"
+        ],
+        "priority": "medium",
+        "rationale": "Covers the remaining major XAI contributors (institutional factors). This provides context on whether these structural variables are generally associated with risk or if their contribution is minor here."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of predictive models when the calculated probability falls far from the decision threshold, and how should this uncertainty be communicated to an expert reviewer?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Model calibration and interpretation guidelines for low-probability predictions",
+        "expected_evidence": [
+          "Statistical limitations of predictive modeling far from the threshold",
+          "Best practices for communicating model uncertainty in clinical settings"
+        ],
+        "priority": "high",
+        "rationale": "Crucial for any screening tool. Since 0.0544 is very low relative to 0.5, addressing the model's certainty (or lack thereof) is vital."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "Given a low screening risk score but identified minor contributing factors, what routine follow-up support considerations should be provided to maintain vigilance without escalating concern?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Routine mental health check-ins and proactive student support strategies for low-risk individuals",
+        "expected_evidence": [
+          "Recommendations for preventative campus wellness programs",
+          "Protocols for longitudinal monitoring of students with stable screening scores"
+        ],
+        "priority": "medium",
+        "rationale": "Guides the expert on actionable, non-crisis support steps appropriate for a low-risk profile."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_07\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0544,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate communication strategy for a student with an elevated depression/anxiety screening risk score that falls significantly below the established decision threshold, ensuring non-diagnostic language and avoiding false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating low screening risk scores in mental health settings\",\n      \"expected_evidence\": [\n        \"Guidelines on interpreting negative screening results\",\n        \"Non-diagnostic language guidelines for student support staff\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for low-risk cases to guide safe, non-alarming communication and manage expectations regarding the screening tool's limitations.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do high levels of protective factors (e.g., Flourishing, Age, Financial Stability) generally mitigate or counteract the predictive weight of minor risk-increasing features in depression/anxiety screening models?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Impact of resilience and protective factors on mental health screening outcomes\",\n      \"expected_evidence\": [\n        \"Literature review detailing the buffering effect of Flourishing scores\",\n        \"Clinical guidelines on utilizing protective factor data in risk assessment\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case has multiple strong protective contributors (Flourish, Age, Fincur). This question validates their clinical significance and how they stabilize the low-risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical interpretation of a moderate contribution from 'Campus belonging' (belong1) as an increased screening risk feature, especially when other protective factors are present?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Clinical significance of campus belonging scores in student mental health risk assessment\",\n      \"expected_evidence\": [\n        \"Contextual guidelines for interpreting 'Campus belonging' features\",\n        \"Relationship between sense of community and screening outcomes\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Covers a specific, moderate-level XAI contributor. It helps the expert understand if this minor risk factor warrants attention despite the low overall score.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How do institutional characteristics, such as 'Institution size' and 'Public institution' status, contribute to the model's prediction of elevated depression/anxiety screening risk in a general population context?\",\n      \"linked_xai_factor\": \"inst_size, inst_public\",\n      \"retrieval_query\": \"Systemic factors (institution size, public status) and mental health vulnerability among students\",\n      \"expected_evidence\": [\n        \"Research linking institutional environment to student stress levels\",\n        \"Interpretation guidelines for demographic/institutional features in screening models\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Covers the remaining major XAI contributors (institutional factors). This provides context on whether these structural variables are generally associated with risk or if their contribution is minor here.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of predictive models when the calculated probability falls far from the decision threshold, and how should this uncertainty be communicated to an expert reviewer?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Model calibration and interpretation guidelines for low-probability predictions\",\n      \"expected_evidence\": [\n        \"Statistical limitations of predictive modeling far from the threshold\",\n        \"Best practices for communicating model uncertainty in clinical settings\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for any screening tool. Since 0.0544 is very low relative to 0.5, addressing the model's certainty (or lack thereof) is vital.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given a low screening risk score but identified minor contributing factors, what routine follow-up support considerations should be provided to maintain vigilance without escalating concern?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Routine mental health check-ins and proactive student support strategies for low-risk individuals\",\n      \"expected_evidence\": [\n        \"Recommendations for preventative campus wellness programs\",\n        \"Protocols for longitudinal monitoring of students with stable screening scores\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Guides the expert on actionable, non-crisis support steps appropriate for a low-risk profile.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

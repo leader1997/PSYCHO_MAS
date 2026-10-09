@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_01",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:17:44.276657+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant. It covers the major XAI contributors (financial situation, loneliness, campus belonging, binge drinking) and protective factor flourishing, though it omits a question on age which has a small contribution. All questions are answerable via scientific literature, support expert reporting, adapt to the borderline risk probability, and maintain safety by avoiding diagnostic or treatment language."
+}

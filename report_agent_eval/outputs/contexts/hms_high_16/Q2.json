@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_16",
+  "stratum": "high",
+  "qid": "Q2",
+  "question": "How do academic impairment (aca_impa) features contribute to elevated depression/anxiety screening risk, and what is the current literature on the relationship between academic stress and mental health outcomes in students?",
+  "retrieval_query": "Relationship between academic impairment and student anxiety/depression screening risk",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:26.301431+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.872228,
+      "chunk_id": "DOC_D004_p1_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 149 THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH STRESS, ANXIETY, AND DEPRESSION DURING THE COVID-19 PANDEMIC IN STUDENTS OF THE MEDICAL STUDY PROGRAM, FACULTY OF MEDICINE, UNDIP Melania Tiara Cahyaratri1*, Fanti Saktini2, Hang Gunawan Asikin3, Tanjung Ayu Sumekar4 1Undergraduate Program, Faculty of Medicine, Universitas Diponegoro, Semarang, Indonesia 2Department of Histology, Faculty of Medicine, Universitas Diponegoro, Semarang, Indonesia 3Department of Psychiatry, Faculty of Medicine, Universitas Diponegoro, Semarang, Indonesia 4Department of Physiology, Faculty of Medicine, Universitas Diponegoro, Semarang, Indonesia *Corresponding Author : Email : melania1113@gmail.com ABSTRACT Background: Academic procrastination is defined as a learner's tendency to delay learning -related activities, which in many cases eventually causes anxiety and stress. Studying at home tends to cause a feeling of having a lot of free time, eventually postponing work. Students who often procrastinate tend to experience anxiety and depression more often than students who do not procrastinate. Aim: To prove the relationship between academic procrastination and stress, anxiety, and depression due to the COVID -19 pandemic. Methods: This research was a cross -sectional study with 184 respondents. The research was conducted in November 2021. The respondents were UNDIP medical students batch 2020. The questionnaires used were the Procrastination Academic Scale for Student (PASS) and Depressio n, Anxiety, Stress Scale-21 (DASS-21). Data were taken from the questionnaire after the respondents agreed to the informed consent and were analyzed using the Spearman correlation test. Results: As many as 70,1% of"
+    },
+    {
+      "rank": 2,
+      "score": 0.863281,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 3,
+      "score": 0.860244,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial."
+    },
+    {
+      "rank": 4,
+      "score": 0.8491,
+      "chunk_id": "DOC_D003_p4_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "4 competitive, public university. We surveyed a random sample of approximately 2,800 undergraduate and graduate students abou t a range of mental health issues in fall 2005, and we conducted a follow-up survey with a subset of the sample in fall 2007. In this paper we focus on thre e of the most common types of mental disorders among adolescents and young adu lts: depression, anxiety disorders, and eating disorders. We link the survey data on mental health to academic measures collected from the university’s administrative records. This is the first study, to our knowledge, that examines how mental health predicts GPA and dropping out in a random sample of college students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, even after controlling for symptoms of anxiety and eating disorders, prior academic performance, and other cova riates. Depression also appears to interact with anxiety; the association between depression and academic outcomes is particularly strong among students who also have a positive screen for an anxiety disorder. Among the symptoms of depression, the strongest negative predictor of academic performance is anhe donia (lack of pleasure and interest in usual activities). By contrast, negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with"
+    },
+    {
+      "rank": 5,
+      "score": 0.822778,
+      "chunk_id": "DOC_D004_p1_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "research was conducted in November 2021. The respondents were UNDIP medical students batch 2020. The questionnaires used were the Procrastination Academic Scale for Student (PASS) and Depressio n, Anxiety, Stress Scale-21 (DASS-21). Data were taken from the questionnaire after the respondents agreed to the informed consent and were analyzed using the Spearman correlation test. Results: As many as 70,1% of respondents were female. Almost 50% of st udents have a high level of procrastination. A total of 21.7% of students experienced severe to very severe stress, 55.4% experienced severe to very severe anxiety, and as many as 50.4% experienced severe to very severe depression. The level of academic pr ocrastination was positively correlated with stress levels (r=0.468, p<0.001), anxiety levels (r=0.468, p<0.001), and depression levels (r=0.401, p<0.001). Conclusion: Academic procrastination with stress, anxiety, and depression during the COVID -19 pandem ic has a significant relationship with a moderate positive correlation. Keywords: Procrastination ; Stress ; Anxiety ; Depression ; COVID-19 Pandemic. INTRODUCTION Corona Virus Disease 2019 (COVID -19) caused by SARS -CoV-2 was first detected in Wuhan, China in December 2020. Until early 2021, more than 100 million people have been reported to have contracted COVID -19, resulting in the deaths of more than 2 million people around the world. Indonesia is one of the top 20 countries with the most cases to dat e.1 Medical students are also affected by these regulations. Direct learning activities, basic clinical skills, and PBL (Problem Based Learning) had to be carried out via the internet (long-distance learning).2 Academic procrastination is a learner's tendency"
+    }
+  ]
+}

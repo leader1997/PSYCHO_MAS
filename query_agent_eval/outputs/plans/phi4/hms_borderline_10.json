@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_borderline_10",
+  "model": "phi4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:48:40.657066+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_10",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "borderline",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of borderline prediction probabilities in mental health screenings",
+        "expected_evidence": [
+          "interpretation of borderline predictions",
+          "decision-making under uncertainty"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a near-threshold probability is crucial for accurate risk interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate this?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "impact of loneliness on mental health risks and mitigation strategies",
+        "expected_evidence": [
+          "effects of loneliness on mental health",
+          "interventions for reducing loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is a major contributor to the model's prediction, necessitating targeted support considerations."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does food insecurity worry play in increasing depression/anxiety screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "effects of food insecurity on mental health risks",
+        "expected_evidence": [
+          "relationship between food insecurity and mental health",
+          "strategies to address food insecurity"
+        ],
+        "priority": "high",
+        "rationale": "Food insecurity worry is a high-level contributor, indicating significant impact on risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does the current financial situation act as a protective factor against elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stability as a protective factor in mental health",
+        "expected_evidence": [
+          "impact of financial stability on mental well-being",
+          "support mechanisms for financial security"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding the protective role of current financial situation can guide support strategies."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations and uncertainties associated with using CatBoost for predicting depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of CatBoost in mental health predictions",
+        "expected_evidence": [
+          "model limitations",
+          "uncertainty quantification in machine learning"
+        ],
+        "priority": "medium",
+        "rationale": "Awareness of model limitations is essential for contextualizing the prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should elevated depression/anxiety screening risk be communicated to ensure non-diagnostic understanding?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating mental health screening results",
+        "expected_evidence": [
+          "guidelines for non-diagnostic communication",
+          "effective communication strategies in mental health"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear, non-diagnostic communication is critical to avoid misinterpretation."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What expert support considerations are recommended for students with borderline elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "support strategies for borderline mental health risks in students",
+        "expected_evidence": [
+          "interventions for borderline cases",
+          "expert recommendations for student support"
+        ],
+        "priority": "medium",
+        "rationale": "Guiding expert review with tailored considerations is necessary for effective intervention."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_10\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5012,\n    \"threshold\": 0.5,\n    \"risk_level\": \"borderline\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of borderline prediction probabilities in mental health screenings\",\n      \"expected_evidence\": [\n        \"interpretation of borderline predictions\",\n        \"decision-making under uncertainty\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a near-threshold probability is crucial for accurate risk interpretation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate this?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"impact of loneliness on mental health risks and mitigation strategies\",\n      \"expected_evidence\": [\n        \"effects of loneliness on mental health\",\n        \"interventions for reducing loneliness\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is a major contributor to the model's prediction, necessitating targeted support considerations.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does food insecurity worry play in increasing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"effects of food insecurity on mental health risks\",\n      \"expected_evidence\": [\n        \"relationship between food insecurity and mental health\",\n        \"strategies to address food insecurity\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food insecurity worry is a high-level contributor, indicating significant impact on risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the current financial situation act as a protective factor against elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stability as a protective factor in mental health\",\n      \"expected_evidence\": [\n        \"impact of financial stability on mental well-being\",\n        \"support mechanisms for financial security\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding the protective role of current financial situation can guide support strategies.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations and uncertainties associated with using CatBoost for predicting depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of CatBoost in mental health predictions\",\n      \"expected_evidence\": [\n        \"model limitations\",\n        \"uncertainty quantification in machine learning\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Awareness of model limitations is essential for contextualizing the prediction.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should elevated depression/anxiety screening risk be communicated to ensure non-diagnostic understanding?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating mental health screening results\",\n      \"expected_evidence\": [\n        \"guidelines for non-diagnostic communication\",\n        \"effective communication strategies in mental health\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear, non-diagnostic communication is critical to avoid misinterpretation.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What expert support considerations are recommended for students with borderline elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"support strategies for borderline mental health risks in students\",\n      \"expected_evidence\": [\n        \"interventions for borderline cases\",\n        \"expert recommendations for student support\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Guiding expert review with tailored considerations is necessary for effective intervention.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

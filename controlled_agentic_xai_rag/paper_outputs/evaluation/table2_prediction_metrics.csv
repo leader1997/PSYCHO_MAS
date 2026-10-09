@@ -1,0 +1,2 @@
+source,model,auc,accuracy,f1,brier,pr_auc
+phase1_artifact,CatBoost,0.852,0.7718,0.7524,0.1569,0.8248

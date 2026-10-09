@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_14",
+  "stratum": "high",
+  "qid": "Q6",
+  "question": "What non-diagnostic language and communication strategies must be used when discussing elevated screening risk with a student or expert, ensuring that the report does not imply a definitive diagnosis or predict future outcomes?",
+  "retrieval_query": "non-diagnostic communication guidelines mental health screening results",
+  "question_type": "safety_communication",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:09.120340+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.909345,
+      "chunk_id": "DOC_G001_p1_c3",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety, monitoring and supervision. The multicentre GET.FEEDBACK.GP RCT is the first trial in primary care that tests the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening. Its results have the potential to influence future depression guidelines and will be disseminated in scientific as well as patient- friendly language. Trial registration number NCT03988985. INTRODUCTION Major depression is one of the most disabling disorders worldwide and affects one out of ten individuals over their lifetime.1 2 However, major depression is under- recognised, diag- nosed incorrectly and thus often remains untreated.3 4 In turn, undetected depression Strengths and limitations of this study ► GET.FEEDBACK.GP is an extension of the DEPSCREEN- INFO trial, which indicated that pro- viding direct feedback to patients after depression screening reduces depression severity in cardiac patients. ► GET.FEEDBACK.GP is the first multicentre three- arm randomised controlled trial to test the efficacy of patient- targeted feedback as an adjunct to depres- sion screening in primary care. ► The novel feedback intervention is open- source, de- veloped for busy primary care settings and adapted to general practitioners’ and patients’ needs and preferences. ► As depression screening is feasible for primary care, no feasibility study for the feedback"
+    },
+    {
+      "rank": 2,
+      "score": 0.905225,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    },
+    {
+      "rank": 3,
+      "score": 0.864854,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 4,
+      "score": 0.838928,
+      "chunk_id": "DOC_A007_p2_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "2 School Mental Health Quality Guide: School Mental Health Screening is part of a collection of resources developed by the National Center for School Mental Health (NCSMH) at the University of Maryland School of Medicine for The SHAPE System. The Quality Guides provide guidance to help school mental health systems advance the quality of their services and supports. This guide contains background information on school mental health screening, best practices, possible action steps, examples from the field, and resources. Recommended APA reference National Center for School Mental Health (NCSMH, 2020). School Mental Health Quality Guide: Screening. NCSMH, University of Maryland School of Medicine. The National Center for School Mental Health at the University of Maryland School of Medicine is funded by the U.S. Department of Health and Human Services, Maternal and Child Health Bureau to advance school mental health programs and policies to promote success for America’s youth."
+    },
+    {
+      "rank": 5,
+      "score": 0.836754,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    }
+  ]
+}

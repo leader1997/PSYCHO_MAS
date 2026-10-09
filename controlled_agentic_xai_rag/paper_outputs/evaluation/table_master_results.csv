@@ -1,0 +1,25 @@
+component,metric,value
+Prediction (CatBoost),AUC,0.852
+Prediction (CatBoost),F1,0.7524
+Knowledge base,Documents,44.0
+Knowledge base,Chunks,5740.0
+Retrieval (bm25),precision@5,0.032
+Retrieval (bm25),recall@5,0.0045
+Retrieval (bm25),recall@10,0.0097
+Retrieval (bm25),hit@5,0.14
+Retrieval (bm25),hit@10,0.29
+Retrieval (bm25),mrr,0.0919
+Retrieval (bm25),ndcg@10,0.0367
+Retrieval (hybrid_faiss),precision@5,0.06
+Retrieval (hybrid_faiss),recall@5,0.0077
+Retrieval (hybrid_faiss),recall@10,0.015
+Retrieval (hybrid_faiss),hit@5,0.23
+Retrieval (hybrid_faiss),hit@10,0.32
+Retrieval (hybrid_faiss),mrr,0.1236
+Retrieval (hybrid_faiss),ndcg@10,0.0569
+Query planning,Mean report questions,1.0
+Query planning,Mean XAI coverage,1.0
+Report quality,Safety pass rate,1.0
+Report quality,XAI alignment pass rate,1.0
+Report quality,Question coverage,0.0
+Report quality,Mean citations,4.0

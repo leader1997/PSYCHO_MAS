@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_04",
+  "generator_model": "mistral-small",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T21:23:03.657397+00:00",
+  "parsed_ok": false,
+  "error": "empty_or_invalid_plan",
+  "scores": {
+    "relevance": null,
+    "xai_alignment": null,
+    "kdb_answerability": null,
+    "report_usefulness": null,
+    "probability_adaptation": null,
+    "safety": null,
+    "clarity": null,
+    "non_redundancy": null
+  },
+  "overall_comment": ""
+}

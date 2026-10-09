@@ -1,0 +1,4 @@
+Metric,Rate (%),n
+Safety pass,100.0,2
+XAI alignment pass,100.0,2
+Schema-valid reports,100.0,2

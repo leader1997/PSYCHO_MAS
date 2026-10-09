@@ -1,0 +1,129 @@
+{
+  "case_id": "hms_borderline_01",
+  "model": "mistral",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:08:40.662441+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_01",
+    "risk_interpretation": {
+      "probability": 0.5001,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a screening risk probability of 0.5001 for depression and anxiety?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening risk probability",
+        "expected_evidence": [
+          "interpretation of 0.5001 screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'fincur' (current financial situation) to the model prediction?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "'fincur' evidence for depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for fincur contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'lonely' (loneliness) to the model prediction?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "'lonely' evidence for depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for lonely contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'age' to the model prediction?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "'age' evidence for depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for age contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'belong1' (campus belonging) to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "'belong1' evidence for depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for belong1 contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of 'flourish' on depression and anxiety screening?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "'flourish' evidence for protection in depression and anxiety screening",
+        "expected_evidence": [
+          "evidence for flourish protective effect"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the uncertainty or limitations associated with the 'CatBoost' model used for depression and anxiety screening?",
+        "linked_xai_factor": null,
+        "retrieval_query": "'CatBoost' model uncertainty and limitations",
+        "expected_evidence": [
+          "uncertainties and limitations of CatBoost"
+        ],
+        "priority": "medium",
+        "rationale": "To provide context for the case."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "What are the safety considerations when communicating elevated screening risk to students?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for student communication of elevated depression and anxiety screening risk",
+        "expected_evidence": [
+          "safety considerations for student communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_borderline_01\",\n     \"risk_interpretation\": {\n       \"probability\": 0.5001,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"borderline\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a screening risk probability of 0.5001 for depression and anxiety?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening risk probability\",\n         \"expected_evidence\": [\"interpretation of 0.5001 screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the case.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'fincur' (current financial situation) to the model prediction?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"'fincur' evidence for depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for fincur contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'lonely' (loneliness) to the model prediction?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"'lonely' evidence for depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for lonely contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'age' to the model prediction?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"'age' evidence for depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for age contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'belong1' (campus belonging) to the model prediction?\",\n         \"linked_xai_factor\": \"belong1\",\n         \"retrieval_query\": \"'belong1' evidence for depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for belong1 contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of 'flourish' on depression and anxiety screening?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"'flourish' evidence for protection in depression and anxiety screening\",\n         \"expected_evidence\": [\"evidence for flourish protective effect\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"uncertainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with the 'CatBoost' model used for depression and anxiety screening?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"'CatBoost' model uncertainty and limitations\",\n         \"expected_evidence\": [\"uncertainties and limitations of CatBoost\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To provide context for the case.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are the safety considerations when communicating elevated screening risk to students?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for student communication of elevated depression and anxiety screening risk\",\n         \"expected_evidence\": [\"safety considerations for student communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

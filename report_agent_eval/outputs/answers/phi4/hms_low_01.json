@@ -1,0 +1,66 @@
+{
+  "model": "phi4",
+  "case_id": "hms_low_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "low",
+      "answer": "For a student with a low screening risk (0.05 probability) for depression, communication should emphasize that while their current assessment indicates a low likelihood of depression, mental health can fluctuate over time. It is important to encourage them to remain vigilant about any changes in mood or behavior and to seek support if they notice concerning symptoms. Reinforce the availability of resources such as counseling services at the college health center for ongoing support and reassurance that help is accessible should their needs change. This approach ensures students are informed without receiving false reassurance, aligning with proactive mental health strategies highlighted in the contexts provided.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:09:22.675890+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "The provided contexts do not offer direct evidence on how high levels of flourishing or strong academic impairment status correlate with reduced screening risk for depression and anxiety in college students. Contexts primarily discuss the association between mental health symptoms (depression, anxiety) and negative academic outcomes such as lower GPA and decreased well-being. They highlight that positive screens for depressive and anxiety symptoms are linked to poorer academic performance and increased functional impairment. However, there is no specific mention of flourishing or strong academic impairment status in relation to reduced screening risk for these mental health issues. Therefore, based on the available evidence, it cannot be concluded how these factors correlate with reduced screening risk for depression and anxiety. For further insights into this relationship, additional research would be necessary.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:09:44.333402+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "low",
+      "answer": "The provided contexts do not explicitly address the association between attending a public institution and elevated depression/anxiety screening risk among college students. However, Context 3 highlights that university students face numerous stressors related to financing studies, making new friends, and living away from home, which can contribute to mental health challenges during this high-risk period of emergent adulthood. It also notes the increasing rates of common mental disorders in both student and non-student populations aged 18–22 years globally. While these factors are relevant to college students generally, there is no specific evidence linking public institution attendance with elevated depression/anxiety screening risk compared to other types of institutions. For more precise insights, further research focusing on the differences between public and private institutions would be necessary. If concerns about mental health arise, referral to qualified support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:10:07.614167+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "The relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults is not directly addressed in the provided contexts. However, it can be inferred that financial stability may contribute to better mental health outcomes by reducing stressors related to financing studies, making new friends, and living away from home—factors known to impact university students' mental health (Context 1). Financial stability could potentially mitigate some of these stressors, thereby contributing to lower levels of anxiety and depression. Nonetheless, the contexts emphasize that while financial factors are significant, they are part of a broader set of modifiable psychosocial and lifestyle factors influencing mental health outcomes in young adults. For comprehensive understanding or intervention strategies, further research would be necessary to establish specific causal relationships between financial stability and mental health risks. If elevated risk is identified, referral to qualified support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:10:32.621409+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "low",
+      "answer": "The screening model's limitations in predicting risk far below the established decision threshold, such as a 0.05 probability, are primarily related to its reliance on psychometric properties that may not capture subtle variations in depression symptoms effectively. The PHQ-9, which is often used for depression screening, has been critiqued when analyzed through Classical Test Theory (CTT) due to potential inaccuracies and lack of consideration for item heterogeneity. Item Response Theory (IRT), however, offers a more robust approach by accounting for individual differences in latent traits and item difficulty, potentially improving the validity of low-probability predictions. Despite these advancements with IRT, there is limited evidence on its application specifically at very low probability thresholds like 0.05, suggesting that caution should be exercised when interpreting such results. Additionally, the model's effectiveness may vary across culturally diverse settings, which could further impact its predictive accuracy for individuals with minimal risk indicators. For students identified as having a very low probability of depression, referral to qualified support services is recommended if any concerns arise during screening.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:11:00.831028+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "stratum": "low",
+      "answer": "When interpreting a low screening risk score using tools like the PHQ-9 among university students, experts should consider contextual factors such as academic stress and social support systems. The PHQ-9's psychometric properties have been evaluated primarily through classical test theory (CTT), which may not account for item heterogeneity or cultural differences, potentially affecting the accuracy of low scores. Item response theory (IRT) offers a more nuanced approach by considering latent traits and item difficulty independently of sample characteristics, thus providing a richer understanding of each item's performance. This is particularly relevant in culturally diverse settings where academic stressors and varying levels of social support can influence mental health outcomes. Therefore, while interpreting low scores, it is important to consider these contextual factors alongside the psychometric properties of the screening tool used. If elevated risk or concerns persist despite a low score, referral to qualified support services may be warranted.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:11:25.763004+00:00"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "hms_high_12",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:11:32.638169+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_12",
+    "risk_interpretation": {
+      "probability": 0.9664,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the elevated screening risk for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of elevated screening risk in student profiles",
+        "expected_evidence": [
+          "Explanation of elevated screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of academic impairment (aca_impa) to the model prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment's impact on depression/anxiety screening risk",
+        "expected_evidence": [
+          "Research studies, case studies, or expert opinions supporting the link between academic impairment and depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind the significant contributor to the model prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of flourishing (flourish) to the model prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for flourishing's impact on depression/anxiety screening risk",
+        "expected_evidence": [
+          "Research studies, case studies, or expert opinions supporting the link between flourishing and depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the moderate contributor to the model prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) against depression/anxiety screening risk?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep's protective role in depression/anxiety screening risk",
+        "expected_evidence": [
+          "Research studies, case studies, or expert opinions supporting the link between good sleep and reduced depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind the protective factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the uncertainty or limitations associated with the CatBoost model used in this prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainty and limitations of the CatBoost model for depression/anxiety screening risk prediction",
+        "expected_evidence": [
+          "Information about the model's accuracy, bias, or other limitations"
+        ],
+        "priority": "medium",
+        "rationale": "To provide context on the model's reliability."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources should be considered when communicating these findings to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and communication strategies for discussing depression/anxiety screening risk with students",
+        "expected_evidence": [
+          "Best practices for discussing mental health risks with students"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and effective communication."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What additional considerations should be taken into account when providing expert support for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Considerations for providing expert support to students with elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Best practices for supporting students with mental health concerns"
+        ],
+        "priority": "high",
+        "rationale": "To ensure comprehensive and effective support."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_12\",\n     \"risk_interpretation\": {\n       \"probability\": 0.9664,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the elevated screening risk for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of elevated screening risk in student profiles\",\n         \"expected_evidence\": [\"Explanation of elevated screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide a clear understanding of the risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of academic impairment (aca_impa) to the model prediction?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment's impact on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Research studies, case studies, or expert opinions supporting the link between academic impairment and depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind the significant contributor to the model prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of flourishing (flourish) to the model prediction?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for flourishing's impact on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Research studies, case studies, or expert opinions supporting the link between flourishing and depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the moderate contributor to the model prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) against depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep's protective role in depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Research studies, case studies, or expert opinions supporting the link between good sleep and reduced depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind the protective factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"uncertainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with the CatBoost model used in this prediction?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Uncertainty and limitations of the CatBoost model for depression/anxiety screening risk prediction\",\n         \"expected_evidence\": [\"Information about the model's accuracy, bias, or other limitations\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To provide context on the model's reliability.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources should be considered when communicating these findings to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and communication strategies for discussing depression/anxiety screening risk with students\",\n         \"expected_evidence\": [\"Best practices for discussing mental health risks with students\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and effective communication.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"expert_support_consideration\",\n         \"question\": \"What additional considerations should be taken into account when providing expert support for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Considerations for providing expert support to students with elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Best practices for supporting students with mental health concerns\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure comprehensive and effective support.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

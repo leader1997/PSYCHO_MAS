@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_18",
+  "model": "phi4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T09:00:50.352416+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_18",
+    "risk_interpretation": {
+      "probability": 0.9631,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.9631 for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of high prediction probability in non-diagnostic depression/anxiety screening",
+        "expected_evidence": [
+          "interpretation of high probabilities in screening contexts",
+          "guidelines on handling high-risk predictions"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a high risk score is crucial for appropriate expert review."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does academic impairment contribute to elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "impact of academic impairment on student mental health",
+        "expected_evidence": [
+          "research on academic performance and mental health correlation",
+          "case studies or reports linking academic struggles with anxiety/depression"
+        ],
+        "priority": "high",
+        "rationale": "Academic impairment is a major contributor to the risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does loneliness play in increasing depression/anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "effects of loneliness on mental health in students",
+        "expected_evidence": [
+          "studies linking loneliness to anxiety and depression",
+          "psychological theories explaining the impact of social isolation"
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is a significant factor contributing to the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does campus belonging influence depression/anxiety screening risk?",
+        "linked_xai_factor": "belong2",
+        "retrieval_query": "influence of campus belonging on student mental health",
+        "expected_evidence": [
+          "literature on the importance of social integration in educational settings",
+          "data showing correlation between belonging and reduced anxiety/depression"
+        ],
+        "priority": "medium",
+        "rationale": "Campus belonging is a high-level contributor to risk prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What protective effects does food insecurity worry have on depression/anxiety screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "role of food insecurity in mental health outcomes",
+        "expected_evidence": [
+          "studies showing the impact of financial concerns on mental well-being",
+          "reports on protective factors against anxiety and depression"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding protective factors can provide a balanced view of risk."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should elevated screening risks be communicated to ensure non-diagnostic understanding?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screening results",
+        "expected_evidence": [
+          "guidelines on conveying high-risk screening outcomes without causing alarm",
+          "communication strategies in educational settings"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring safe and clear communication is essential to prevent misinterpretation."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What considerations should experts review when addressing elevated depression/anxiety screening risks?",
+        "linked_xai_factor": null,
+        "retrieval_query": "considerations for expert intervention in high-risk mental health screenings",
+        "expected_evidence": [
+          "protocols for follow-up actions on high-risk mental health predictions",
+          "expert recommendations for supporting students with elevated risk"
+        ],
+        "priority": "high",
+        "rationale": "Guiding experts on how to handle high-risk cases is crucial for effective support."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_18\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9631,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.9631 for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of high prediction probability in non-diagnostic depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"interpretation of high probabilities in screening contexts\",\n        \"guidelines on handling high-risk predictions\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a high risk score is crucial for appropriate expert review.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does academic impairment contribute to elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"impact of academic impairment on student mental health\",\n      \"expected_evidence\": [\n        \"research on academic performance and mental health correlation\",\n        \"case studies or reports linking academic struggles with anxiety/depression\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Academic impairment is a major contributor to the risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does loneliness play in increasing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"effects of loneliness on mental health in students\",\n      \"expected_evidence\": [\n        \"studies linking loneliness to anxiety and depression\",\n        \"psychological theories explaining the impact of social isolation\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is a significant factor contributing to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does campus belonging influence depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"belong2\",\n      \"retrieval_query\": \"influence of campus belonging on student mental health\",\n      \"expected_evidence\": [\n        \"literature on the importance of social integration in educational settings\",\n        \"data showing correlation between belonging and reduced anxiety/depression\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Campus belonging is a high-level contributor to risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective effects does food insecurity worry have on depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"role of food insecurity in mental health outcomes\",\n      \"expected_evidence\": [\n        \"studies showing the impact of financial concerns on mental well-being\",\n        \"reports on protective factors against anxiety and depression\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding protective factors can provide a balanced view of risk.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should elevated screening risks be communicated to ensure non-diagnostic understanding?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screening results\",\n      \"expected_evidence\": [\n        \"guidelines on conveying high-risk screening outcomes without causing alarm\",\n        \"communication strategies in educational settings\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring safe and clear communication is essential to prevent misinterpretation.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What considerations should experts review when addressing elevated depression/anxiety screening risks?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"considerations for expert intervention in high-risk mental health screenings\",\n      \"expected_evidence\": [\n        \"protocols for follow-up actions on high-risk mental health predictions\",\n        \"expert recommendations for supporting students with elevated risk\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Guiding experts on how to handle high-risk cases is crucial for effective support.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

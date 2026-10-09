@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScreeningReport",
+  "type": "object",
+  "required": [
+    "case_id",
+    "screening_summary",
+    "probability_interpretation",
+    "xai_explanation",
+    "evidence_grounded_interpretation",
+    "non_clinical_recommendation",
+    "limitations",
+    "citations",
+    "safety_status"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "screening_summary": { "type": "string" },
+    "contributor_analysis": { "type": "string" },
+    "probability_interpretation": { "type": "string" },
+    "xai_explanation": { "type": "string" },
+    "evidence_grounded_interpretation": { "type": "string" },
+    "actionable_recommendations": { "type": "string" },
+    "non_clinical_recommendation": { "type": "string" },
+    "protective_factors_note": { "type": "string" },
+    "limitations": { "type": "string" },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chunk_id", "claim_text"],
+        "properties": {
+          "chunk_id": { "type": "string" },
+          "claim_text": { "type": "string" }
+        }
+      }
+    },
+    "safety_status": { "type": "string" },
+    "ollama_model": { "type": "string" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_09",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:39:10.749658+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant. It covers the main XAI contributors and protective factors, though it omits a few minor contributors such as sleep_wknight, inst_size, and inst_public, which slightly lowers full alignment with all model features. All questions are answerable via scientific literature and support an expert-facing report while maintaining safety by avoiding diagnostic or treatment language."
+}

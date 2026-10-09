@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_high_01",
+  "arm": "template",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "answer": "The provided evidence outlines a specific screening protocol for college students, suggesting that individuals who screen positive for depression should undergo further evaluation. Specifically, after utilizing a preliminary screening tool like the PHQ-2, the established process involves further evaluation using the PHQ-9. Following this assessment, the recommended step is the possible referral of the student to counseling services. While the context does not provide general clinical guidelines for interpreting a specific high probability score, it emphasizes that early identification and proper management are critical, as depression can negatively impact academic endeavors and overall quality of life. For any elevated screening risk, referral to qualified mental health support is the necessary next step.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "The provided literature confirms that mental health issues, particularly depression, are associated with negative academic outcomes for young adults. Specifically, the context notes that mental health affects important outcomes such as academic performance and retention, and that college students with depression can impede academic endeavors. However, the retrieved evidence does not contain specific scientific literature linking academic impairment directly to an elevated screening risk for depression or anxiety. The available information establishes that depression negatively impacts academic life, but it does not detail the inverse relationship between academic difficulty and the likelihood of needing mental health screening.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "Based on the retrieved evidence, there is no information provided regarding how food insecurity worry contributes to elevated screening risk for depression or anxiety. Furthermore, the context does not recommend specific psychoeducational resources related to this topic. The provided materials focus on general screening methods for depression in college students, such as utilizing the Patient Health Questionnaire-2 (PHQ-2) and subsequent evaluation with the PHQ-9, and recommend referral to counseling services for those who screen positive.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain information detailing protective mechanisms specifically associated with institutional type or age. While the context notes that approximately 75% of participating institutions in the National College Health Assessment were public universities, this data is descriptive and does not establish institutional type as a protective factor. Similarly, while the literature discusses college students and young adults, it does not identify age as a protective mechanism. To provide a balanced view of resilience, the evidence does mention that strong start-of-semester feelings of community were predicted to lead to less loneliness mid-semester, suggesting that community connection is a relevant protective factor. Therefore, the specific protective roles of institutional type and age cannot be addressed using the retrieved materials.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided evidence does not contain any information regarding the known limitations of machine learning models, such as CatBoost, when applied to complex human behavioral data. Consequently, there is no context available to advise on how these specific technical limitations should be communicated within an expert psychological report.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "answer": "The provided evidence identifies that mental health concerns, including depression, are associated with increased risk of injury and possible suicide. When screening suggests elevated risk, the recommended protocol involves utilizing tools like the Patient Health Questionnaire-2 (PHQ-2) as a first step, followed by further evaluation using the PHQ-9. The evidence does not detail specific non-diagnostic communication strategies or immediate safety protocols for presenting this risk to a student or professional. However, the general guidance provided is that students who screen positive should be further evaluated and subsequently referred to counseling services.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_high_01"
+    }
+  },
+  "n_contexts": 5
+}

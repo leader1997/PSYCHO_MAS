@@ -1,0 +1,71 @@
+{
+  "case_id": "hms_low_10",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.984392,
+      "chunk_id": "DOC_A007_p2_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "2 School Mental Health Quality Guide: School Mental Health Screening is part of a collection of resources developed by the National Center for School Mental Health (NCSMH) at the University of Maryland School of Medicine for The SHAPE System. The Quality Guides provide guidance to help school mental health systems advance the quality of their services and supports. This guide contains background information on school mental health screening, best practices, possible action steps, examples from the field, and resources. Recommended APA reference National Center for School Mental Health (NCSMH, 2020). School Mental Health Quality Guide: Screening. NCSMH, University of Maryland School of Medicine. The National Center for School Mental Health at the University of Maryland School of Medicine is funded by the U.S. Department of Health and Human Services, Maternal and Child Health Bureau to advance school mental health programs and policies to promote success for America’s youth.",
+      "query_qid": "Q4",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.951011,
+      "chunk_id": "DOC_B003_p2_c3",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "screening for, and assessing the severity of GAD symptoms in both clinical and research con- texts [22]. Conducted on a large primary care sample, the first validation study of GAD-7 found good reliability, as well as criterion, construct, factorial, and procedural validity. Subse- quently, the psychometric properties of GAD-7 have been evaluated in different sample of patients, including other primary care samples [23, 24], psychiatric patients [25–27], people with addiction [28], pregnant woman [29, 30], and outpatients [29–31]. GAD-7 has also shown strong psychometric properties in different populations, such as general adults [32], elderly [33, 34] as well as people from different culture and countries [35–39]. In academic set- ting, validation was performed among Korean university students [40], Portuguese college stu- dents [41] and Saudi university male students [42]. In the context of Bangladesh, GAD-7 has been widely used in various studies as a screening tool for anxiety symptoms among adults and university students [11–13]. Moreover, Faisal et al. (2021) explored the psychometric properties of the Bengali version of the GAD-7; however, the main focus of the paper was to assess the impact of the COVID-19 pandemic on anxiety, depressive symptoms and mental health status of university students [14]. Thus, a detailed assessment of factorial validity of GAD-7 focusing on Bangladeshi students has not been carried out yet. Regardless of adequate internal consistency and moderate to strong correlation with other comorbid disorders (depression, worry, etc.), findings regarding the factor structure of GAD-7 have not been consistent [43, 44]. Some studies showed a unidimensional factor structure [37, 41, 45–47]; which aligns",
+      "query_qid": "Q3",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.92515,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93",
+      "query_qid": "P6",
+      "retrieval_query": "college student depression anxiety screening interpretation non-diagnostic",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.895819,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few",
+      "query_qid": "Q1",
+      "pool_rank": 4
+    },
+    {
+      "rank": 2,
+      "score": 0.886036,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of",
+      "query_qid": "P6",
+      "retrieval_query": "college student depression anxiety screening interpretation non-diagnostic",
+      "pool_rank": 5
+    }
+  ]
+}

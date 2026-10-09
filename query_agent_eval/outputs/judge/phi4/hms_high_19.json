@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_19",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T09:05:16.770044+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant. It effectively covers the major XAI contributors and protective factors, though it omits some lower‑contribution features such as flourishing and current financial situation, which slightly reduces full alignment with all model contributors. All questions are answerable via scientific literature, support expert reporting, adapt to high risk probability, and maintain strict safety by avoiding diagnostic or causal language."
+}

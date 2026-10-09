@@ -1,0 +1,17 @@
+{
+  "card_type": "model_performance",
+  "model": "Extra Trees",
+  "family": "ML",
+  "metrics": {
+    "auc": 0.8482,
+    "accuracy": 0.7679,
+    "f1": 0.7474,
+    "macro_f1": 0.7664,
+    "recall": 0.7644,
+    "pr_auc": 0.8188,
+    "brier": 0.1583
+  },
+  "stability_score": 0.9311,
+  "calibration_score": 0.8417,
+  "model_weight": 0.6006
+}

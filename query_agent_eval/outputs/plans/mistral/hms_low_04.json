@@ -1,0 +1,93 @@
+{
+  "case_id": "hms_low_04",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:35:16.465711+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_04",
+    "risk_interpretation": {
+      "probability": 0.0515,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the model's prediction probability for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of prediction probability in depression and anxiety screening for a given value",
+        "expected_evidence": [
+          "interpretation of 0.0515"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the student's risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'belong1', 'belong2', and 'inst_size' to the model prediction?",
+        "linked_xai_factor": "belong1, belong2, inst_size",
+        "retrieval_query": "Evidence for the contribution of belonging factors and institution size in depression and anxiety screening models",
+        "expected_evidence": [
+          "evidence supporting the contribution of 'belong1', 'belong2', and 'inst_size'"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of these features on the model prediction"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of 'aca_impa', 'age', 'flourish', 'lonely', and 'positiveMH' in this student's case?",
+        "linked_xai_factor": "aca_impa, age, flourish, lonely, positiveMH",
+        "retrieval_query": "Evidence for the protective role of academic impairment, age, flourishing, loneliness, and positive mental health in depression and anxiety screening models",
+        "expected_evidence": [
+          "evidence supporting the protective role of 'aca_impa', 'age', 'flourish', 'lonely', and 'positiveMH'"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of these features on the model prediction"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the uncertainty or limitations associated with this model's prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainty and limitations of the depression and anxiety screening model for a given case",
+        "expected_evidence": [
+          "uncertainty or limitations associated with the model's prediction"
+        ],
+        "priority": "medium",
+        "rationale": "To provide context for the model's prediction"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources are available to support this student, given their current risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for students with low depression and anxiety screening risk",
+        "expected_evidence": [
+          "safety measures or resources for students with low depression and anxiety screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student's safety and well-being"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_04\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0515,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the model's prediction probability for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of prediction probability in depression and anxiety screening for a given value\",\n         \"expected_evidence\": [\"interpretation of 0.0515\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the student's risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'belong1', 'belong2', and 'inst_size' to the model prediction?\",\n         \"linked_xai_factor\": \"belong1, belong2, inst_size\",\n         \"retrieval_query\": \"Evidence for the contribution of belonging factors and institution size in depression and anxiety screening models\",\n         \"expected_evidence\": [\"evidence supporting the contribution of 'belong1', 'belong2', and 'inst_size'\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of these features on the model prediction\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of 'aca_impa', 'age', 'flourish', 'lonely', and 'positiveMH' in this student's case?\",\n         \"linked_xai_factor\": \"aca_impa, age, flourish, lonely, positiveMH\",\n         \"retrieval_query\": \"Evidence for the protective role of academic impairment, age, flourishing, loneliness, and positive mental health in depression and anxiety screening models\",\n         \"expected_evidence\": [\"evidence supporting the protective role of 'aca_impa', 'age', 'flourish', 'lonely', and 'positiveMH'\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of these features on the model prediction\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"uncertainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with this model's prediction for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Uncertainty and limitations of the depression and anxiety screening model for a given case\",\n         \"expected_evidence\": [\"uncertainty or limitations associated with the model's prediction\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To provide context for the model's prediction\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources are available to support this student, given their current risk level?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for students with low depression and anxiety screening risk\",\n         \"expected_evidence\": [\"safety measures or resources for students with low depression and anxiety screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the student's safety and well-being\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

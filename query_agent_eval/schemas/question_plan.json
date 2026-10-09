@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuestionPlan",
+  "type": "object",
+  "required": ["case_id", "risk_interpretation", "question_plan", "self_check", "ready_for_retrieval"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "risk_interpretation": {
+      "type": "object",
+      "required": ["probability", "threshold", "risk_level", "planning_strategy"],
+      "properties": {
+        "probability": { "type": "number" },
+        "threshold": { "type": "number" },
+        "risk_level": { "type": "string" },
+        "planning_strategy": {
+          "type": "string",
+          "enum": ["high_risk", "borderline", "low_risk"]
+        }
+      }
+    },
+    "question_plan": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "question_type",
+          "question",
+          "retrieval_query",
+          "expected_evidence",
+          "priority",
+          "rationale"
+        ],
+        "properties": {
+          "question_id": { "type": "string" },
+          "question_type": {
+            "type": "string",
+            "enum": [
+              "risk_interpretation",
+              "xai_contributor_evidence",
+              "protective_factor",
+              "uncertainty_limitation",
+              "safety_communication",
+              "expert_support_consideration"
+            ]
+          },
+          "question": { "type": "string" },
+          "linked_xai_factor": { "type": ["string", "null"] },
+          "retrieval_query": { "type": "string" },
+          "expected_evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "rationale": { "type": "string" }
+        }
+      }
+    },
+    "self_check": {
+      "type": "object",
+      "properties": {
+        "risk_interpretation_included": { "type": "boolean" },
+        "all_major_xai_factors_covered": { "type": "boolean" },
+        "protective_factors_covered": { "type": "boolean" },
+        "uncertainty_or_limitation_included": { "type": "boolean" },
+        "safety_question_included": { "type": "boolean" },
+        "no_diagnostic_language": { "type": "boolean" },
+        "no_treatment_advice": { "type": "boolean" },
+        "no_causal_xai_language": { "type": "boolean" },
+        "non_redundant_questions": { "type": "boolean" }
+      }
+    },
+    "missing_information": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ready_for_retrieval": { "type": "boolean" }
+  }
+}

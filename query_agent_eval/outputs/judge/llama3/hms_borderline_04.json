@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_04",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:11:44.705853+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the student case and provides clear, safe inquiries that support an expert report. It covers key XAI contributors but omits some lower‑impact factors, slightly limiting full alignment. Overall, it offers high usefulness, clarity, and safety."
+}

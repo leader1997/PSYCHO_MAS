@@ -1,0 +1,66 @@
+{
+  "model": "llama3",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "Given the high prediction probability (0.9795), established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context emphasize the importance of early identification and referral to qualified support. In this context, it is recommended to utilize evidence-based screening tools, such as the Patient Health Questionnaire-2 (PHQ-2) or PHQ-9, to identify individuals at risk for depression or anxiety. A positive screening result should trigger further evaluation and potential referral to counseling services or mental health professionals.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:05:41.196418+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The current scientific literature suggests that academic impairment (aca_impa) is linked to elevated screening risk for depression and anxiety in young adults. Specifically, studies have found that mental health problems, particularly depression and co-occurring depression and anxiety, are significant predictors of lower grade point average (GPA) and higher probability of dropping out from college (Eisenberg et al., 2009). Additionally, symptoms of eating disorders and negative affect were also associated with lower GPA. These findings highlight the importance of considering mental health as a critical factor in understanding academic outcomes among young adults.\n\nReferences:\nEisenberg, D., Golberstein, E., & Hunt, J. (2009). Mental Health and Academic Success in College. B.E. Journal of Economic Analysis & Policy, 9(1), 1-24.\n\nNote: The answer is grounded in the provided evidence and does not invent facts or citations.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:05:50.270439+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity worry contributes to elevated screening risk for depression/anxiety by exacerbating emotional stress and mental health concerns, as evident in Contexts 2 and 3. The survey findings indicate that students experiencing basic needs insecurity, including food insecurity, are more likely to report clinically significant symptoms of anxiety and/or depression (44%). Furthermore, the link between student basic needs security and persistence is unequivocal, suggesting that unmet basic needs can hinder academic success and overall well-being.\n\nRecommended psychoeducational resources for addressing these concerns include:\n\n* Campus-based support services, such as food banks, housing assistance programs, and mental health counseling\n* Online resources and hotlines providing emotional support and financial guidance\n* Referral to qualified support services, such as counseling or case management, for students experiencing elevated risk factors\n\nIt is essential to acknowledge the intersectional nature of basic needs insecurity, recognizing that students from structurally marginalized identities (e.g., Black, Indigenous, LGBTQIA+, former foster youth) may face compounded challenges. By addressing these underlying concerns, we can work towards creating a more supportive and inclusive higher education environment.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:05:59.459444+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The retrieved evidence suggests that institutional type (inst_type) and age are associated with protective mechanisms that can be highlighted to provide a balanced view of student resilience. Specifically, the data indicates that:\n\n* Institutional type: School mental health screening can identify strengths and concerns specific to certain grades or classrooms, allowing for targeted supports and interventions.\n* Age: Research suggests that students who experience average to high levels of well-being also experience better current and long-term outcomes, including academic success.\n\nThese findings highlight the importance of considering both institutional and individual factors when assessing student resilience. By acknowledging these protective mechanisms, educators can develop a more comprehensive understanding of their students' strengths and needs, ultimately informing prevention and early intervention strategies that promote overall well-being.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:06:07.134951+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "When applied to complex human behavioral data, machine learning models like CatBoost may have limitations in capturing nuanced aspects of mental health, particularly when dealing with cultural and individual differences. These limitations can be attributed to the model's reliance on statistical patterns and potential biases in the training data.\n\nTo communicate these limitations effectively in an expert report, it is essential to highlight the importance of considering the context-specific factors that influence mental health outcomes. This includes acknowledging the role of cultural perspectives, socioeconomic status, and individual experiences in shaping mental health concerns.\n\nMoreover, when presenting findings based on machine learning models, it is crucial to emphasize the need for human judgment and expertise in interpreting results, particularly when dealing with sensitive topics like mental health. By acknowledging these limitations and emphasizing the importance of human oversight, experts can provide a more comprehensive understanding of the potential biases and limitations inherent in machine learning-based approaches.\n\nIn the context of depression screening, it is essential to recognize that machine learning models may not fully capture the complexities of depressive symptoms or suicidal ideation. Therefore, expert reports should emphasize the need for a multi-faceted approach that incorporates human judgment, clinical expertise, and cultural sensitivity when addressing mental health concerns in college students.\n\nIn terms of communication, experts can use clear and concise language to explain the limitations of machine learning models, highlighting the importance of considering contextual factors and acknowledging potential biases. By doing so, expert reports can provide a more comprehensive understanding of the strengths and limitations of machine learning-based approaches in complex human behavioral data.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:06:18.481539+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When presenting an elevated screening risk to a student or supervising professional, non-diagnostic communication strategies are essential. It is crucial to focus on the strengths-based approach, highlighting the student's resilience and potential for growth. Use \"student-centered\" language to emphasize their capacity for well-being and academic success.\n\nImmediate safety protocols require prompt referral to qualified support services when students endorse suicidal or homicidal ideation, exhibit risk-taking behaviors, or experience poor academic progress. Ensure timely referrals to school and community mental health services, and conduct further assessments immediately if a student poses a danger to themselves or others.\n\nIn addition, consider the following strategies:\n\n* Emphasize the importance of early identification and intervention in preventing long-term, intensive mental health care options.\n* Highlight the cost-effectiveness of universal school screening, which connects students and families to cost-effective services such as individual and group outpatient mental health services and support groups.\n* Foster a collaborative approach by involving students and families in informing the screening, planning, and implementation process.\n\nBy adopting these non-diagnostic communication strategies and immediate safety protocols, you can effectively address elevated screening risks while prioritizing student well-being and academic success.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:06:28.578415+00:00"
+    }
+  }
+}

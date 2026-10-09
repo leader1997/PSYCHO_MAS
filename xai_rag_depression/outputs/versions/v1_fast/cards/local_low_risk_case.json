@@ -1,0 +1,40 @@
+{
+  "card_type": "local_explanation",
+  "task": "depression_classification",
+  "case_id": "low_risk_case",
+  "predicted_probability": 0.05,
+  "predicted_class": "not elevated",
+  "explainer": "CatBoost TreeSHAP",
+  "top_contributing_factors": [
+    {
+      "feature": "aca_impa",
+      "level": "low",
+      "direction": "decreases risk",
+      "shap_value": -0.9604
+    },
+    {
+      "feature": "lonely",
+      "level": "low",
+      "direction": "decreases risk",
+      "shap_value": -0.4252
+    },
+    {
+      "feature": "flourish",
+      "level": "high",
+      "direction": "decreases risk",
+      "shap_value": -0.4198
+    },
+    {
+      "feature": "age",
+      "level": "high",
+      "direction": "decreases risk",
+      "shap_value": -0.3972
+    },
+    {
+      "feature": "fincur",
+      "level": "high",
+      "direction": "decreases risk",
+      "shap_value": -0.3004
+    }
+  ]
+}

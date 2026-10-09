@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_20",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T21:00:30.080811+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and safe for a low‑risk student case. It covers the major XAI contributors (though it omits a few minor ones such as exercise frequency and institution size), aligns well with scientific knowledge sources, and provides actionable guidance for expert review without diagnostic or treatment language."
+}

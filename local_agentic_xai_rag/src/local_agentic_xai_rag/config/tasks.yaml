@@ -1,0 +1,23 @@
+query_planning_task:
+  description: >
+    Given de-identified case, prediction probability, risk threshold, calibration status, and XAI card,
+    output safe case summary, internal questions, retrieval queries with focus keywords, and
+    recommendation objectives. Do not diagnose or generate the final report.
+  expected_output: Valid JSON query plan object.
+  agent: xai_aware_query_planning_agent
+
+evidence_verification_task:
+  description: >
+    Given structured case, XAI card, and retrieved chunks, verify evidence and output JSON with
+    supported_claims (linked to chunk IDs), unsupported_or_uncertain_points, and clinical_boundary.
+    Use association language only; never diagnose.
+  expected_output: Valid JSON evidence synthesis object.
+  agent: evidence_verification_synthesis_agent
+
+advisory_report_task:
+  description: >
+    Generate advisory screening report JSON for human review with screening_summary, model_explanation,
+    evidence_grounding, recommended_next_step, limitations, citations, safety_status.
+    Include non-diagnostic disclaimer.
+  expected_output: Valid JSON advisory report object.
+  agent: advisory_report_generation_agent

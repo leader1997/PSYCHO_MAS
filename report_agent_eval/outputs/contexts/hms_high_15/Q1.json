@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_15",
+  "stratum": "high",
+  "qid": "Q1",
+  "question": "Given the elevated screening risk (0.9647), what specific clinical guidelines or differential diagnostic considerations should be prioritized for expert review to ensure comprehensive assessment?",
+  "retrieval_query": "clinical guidelines for high-risk student depression and anxiety screening follow-up",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:11.245337+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.97183,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 2,
+      "score": 0.913875,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 3,
+      "score": 0.881982,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and"
+    },
+    {
+      "rank": 4,
+      "score": 0.87406,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 5,
+      "score": 0.861532,
+      "chunk_id": "DOC_A001_p7_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 7,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 7 Specific Aims The purpose of this Doctor of Nursing Practice (DNP) Project was to determine if the Patient Health Questionnaire-2 (PHQ-2) affects early identification of depression among college students. Search Methods A comprehensive literature search of electronic databases was conducted to identify existing, current literature regarding depression screening among college students. The following electronic databases were utilized: CINAHL, PubMed, ProQuest/Medline, ScienceDirect, Ovid, ProQuest Psychology Journals, and PsycARTICLES. Boolean search techniques were used to assist with the search methods, e.g., (depression AND college student) and (university student* OR college student* AND depressi* OR depressive symptom OR depressive disorder AND PHQ-2). Table A1 contains the literature search strategies (see Appendix A). Inclusion criteria were: (1) participants consisted of college or university students of any age; (2) studies included depression and depressive symptoms; (3) studies containing the depression screening tool called the Patient Health Questionnaire (PHQ); (4) studies published as peer-reviewed; (5) the setting of the studies consisted of a college, university, or primary healthcare setting; (6) studies that included depression screening via the electronic medical record (EMR). Exclusion criteria were: (1) non-college students as participants; (2) languages other than English were restricted; (3) studies before the year 2014 were restricted; (4) studies without reports of depression or depressive symptoms (5) studies whose full texts could not be found. Five (5) articles were requested from the FGCU Library ILLiad for full-text. The author of one (1) article was contacted via email to obtain the article in full-text. As listed in Table A2,"
+    }
+  ]
+}

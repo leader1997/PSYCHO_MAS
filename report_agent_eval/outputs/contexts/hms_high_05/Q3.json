@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_05",
+  "stratum": "high",
+  "qid": "Q3",
+  "question": "How does chronic loneliness contribute to elevated depression/anxiety screening risk in college students, and what are the associated psychological mechanisms?",
+  "retrieval_query": "loneliness impact on depression anxiety young adults mechanism",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:08.502426+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.967412,
+      "chunk_id": "DOC_F003_p1_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "across the academic term predicted higher depressive symptoms at the end of the term. Furthermore, these relationships held when models controlled for baseline depressive symptoms, sense of social fit, and other social factors (loneliness and frequency of social interactions). These results highlight the relationship between feelings of belonging and depressive symptoms over and above other social factors. This work underscores the importance of daily-assessed feelings of belonging in predicting subsequent depressive symptoms and has implications for early detection and mental health interventions among young adults. Keywords depression, social behavior, preregistered Received 5/28/21; Revision accepted 12/12/21"
+    },
+    {
+      "rank": 2,
+      "score": 0.95292,
+      "chunk_id": "DOC_F003_p2_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is associated with higher rates of depression, par - ticularly in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Initial cross-sectional work has also identified lack of belonging as a predictor of depressive symptoms (Parr et al., 2020). Many self-report assessments of depressive symptoms include questions that assess social functioning; for example, the Center for Epidemiological Studies-Depression (CES-D) scale asks participants to rate social-functioning statements such as “I talked less than usual,” “People were unfriendly,” “I felt that people dislike me,” and “I felt lonely” (Lewinsohn et al., 1997), suggesting that depres- sive symptoms overlap with social experiences as well. The relationship between social factors and depression in young adults specifically has important implications as well. College students often have access to mental health treatment on campus, but the majority with mood disorders do not seek treatment (Blanco et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health"
+    },
+    {
+      "rank": 3,
+      "score": 0.938712,
+      "chunk_id": "DOC_F003_p2_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Psychological Science 33(7) 1049 The Need to Belong and Mental Health Among Young Adults in College Over the past 10 years, there has been a significant increase in the prevalence of depression, anxiety, and suicide in young adults (Duffy et al., 2019; Twenge et al., 2019). Indeed, nearly 19% of first-year college students globally are diagnosed with depression each year (Auerbach et al., 2018), and research suggests that rates are rising more for younger birth cohorts (Kessler et al., 2005; Twenge, 2015). From the early 2000s to now, rates of major depressive episodes have nearly doubled in young adults between the ages of 18 and 25 years (Twenge et al., 2019). It is well known that stressful life events and health behaviors (e.g., sleep) play an important role in predicting increases in depres- sive symptomatology and psychological distress among young adults (Breslau et al., 1996; Kendler et al., 1999; Monroe et al., 1999). Adolescence and young adulthood are also a critical time for developing and maintaining social connections, particularly among first-year uni- versity students as they build their social networks and adjust to a new lifestyle away from home. Greater feel- ings of social connectedness are associated with greater well-being in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This"
+    },
+    {
+      "rank": 4,
+      "score": 0.877109,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 5,
+      "score": 0.84552,
+      "chunk_id": "DOC_F003_p2_c2",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This connec- tion to the university community is often referred to as “school belonging,” which is thought to be the extent to which students feel personally accepted, respected, included, and supported by others in the school social environment (Goodenow & Grady, 1993). Indeed, initial research into feelings of belonging in adolescents and young adults has begun to examine school belonging and the consequences of low feelings of belonging. This work has found that lack of belonging is both increasing in this population and associated with greater negative affect (Twenge et al., 2021) and worse self-reported mental health (Gopalan & Brady, 2020). On the other hand, higher levels of school belonging are also linked to better academic outcomes (Pittman & Richmond, 2007) and greater persistence in engineer - ing (Marra et al., 2012), which has influenced our understanding of the important role that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is"
+    }
+  ]
+}

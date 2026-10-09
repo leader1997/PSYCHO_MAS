@@ -1,0 +1,112 @@
+{
+  "case_id": "hms_high_18",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T20:01:10.219313+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_18",
+    "risk_interpretation": {
+      "probability": 0.9631,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the high prediction probability (0.9631) and 'elevated screening risk' label, what are evidence-based support considerations for expert review regarding immediate psychoeducational resources or follow-up assessment pathways?",
+        "linked_xai_factor": null,
+        "retrieval_query": "evidence-based support considerations for students with elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Recommended next steps after high-risk screening score.",
+          "Guidelines for expert review of acute student mental health indicators."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for a high-risk case to guide immediate, actionable support planning while maintaining non-diagnostic language."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical significance of 'Academic impairment' (aca_impa) being a major feature contributing to the model prediction, and what are best practices for assessing its impact on student mental health?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "relationship between academic impairment and depression/anxiety screening risk in college students",
+        "expected_evidence": [
+          "Literature linking academic stress or impairment to elevated screening risk.",
+          "Strategies for assessing the severity of academic impairment contextually."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single strongest positive contributor (1.1568) and requires clinical depth beyond simple correlation."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should social factors, specifically 'Loneliness' (lonely) and low 'Campus belonging' (belong2), be interpreted in the context of elevated screening risk, and what interventions target these specific deficits?",
+        "linked_xai_factor": "lonely, belong2",
+        "retrieval_query": "intervention strategies for loneliness and poor campus belonging related to mental health screening",
+        "expected_evidence": [
+          "Evidence linking social isolation/low belonging to depression/anxiety risk.",
+          "Effective psychoeducational interventions targeting community building."
+        ],
+        "priority": "high",
+        "rationale": "Covers two major contributing factors related to social determinants of health, crucial for contextualizing the risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the role of protective factors (e.g., low 'Food insecurity worry' or stable 'Institution type') in mitigating elevated screening risk, and how should these strengths be integrated into expert support considerations?",
+        "linked_xai_factor": "food_worry, inst_type",
+        "retrieval_query": "integrating protective factors into mental health risk assessment for students",
+        "expected_evidence": [
+          "Frameworks for identifying and leveraging student strengths.",
+          "How stable environmental factors buffer against psychological distress."
+        ],
+        "priority": "medium",
+        "rationale": "Mandatory inclusion of protective factors to ensure a balanced, strength-based report perspective."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations and sources of uncertainty for this specific machine learning model (CatBoost) when applied to student mental health screening, particularly regarding feature interaction or population generalization?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and applicability domain of ML models in student depression/anxiety screening",
+        "expected_evidence": [
+          "Model limitations (e.g., overfitting, specific demographic biases).",
+          "Guidelines for interpreting model uncertainty.",
+          "Need for clinical judgment over algorithmic output."
+        ],
+        "priority": "high",
+        "rationale": "Crucial step to temper the high-risk interpretation with necessary scientific caution and acknowledge model limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What is the standardized, non-diagnostic communication protocol for informing a student or guardian about an elevated screening risk score, ensuring appropriate safety planning without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication protocols for high mental health screening scores",
+        "expected_evidence": [
+          "Scripting or guidelines for sensitive disclosure of risk.",
+          "Emphasis on referral and follow-up rather than diagnosis."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question to ensure ethical, non-alarming communication practices are followed."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_18\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9631,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the high prediction probability (0.9631) and 'elevated screening risk' label, what are evidence-based support considerations for expert review regarding immediate psychoeducational resources or follow-up assessment pathways?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"evidence-based support considerations for students with elevated depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Recommended next steps after high-risk screening score.\",\n        \"Guidelines for expert review of acute student mental health indicators.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for a high-risk case to guide immediate, actionable support planning while maintaining non-diagnostic language.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical significance of 'Academic impairment' (aca_impa) being a major feature contributing to the model prediction, and what are best practices for assessing its impact on student mental health?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"relationship between academic impairment and depression/anxiety screening risk in college students\",\n      \"expected_evidence\": [\n        \"Literature linking academic stress or impairment to elevated screening risk.\",\n        \"Strategies for assessing the severity of academic impairment contextually.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single strongest positive contributor (1.1568) and requires clinical depth beyond simple correlation.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should social factors, specifically 'Loneliness' (lonely) and low 'Campus belonging' (belong2), be interpreted in the context of elevated screening risk, and what interventions target these specific deficits?\",\n      \"linked_xai_factor\": \"lonely, belong2\",\n      \"retrieval_query\": \"intervention strategies for loneliness and poor campus belonging related to mental health screening\",\n      \"expected_evidence\": [\n        \"Evidence linking social isolation/low belonging to depression/anxiety risk.\",\n        \"Effective psychoeducational interventions targeting community building.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Covers two major contributing factors related to social determinants of health, crucial for contextualizing the risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the role of protective factors (e.g., low 'Food insecurity worry' or stable 'Institution type') in mitigating elevated screening risk, and how should these strengths be integrated into expert support considerations?\",\n      \"linked_xai_factor\": \"food_worry, inst_type\",\n      \"retrieval_query\": \"integrating protective factors into mental health risk assessment for students\",\n      \"expected_evidence\": [\n        \"Frameworks for identifying and leveraging student strengths.\",\n        \"How stable environmental factors buffer against psychological distress.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Mandatory inclusion of protective factors to ensure a balanced, strength-based report perspective.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations and sources of uncertainty for this specific machine learning model (CatBoost) when applied to student mental health screening, particularly regarding feature interaction or population generalization?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and applicability domain of ML models in student depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Model limitations (e.g., overfitting, specific demographic biases).\",\n        \"Guidelines for interpreting model uncertainty.\",\n        \"Need for clinical judgment over algorithmic output.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial step to temper the high-risk interpretation with necessary scientific caution and acknowledge model limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the standardized, non-diagnostic communication protocol for informing a student or guardian about an elevated screening risk score, ensuring appropriate safety planning without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication protocols for high mental health screening scores\",\n      \"expected_evidence\": [\n        \"Scripting or guidelines for sensitive disclosure of risk.\",\n        \"Emphasis on referral and follow-up rather than diagnosis.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question to ensure ethical, non-alarming communication practices are followed.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

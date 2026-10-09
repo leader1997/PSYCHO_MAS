@@ -1,0 +1,95 @@
+{
+  "case_id": "hms_borderline_08",
+  "model": "llama3",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:17:56.906677+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_08",
+    "risk_interpretation": {
+      "probability": 0.5011,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the probability of elevated depression and anxiety screening risk based on this student's profile?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the student's risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the contribution of academic impairment to the model's prediction of elevated depression and anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "contribution",
+          "interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the features contributing to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the contribution of loneliness to the model's prediction of elevated depression and anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "contribution",
+          "interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the protective factors contributing to the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the calibration status of the model, and how does it impact the interpretation of this student's risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "calibration_status"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the limitations of the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What are some potential next steps for this student, and how can we ensure their safety and well-being?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "next_steps"
+        ],
+        "priority": "high",
+        "rationale": "To provide guidance on supporting the student's mental health."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_borderline_08\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5011,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the probability of elevated depression and anxiety screening risk based on this student's profile?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"probability\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide a clear understanding of the student's risk level.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the contribution of academic impairment to the model's prediction of elevated depression and anxiety screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"contribution\", \"interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the features contributing to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the contribution of loneliness to the model's prediction of elevated depression and anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"contribution\", \"interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the protective factors contributing to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What is the calibration status of the model, and how does it impact the interpretation of this student's risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"calibration_status\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the limitations of the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are some potential next steps for this student, and how can we ensure their safety and well-being?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"next_steps\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide guidance on supporting the student's mental health.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote that I have generated 5 questions, which is within the preferred range of 5 to 9 questions. The questions cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication."
+}

@@ -1,0 +1,61 @@
+project:
+  name: controlled_agentic_xai_rag
+  random_seed: 42
+
+paths:
+  knowledge_db_root: "../knowledge_db"
+  phase1_root: "../xai_rag_depression"
+  hms_csv: "../HMS_2024-2025_PUBLIC_instchars.csv"
+  inputs_dir: "data/inputs"
+  raw_pdfs: "data/raw_pdfs"
+  processed_chunks_csv: "data/processed_chunks.csv"
+  processed_chunks_jsonl: "data/processed_chunks.jsonl"
+  corpus_metadata_csv: "data/corpus_metadata.csv"
+  faiss_index: "data/faiss_index"
+  chroma_index: "data/chroma_index"
+  results_dir: "results"
+  figures_dir: "figures"
+  paper_outputs: "paper_outputs"
+  benchmarks_dir: "data/benchmarks"
+
+corpus:
+  chunk_target_tokens: 450
+  chunk_overlap_tokens: 75
+  min_chunk_chars: 120
+  chars_per_token: 4
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: llama3
+  # Chat models (llama3) cannot embed — use a dedicated embedding model for hybrid RAG.
+  embed_model: nomic-embed-text
+  request_timeout_seconds: 600
+  inter_call_delay_seconds: 0.25
+  stream: false
+  # Shown in UI when Ollama is offline
+  fallback_models:
+    - llama3
+    - llama3.1
+    - llama3.2
+    - mistral
+    - gemma2
+  embedding_models:
+    - nomic-embed-text
+    - mxbai-embed-large
+
+retrieval:
+  per_query_k: 6
+  top_k: 12
+  rrf_k: 60
+  embed_batch_size: 16
+  report_chunk_chars: 1200
+
+pipeline:
+  max_revision_attempts: 0
+  risk_threshold: 0.5
+  near_threshold_band: 0.1
+  use_query_planning_agent: true
+
+safety:
+  mandatory_disclaimer: "This is a model-based screening signal and not a clinical diagnosis."
+  elevated_risk_referral: "Consider speaking with a qualified counselor, mental-health professional, or student support service."

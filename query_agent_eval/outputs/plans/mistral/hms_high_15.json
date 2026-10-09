@@ -1,0 +1,105 @@
+{
+  "case_id": "hms_high_15",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:17:31.419598+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_15",
+    "risk_interpretation": {
+      "probability": 0.9647,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the 0.9647 probability for this student's elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Probability interpretation for elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Interpretation of 0.9647 probability"
+        ],
+        "priority": "high",
+        "rationale": "To understand the level of risk associated with this student's case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the 'Academic impairment' feature contributing to the model prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment in elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting 'Academic impairment' feature"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind the major contributor to the model prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the 'Food insecurity worry' feature contributing to the model prediction?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food insecurity worry in elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting 'Food insecurity worry' feature"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind another major contributor to the model prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the 'Institution type' feature as a protective factor in this case?",
+        "linked_xai_factor": "inst_type",
+        "retrieval_query": "Evidence for institution type as a protective factor in elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Evidence supporting 'Institution type' feature"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind the protective factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the uncertainty or limitations associated with this model's prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainty and limitations of the model for elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Uncertainty or limitations associated with the model"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the reliability and confidence in the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources should be considered when communicating with this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for communication in elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Safety measures or resources"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_15\",\n     \"risk_interpretation\": {\n       \"probability\": 0.9647,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the 0.9647 probability for this student's elevated screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Probability interpretation for elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Interpretation of 0.9647 probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the level of risk associated with this student's case.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the 'Academic impairment' feature contributing to the model prediction?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment in elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting 'Academic impairment' feature\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind the major contributor to the model prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the 'Food insecurity worry' feature contributing to the model prediction?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food insecurity worry in elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting 'Food insecurity worry' feature\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind another major contributor to the model prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the 'Institution type' feature as a protective factor in this case?\",\n         \"linked_xai_factor\": \"inst_type\",\n         \"retrieval_query\": \"Evidence for institution type as a protective factor in elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Evidence supporting 'Institution type' feature\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind the protective factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"uncertainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with this model's prediction for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Uncertainty and limitations of the model for elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Uncertainty or limitations associated with the model\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the reliability and confidence in the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources should be considered when communicating with this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for communication in elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Safety measures or resources\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

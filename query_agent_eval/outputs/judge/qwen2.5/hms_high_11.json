@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_11",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:41:15.212679+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and well-structured for the high-risk student case. It covers most of the key XAI contributors, though a few minor factors (e.g., flourish, fincur, lonely) are not explicitly queried, which slightly lowers full alignment. All questions can be answered using general scientific knowledge, support expert reporting, adapt to the high-risk strategy, and maintain safe, non-diagnostic language. The queries are clear, distinct, and collectively provide a comprehensive basis for contextual decision support."
+}

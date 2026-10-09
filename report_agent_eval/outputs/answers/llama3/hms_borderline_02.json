@@ -1,0 +1,66 @@
+{
+  "model": "llama3",
+  "case_id": "hms_borderline_02",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' screening result, especially when the model is calibrated?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), clinical guidelines for interpreting a 'borderline' screening result suggest considering the calibrated model's performance and the individual's symptoms. In this case, since the PHQ-9 has demonstrated adequate psychometric properties in university populations, including Colombia, it is essential to consider the item response theory (IRT) approach, which provides a richer description of the performance of each item and greater detail on the accuracy of the measure. This calibrated model can help identify individuals who may be at risk of depression or other mental health concerns. When interpreting borderline results, it is crucial to consider the individual's symptoms, medical history, and overall well-being. A referral to qualified support, such as counseling services, should be considered for those with elevated risk factors.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:46.421367+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are evidence-based strategies for addressing moderate levels of loneliness in college students, particularly when this feature is identified as a major contributor to elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "For addressing moderate levels of loneliness in college students, evidence-based strategies include:\n\nImplementing a multi-tiered approach to teach core social-emotional-behavioral skills and address mental health needs before they escalate. This can involve screening with follow-up support to detect and address student mental health problems early on.\n\nAdditionally, fostering strong start-of-semester feelings of community can predict less loneliness mid-semester, highlighting the importance of creating a sense of belonging among students.\n\nFurthermore, promoting perceived social support through social and community ties can have a protective effect on mental health outcomes. This can be achieved by encouraging students to engage in discourse about different ideas, experience increased academic stress, and form identity during this critical phase.\n\nIt is essential to note that loneliness is a subjective experience not entirely dependent on the number of social interactions. Therefore, it is crucial to understand and address the unique needs of each student.\n\nFor elevated risk, referral to qualified support services can be considered.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:55.705436+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How can existing protective factors, such as high exercise frequency and reported flourishing levels, be leveraged in initial support conversations to build resilience and mitigate screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "To leverage existing protective factors such as high exercise frequency and reported flourishing levels in initial support conversations to build resilience and mitigate screening risk, consider the following strategies:\n\nDrawing from Contexts 1 and 2, focus on identifying students' strengths and concerns specific to certain grades or classrooms. This can help provide equitable supports within a school and prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention.\n\nIn Context 3, screening measures that ask students about indicators of well-being and positive mental health, life satisfaction, school belonging, social determinants of mental health, and adverse early life experiences can help promote comprehensive school mental health strategies across all tiers. This multi-tiered approach can provide appropriate supports to more than just those students who present with the highest level of risk.\n\nContext 4 highlights the importance of understanding the many, multi-level factors that contribute to psychological discomfort. By acknowledging these factors and their interrelatedness, you can foster supportive campuses, strengthen community networks, and implement inclusive policies that promote mental health equity.\n\nFinally, Context 5 emphasizes the need for effective prevention strategies during the university years, when students are exposed to numerous stressors related to financing their studies, making new friends, and living away from home. By acknowledging these challenges and providing support, you can help mitigate screening risk and build resilience among students.\n\nIn summary, by focusing on identifying strengths and concerns specific to certain grades or classrooms, promoting comprehensive school mental health strategies across all tiers, understanding the interrelated factors that contribute to psychological discomfort, and acknowledging the need for effective prevention strategies during the university years, you can leverage existing protective factors to build resilience and mitigate screening risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:45:08.655669+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the differential risk assessment guidelines for high levels of binge drinking in conjunction with elevated depression/anxiety screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Based on the retrieved evidence, high levels of binge drinking in conjunction with elevated depression/anxiety screening risk warrant a differential risk assessment guideline that prioritizes immediate referral to qualified support services where relevant. Specifically, students who endorse suicidal or homicidal ideation, exhibit poor academic progress, or demonstrate a history of substance misuse should be further assessed immediately to ensure safety and receive timely referrals to school and community mental health services. Additionally, students experiencing average to high levels of well-being may benefit from proactive approaches to gathering valuable information about their mental health, including both strengths and symptoms, to inform prevention and early intervention strategies.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:45:15.898920+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are general support considerations for expert review when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "When reviewing mixed risk signals (high-risk features alongside strong protective factors) in students presenting with depression/anxiety screening, expert review should consider the following general support considerations:\n\nIn cases where students exhibit both high-risk features and strong protective factors, it is essential to prioritize a multi-tiered approach that addresses individual needs while also promoting comprehensive school mental health strategies across all tiers. This may involve providing classroom supports directly to the group, rather than focusing solely on individualized services. Additionally, screening data can help identify trends specific to certain grades or classrooms, allowing for targeted prevention and early intervention strategies.\n\nIt is crucial to recognize that students who experience average to high levels of well-being also tend to have better current and long-term outcomes, including academic success. Therefore, expert review should prioritize identifying students with highest well-being, which can be achieved by asking students about their social-emotional strengths in addition to psychological distress and functioning.\n\nIn cases where elevated risk signals are present, referral to qualified support services is essential.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:45:25.231735+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the recommended non-diagnostic language and communication strategy to use when discussing screening results with a student, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When discussing screening results with a student, it is recommended to use non-diagnostic language and communication strategies that prioritize empathy while maintaining professional boundaries. This can be achieved by focusing on the student's strengths and needs rather than their mental health status. For instance, instead of saying \"you have anxiety,\" say \"we've noticed some stress and anxiety indicators in your screening results, and we're here to support you in developing coping skills.\" Additionally, it is essential to involve students and families in the planning and implementation process, as this can help build trust and promote a sense of ownership over their mental health.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:45:32.498160+00:00"
+    }
+  }
+}

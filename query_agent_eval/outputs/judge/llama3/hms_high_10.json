@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_10",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:08:10.076542+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 3,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, useful for expert reporting, and well‑adapted to the high‑risk scenario. It covers key XAI contributors but omits several other significant features, limiting full alignment with all model explanations. The questions are generally clear and non‑redundant, though some could be more specific to avoid implicit causal language."
+}

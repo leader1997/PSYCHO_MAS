@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_14",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the elevated screening risk (0.965), what are the established clinical guidelines for initiating follow-up assessment or support considerations for expert review, specifically differentiating between immediate crisis intervention and routine psychoeducational resources?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A screening score of 0.965 is considered a high‑risk indicator that warrants an immediate safety assessment: the student should be evaluated promptly by a trained crisis team to determine any imminent danger to self or others, and if needed, connected to emergency mental‑health services (Context 1; Context 3). If no acute risk is identified but the score remains elevated, the student should be triaged to Tier 2 or Tier 3 supports within a multi‑tiered system—providing structured psychoeducational interventions such as coping skills training and targeted counseling (Context 1; Context 5). In all cases, referrals to school and community mental‑health resources must occur in a timely manner, with documentation of the number of students screened and referred for each domain (Context 1). This approach aligns with established guidelines that prioritize immediate crisis intervention for self‑harm risk while offering routine psychoeducational support for high‑risk but non‑immediate cases.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:54:59.838316+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking high academic impairment (aca_impa) to increased screening risk for depression and anxiety in college students, focusing on potential mechanisms of stress or distress?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Recent reviews and longitudinal studies consistently show that students with significant academic impairment—defined by low GPA, course failures, or dropout risk—have higher rates of depression and anxiety symptoms. A large university survey linked lower GPA to a greater likelihood of screening positive for depression even after controlling for prior performance and comorbid disorders; the association was strongest among those also meeting criteria for an anxiety disorder (Context 4). Scoping reviews that apply the Socio‑Ecological Model identify academic stress as a key individual‑level determinant of psychological distress, suggesting that demands from coursework, grading policies, and online learning environments contribute to depressive and anxious symptomatology (Contexts 2–3). Mechanistically, chronic academic strain may elevate perceived stress, erode motivation (anhedonia), and foster negative affect—factors that are established predictors of depression and anxiety in college populations (Context 1). Consequently, screening protocols that flag high academic impairment should consider the heightened risk for mood and anxiety disorders and incorporate brief assessments of stress and coping.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:56:39.811099+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do low levels of flourishing and high reports of loneliness contribute to elevated screening risk, particularly within the context of transitional periods like college?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Low levels of flourishing signal reduced overall well‑being, which research shows predicts poorer academic performance and long‑term outcomes even when psychological distress is similar (Context 1). High loneliness scores—defined as a UCLA‑3 score ≥6—are common among college students and are associated with physical and mental health problems that can undermine retention and completion rates (Contexts 2 & 4). In transitional periods such as the first semester, early loneliness predicts continued isolation, whereas strong perceived social support at entry mitigates this trajectory (Context 4). Consequently, students who report low flourishing or high loneliness represent a statistically higher risk group for adverse outcomes, warranting their inclusion in universal screening and timely referral to mental‑health supports (Contexts 1 & 5). No diagnosis is made; the focus remains on early identification.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:57:44.928028+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the established clinical value of protective factors such as stable institution type (inst_type) or adequate weeknight sleep (sleep_wknight) in mitigating elevated screening risk, and how should these be balanced against high-risk indicators?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence from a scoping review of college students shows that poor sleep is an individual‑level risk factor linked to higher rates of depression and anxiety, while adequate weeknight sleep is considered a modifiable protective lifestyle factor that can reduce the likelihood of positive screens (Context 2). Institutional factors such as heavy workloads or unwelcoming campus environments are also identified as contributors to distress; a stable, supportive institution type may therefore act as a contextual protective factor, although specific mitigation effects were not quantified in the reviewed studies. Screening protocols recommend assessing both strengths—like good sleep hygiene and a supportive institutional environment—and high‑risk indicators such as suicidal ideation or substance misuse; when high‑risk signals are present, immediate referral to qualified mental health services should take precedence over protective factors (Context 5). This balanced approach aligns with recommendations that early identification of risk and strengths can guide cost‑effective interventions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:59:14.323060+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of predictive screening models (e.g., CatBoost) when applied to student mental health, particularly regarding cultural specificity or longitudinal assessment needs?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Predictive models such as CatBoost depend on the data they are trained on; if that data comes from a single cross‑sectional screen they cannot capture how students’ mental‑health indicators evolve over time, limiting longitudinal assessment. The literature notes that screening is more acceptable across cultural groups, yet symptom expression can vary—students may mask depression with somatic complaints—so a model trained on one group may misclassify others. Because early identification is most effective when repeated and linked to timely referrals, models that do not incorporate ongoing data or triage pathways risk missing students who develop problems later. Finally, the evidence stresses piloting tools in small groups before scaling up; deploying a model without such phased implementation can fail to adapt to local cultural contexts.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:00:38.682287+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language and communication strategies must be used when discussing elevated screening risk with a student or expert, ensuring that the report does not imply a definitive diagnosis or predict future outcomes?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Use neutral, non‑diagnostic wording such as “positive screening result indicating elevated risk” rather than labeling a condition. Clarify that the screen is an initial step and does not constitute a formal diagnosis; it signals the need for further assessment or triage to higher‑tier services (as outlined in the defined process for assessing results). Emphasize that the purpose of sharing the result is to connect students with appropriate supports, not to predict future outcomes. Avoid prognostic language—focus instead on available resources and next steps, such as a follow‑up evaluation with a more comprehensive tool or referral to counseling services (e.g., PHQ‑9 after a positive PHQ‑2). If the screen flags risk of self‑harm or harm to others, respond immediately according to safety protocols and triage the student to urgent care.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:02:16.892202+00:00"
+    }
+  }
+}

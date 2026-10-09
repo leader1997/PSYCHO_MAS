@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_10",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "What are the known limitations of this specific machine learning model (CatBoost) regarding generalizability across different student populations, and how should these limitations be communicated to the expert?",
+  "retrieval_query": "model limitation communication guidelines for predictive screening tools",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:21.634001+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.865227,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 2,
+      "score": 0.864427,
+      "chunk_id": "DOC_G001_p1_c3",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety, monitoring and supervision. The multicentre GET.FEEDBACK.GP RCT is the first trial in primary care that tests the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening. Its results have the potential to influence future depression guidelines and will be disseminated in scientific as well as patient- friendly language. Trial registration number NCT03988985. INTRODUCTION Major depression is one of the most disabling disorders worldwide and affects one out of ten individuals over their lifetime.1 2 However, major depression is under- recognised, diag- nosed incorrectly and thus often remains untreated.3 4 In turn, undetected depression Strengths and limitations of this study ► GET.FEEDBACK.GP is an extension of the DEPSCREEN- INFO trial, which indicated that pro- viding direct feedback to patients after depression screening reduces depression severity in cardiac patients. ► GET.FEEDBACK.GP is the first multicentre three- arm randomised controlled trial to test the efficacy of patient- targeted feedback as an adjunct to depres- sion screening in primary care. ► The novel feedback intervention is open- source, de- veloped for busy primary care settings and adapted to general practitioners’ and patients’ needs and preferences. ► As depression screening is feasible for primary care, no feasibility study for the feedback"
+    },
+    {
+      "rank": 3,
+      "score": 0.847111,
+      "chunk_id": "DOC_H004_p1_c2",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "black boxes that do not explain their predictions in a way that humans can understand. The lack of transparency and accountability of predictive models can have (and has already had) severe consequences; there have been cases of people incorrectly denied parole [ 1], poor bail decisions leading to the release of dangerous criminals, ML-based pollution models stating that highly polluted air was safe to breathe [ 2], and generally poor use of limited valuable resources in criminal justice, medicine, energy reliability, ﬁnance, and in other domains [3]. Rather than trying to create models that are inherently interpretable, there has been a recent explosion of work on “Explainable ML,” where a second (posthoc) model is created to explain the ﬁrst black box model. This is problematic. Explanations are often not reliable, and can be misleading, as we discuss below. If we instead use models that are inherently interpretable, they provide their own explanations, which are faithful to what the model actually computes. In what follows, we discuss the problems with Explainable ML, followed by the challenges in Interpretable ML. This document is mainly relevant to high-stakes decision making and troubleshooting models, which are the main two reasons one might require an interpretable or explainable model. Interpretability is a domain-speciﬁc notion [4, 5, 6, 7], so there cannot be an all-purpose deﬁnition. Usually, however, an interpretable machine learning model is constrained in model form so that it is either useful to someone, or obeys structural knowledge of the domain, such as monotonicity [e.g., 8], causality, structural (generative) constraints, additivity [9], or physical"
+    },
+    {
+      "rank": 4,
+      "score": 0.840966,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    },
+    {
+      "rank": 5,
+      "score": 0.833494,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)"
+    }
+  ]
+}

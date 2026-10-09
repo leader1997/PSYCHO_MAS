@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EvidenceSynthesis",
+  "type": "object",
+  "required": ["case_id", "supported_claims", "unsupported_or_uncertain_points", "clinical_boundary"]
+}

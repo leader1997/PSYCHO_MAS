@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_14",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:44:34.786818+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly aligned with the case specifics, thoroughly covers all major XAI contributors and protective factors, and is fully answerable via scientific literature. It provides clear, actionable guidance for experts while maintaining strict safety standards by avoiding diagnostic or treatment language. All questions are distinct, well-structured, and directly support a comprehensive expert-facing report."
+}

@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_borderline_03",
+  "model": "phi4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:23:58.530372+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_03",
+    "risk_interpretation": {
+      "probability": 0.5004,
+      "threshold": 0.5,
+      "risk_level": "borderline",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of borderline prediction probabilities in non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "interpretation guidelines for borderline cases",
+          "decision-making strategies at near-threshold predictions"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a borderline risk level is crucial for accurate interpretation and subsequent expert review."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate this factor?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "impact of loneliness on mental health in students",
+        "expected_evidence": [
+          "research on loneliness as a predictor for mental health issues",
+          "interventions to reduce loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is a major contributor to the risk prediction and understanding its impact can guide support considerations."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does weeknight sleep play in elevated depression/anxiety screening risk, and what are effective strategies for improving sleep quality?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "effects of poor sleep on student mental health",
+        "expected_evidence": [
+          "studies linking sleep patterns to anxiety/depression",
+          "strategies for enhancing sleep hygiene"
+        ],
+        "priority": "medium",
+        "rationale": "Weeknight sleep is a significant factor in the model's prediction, and addressing it can be beneficial."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does food insecurity worry contribute to elevated depression/anxiety screening risk, and what support mechanisms are available?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "impact of food insecurity on mental health in students",
+        "expected_evidence": [
+          "research on food insecurity as a stressor for mental health",
+          "available resources to address food insecurity"
+        ],
+        "priority": "high",
+        "rationale": "Food insecurity worry is a high-level contributor and addressing it can significantly impact risk levels."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "How does flourishing act as a protective factor against elevated depression/anxiety screening risk, and what activities promote flourishing?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "benefits of flourishing on student mental health",
+        "expected_evidence": [
+          "definition and benefits of flourishing in psychological literature",
+          "activities that enhance a sense of flourishing"
+        ],
+        "priority": "medium",
+        "rationale": "Flourishing is a notable protective factor, understanding it can help reinforce positive aspects."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of using machine learning models like CatBoost for non-diagnostic depression/anxiety screening?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of CatBoost in mental health screenings",
+        "expected_evidence": [
+          "challenges and biases in predictive modeling for mental health",
+          "specific limitations of the CatBoost algorithm"
+        ],
+        "priority": "medium",
+        "rationale": "Understanding model limitations is essential for contextualizing predictions and guiding expert review."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "How should elevated depression/anxiety screening risk be communicated to ensure clarity without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health risks",
+        "expected_evidence": [
+          "guidelines for safe communication of mental health screenings",
+          "strategies to avoid misinterpretation"
+        ],
+        "priority": "high",
+        "rationale": "Effective communication is crucial to ensure the student and experts understand the screening results appropriately."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_03\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5004,\n    \"threshold\": 0.5,\n    \"risk_level\": \"borderline\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability near the decision threshold for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of borderline prediction probabilities in non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"interpretation guidelines for borderline cases\",\n        \"decision-making strategies at near-threshold predictions\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a borderline risk level is crucial for accurate interpretation and subsequent expert review.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does loneliness contribute to elevated depression/anxiety screening risk, and what interventions might mitigate this factor?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"impact of loneliness on mental health in students\",\n      \"expected_evidence\": [\n        \"research on loneliness as a predictor for mental health issues\",\n        \"interventions to reduce loneliness\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is a major contributor to the risk prediction and understanding its impact can guide support considerations.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does weeknight sleep play in elevated depression/anxiety screening risk, and what are effective strategies for improving sleep quality?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"effects of poor sleep on student mental health\",\n      \"expected_evidence\": [\n        \"studies linking sleep patterns to anxiety/depression\",\n        \"strategies for enhancing sleep hygiene\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Weeknight sleep is a significant factor in the model's prediction, and addressing it can be beneficial.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does food insecurity worry contribute to elevated depression/anxiety screening risk, and what support mechanisms are available?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"impact of food insecurity on mental health in students\",\n      \"expected_evidence\": [\n        \"research on food insecurity as a stressor for mental health\",\n        \"available resources to address food insecurity\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food insecurity worry is a high-level contributor and addressing it can significantly impact risk levels.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does flourishing act as a protective factor against elevated depression/anxiety screening risk, and what activities promote flourishing?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"benefits of flourishing on student mental health\",\n      \"expected_evidence\": [\n        \"definition and benefits of flourishing in psychological literature\",\n        \"activities that enhance a sense of flourishing\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Flourishing is a notable protective factor, understanding it can help reinforce positive aspects.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of using machine learning models like CatBoost for non-diagnostic depression/anxiety screening?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of CatBoost in mental health screenings\",\n      \"expected_evidence\": [\n        \"challenges and biases in predictive modeling for mental health\",\n        \"specific limitations of the CatBoost algorithm\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understanding model limitations is essential for contextualizing predictions and guiding expert review.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should elevated depression/anxiety screening risk be communicated to ensure clarity without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health risks\",\n      \"expected_evidence\": [\n        \"guidelines for safe communication of mental health screenings\",\n        \"strategies to avoid misinterpretation\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Effective communication is crucial to ensure the student and experts understand the screening results appropriately.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

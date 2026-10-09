@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_17",
+  "stratum": "high",
+  "qid": "Q1",
+  "question": "Given the high predicted screening risk (0.9644), what are the established clinical guidelines for determining the urgency and necessary follow-up steps for an expert review, specifically differentiating between immediate crisis intervention and routine supportive care?",
+  "retrieval_query": "clinical guidelines elevated depression anxiety screening risk high probability follow up",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:37.000807+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.965605,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 2,
+      "score": 0.915208,
+      "chunk_id": "DOC_G001_p1_c3",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety, monitoring and supervision. The multicentre GET.FEEDBACK.GP RCT is the first trial in primary care that tests the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening. Its results have the potential to influence future depression guidelines and will be disseminated in scientific as well as patient- friendly language. Trial registration number NCT03988985. INTRODUCTION Major depression is one of the most disabling disorders worldwide and affects one out of ten individuals over their lifetime.1 2 However, major depression is under- recognised, diag- nosed incorrectly and thus often remains untreated.3 4 In turn, undetected depression Strengths and limitations of this study ► GET.FEEDBACK.GP is an extension of the DEPSCREEN- INFO trial, which indicated that pro- viding direct feedback to patients after depression screening reduces depression severity in cardiac patients. ► GET.FEEDBACK.GP is the first multicentre three- arm randomised controlled trial to test the efficacy of patient- targeted feedback as an adjunct to depres- sion screening in primary care. ► The novel feedback intervention is open- source, de- veloped for busy primary care settings and adapted to general practitioners’ and patients’ needs and preferences. ► As depression screening is feasible for primary care, no feasibility study for the feedback"
+    },
+    {
+      "rank": 3,
+      "score": 0.887338,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 4,
+      "score": 0.876972,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    },
+    {
+      "rank": 5,
+      "score": 0.867995,
+      "chunk_id": "DOC_G001_p2_c1",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 2,
+      "category_code": "G_screening_communication",
+      "text": "2 Kohlmann S, et al. BMJ Open 2020;10:e035973. doi:10.1136/bmjopen-2019-035973 Open access increases the likelihood of a chronic course, treatment resistance, rising healthcare costs and, most importantly, increased disease burden. 5–7 Standardised depression screening could be one solution for the early detection of increased depression severity. 8 Its efficacy, however, is unclear, and international depression screening guide- lines are inconsistent.9 10 To date, interventional research has neglected to directly address patients within the depression screening process. However, involving patients as active partners in the screening process could support depression care and thus improve clinical outcomes. 1611 The DEPSCREEN- INFO randomised controlled trial (RCT) showed that patient- targeted feedback after depression screening can increase patient engagement and reduce depression severity.12 Such patient- targeted feedback interventions provide a valuable framework for addressing the patient as an active partner in depression care.13 The rationale is that providing feedback (with respect to depression status and recommendations) will induce favourable behavioural changes (ie, active treatment seeking, increased involve- ment with depression, improved coping) and will lead to improved outcomes (ie, decreased depression severity).12 The DEPSCREEN- INFO trial was conducted with cardiac patients. As major depression affects one out of six patients in primary care, feedback intervention could also have great potential for general practice. 14 Therefore, the GET.FEEDBACK.GP multicentre RCT aims to test the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening in primary care patients. Regarding the detection of depression, general practitioners (GPs) hold the key position in most health- care systems: most cases are diagnosed in primary care and"
+    }
+  ]
+}

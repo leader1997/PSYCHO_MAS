@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_07",
+  "stratum": "borderline",
+  "qid": "Q1",
+  "question": "Given the prediction probability (0.501) is extremely close to the decision threshold (0.5), what are the established guidelines for interpreting model output when a case falls into this near-threshold, borderline range?",
+  "retrieval_query": "interpreting machine learning prediction probability near decision threshold in mental health screening",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:27.230435+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.989024,
+      "chunk_id": "DOC_H003_p2_c1",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "sneeze weight headache no fatigue age Flu sneeze headache Model Data and Prediction Explainer (LIME) Explanation Explainer (LIME) Human makes decision Explanation no fatigue sneeze headache active Human makes decision Figure 1: Explaining individual predictions. A model predicts that a patient has the ﬂu, and LIME highlights the symptoms in the patient’s history that led to the prediction. Sneeze and headache are portrayed as contributing to the “ﬂu” prediction, while “no fatigue” is evidence against it. With these, a doctor can make an informed decision about whether to trust the model’s prediction. getting humans to trust and use machine learning eﬀectively, if the explanations are faithful and intelligible. The process of explaining individual predictions is illus- trated in Figure 1. It is clear that a doctor is much better positioned to make a decision with the help of a model if intelligible explanations are provided. In this case, an ex- planation is a small list of symptoms with relative weights – symptoms that either contribute to the prediction (in green) or are evidence against it (in red). Humans usually have prior knowledge about the application domain, which they can use to accept (trust) or reject a prediction if they understand the reasoning behind it. It has been observed, for example, that providing explanations can increase the acceptance of movie recommendations [12] and other automated systems [8]. Every machine learning application also requires a certain measure of overall trust in the model. Development and evaluation of a classiﬁcation model often consists of collect- ing annotated data, of which a held-out subset"
+    },
+    {
+      "rank": 2,
+      "score": 0.874358,
+      "chunk_id": "DOC_H003_p1_c3",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "commercial advantage and that copies bear this notice and the full citation on the ﬁrst page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission and/or a fee. Request permissions from permissions@acm.org. KDD 2016 San Francisco, CA, USA c⃝ 2016 Copyright held by the owner/author(s). Publication rights licensed to ACM. ISBN 978-1-4503-4232-2/16/08. . . $15.00 DOI: http://dx.doi.org/10.1145/2939672.2939778 how much the human understands a model’s behaviour, as opposed to seeing it as a black box. Determining trust in individual predictions is an important problem when the model is used for decision making. When using machine learning for medical diagnosis [ 6] or terrorism detection, for example, predictions cannot be acted upon on blind faith, as the consequences may be catastrophic. Apart from trusting individual predictions, there is also a need to evaluate the model as a whole before deploying it “in the wild”. To make this decision, users need to be conﬁdent that the model will perform well on real-world data, according to the metrics of interest. Currently, models are evaluated using accuracy metrics on an available validation dataset. However, real-world data is often signiﬁcantly diﬀerent, and further, the evaluation metric may not be indicative of the product’s goal. Inspecting individual predictions and their explanations is a worthwhile solution, in addition to such metrics. In this case, it is important to aid users by suggesting which instances to inspect, especially for large"
+    },
+    {
+      "rank": 3,
+      "score": 0.836755,
+      "chunk_id": "DOC_H003_p1_c1",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer Marco T ulio Ribeiro University of Washington Seattle, WA 98105, USA marcotcr@cs.uw.edu Sameer Singh University of Washington Seattle, WA 98105, USA sameer@cs.uw.edu Carlos Guestrin University of Washington Seattle, WA 98105, USA guestrin@cs.uw.edu ABSTRACT Despite widespread adoption, machine learning models re- main mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation tech- nique that explains the predictions of any classiﬁer in an in- terpretable and faithful manner, by learning an interpretable model locally around the prediction. We also propose a method to explain models by presenting representative indi- vidual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization prob- lem. We demonstrate the ﬂexibility of these methods by explaining diﬀerent models for text (e.g. random forests) and image classiﬁcation (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classiﬁer, and identifying why a classiﬁer should not be trusted. 1. INTRODUCTION Machine learning is at the core of many recent advances in science and technology. Unfortunately, the"
+    },
+    {
+      "rank": 4,
+      "score": 0.799738,
+      "chunk_id": "DOC_H003_p1_c2",
+      "doc_id": "DOC_H003",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classiﬁer, and identifying why a classiﬁer should not be trusted. 1. INTRODUCTION Machine learning is at the core of many recent advances in science and technology. Unfortunately, the important role of humans is an oft-overlooked aspect in the ﬁeld. Whether humans are directly using machine learning classiﬁers as tools, or are deploying models within other products, a vital concern remains: if the users do not trust a model or a prediction, they will not use it . It is important to diﬀerentiate between two diﬀerent (but related) deﬁnitions of trust: (1) trusting a prediction, i.e. whether a user trusts an individual prediction suﬃciently to take some action based on it, and (2) trusting a model, i.e. whether the user trusts a model to behave in reasonable ways if deployed. Both are directly impacted by Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for proﬁt or commercial advantage and that copies bear this notice and the full citation on the ﬁrst page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior speciﬁc permission and/or a fee. Request permissions from"
+    },
+    {
+      "rank": 5,
+      "score": 0.770979,
+      "chunk_id": "DOC_H004_p1_c1",
+      "doc_id": "DOC_H004",
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead Cynthia Rudin Duke University cynthia@cs.duke.edu Abstract Black box machine learning models are currently being used for high stakes decision-making throughout society, causing problems throughout healthcare, criminal justice, and in other domains. People have hoped that creating methods for explaining these black box models will alleviate some of these problems, but trying to explain black box models, rather than creating models that are interpretable in the ﬁrst place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward – it is to design models that are inherently interpretable. This manuscript clariﬁes the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identiﬁes challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision. 1 Introduction There has been an increasing trend in healthcare and criminal justice to leverage machine learning (ML) for high-stakes prediction applications that deeply impact human lives. Many of the ML models are black boxes that do not explain their predictions in a way that humans can understand. The lack of transparency and accountability of predictive models can have (and has already had) severe consequences; there have been cases of people incorrectly denied parole [ 1], poor bail decisions leading to the release of dangerous criminals, ML-based pollution models stating that highly polluted"
+    }
+  ]
+}

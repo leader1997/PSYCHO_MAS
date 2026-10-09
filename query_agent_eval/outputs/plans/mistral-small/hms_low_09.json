@@ -1,0 +1,10 @@
+{
+  "case_id": "hms_low_09",
+  "model": "mistral-small",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T21:30:43.988401+00:00",
+  "parsed_ok": false,
+  "error": "Ollama chat failed for model=mistral-small: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "plan": {},
+  "raw": ""
+}

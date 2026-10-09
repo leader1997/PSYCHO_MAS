@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "20260701_121623",
+  "methodology": "Anthropic contextual embeddings cookbook (Ollama-only)",
+  "reference": "https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide",
+  "corpus_chunks": 15,
+  "benchmark_questions": 2,
+  "gold_resolved": 0,
+  "settings": {
+    "embed_model": "nomic-embed-text",
+    "context_model": "qwen2.5:latest",
+    "representations": [
+      "plain",
+      "ollama_context"
+    ],
+    "retrieval_modes": [
+      "dense"
+    ],
+    "k": 10
+  },
+  "summary": [
+    {
+      "representation": "plain",
+      "retrieval_mode": "dense",
+      "k": 10,
+      "n_questions": 0,
+      "n_benchmark_rows": 2,
+      "gold_resolved": 0,
+      "hit_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
+    },
+    {
+      "representation": "ollama_context",
+      "retrieval_mode": "dense",
+      "k": 10,
+      "n_questions": 0,
+      "n_benchmark_rows": 2,
+      "gold_resolved": 0,
+      "hit_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
+    }
+  ],
+  "build_meta": {
+    "plain": {
+      "representation": "plain",
+      "embeddings_cache": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\cache\\embeddings_plain_nomic-embed-text_15.npy",
+      "indexed_text_sample": "Psychologkal Bulletin 1985, Vol. 98. No. 2, 31 Copyright 1985 by the American Psychological Association, Inc. 0033-2909/85/$00.75 Stress, Social Support, and the Buffering Hypothesis Sheldon Cohen Carnegie-Mellon University Thomas Ashby Wills Cornell University Medical College The purpose of this ar"
+    },
+    "ollama_context": {
+      "representation": "ollama_context",
+      "context_examples": [
+        {
+          "chunk_id": "DOC_F001_p01_c001",
+          "context": "This chunk introduces the article's purpose, which is to examine whether social support affects well-being through an overall beneficial effect (main-effect model) or by protecting individuals from stress (buffering model). It outlines how the review categorizes studies based on measures of support structure and function, as well as the specificity of the scale used. The conclusion drawn from the review suggests that both models have evidence supporting them.",
+          "preview": "Psychologkal Bulletin 1985, Vol. 98. No. 2, 31 Copyright 1985 by the American Psychological Association, Inc. 0033-2909/85/$00.75 Stress, Social Support, and the Buffering Hypothesis Sheldon Cohen Car"
+        },
+        {
+          "chunk_id": "DOC_F001_p01_c002",
+          "context": "This chunk introduces the article by discussing the increasing interest in social support's role in health maintenance and disease prevention, citing various studies that show a positive correlation between social support and well-being. It also mentions the methods supporting these findings and acknowledges the equal authorship of the article.",
+          "preview": "Both conceptualizations of social support are correct in some respects, but each represents a different process through which social support may affect well-being. Implications of these conclusions fo"
+        },
+        {
+          "chunk_id": "DOC_F001_p01_c003",
+          "context": "This chunk is situated at the beginning of the article, discussing the importance of social support in well-being and introducing two models: the buffering model (support protects individuals from stress) and the main-effect model (social resources have a beneficial effect regardless of stress). It also mentions that understanding these models has practical implications for intervention design.",
+          "preview": "Grants CA25521 and CA33917 to the second author. Requests for reprints should be sent to Sheldon Cohen, Department of Psychology, Carnegie-Mellon University, Pittsburgh, Pennsylvania 15213. experiment"
+        },
+        {
+          "chunk_id": "DOC_F001_p02_c004",
+          "context": "This chunk introduces the article's focus on comparing the main effect and buffering models of social support, highlighting methodological issues in previous research and the importance of these models for intervention design. It sets up the review of studies published through 1983, organized by the type of support measure used.",
+          "preview": "SOCIAL SUPPORT AND THE BUFFERING HYPOTHESIS 311 has direct implications for the design of interventions. This article reviews evidence relevant to a comparative test of the main effect and buffering m"
+        },
+        {
+          "chunk_id": "DOC_F001_p02_c005",
+          "context": "This chunk introduces the conceptual models of stress and support and discusses methodological and statistical issues crucial for comparing the main effect and buffering models. It also reviews literature published through 1983, focusing on informal support systems and using symptomatology as criterion variables. The text highlights several prospective studies showing that social support is related to mortality and mental health outcomes.",
+          "preview": "e begin by presenting conceptual models of stress and support and discussing methodological and statistical issues that are crucial for comparing the main effect and buffering models. We then review l"
+        }
+      ],
+      "embeddings_cache": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\cache\\embeddings_ollama_context_nomic-embed-text_15.npy",
+      "indexed_text_sample": "This chunk introduces the article's purpose, which is to examine whether social support affects well-being through an overall beneficial effect (main-effect model) or by protecting individuals from stress (buffering model). It outlines how the review categorizes studies based on measures of support "
+    }
+  },
+  "artifacts": {
+    "per_question_csv": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\outputs\\per_question_20260701_121623.csv",
+    "summary_csv": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\outputs\\summary_20260701_121623.csv"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="360.0" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Judge overall score by model (%)</text>
+<text x="112" y="78.25" text-anchor="end" font-family="Arial" font-size="13">llama3</text>
+<rect x="120" y="58.0" width="480.5" height="32.5" fill="#4E79A7" rx="3"/>
+<text x="606.5" y="78.25" font-family="Arial" font-size="12" fill="#333">85.8%</text>
+<text x="112" y="128.25" text-anchor="end" font-family="Arial" font-size="13">qwen2.5</text>
+<rect x="120" y="108.0" width="533.1" height="32.5" fill="#F28E2B" rx="3"/>
+<text x="659.1" y="128.25" font-family="Arial" font-size="12" fill="#333">95.2%</text>
+<text x="112" y="178.25" text-anchor="end" font-family="Arial" font-size="13">phi4</text>
+<rect x="120" y="158.0" width="541.0" height="32.5" fill="#E15759" rx="3"/>
+<text x="667.0" y="178.25" font-family="Arial" font-size="12" fill="#333">96.6%</text>
+<text x="112" y="228.25" text-anchor="end" font-family="Arial" font-size="13">mistral</text>
+<rect x="120" y="208.0" width="541.5" height="32.5" fill="#B07AA1" rx="3"/>
+<text x="667.5" y="228.25" font-family="Arial" font-size="12" fill="#333">96.7%</text>
+<text x="112" y="278.25" text-anchor="end" font-family="Arial" font-size="13">gemma4</text>
+<rect x="120" y="258.0" width="555.0" height="32.5" fill="#59A14F" rx="3"/>
+<text x="681.0" y="278.25" font-family="Arial" font-size="12" fill="#333">99.1%</text>
+</svg>

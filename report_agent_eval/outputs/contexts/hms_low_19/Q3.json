@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_19",
+  "stratum": "low",
+  "qid": "Q3",
+  "question": "What contextual factors might explain why features like campus belonging (belong1) or institutional size (inst_size), while contributing positively to the model prediction, do not elevate the overall screening risk in this specific student?",
+  "retrieval_query": "contextual interpretation of belonging and institution size features in depression/anxiety screening models",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:52:01.076515+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.948069,
+      "chunk_id": "DOC_B007_p2_c4",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research objectives and signed an informed consent form. This project was approved by the Ethics Committee of a university in Colombia. A sociodemographic characteristics instrument was applied to all participants, and all of them completed the PHQ -9 (1). The PHQ -9 is a screening scale that measures the presence and severity of depressive symptoms (1) and consists of nine symptoms of the DSM-IV MDE criterion A (74). These nine items are arranged in the form of an adjectival-type scale assessing the presence of the symptom in the last two weeks (\"not at all,” \"several days,” \"more than half of the days\" and \"almost every day\"), which are scored from 0 to 3, reaching a score between 0 and 27 (75). It can be self - or hetero - administered and is used either algorithmically to make a probable diagnosis of an MDE or as a continuous measure of scores ranging from 0 to 27 and cut -off"
+    },
+    {
+      "rank": 2,
+      "score": 0.926101,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 3,
+      "score": 0.918939,
+      "chunk_id": "DOC_F003_p1_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "across the academic term predicted higher depressive symptoms at the end of the term. Furthermore, these relationships held when models controlled for baseline depressive symptoms, sense of social fit, and other social factors (loneliness and frequency of social interactions). These results highlight the relationship between feelings of belonging and depressive symptoms over and above other social factors. This work underscores the importance of daily-assessed feelings of belonging in predicting subsequent depressive symptoms and has implications for early detection and mental health interventions among young adults. Keywords depression, social behavior, preregistered Received 5/28/21; Revision accepted 12/12/21"
+    },
+    {
+      "rank": 4,
+      "score": 0.918678,
+      "chunk_id": "DOC_B007_p2_c3",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have used IRT models to assess the psychometric properties of the PHQ -9 and only one in college students (37,42-68). Given the high prevalence of depression among college students (69,70) it is important to evaluate the validity and utility of the PHQ -9 in this population. The appropriate detection and management of depression in health science students could translate into significant potential benefits if the psychometric properties of screening instruments such as the PHQ-9 are optimized (71,72). Therefore, this study aimed to evaluate the psychometrics of the Colombian version of the PHQ-9 adapted for university students using IRT models and to assess possible item biases as a function of gender. METHODOLOGY Population and sample This cross-sectional observational study evaluated the psychometric performance of the PHQ -9. Stratified random sampling was applied according to academic program, semester, and sex, where each stratum had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research"
+    },
+    {
+      "rank": 5,
+      "score": 0.905095,
+      "chunk_id": "DOC_F003_p2_c4",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health and support services as well as Statement of Relevance Humans have a need to feel as if they belong in their social world. Although the social factors that influence depressive symptoms are well docu- mented, less work has explored the unique con- tributions of various social factors. Furthermore, depressive symptoms often co-occur with social disconnection, presenting a need for more pro- spective investigations to identify whether social factors are related to subsequent mental health. We explored whether feelings of belonging, assessed daily, predicted end-of-term depressive symptoms in first-year college students. In two studies, we found that a lack of belonging, even early in an academic term, was associated with greater depressive symptoms at the end of the term. Importantly, feelings of belonging predicted depressive symptoms even when models con- trolled for feelings of loneliness and the number of social interactions a student had during the day. This points to opportunities to improve feelings of belonging for more effective interventions for young adults during life transitions."
+    }
+  ]
+}

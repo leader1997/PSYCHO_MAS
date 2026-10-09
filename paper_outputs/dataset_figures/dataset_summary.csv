@@ -1,0 +1,11 @@
+Item,Value
+Data source,Healthy Minds Study (HMS) 2024–2025 public release
+Raw columns,28 loaded (1608 in full export)
+Raw records,"84,735"
+Analytic cohort (N),"63,581"
+Predictors,25
+Constructs,8
+Screening target,dep_or_anx (binary elevated screen)
+Positive-screen prevalence,44.9%
+Mean feature missingness,13.36%
+Train / Val / Test,"44,506 / 9,537 / 9,538"

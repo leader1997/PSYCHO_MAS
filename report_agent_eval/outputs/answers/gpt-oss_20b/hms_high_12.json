@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_12",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9664) and 'elevated screening risk' label, what are the established clinical guidelines for interpreting this result in a non-diagnostic context, specifically regarding the need for immediate expert follow-up?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A probability of 0.9664 combined with an “elevated screening risk” label indicates a positive screen for depression according to PHQ‑2/PHQ‑9 thresholds. In non‑diagnostic practice, guidelines recommend that any positive screen be followed by a full PHQ‑9 assessment; if the score reaches ≥10 or if suicidal thoughts are reported, an immediate referral to counseling services or mental health professionals is advised. When self‑harm ideation or severe distress is present, urgent expert follow‑up should occur; otherwise, scheduling a comprehensive evaluation within primary care is appropriate. These steps reflect evidence that early identification and timely feedback reduce depression severity and improve engagement with mental‑health care.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:37:57.910646+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to increased screening risk for depression and anxiety, particularly in college student populations?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Recent U.S. college studies report that depressive symptoms predict lower GPA and higher dropout risk even after controlling for prior academic performance, with the association strongest among students who also screen positive for anxiety (Context 2 & 3). Longitudinal analyses confirm that co‑occurring depression and anxiety are linked to reduced academic achievement, indicating that academic impairment may flag heightened screening risk for mood and anxiety disorders. Cross‑sectional research on academic procrastination shows significant positive correlations with stress (r≈0.47), anxiety (r≈0.47), and depression (r≈0.40) in college students (Context 4). These findings collectively suggest that indicators of academic difficulty—such as low GPA, dropout likelihood, or high procrastination scores—are statistically associated with increased likelihood of depression and anxiety symptoms, supporting targeted screening in this population.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:39:22.498190+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are evidence-based strategies for addressing basic needs deficits in the context of mental health support?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food‑worry is a statistically significant contributor to elevated screening risk because chronic food insecurity has been consistently linked with higher rates of depression, anxiety, stress, trouble sleeping, and suicidal thoughts (Context 4). The prevalence of basic‑needs insecurity among students—particularly those receiving Pell Grants or with disabilities—underscores its role as a key determinant of mental health outcomes and academic persistence (Contexts 1 and 5). While the evidence confirms that addressing food insecurity can mitigate these adverse effects, the retrieved passages do not specify particular intervention models; therefore, practitioners should integrate basic‑needs support into mental‑health services but rely on broader literature for specific program designs. If a student expresses severe distress related to food worry, referral to qualified mental‑health or social‑services professionals is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:40:36.594275+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective effects of strong campus belonging (belonging factors) and consistent sleep hygiene on mitigating elevated screening risk in students?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Strong campus belonging—cultivated through emotional support and frequent engagement—has been shown to improve well‑being and buffer against the distress that underlies elevated screening risk (Contexts 1 & 4). Lack of belonging predicts depressive symptoms in college students, whereas greater social connectedness is linked to higher overall well‑being (Context 3). Consistent sleep hygiene, an important health behavior, also predicts reductions in depressive symptomatology and psychological distress among young adults, serving as another protective factor against elevated risk (Context 2). Interventions that enhance belonging have proven effective for this developmental group, indicating that campus programs designed to promote belonging can mitigate mental‑health risk (Context 5). When screening indicates high risk, referral to qualified support services remains essential.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:41:59.411808+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models in predicting mental health screening risk, particularly concerning causality versus correlation and individual variability?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine‑learning models for mental‑health screening rely on statistical associations and therefore cannot establish causal relationships; for example, studies show that academic procrastination is positively correlated with stress, anxiety, and depression (r ≈ 0.4–0.47), but this does not prove that procrastination causes these outcomes.  The predictive accuracy of such models also depends on the quality of the underlying screening scores: traditional classical test theory scoring of instruments like the PHQ‑9 can be inaccurate because it ignores item heterogeneity, whereas item response theory offers more robust, invariant estimates—suggesting that ML predictions built on less precise scores inherit these measurement limitations.  Black‑box algorithms further limit interpretability; post‑hoc explanation methods such as LIME may provide seemingly intuitive feature attributions but are often unreliable and can mislead clinicians about the true drivers of a prediction.  Finally, psychometric analyses demonstrate that instruments like the GAD‑7 maintain measurement invariance across gender, race/ethnicity, and academic class, yet individual variability remains substantial; models trained on one demographic group may therefore produce biased risk estimates for others.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:43:35.738451+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the standardized, non-diagnostic language required when communicating an 'elevated screening risk' to a student and their care team, ensuring immediate safety protocols are followed?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "The available literature does not specify a single “standardized” phrase for conveying an elevated screening risk; it only indicates that students who score above the PHQ‑2 or PHQ‑9 cut‑offs should receive prompt follow‑up (Context 1, 3).  In practice, clinicians are advised to use non‑diagnostic language such as: “The student’s responses on the PHQ‑2/PHQ‑9 suggest a higher likelihood of depression and warrant further evaluation.”  This wording acknowledges risk without assigning a clinical diagnosis.  Immediate safety protocols should include an urgent referral to campus counseling services, provision of crisis hotline information, and documentation that the student has been notified of available support (Context 1).  If suicidal ideation is indicated, the protocol requires contacting emergency services or a designated mental‑health crisis team in accordance with institutional policy.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:44:39.101950+00:00"
+    }
+  }
+}

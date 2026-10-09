@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_high_17",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.968597,
+      "chunk_id": "DOC_C003_p2_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "2 INTRODUCTION Following the peak of the COVID-19 pandemic, former Surgeon General Vivek Murthy declared loneliness as a public health issue due to its association with mental and physical well-being (US HHS, 2023). Research studies consistently show that young adults report the highest rates of loneliness across the population (Ellard et al., 2022). Loneliness is described as a personal feeling of insufficient close connections in social relationships or having fewer social interactions than one wishes, regardless of the actual level of social engagement one has (Ellard et al., 2023; Yang, 2019). It should therefore be understood as a subjective experience that is not entirely dependent on the number of social interactions. Loneliness has widespread effects on mental health and well-being, and is associated with heart disease and premature death (US HHS, 2023). This report summarizes findings about student loneliness from research studies conducted at The Ohio State University. HIGHLIGHTS • Nationally, the prevalence of loneliness in students is on the decline (p < .001). • At Ohio State, the proportion of students categorized as lonely has significantly declined over time, with 53.2% of students categorized as lonely in 2022 and 43.2% of students categorized as lonely in 2025. • At Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive",
+      "query_qid": "Q5",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.965605,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "Q1",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.961951,
+      "chunk_id": "DOC_E001_p5_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 5,
+      "category_code": "E_financial_food",
+      "text": "5 5 Mom, can you pick me up from school? 73% of respondents face basic needs insecurity when we consider other basic needs (mental health, child care, transportation, and internet/ technology access) in addition to food and housing. 44% of students experience clinically significant symptoms of anxiety and/or depression. 57% of respondents who had previously stopped out (stopped attending college without completing a credential and subsequently re-enrolled) reported they did so because of mental health issues. “It’s expensive, and I believe education is a human right that is denied to those less fortunate and less represented. College should not be expensive, and I shouldn’t have to struggle just to give myself an education to stay healthy and put myself in a beneficial position in society.” Student from Minnesota",
+      "query_qid": "Q3",
+      "pool_rank": 3
+    },
+    {
+      "rank": 2,
+      "score": 0.959422,
+      "chunk_id": "DOC_F003_p3_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 3,
+      "category_code": "F_sleep_wellbeing",
+      "text": "1050 Dutcher et al. opportunities for socialization and growth. Understand- ing the factors that lead to depression in students would help identify targets of intervention. Furthermore, using experience sampling in daily life allows for earlier detection of risk and thus could lead to earlier imple- mentation of interventions to help students thrive on campus. Social factors emerge as a possible target of interven- tion because of their relationship with a variety of men- tal health and success outcomes. However, greater work needs to be done to determine whether loneliness inter- ventions are effective or that interventions can increase social contact among young adults (Masi et al., 2011). However, there are effective interventions for belonging in this developmental context (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011), suggesting that probing the relationship between feelings of belonging and depression could yield insight for effec- tive future interventions. Importantly, belonging is not the same as feeling like one is socially connected or supported by other people. Theories on belonging note that belonging is about not just having close relation- ships but rather whether someone feels as if they belong in a certain social context (Walton & Brady, 2017). Although close relationships can be a source of belonging in a context (Shook & Clay, 2012), individu- als’ subjective feelings of belonging may not always overlap with their feelings of social connection. Because belonging appears to be a unique facet of social life, it is important to examine the unique contributions that feelings of belonging have to mental health beyond",
+      "query_qid": "Q5",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.956563,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,",
+      "query_qid": "Q4",
+      "pool_rank": 5
+    }
+  ]
+}

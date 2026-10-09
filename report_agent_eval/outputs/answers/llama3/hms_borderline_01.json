@@ -1,0 +1,66 @@
+{
+  "model": "llama3",
+  "case_id": "hms_borderline_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Given the prediction probability is extremely close to the decision threshold, clinical guidelines for interpreting 'near-threshold' results in student mental health screening suggest that calibration confirms proximity. In this context, it is essential to consider the limitations of a complaint-based approach to depression screening, which may under-detect and under-treat depression. The Patient Health Questionnaire-2 (PHQ-2) can be utilized as a first step approach to screen college students for depression during every visit at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:43:56.729374+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?\n\nThe retrieved evidence suggests that loneliness is a common risk factor for depressive symptoms among college students. Research has consistently shown that perceived social support can reduce feelings of loneliness experienced by adolescents (17). Moreover, a study found that loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants (18). These findings imply that when other protective factors are present, such as high levels of social support, reported loneliness may still be associated with elevated screening risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:04.339547+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Current financial instability (fincur) contributes to elevated screening risk by exacerbating existing stressors and introducing new ones, such as financial anxiety and uncertainty. This can lead to increased symptoms of mental health concerns, including depression, anxiety, and substance use disorders.\n\nEvidence-based strategies for mitigating this specific stressor in a student population include:\n\n* Providing financial literacy education and resources to help students manage their finances effectively\n* Offering counseling services specifically focused on addressing financial-related stress and anxiety\n* Implementing school-wide initiatives that promote financial stability, such as budgeting workshops or financial planning clubs\n* Encouraging open communication about financial concerns and providing a safe space for students to discuss their experiences\n* Referring students who are struggling with financial instability to community resources and support services\n\nIt is essential to note that elevated screening risk due to current financial instability may warrant referral to qualified support, such as school counselors or mental health professionals.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:13.436165+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?\n\nHigh 'Flourishing' scores indicate a strong presence of social support, which has been consistently linked to positive mental health outcomes and reduced risk of psychological distress. The clinical implications are that individuals with high flourishing scores may be less likely to experience elevated screening risk due to the buffering effects of social support. This protective factor can be emphasized by highlighting the importance of fostering and maintaining strong social connections, particularly among vulnerable populations such as college students. Referral to qualified support services should be considered for those who lack sufficient social support networks.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:21.488749+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors, such as loneliness and financial strain, by providing a sense of stability and predictability in one's life situation. This is supported by evidence suggesting that social support networks can positively influence mental health outcomes, with a lack of positive social relationships leading to negative psychological states like anxiety or depression (Context 4). Additionally, research highlights the importance of internal factors, such as academic competencies and meaningful engagement in learning, in fostering wellbeing (Contexts 5 & 6). These findings suggest that maintaining positiveMH can help individuals better cope with stressors by providing a sense of self-worth, recognition, and stability.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:29.437817+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When discussing elevated screening risk with a student and an expert team, it is essential to follow standardized, non-diagnostic communication guidelines that balance empathy with professional boundaries. To achieve this, consider the following:\n\n* Use a strengths-based approach to focus on the student's resilience and coping skills.\n* Avoid making assumptions or jumping to conclusions based on the screening results.\n* Instead, frame the discussion around the importance of early intervention and prevention strategies to support the student's overall well-being.\n* Emphasize the benefits of addressing mental health concerns early, such as reducing stigma and promoting a culture of support.\n* Offer referrals to qualified support services, if necessary, while respecting the student's autonomy and privacy.\n\nBy adopting this approach, you can ensure that the discussion is centered on the student's needs and well-being, rather than their perceived risk or diagnosis.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:44:37.796098+00:00"
+    }
+  }
+}

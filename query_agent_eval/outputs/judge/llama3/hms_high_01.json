@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_01",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:01:07.627747+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 3,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and clear, providing useful information for an expert report. It covers key risk interpretation and safety communication aspects well, but only partially addresses all XAI contributors and protective factors, limiting full alignment with the model’s explanation components. The questions are answerable using general scientific knowledge, though some may require case‑specific data that a generic KDB might not supply. Overall, it is a solid plan with minor gaps in comprehensive XAI coverage."
+}

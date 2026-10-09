@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_03",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:25:05.829070+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing strong support for expert reporting. It effectively avoids diagnostic language and offers safety-focused communication. However, it covers only a subset of the model’s XAI contributors, missing evidence queries for factors such as loneliness, flourishing, and current financial situation, which limits full alignment with all explanatory features."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_10",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:19:28.290555+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑structured and safe, covering risk interpretation, key XAI contributors, protective factors, uncertainty handling, and student communication. It omits a few contributors (e.g., belonging items, institution size) which slightly lowers xai_alignment, but overall it supports a useful expert report."
+}

@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cursor/
+
+# Large HMS survey datasets (exceed GitHub 100MB limit)
+HMS_*.dta
+HMS_*.csv
+HMS_*.xlsx
+*.dta
+
+# Local training / cache artifacts
+catboost_info/

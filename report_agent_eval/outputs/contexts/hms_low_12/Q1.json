@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_12",
+  "stratum": "low",
+  "qid": "Q1",
+  "question": "What is the appropriate non-diagnostic communication strategy for a student who falls below the elevated screening risk threshold but exhibits specific concerning behaviors?",
+  "retrieval_query": "non-diagnostic communication strategies for low depression/anxiety screening scores",
+  "question_type": "safety_communication",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:34.592781+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.877346,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)"
+    },
+    {
+      "rank": 2,
+      "score": 0.876321,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 3,
+      "score": 0.866033,
+      "chunk_id": "DOC_A001_p7_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 7,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 7 Specific Aims The purpose of this Doctor of Nursing Practice (DNP) Project was to determine if the Patient Health Questionnaire-2 (PHQ-2) affects early identification of depression among college students. Search Methods A comprehensive literature search of electronic databases was conducted to identify existing, current literature regarding depression screening among college students. The following electronic databases were utilized: CINAHL, PubMed, ProQuest/Medline, ScienceDirect, Ovid, ProQuest Psychology Journals, and PsycARTICLES. Boolean search techniques were used to assist with the search methods, e.g., (depression AND college student) and (university student* OR college student* AND depressi* OR depressive symptom OR depressive disorder AND PHQ-2). Table A1 contains the literature search strategies (see Appendix A). Inclusion criteria were: (1) participants consisted of college or university students of any age; (2) studies included depression and depressive symptoms; (3) studies containing the depression screening tool called the Patient Health Questionnaire (PHQ); (4) studies published as peer-reviewed; (5) the setting of the studies consisted of a college, university, or primary healthcare setting; (6) studies that included depression screening via the electronic medical record (EMR). Exclusion criteria were: (1) non-college students as participants; (2) languages other than English were restricted; (3) studies before the year 2014 were restricted; (4) studies without reports of depression or depressive symptoms (5) studies whose full texts could not be found. Five (5) articles were requested from the FGCU Library ILLiad for full-text. The author of one (1) article was contacted via email to obtain the article in full-text. As listed in Table A2,"
+    },
+    {
+      "rank": 4,
+      "score": 0.860884,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 5,
+      "score": 0.812617,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    }
+  ]
+}

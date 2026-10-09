@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_19",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T20:05:17.723800+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing comprehensive guidance for a high-risk student case. It aligns well with the model’s XAI contributors, though it omits some positive factors (e.g., flourishing, financial situation, sleep) which slightly reduces full alignment. All questions are answerable via scientific literature and support an expert-facing report while maintaining strict safety and non-diagnostic language."
+}

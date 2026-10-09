@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_08",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:14:13.702028+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_08",
+    "risk_interpretation": {
+      "probability": 0.0544,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0544 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of model probabilities near decision thresholds",
+        "expected_evidence": [
+          "how to interpret probabilities close to decision thresholds",
+          "impact of calibration on risk assessment"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the significance of the probability in relation to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the feature 'Campus belonging (item 1)' contributing positively to the model's risk prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "elevated depression/anxiety screening risk due to campus belonging",
+        "expected_evidence": [
+          "studies linking campus belonging with mental health",
+          "surveys on student experiences of belonging"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the impact of this feature on the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the protective factor 'Flourishing' (display_name: Flourishing) contribute to reducing the predicted screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "benefits of flourishing on mental health",
+        "expected_evidence": [
+          "studies showing positive correlation between flourishing and reduced depression/anxiety",
+          "surveys on student well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Highlight the protective effect of this feature."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the potential limitations or uncertainties in the model's prediction, especially given its calibrated status and near-threshold probability?",
+        "linked_xai_factor": null,
+        "retrieval_query": "uncertainties in machine learning models with calibrated probabilities close to decision thresholds",
+        "expected_evidence": [
+          "common sources of uncertainty in machine learning models",
+          "methods for assessing model reliability"
+        ],
+        "priority": "low",
+        "rationale": "Identify any potential limitations or uncertainties that may affect the interpretation."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the low risk of elevated depression/anxiety screening to the student and their support network without providing false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating low-risk mental health screenings",
+        "expected_evidence": [
+          "guidelines for non-diagnostic communication",
+          "strategies for maintaining open dialogue about mental health"
+        ],
+        "priority": "high",
+        "rationale": "Ensure the communication is appropriate and supportive."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_08\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0544,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0544 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of model probabilities near decision thresholds\",\n      \"expected_evidence\": [\"how to interpret probabilities close to decision thresholds\", \"impact of calibration on risk assessment\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the significance of the probability in relation to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the feature 'Campus belonging (item 1)' contributing positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"elevated depression/anxiety screening risk due to campus belonging\",\n      \"expected_evidence\": [\"studies linking campus belonging with mental health\", \"surveys on student experiences of belonging\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the impact of this feature on the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the protective factor 'Flourishing' (display_name: Flourishing) contribute to reducing the predicted screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"benefits of flourishing on mental health\",\n      \"expected_evidence\": [\"studies showing positive correlation between flourishing and reduced depression/anxiety\", \"surveys on student well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Highlight the protective effect of this feature.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the potential limitations or uncertainties in the model's prediction, especially given its calibrated status and near-threshold probability?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"uncertainties in machine learning models with calibrated probabilities close to decision thresholds\",\n      \"expected_evidence\": [\"common sources of uncertainty in machine learning models\", \"methods for assessing model reliability\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Identify any potential limitations or uncertainties that may affect the interpretation.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the low risk of elevated depression/anxiety screening to the student and their support network without providing false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating low-risk mental health screenings\",\n      \"expected_evidence\": [\"guidelines for non-diagnostic communication\", \"strategies for maintaining open dialogue about mental health\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure the communication is appropriate and supportive.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

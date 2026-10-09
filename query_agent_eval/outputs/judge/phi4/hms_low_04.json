@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_04",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:22:37.849282+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant to the specific student case, thoroughly covers all major XAI contributors and protective factors, and aligns well with scientific knowledge sources. It supports expert reporting by providing clear risk interpretation, evidence-based explanations of model drivers, and safe communication practices. All questions are distinct, non-redundant, and free from diagnostic or treatment advice."
+}

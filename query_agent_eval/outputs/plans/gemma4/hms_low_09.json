@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_09",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:29:31.578994+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_09",
+    "risk_interpretation": {
+      "probability": 0.0565,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given the low prediction probability (0.0565) relative to the decision threshold (0.5), what is the clinical interpretation of this substantial margin, and how should the expert communicate that the model's confidence in a low screening risk state is high?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical interpretation of low prediction probability vs threshold",
+        "expected_evidence": [
+          "Guidelines for communicating low-risk screening results.",
+          "Interpretation of model confidence when far below the decision threshold."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to interpret the primary finding and guide non-reassuring communication appropriate for a low-risk case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How should the clinical significance of strong protective factors, such as high 'Flourishing' and 'Age', be contextualized in the expert report to counterbalance minor risk contributions?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical weight of flourishing and age as protective factors for depression/anxiety screening",
+        "expected_evidence": [
+          "Literature review on resilience and positive mental health indicators.",
+          "Guidance on integrating strong protective factors into expert reports."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are the strongest contributors; this question ensures their clinical weight is properly emphasized in the report, which is crucial for a low-risk case."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "The model identified 'Weekend sleep' and 'Weeknight sleep' as features contributing positively to the screening risk. What are the established clinical guidelines for interpreting minor, isolated increases in these specific sleep patterns when overall risk is low?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "clinical interpretation of mild sleep pattern deviations in non-elevated depression/anxiety screening",
+        "expected_evidence": [
+          "Guidelines for interpreting minor sleep variability in mental health screening.",
+          "Contextualizing low-level risk contributions from sleep features."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the most prominent positive XAI contributors, ensuring they are interpreted cautiously and not overemphasized given the overall low score."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the clinical relevance of 'Current financial situation' (high) and 'Academic impairment' (low) as protective factors, particularly in relation to overall student well-being?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "impact of current financial stability and academic status on mental health screening risk",
+        "expected_evidence": [
+          "Academic literature linking financial security/academic engagement to resilience.",
+          "Best practices for reporting socioeconomic protective factors."
+        ],
+        "priority": "medium",
+        "rationale": "Covers the remaining significant protective factors, ensuring a holistic view of stability is presented in the report."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Since the model is calibrated and not near the threshold, what are the known limitations or scope boundaries of this screening tool that must be communicated to the expert reviewer?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of depression/anxiety screening models",
+        "expected_evidence": [
+          "Model validation reports regarding generalizability.",
+          "Guidelines on communicating model uncertainty when results are far from the threshold."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses model limitations and uncertainty, which is critical for maintaining expert skepticism and appropriate context in a low-risk report."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What are the standardized non-diagnostic statements required when communicating screening results to ensure that the student understands this is not a diagnosis and does not lead to false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for mental health screening",
+        "expected_evidence": [
+          "Standardized psychoeducational materials on screening vs. diagnosis.",
+          "Best practices for avoiding false reassurance in low-risk reports."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question to ensure ethical and accurate communication guidelines are followed, regardless of the risk level."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0565,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"Given the low prediction probability (0.0565) relative to the decision threshold (0.5), what is the clinical interpretation of this substantial margin, and how should the expert communicate that the model's confidence in a low screening risk state is high?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical interpretation of low prediction probability vs threshold\",\n      \"expected_evidence\": [\n        \"Guidelines for communicating low-risk screening results.\",\n        \"Interpretation of model confidence when far below the decision threshold.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to interpret the primary finding and guide non-reassuring communication appropriate for a low-risk case.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How should the clinical significance of strong protective factors, such as high 'Flourishing' and 'Age', be contextualized in the expert report to counterbalance minor risk contributions?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical weight of flourishing and age as protective factors for depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Literature review on resilience and positive mental health indicators.\",\n        \"Guidance on integrating strong protective factors into expert reports.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are the strongest contributors; this question ensures their clinical weight is properly emphasized in the report, which is crucial for a low-risk case.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"The model identified 'Weekend sleep' and 'Weeknight sleep' as features contributing positively to the screening risk. What are the established clinical guidelines for interpreting minor, isolated increases in these specific sleep patterns when overall risk is low?\",\n      \"linked_xai_factor\": \"sleep_wkend\",\n      \"retrieval_query\": \"clinical interpretation of mild sleep pattern deviations in non-elevated depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting minor sleep variability in mental health screening.\",\n        \"Contextualizing low-level risk contributions from sleep features.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the most prominent positive XAI contributors, ensuring they are interpreted cautiously and not overemphasized given the overall low score.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the clinical relevance of 'Current financial situation' (high) and 'Academic impairment' (low) as protective factors, particularly in relation to overall student well-being?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"impact of current financial stability and academic status on mental health screening risk\",\n      \"expected_evidence\": [\n        \"Academic literature linking financial security/academic engagement to resilience.\",\n        \"Best practices for reporting socioeconomic protective factors.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Covers the remaining significant protective factors, ensuring a holistic view of stability is presented in the report.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Since the model is calibrated and not near the threshold, what are the known limitations or scope boundaries of this screening tool that must be communicated to the expert reviewer?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of depression/anxiety screening models\",\n      \"expected_evidence\": [\n        \"Model validation reports regarding generalizability.\",\n        \"Guidelines on communicating model uncertainty when results are far from the threshold.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses model limitations and uncertainty, which is critical for maintaining expert skepticism and appropriate context in a low-risk report.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the standardized non-diagnostic statements required when communicating screening results to ensure that the student understands this is not a diagnosis and does not lead to false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for mental health screening\",\n      \"expected_evidence\": [\n        \"Standardized psychoeducational materials on screening vs. diagnosis.\",\n        \"Best practices for avoiding false reassurance in low-risk reports.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question to ensure ethical and accurate communication guidelines are followed, regardless of the risk level.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

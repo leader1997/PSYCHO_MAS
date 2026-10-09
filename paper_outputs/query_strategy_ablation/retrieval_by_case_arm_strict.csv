@@ -1,0 +1,10 @@
+case_id,arm,hit_at_k,precision_at_k,recall_at_k,mrr_at_k,ndcg_at_k,xai_coverage,n_relevant_in_pool,n_pooled,n_unique_docs
+hms_low_01,direct,0.0,0.0,0.0,0.0,0.0,0.0,0,5,3
+hms_low_01,template,0.0,0.0,0.0,0.0,0.0,0.0,0,5,3
+hms_low_01,llm_plan,0.0,0.0,0.0,0.0,0.0,0.0,0,5,3
+hms_borderline_01,direct,1.0,1.0,1.0,1.0,1.0,0.8,5,5,3
+hms_borderline_01,template,1.0,1.0,1.0,1.0,1.0,0.8,5,5,4
+hms_borderline_01,llm_plan,1.0,0.8,0.8,1.0,0.9558295932317544,0.6,4,5,4
+hms_high_01,direct,1.0,1.0,1.0,1.0,1.0,0.8,5,5,4
+hms_high_01,template,1.0,1.0,1.0,1.0,1.0,0.8,5,5,2
+hms_high_01,llm_plan,1.0,1.0,1.0,1.0,1.0,0.8,5,5,3

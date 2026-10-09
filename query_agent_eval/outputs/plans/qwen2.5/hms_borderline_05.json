@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_05",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:48:06.875750+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_05",
+    "risk_interpretation": {
+      "probability": 0.5006,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How does the model's prediction probability of 0.5006 compare to the decision threshold of 0.5, and what implications does this have for the student's screening risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Model prediction probabilities near the decision threshold",
+        "expected_evidence": [
+          "Explanation of model prediction probability",
+          "Impact of near-threshold predictions on risk interpretation"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of a borderline prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does the feature 'Academic impairment' (aca_impa) contribute to the model's prediction, and what specific aspects of academic performance might be relevant?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic performance on mental health screening models",
+        "expected_evidence": [
+          "Studies linking academic impairment with depression/anxiety",
+          "Examples of how academic issues contribute to screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To explore the primary contributor to the elevated risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does the feature 'Substance use' (sub_any) contribute to the model's prediction, and what specific behaviors or substances might be relevant?",
+        "linked_xai_factor": "sub_any",
+        "retrieval_query": "Impact of substance use on mental health screening models",
+        "expected_evidence": [
+          "Studies linking substance use with depression/anxiety",
+          "Examples of how substance use contributes to screening risk"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the contribution of a significant but not primary factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does the feature 'Current financial situation' (fincur) contribute to reducing the model's prediction, and what specific aspects of financial well-being might be relevant?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Impact of financial stability on mental health screening models",
+        "expected_evidence": [
+          "Studies linking financial stability with reduced depression/anxiety risk",
+          "Examples of how financial support contributes to lower screening risk"
+        ],
+        "priority": "medium",
+        "rationale": "To highlight protective factors that may mitigate the elevated risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the model's calibrated status and near-threshold prediction, what uncertainties or limitations should be considered in interpreting this borderline screening result?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainties in machine learning models for mental health screening",
+        "expected_evidence": [
+          "Information on model calibration",
+          "Examples of how near-threshold predictions can lead to variability in risk interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "To address the inherent uncertainties in borderline cases."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should this borderline screening result be communicated to the student and their support network, ensuring that it does not lead to unnecessary alarm or false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health screening results",
+        "expected_evidence": [
+          "Guidelines on non-diagnostic communication",
+          "Examples of how to convey borderline results without causing distress"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the communication is appropriate and supportive."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5006,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How does the model's prediction probability of 0.5006 compare to the decision threshold of 0.5, and what implications does this have for the student's screening risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Model prediction probabilities near the decision threshold\",\n      \"expected_evidence\": [\"Explanation of model prediction probability\", \"Impact of near-threshold predictions on risk interpretation\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the significance of a borderline prediction.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does the feature 'Academic impairment' (aca_impa) contribute to the model's prediction, and what specific aspects of academic performance might be relevant?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic performance on mental health screening models\",\n      \"expected_evidence\": [\"Studies linking academic impairment with depression/anxiety\", \"Examples of how academic issues contribute to screening risk\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To explore the primary contributor to the elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does the feature 'Substance use' (sub_any) contribute to the model's prediction, and what specific behaviors or substances might be relevant?\",\n      \"linked_xai_factor\": \"sub_any\",\n      \"retrieval_query\": \"Impact of substance use on mental health screening models\",\n      \"expected_evidence\": [\"Studies linking substance use with depression/anxiety\", \"Examples of how substance use contributes to screening risk\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the contribution of a significant but not primary factor.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the feature 'Current financial situation' (fincur) contribute to reducing the model's prediction, and what specific aspects of financial well-being might be relevant?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"Impact of financial stability on mental health screening models\",\n      \"expected_evidence\": [\"Studies linking financial stability with reduced depression/anxiety risk\", \"Examples of how financial support contributes to lower screening risk\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To highlight protective factors that may mitigate the elevated risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the model's calibrated status and near-threshold prediction, what uncertainties or limitations should be considered in interpreting this borderline screening result?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Uncertainties in machine learning models for mental health screening\",\n      \"expected_evidence\": [\"Information on model calibration\", \"Examples of how near-threshold predictions can lead to variability in risk interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To address the inherent uncertainties in borderline cases.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should this borderline screening result be communicated to the student and their support network, ensuring that it does not lead to unnecessary alarm or false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health screening results\",\n      \"expected_evidence\": [\"Guidelines on non-diagnostic communication\", \"Examples of how to convey borderline results without causing distress\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the communication is appropriate and supportive.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

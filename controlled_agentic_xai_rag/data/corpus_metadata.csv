@@ -1,0 +1,45 @@
+doc_id,title,year,expertise_area,file_name,chunk_count
+DOC_F001,"[PDF] Stress, Social Support, and the Buffering Hypothesis",,"Sleep, wellbeing, flourishing, belonging, social support",DOC_F001.pdf,145
+DOC_F002,[PDF] The importance of belonging for well-being in college students,,,DOC_F002.pdf,61
+DOC_F003,[PDF] Lack of Belonging Predicts Depressive Symptomatology in College,,,DOC_F003.pdf,262
+DOC_F004,The prediction of student wellbeing and flourishing from university,,"Sleep, wellbeing, flourishing, belonging, social support",DOC_F004.pdf,43
+DOC_F007,The Well-being and Flourishing of Students — NASPA Wellness Initiative Canon,2019,"Sleep, wellbeing, flourishing, belonging, social support",DOC_F007.pdf,500
+DOC_I001,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,"RAG, retrieval augmented generation",DOC_I001.pdf,51
+DOC_I002,"SELF-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",2023,"RAG, self-reflection, citation",DOC_I002.pdf,83
+DOC_I003,Survey of Hallucination in Natural Language Generation,2023,"Hallucination, NLG evaluation",DOC_I003.pdf,188
+DOC_I004,[PDF] Mechanistic Detection of Citation Hallucination in Long-Form RAG,,"RAG, LLM safety, citation faithfulness, hallucination evaluation",DOC_I004.pdf,40
+DOC_I005,Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback,2023,"LLM factuality, retrieval feedback",DOC_I005.pdf,42
+DOC_I006,Holistic Evaluation of Language Models (HELM),2022,"LLM evaluation, benchmarking",DOC_I006.pdf,1682
+DOC_G001,Depression screening using patient-targeted feedback in general,,,DOC_G001.pdf,129
+DOC_G002,[PDF] DNP Project - Maryville University,,,DOC_G002.pdf,100
+DOC_G004,[PDF] Message Framing for Health: Moderation by Perceived Susceptibility,,,DOC_G004.pdf,50
+DOC_G005,[PDF] Exploring Mental Health Literacy Among Undergraduate College,,"Screening communication, mental-health literacy, ethical communication",DOC_G005.pdf,214
+DOC_A001,[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS,,Student mental health and screening,DOC_A001.pdf,116
+DOC_A002,"[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",,Student mental health and screening,DOC_A002.pdf,56
+DOC_A003,"[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",,Student mental health and screening,DOC_A003.pdf,109
+DOC_A007,[PDF] School Mental Health Quality Guide Screening,,Student mental health and screening,DOC_A007.pdf,26
+DOC_A009,[PDF] Implementing Universal Depression Screening in a College Health,,Student mental health and screening,DOC_A009.pdf,27
+DOC_B001,Predictors of mental health and academic outcomes in first-year,,Depression/anxiety among college students,DOC_B001.pdf,397
+DOC_B002,Psychometric Properties of the GAD-7 among College Students - PMC,,Depression/anxiety among college students,DOC_B002.pdf,41
+DOC_B003,Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7,,Depression/anxiety among college students,DOC_B003.pdf,46
+DOC_B005,[PDF] Emotional wellbeing of first year university students: Critical for,,Depression/anxiety among college students,DOC_B005.pdf,68
+DOC_B006,[PDF] PATIENT HEALTH QUESTIONNAIRE-9 (PHQ-9),,Depression/anxiety among college students,DOC_B006.pdf,1
+DOC_B007,[PDF] Construct validity of the PHQ-9 in university students in Colombia,,Depression/anxiety among college students,DOC_B007.pdf,39
+DOC_Student_Wellbeing_Guide,Student Wellbeing Guide,,,Student_Wellbeing_Guide.pdf,233
+DOC_H001,From local explanations to global understanding with explainable AI trees,2020,"TreeSHAP, local-to-global explanations",DOC_H001.pdf,149
+DOC_H002,On Calibration of Modern Neural Networks,2017,"Probability calibration, temperature scaling",DOC_H002.pdf,43
+DOC_H003,"""Why Should I Trust You?"": Explaining the Predictions of Any Classifier (LIME)",2016,"LIME, local model-agnostic explanations",DOC_H003.pdf,44
+DOC_H004,Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead,2019,"Interpretable ML, XAI critique",DOC_H004.pdf,64
+DOC_H005,"Consistent Individualized Feature Attribution for Tree Ensembles (TreeSHAP, arXiv:1705.07874)",2017,"XAI interpretation, SHAP, feature contribution",DOC_H005.pdf,24
+DOC_H006,A Benchmark for Interpretability Methods in Deep Neural Networks,2019,"XAI evaluation, attribution methods",DOC_H006.pdf,62
+DOC_H007,Calibration of neural networks using splines,2018,"Calibration, distribution regression",DOC_H007.pdf,71
+DOC_C001,The Mediating Role of Loneliness Between Social Support and,,Loneliness / social isolation,DOC_C001.pdf,34
+DOC_C002,[PDF] The Revised UCLA Loneliness Scale: Concurrent and Discriminant,,Loneliness / social isolation,DOC_C002.pdf,32
+DOC_C003,[PDF] Examining Student Loneliness at The Ohio State University,,,DOC_C003.pdf,19
+DOC_D001,[PDF] Effect of Perceived Academic Stress on Students' Performance,,Academic impairment / academic stress,DOC_D001.pdf,20
+DOC_D002,[PDF] Depression and College Students - Counseling Center,,Academic impairment / academic stress,DOC_D002.pdf,13
+DOC_D003,[PDF] Mental Health and Academic Success in College (revised and,,Academic impairment / academic stress,DOC_D003.pdf,74
+DOC_D004,[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH,,Academic impairment / academic stress,DOC_D004.pdf,13
+DOC_E001,[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report,2023,,DOC_E001.pdf,90
+DOC_E002,The impact of material hardship severity and frequency on health,,,DOC_E002.pdf,226
+DOC_E003,[PDF] HIGH MATERIAL HARDSHIP PERSISTS FOR FAMILIES WITH,,,DOC_E003.pdf,10

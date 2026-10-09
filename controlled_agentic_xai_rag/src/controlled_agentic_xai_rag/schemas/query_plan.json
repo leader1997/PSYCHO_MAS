@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueryPlan",
+  "type": "object",
+  "required": ["case_id", "internal_questions", "retrieval_queries", "recommendation_objectives"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "internal_questions": { "type": "array", "items": { "type": "string" } },
+    "retrieval_queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query_id", "slot_type", "query_text", "focus_keywords"],
+        "properties": {
+          "query_id": { "type": "string" },
+          "slot_type": { "type": "string" },
+          "query_text": { "type": "string" },
+          "focus_keywords": { "type": "array", "items": { "type": "string" } },
+          "xai_factor_ref": { "type": "string" }
+        }
+      }
+    },
+    "recommendation_objectives": { "type": "array", "items": { "type": "string" } }
+  }
+}

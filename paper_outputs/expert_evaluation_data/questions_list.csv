@@ -1,0 +1,21 @@
+Question_ID,Question_Text
+Q1,The XAI explanation clearly identifies the main factors contributing to the model screening output.
+Q2,The contribution of each feature is presented in an understandable way for expert interpretation.
+Q3,The explanation appropriately distinguishes predictive contributors from causal factors.
+Q4,The XAI information improves understanding of why the model generated this screening result.
+Q5,The retrieved evidence passages are relevant to the factors highlighted by the XAI explanation.
+Q6,The retrieved evidence provides useful contextual information for interpreting the student case.
+Q7,The retrieved evidence is sufficient to support the generated interpretation.
+Q8,The relationship between the generated report statements and retrieved evidence is clear and traceable.
+Q9,The generated report accurately reflects the model screening output and the corresponding XAI explanation.
+Q10,"The generated report integrates the prediction, explanation, and retrieved evidence in a coherent manner."
+Q11,The generated report provides useful information for expert review of the student case.
+Q12,The level of detail provided in the generated report is appropriate for decision-support purposes.
+Q13,The report clearly distinguishes screening-threshold classification from clinical diagnosis.
+Q14,The language used in the report is appropriate for a human-supervised mental-health decision-support system.
+Q15,The report avoids unsupported causal interpretations of the identified predictive contributors.
+Q16,The report appropriately indicates the need for professional follow-up when necessary.
+Q17,"The integration of machine learning prediction, XAI explanation, contextual retrieval, and report generation provides additional value compared with prediction-only outputs."
+Q18,The proposed framework improves transparency and interpretability of AI-assisted screening decisions.
+Q19,The framework could support expert analysis of student well-being cases.
+Q20,"Overall, the proposed framework represents a useful expert-facing decision-support approach."

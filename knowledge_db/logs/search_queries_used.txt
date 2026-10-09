@@ -1,0 +1,76 @@
+A_student_mental_health	college student depression anxiety screening pdf systematic review	10
+A_student_mental_health	university student mental health depression anxiety systematic review pdf	10
+A_student_mental_health	Healthy Minds Study methodology codebook pdf	8
+A_student_mental_health	student mental health screening non clinical communication pdf	8
+A_student_mental_health	prevalence depression anxiety university students meta-analysis pdf	10
+A_student_mental_health	college student mental health survey instrument PHQ-9 GAD-7 pdf	8
+
+B_college_depression_anxiety	depression anxiety prevalence college students cross-sectional pdf	10
+B_college_depression_anxiety	PHQ-9 validation university students depression screening pdf	8
+B_college_depression_anxiety	GAD-7 validation college students anxiety screening pdf	8
+B_college_depression_anxiety	mental health college students COVID-19 depression anxiety pdf	10
+B_college_depression_anxiety	first-year university student depression anxiety predictors pdf	8
+
+C_loneliness_isolation	loneliness depression anxiety college students pdf	10
+C_loneliness_isolation	social isolation student mental health depression anxiety pdf	8
+C_loneliness_isolation	UCLA loneliness scale university students depression pdf	8
+C_loneliness_isolation	loneliness mediation depression social support students pdf	8
+
+D_academic_impairment	academic stress academic impairment depression anxiety university students pdf	10
+D_academic_impairment	academic functioning depression anxiety college students pdf	8
+D_academic_impairment	academic procrastination depression anxiety students pdf	8
+D_academic_impairment	perceived stress academic performance university students pdf	8
+
+E_financial_food	food insecurity depression anxiety college students pdf	10
+E_financial_food	financial stress mental health university students pdf	8
+E_financial_food	student debt financial strain depression anxiety pdf	8
+E_financial_food	basic needs insecurity college students mental health pdf	8
+
+F_sleep_wellbeing	flourishing wellbeing college students mental health pdf	8
+F_sleep_wellbeing	sense of belonging social support student mental health pdf	8
+F_sleep_wellbeing	protective factors depression anxiety university students pdf	8
+F_sleep_wellbeing	sleep quality depression anxiety college students pdf	10
+F_sleep_wellbeing	subjective wellbeing university students flourishing scale pdf	8
+F_sleep_wellbeing	social support buffering depression students pdf	8
+
+G_screening_communication	mental health screening communication non diagnostic pdf	8
+G_screening_communication	communicating screening results mental health non diagnostic pdf	8
+G_screening_communication	mental health literacy student support referral pdf	8
+G_screening_communication	ethical communication mental health risk results pdf	8
+G_screening_communication	mental health literacy university students systematic review pdf	8
+
+H_xai_calibration	SHAP explainable AI feature contribution pdf	8
+H_xai_calibration	machine learning calibration probability interpretation healthcare pdf	10
+H_xai_calibration	risk prediction model calibration interpretation pdf	8
+H_xai_calibration	explainable AI feature attribution not causal pdf	8
+H_xai_calibration	LIME local interpretable model-agnostic explanations pdf	8
+H_xai_calibration	SHAP TreeExplainer Lundberg pdf	8
+H_xai_calibration	calibration plot Brier score predicted probability healthcare pdf	8
+
+I_rag_llm_eval	retrieval augmented generation citation faithfulness pdf	8
+I_rag_llm_eval	RAG hallucination evaluation citation support pdf	8
+I_rag_llm_eval	LLM safety evaluation healthcare pdf	8
+I_rag_llm_eval	LLM generated medical text factuality citation faithfulness pdf	8
+I_rag_llm_eval	human evaluation rubric AI generated explanations pdf	8
+I_rag_llm_eval	retrieval augmented generation Lewis 2020 pdf	8
+
+E_financial_food	food insecurity college students depression anxiety PMC pdf	10
+E_financial_food	material hardship basic needs insecurity students mental health pdf	10
+E_financial_food	financial stress depression university students open access pdf	10
+E_financial_food	campus food pantry college student mental health pdf	10
+E_financial_food	food insecurity academic performance mental health students pdf	10
+
+G_screening_communication	mental health screening results communication framing pdf	10
+G_screening_communication	non-diagnostic language mental health communication pdf	10
+G_screening_communication	depression screening feedback communication ethical pdf	10
+G_screening_communication	mental health literacy intervention college students pdf	10
+G_screening_communication	communicating PHQ-9 GAD-7 results to students non diagnostic pdf	10
+
+C_loneliness_isolation	loneliness college students depression anxiety PMC pdf	10
+C_loneliness_isolation	UCLA-3 loneliness scale university students pdf	10
+C_loneliness_isolation	social isolation first-year students mental health pdf	10
+
+F_sleep_wellbeing	sleep quality depression anxiety college students PMC pdf	10
+F_sleep_wellbeing	flourishing scale college students wellbeing pdf	10
+F_sleep_wellbeing	campus belonging depression anxiety university students pdf	10
+

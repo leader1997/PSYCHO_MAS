@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_17",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:23:01.283100+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, non-redundant, and well-aligned with safety guidelines. It effectively leverages scientific knowledge to support expert reporting and adapts appropriately to the high-risk probability. However, it does not fully cover all major XAI contributors identified in the model output, limiting its completeness in explaining the risk prediction."
+}

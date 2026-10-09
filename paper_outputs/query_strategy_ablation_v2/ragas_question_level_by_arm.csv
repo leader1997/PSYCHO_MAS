@@ -1,0 +1,6 @@
+,faithfulness,faithfulness,faithfulness,answer_relevancy,answer_relevancy,answer_relevancy
+,count,mean,std,count,mean,std
+arm,,,,,,
+direct,120,0.7887,0.2433,120,0.5513,0.2634
+llm_plan,120,0.7351,0.2664,120,0.4902,0.3036
+template,120,0.747,0.2819,120,0.5101,0.2959

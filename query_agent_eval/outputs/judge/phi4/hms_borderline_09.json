@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_09",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:46:29.315892+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing comprehensive evidence-based support for the borderline risk case. It covers key XAI contributors (loneliness, food insecurity worry) and a protective factor (flourishing), though it omits some other significant contributors such as financial stress and academic impairment, which slightly lowers full alignment. All questions are answerable via scientific literature and avoid diagnostic or treatment language, ensuring safety and usefulness for expert reporting."
+}

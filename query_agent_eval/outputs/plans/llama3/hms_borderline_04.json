@@ -1,0 +1,85 @@
+{
+  "case_id": "hms_borderline_04",
+  "model": "llama3",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:10:23.648388+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_04",
+    "risk_interpretation": {
+      "probability": 0.4995,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the calibration status of the model, and how does it impact the prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "calibration_status",
+          "impact_on_prediction"
+        ],
+        "priority": "high",
+        "rationale": "To understand the limitations of the model's prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the contribution of loneliness to the predicted screening risk, and how does it relate to the student's profile?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "contribution",
+          "relation_to_student_profile"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of loneliness in the prediction and its relevance to the student's profile."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What is the contribution of current financial situation to the predicted screening risk, and how does it relate to the student's profile?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "contribution",
+          "relation_to_student_profile"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of current financial situation in mitigating the predicted screening risk and its relevance to the student's profile."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "safety_communication",
+        "question": "What does a 'not elevated screening risk' label mean for this student, and what are the implications for further support?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "label_meaning",
+          "implications_for_further_support"
+        ],
+        "priority": "low",
+        "rationale": "To provide a clear understanding of the label and its implications for further support."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_borderline_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.4995,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What is the calibration status of the model, and how does it impact the prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"calibration_status\", \"impact_on_prediction\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the limitations of the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the contribution of loneliness to the predicted screening risk, and how does it relate to the student's profile?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"contribution\", \"relation_to_student_profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the role of loneliness in the prediction and its relevance to the student's profile.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the contribution of current financial situation to the predicted screening risk, and how does it relate to the student's profile?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"contribution\", \"relation_to_student_profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the role of current financial situation in mitigating the predicted screening risk and its relevance to the student's profile.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What does a 'not elevated screening risk' label mean for this student, and what are the implications for further support?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"label_meaning\", \"implications_for_further_support\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide a clear understanding of the label and its implications for further support.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: The question plan includes a mix of questions that cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication. The questions are designed to be relevant to the student case, cover the main XAI contributors, include protective factors when available, and support the construction of an expert-facing report."
+}

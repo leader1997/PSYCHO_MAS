@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_01",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+  "retrieval_query": "protective role of age and institution type in mental health screening",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:21.034587+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.919812,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 2,
+      "score": 0.891692,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and"
+    },
+    {
+      "rank": 3,
+      "score": 0.88272,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 4,
+      "score": 0.852451,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 5,
+      "score": 0.834206,
+      "chunk_id": "DOC_A007_p2_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "2 School Mental Health Quality Guide: School Mental Health Screening is part of a collection of resources developed by the National Center for School Mental Health (NCSMH) at the University of Maryland School of Medicine for The SHAPE System. The Quality Guides provide guidance to help school mental health systems advance the quality of their services and supports. This guide contains background information on school mental health screening, best practices, possible action steps, examples from the field, and resources. Recommended APA reference National Center for School Mental Health (NCSMH, 2020). School Mental Health Quality Guide: Screening. NCSMH, University of Maryland School of Medicine. The National Center for School Mental Health at the University of Maryland School of Medicine is funded by the U.S. Department of Health and Human Services, Maternal and Child Health Bureau to advance school mental health programs and policies to promote success for America’s youth."
+    }
+  ]
+}

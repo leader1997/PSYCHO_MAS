@@ -1,0 +1,65 @@
+{
+  "case_id": "hms_borderline_09",
+  "arm": "llm_plan",
+  "model": "gemma4",
+  "answers": {
+    "E1": {
+      "qid": "E1",
+      "question_type": "screening_interpretation",
+      "question": "How should an expert interpret a non-diagnostic college-student depression/anxiety screening probability of 0.5012 relative to threshold 0.5 (risk label: elevated screening risk; near_threshold=True)?",
+      "answer": "The provided context passages do not contain any information regarding the interpretation of specific screening probabilities, such as a score of 0.5012, or guidelines for interpreting a screening threshold of 0.5. Therefore, it is not possible to advise an expert on how to interpret this specific non-diagnostic screening result using only the retrieved evidence.",
+      "error": null,
+      "n_contexts": 5
+    },
+    "E2": {
+      "qid": "E2",
+      "question_type": "xai_contributor_1",
+      "question": "What evidence is relevant to understanding how Loneliness (lonely) can contribute to an elevated screening-model prediction in college students, without treating it as a causal diagnosis?",
+      "linked_feature": "lonely",
+      "answer": "Loneliness, defined as the disparity between an individual's desired and actual levels of social relationships, is identified as a common risk factor for depressive symptoms. Evidence suggests that this state is associated with several physiological changes, including enhanced sympathetic tonus, increased HPA activation, reduced inflammatory control, and decreased expression of genes regulating glucocorticoid responses. While the literature establishes a link between low perceived social support and increased risk of depression, the provided context does not contain specific evidence detailing how loneliness contributes to an elevated screening-model prediction within college students. Therefore, the specific mechanism linking loneliness to a model prediction score in this population cannot be determined from the retrieved evidence.",
+      "error": null,
+      "n_contexts": 5
+    },
+    "E3": {
+      "qid": "E3",
+      "question_type": "xai_contributor_2",
+      "question": "What evidence is relevant to understanding how Current financial situation (fincur) relates to student depression/anxiety screening risk as a statistical contributor rather than a cause?",
+      "linked_feature": "fincur",
+      "answer": "Evidence suggests that material hardship, which serves as an indicator of economic disadvantage, is statistically associated with adverse mental health outcomes, including anxiety and depression. Specifically, research indicates a consistent association between facing one or more material hardships and issues like anxiety and depression. Furthermore, basic needs insecurity, such as housing and food insecurity, has been documented among various student populations, including parenting students and specific racial or identity groups. While the literature establishes that material hardship acts as a determinant of health, the provided context notes that much existing research relies on cross-sectional data and may not comprehensively compare the relative effects of different types of hardship on mental health.",
+      "error": null,
+      "n_contexts": 5
+    },
+    "E4": {
+      "qid": "E4",
+      "question_type": "xai_contributor_3",
+      "question": "What evidence is relevant to understanding how Food insecurity worry (food_worry) may appear among model contributors for student mental-health screening support?",
+      "linked_feature": "food_worry",
+      "answer": "Evidence suggests that food insecurity is a significant material hardship associated with adverse mental and physical health outcomes, particularly among vulnerable populations. Specifically, students may experience basic needs insecurity related to food and/or housing. Research indicates that chronic food insecurity contributes to various physical health issues, and generally, material hardship is linked to higher rates of adverse mental health consequences. Furthermore, existing literature suggests a need for comparative modeling to understand the relative effect of different hardships, such as food versus housing hardship, on mental health outcomes.",
+      "error": null,
+      "n_contexts": 5
+    },
+    "E5": {
+      "qid": "E5",
+      "question_type": "protective_factors",
+      "question": "What evidence discusses protective or lower-risk factors relevant to Flourishing, Academic impairment, Age in college student mental-health screening contexts?",
+      "answer": "The retrieved evidence primarily highlights perceived social support as a protective factor for mental health outcomes. Specifically, perceived social support has been suggested to have a protective effect on mental health, and lower levels of this support were associated with a significantly increased likelihood of experiencing depressive symptoms. Furthermore, the evidence notes that perceived social support may help reduce feelings of loneliness, which is otherwise identified as a common risk factor for depressive symptoms. While the context discusses student populations and various material hardships, the provided passages do not contain specific evidence detailing protective factors related to \"Flourishing\" or \"Academic impairment\" within a college student mental-health screening context.",
+      "error": null,
+      "n_contexts": 5
+    },
+    "E6": {
+      "qid": "E6",
+      "question_type": "limitations_safety_support",
+      "question": "What evidence-based guidance exists for communicating non-diagnostic screening results, stating limitations, and suggesting referral/support pathways for college students without providing treatment prescriptions?",
+      "answer": "The provided evidence does not contain specific, evidence-based guidance for communicating non-diagnostic screening results, stating limitations, or suggesting appropriate referral pathways for college students. The retrieved contexts focus on academic findings regarding mental health risk factors, such as the protective effect of perceived social support and the association between material hardship and adverse health outcomes. While the literature highlights the importance of understanding vulnerabilities like housing or food insecurity, it does not offer clinical protocols or best practices for the communication of screening results to an expert audience.",
+      "error": null,
+      "n_contexts": 5
+    }
+  },
+  "contexts": [
+    "comprehensive, previous works have proposed variants, each with a unique emphasis. One notion of miscalibration is the difference in expectation between conﬁdence and accuracy, i.e. E ˆP [⏐⏐⏐P ( ˆY =Y | ˆP =p ) −p ⏐⏐⏐ ] (2) Expected Calibration Error (Naeini et al., 2015) – or ECE – approximates (2) by partitioning predictions into M equally-spaced bins (similar to the reliability diagrams) and",
+    "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in",
+    "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further",
+    "perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further lead to deleterious health outcomes ( 14). Loneliness is suggested to be a precursor of depression ( 15, 16). In addition, research evidence also suggested perceived soc ial support could reduce the feeling of loneliness experienced by adolescents ( 17). Moreover, in a recent study conducted by Liang et al. ( 18), loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants. Therefore, we expect ed that loneliness was not only directly associated with symptoms of depression, but also played a mediation role in the association between social support and depressive symptoms among rural adolescents. Although perceived social support could inﬂuence loneliness among adolescents, not all adolescents with lower levels of perceived social support report higher levels of loneliness. Therefore, it is of great importance to explore the inﬂuential factor that might moderate the relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies (",
+    "PLOS One | https://doi.org/10.1371/journal.pone.0335790 October 30, 2025 2 / 16 directly, rather than relying on traditional measures of household income or poverty rates, which are often not fully reflective of lived experience. Material hardship matters not only as an indicator of economic disadvantage, but also as a determinant of health. A growing body of research links hardship to higher rates of adverse mental and physical health consequences, especially among vulner- able populations. Studies of families and their children [2–4], young and working-age adults [5,6], and the elderly [7] have found a consistent association between facing one or more material hardships and health outcomes, such as depression, stress, trouble sleeping, and suicidal thoughts. While the mental health effects appear to be relatively consistent across hardship indicators, e.g., all contribute to issues like anxiety and depression, the physical health effects may be more specific. Evidence shows, for example, chronic food inse- curity contributes to issues of diabetes and hypertension [8], while energy insecurity exposes households to environmental toxins and indoor pollution [9], and health insecurity can exacerbate the physical health conditions an individual already experi- ences due to delayed or avoided care [10]. While the prevalence of material hardship is well studied, the consequences to health are less comprehensively understood. Much of the extant literature relies on cross-sectional data, limited sample sizes, and/or individual hardships in isolation. Further, little existing research on the relationship between material hardship and health examines hardships comparatively within models (e.g., the relative effect of food versus housing hardship on mental health) or between models (e.g., the relative"
+  ]
+}

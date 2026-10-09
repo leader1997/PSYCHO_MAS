@@ -1,0 +1,11 @@
+category,safety_regex_pass
+Ablation studies and metrics,0.7143
+Controlled agentic workflow,0.8
+Evidence grounding and citation faithfulness,0.6667
+Local Ollama evaluation and judging,0.625
+Non-diagnostic safety and boundaries,0.25
+Retrieval and corpus quality,0.8
+Robustness and edge cases,0.8
+Screening communication and narrative quality,0.6667
+Student mental-health factors and evidence use,0.5
+XAI interpretation and limitations,0.5

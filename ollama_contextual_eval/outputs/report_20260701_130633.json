@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "20260701_130633",
+  "methodology": "Anthropic contextual embeddings cookbook (Ollama-only)",
+  "reference": "https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide",
+  "corpus_chunks": 5740,
+  "benchmark_questions": 100,
+  "gold_resolved": 100,
+  "settings": {
+    "embed_model": "nomic-embed-text",
+    "context_model": "qwen2.5:latest",
+    "representations": [
+      "plain",
+      "metadata"
+    ],
+    "retrieval_modes": [
+      "dense",
+      "hybrid"
+    ],
+    "k": 10
+  },
+  "summary": [
+    {
+      "representation": "plain",
+      "retrieval_mode": "dense",
+      "k": 10,
+      "n_questions": 100,
+      "n_benchmark_rows": 100,
+      "gold_resolved": 100,
+      "hit_at_k": 0.38,
+      "recall_at_k": 0.016846026165289855,
+      "precision_at_k": 0.073,
+      "mrr": 0.1723174603174603,
+      "ndcg_at_k": 0.07871918804440547
+    },
+    {
+      "representation": "plain",
+      "retrieval_mode": "hybrid",
+      "k": 10,
+      "n_questions": 100,
+      "n_benchmark_rows": 100,
+      "gold_resolved": 100,
+      "hit_at_k": 0.38,
+      "recall_at_k": 0.016796584835760252,
+      "precision_at_k": 0.07100000000000001,
+      "mrr": 0.1480357142857143,
+      "ndcg_at_k": 0.07106792845256246
+    },
+    {
+      "representation": "metadata",
+      "retrieval_mode": "dense",
+      "k": 10,
+      "n_questions": 100,
+      "n_benchmark_rows": 100,
+      "gold_resolved": 100,
+      "hit_at_k": 0.21,
+      "recall_at_k": 0.00685508612522743,
+      "precision_at_k": 0.031,
+      "mrr": 0.06653968253968254,
+      "ndcg_at_k": 0.0298754987967156
+    },
+    {
+      "representation": "metadata",
+      "retrieval_mode": "hybrid",
+      "k": 10,
+      "n_questions": 100,
+      "n_benchmark_rows": 100,
+      "gold_resolved": 100,
+      "hit_at_k": 0.25,
+      "recall_at_k": 0.010865002168125838,
+      "precision_at_k": 0.042,
+      "mrr": 0.08703174603174603,
+      "ndcg_at_k": 0.0411926529550496
+    }
+  ],
+  "build_meta": {
+    "plain": {
+      "representation": "plain",
+      "embeddings_cache": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\cache\\embeddings_plain_nomic-embed-text_5740.npy",
+      "indexed_text_sample": "Psychologkal Bulletin 1985, Vol. 98. No. 2, 31 Copyright 1985 by the American Psychological Association, Inc. 0033-2909/85/$00.75 Stress, Social Support, and the Buffering Hypothesis Sheldon Cohen Carnegie-Mellon University Thomas Ashby Wills Cornell University Medical College The purpose of this ar"
+    },
+    "metadata": {
+      "representation": "metadata",
+      "embeddings_cache": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\cache\\embeddings_metadata_nomic-embed-text_5740.npy",
+      "indexed_text_sample": "Document: [PDF] Stress, Social Support, and the Buffering Hypothesis. Expertise: Sleep, wellbeing, flourishing, belonging, social support. Page: 1. Section: body.\n\nPsychologkal Bulletin 1985, Vol. 98. No. 2, 31 Copyright 1985 by the American Psychological Association, Inc. 0033-2909/85/$00.75 Stress"
+    }
+  },
+  "artifacts": {
+    "per_question_csv": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\outputs\\per_question_20260701_130633.csv",
+    "summary_csv": "C:\\Users\\MossabBatal\\Desktop\\psychology_mas\\ollama_contextual_eval\\outputs\\summary_20260701_130633.csv"
+  }
+}

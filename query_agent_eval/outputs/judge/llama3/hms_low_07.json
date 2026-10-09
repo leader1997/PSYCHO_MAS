@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_07",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:41:07.410284+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑crafted for a low‑risk student case, providing safety communication and evidence on key XAI contributors. It aligns with the model’s risk interpretation and supports expert reporting without diagnostic or treatment language. However, it does not cover all identified XAI factors (e.g., campus belonging, weekend sleep), which slightly limits full alignment."
+}

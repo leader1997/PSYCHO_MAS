@@ -1,0 +1,17 @@
+{
+  "card_type": "model_performance",
+  "model": "Random Forest",
+  "family": "ML",
+  "metrics": {
+    "auc": 0.8486,
+    "accuracy": 0.7687,
+    "f1": 0.7468,
+    "macro_f1": 0.7669,
+    "recall": 0.7592,
+    "pr_auc": 0.8197,
+    "brier": 0.1577
+  },
+  "stability_score": 0.9715,
+  "calibration_score": 0.8423,
+  "model_weight": 0.6276
+}

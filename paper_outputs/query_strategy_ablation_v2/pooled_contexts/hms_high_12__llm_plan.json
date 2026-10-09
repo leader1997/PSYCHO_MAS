@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_high_12",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.963431,
+      "chunk_id": "DOC_F002_p1_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being. Introduction On May 2, 2023, the Surgeon General of the United States stated the country was experiencing an epidemic of loneliness and isolation so severe that the negative health impacts were compa- rable to smoking 15 cigarettes a day [1]. Connecting with others was described as key to over- coming this epidemic, but establishing and maintaining connections is particularly challenging for college students. The transition from high school requires that students, who are already navigating myriad psychological changes during mid- to late-adolescence [2], adapt to unfamiliar academic and social environments while coping with newfound indepen- dence and novel living arrangements [3]. The widespread adoption of virtual instruction since the onset of the COVID-19 pandemic has created new barriers to connecting and increased students’ screen time, which is associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging",
+      "query_qid": "Q4",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.961619,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in",
+      "query_qid": "Q3",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.960984,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students.",
+      "query_qid": "Q6",
+      "pool_rank": 3
+    },
+    {
+      "rank": 2,
+      "score": 0.913024,
+      "chunk_id": "DOC_F003_p2_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Psychological Science 33(7) 1049 The Need to Belong and Mental Health Among Young Adults in College Over the past 10 years, there has been a significant increase in the prevalence of depression, anxiety, and suicide in young adults (Duffy et al., 2019; Twenge et al., 2019). Indeed, nearly 19% of first-year college students globally are diagnosed with depression each year (Auerbach et al., 2018), and research suggests that rates are rising more for younger birth cohorts (Kessler et al., 2005; Twenge, 2015). From the early 2000s to now, rates of major depressive episodes have nearly doubled in young adults between the ages of 18 and 25 years (Twenge et al., 2019). It is well known that stressful life events and health behaviors (e.g., sleep) play an important role in predicting increases in depres- sive symptomatology and psychological distress among young adults (Breslau et al., 1996; Kendler et al., 1999; Monroe et al., 1999). Adolescence and young adulthood are also a critical time for developing and maintaining social connections, particularly among first-year uni- versity students as they build their social networks and adjust to a new lifestyle away from home. Greater feel- ings of social connectedness are associated with greater well-being in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This",
+      "query_qid": "Q4",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.909729,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "Q1",
+      "pool_rank": 5
+    }
+  ]
+}

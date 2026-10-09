@@ -1,0 +1,2 @@
+claim_support_rate,partial_support_rate,unsupported_claim_rate,hallucination_rate,citation_precision,n_claims
+0.5454545454545454,0.45454545454545453,0.0,0.0,1.0,11

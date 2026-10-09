@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_08",
+  "stratum": "borderline",
+  "qid": "Q6",
+  "question": "What are evidence-based strategies for leveraging existing protective factors, such as high exercise frequency (exerc) and flourishing (flourish), to build resilience and reduce future screening risk?",
+  "retrieval_query": "enhancing resilience through physical activity and positive mental health practices in college students",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:48.699331+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.883142,
+      "chunk_id": "DOC_A001_p5_c2",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of depression, college students may participate in activities that could impact their well-being and could lead to substance abuse, self-"
+    },
+    {
+      "rank": 2,
+      "score": 0.882319,
+      "chunk_id": "DOC_G004_p4_c2",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 4,
+      "category_code": "G_screening_communication",
+      "text": "Hagger, Chatzisarantis, & Biddle, 2002). Adolescents’ physical activity, for example, is more strongly related to personality traits such as achievement orientation and sensation-seeking than it is to specific beliefs about the behavior such as attitudes, outcome expectations, or perceived benefits of physical activity (Sallis, Prochaska, & Taylor, 2000; see Ulleberg & Rundmo, 2003, for similar patterns in the domain of adolescent risky driving behavior). Young adults typically have fewer health problems than their older counterparts, and unrealistic optimism about health risks (cf. Renner, Knoll, & Schwarzer, 2000; Weinstein, 1984). As such, young adults’ beliefs about their health status may be less"
+    },
+    {
+      "rank": 3,
+      "score": 0.877465,
+      "chunk_id": "DOC_A002_p1_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress, anxiety, and depression. These symptoms significantly affect their relationships, academic performance, physical health, and future opportuni- ties [1,2]. Healthcare 2025, 13, 1948 https://doi.org/10.3390/healthcare13161948"
+    },
+    {
+      "rank": 4,
+      "score": 0.87209,
+      "chunk_id": "DOC_F002_p2_c3",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved well-being [27–29]. In college students, increases in belonging are associated with improved psychological well- being [30, 31] and reduced depressive symptoms, even after controlling for other social factors such as loneliness and frequency of social interactions [32]. Belonging does not emerge simply from being around others or having a social support network; engagement with the members of that network through communication or other interactions is also required [33]. Most social support and engagement studies focus on their links to depression and anxiety (e.g. [18]). However, mental health should not be conceptualized merely as the absence of mental illness; subjective well-being (SWB) and other positive experiences are also important (e.g., [34, 35]). SWB is a construct that encompasses life satisfaction, optimism, the absence of negative emotions, and the presence of positive emotions [36]. Increases in SWB are associated with a variety of positive outcomes, including good health, work success, more prosocial behavior, and better relationships with others [37, 38]. PLOS MENT AL HEALTH Well-being in college students PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 2 / 20 independen t consultan t to Seity. IR and MH are related to the founders of Seity Health and were reimburse"
+    },
+    {
+      "rank": 5,
+      "score": 0.847522,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_07",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.501) is extremely close to the decision threshold (0.5), what are the established guidelines for interpreting model output when a case falls into this near-threshold, borderline range?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "When a probability is very close to the decision threshold, treat the case as uncertain rather than decisive. Use local explanation methods such as LIME to identify which features are pushing the prediction above or below the cutoff and present both supportive and opposing evidence (Context 1). Because high‑stakes decisions cannot rely on blind faith, guidelines recommend flagging borderline predictions for additional review—either by collecting more data or by having a clinician weigh the explanation against prior knowledge (Context 2, 5). In addition to overall model metrics, trust in an individual prediction should be judged through its intelligible explanation and the user’s confidence in that reasoning (Context 3‑4). Thus, near‑threshold outputs warrant cautious interpretation and often a human‑in‑the‑loop review before action.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:34:00.210305+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What clinical context and severity levels should be considered when reviewing 'Loneliness' as the primary feature contributing to elevated screening risk, especially given its high contribution weight?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Loneliness should be examined in contexts where it is highly prevalent and strongly linked to depressive symptoms—such as university students (≈45–55 % screen positive) and rural‑to‑urban migrants, where studies show it mediates the effect of low social support on depression. Because loneliness carries a high contribution weight in screening models, clinicians should treat a positive loneliness screen as a marker for elevated risk and assess severity using the established scale cutoff; higher scores are associated with physiological changes (enhanced sympathetic tone, HPA activation) that signal more severe psychosocial distress. Monitoring trends over time—e.g., the decline from 54 % to 43 % among Ohio State students between 2022 and 2025—helps gauge population‑level severity, while individual scores guide targeted referral for further depression assessment or supportive interventions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:35:26.857566+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How should 'Food insecurity worry' be contextualized in relation to other stressors (e.g., financial stress) when assessing elevated screening risk, and what are the associated academic support considerations?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Food insecurity worry is a statistically significant contributor to elevated screening risk, often co‑occurring with other basic‑needs stressors such as housing insecurity and financial strain. In the Hope Center survey, 41 % of students reported food insecurity, and among Pell Grant recipients it was 52 %, higher than the 35 % seen in non‑recipients (Context 2). Students who stopped out or considered stopping out cited basic‑needs insecurity or financial reasons in 79 % of cases, indicating that food worry is intertwined with economic stress (Context 2). Academic outcomes are affected indirectly through co‑occurring depression, anxiety, and eating‑disorder symptoms, which the literature links to lower GPA (Context 3). Academic support should include access to campus meal programs, counseling for mental‑health and eating‑disorder symptoms, financial‑aid navigation, and flexible accommodations that address both food insecurity and its associated stressors; students reporting extreme distress should be referred to qualified support services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:37:02.075721+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of 'Academic impairment' being identified as a strong protective factor, and how should this mitigating evidence be weighed against other risk factors?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "The retrieved passages do not provide any information indicating that “academic impairment” functions as a protective factor; none of the contexts describe it as such or discuss its impact on risk assessment. Consequently, no evidence‑based clinical implications can be drawn from these sources regarding how to weigh this mitigating factor against other risks.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:37:51.206039+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What specific, non-diagnostic support considerations should be provided to an expert reviewer when synthesizing multiple contributing factors (e.g., loneliness vs. academic impairment) into a comprehensive report?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "When compiling a comprehensive report, the expert reviewer should first contextualize each contributing factor within the broader screening framework—using systematic data on strengths and needs rather than diagnostic labels. They should examine patterns across grades or classrooms to identify whether loneliness or academic impairment clusters with other social‑emotional indicators, then decide if group‑level classroom supports or individualized interventions are most appropriate. The reviewer must document how many students were screened for each domain (e.g., depression, suicidality, academic engagement) and note any risk of harm that requires immediate response, while ensuring a clear triage pathway to Tier 2 or Tier 3 services. Incorporating well‑being metrics—such as life satisfaction, school belonging, and positive mental health indicators—helps balance risk factors with protective strengths and reduces stigma for students and families. Finally, the report should outline next steps in a multi‑tiered system of supports, emphasizing equitable allocation of resources and ongoing monitoring rather than prescribing treatment or diagnosis.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:39:11.735488+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the standardized, non-diagnostic language required for communicating elevated screening risk to a student and their support system, ensuring appropriate safety protocols are followed?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When a student’s screening result indicates elevated risk, the communication should state plainly that the assessment has identified increased concern for mental‑health challenges and potential harm to self or others. It must note that an immediate follow‑up evaluation will be carried out by qualified staff and that safety protocols—such as crisis monitoring—will be activated. The message should outline next steps, including timely referral to school or community mental‑health services and the provision of support resources for the student and their family. This language remains non‑diagnostic, focusing on risk level and the need for further assessment rather than labeling a disorder. If the student is judged at imminent risk, the communication must recommend urgent referral to crisis or emergency services and ensure all involved parties are informed of the safety plan.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:40:35.785818+00:00"
+    }
+  }
+}

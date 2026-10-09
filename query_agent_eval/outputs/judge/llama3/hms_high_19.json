@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_19",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:25:55.312888+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 2,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 3,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and useful for a support report, with clear and non-repetitive questions. However, it covers only one of the five key XAI contributors, limiting alignment with the model’s full explanation. Safety considerations are partially met; some wording could be more explicitly non-diagnostic."
+}

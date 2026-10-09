@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "XAICard",
+  "type": "object",
+  "required": [
+    "case_id",
+    "prediction_label",
+    "prediction_probability",
+    "model_name",
+    "top_positive_factors",
+    "top_protective_factors",
+    "important_warning"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "prediction_label": { "type": "string", "enum": ["elevated_risk", "not_elevated_risk"] },
+    "prediction_probability": { "type": "number", "minimum": 0, "maximum": 1 },
+    "model_name": { "type": "string" },
+    "calibration_status": { "type": "string" },
+    "top_positive_factors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["feature", "display_name", "contribution", "direction", "interpretation"],
+        "properties": {
+          "feature": { "type": "string" },
+          "display_name": { "type": "string" },
+          "contribution": { "type": "number" },
+          "direction": { "type": "string" },
+          "interpretation": { "type": "string" }
+        }
+      }
+    },
+    "top_protective_factors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["feature", "display_name", "contribution", "direction", "interpretation"],
+        "properties": {
+          "feature": { "type": "string" },
+          "display_name": { "type": "string" },
+          "contribution": { "type": "number" },
+          "direction": { "type": "string" },
+          "interpretation": { "type": "string" }
+        }
+      }
+    },
+    "important_warning": { "type": "string" }
+  }
+}

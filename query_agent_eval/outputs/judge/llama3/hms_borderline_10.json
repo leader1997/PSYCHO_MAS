@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_10",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:23:10.423313+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing useful risk interpretation, XAI contributor evidence, uncertainty discussion, and safety strategies. It aligns well with the model’s XAI contributors but does not cover all contributing features (e.g., sleep_wknight, positiveMH, food_worry) or protective factors beyond academic impairment. Overall, it is a strong plan that supports expert decision-making while maintaining safety and non-diagnostic framing."
+}

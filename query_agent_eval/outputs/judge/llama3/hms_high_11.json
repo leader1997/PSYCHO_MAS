@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_11",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:10:09.344375+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 2,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is generally well‑crafted and useful for an expert report, with clear, non‑redundant questions that avoid diagnostic or treatment language. However, it does not fully cover all major XAI contributors identified in the model output (only two of five risk factors are addressed), which reduces its alignment with the full explanatory scope. The plan remains highly relevant and adaptable to a high‑risk scenario, and the queries can be answered using existing scientific knowledge bases."
+}

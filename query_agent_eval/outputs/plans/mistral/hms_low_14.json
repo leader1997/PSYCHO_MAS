@@ -1,0 +1,117 @@
+{
+  "case_id": "hms_low_14",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:55:17.322066+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_14",
+    "risk_interpretation": {
+      "probability": 0.0577,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the model's prediction probability for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of 0.0577 prediction probability in context of depression and anxiety screening.",
+        "expected_evidence": [
+          "Interpretation of the model's prediction probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the model's prediction."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of gender discrimination to the model's prediction?",
+        "linked_xai_factor": "discrim_gender",
+        "retrieval_query": "Evidence for the contribution of gender discrimination in depression and anxiety screening.",
+        "expected_evidence": [
+          "Evidence supporting the contribution of gender discrimination"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind a significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of campus belonging (item 1) to the model's prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Evidence for the contribution of campus belonging (item 1) in depression and anxiety screening.",
+        "expected_evidence": [
+          "Evidence supporting the contribution of campus belonging (item 1)"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind a significant contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of attending a public institution to the model's prediction?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "Evidence for the contribution of attending a public institution in depression and anxiety screening.",
+        "expected_evidence": [
+          "Evidence supporting the contribution of attending a public institution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind a moderate contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of academic impairment in this student's case?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for the protective role of academic impairment in depression and anxiety screening.",
+        "expected_evidence": [
+          "Evidence supporting the protective role of academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To understand the evidence behind a significant protective factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of loneliness in this student's case?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for the protective role of loneliness in depression and anxiety screening.",
+        "expected_evidence": [
+          "Evidence supporting the protective role of loneliness"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the evidence behind a moderate protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "What safety measures should be considered when communicating the model's prediction to this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures for non-diagnostic communication in depression and anxiety screening.",
+        "expected_evidence": [
+          "Safety measures for non-diagnostic communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_14\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0577,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the model's prediction probability for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of 0.0577 prediction probability in context of depression and anxiety screening.\",\n         \"expected_evidence\": [\"Interpretation of the model's prediction probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide a clear understanding of the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of gender discrimination to the model's prediction?\",\n         \"linked_xai_factor\": \"discrim_gender\",\n         \"retrieval_query\": \"Evidence for the contribution of gender discrimination in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of gender discrimination\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind a significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of campus belonging (item 1) to the model's prediction?\",\n         \"linked_xai_factor\": \"belong1\",\n         \"retrieval_query\": \"Evidence for the contribution of campus belonging (item 1) in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of campus belonging (item 1)\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind a significant contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of attending a public institution to the model's prediction?\",\n         \"linked_xai_factor\": \"inst_public\",\n         \"retrieval_query\": \"Evidence for the contribution of attending a public institution in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Evidence supporting the contribution of attending a public institution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind a moderate contributor to the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of academic impairment in this student's case?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for the protective role of academic impairment in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Evidence supporting the protective role of academic impairment\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the evidence behind a significant protective factor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of loneliness in this student's case?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for the protective role of loneliness in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Evidence supporting the protective role of loneliness\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the evidence behind a moderate protective factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures should be considered when communicating the model's prediction to this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures for non-diagnostic communication in depression and anxiety screening.\",\n         \"expected_evidence\": [\"Safety measures for non-diagnostic communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

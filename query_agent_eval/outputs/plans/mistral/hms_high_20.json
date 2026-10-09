@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_high_20",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:27:30.293672+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_20",
+    "risk_interpretation": {
+      "probability": 0.9627,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the elevated screening risk for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of elevated screening risk in student profiles",
+        "expected_evidence": [
+          "Explanation of elevated screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of academic impairment (aca_impa) to the model's prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment contribution in student profiles",
+        "expected_evidence": [
+          "Academic impairment evidence"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributing factor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of flourishing (flourish) to the model's prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for flourishing contribution in student profiles",
+        "expected_evidence": [
+          "Flourishing evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of current financial situation (fincur) to the model's prediction?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Evidence for current financial situation contribution in student profiles",
+        "expected_evidence": [
+          "Current financial situation evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of loneliness (lonely) to the model's prediction?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for loneliness contribution in student profiles",
+        "expected_evidence": [
+          "Loneliness evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of food insecurity worry (food_worry) to the model's prediction?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food insecurity worry contribution in student profiles",
+        "expected_evidence": [
+          "Food insecurity worry evidence"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributing factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for this student?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep protective factor in student profiles",
+        "expected_evidence": [
+          "Weeknight sleep protective evidence"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of institution type (inst_type) for this student?",
+        "linked_xai_factor": "inst_type",
+        "retrieval_query": "Evidence for institution type protective factor in student profiles",
+        "expected_evidence": [
+          "Institution type protective evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What safety measures should be considered when communicating the elevated screening risk to this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety communication measures for elevated screening risk",
+        "expected_evidence": [
+          "Safety communication guidelines"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_20\",\n     \"risk_interpretation\": {\n       \"probability\": 0.9627,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the elevated screening risk for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of elevated screening risk in student profiles\",\n         \"expected_evidence\": [\"Explanation of elevated screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide a clear understanding of the risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of academic impairment (aca_impa) to the model's prediction?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment contribution in student profiles\",\n         \"expected_evidence\": [\"Academic impairment evidence\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of flourishing (flourish) to the model's prediction?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for flourishing contribution in student profiles\",\n         \"expected_evidence\": [\"Flourishing evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of current financial situation (fincur) to the model's prediction?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"Evidence for current financial situation contribution in student profiles\",\n         \"expected_evidence\": [\"Current financial situation evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of loneliness (lonely) to the model's prediction?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for loneliness contribution in student profiles\",\n         \"expected_evidence\": [\"Loneliness evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of food insecurity worry (food_worry) to the model's prediction?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food insecurity worry contribution in student profiles\",\n         \"expected_evidence\": [\"Food insecurity worry evidence\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for this student?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep protective factor in student profiles\",\n         \"expected_evidence\": [\"Weeknight sleep protective evidence\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of institution type (inst_type) for this student?\",\n         \"linked_xai_factor\": \"inst_type\",\n         \"retrieval_query\": \"Evidence for institution type protective factor in student profiles\",\n         \"expected_evidence\": [\"Institution type protective evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures should be considered when communicating the elevated screening risk to this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety communication measures for elevated screening risk\",\n         \"expected_evidence\": [\"Safety communication guidelines\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

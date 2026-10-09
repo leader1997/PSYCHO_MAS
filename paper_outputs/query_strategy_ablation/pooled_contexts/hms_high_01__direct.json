@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_high_01",
+  "arm": "direct",
+  "n_queries": 1,
+  "n_raw_hits": 5,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.935212,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",
+      "pool_rank": 1
+    },
+    {
+      "rank": 2,
+      "score": 0.860811,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",
+      "pool_rank": 2
+    },
+    {
+      "rank": 3,
+      "score": 0.847955,
+      "chunk_id": "DOC_E001_p7_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 7,
+      "category_code": "E_financial_food",
+      "text": "7 7 36% of students involved with the carceral system experience homelessness. 72% of former foster youth experience housing insecurity. 62% of students with disabilities experience basic needs insecurity related to food and/or housing—13 percentage points higher than students without disabilities (56%). The link between student basic needs security and persistence is unequivocal: 52% of Pell Grant recipients experience food insecurity—17 percentage points higher than non- Pell Grant recipients (35%). 79% of student respondents to our survey who had previously stopped out of college (and subsequently re-enrolled), or were considering stopping out of college, told us it was due to basic needs insecurity (emotional stress/ mental health, lacking money for living expenses, childcare/caregiver responsibilities, lack of transportation, lack of access to internet/technology) or financial reasons (cost of attendance/ insufficient financial aid, cost of textbooks or course materials, unexpected financial expense/emergency).",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",
+      "pool_rank": 3
+    },
+    {
+      "rank": 4,
+      "score": 0.844249,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",
+      "pool_rank": 4
+    },
+    {
+      "rank": 5,
+      "score": 0.830701,
+      "chunk_id": "DOC_D003_p3_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "(Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have considered a range of factors—such as financial aid (Dynarski, 1999) and academic and social involvement (Tinto, 1998)—that affect re maining in and completing college. Another important factor may be mental health. Mental disorders frequently have firs t onset shortly befo re or during the typical college age range (18-24) (Kessler et al., 2005), yet relatively little is known about the link between mental heal th and academic success in college. Understanding this connection could be va luable due to the many ways in which college settings can reach young people; co llege represents the only time in many people’s lives when a single setting enco mpasses their main activities, social networks, and a range of supportive services and organizations. We examine how symptoms of me ntal disorders predict academic outcomes during college using unique data collected at a large, academically",
+      "query_qid": "D1",
+      "retrieval_query": "college student elevated screening risk screening probability 0.9795 contributing factors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry",
+      "pool_rank": 5
+    }
+  ]
+}

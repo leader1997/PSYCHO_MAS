@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_01",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:06:15.421965+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 2,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing a solid foundation for expert review. It effectively covers key XAI contributors such as financial situation, loneliness, and flourishing, but omits other significant risk and protective factors (e.g., age, campus belonging, binge drinking, academic impairment). Consequently, the alignment with the full set of model contributors is moderate. The questions rely on case‑specific numeric contributions that cannot be answered from a generic scientific knowledge database, limiting kdb answerability. Overall usefulness for an expert report is good, though it could be enhanced by including additional protective factors and tailoring more explicitly to the borderline risk strategy."
+}

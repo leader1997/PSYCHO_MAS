@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_20",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T10:14:19.587863+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the case, covering key XAI contributors and protective factors while maintaining a non‑diagnostic stance. It leverages scientific literature for answerability and supports expert reporting. Minor gaps remain in addressing all minor contributors (e.g., exercise frequency, institution type), but overall it meets high standards across dimensions."
+}

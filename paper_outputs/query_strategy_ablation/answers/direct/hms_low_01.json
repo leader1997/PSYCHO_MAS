@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_low_01",
+  "arm": "direct",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "answer": "The provided evidence does not specify an appropriate non-diagnostic communication strategy for a student with a low screening risk to prevent false reassurance. However, the context does establish that mental health screening should be viewed as a systematic, proactive process used to identify both strengths and needs for all students, rather than solely for those already displaying concerns. Best practices suggest that screening teams should inform students and families about the procedures in advance, and the process must include a defined method for assessing results and triaging students for further support. When screening is implemented, the goal is to connect students and families to comprehensive services and support groups, emphasizing that the screening itself is an early identification strategy.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain information regarding the specific correlation between high levels of flourishing or strong academic impairment status and reduced screening risk for depression and anxiety in college students. While one context notes that students who experience average to high levels of well-being tend to have better current and long-term outcomes, including academic success, this finding is not linked to the specific terminology or correlation requested. Therefore, a grounded answer to this planning question cannot be formulated using the retrieved materials.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "The provided evidence does not contain information regarding a general association between attending a public institution and elevated depression or anxiety screening risk among college students. While one context mentions a specific public college health center where screening for depression using the PHQ-2 is recommended, it does not offer statistical data or epidemiological findings linking institutional type to increased risk. Therefore, the general association requested cannot be determined from the retrieved materials.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain information regarding the relationship between high current financial stability (fincur) and reduced screening risk of depression or anxiety in young adults. The context passages discuss general mental health screening practices, the use of tools like the PHQ-2 and PHQ-9, and the economic benefits of early intervention services, but they do not address the specific financial stability factor requested.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided evidence does not contain information regarding the known limitations or scope restrictions of a screening model when predicting risk far below an established decision threshold, such as a 0.05 probability. The context materials discuss the general implementation of screening tools, the benefits of early identification, and the use of specific instruments like the PHQ-2 and PHQ-9. However, they do not address the statistical boundaries or predictive limitations of the models themselves at low probability levels.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "answer": "When interpreting a low screening risk score, experts should consider contextual factors that may lead to symptom masking or under-reporting. For instance, individuals may report somatic symptoms or mask depressive symptoms to avoid mental health stigma, which can lead to under-detection of issues. Furthermore, a comprehensive review should look beyond symptoms to assess indicators of well-being, positive mental health, life satisfaction, school belonging, and social determinants of mental health. Screening measures can also gather information on these strengths alongside any reported difficulties. Considering both the student's strengths and symptoms provides a more complete picture of their mental health status.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "direct",
+      "case_id": "hms_low_01"
+    }
+  },
+  "n_contexts": 5
+}

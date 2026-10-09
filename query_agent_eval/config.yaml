@@ -1,0 +1,49 @@
+project:
+  name: query_agent_eval
+
+paths:
+  mas_root: ".."
+  cai_src: "../controlled_agentic_xai_rag/src"
+  profiles_jsonl: "data/case_profiles_50.jsonl"
+  outputs_dir: "outputs"
+  plans_dir: "outputs/plans"
+  judge_dir: "outputs/judge"
+
+ollama:
+  base_url: "http://localhost:11434"
+  request_timeout_seconds: 900
+  inter_call_delay_seconds: 1.0
+  temperature: 0.1
+
+generators:
+  - gemma4
+  - llama3
+  - qwen2.5
+  - phi4
+  - mistral
+
+judge:
+  model: "gpt-oss:20b"
+  temperature: 0.0
+
+profiles:
+  n_high: 20
+  n_low: 20
+  n_borderline: 10
+  risk_threshold: 0.5
+  near_threshold_band: 0.1
+
+metrics:
+  question_band_min: 5
+  question_band_max: 9
+  redundancy_jaccard: 0.8
+
+judge_dimensions:
+  - relevance
+  - xai_alignment
+  - kdb_answerability
+  - report_usefulness
+  - probability_adaptation
+  - safety
+  - clarity
+  - non_redundancy

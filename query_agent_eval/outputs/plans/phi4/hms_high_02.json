@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_02",
+  "model": "phi4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T08:05:45.774277+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_02",
+    "risk_interpretation": {
+      "probability": 0.9743,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.9743 for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of high prediction probability in non-diagnostic student mental health screenings",
+        "expected_evidence": [
+          "interpretation of high probabilities in predictive models",
+          "contextual understanding of elevated risk levels"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a high prediction probability is crucial for interpreting the model's output."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does academic impairment contribute to elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "impact of academic impairment on student mental health",
+        "expected_evidence": [
+          "studies linking academic performance and mental health",
+          "mechanisms by which academic stress affects anxiety/depression"
+        ],
+        "priority": "high",
+        "rationale": "Academic impairment is a major contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does food insecurity worry play in increasing depression/anxiety screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "effects of food insecurity on student mental health",
+        "expected_evidence": [
+          "research on food insecurity and its psychological impacts",
+          "correlation between financial stressors and mental health"
+        ],
+        "priority": "high",
+        "rationale": "Food insecurity worry is a significant factor in the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "In what ways does loneliness contribute to elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "impact of loneliness on mental health in students",
+        "expected_evidence": [
+          "literature on social isolation and its effects on anxiety/depression",
+          "student-specific studies on loneliness"
+        ],
+        "priority": "medium",
+        "rationale": "Loneliness is a notable contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "How does weeknight sleep quality act as a protective factor against elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "benefits of good sleep on student mental health",
+        "expected_evidence": [
+          "research on sleep and its protective effects on mental health",
+          "specific studies linking sleep quality to reduced anxiety/depression"
+        ],
+        "priority": "medium",
+        "rationale": "Weeknight sleep is a protective factor, though with unknown contribution level."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening be communicated to ensure appropriate follow-up?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "guidelines on conveying non-diagnostic results",
+          "strategies for ensuring proper referral and support"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear communication about the screening's purpose is essential."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What considerations should experts review when interpreting elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "considerations for expert interpretation of high-risk mental health screenings",
+        "expected_evidence": [
+          "factors influencing the accuracy and reliability of predictive models",
+          "contextual factors affecting student mental health assessments"
+        ],
+        "priority": "high",
+        "rationale": "Experts need to consider various factors when interpreting high-risk predictions."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9743,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.9743 for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of high prediction probability in non-diagnostic student mental health screenings\",\n      \"expected_evidence\": [\n        \"interpretation of high probabilities in predictive models\",\n        \"contextual understanding of elevated risk levels\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a high prediction probability is crucial for interpreting the model's output.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does academic impairment contribute to elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"impact of academic impairment on student mental health\",\n      \"expected_evidence\": [\n        \"studies linking academic performance and mental health\",\n        \"mechanisms by which academic stress affects anxiety/depression\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Academic impairment is a major contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does food insecurity worry play in increasing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"effects of food insecurity on student mental health\",\n      \"expected_evidence\": [\n        \"research on food insecurity and its psychological impacts\",\n        \"correlation between financial stressors and mental health\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food insecurity worry is a significant factor in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"In what ways does loneliness contribute to elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"impact of loneliness on mental health in students\",\n      \"expected_evidence\": [\n        \"literature on social isolation and its effects on anxiety/depression\",\n        \"student-specific studies on loneliness\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Loneliness is a notable contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does weeknight sleep quality act as a protective factor against elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"benefits of good sleep on student mental health\",\n      \"expected_evidence\": [\n        \"research on sleep and its protective effects on mental health\",\n        \"specific studies linking sleep quality to reduced anxiety/depression\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Weeknight sleep is a protective factor, though with unknown contribution level.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening be communicated to ensure appropriate follow-up?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"guidelines on conveying non-diagnostic results\",\n        \"strategies for ensuring proper referral and support\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear communication about the screening's purpose is essential.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What considerations should experts review when interpreting elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"considerations for expert interpretation of high-risk mental health screenings\",\n      \"expected_evidence\": [\n        \"factors influencing the accuracy and reliability of predictive models\",\n        \"contextual factors affecting student mental health assessments\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Experts need to consider various factors when interpreting high-risk predictions.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

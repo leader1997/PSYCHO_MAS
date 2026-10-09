@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_04",
+  "model": "qwen2.5",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:25:49.797730+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_04",
+    "risk_interpretation": {
+      "probability": 0.9736,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.9736 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions and their relationship to decision thresholds.",
+        "expected_evidence": [
+          "Explanation of how probabilities are interpreted relative to decision thresholds",
+          "Guidance on risk levels based on probability values"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the correct understanding of the elevated screening risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we confirm that 'Academic impairment' (aca_impa) is a major contributor to the model's prediction, and what specific evidence supports this?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence supporting the impact of academic impairment on depression/anxiety screening risk.",
+        "expected_evidence": [
+          "Studies linking academic performance with mental health",
+          "Surveys or data showing correlations between academic stress and psychological distress"
+        ],
+        "priority": "high",
+        "rationale": "To validate the importance of this feature in the prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the contribution of 'Campus belonging (item 2)' (belong2) to the model's elevated screening risk prediction?",
+        "linked_xai_factor": "belong2",
+        "retrieval_query": "Research on how campus belonging affects mental health among students.",
+        "expected_evidence": [
+          "Studies examining the impact of social integration on student well-being",
+          "Surveys or data showing correlations between campus engagement and psychological distress"
+        ],
+        "priority": "high",
+        "rationale": "To understand the specific role this feature plays in the prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does 'Past financial stress' (finpast) contribute to reducing the model's predicted screening risk, and what evidence supports this?",
+        "linked_xai_factor": "finpast",
+        "retrieval_query": "Evidence on how past financial stress can mitigate current mental health risks.",
+        "expected_evidence": [
+          "Studies showing resilience factors in financial stress",
+          "Surveys or data demonstrating the protective effects of past financial challenges"
+        ],
+        "priority": "medium",
+        "rationale": "To consider protective factors that may offset some risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the calibrated model, what are the potential limitations or uncertainties in the prediction for this case?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Understanding model calibration and its implications on prediction accuracy.",
+        "expected_evidence": [
+          "Information on how model calibration affects reliability",
+          "Examples of scenarios where model predictions may be less accurate"
+        ],
+        "priority": "medium",
+        "rationale": "To acknowledge any limitations in the predictive model."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the elevated screening risk to the student and their support network without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health risks in a non-diagnostic manner.",
+        "expected_evidence": [
+          "Guidelines on how to discuss mental health concerns with students",
+          "Strategies for providing support while maintaining confidentiality"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the communication is supportive and non-threatening."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What considerations should be taken into account when preparing an expert-facing support report for this case, given the high risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for creating comprehensive reports for students with elevated screening risks.",
+        "expected_evidence": [
+          "Templates or frameworks for constructing expert reports",
+          "Guidance on including relevant contextual information"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the report is thorough and informative."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_04\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9736,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.9736 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions and their relationship to decision thresholds.\",\n      \"expected_evidence\": [\"Explanation of how probabilities are interpreted relative to decision thresholds\", \"Guidance on risk levels based on probability values\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the correct understanding of the elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we confirm that 'Academic impairment' (aca_impa) is a major contributor to the model's prediction, and what specific evidence supports this?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Evidence supporting the impact of academic impairment on depression/anxiety screening risk.\",\n      \"expected_evidence\": [\"Studies linking academic performance with mental health\", \"Surveys or data showing correlations between academic stress and psychological distress\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To validate the importance of this feature in the prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence supports the contribution of 'Campus belonging (item 2)' (belong2) to the model's elevated screening risk prediction?\",\n      \"linked_xai_factor\": \"belong2\",\n      \"retrieval_query\": \"Research on how campus belonging affects mental health among students.\",\n      \"expected_evidence\": [\"Studies examining the impact of social integration on student well-being\", \"Surveys or data showing correlations between campus engagement and psychological distress\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the specific role this feature plays in the prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does 'Past financial stress' (finpast) contribute to reducing the model's predicted screening risk, and what evidence supports this?\",\n      \"linked_xai_factor\": \"finpast\",\n      \"retrieval_query\": \"Evidence on how past financial stress can mitigate current mental health risks.\",\n      \"expected_evidence\": [\"Studies showing resilience factors in financial stress\", \"Surveys or data demonstrating the protective effects of past financial challenges\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To consider protective factors that may offset some risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the calibrated model, what are the potential limitations or uncertainties in the prediction for this case?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Understanding model calibration and its implications on prediction accuracy.\",\n      \"expected_evidence\": [\"Information on how model calibration affects reliability\", \"Examples of scenarios where model predictions may be less accurate\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To acknowledge any limitations in the predictive model.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the elevated screening risk to the student and their support network without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health risks in a non-diagnostic manner.\",\n      \"expected_evidence\": [\"Guidelines on how to discuss mental health concerns with students\", \"Strategies for providing support while maintaining confidentiality\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the communication is supportive and non-threatening.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What considerations should be taken into account when preparing an expert-facing support report for this case, given the high risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for creating comprehensive reports for students with elevated screening risks.\",\n      \"expected_evidence\": [\"Templates or frameworks for constructing expert reports\", \"Guidance on including relevant contextual information\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the report is thorough and informative.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

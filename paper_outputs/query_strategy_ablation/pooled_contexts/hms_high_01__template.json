@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_high_01",
+  "arm": "template",
+  "n_queries": 10,
+  "n_raw_hits": 50,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "T_risk",
+      "retrieval_query": "interpreting elevated depression anxiety screening risk college students non-diagnostic guidelines",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.981456,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of",
+      "query_qid": "T_xai_1",
+      "retrieval_query": "Academic impairment and college student depression anxiety screening evidence (aca_impa)",
+      "pool_rank": 2
+    },
+    {
+      "rank": 2,
+      "score": 0.970631,
+      "chunk_id": "DOC_A001_p8_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 8,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 8 a total of 27 articles met the criteria for this review and each article was appraised using the Johns Hopkins Nursing Evidence-Based Practice Research and Non-Research Evidence Appraisal Tool. Table A2 outlines the Appraisal Table of the 27 articles (see Appendix A). Available Knowledge/Review of the Literature According to the U.S. Preventative Services Task Force (USPSTF), depression is among the leading causes of disability in individuals 15 years of age and older (Siu & U.S. Preventive Services Task Force (USPSTF), 2016). By 2020, depressive disorders are predicted to be the second leading cause of disability and death (Soltani, Smith, Beck, & Johnson, 2014). Prevalence of depression among college students accounts for approximately 16.7% and is more than twice as common among college students compared to the general population (Liu et al., 2019; English & Campbell, 2019). Thus, depression is highly prevalent and appears to be increasing. Depression is one of the leading health concerns in college population, yet roughly half of college students with depression receive treatment (English & Campbell, 2019). Mental health among college students affects important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity, which should be a significant concern for certain stakeholders such as campus administrators, college professors, and parents (Lipson, Gaddis, Heinze, & Eisenberg, 2015; Ebert et al., 2018). In addition, depression has been associated with increased health care costs such as emergency department visits and inpatient hospitalizations (Wright et al., 2015). In the United States alone, the total cost of mental illness in young",
+      "query_qid": "T_xai_1",
+      "retrieval_query": "Academic impairment and college student depression anxiety screening evidence (aca_impa)",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 0.965815,
+      "chunk_id": "DOC_C003_p2_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "2 INTRODUCTION Following the peak of the COVID-19 pandemic, former Surgeon General Vivek Murthy declared loneliness as a public health issue due to its association with mental and physical well-being (US HHS, 2023). Research studies consistently show that young adults report the highest rates of loneliness across the population (Ellard et al., 2022). Loneliness is described as a personal feeling of insufficient close connections in social relationships or having fewer social interactions than one wishes, regardless of the actual level of social engagement one has (Ellard et al., 2023; Yang, 2019). It should therefore be understood as a subjective experience that is not entirely dependent on the number of social interactions. Loneliness has widespread effects on mental health and well-being, and is associated with heart disease and premature death (US HHS, 2023). This report summarizes findings about student loneliness from research studies conducted at The Ohio State University. HIGHLIGHTS • Nationally, the prevalence of loneliness in students is on the decline (p < .001). • At Ohio State, the proportion of students categorized as lonely has significantly declined over time, with 53.2% of students categorized as lonely in 2022 and 43.2% of students categorized as lonely in 2025. • At Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive",
+      "query_qid": "T_xai_4",
+      "retrieval_query": "Loneliness and college student depression anxiety screening evidence (lonely)",
+      "pool_rank": 4
+    },
+    {
+      "rank": 2,
+      "score": 0.965475,
+      "chunk_id": "DOC_C003_p3_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 3,
+      "category_code": "C_loneliness_isolation",
+      "text": "3 loneliness is expected during these transitions, national studies indicate that loneliness among college students is widespread and associated with various physical and mental health issues (Bonsaksen et al., 2022), which can affect retention and completion rates (Zhai & Carney, 2024). Findings from the National College Health Assessment Loneliness continues to be an important focus for higher education leaders and practitioners, and monitoring loneliness rates provides important context. The National College Health Assessment provides multi-institutional data on college student loneliness. The American College Health Association (ACHA) conducts the NCHA annually and uses the UCLA 3-item loneliness scale to assess student loneliness (Hughes et al., 2004). The scale is comprised of three questions with the responses “hardly ever”, “some of the time” and “often”. These three options are worth 1, 2 and 3 points, respectively. The scores for each question are added together to create a total score from 3 to 9. Those with a score of six or greater are categorized as “lonely.” Loneliness in the National NCHA Sample Recent data from the national sample of university students taking the National College Health Assessment (NCHA) shows that the percentage of students reporting loneliness nationally has significantly decreased between 2022 and 2024. Table 1 shows differences in loneliness over time in the national NCHA sample between 2022 and 2024 (ACHA, 2022; ACHA, 2024). In 2024, approximately 75% of participating institutions were public universities and 94% of institutions were 4-year universities. The NCHA began including the loneliness scale after the onset of the COVID -19 pandemic. Table 1. NCHA National reference group",
+      "query_qid": "T_xai_4",
+      "retrieval_query": "Loneliness and college student depression anxiety screening evidence (lonely)",
+      "pool_rank": 5
+    }
+  ]
+}

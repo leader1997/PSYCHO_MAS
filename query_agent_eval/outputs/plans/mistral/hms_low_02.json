@@ -1,0 +1,129 @@
+{
+  "case_id": "hms_low_02",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:31:31.544481+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_02",
+    "risk_interpretation": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the student's screening risk for depression and anxiety, given a prediction probability of 0.0505 and a decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening risk with given probability and threshold",
+        "expected_evidence": [
+          "interpretation of 0.0505 probability and 0.5 threshold"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the expert report"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of exercise frequency to the model's prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Evidence for exercise frequency contribution to model prediction",
+        "expected_evidence": [
+          "evidence for exercise frequency contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To explain the role of exercise frequency in the model's prediction"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of weekend sleep to the model's prediction?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "Evidence for weekend sleep contribution to model prediction",
+        "expected_evidence": [
+          "evidence for weekend sleep contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To explain the role of weekend sleep in the model's prediction"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of institution size to the model's prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Evidence for institution size contribution to model prediction",
+        "expected_evidence": [
+          "evidence for institution size contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To explain the role of institution size in the model's prediction"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of academic impairment on the student's screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for protective effect of academic impairment",
+        "expected_evidence": [
+          "evidence for protective effect of academic impairment"
+        ],
+        "priority": "high",
+        "rationale": "To highlight the protective factor in the student's case"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of age on the student's screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Evidence for protective effect of age",
+        "expected_evidence": [
+          "evidence for protective effect of age"
+        ],
+        "priority": "high",
+        "rationale": "To highlight the protective factor in the student's case"
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of flourishing on the student's screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for protective effect of flourishing",
+        "expected_evidence": [
+          "evidence for protective effect of flourishing"
+        ],
+        "priority": "high",
+        "rationale": "To highlight the protective factor in the student's case"
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "What safety measures should be considered when communicating the low-risk screening result to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures for low-risk communication",
+        "expected_evidence": [
+          "safety measures for low-risk communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_02\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0505,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the student's screening risk for depression and anxiety, given a prediction probability of 0.0505 and a decision threshold of 0.5?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening risk with given probability and threshold\",\n         \"expected_evidence\": [\"interpretation of 0.0505 probability and 0.5 threshold\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the expert report\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of exercise frequency to the model's prediction?\",\n         \"linked_xai_factor\": \"exerc\",\n         \"retrieval_query\": \"Evidence for exercise frequency contribution to model prediction\",\n         \"expected_evidence\": [\"evidence for exercise frequency contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To explain the role of exercise frequency in the model's prediction\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of weekend sleep to the model's prediction?\",\n         \"linked_xai_factor\": \"sleep_wkend\",\n         \"retrieval_query\": \"Evidence for weekend sleep contribution to model prediction\",\n         \"expected_evidence\": [\"evidence for weekend sleep contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To explain the role of weekend sleep in the model's prediction\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of institution size to the model's prediction?\",\n         \"linked_xai_factor\": \"inst_size\",\n         \"retrieval_query\": \"Evidence for institution size contribution to model prediction\",\n         \"expected_evidence\": [\"evidence for institution size contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To explain the role of institution size in the model's prediction\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of academic impairment on the student's screening risk?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for protective effect of academic impairment\",\n         \"expected_evidence\": [\"evidence for protective effect of academic impairment\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To highlight the protective factor in the student's case\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of age on the student's screening risk?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"Evidence for protective effect of age\",\n         \"expected_evidence\": [\"evidence for protective effect of age\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To highlight the protective factor in the student's case\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of flourishing on the student's screening risk?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for protective effect of flourishing\",\n         \"expected_evidence\": [\"evidence for protective effect of flourishing\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To highlight the protective factor in the student's case\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures should be considered when communicating the low-risk screening result to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures for low-risk communication\",\n         \"expected_evidence\": [\"safety measures for low-risk communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

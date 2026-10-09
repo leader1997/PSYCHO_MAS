@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_high_01",
+  "model": "llama3",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T18:59:44.099088+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_01",
+    "risk_interpretation": {
+      "probability": 0.9795,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the elevated screening risk indicating about this student's mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "student_profile",
+          "prediction_probability"
+        ],
+        "priority": "high",
+        "rationale": "To understand the implications of the elevated screening risk"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How did 'Academic impairment' contribute to the model's prediction of this student's mental health?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "xai_contributors",
+          "student_profile"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of 'Academic impairment' in the model's prediction"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What protective factor, such as 'Institution type', contributed negatively to the model's prediction?",
+        "linked_xai_factor": "inst_type",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "protective_contributors",
+          "student_profile"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of protective factors in mitigating risk"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of the model's prediction, given its high probability?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "calibration",
+          "prediction_probability"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the uncertainty and limitations of the model's prediction"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What steps can be taken to ensure this student receives appropriate support without being misinformed about their mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "student_profile",
+          "risk_interpretation"
+        ],
+        "priority": "high",
+        "rationale": "To prioritize the student's well-being and safety"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_high_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9795,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the elevated screening risk indicating about this student's mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"student_profile\", \"prediction_probability\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the implications of the elevated screening risk\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How did 'Academic impairment' contribute to the model's prediction of this student's mental health?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"xai_contributors\", \"student_profile\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the role of 'Academic impairment' in the model's prediction\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factor, such as 'Institution type', contributed negatively to the model's prediction?\",\n      \"linked_xai_factor\": \"inst_type\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"protective_contributors\", \"student_profile\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the role of protective factors in mitigating risk\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of the model's prediction, given its high probability?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"calibration\", \"prediction_probability\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the uncertainty and limitations of the model's prediction\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What steps can be taken to ensure this student receives appropriate support without being misinformed about their mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"student_profile\", \"risk_interpretation\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To prioritize the student's well-being and safety\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote that the question plan includes questions that cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication. The questions are designed to be relevant to the student case and can guide contextual hybrid retrieval."
+}

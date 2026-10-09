@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_08",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9713) for elevated depression/anxiety screening risk, what are the established clinical guidelines and support considerations for expert review when interpreting such a strong model output?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A probability of 0.9713 should be treated as a strong signal that formal screening is warranted. The first step, in line with college health‑center guidelines, is to administer the PHQ‑2; a positive result prompts completion of the PHQ‑9 to quantify severity (PHQ‑9 ≥ 10 indicates clinically significant depression). A PHQ‑9 score at or above this threshold should trigger referral to counseling services and may be accompanied by patient‑targeted feedback, an intervention that has been shown in primary‑care trials to reduce depression severity. Clinicians must also assess for suicidality and implement safety planning, given the documented link between high scores and suicide risk. Finally, thorough documentation of the screening outcome, any feedback provided, and the referral plan is essential, and if campus resources are limited, students should be connected with external mental‑health services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:04:17.296154+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific understanding regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment—operationalized here as high levels of academic procrastination—shows a statistically significant positive association with both anxiety and depressive symptoms, with Spearman correlations ranging from r = 0.401 to r = 0.472 (p < 0.001) in medical student samples during the COVID‑19 pandemic. These findings suggest that students who report greater procrastination are more likely to screen at elevated risk for depression and anxiety. Longitudinal studies of college cohorts further demonstrate that depressive symptoms predict lower GPA and a higher probability of dropping out, even after controlling for prior academic performance and other covariates; this relationship is strongest among those also screening positive for anxiety disorders. Co‑occurring depression and anxiety are associated with the greatest reductions in academic achievement, indicating a synergistic effect on impairment. Consequently, elevated academic impairment can be viewed as a statistical contributor to increased screening risk for depressive and anxious symptomatology, warranting targeted mental‑health support for affected students.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:04:59.889601+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do food insecurity worry and current financial stress contribute to elevated screening risk, and what are evidence-based interventions for these specific stressors?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity and financial stress are statistically linked to higher rates of depression, anxiety, sleep disturbance, and suicidal ideation among adults and students (Context 1, Context 4). These hardships amplify psychological distress and impair health outcomes, thereby elevating screening risk for mental‑health concerns (Contexts 1, 5). Evidence suggests that interventions addressing basic needs—such as food assistance programs, housing subsidies, or enhanced financial aid—can reduce the prevalence of these material hardships and consequently lower associated mental‑health risk, although specific program efficacy details are not provided in the cited sources. For individuals identified at elevated risk, referral to qualified support services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:06:30.408527+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between perceived loneliness and elevated screening risk, particularly in the context of student populations?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Perceived loneliness—defined as the gap between desired and actual social relationships—is a well‑documented risk factor for depressive symptoms in adolescents and college students (Context 1, 2). Studies show that students with lower perceived social support are up to six times more likely to report depression, and loneliness partially mediates this relationship (Context 1, 2). In Ohio State’s 2025 NCHA data, over 40 % of undergraduates screened positive for loneliness, a figure that has declined from 53.2 % in 2022 but still represents a substantial proportion at risk for depression (Context 3). Consequently, elevated perceived loneliness is statistically associated with higher likelihood of a positive depression screen among students and should be treated as an important contributor when interpreting screening outcomes.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:07:34.745102+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What is the protective role of regular exercise (exerc) in mitigating elevated depression/anxiety screening risk among students?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The retrieved passages do not contain any information about the impact of regular physical activity on depression or anxiety screening outcomes among college students. Consequently, I cannot provide an evidence‑based statement regarding a protective role for exercise from these sources. If a student is experiencing elevated risk for depression or anxiety, it would be prudent to refer them to qualified mental‑health support services and consider incorporating general wellness strategies—including physical activity—while awaiting more specific research findings.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:08:30.426342+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the known limitations of using machine learning models for depression/anxiety screening, and how should model uncertainty be communicated to an expert clinician?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The retrieved passages describe systematic screening procedures (e.g., PHQ‑2 use in college health centers, school‑wide mental‑health screening, piloting and scaling strategies) but they contain no information about machine‑learning models, their performance limits, or how uncertainty should be conveyed to clinicians. Consequently, I cannot provide evidence‑based statements on ML limitations or communication practices from the given sources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:09:40.979511+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What non-diagnostic, supportive language should be used when communicating elevated screening risk to a student and an expert clinician?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When a student’s screening score indicates elevated risk, it is helpful to share the information in a supportive, non‑diagnostic way: “I noticed that you reported higher levels of stress and anxiety than most students; this suggests we might want to explore some coping strategies together.” Emphasize that the purpose of the screening is proactive support—“the goal is to identify challenges early so we can provide resources before they become more difficult.” Offer concrete next steps, such as a brief follow‑up conversation or referral to a counselor, and reassure confidentiality. For an expert clinician, communicate the same findings succinctly: “The student’s screening results point to increased risk for stress and anxiety; I recommend a further assessment to determine whether Tier 2 or Tier 3 supports would be appropriate.” This language frames the result as a statistical contributor to potential need rather than a diagnosis, aligning with best practices for early identification and prevention.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:10:39.672996+00:00"
+    }
+  }
+}

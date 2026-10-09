@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_07",
+  "stratum": "low",
+  "qid": "Q5",
+  "question": "What are the limitations of predictive models when the calculated probability falls far from the decision threshold, and how should this uncertainty be communicated to an expert reviewer?",
+  "retrieval_query": "Model calibration and interpretation guidelines for low-probability predictions",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:44.963558+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_H002_p2_c5",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "comprehensive, previous works have proposed variants, each with a unique emphasis. One notion of miscalibration is the difference in expectation between conﬁdence and accuracy, i.e. E ˆP [⏐⏐⏐P ( ˆY =Y | ˆP =p ) −p ⏐⏐⏐ ] (2) Expected Calibration Error (Naeini et al., 2015) – or ECE – approximates (2) by partitioning predictions into M equally-spaced bins (similar to the reliability diagrams) and"
+    },
+    {
+      "rank": 2,
+      "score": 0.935578,
+      "chunk_id": "DOC_H002_p2_c3",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "ˆY, ˆP ), where ˆY is a class prediction and ˆP is its associ- ated conﬁdence, i.e. probability of correctness. We would like the conﬁdence estimate ˆP to be calibrated, which in- tuitively means that ˆP represents a true probability. For example, given 100 predictions, each with conﬁdence of 0.8, we expect that 80 should be correctly classiﬁed. More formally, we deﬁne perfect calibration as P ( ˆY =Y | ˆP =p ) =p, ∀p∈ [0, 1] (1) where the probability is over the joint distribution. In all practical settings, achieving perfect calibration is impos- sible. Additionally, the probability in (1) cannot be com- puted using ﬁnitely many samples since ˆP is a continuous random variable. This motivates the need for empirical ap- proximations that capture the essence of (1). Reliability Diagrams (e.g. Figure 1 bottom) are a visual representation of model calibration (DeGroot & Fienberg, 1983; Niculescu-Mizil & Caruana, 2005). These diagrams plot expected sample accuracy as a function of conﬁdence. If the model is perfectly calibrated – i.e. if (1) holds – then the diagram should plot the identity function. Any devia- tion from a perfect diagonal represents miscalibration. To estimate the expected accuracy from ﬁnite samples, we group predictions intoM interval bins (each of size 1/M) and calculate the accuracy of each bin. Let Bm be the set of indices of samples whose prediction conﬁdence falls into the intervalIm = (m−1 M , m M ]. The accuracy ofBm is acc(Bm) = 1 |Bm| ∑ i∈Bm 1(ˆyi =yi), where ˆyi andyi are the predicted and true class"
+    },
+    {
+      "rank": 3,
+      "score": 0.922274,
+      "chunk_id": "DOC_H002_p2_c4",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "group predictions intoM interval bins (each of size 1/M) and calculate the accuracy of each bin. Let Bm be the set of indices of samples whose prediction conﬁdence falls into the intervalIm = (m−1 M , m M ]. The accuracy ofBm is acc(Bm) = 1 |Bm| ∑ i∈Bm 1(ˆyi =yi), where ˆyi andyi are the predicted and true class labels for samplei. Basic probability tells us that acc(Bm) is an un- biased and consistent estimator of P( ˆY = Y | ˆP ∈ Im). We deﬁne the average conﬁdence within binBm as conf(Bm) = 1 |Bm| ∑ i∈Bm ˆpi, where ˆpi is the conﬁdence for sample i. acc(Bm) and conf(Bm) approximate the left-hand and right-hand sides of (1) respectively for bin Bm. Therefore, a perfectly cal- ibrated model will have acc(Bm) = conf( Bm) for all m∈{ 1,...,M }. Note that reliability diagrams do not dis- play the proportion of samples in a given bin, and thus can- not be used to estimate how many samples are calibrated. Expected Calibration Error (ECE). While reliability diagrams are useful visual tools, it is more convenient to have a scalar summary statistic of calibration. Since statis- tics comparing two distributions cannot be comprehensive, previous works have proposed variants, each with a unique emphasis. One notion of miscalibration is the difference in expectation between conﬁdence and accuracy, i.e. E ˆP [⏐⏐⏐P ( ˆY =Y | ˆP =p ) −p ⏐⏐⏐ ] (2) Expected Calibration Error (Naeini et al., 2015) – or ECE – approximates (2) by partitioning predictions into M equally-spaced bins (similar"
+    },
+    {
+      "rank": 4,
+      "score": 0.82692,
+      "chunk_id": "DOC_H005_p1_c2",
+      "doc_id": "DOC_H005",
+      "title": "Consistent Individualized Feature Attribution for Tree Ensembles (TreeSHAP, arXiv:1705.07874)",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "uniﬁes six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this uniﬁcation, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches. 1 Introduction The ability to correctly interpret a prediction model’s output is extremely important. It engenders appropriate user trust, provides insight into how a model may be improved, and supports understanding of the process being modeled. In some applications, simple models (e.g., linear models) are often preferred for their ease of interpretation, even if they may be less accurate than complex ones. However, the growing availability of big data has increased the beneﬁts of using complex models, so bringing to the forefront the trade-off between accuracy and interpretability of a model’s output. A wide variety of different methods have been recently proposed to address this issue [5, 8, 9, 3, 4, 1]. But an understanding of how these methods relate and when one method is preferable to another is still lacking. Here, we present a novel uniﬁed approach to interpreting model predictions.1 Our approach leads to three potentially surprising results that bring clarity to the growing space of methods: 1. We introduce the perspective of viewing any explanation of a model’s prediction as a model itself, which we term the explanation model. This lets us deﬁne the class of additive feature attribution methods (Section 2), which uniﬁes six current methods. 1https://github.com/slundberg/shap 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA. arXiv:1705.07874v2 [cs.AI] 25 Nov 2017"
+    },
+    {
+      "rank": 5,
+      "score": 0.815618,
+      "chunk_id": "DOC_H001_p1_c3",
+      "doc_id": "DOC_H001",
+      "title": "From local explanations to global understanding with explainable AI trees",
+      "page": 1,
+      "category_code": "H_xai_calibration",
+      "text": "to have models that are both accurate and interpretable, where being interpretable means that we can understand how the model uses the input features to make predictions [41]. Yet while there is a rich history ofglobal interpretation methods for trees that summarize the impact of input features on the model as a whole, much less attention has been paid tolocal explanations that explain the impact of input features on individual predictions (i.e. for a single sample) (Figure 1A). There are three ways we are aware of to explain individual predictions from trees (i.e. local explanation methods): 1) reporting the decision path; 2) an unpublished heuristic approach that assigns credit to each input feature [60]; and 3) a variety of model-agnostic approaches that require executing the model many times for each explanation [56, 15, 1 arXiv:1905.04610v1 [cs.LG] 11 May 2019"
+    }
+  ]
+}

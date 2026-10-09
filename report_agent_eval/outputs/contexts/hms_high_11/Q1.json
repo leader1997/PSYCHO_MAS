@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_11",
+  "stratum": "high",
+  "qid": "Q1",
+  "question": "Given the high prediction probability (0.967) and 'elevated screening risk' label, what is the clinical interpretation of this score in the context of non-diagnostic student mental health screening?",
+  "retrieval_query": "Clinical guidelines for interpreting high scores on depression/anxiety screening tools in university students",
+  "question_type": "risk_interpretation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:19.596025+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.991047,
+      "chunk_id": "DOC_B007_p2_c1",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Construct validity of the PHQ-9 in university students in Colombia: A Rasch analysis approach Med. clín. soc. 2025;9:e521 e521 INTRODUCTION The Patient Health Questionnaire 9 (PHQ -9) is a brief, easy-to-administer, and interprets a major depressive episode (MDE) screening instrument (1). Because of its brevity and good reliability and validity (1,2), the PHQ- 9 is one of the most widely used MDE screening instruments in clinical and non -clinical settings (3,4). Two recent systematic reviews have concluded that the PHQ -9 is the most reliable and accurate tool for MDE screening, so it is enjoying increasing acceptance in the scientific community every day (5-8). Overall, the PHQ-9 has demonstrated adequate psychometric properties in both general and medical populations (1,9,10), including university populations (11-16). The psychometric performance of the PHQ -9 has generally been evaluated using the classical test theory (CTT) framework, which focuses on the concepts of true score and measurement error (17). From the CTT perspective, the comparability of test scores has the limitation that scores are \"test dependent\" (18), implying that a low score may be due to a person's low ability or a difficult test (19,20). Based on an analysis of the articles included in the systematic reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT)"
+    },
+    {
+      "rank": 2,
+      "score": 0.925865,
+      "chunk_id": "DOC_B007_p2_c3",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have used IRT models to assess the psychometric properties of the PHQ -9 and only one in college students (37,42-68). Given the high prevalence of depression among college students (69,70) it is important to evaluate the validity and utility of the PHQ -9 in this population. The appropriate detection and management of depression in health science students could translate into significant potential benefits if the psychometric properties of screening instruments such as the PHQ-9 are optimized (71,72). Therefore, this study aimed to evaluate the psychometrics of the Colombian version of the PHQ-9 adapted for university students using IRT models and to assess possible item biases as a function of gender. METHODOLOGY Population and sample This cross-sectional observational study evaluated the psychometric performance of the PHQ -9. Stratified random sampling was applied according to academic program, semester, and sex, where each stratum had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research"
+    },
+    {
+      "rank": 3,
+      "score": 0.914805,
+      "chunk_id": "DOC_G002_p8_c1",
+      "doc_id": "DOC_G002",
+      "title": "[PDF] DNP Project - Maryville University",
+      "page": 8,
+      "category_code": "G_screening_communication",
+      "text": "8 DEPRESSION SCREENING OF UNIVERSITY STUDENTS LIST OF FIGURES Figure 1. Age Breakdown of Students…………………………………………………………..49 Figure 2. Gender of Subject…………………………………………………………………………..…50 Figure 3 Ethnicity of Students…………………………………………………………………………. .51 Figure 4 First Year College Student or Not…………………………………………………………..52. Figure 5 Reasons for Referral to Counseling Services………………………………………………55. Figure 6 Statistical Information of the Student Referred for Counseling Services……………….56 Figure 7 PHQ-2 Scores of Students…………………………………………………………………….57. Figure 8 PHQ-2 and PHQ-9 scores of Students Referred during Project………………………..58"
+    },
+    {
+      "rank": 4,
+      "score": 0.913083,
+      "chunk_id": "DOC_B003_p2_c2",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "suffered from symptoms of moderate to severe GAD, a rate which is higher than those reported in the studies conducted on general people [14, 15]. Univer- sity students go through significant changes in their emotional (e.g., loneliness, personal auton- omy) and physical environment (e.g., transition from college to university) [16]. They also deal with the pressure of competition for good grades, carefully plan for future career, participate in extracurricular activities and are more involved in family matters as an adult [17]. Therefore, it is not unexpected for students to be more vulnerable to symptoms of anxiety disorders. Despite high prevalence and potentially severe consequences including decreased quality of life, multiple somatic complaints, maladaptive personality traits, and increased mortality due to suicide, cardiovascular, and cerebrovascular causes, GAD has been largely ignored as a men- tal health condition [18–21]. One important barrier to effective treatment has been inaccurate or no assessment. People who suffer from anxiety disorders are often under-diagnosed and/or treated inadequately [17]. To overcome the hurdles, there is a need for a reliable, valid, and rel- atively brief screening tool for anxiety disorders, particularly for university students. The seven-item Generalized Anxiety Disorder scale (GAD-7) was developed with the purpose of screening for, and assessing the severity of GAD symptoms in both clinical and research con- texts [22]. Conducted on a large primary care sample, the first validation study of GAD-7 found good reliability, as well as criterion, construct, factorial, and procedural validity. Subse- quently, the psychometric properties of GAD-7 have been evaluated in different sample of patients, including other primary"
+    },
+    {
+      "rank": 5,
+      "score": 0.896394,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    }
+  ]
+}

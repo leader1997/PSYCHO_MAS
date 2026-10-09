@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_low_17",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T12:00:54.442671+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_17",
+    "risk_interpretation": {
+      "probability": 0.0586,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the 5.86% probability for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of probability for elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "interpretation of 5.86% probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the student's case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of binge drinking to the model prediction?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "Evidence for binge drinking's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for binge drinking's contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of campus belonging (item 1) to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Evidence for campus belonging's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for campus belonging's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of weekend sleep to the model prediction?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "Evidence for weekend sleep's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for weekend sleep's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of institution size to the model prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Evidence for institution size's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for institution size's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of public institution to the model prediction?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "Evidence for public institution's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for public institution's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of academic impairment on depression/anxiety screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment's protective effect on depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for academic impairment's protective effect"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of loneliness on depression/anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for loneliness's protective effect on depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence for loneliness's protective effect"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What are some safety considerations for this student given their low elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for students with low elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "safety considerations"
+        ],
+        "priority": "high",
+        "rationale": "To ensure non-diagnostic communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_17\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0586,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the 5.86% probability for elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of probability for elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"interpretation of 5.86% probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the student's case.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of binge drinking to the model prediction?\",\n         \"linked_xai_factor\": \"binge1pl\",\n         \"retrieval_query\": \"Evidence for binge drinking's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for binge drinking's contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of campus belonging (item 1) to the model prediction?\",\n         \"linked_xai_factor\": \"belong1\",\n         \"retrieval_query\": \"Evidence for campus belonging's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for campus belonging's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of weekend sleep to the model prediction?\",\n         \"linked_xai_factor\": \"sleep_wkend\",\n         \"retrieval_query\": \"Evidence for weekend sleep's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for weekend sleep's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of institution size to the model prediction?\",\n         \"linked_xai_factor\": \"inst_size\",\n         \"retrieval_query\": \"Evidence for institution size's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for institution size's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of public institution to the model prediction?\",\n         \"linked_xai_factor\": \"inst_public\",\n         \"retrieval_query\": \"Evidence for public institution's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for public institution's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of academic impairment on depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment's protective effect on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for academic impairment's protective effect\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of loneliness on depression/anxiety screening risk?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for loneliness's protective effect on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence for loneliness's protective effect\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some safety considerations for this student given their low elevated depression/anxiety screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for students with low elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"safety considerations\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure non-diagnostic communication.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

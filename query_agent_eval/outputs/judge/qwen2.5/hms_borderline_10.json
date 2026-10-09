@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_10",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T08:00:06.989798+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and safe, providing comprehensive evidence queries that can be answered via scientific literature. It effectively addresses the near‑threshold risk probability and includes safety communication and support considerations. However, it does not cover all XAI contributors (e.g., flourish, positiveMH, food_worry) or protective factors beyond current financial situation, limiting full alignment with the model’s explanation components."
+}

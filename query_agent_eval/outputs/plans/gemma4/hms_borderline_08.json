@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_08",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:19:59.472062+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_08",
+    "risk_interpretation": {
+      "probability": 0.5011,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.5011) is extremely close to the decision threshold (0.5), what clinical guidelines or best practices exist for interpreting borderline screening results, especially when calibration indicates near-threshold uncertainty?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical interpretation of borderline depression anxiety screening scores near 0.5",
+        "expected_evidence": [
+          "Guidelines for managing ambiguous or threshold-level risk scores.",
+          "Recommended follow-up steps when model prediction is marginally above the cutoff."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline, and the probability is almost exactly at the threshold. This question addresses the primary uncertainty in the report and guides appropriate clinical action despite the minor risk elevation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current scientific understanding of how academic impairment (aca_impa) contributes to elevated screening risk in college students, and what are evidence-based strategies for mitigating this specific factor?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment impact on student mental health anxiety depression",
+        "expected_evidence": [
+          "Literature linking academic stress/impairment to elevated screening risk.",
+          "Interventions or support services targeting academic performance and mental well-being."
+        ],
+        "priority": "high",
+        "rationale": "Academic impairment is the single largest positive contributor (0.9118) driving the prediction, making it the most critical factor to explain in the report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does a history of loneliness (lonely) function as a protective factor against elevated depression/anxiety screening risk, and what are evidence-based psychoeducational strategies to strengthen social connection?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "protective effects of reducing loneliness on student mental health outcomes",
+        "expected_evidence": [
+          "Mechanism by which reduced feelings of loneliness mitigate screening risk.",
+          "Effective campus resources or skills training for building social support."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the strongest negative contributor (-0.4354). Highlighting this protective factor provides necessary balance and context to the report, preventing over-reliance on risk factors."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "When a student profile presents conflicting evidence—strong positive contributors (e.g., academic impairment) alongside strong protective factors (e.g., exercise frequency, flourishing)—what is the recommended approach for synthesizing this information into actionable support considerations?",
+        "linked_xai_factor": null,
+        "retrieval_query": "integrating conflicting risk and protective factors in mental health screening reports",
+        "expected_evidence": [
+          "Frameworks for differential diagnosis or tiered intervention based on mixed evidence.",
+          "Best practices for prioritizing interventions when multiple opposing factors are present."
+        ],
+        "priority": "high",
+        "rationale": "This question addresses the complexity of the case (mixed high/low contributors) and guides the expert to move beyond listing facts toward actionable synthesis, which is key for a comprehensive report."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "What are the non-diagnostic communication guidelines for discussing elevated screening risk with students and their support systems, ensuring that language is supportive, educational, and avoids implying a definitive diagnosis?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for mental health screening results",
+        "expected_evidence": [
+          "Recommended phrasing to discuss 'elevated risk' vs. 'diagnosis'.",
+          "Educational materials on the purpose and limitations of screening tools."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure clinical safety and adherence to non-diagnostic language rules in the final report."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What are evidence-based strategies for leveraging existing protective factors, such as high exercise frequency (exerc) and flourishing (flourish), to build resilience and reduce future screening risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "enhancing resilience through physical activity and positive mental health practices in college students",
+        "expected_evidence": [
+          "Specific recommendations for maintaining or improving exercise habits.",
+          "Psychoeducational modules focused on promoting flourishing states."
+        ],
+        "priority": "medium",
+        "rationale": "This question reinforces the importance of protective factors, providing actionable steps that focus on strengths rather than deficits, which is crucial for student engagement and report tone."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_08\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5011,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.5011) is extremely close to the decision threshold (0.5), what clinical guidelines or best practices exist for interpreting borderline screening results, especially when calibration indicates near-threshold uncertainty?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical interpretation of borderline depression anxiety screening scores near 0.5\",\n      \"expected_evidence\": [\n        \"Guidelines for managing ambiguous or threshold-level risk scores.\",\n        \"Recommended follow-up steps when model prediction is marginally above the cutoff.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline, and the probability is almost exactly at the threshold. This question addresses the primary uncertainty in the report and guides appropriate clinical action despite the minor risk elevation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current scientific understanding of how academic impairment (aca_impa) contributes to elevated screening risk in college students, and what are evidence-based strategies for mitigating this specific factor?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment impact on student mental health anxiety depression\",\n      \"expected_evidence\": [\n        \"Literature linking academic stress/impairment to elevated screening risk.\",\n        \"Interventions or support services targeting academic performance and mental well-being.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Academic impairment is the single largest positive contributor (0.9118) driving the prediction, making it the most critical factor to explain in the report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does a history of loneliness (lonely) function as a protective factor against elevated depression/anxiety screening risk, and what are evidence-based psychoeducational strategies to strengthen social connection?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"protective effects of reducing loneliness on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Mechanism by which reduced feelings of loneliness mitigate screening risk.\",\n        \"Effective campus resources or skills training for building social support.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the strongest negative contributor (-0.4354). Highlighting this protective factor provides necessary balance and context to the report, preventing over-reliance on risk factors.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"When a student profile presents conflicting evidence—strong positive contributors (e.g., academic impairment) alongside strong protective factors (e.g., exercise frequency, flourishing)—what is the recommended approach for synthesizing this information into actionable support considerations?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"integrating conflicting risk and protective factors in mental health screening reports\",\n      \"expected_evidence\": [\n        \"Frameworks for differential diagnosis or tiered intervention based on mixed evidence.\",\n        \"Best practices for prioritizing interventions when multiple opposing factors are present.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This question addresses the complexity of the case (mixed high/low contributors) and guides the expert to move beyond listing facts toward actionable synthesis, which is key for a comprehensive report.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the non-diagnostic communication guidelines for discussing elevated screening risk with students and their support systems, ensuring that language is supportive, educational, and avoids implying a definitive diagnosis?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for mental health screening results\",\n      \"expected_evidence\": [\n        \"Recommended phrasing to discuss 'elevated risk' vs. 'diagnosis'.\",\n        \"Educational materials on the purpose and limitations of screening tools.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure clinical safety and adherence to non-diagnostic language rules in the final report.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are evidence-based strategies for leveraging existing protective factors, such as high exercise frequency (exerc) and flourishing (flourish), to build resilience and reduce future screening risk?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"enhancing resilience through physical activity and positive mental health practices in college students\",\n      \"expected_evidence\": [\n        \"Specific recommendations for maintaining or improving exercise habits.\",\n        \"Psychoeducational modules focused on promoting flourishing states.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This question reinforces the importance of protective factors, providing actionable steps that focus on strengths rather than deficits, which is crucial for student engagement and report tone.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

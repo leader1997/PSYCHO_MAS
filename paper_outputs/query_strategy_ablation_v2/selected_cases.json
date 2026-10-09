@@ -1,0 +1,82 @@
+[
+  {
+    "case_id": "hms_high_02",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_08",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_11",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_12",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_17",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_18",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_high_20",
+    "stratum": "high"
+  },
+  {
+    "case_id": "hms_borderline_03",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_borderline_04",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_borderline_05",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_borderline_08",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_borderline_09",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_borderline_10",
+    "stratum": "borderline"
+  },
+  {
+    "case_id": "hms_low_03",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_09",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_10",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_11",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_13",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_15",
+    "stratum": "low"
+  },
+  {
+    "case_id": "hms_low_16",
+    "stratum": "low"
+  }
+]

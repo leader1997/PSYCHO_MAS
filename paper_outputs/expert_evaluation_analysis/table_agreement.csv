@@ -1,0 +1,7 @@
+Metric,Value
+Exact agreement,0.5833333333333334
+Adjacent agreement (|Δ|≤1),0.95
+Mean |E1−E2|,0.4666666666666667
+Pearson r (flattened),0.5644442828261504
+Spearman ρ (flattened),0.5638633535060295
+"ICC(2,1)",0.5408871454435727

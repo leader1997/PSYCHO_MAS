@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_08",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5011) is extremely close to the decision threshold (0.5), what clinical guidelines or best practices exist for interpreting borderline screening results, especially when calibration indicates near-threshold uncertainty?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "The available evidence does not specify a formal protocol for interpreting probabilities that lie within a few hundredths of the decision cut‑off. In practice, when a PHQ‑9–derived probability is close to 0.5—as in the present case—clinicians are advised to treat the result as uncertain and to pursue additional assessment. A common approach, highlighted in the literature on college student screening, is to administer the brief PHQ‑2 first; if that screen is positive or borderline, a full PHQ‑9 (or an IRT‑based item analysis) should be completed to refine the estimate of depressive severity. Because calibration near the threshold indicates limited discriminative precision, repeating the screen at a subsequent visit or supplementing it with clinical interview data can help resolve ambiguity. Finally, if uncertainty persists and the student is at risk for significant distress or suicidality, referral to counseling services—per the recommended pathway in the reviewed studies—is warranted.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:41:46.474145+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific understanding of how academic impairment (aca_impa) contributes to elevated screening risk in college students, and what are evidence-based strategies for mitigating this specific factor?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Academic impairment in college students—manifested as lower GPA or higher dropout risk—is strongly associated with mental‑health symptoms, particularly depression that co‑occurs with anxiety and eating‑disorder symptoms (Eisenberg et al., 2009). In longitudinal analyses, these co‑occurring conditions predict significant declines in academic performance even after controlling for prior achievement, indicating that the impairment itself contributes to elevated screening risk for mental‑health problems. Evidence‑based mitigation focuses on early detection and treatment: systematic screening using validated tools (e.g., PHQ‑9, GAD‑7) followed by evidence‑grounded interventions such as cognitive‑behavioral therapy or pharmacotherapy has been shown to improve both mental‑health outcomes and academic metrics, with potential economic benefits for institutions. Implementing campus‑wide screening programs that identify students with depressive or anxiety symptoms—especially those reporting anhedonia or functional impairment—can reduce the likelihood of academic decline and subsequent dropout. When elevated risk is identified, referral to qualified counseling services should be provided promptly to address both mental‑health and academic needs.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:43:01.104025+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does a history of loneliness (lonely) function as a protective factor against elevated depression/anxiety screening risk, and what are evidence-based psychoeducational strategies to strengthen social connection?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Current research does not indicate that a history of loneliness functions as a protective factor against depression or anxiety; rather, loneliness is consistently linked with increased mental‑health risk (Ellard et al., 2022; Context 1). Perceived social support and belonging have been shown to buffer depressive symptoms, with students reporting higher perceived support six times less likely to experience depression (Context 2) and interventions that enhance perceived support reducing loneliness during COVID‑19 (Hou et al.). Evidence‑based psychoeducational strategies therefore focus on strengthening social connection through: 1) intentional curricular and co‑curricular activities designed to foster belonging, as recommended for institutions (Context 3); 2) structured opportunities for emotional support such as peer‑mentoring or small‑group discussions; 3) regular monitoring of loneliness using validated tools like the UCLA 3‑item scale to identify students needing additional connection resources (Context 4). These approaches aim to increase perceived quality and quantity of social ties, thereby mitigating depression and anxiety risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:44:05.652880+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "When a student profile presents conflicting evidence—strong positive contributors (e.g., academic impairment) alongside strong protective factors (e.g., exercise frequency, flourishing)—what is the recommended approach for synthesizing this information into actionable support considerations?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "When a screening profile shows both strong risk indicators (e.g., academic impairment) and robust protective factors (e.g., frequent exercise, high flourishing), the recommended approach is to treat the information as complementary rather than contradictory. Screening protocols that include strengths and symptoms—such as those described in Context 3—support this dual focus: students with high well‑being can still benefit from targeted interventions for academic difficulties while their protective factors are leveraged to buffer risk. A multi‑tiered system of supports (MTSS) should be applied, using the triage process outlined in Context 2 to determine whether the student requires Tier 2 or Tier 3 services; if no immediate safety concerns exist, Tier 1 universal supports that reinforce exercise and well‑being can coexist with individualized academic assistance. Continuous monitoring of both symptom reduction and strength maintenance ensures that interventions remain responsive to changes in either domain. If any risk for self‑harm or harm to others emerges, the protocol requires an immediate response and referral to qualified support services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:45:33.238931+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the non-diagnostic communication guidelines for discussing elevated screening risk with students and their support systems, ensuring that language is supportive, educational, and avoids implying a definitive diagnosis?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "Communicate that an elevated score indicates a higher likelihood of needing support rather than confirming a disorder. Explain the screening as a proactive tool designed to identify strengths and needs for prevention and early‑intervention strategies before challenges worsen. Use supportive language that frames the result as an opportunity to explore coping skills or additional resources, explicitly avoiding diagnostic terminology. Invite students and families to discuss next steps within the multi‑tiered system, offering referrals to Tier 2 or Tier 3 supports when appropriate. Provide clear information about how results will be used and respond promptly if any risk of harm is indicated.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:47:16.152442+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are evidence-based strategies for leveraging existing protective factors, such as high exercise frequency (exerc) and flourishing (flourish), to build resilience and reduce future screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Evidence suggests that high physical activity can be a useful lever for resilience when it is embedded in supportive social contexts. Structured group exercise programs—such as campus‑wide fitness challenges or team sports—combine the benefits of regular movement with opportunities to build belonging, which research links to lower depression and anxiety and higher subjective well‑being. For students already engaging frequently in exercise, adding brief reflective practices (e.g., gratitude journaling or positive‑emotion prompts) can amplify flourishing by reinforcing life satisfaction and optimism. These combined activities harness existing protective factors as statistical contributors to resilience, helping reduce future screening risk while maintaining a focus on supportive environments rather than prescribing treatment.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:48:14.734372+00:00"
+    }
+  }
+}

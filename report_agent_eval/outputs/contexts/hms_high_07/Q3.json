@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_07",
+  "stratum": "high",
+  "qid": "Q3",
+  "question": "How does 'Food insecurity worry' (food_worry) contribute to elevated screening risk, and what are the associated psychoeducational resources for addressing this specific concern?",
+  "retrieval_query": "impact of food insecurity worry on student mental health outcomes and support resources",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:34.325092+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.938722,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in"
+    },
+    {
+      "rank": 2,
+      "score": 0.915518,
+      "chunk_id": "DOC_E001_p7_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 7,
+      "category_code": "E_financial_food",
+      "text": "7 7 36% of students involved with the carceral system experience homelessness. 72% of former foster youth experience housing insecurity. 62% of students with disabilities experience basic needs insecurity related to food and/or housing—13 percentage points higher than students without disabilities (56%). The link between student basic needs security and persistence is unequivocal: 52% of Pell Grant recipients experience food insecurity—17 percentage points higher than non- Pell Grant recipients (35%). 79% of student respondents to our survey who had previously stopped out of college (and subsequently re-enrolled), or were considering stopping out of college, told us it was due to basic needs insecurity (emotional stress/ mental health, lacking money for living expenses, childcare/caregiver responsibilities, lack of transportation, lack of access to internet/technology) or financial reasons (cost of attendance/ insufficient financial aid, cost of textbooks or course materials, unexpected financial expense/emergency)."
+    },
+    {
+      "rank": 3,
+      "score": 0.889217,
+      "chunk_id": "DOC_E001_p3_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 3,
+      "category_code": "E_financial_food",
+      "text": "3 Table of Contents Executive Summary Defining Basic Needs Security What is The Hope Center Student Basic Needs Survey? · Participants Food Insecurity, Housing Insecurity, and Homelessness · Racial Disparities in Standard Measures of Basic Needs Insecurity · Food Insecurity · Housing Insecurity and Homelessness Beyond Food and Housing · Mental Health · Transportation, Internet/Technology, and Childcare Insecurity Intersecting Needs Implications of Experiencing Basic Needs Insecurity Use of Public Resources and Campus Supports Exploring Specific Student Populations · Choosing Student Groups to Highlight · Parenting Students · Part-time and Working Students · Pell Grant Recipients · LGBTQIA+ Students · Students Who Have Been Involved in the Carceral System · Former Foster Youth · Students with Disabilities Conclusion 04 11 13 16 24 31 32 35 39 56 Introduction 09"
+    },
+    {
+      "rank": 4,
+      "score": 0.881099,
+      "chunk_id": "DOC_E001_p5_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 5,
+      "category_code": "E_financial_food",
+      "text": "5 5 Mom, can you pick me up from school? 73% of respondents face basic needs insecurity when we consider other basic needs (mental health, child care, transportation, and internet/ technology access) in addition to food and housing. 44% of students experience clinically significant symptoms of anxiety and/or depression. 57% of respondents who had previously stopped out (stopped attending college without completing a credential and subsequently re-enrolled) reported they did so because of mental health issues. “It’s expensive, and I believe education is a human right that is denied to those less fortunate and less represented. College should not be expensive, and I shouldn’t have to struggle just to give myself an education to stay healthy and put myself in a beneficial position in society.” Student from Minnesota"
+    },
+    {
+      "rank": 5,
+      "score": 0.874582,
+      "chunk_id": "DOC_E001_p4_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 4,
+      "category_code": "E_financial_food",
+      "text": "4 This report shares findings from 91 colleges and universities across 16 states that participated in Hope Impact Partnerships (HIP) and fielded The Hope Center Student Basic Needs Survey between Spring 2023 and Summer 2024. 1 4 Executive Summary Among 74,350 survey participants we found that: 41% experience food insecurity. 48% experience housing insecurity. 14% experience homelessness. 59% of students experience at least one form of basic needs insecurity. Consistent with prior Hope Center surveys, we find that basic needs insecurity is particularly prevalent among students with structurally marginalized identities and those who have the greatest trouble accessing and affording higher education, including: part-time students, Pell Grant recipients, Black and Indigenous students, students with disabilities, former foster youth, and those who have been involved in the carceral system. For example, nearly 75% of Black and Indigenous students who completed our survey report facing at least one form of basic needs insecurity related to food and/or housing 2, compared to 55% of White students—a 20 percentage point gap."
+    }
+  ]
+}

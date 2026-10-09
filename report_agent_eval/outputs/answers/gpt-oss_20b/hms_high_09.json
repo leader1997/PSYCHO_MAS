@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_09",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the elevated screening risk (0.97 probability), what immediate, non-diagnostic support considerations should be prioritized for expert review, focusing on resource linkage rather than clinical diagnosis?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "Given the high screening risk (0.97 probability), the first priority is an immediate safety check: any student who reports self‑harm or harm to others should be assessed right away to ensure protection, as recommended in the School Mental Health Quality Guide. Next, triage students identified at risk to Tier 2 or Tier 3 supports—this involves a defined process for assessing results and routing individuals to more intensive services while documenting numbers screened and referred. Concurrently, link families and students to community mental‑health resources by providing timely referrals to individual or group outpatient care, as universal screening has been shown to connect youth to cost‑effective support. In the classroom setting, implement targeted prevention strategies such as coping‑skill instruction for stress and anxiety when screening data indicate elevated levels, thereby addressing needs before they worsen. Finally, maintain a gradual rollout of screening procedures—starting with small groups—to refine processes, gather feedback, and ensure that consent, opt‑out options, and resource linkage are clearly communicated to all stakeholders.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:11:21.247203+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How does academic impairment (aca_impa) specifically contribute to elevated screening risk, and what evidence-based strategies can be recommended to mitigate the impact of academic stress on student well-being?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment—operationalized as lower GPA and self‑reported difficulty completing academic tasks—is a statistical contributor to elevated screening risk because depression and anxiety have been shown to predict poorer grades, with co‑occurring symptoms producing the strongest negative association (Eisenberg et al., 2009; Context 2). Longitudinal data also demonstrate that students reporting functional impairment from depressive or anxiety symptoms are more likely to screen positive for mental health problems (Context 1). Evidence‑based mitigation strategies therefore focus on early identification and whole‑university prevention, targeting modifiable psychosocial factors such as sleep hygiene, stress management, and school connectedness (Context 3). Targeted interventions for students identified with low GPA or high academic strain have been linked to improved mental health outcomes and substantial economic returns when depression is detected and treated (Context 4). These approaches provide a grounded framework for reducing the impact of academic stress on student well‑being.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:12:39.150594+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What are the established links between food insecurity worry and elevated screening risk, and what types of psychoeducational or material support resources should be considered for expert review?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food‑insecurity worry is widespread—41 % of the 74,350 survey respondents reported it (Context 4), and Pell Grant recipients are especially affected, with 52 % experiencing food insecurity versus 35 % among non‑recipients (Context 2). Students who report food insecurity also show markedly higher rates of clinically significant anxiety or depression symptoms (44 %) and are more likely to stop out because of basic‑needs stress or financial hardship (79 % of those who stopped out cited such reasons) (Contexts 5 and 2). These associations indicate that students worried about food security have an elevated risk for mental‑health screening needs and academic disengagement. Psychoeducational resources worth reviewing include counseling services, stress‑management workshops, nutrition education, and financial‑aid navigation training. Material supports should encompass campus food pantries, emergency meal programs, transportation vouchers, internet/technology subsidies, childcare assistance, and housing‑affordability resources (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:14:07.561964+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "How do protective factors such as campus belonging (belong2) and institution type contribute to resilience against elevated screening risk, and how can these strengths be leveraged in the support conversation?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Higher campus‑belonging scores (belong2) are statistically associated with lower screening risk, because belonging is linked to better academic outcomes and persistence (Pittman & Richmond 2007; Marra et al., 2012). Emotional support increases students’ sense of belonging, which in turn improves overall well‑being (Romeo et al., 2024). Institutional factors—such as the availability of mental‑health resources and a welcoming campus climate—also contribute to resilience by moderating distress levels; campuses that provide structured opportunities for social engagement tend to buffer against elevated risk (Socio‑Ecological Model review, 2024). In support conversations, clinicians can highlight these protective contributors by acknowledging the student’s current sense of belonging and encouraging participation in curricular or co‑curricular activities designed to strengthen community ties. Additionally, referencing institutional resources—like counseling services or peer‑support groups—can reinforce that the campus environment itself offers tangible supports for maintaining mental health.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:15:34.486676+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope boundaries of this screening model (CatBoost), particularly regarding specific student demographics or co-occurring conditions, to ensure appropriate communication with the expert?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The provided sources discuss general principles and practices of school mental‑health screening but do not mention the CatBoost algorithm, its performance characteristics, or any demographic or comorbidity‑specific limitations. Consequently, I cannot identify known constraints or scope boundaries for this particular model from the evidence at hand.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:16:27.884509+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or expert, ensuring that it avoids implying a diagnosis or predicting future outcomes?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "The screening results indicate **elevated risk** for the identified concern based on your responses.  \nThis finding does **not constitute a clinical diagnosis**; it simply signals that further assessment may be helpful (as outlined in the triage process for Tier 2 and Tier 3 services).  \nIt is intended to guide additional evaluation and support, not to predict future outcomes.  \nIf you would like, we can arrange a more comprehensive assessment or connect you with appropriate resources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:17:37.984785+00:00"
+    }
+  }
+}

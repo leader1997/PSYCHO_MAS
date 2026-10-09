@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_06",
+  "stratum": "low",
+  "qid": "Q6",
+  "question": "What are evidence-based psychoeducational resources or low-intensity interventions that can be recommended to students identified as 'not elevated screening risk' but who exhibit moderate symptoms (e.g., medium sleep quality)?",
+  "retrieval_query": "low intensity psychoeducation for mild student depression and anxiety",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:34.144588+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.809197,
+      "chunk_id": "DOC_D004_p2_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 150 students. Questionnaires were distributed via google form, then descriptive analysis and correlation tests were carried out. The Spearman's test was used for the correlation test. RESULTS Table 1. Characteristics of Respondents (n=184) Variable Median (min- max) Sum(n) (percentage) P Age 19,0 (17 – 21) Gender - Male - Female 55 (29,9%) 129 (70,1%) Family history of mental disorders - Yes - No 6 (3,3%) 178 (96,7%) Academic procrastination level - Low - High 14,0 (0 – 32) 94 (51,1%) 90 (48,9%) 0,017 Stress level - Normal - Mild - Moderate - Severe - Very Severe 77 (41,8%) 34 (18,5%) 33 (17,9%) 19 (10,3%) 21 (11,4%) Anxiety level - Normal - Mild - Moderate - Severe - Very Severe 36 (19,6%) 11 (6%) 35 (19%) 25 (13,6%) 77 (41,8%) Depression level - Normal - Mild - Moderate - Severe - Very Severe 33 (17,9%) 22 (12,0%) 36 (19,6%) 37 (20,1%) 56 (30,4%) Based on the data obtained, the respondents consisted of 184 UNDIP medical students, class of 2020, ranging from 17 -21. The majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of"
+    },
+    {
+      "rank": 2,
+      "score": 0.783051,
+      "chunk_id": "DOC_D004_p3_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 151 Table 4. Levels of academic procrastination, stress, anxiety, and depression by gender Variable Gender Male (n) (percentage) Female (n) (percentage) Procrastination - Low - High 32 (58,1%) 23 (41,8%) 62 (48,0%) 67 (51,9%) Stress - Normal - Mild - Moderate - Severe - Very severe 23 (41,8%) 12 (21,8%) 12 (21,8%) 4 (7,2%) 4 (7,2%) 54 (41,8%) 22 (17,0%) 21 (16,2%) 15 (11,62%) 17 (13,1%) Anxiety - Normal - Mild - Moderate - Severe - Very severe Depression - Normal - Mild - Moderate - Severe - Very severe 14 (25,4%) 4 (7,2%) 7 (12,7%) 8 (14,5%) 22 (40,0%) 16 (29,0%) 4 (7,2%) 8 (14,5%) 14 (25,4%) 13 (23,6%) 22 (17,0%) 7 (5,4%) 28 (21,7%) 17 (13,1%) 55 (42,6%) 17 (13,1%) 18 (13,9%) 28 (21,7%) 23 (17,8%) 43 (33,3%) Based on the data, high levels of procrastination were experienced by 41.8% of male students and 51.9% of female students. There were more female students with very severe stress (13.1%) than male students (7.2%). The majority of female experienced very severe anxiety (42.6%) and very severe depression (33.3%). (See table 4). DISCUSSION This study found that 48.9% of respondents had a high level of academic procrastination and female respondents had a higher level of procrastination than males. This may be caused by a larger number of female respondents than males. This result is different from a study conducted in Iran using the PASS"
+    },
+    {
+      "rank": 3,
+      "score": 0.75502,
+      "chunk_id": "DOC_D002_p4_c3",
+      "doc_id": "DOC_D002",
+      "title": "[PDF] Depression and College Students - Counseling Center",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "Cognitive-behavioral therapy (CBT), which helps people change negative styles of thinking and behavior that may contribute to depression Interpersonal therapy (IPT), which helps people understand and work through troubled personal relationships that may cause or worsen depression. Depending on the type and severity of your depression, a mental health professional may recommend short-term therapy, lasting 10 to 20 weeks, or longer-term therapy."
+    },
+    {
+      "rank": 4,
+      "score": 0.754673,
+      "chunk_id": "DOC_B005_p1_c2",
+      "doc_id": "DOC_B005",
+      "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "enter a new millennium. A number of studies suggest that higher rates of psychological morbidity are being recorded among first year university students throughout the world. Research by Cooke, Bewick, Barkham, Bradley & Audin (2006) in the United Kingdom, identified increased financial and academic pressure as the basis for increased levels of anxiety in first year university students, who they suggest rate far worse than the general population in measures of psychological well-being. Whilst academic performance is highlighted during this transitional period, Wong, Cheung, Chan, Ma & Tang (2006) suggest many students in Hong Kong are also folding under the pressure and expectations. Students were identified as particularly vulnerable to mental health issues, with rates of depression measured at 20.9% (n=1657) and anxiety at 41.2% (n=3262). The impact of such findings is expected to be seen in poorer academic attainment and quality of life. Another recent study by Price, McLeod, Gleich & Hand (2006) at a Canadian university, suggests that 19% of female students and 13% of male students in their study meet the DSM IV (APA, 2000) criteria for a major anxiety disorder, while 14% of female students and 7% of male students meet the DSM IV criteria for a major depressive disorder. The prevalence of high rates of depression and anxiety identified in these studies are indeed a basis for concern. The wide spread heavy use of alcohol by university students has also been reported by many studies (Palombi (2006); Smart & Ogborne (2000)), as well as the study by Orford, Krishnan, Balaam, Everitt and Van Der Graff"
+    },
+    {
+      "rank": 5,
+      "score": 0.747391,
+      "chunk_id": "DOC_B005_p1_c3",
+      "doc_id": "DOC_B005",
+      "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "a major depressive disorder. The prevalence of high rates of depression and anxiety identified in these studies are indeed a basis for concern. The wide spread heavy use of alcohol by university students has also been reported by many studies (Palombi (2006); Smart & Ogborne (2000)), as well as the study by Orford, Krishnan, Balaam, Everitt and Van Der Graff (2004) from the University of Birmingham, that indicated over 20% of student participants experienced serious levels of depression resulting from their levels of heavy drinking, identified by them as being necessary for social functioning. Illicit"
+    }
+  ]
+}

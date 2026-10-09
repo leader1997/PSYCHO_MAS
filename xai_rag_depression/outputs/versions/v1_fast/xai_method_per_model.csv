@@ -1,0 +1,10 @@
+,method
+Logistic Regression,coefficients+LinearSHAP
+Random Forest,TreeSHAP
+Extra Trees,TreeSHAP
+XGBoost,TreeSHAP
+LightGBM,TreeSHAP
+CatBoost,TreeSHAP
+FT-Transformer,IntegratedGradients
+TabTransformer,IntegratedGradients
+DCNv2,IntegratedGradients

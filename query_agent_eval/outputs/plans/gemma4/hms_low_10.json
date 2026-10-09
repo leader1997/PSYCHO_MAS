@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_10",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:32:15.235579+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_10",
+    "risk_interpretation": {
+      "probability": 0.0566,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate communication strategy for conveying 'not elevated screening risk' to an expert, ensuring that the results are clearly framed as a screening tool and not a definitive diagnosis?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communication guidelines for low-risk mental health screening scores",
+        "expected_evidence": [
+          "Non-diagnostic language examples",
+          "Best practices for communicating screening results to clinicians"
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all cases, especially low risk, to prevent false reassurance and maintain clinical rigor."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do the identified protective factors (e.g., high Flourishing score, age, low loneliness) contribute to mitigating the overall predicted screening risk in this specific student profile?",
+        "linked_xai_factor": "flourish, age, lonely",
+        "retrieval_query": "clinical interpretation of strong protective factors reducing depression/anxiety screening risk",
+        "expected_evidence": [
+          "Clinical significance of high flourishing scores in mental health outcomes",
+          "How demographic and psychological strengths offset minor risk indicators"
+        ],
+        "priority": "high",
+        "rationale": "Crucial for low-risk cases; these factors explain why the score is low despite some positive contributors."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What clinical context should be provided regarding features that contributed positively to the model prediction (e.g., sleep quality, campus belonging) when these factors are minor contributors in a low-risk profile?",
+        "linked_xai_factor": "sleep_wknight, belong1",
+        "retrieval_query": "clinical interpretation of moderate positive screening risk features in the context of strong protective factors",
+        "expected_evidence": [
+          "Contextualizing minor increases in sleep/belonging risk scores",
+          "Guidelines for weighing multiple small risk contributors against large protective ones"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the positive XAI contributors, but frames them as secondary concerns that are outweighed by protection."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "For a student with a low screening risk score who has identified protective factors, what types of non-clinical, proactive support considerations (e.g., resource referrals) are appropriate for the expert to recommend?",
+        "linked_xai_factor": null,
+        "retrieval_query": "low-risk mental health follow-up resources and psychoeducation recommendations",
+        "expected_evidence": [
+          "Non-clinical wellness resources (e.g., academic support, resilience workshops)",
+          "Best practices for low-intensity proactive student engagement"
+        ],
+        "priority": "high",
+        "rationale": "Guides the expert on actionable steps that do not constitute clinical intervention or treatment planning."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of this specific machine learning model (CatBoost) regarding generalizability across different student populations, and how should these limitations be communicated to the expert?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model limitation communication guidelines for predictive screening tools",
+        "expected_evidence": [
+          "Model scope and population constraints (e.g., specific university setting)",
+          "How to communicate model uncertainty without causing alarm"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the need to contextualize the prediction within the model's operational boundaries."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_10\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0566,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate communication strategy for conveying 'not elevated screening risk' to an expert, ensuring that the results are clearly framed as a screening tool and not a definitive diagnosis?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communication guidelines for low-risk mental health screening scores\",\n      \"expected_evidence\": [\n        \"Non-diagnostic language examples\",\n        \"Best practices for communicating screening results to clinicians\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all cases, especially low risk, to prevent false reassurance and maintain clinical rigor.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do the identified protective factors (e.g., high Flourishing score, age, low loneliness) contribute to mitigating the overall predicted screening risk in this specific student profile?\",\n      \"linked_xai_factor\": \"flourish, age, lonely\",\n      \"retrieval_query\": \"clinical interpretation of strong protective factors reducing depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Clinical significance of high flourishing scores in mental health outcomes\",\n        \"How demographic and psychological strengths offset minor risk indicators\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for low-risk cases; these factors explain why the score is low despite some positive contributors.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What clinical context should be provided regarding features that contributed positively to the model prediction (e.g., sleep quality, campus belonging) when these factors are minor contributors in a low-risk profile?\",\n      \"linked_xai_factor\": \"sleep_wknight, belong1\",\n      \"retrieval_query\": \"clinical interpretation of moderate positive screening risk features in the context of strong protective factors\",\n      \"expected_evidence\": [\n        \"Contextualizing minor increases in sleep/belonging risk scores\",\n        \"Guidelines for weighing multiple small risk contributors against large protective ones\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the positive XAI contributors, but frames them as secondary concerns that are outweighed by protection.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"For a student with a low screening risk score who has identified protective factors, what types of non-clinical, proactive support considerations (e.g., resource referrals) are appropriate for the expert to recommend?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"low-risk mental health follow-up resources and psychoeducation recommendations\",\n      \"expected_evidence\": [\n        \"Non-clinical wellness resources (e.g., academic support, resilience workshops)\",\n        \"Best practices for low-intensity proactive student engagement\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Guides the expert on actionable steps that do not constitute clinical intervention or treatment planning.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of this specific machine learning model (CatBoost) regarding generalizability across different student populations, and how should these limitations be communicated to the expert?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model limitation communication guidelines for predictive screening tools\",\n      \"expected_evidence\": [\n        \"Model scope and population constraints (e.g., specific university setting)\",\n        \"How to communicate model uncertainty without causing alarm\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the need to contextualize the prediction within the model's operational boundaries.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

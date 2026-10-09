@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_high_11",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T11:09:40.636391+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_11",
+    "risk_interpretation": {
+      "probability": 0.967,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a screening probability of 0.967 for elevated depression/anxiety risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening probability for elevated depression/anxiety risk",
+        "expected_evidence": [
+          "interpretation of 0.967 screening probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide a clear understanding of the student's risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of academic impairment (aca_impa) to the model prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting aca_impa's contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributing factor."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of flourishing (flourish) to the model prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for flourishing's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting flourish's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor with lower impact."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of current financial situation (fincur) to the model prediction?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Evidence for current financial situation's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting fincur's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor with lower impact."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of food insecurity worry (food_worry) to the model prediction?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food insecurity worry's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting food_worry's contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributing factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of loneliness (lonely) to the model prediction?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for loneliness's contribution to depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting lonely's contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a contributing factor with lower impact."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for elevated depression/anxiety risk?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep's protective effect on depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting sleep_wknight's protective effect"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of gender discrimination (discrim_gender) for elevated depression/anxiety risk?",
+        "linked_xai_factor": "discrim_gender",
+        "retrieval_query": "Evidence for gender discrimination's protective effect on depression/anxiety screening risk",
+        "expected_evidence": [
+          "evidence supporting discrim_gender's protective effect"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a protective factor with lower impact."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What are some safety considerations for this student given the elevated screening risk for depression/anxiety?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for students with elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "safety considerations for elevated-risk students"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the safety of the student and provide non-diagnostic communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_11\",\n     \"risk_interpretation\": {\n       \"probability\": 0.967,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a screening probability of 0.967 for elevated depression/anxiety risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening probability for elevated depression/anxiety risk\",\n         \"expected_evidence\": [\"interpretation of 0.967 screening probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide a clear understanding of the student's risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of academic impairment (aca_impa) to the model prediction?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting aca_impa's contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of flourishing (flourish) to the model prediction?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for flourishing's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting flourish's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor with lower impact.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of current financial situation (fincur) to the model prediction?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"Evidence for current financial situation's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting fincur's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor with lower impact.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of food insecurity worry (food_worry) to the model prediction?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food insecurity worry's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting food_worry's contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributing factor.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of loneliness (lonely) to the model prediction?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for loneliness's contribution to depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting lonely's contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a contributing factor with lower impact.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of weeknight sleep (sleep_wknight) for elevated depression/anxiety risk?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep's protective effect on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting sleep_wknight's protective effect\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of gender discrimination (discrim_gender) for elevated depression/anxiety risk?\",\n         \"linked_xai_factor\": \"discrim_gender\",\n         \"retrieval_query\": \"Evidence for gender discrimination's protective effect on depression/anxiety screening risk\",\n         \"expected_evidence\": [\"evidence supporting discrim_gender's protective effect\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a protective factor with lower impact.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some safety considerations for this student given the elevated screening risk for depression/anxiety?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for students with elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"safety considerations for elevated-risk students\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the safety of the student and provide non-diagnostic communication.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

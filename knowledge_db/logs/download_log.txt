@@ -1,0 +1,52 @@
+DOC_A001	DOWNLOADED	https://scholarscommons.fgcu.edu/view/pdfCoverPage?instCode=01FALSC_FGCU&filePid=13288061740006570&download=true	pdfs/student_mental_health/DOC_A001.pdf
+DOC_A002	DOWNLOADED	https://pdfs.semanticscholar.org/e39d/a3fe04592f15240f87e417f8f762e1acd7cd.pdf	pdfs/student_mental_health/DOC_A002.pdf
+DOC_A003	DOWNLOADED	https://eiu.edu.ye/userfiles/files/projects/med/pharma/4.pdf	pdfs/student_mental_health/DOC_A003.pdf
+DOC_A004	FAILED	https://healthymindsnetwork.org/wp-content/uploads/2025/09/2024-2025_HMS-National-Data-Report_Student.pdf	
+DOC_A005	FAILED	https://healthymindsnetwork.org/wp-content/uploads/2024/09/HMS_national_report_090924.pdf	
+DOC_A006	FAILED	https://healthymindsnetwork.org/wp-content/uploads/2024/07/HMS-Standard-Questionnaire-2024-25_061724.pdf	
+DOC_A007	DOWNLOADED	https://www.med.unc.edu/healthsciences/physical/schoolbasedpt/wp-content/uploads/sites/662/2020/05/MH-Screening-1.27.20.pdf	pdfs/student_mental_health/DOC_A007.pdf
+DOC_A008	FAILED	https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=3266&context=etd	
+DOC_A009	DOWNLOADED	https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1010&context=nursing_dnp_capstone	pdfs/student_mental_health/DOC_A009.pdf
+DOC_B001	DOWNLOADED	https://europepmc.org/articles/PMC7331085?pdf=render	pdfs/student_mental_health/DOC_B001.pdf
+DOC_B002	DOWNLOADED	https://europepmc.org/articles/PMC12221267?pdf=render	pdfs/student_mental_health/DOC_B002.pdf
+DOC_B003	DOWNLOADED	https://europepmc.org/articles/PMC8675645?pdf=render	pdfs/student_mental_health/DOC_B003.pdf
+DOC_B004	FAILED	https://academicworks.cuny.edu/context/hc_sas_etds/article/2229/viewcontent/auto_convert.pdf	
+DOC_B005	DOWNLOADED	https://unistars.org/past_papers/papers09/content/pdf/8A.pdf	pdfs/student_mental_health/DOC_B005.pdf
+DOC_B006	DOWNLOADED	https://www.apa.org/depression-guideline/patient-health-questionnaire.pdf	pdfs/student_mental_health/DOC_B006.pdf
+DOC_B007	DOWNLOADED	https://dialnet.unirioja.es/descarga/articulo/10065982.pdf	pdfs/student_mental_health/DOC_B007.pdf
+DOC_C001	DOWNLOADED	https://europepmc.org/articles/PMC8420998?pdf=render	pdfs/xai_factors/DOC_C001.pdf
+DOC_C002	DOWNLOADED	https://peplau.psych.ucla.edu/wp-content/uploads/sites/141/2017/07/Russel-Peplau-Cutrona-80.pdf	pdfs/xai_factors/DOC_C002.pdf
+DOC_C003	DOWNLOADED	https://cssl.osu.edu/documents/Student%20Loneliness%20at%20Ohio%20State_May%202025_tagged.pdf	pdfs/xai_factors/DOC_C003.pdf
+DOC_C004	FAILED	https://ir.library.illinoisstate.edu/cgi/viewcontent.cgi?article=1002&context=fphsc	
+DOC_D001	DOWNLOADED	https://www.sbbwu.edu.pk/journal/FWU%20Journal%20Vol.7,%20No.2/6.%20EFFECT%20OF%20PERCIEVED%20ACADEMIC-1.pdf	pdfs/xai_factors/DOC_D001.pdf
+DOC_D002	DOWNLOADED	https://counseling.studentaffairs.miami.edu/_assets/pdf/nimh-depression-and-college-students.pdf	pdfs/xai_factors/DOC_D002.pdf
+DOC_D003	DOWNLOADED	http://www-personal.umich.edu/~daneis/papers/MHacademics.pdf	pdfs/xai_factors/DOC_D003.pdf
+DOC_D004	DOWNLOADED	https://pdfs.semanticscholar.org/dac5/e264ef0f1e4f6c231aada081d8a5a5b1d92c.pdf	pdfs/xai_factors/DOC_D004.pdf
+DOC_E001	DOWNLOADED	https://hope.temple.edu/sites/hope/files/media/document/TheHopeCenter_SurveyReport.pdf	pdfs/xai_factors/DOC_E001.pdf
+DOC_E002	DOWNLOADED	https://europepmc.org/articles/PMC12574881?pdf=render	pdfs/xai_factors/DOC_E002.pdf
+DOC_E003	DOWNLOADED	https://rapidsurveyproject.com/wp-content/uploads/2024/12/material_hardship_factsheet_apr2023.pdf	pdfs/xai_factors/DOC_E003.pdf
+DOC_E004	FAILED	https://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1032&context=spi_research	
+DOC_F001	DOWNLOADED	https://lchc.ucsd.edu/MCA/Mail/xmcamail.2012_11.dir/pdfYukILvXsL0.pdf	pdfs/protective_factors/DOC_F001.pdf
+DOC_F002	DOWNLOADED	https://pdfs.semanticscholar.org/125e/ff5fc64c1a28c17ce9156c2f2d95860d419f.pdf	pdfs/protective_factors/DOC_F002.pdf
+DOC_F003	DOWNLOADED	https://www.cmu.edu/dietrich/psychology/behavioral-health-lab/Papers%20and%20CV/Dutcher%20et%20al.,%202022.pdf	pdfs/protective_factors/DOC_F003.pdf
+DOC_F004	DOWNLOADED	https://europepmc.org/articles/PMC12333592?pdf=render	pdfs/protective_factors/DOC_F004.pdf
+DOC_F006	DOWNLOADED	https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/publications/scalesmeasurements/pdfs/cohenhober1983.pdf	pdfs/protective_factors/DOC_F006.pdf
+DOC_F007	DOWNLOADED	https://www.naspa.org/images/uploads/kcs/WHPL_Canon_WB_BTtoPWellbeingInitiative.pdf	pdfs/protective_factors/DOC_F007.pdf
+DOC_G001	DOWNLOADED	https://europepmc.org/articles/PMC7507856?pdf=render	pdfs/screening_communication/DOC_G001.pdf
+DOC_G002	DOWNLOADED	https://www.maryville.edu/wp-content/uploads/2022/05/Final-DNP-Depression-Jennings-pdf-approved.pdf	pdfs/screening_communication/DOC_G002.pdf
+DOC_G003	FAILED	https://scholarworks.umb.edu/context/nursing_dnp_capstone/article/1038/viewcontent/auto_convert.pdf	
+DOC_G004	DOWNLOADED	https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/updegraff_et_al._2015.pdf	pdfs/screening_communication/DOC_G004.pdf
+DOC_G005	DOWNLOADED	https://d-scholarship.pitt.edu/39915/1/Van%20Slyke%20Thesis%20EDT%20final%2003292921v1.pdf	pdfs/screening_communication/DOC_G005.pdf
+DOC_H001	DOWNLOADED	https://arxiv.org/pdf/1905.04610	pdfs/xai_calibration/DOC_H001.pdf
+DOC_H002	DOWNLOADED	https://arxiv.org/pdf/1706.04599	pdfs/xai_calibration/DOC_H002.pdf
+DOC_H003	DOWNLOADED	https://arxiv.org/pdf/1602.04938	pdfs/xai_calibration/DOC_H003.pdf
+DOC_H004	DOWNLOADED	https://arxiv.org/pdf/1811.10154	pdfs/xai_calibration/DOC_H004.pdf
+DOC_H005	DOWNLOADED	https://arxiv.org/pdf/1705.07874	pdfs/xai_calibration/DOC_H005.pdf
+DOC_H006	DOWNLOADED	https://arxiv.org/pdf/1906.10694	pdfs/xai_calibration/DOC_H006.pdf
+DOC_H007	DOWNLOADED	https://arxiv.org/pdf/1806.00179	pdfs/xai_calibration/DOC_H007.pdf
+DOC_I001	DOWNLOADED	https://arxiv.org/pdf/2005.11401	pdfs/rag_llm_evaluation/DOC_I001.pdf
+DOC_I002	DOWNLOADED	https://arxiv.org/pdf/2310.11511	pdfs/rag_llm_evaluation/DOC_I002.pdf
+DOC_I003	DOWNLOADED	https://arxiv.org/pdf/2202.03629	pdfs/rag_llm_evaluation/DOC_I003.pdf
+DOC_I004	DOWNLOADED	https://arxiv.org/pdf/2601.05866	pdfs/rag_llm_evaluation/DOC_I004.pdf
+DOC_I005	DOWNLOADED	https://arxiv.org/pdf/2302.12813	pdfs/rag_llm_evaluation/DOC_I005.pdf
+DOC_I006	DOWNLOADED	https://arxiv.org/pdf/2211.09110	pdfs/rag_llm_evaluation/DOC_I006.pdf

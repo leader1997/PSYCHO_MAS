@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_19",
+  "stratum": "high",
+  "qid": "Q3",
+  "question": "What are evidence-based interventions and psychoeducational strategies for mitigating the risk associated with reported loneliness in college students?",
+  "retrieval_query": "evidence based interventions for student loneliness anxiety depression screening",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:04.866278+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.892404,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and"
+    },
+    {
+      "rank": 2,
+      "score": 0.881725,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 3,
+      "score": 0.863875,
+      "chunk_id": "DOC_G002_p5_c1",
+      "doc_id": "DOC_G002",
+      "title": "[PDF] DNP Project - Maryville University",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "5 DEPRESSION SCREENING OF UNIVERSITY STUDENTS Table of Contents LIST OF FIGURES .........................................................................................................................8 LIST OF TABLES ...........................................................................................................................9 ABSTRACT………………………………………………………………………………….…..10 Chapter 1 INTRODUCTION…………………………………………………………………….12 Problem ………………………………….…………...……………………….…………13 Purpose………………………………………………………………..………………….14 Type of Inquiry……………………………………………………...……………………15 Background Knowledge …………………………………………….………...…………15 Significance…………………………………………………………..…………………..17 Significance to Nursing Practice………………...………..………………...………17 Significance to Healthcare……………………………………………...…………..19 Significance to Advanced Practice Nursing Practice …………………….………..19 Project Support……………………………………….………………..…………………20 Chapter 2 LITERATURE SYNTHESIS………………………………………………….……..22 Search History…………………………………………………………………..……….22 Integrated Review of Literature…………………………………………………………23 Incidence of Risk Factors…………………………………………………………23 Screening Tool…………………………………………………………………….25 Barriers……………………………………………………………………………28 Interventions………………………………………………………………………29 Literature Critique……………………………………………………………………….30 Strengths of Evidence…………………………..………………………………….31 Weaknesses of Evidence………………………………….……………………….31 Gaps……………………………………………………………………………….31 Limitations………………………………………………………………………. 32 Concepts and Definitions………………………………..………………………………32 Theoretical Framework…………………………………………...……………………..32"
+    },
+    {
+      "rank": 4,
+      "score": 0.848444,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students."
+    },
+    {
+      "rank": 5,
+      "score": 0.845116,
+      "chunk_id": "DOC_A003_p5_c2",
+      "doc_id": "DOC_A003",
+      "title": "[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "of depression, anxiety, and stress (p < 0.001). Other factors such as age, study field, family income, khat chewing, and insomnia were also significantly associated with depression (p < 0.05). Conclusion: The study reveals high prevalence rates of depression, anxiety, stress, and insomnia among university students in Yemen, with notable gender disparities and associations with various sociodemographic and lifestyle factors. These findings underscore the need for targeted mental health interventions and support services tailored to the specific needs of this population. Keywords: Depression, Anxiety, Stress, Insomnia, University Students, Yemen, Mental Health."
+    }
+  ]
+}

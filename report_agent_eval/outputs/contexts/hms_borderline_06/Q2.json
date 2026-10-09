@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_06",
+  "stratum": "borderline",
+  "qid": "Q2",
+  "question": "What is the current scientific evidence regarding the relationship between reported loneliness and elevated screening risk for student depression/anxiety?",
+  "retrieval_query": "scientific link between loneliness and college student anxiety/depression",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:16.439175+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_C003_p3_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 3,
+      "category_code": "C_loneliness_isolation",
+      "text": "3 loneliness is expected during these transitions, national studies indicate that loneliness among college students is widespread and associated with various physical and mental health issues (Bonsaksen et al., 2022), which can affect retention and completion rates (Zhai & Carney, 2024). Findings from the National College Health Assessment Loneliness continues to be an important focus for higher education leaders and practitioners, and monitoring loneliness rates provides important context. The National College Health Assessment provides multi-institutional data on college student loneliness. The American College Health Association (ACHA) conducts the NCHA annually and uses the UCLA 3-item loneliness scale to assess student loneliness (Hughes et al., 2004). The scale is comprised of three questions with the responses “hardly ever”, “some of the time” and “often”. These three options are worth 1, 2 and 3 points, respectively. The scores for each question are added together to create a total score from 3 to 9. Those with a score of six or greater are categorized as “lonely.” Loneliness in the National NCHA Sample Recent data from the national sample of university students taking the National College Health Assessment (NCHA) shows that the percentage of students reporting loneliness nationally has significantly decreased between 2022 and 2024. Table 1 shows differences in loneliness over time in the national NCHA sample between 2022 and 2024 (ACHA, 2022; ACHA, 2024). In 2024, approximately 75% of participating institutions were public universities and 94% of institutions were 4-year universities. The NCHA began including the loneliness scale after the onset of the COVID -19 pandemic. Table 1. NCHA National reference group"
+    },
+    {
+      "rank": 2,
+      "score": 0.989743,
+      "chunk_id": "DOC_C003_p2_c2",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive and rewarding. FINDINGS This report begins by explaining the state of current research in student loneliness in higher education and includes trend data on student loneliness in higher education broadly. The report then displays findings on student loneliness from three different research studies conducted at Ohio State and concludes by exploring how to address student loneliness. General Research on Loneliness in Higher Education College students are in a unique stage of life and encounter factors that contribute to loneliness as they join new social circles (Asher & Weeks, 2014; Eccles & Roeser, 2003; Renn & Arnold, 2003), experience increased academic stress (Jenkins et al., 2013) and engage in discourse about different ideas (Baxter Magolda, 2008). Although some degree of *p < .05, **p < .01, ***p < .001"
+    },
+    {
+      "rank": 3,
+      "score": 0.955313,
+      "chunk_id": "DOC_F003_p2_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is associated with higher rates of depression, par - ticularly in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Initial cross-sectional work has also identified lack of belonging as a predictor of depressive symptoms (Parr et al., 2020). Many self-report assessments of depressive symptoms include questions that assess social functioning; for example, the Center for Epidemiological Studies-Depression (CES-D) scale asks participants to rate social-functioning statements such as “I talked less than usual,” “People were unfriendly,” “I felt that people dislike me,” and “I felt lonely” (Lewinsohn et al., 1997), suggesting that depres- sive symptoms overlap with social experiences as well. The relationship between social factors and depression in young adults specifically has important implications as well. College students often have access to mental health treatment on campus, but the majority with mood disorders do not seek treatment (Blanco et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health"
+    },
+    {
+      "rank": 4,
+      "score": 0.950655,
+      "chunk_id": "DOC_C003_p2_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "2 INTRODUCTION Following the peak of the COVID-19 pandemic, former Surgeon General Vivek Murthy declared loneliness as a public health issue due to its association with mental and physical well-being (US HHS, 2023). Research studies consistently show that young adults report the highest rates of loneliness across the population (Ellard et al., 2022). Loneliness is described as a personal feeling of insufficient close connections in social relationships or having fewer social interactions than one wishes, regardless of the actual level of social engagement one has (Ellard et al., 2023; Yang, 2019). It should therefore be understood as a subjective experience that is not entirely dependent on the number of social interactions. Loneliness has widespread effects on mental health and well-being, and is associated with heart disease and premature death (US HHS, 2023). This report summarizes findings about student loneliness from research studies conducted at The Ohio State University. HIGHLIGHTS • Nationally, the prevalence of loneliness in students is on the decline (p < .001). • At Ohio State, the proportion of students categorized as lonely has significantly declined over time, with 53.2% of students categorized as lonely in 2022 and 43.2% of students categorized as lonely in 2025. • At Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive"
+    },
+    {
+      "rank": 5,
+      "score": 0.917804,
+      "chunk_id": "DOC_D003_p4_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "4 competitive, public university. We surveyed a random sample of approximately 2,800 undergraduate and graduate students abou t a range of mental health issues in fall 2005, and we conducted a follow-up survey with a subset of the sample in fall 2007. In this paper we focus on thre e of the most common types of mental disorders among adolescents and young adu lts: depression, anxiety disorders, and eating disorders. We link the survey data on mental health to academic measures collected from the university’s administrative records. This is the first study, to our knowledge, that examines how mental health predicts GPA and dropping out in a random sample of college students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, even after controlling for symptoms of anxiety and eating disorders, prior academic performance, and other cova riates. Depression also appears to interact with anxiety; the association between depression and academic outcomes is particularly strong among students who also have a positive screen for an anxiety disorder. Among the symptoms of depression, the strongest negative predictor of academic performance is anhe donia (lack of pleasure and interest in usual activities). By contrast, negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with"
+    }
+  ]
+}

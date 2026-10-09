@@ -1,0 +1,54 @@
+project:
+  name: report_agent_eval
+
+paths:
+  mas_root: ".."
+  plans_dir: "../query_agent_eval/outputs/plans"
+  kdb_ctx_src: "../knowledge_db_contextual_eval/src"
+  xai_rag_src: "../xai_rag_depression"
+  outputs_dir: "outputs"
+  contexts_dir: "outputs/contexts"
+  answers_dir: "outputs/answers"
+  charts_dir: "outputs/charts"
+
+ollama:
+  base_url: "http://localhost:11434"
+  request_timeout_seconds: 900
+  inter_call_delay_seconds: 0.5
+  temperature: 0.1
+
+# Frozen query plans authored by this model are the fixed question source.
+plan_model: gemma4
+
+# gpt-oss produces the reference answers AND scores RAGAS (bias disclosed).
+reference_model: "gpt-oss:20b"
+
+# Local LLMs whose answers are compared against the gpt-oss reference.
+candidates:
+  - gemma4
+  - llama3
+  - qwen2.5
+  - phi4
+  - mistral
+
+# Contextual RAG: the knowledge_db_contextual_eval winner.
+retrieval:
+  condition: ollama_context
+  mode: hybrid
+  top_k: 5
+
+# RAGAS answer-only metrics (retrieval is fixed, so context metrics are excluded).
+ragas:
+  backend: ollama
+  model: "gpt-oss:20b"
+  embedding_model: nomic-embed-text
+  batch_size: 8
+  # A slow local 20B judge needs a high per-job timeout. Sequential execution
+  # (max_workers=1) avoids GPU contention that otherwise stalls concurrent calls.
+  timeout_seconds: 1800
+  max_workers: 1
+  metrics:
+    - faithfulness
+    - answer_relevancy
+    - answer_correctness
+    - semantic_similarity

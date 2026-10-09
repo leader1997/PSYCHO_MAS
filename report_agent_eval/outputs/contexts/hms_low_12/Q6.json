@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_12",
+  "stratum": "low",
+  "qid": "Q6",
+  "question": "For students with mixed risk profiles (e.g., high protective factors but concerning behaviors), what is the optimal balance between psychoeducation and referral for expert review?",
+  "retrieval_query": "balancing psychoeducation vs clinical referral in low-risk screening follow-up",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:45.413222+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.859911,
+      "chunk_id": "DOC_G001_p2_c2",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 2,
+      "category_code": "G_screening_communication",
+      "text": "could also have great potential for general practice. 14 Therefore, the GET.FEEDBACK.GP multicentre RCT aims to test the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening in primary care patients. Regarding the detection of depression, general practitioners (GPs) hold the key position in most health- care systems: most cases are diagnosed in primary care and most antidepressants are prescribed by GPs.8 Despite the fact that evidence- based treatments are available, few patients receive guideline- based depression care, which could be due to low detection rates in primary care. 14 15 Whereas research has focused on establishing effective treatments for depression, the process of a valid diagnosis and an effective referral process has been fairly neglected.8 Meta- analyses and systematic reviews also conclude that there appears to be insufficient evidence that depression screening alone improves clinical outcomes.11 16 The GET. FEEDBACK.GP multicentre RCT fills in this research gap by testing a novel patient- targeted feedback intervention that aims to increase patient participation and engage- ment in mental healthcare. Trial objectives The multicentre GET.FEEDBACK.GP RCT primarily aims to determine the efficacy of a widely available feed- back intervention after depression screening to reduce depression severity. The primary hypothesis is that patient- targeted feedback leads to a greater reduction in depression severity 6 months after depression screening compared with GP- targeted feedback only or no feed- back. The secondary hypotheses are that patient- targeted feedback is cost- effective and will increase patient engagement in mental healthcare as well as professional depression care according to German guideline recom- mendations"
+    },
+    {
+      "rank": 2,
+      "score": 0.843653,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 3,
+      "score": 0.808297,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and"
+    },
+    {
+      "rank": 4,
+      "score": 0.78888,
+      "chunk_id": "DOC_A007_p6_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few students and getting feedback or starting with a classroom or grade and then making corrections/adjustments to the process rather than starting the screening process with an entire school or district. Mental health screening, Mental health screening, planning, and implementationplanning, and implementation"
+    },
+    {
+      "rank": 5,
+      "score": 0.769161,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    }
+  ]
+}

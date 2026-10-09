@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_08",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:04:00.952934+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 3,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 3,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant and useful for an expert-facing report, with clear coverage of risk interpretation, a key XAI contributor, protective factor, model limitations, and safety communication. However, it only addresses one major contributor (Academic impairment) rather than all significant contributors, limiting full XAI alignment. Some questions could be more precise to improve clarity, and the answerability from a general scientific knowledge base is moderate because several queries rely on case-specific data. Overall, the plan meets most criteria well but would benefit from broader coverage of contributors and tighter phrasing."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_05",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T04:58:16.106100+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 3,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is largely relevant and useful for an expert report, with clear and distinct questions. It covers the main XAI contributor but omits several other significant contributors, slightly lowering alignment. Safety language could be tightened to avoid any diagnostic framing."
+}

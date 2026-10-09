@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_05",
+  "stratum": "borderline",
+  "qid": "Q5",
+  "question": "Given the conflicting signals—high risk contributors (substance use, academic impairment) versus strong protective factors (financial stability, flourishing)—what is the optimal framework for synthesizing these elements into a cohesive support consideration for expert review?",
+  "retrieval_query": "frameworks for integrating conflicting risk and resilience data in mental health assessment reports",
+  "question_type": "expert_support_consideration",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:10.003761+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.971805,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 2,
+      "score": 0.879413,
+      "chunk_id": "DOC_B001_p1_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders 3 associated with high mor- bidity, including university failure and drop-out, 4 and increased mortality.5 Yet, successful completion of higher education is an important determinant of both healthy individual and societal growth and development. 6 Taken together, entry to university represents a high-risk period for the development of significant mental health problems, but at the same time offers an import- ant opportunity for effective prevention. 7 Globally, university student populations are changing and more closely reflect the gener al population in terms of risk factors and rates of psychopathology, in part driven by increasing enrolment and widening access. 8,9 For example, the World Health Organization Mental Health Survey reported comparable rates of common mental disorders in university student and non-student populations aged 18 – 22 years. 10 Further, a recent study reported an increase in univer- sity student suicide rates since 2009 in England and Wales, although below that of the general non-student population of a similar age. 11 Recent reports from varied higher education institutions and associations in both Canada and the UK have highlighted a substantial dispa rity between the increasing need for university student mental health support and available resources. 8,9,12 Yet, there are little reliable data"
+    },
+    {
+      "rank": 3,
+      "score": 0.873629,
+      "chunk_id": "DOC_B001_p1_c4",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "since 2009 in England and Wales, although below that of the general non-student population of a similar age. 11 Recent reports from varied higher education institutions and associations in both Canada and the UK have highlighted a substantial dispa rity between the increasing need for university student mental health support and available resources. 8,9,12 Yet, there are little reliable data to inform the extent of mental health need in the transition to and over the course of university study or to identify salient targets for the development of evidence-informed preventive and early-intervention strategies. Aims Research to date has been limited by a lack of longitudinal studies, low response rates yielding non-representative samples, and the use of varied and not always validated mea- sures. 7,12 Therefore, the primary aims of this longitudinal study were to (a) estimate the extent and persistence of clinically significant mental health s ymptoms; and (b) examine the importance of candidate potentially modifiable psychosocial and lifestyle risk factors for mental health and university- related outcomes in a large representative cohort of undergradu- ate students entering a major Canadian university. BJPsych Open (2020) 6, e46, 1 –8. doi: 10.1192/bjo.2020.24 1"
+    },
+    {
+      "rank": 4,
+      "score": 0.817379,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 5,
+      "score": 0.801395,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    }
+  ]
+}

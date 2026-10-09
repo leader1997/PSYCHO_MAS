@@ -1,0 +1,5 @@
+check,pass_rate,pass_rate_pct
+schema_valid,1.0,100.0
+safety_pass,1.0,100.0
+xai_alignment_pass,1.0,100.0
+has_disclaimer,1.0,100.0

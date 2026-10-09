@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_11",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "Considering the negative contribution from weeknight sleep (sleep_wknight), what are evidence-based recommendations for optimizing student sleep hygiene to mitigate screening risk?",
+  "retrieval_query": "Interventions and educational materials for improving college student sleep quality and mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:28.265684+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.91879,
+      "chunk_id": "DOC_A001_p3_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 3 Abstract Background: The prevalence of depression among college students has significantly increased in the past decade. Depression is twice as common among college students than compared to the general population. Without early identification and treatment of depression, it can negatively impact important outcomes such as social connectedness, academic performance, academic retention, and future economic productivity. Objective: Early identification and depression screening should be a priority among the college population. The purpose of this quality improvement project was to develop an evidence-based Depression Screening Protocol for an identified college health center utilizing the patient health questionnaire-2 (PHQ-2) and the patient health questionnaire-9 (PHQ-9) integrated in the electronic medical record. Various meetings with the healthcare providers, directors, and staff were held to share rationale for the development of the depression screening protocol and helped to identify the questions and concerns regarding implementation of the Depression Screening protocol. Results: Of the college students receiving health services at the identified college health center, a total of 1,741 college students were screened for depression, 1,719 students completed the PHQ- 2, 22 students completed the PHQ-9, and 13 students were referred to counseling and psychological services. Conclusion: The Doctor of Nursing Practice (DNP) project demonstrated that the implementation of an evidence-based Depression Screening Protocol at a college health center was manageable and sustainable. This quality improvement project was successfully integrated into the identified health college center and it improved early identification of depression among college students."
+    },
+    {
+      "rank": 2,
+      "score": 0.912036,
+      "chunk_id": "DOC_F002_p2_c4",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "of positive outcomes, including good health, work success, more prosocial behavior, and better relationships with others [37, 38]. PLOS MENT AL HEALTH Well-being in college students PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 2 / 20 independen t consultan t to Seity. IR and MH are related to the founders of Seity Health and were reimburse d as independent contractor s for this work. Seity Health funded the reimburse ments for MTurk respondents and reviewed the manuscript prior to submission to ensure that no proprietary information was included. Howev er, Seity Health and the Stanislaus County Office of Education had no role in study design, data collection and analysis, decision to publish, or prepara tion of the manuscript. Competing interests : The authors have read the journal’s policy and have the following compe ting interests: Some of the materials referenced in this study are © Seity Health, LLC. IR and MC are related to the founders of Seity Health, LLC. All four authors are paid, independent consultants to, but not employe es of, Seity Health, LLC. This does not alter our adherenc e to PLOS ONE policies on sharing data and materials. There are no patents, products in developm ent or markete d products associated with this research to declare."
+    },
+    {
+      "rank": 3,
+      "score": 0.901899,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 4,
+      "score": 0.896417,
+      "chunk_id": "DOC_A002_p2_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "challenging to derive thorough and valuable insights across a range of contexts because of the fragmented nature of these investigations. Although there are many review articles discussing different aspects of psychological distress among college students, the majority only discuss select features of individual symptoms, demographic factors, or individual intervention approaches [ 5]. The larger social, institutional, and policy environments in which pupils live and learn are ignored in these assessments. Integrative frameworks are urgently needed to reflect the complex- ity of interacting variables, as mental health is a complex and contextually embedded phenomenon [8,9]. One such framework is the Socio-Ecological Model (SEM), which conceptualizes human behavior and health outcomes as the result of dynamic interplays across multiple layers of influence: individual, interpersonal, institutional (organizational), community, and policy. This model has been widely used in public health, education, and psychology to examine health disparities, guide multi-level interventions, and inform system-oriented policy development [10]. The SEM is well suited to understanding college student mental health because it considers how personal characteristics (e.g., coping skills, self-efficacy), social relationships (e.g., peer and family support), institutional environments (e.g., access to mental health"
+    },
+    {
+      "rank": 5,
+      "score": 0.872491,
+      "chunk_id": "DOC_D003_p3_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "3 Americans are inundated with messages about success—in school, in a profession, in parenting, in relationships—without appreciating that successful performance rests on a foundation of mental health. United States Surgeon General’s Report on Mental Health, 1999 1. INTRODUCTION Among children and adolescents in the United States, mental disorders are estimated to account for a larger burden of disease, as measured in disability- adjusted life years (DALYs), than any ot her class of health conditions (Michaud et al., 2006). One of the primary concerns in younger populations is that mental health problems may affect human capital accumulation—in particular, the amount and productivity of schooling—whi ch may in turn have lifelong consequences for employment, income, and other outcomes. Understanding the link between mental health and academic success is therefore a crucial step towards assessing the returns to preventing, detecting, and trea ting mental health issues among young people. In this paper we analyze the conn ection between mental health and detailed measures of academic success during college. In the modern economy, college education has become an increa singly important component of human capital, and is associated with substantially higher earnings (Jaeger & Page, 1996; Kane & Rouse, 1995) and better health outcomes (Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have"
+    }
+  ]
+}

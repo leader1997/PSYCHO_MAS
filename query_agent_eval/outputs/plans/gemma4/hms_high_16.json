@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_high_16",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:56:05.481835+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_16",
+    "risk_interpretation": {
+      "probability": 0.9645,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "Given a high prediction probability (0.9645) resulting in an elevated depression/anxiety screening risk, what are the established clinical guidelines for interpreting this score and determining the necessity of immediate human expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Clinical guidelines interpretation high probability mental health screening tool",
+        "expected_evidence": [
+          "Guidelines for follow-up assessment after elevated screening risk.",
+          "Criteria for differentiating screening risk from clinical diagnosis."
+        ],
+        "priority": "high",
+        "rationale": "This is a high-risk case, requiring immediate clarification on the severity and actionability of the model's output according to best practices."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How do academic impairment (aca_impa) features contribute to elevated depression/anxiety screening risk, and what is the current literature on the relationship between academic stress and mental health outcomes in students?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Relationship between academic impairment and student anxiety/depression screening risk",
+        "expected_evidence": [
+          "Evidence linking high academic demands or impairment to psychological distress.",
+          "Contextualizing the role of academic stress as a contributing feature."
+        ],
+        "priority": "high",
+        "rationale": "Academic impairment is the single largest positive contributor (1.1121) and must be thoroughly contextualized for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the scientific basis for how food insecurity worry (food_worry) contributes to elevated depression/anxiety screening risk, and what are recommended assessment protocols when basic needs instability is identified?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Impact of food insecurity on mental health outcomes in young adults",
+        "expected_evidence": [
+          "Clinical evidence linking nutritional/financial stress to mood disorders.",
+          "Best practices for assessing basic needs deficits alongside mental health screening."
+        ],
+        "priority": "high",
+        "rationale": "Food worry is a major positive contributor and represents a critical, non-mental health domain factor that must be addressed by the expert."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What are the protective effects of institutional context (e.g., institution type or size) on student mental health, and how should these factors be weighed against high-risk indicators during expert review?",
+        "linked_xai_factor": "inst_type / inst_size",
+        "retrieval_query": "Protective role of institutional environment in mitigating student distress",
+        "expected_evidence": [
+          "Literature detailing how campus resources or structural factors buffer mental health risk.",
+          "Guidance on integrating protective factors into a holistic risk assessment."
+        ],
+        "priority": "medium",
+        "rationale": "Protective factors are present and must be included to provide a balanced, nuanced view for the expert reviewer."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of machine learning models in predicting mental health outcomes, particularly regarding individual variability and the need for qualitative assessment?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Limitations of ML models in clinical mental health screening",
+        "expected_evidence": [
+          "Discussion on model generalizability and potential biases.",
+          "Emphasis on the necessity of human clinician judgment over algorithmic scores."
+        ],
+        "priority": "high",
+        "rationale": "Despite calibration, acknowledging model limitations is crucial for responsible expert reporting."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What are the recommended non-diagnostic and supportive communication strategies to use when informing a student about an elevated screening risk, ensuring they feel supported without causing undue alarm or false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Non-diagnostic psychoeducation for students with high mental health screening scores",
+        "expected_evidence": [
+          "Scripts and guidelines for sensitive communication regarding elevated risk.",
+          "Best practices for follow-up resources that do not imply a diagnosis."
+        ],
+        "priority": "high",
+        "rationale": "This is mandatory for ethical practice, ensuring the report guides safe student interaction."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_16\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9645,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"Given a high prediction probability (0.9645) resulting in an elevated depression/anxiety screening risk, what are the established clinical guidelines for interpreting this score and determining the necessity of immediate human expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Clinical guidelines interpretation high probability mental health screening tool\",\n      \"expected_evidence\": [\n        \"Guidelines for follow-up assessment after elevated screening risk.\",\n        \"Criteria for differentiating screening risk from clinical diagnosis.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is a high-risk case, requiring immediate clarification on the severity and actionability of the model's output according to best practices.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How do academic impairment (aca_impa) features contribute to elevated depression/anxiety screening risk, and what is the current literature on the relationship between academic stress and mental health outcomes in students?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Relationship between academic impairment and student anxiety/depression screening risk\",\n      \"expected_evidence\": [\n        \"Evidence linking high academic demands or impairment to psychological distress.\",\n        \"Contextualizing the role of academic stress as a contributing feature.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Academic impairment is the single largest positive contributor (1.1121) and must be thoroughly contextualized for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the scientific basis for how food insecurity worry (food_worry) contributes to elevated depression/anxiety screening risk, and what are recommended assessment protocols when basic needs instability is identified?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"Impact of food insecurity on mental health outcomes in young adults\",\n      \"expected_evidence\": [\n        \"Clinical evidence linking nutritional/financial stress to mood disorders.\",\n        \"Best practices for assessing basic needs deficits alongside mental health screening.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food worry is a major positive contributor and represents a critical, non-mental health domain factor that must be addressed by the expert.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the protective effects of institutional context (e.g., institution type or size) on student mental health, and how should these factors be weighed against high-risk indicators during expert review?\",\n      \"linked_xai_factor\": \"inst_type / inst_size\",\n      \"retrieval_query\": \"Protective role of institutional environment in mitigating student distress\",\n      \"expected_evidence\": [\n        \"Literature detailing how campus resources or structural factors buffer mental health risk.\",\n        \"Guidance on integrating protective factors into a holistic risk assessment.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Protective factors are present and must be included to provide a balanced, nuanced view for the expert reviewer.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of machine learning models in predicting mental health outcomes, particularly regarding individual variability and the need for qualitative assessment?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Limitations of ML models in clinical mental health screening\",\n      \"expected_evidence\": [\n        \"Discussion on model generalizability and potential biases.\",\n        \"Emphasis on the necessity of human clinician judgment over algorithmic scores.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Despite calibration, acknowledging model limitations is crucial for responsible expert reporting.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What are the recommended non-diagnostic and supportive communication strategies to use when informing a student about an elevated screening risk, ensuring they feel supported without causing undue alarm or false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Non-diagnostic psychoeducation for students with high mental health screening scores\",\n      \"expected_evidence\": [\n        \"Scripts and guidelines for sensitive communication regarding elevated risk.\",\n        \"Best practices for follow-up resources that do not imply a diagnosis.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is mandatory for ethical practice, ensuring the report guides safe student interaction.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

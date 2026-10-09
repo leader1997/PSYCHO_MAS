@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_03",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:04:29.076403+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_03",
+    "risk_interpretation": {
+      "probability": 0.0511,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0511 in relation to the decision threshold of 0.5 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of model prediction probabilities relative to decision thresholds",
+        "expected_evidence": [
+          "model interpretation",
+          "decision-making with calibrated models"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the risk level based on the probability and threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support or refute the contribution of 'Campus belonging (item 1)' to the model's prediction, given its high level of impact?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "evidence for campus belonging and student mental health",
+        "expected_evidence": [
+          "campus belonging studies",
+          "mental health surveys"
+        ],
+        "priority": "medium",
+        "rationale": "Validate the significant contribution of this feature."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the student's high level of 'Flourishing' contribute to their low risk screening probability, and what additional evidence can support this finding?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "evidence for flourishing and mental health outcomes",
+        "expected_evidence": [
+          "flourishing and well-being studies",
+          "mental health resilience factors"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the protective role of this feature."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and near the threshold, what additional uncertainties or limitations should we consider in our interpretation of the prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "uncertainties and limitations in machine learning models for mental health screening",
+        "expected_evidence": [
+          "model calibration",
+          "near-threshold predictions"
+        ],
+        "priority": "low",
+        "rationale": "Address potential uncertainties due to model calibration."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the low risk of elevated depression/anxiety screening without giving false reassurance, especially considering the near-threshold probability?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices in communicating low-risk mental health screenings",
+        "expected_evidence": [
+          "communication strategies for low-risk cases",
+          "non-diagnostic language guidelines"
+        ],
+        "priority": "high",
+        "rationale": "Ensure appropriate and non-reassuring communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "{\n  \"case_id\": \"hms_low_03\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0511,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0511 in relation to the decision threshold of 0.5 for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of model prediction probabilities relative to decision thresholds\",\n      \"expected_evidence\": [\"model interpretation\", \"decision-making with calibrated models\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the risk level based on the probability and threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support or refute the contribution of 'Campus belonging (item 1)' to the model's prediction, given its high level of impact?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"evidence for campus belonging and student mental health\",\n      \"expected_evidence\": [\"campus belonging studies\", \"mental health surveys\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Validate the significant contribution of this feature.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the student's high level of 'Flourishing' contribute to their low risk screening probability, and what additional evidence can support this finding?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"evidence for flourishing and mental health outcomes\",\n      \"expected_evidence\": [\"flourishing and well-being studies\", \"mental health resilience factors\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the protective role of this feature.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and near the threshold, what additional uncertainties or limitations should we consider in our interpretation of the prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"uncertainties and limitations in machine learning models for mental health screening\",\n      \"expected_evidence\": [\"model calibration\", \"near-threshold predictions\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Address potential uncertainties due to model calibration.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the low risk of elevated depression/anxiety screening without giving false reassurance, especially considering the near-threshold probability?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices in communicating low-risk mental health screenings\",\n      \"expected_evidence\": [\"communication strategies for low-risk cases\", \"non-diagnostic language guidelines\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure appropriate and non-reassuring communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}"
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "hms_borderline_09",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:56:43.533816+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_09",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.5012 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting probabilities near the decision threshold.",
+        "expected_evidence": [
+          "interpretation_of_probabilities_near_threshold"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of a prediction close to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the feature 'Loneliness' contributing 0.3806 to the model's risk prediction?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Elevated depression/anxiety screening risk due to loneliness.",
+        "expected_evidence": [
+          "evidence_of_loneliness_impact"
+        ],
+        "priority": "high",
+        "rationale": "To assess the impact of loneliness on mental health."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find more information about how 'Current financial situation' (fincur) contributes 0.1805 to the model's risk prediction?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Elevated depression/anxiety screening risk due to current financial stress.",
+        "expected_evidence": [
+          "evidence_of_financial_stress_impact"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of financial stress in mental health."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factors, such as 'Flourishing' (-0.2891), are present and how do they influence the model's prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Protective factors against elevated depression/anxiety screening risk.",
+        "expected_evidence": [
+          "evidence_of_flourishing"
+        ],
+        "priority": "medium",
+        "rationale": "To identify and understand protective factors."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we address the model's near-threshold calibration status, which may introduce uncertainty in the prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Handling uncertainties in near-threshold predictions.",
+        "expected_evidence": [
+          "handling_near_threshold_predictions"
+        ],
+        "priority": "medium",
+        "rationale": "To manage and communicate model limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we ensure the communication with the student is non-diagnostic and supportive, especially given the borderline risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Non-diagnostic communication strategies for students.",
+        "expected_evidence": [
+          "non_diagnostic_communication_strategies"
+        ],
+        "priority": "high",
+        "rationale": "To maintain a supportive and non-intrusive approach."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account for expert review, given the borderline risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Support considerations for experts in borderline cases.",
+        "expected_evidence": [
+          "support_considerations_for_experts"
+        ],
+        "priority": "medium",
+        "rationale": "To guide the expert review process."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5012,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.5012 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting probabilities near the decision threshold.\",\n      \"expected_evidence\": [\"interpretation_of_probabilities_near_threshold\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the significance of a prediction close to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the feature 'Loneliness' contributing 0.3806 to the model's risk prediction?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"Elevated depression/anxiety screening risk due to loneliness.\",\n      \"expected_evidence\": [\"evidence_of_loneliness_impact\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To assess the impact of loneliness on mental health.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find more information about how 'Current financial situation' (fincur) contributes 0.1805 to the model's risk prediction?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"Elevated depression/anxiety screening risk due to current financial stress.\",\n      \"expected_evidence\": [\"evidence_of_financial_stress_impact\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand the role of financial stress in mental health.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factors, such as 'Flourishing' (-0.2891), are present and how do they influence the model's prediction?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"Protective factors against elevated depression/anxiety screening risk.\",\n      \"expected_evidence\": [\"evidence_of_flourishing\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To identify and understand protective factors.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we address the model's near-threshold calibration status, which may introduce uncertainty in the prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Handling uncertainties in near-threshold predictions.\",\n      \"expected_evidence\": [\"handling_near_threshold_predictions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To manage and communicate model limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we ensure the communication with the student is non-diagnostic and supportive, especially given the borderline risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Non-diagnostic communication strategies for students.\",\n      \"expected_evidence\": [\"non_diagnostic_communication_strategies\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To maintain a supportive and non-intrusive approach.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account for expert review, given the borderline risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Support considerations for experts in borderline cases.\",\n      \"expected_evidence\": [\"support_considerations_for_experts\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To guide the expert review process.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

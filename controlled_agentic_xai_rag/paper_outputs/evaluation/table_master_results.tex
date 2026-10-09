@@ -1,0 +1,34 @@
+\begin{table}
+\caption{System evaluation summary.}
+\label{tab:system_eval}
+\begin{tabular}{llr}
+\toprule
+component & metric & value \\
+\midrule
+Prediction (CatBoost) & AUC & 0.852 \\
+Prediction (CatBoost) & F1 & 0.752 \\
+Knowledge base & Documents & 44.000 \\
+Knowledge base & Chunks & 5740.000 \\
+Retrieval (bm25) & precision@5 & 0.032 \\
+Retrieval (bm25) & recall@5 & 0.004 \\
+Retrieval (bm25) & recall@10 & 0.010 \\
+Retrieval (bm25) & hit@5 & 0.140 \\
+Retrieval (bm25) & hit@10 & 0.290 \\
+Retrieval (bm25) & mrr & 0.092 \\
+Retrieval (bm25) & ndcg@10 & 0.037 \\
+Retrieval (hybrid_faiss) & precision@5 & 0.060 \\
+Retrieval (hybrid_faiss) & recall@5 & 0.008 \\
+Retrieval (hybrid_faiss) & recall@10 & 0.015 \\
+Retrieval (hybrid_faiss) & hit@5 & 0.230 \\
+Retrieval (hybrid_faiss) & hit@10 & 0.320 \\
+Retrieval (hybrid_faiss) & mrr & 0.124 \\
+Retrieval (hybrid_faiss) & ndcg@10 & 0.057 \\
+Query planning & Mean report questions & 1.000 \\
+Query planning & Mean XAI coverage & 1.000 \\
+Report quality & Safety pass rate & 1.000 \\
+Report quality & XAI alignment pass rate & 1.000 \\
+Report quality & Question coverage & 0.000 \\
+Report quality & Mean citations & 4.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

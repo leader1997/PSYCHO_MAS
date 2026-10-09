@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_11",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:44:09.981169+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_11",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What does a prediction probability of 0.0572 indicate about the student's risk level in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of low prediction probabilities in depression/anxiety screening models",
+        "expected_evidence": [
+          "low probability interpretation guidelines",
+          "decision threshold implications"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the risk level is crucial for contextualizing all other factors."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does a high level of 'Campus belonging (item 1)' contribute to the model's prediction, and what are its implications?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "impact of campus belonging on mental health screening risk",
+        "expected_evidence": [
+          "research on campus belonging and mental health",
+          "interpretation of high contribution levels"
+        ],
+        "priority": "medium",
+        "rationale": "This is a major contributor with a high impact level."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does 'Exercise frequency' play in the model's prediction, and how should it be interpreted?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "relationship between exercise frequency and mental health risk",
+        "expected_evidence": [
+          "exercise impact on depression/anxiety",
+          "low contribution interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "Exercise is a notable contributor, though with low impact."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does 'Academic impairment' function as a protective factor in reducing the predicted screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment's role in mental health protection",
+        "expected_evidence": [
+          "protective factors in mental health models",
+          "interpretation of negative contributions"
+        ],
+        "priority": "medium",
+        "rationale": "Academic impairment is a significant protective factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "guidelines on non-diagnostic communication",
+          "importance of professional evaluation"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring correct understanding of the tool's purpose is essential."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_11\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0572,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What does a prediction probability of 0.0572 indicate about the student's risk level in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of low prediction probabilities in depression/anxiety screening models\",\n      \"expected_evidence\": [\n        \"low probability interpretation guidelines\",\n        \"decision threshold implications\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the risk level is crucial for contextualizing all other factors.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does a high level of 'Campus belonging (item 1)' contribute to the model's prediction, and what are its implications?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"impact of campus belonging on mental health screening risk\",\n      \"expected_evidence\": [\n        \"research on campus belonging and mental health\",\n        \"interpretation of high contribution levels\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This is a major contributor with a high impact level.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does 'Exercise frequency' play in the model's prediction, and how should it be interpreted?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"relationship between exercise frequency and mental health risk\",\n      \"expected_evidence\": [\n        \"exercise impact on depression/anxiety\",\n        \"low contribution interpretation\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Exercise is a notable contributor, though with low impact.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does 'Academic impairment' function as a protective factor in reducing the predicted screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment's role in mental health protection\",\n      \"expected_evidence\": [\n        \"protective factors in mental health models\",\n        \"interpretation of negative contributions\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Academic impairment is a significant protective factor.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"guidelines on non-diagnostic communication\",\n        \"importance of professional evaluation\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring correct understanding of the tool's purpose is essential.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

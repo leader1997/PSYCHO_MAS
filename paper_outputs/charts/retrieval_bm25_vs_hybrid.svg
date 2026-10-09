@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="260" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700">Retrieval: BM25 vs Hybrid (100-Q benchmark)</text>
+<rect x="110.0" y="114.3" width="50" height="165.7" fill="#4E79A7"/>
+<text x="135.0" y="110.2857142857143" text-anchor="middle" font-size="10">0.290</text>
+<rect x="180.0" y="97.1" width="50" height="182.9" fill="#59A14F"/>
+<text x="205.0" y="93.14285714285714" text-anchor="middle" font-size="10">0.320</text>
+<text x="170.0" y="300" text-anchor="middle" font-size="12">hit@10</text>
+<rect x="310.0" y="157.3" width="50" height="122.7" fill="#4E79A7"/>
+<text x="335.0" y="153.33333333333331" text-anchor="middle" font-size="10">0.092</text>
+<rect x="380.0" y="114.7" width="50" height="165.3" fill="#59A14F"/>
+<text x="405.0" y="110.66666666666666" text-anchor="middle" font-size="10">0.124</text>
+<text x="370.0" y="300" text-anchor="middle" font-size="12">MRR</text>
+</svg>

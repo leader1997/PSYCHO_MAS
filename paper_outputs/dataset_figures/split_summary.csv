@@ -1,0 +1,5 @@
+Split,N,Positive %,Share %
+Train,44506,44.9,70.0
+Validation,9537,44.9,15.0
+Test,9538,44.9,15.0
+Total,63581,44.9,100.0

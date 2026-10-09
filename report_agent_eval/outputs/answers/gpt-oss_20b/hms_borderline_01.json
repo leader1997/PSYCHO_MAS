@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "When a predictive probability lies within a narrow band around the decision threshold, current college‑depression screening protocols treat it as an indeterminate result. The PHQ‑2 is designed as a first‑step screen; any positive result—regardless of how close to the cutoff—is followed by a more comprehensive assessment with the PHQ‑9 and, if indicated, referral to counseling services (Context 1). Because calibration confirms that the model behaves reliably at this boundary, clinicians should not rely solely on the single probability but instead repeat screening or add another validated instrument such as the GAD‑7 for anxiety or a full PHQ‑9 evaluation (Contexts 4 and 5). This strategy mitigates under‑detection that can arise from complaint‑based approaches and ensures students who may be at risk receive timely support. If follow‑up assessment remains equivocal, referral to qualified mental‑health professionals is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:30:45.228485+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Evidence shows that loneliness is a common risk factor for depressive symptoms among college students (Context 1,2). In one study, loneliness partially mediated the link between perceived social support and depression, indicating that even when supportive relationships exist, higher loneliness still elevates risk (Context 2). At Ohio State, baseline feelings of loneliness predicted later loneliness and poorer well‑being, while a strong sense of community at semester start reduced subsequent loneliness (Context 4). These findings suggest that reported loneliness contributes to elevated screening risk for depression and anxiety in college students, even when other protective factors such as social support or belonging are present.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:31:30.215624+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Financial instability is a documented stressor for university students that increases anxiety about financing studies and living away from home, thereby elevating screening risk for mental health problems (Context 3). This financial strain can heighten the likelihood of common mental disorders during emergent adulthood, underscoring the need for early identification through systematic screening (Contexts 1 & 2). Evidence supports using universal or targeted school‑wide screening to capture both well‑being and social determinants such as financial stress, enabling timely referral to appropriate services (Context 2). Once students are identified, a multi‑tiered system of supports can provide classroom‑level interventions, individual counseling, and referrals to cost‑effective outpatient mental health services—approaches shown to reduce long‑term morbidity and improve academic outcomes (Contexts 1 & 2). If screening indicates risk for self‑harm or severe distress, immediate assessment and referral to qualified support should be provided (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:32:42.067223+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "High flourishing scores signal a robust protective factor that statistically contributes to lower mental‑health risk, mirroring the documented benefits of strong social support. Evidence indicates that individuals with extensive social networks experience positive affect, stability, and self‑worth, which buffer against anxiety, depression, and even physical illness (Contexts 1–3). In college populations, high levels of perceived support are linked to reduced depressive symptoms, lower suicide risk, and greater life satisfaction (Context 5). Therefore, the reviewer should view flourishing as a main‑effect contributor that can attenuate elevated screening scores; interventions might focus on sustaining or enhancing these supportive relationships. If risk remains high despite strong flourishing, referral to qualified mental‑health support is warranted.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:33:15.307737+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Evidence from university studies indicates that factors contributing to a positive mental‑health profile can lessen the impact of common student stressors. In male first‑year students, higher levels of positive social interaction were associated with fewer academic difficulties (Context 2), suggesting that supportive relationships help buffer against academic and related pressures such as financial strain. Context 4 outlines a stress‑buffering model in which adequate social support protects individuals from developing anxiety or depression when faced with loneliness or other stressors; the absence of such support is linked to negative psychological states. Finally, Context 1 reports that modifiable psychosocial and lifestyle factors present at university entry were associated with positive mental‑health screens at year’s end, implying that maintaining these positive factors can mitigate the adverse effects of stress on academic performance and overall well‑being.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:34:26.517524+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When a student’s screen indicates an elevated risk, staff should begin by acknowledging the student’s feelings with empathetic statements such as “I understand this may feel concerning,” while explicitly noting that the result is part of routine preventive care and not a diagnosis (Context 3). The conversation must remain non‑diagnostic; explain that the score signals a need for further assessment rather than a clinical label, aligning with screening’s purpose to inform prevention and early intervention (Context 1). Students and families should be informed in advance—using clear language and multiple formats—about what an elevated score means, how it will be handled, and their right to consent or opt out (Context 3). If risk of harm is identified, staff must respond immediately by following a defined triage protocol that directs the student to Tier 2 or Tier 3 supports while maintaining professional boundaries (Context 3). The expert team should receive a concise report summarizing the screening outcome and recommended next steps without diagnostic language, ensuring confidentiality and adherence to MTSS principles (Contexts 1 & 2).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:35:20.102407+00:00"
+    }
+  }
+}

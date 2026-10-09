@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_11",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:34:38.735561+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_11",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic language to communicate a low screening risk result (P=0.0572) while ensuring the student understands that this score does not rule out mental health concerns?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for low depression/anxiety screening risk",
+        "expected_evidence": [
+          "Best practices for communicating negative screening results.",
+          "Language to avoid false reassurance."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure safe and responsible communication of the low-risk finding, preventing misinterpretation by the student or expert."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How should the strong negative contribution from 'Academic impairment' (aca_impa) and 'Flourishing' (flourish) be contextualized to support the expert review, emphasizing that these features are protective rather than causal?",
+        "linked_xai_factor": "aca_impa, flourish",
+        "retrieval_query": "clinical interpretation of high flourishing scores as protective factors in depression screening.",
+        "expected_evidence": [
+          "Clinical significance of high flourishing levels.",
+          "How to frame protective features in a non-causal manner."
+        ],
+        "priority": "high",
+        "rationale": "Focuses on the strongest negative contributors, which are key to supporting the low-risk conclusion. This is crucial for building confidence in the report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Given that 'Campus belonging' (belong1) contributed positively to the model prediction, what are the established clinical guidelines for interpreting a positive contribution from this specific feature in the context of low overall screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "clinical interpretation of campus belonging as a predictor of depression/anxiety risk.",
+        "expected_evidence": [
+          "Clinical meaning of 'belonging' feature contribution.",
+          "How to weigh minor positive contributions against strong protective factors."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the most significant contributing factor (belong1) that pushes the score up, requiring expert interpretation to contextualize its impact relative to the overall low risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the scientific literature on how 'Exercise frequency' (exerc) contributes positively to screening risk, and what are best practices for discussing this feature when it represents a minor risk factor?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "relationship between exercise frequency and depression/anxiety screening model contribution.",
+        "expected_evidence": [
+          "Scientific basis for 'exercise' as a predictor in this context.",
+          "Guidance on discussing minor risk factors."
+        ],
+        "priority": "medium",
+        "rationale": "Covers another major contributing factor. Since the overall risk is low, understanding why this feature contributes positively is necessary to avoid over-interpreting it."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the general limitations of using ML screening tools for non-diagnostic purposes, particularly when the prediction is far from the decision threshold (0.5)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of machine learning in mental health screening.",
+        "expected_evidence": [
+          "Model limitations regarding low-risk predictions.",
+          "When to recommend follow-up despite a negative screen."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for managing expert expectations and ensuring the report does not overstate the predictive power of the model, especially when far from the threshold."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "What are evidence-based psychoeducational resources or follow-up recommendations that can be provided to a student with low screening risk but who exhibits minor contributing factors (e.g., belonging1, exerc)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "psychoeducation and preventative support for students with low depression/anxiety screening risk.",
+        "expected_evidence": [
+          "Low-intensity intervention suggestions (e.g., workshops).",
+          "Resources focused on maintaining protective factors."
+        ],
+        "priority": "medium",
+        "rationale": "Provides actionable, non-clinical support ideas for the expert to include in the report, moving beyond just interpretation."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_11\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0572,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic language to communicate a low screening risk result (P=0.0572) while ensuring the student understands that this score does not rule out mental health concerns?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for low depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Best practices for communicating negative screening results.\",\n        \"Language to avoid false reassurance.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure safe and responsible communication of the low-risk finding, preventing misinterpretation by the student or expert.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How should the strong negative contribution from 'Academic impairment' (aca_impa) and 'Flourishing' (flourish) be contextualized to support the expert review, emphasizing that these features are protective rather than causal?\",\n      \"linked_xai_factor\": \"aca_impa, flourish\",\n      \"retrieval_query\": \"clinical interpretation of high flourishing scores as protective factors in depression screening.\",\n      \"expected_evidence\": [\n        \"Clinical significance of high flourishing levels.\",\n        \"How to frame protective features in a non-causal manner.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Focuses on the strongest negative contributors, which are key to supporting the low-risk conclusion. This is crucial for building confidence in the report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Given that 'Campus belonging' (belong1) contributed positively to the model prediction, what are the established clinical guidelines for interpreting a positive contribution from this specific feature in the context of low overall screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"clinical interpretation of campus belonging as a predictor of depression/anxiety risk.\",\n      \"expected_evidence\": [\n        \"Clinical meaning of 'belonging' feature contribution.\",\n        \"How to weigh minor positive contributions against strong protective factors.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the most significant contributing factor (belong1) that pushes the score up, requiring expert interpretation to contextualize its impact relative to the overall low risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the scientific literature on how 'Exercise frequency' (exerc) contributes positively to screening risk, and what are best practices for discussing this feature when it represents a minor risk factor?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"relationship between exercise frequency and depression/anxiety screening model contribution.\",\n      \"expected_evidence\": [\n        \"Scientific basis for 'exercise' as a predictor in this context.\",\n        \"Guidance on discussing minor risk factors.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Covers another major contributing factor. Since the overall risk is low, understanding why this feature contributes positively is necessary to avoid over-interpreting it.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the general limitations of using ML screening tools for non-diagnostic purposes, particularly when the prediction is far from the decision threshold (0.5)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of machine learning in mental health screening.\",\n      \"expected_evidence\": [\n        \"Model limitations regarding low-risk predictions.\",\n        \"When to recommend follow-up despite a negative screen.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for managing expert expectations and ensuring the report does not overstate the predictive power of the model, especially when far from the threshold.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are evidence-based psychoeducational resources or follow-up recommendations that can be provided to a student with low screening risk but who exhibits minor contributing factors (e.g., belonging1, exerc)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"psychoeducation and preventative support for students with low depression/anxiety screening risk.\",\n      \"expected_evidence\": [\n        \"Low-intensity intervention suggestions (e.g., workshops).\",\n        \"Resources focused on maintaining protective factors.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provides actionable, non-clinical support ideas for the expert to include in the report, moving beyond just interpretation.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

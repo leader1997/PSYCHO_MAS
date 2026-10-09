@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_04",
+  "stratum": "borderline",
+  "qid": "Q4",
+  "question": "What are the recommended approaches to address low levels of 'flourishing' and 'positive mental health' that contribute positively, but moderately, to screening risk?",
+  "retrieval_query": "strategies for enhancing flourishing and positive mental health in college students",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:42:54.272163+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.932216,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 2,
+      "score": 0.889336,
+      "chunk_id": "DOC_F002_p2_c3",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved well-being [27–29]. In college students, increases in belonging are associated with improved psychological well- being [30, 31] and reduced depressive symptoms, even after controlling for other social factors such as loneliness and frequency of social interactions [32]. Belonging does not emerge simply from being around others or having a social support network; engagement with the members of that network through communication or other interactions is also required [33]. Most social support and engagement studies focus on their links to depression and anxiety (e.g. [18]). However, mental health should not be conceptualized merely as the absence of mental illness; subjective well-being (SWB) and other positive experiences are also important (e.g., [34, 35]). SWB is a construct that encompasses life satisfaction, optimism, the absence of negative emotions, and the presence of positive emotions [36]. Increases in SWB are associated with a variety of positive outcomes, including good health, work success, more prosocial behavior, and better relationships with others [37, 38]. PLOS MENT AL HEALTH Well-being in college students PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 2 / 20 independen t consultan t to Seity. IR and MH are related to the founders of Seity Health and were reimburse"
+    },
+    {
+      "rank": 3,
+      "score": 0.887784,
+      "chunk_id": "DOC_F004_p2_c1",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Zhao and Hua 10.3389/fpsyg.2025.1585058 Frontiers in Psychology 02 frontiersin.org Universities have been increasingly implementing initiatives that address and assess various aspects of student wellbeing, recognizing its critical role in fostering academic and personal flourishing. These initiatives include positive psychology interventions (e.g., Hall et al., 2024), mental health services (e.g., Osborn et al., 2022), curriculum- embedded activities (e.g., Upsher et al., 2022 ), and wellbeing assessments (e.g., Williams et al., 2017 ). Universities profoundly influence students’ learning experiences, making it crucial to comprehensively understand how university experience, as one of the key factors, shapes student wellbeing and flourishing in order to inform effective institutional practices and policies (Baik et al., 2019; Campbell et al., 2022; Gilmore et al., 2025; Riva et al., 2020). 1.1 University students’ wellbeing Defining wellbeing is complex and multifaceted, with multiple theoretical frameworks present in the literature (Marsh et al., 2020). While definitions of wellbeing vary across frameworks and in the higher education context (e.g., Barkham et al., 2019; Dodd et al., 2021), these frameworks often distinguish between hedonic and eudaimonic wellbeing. Hedonic wellbeing primarily involves happiness and life satisfaction, focusing on the cognitive and affective facets of wellbeing, such as subjective experiences of joy, contentment, and overall life satisfaction, as posited by Diener’s (1984) theory of subjective wellbeing. Eudaimonic wellbeing, rooted in the concept of living a fulfilling and meaningful life (Steger, 2009), involves realizing one’s potential and pursuing personal growth (Ryff, 1989; Ryan and Deci, 2001 ). Additionally, social wellbeing is another crucial dimension, particularly in a university context ( Eloff et al., 2022; Makaremi"
+    },
+    {
+      "rank": 4,
+      "score": 0.885685,
+      "chunk_id": "DOC_A002_p2_c1",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "Healthcare 2025, 13, 1948 2 of 20 Recent data indicate that college students in the United States are showing worsening tendencies in their mental health. As reported by the Healthy Minds Study 2023–2024 Data Report [1], the percentage of people with positive mental health fell from 51% in 2013–14 to 38% in 2023–24. Suicide planning doubled to 6%, serious suicidal thoughts climbed to 13%, and anxiety and depression symptoms increased to 34% and 38%, respectively. The American College Health Association (2024) reported that 76% of students experienced moderate to high levels of stress in the spring of 2024, while 49% reported feeling lonely. Less than half (46%) received counseling, despite 47% screening positive for anxiety or depression [3,4]. In a 2024 report by the American College Health Association, nearly half of college students in the United States stated that they felt so depressed it was difficult to function, while over 60% experienced overwhelming anxiety [3]. Approximately 35.1% of students reported that anxiety significantly hindered their academic performance, and 34.6% had been diagnosed with an anxiety disorder [5]. A meta-analysis conducted by Chang et al. (2021) further found that 31.0% of college and university students in Europe, America, and the Asia–Pacific region suffer from anxiety [6]. However, a higher anxiety prevalence of 55.0% was reported by another systematic review and meta-analysis that focused on students in Europe [ 6]. These statistics echo a global trend, as universities in Asia, Europe, Africa, and Latin America have similarly reported rising rates of psychological distress among students [7,8]. During and after the COVID-19 pandemic,"
+    },
+    {
+      "rank": 5,
+      "score": 0.871052,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    }
+  ]
+}

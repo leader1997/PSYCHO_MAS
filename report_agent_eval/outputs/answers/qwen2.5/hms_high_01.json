@@ -1,0 +1,66 @@
+{
+  "model": "qwen2.5",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "Given the high prediction probability (0.9795), established guidelines suggest that an elevated depression/anxiety screening risk score should prompt further evaluation with tools like the PHQ-9 to confirm the presence of symptoms and severity. College health centers should consider implementing systematic screening methods, such as the PHQ-2, for early identification and referral to counseling services where appropriate. However, these scores do not constitute a diagnosis; they indicate a need for closer monitoring and potential intervention.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:15.974299+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The current scientific literature suggests that academic impairment (aca_impa) is significantly associated with elevated screening risk for depression and anxiety in young adults. Studies indicate that co-occurring depression and anxiety are linked to poorer academic outcomes, including lower GPA and increased likelihood of dropping out. Additionally, first-year university students with clinically significant depressive or anxiety symptoms show higher rates of functional impairment related to their symptoms, as measured by difficulties in work, home care, and social interactions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:23.056150+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity worry significantly contributes to elevated screening risk for depression and anxiety among students, particularly those with structurally marginalized identities such as Black, Indigenous, LGBTQIA+, and disabled students (41-75% experiencing food or housing insecurity). Psychoeducational resources recommended include workshops on financial management, stress reduction techniques, and mental health support groups. These resources can help mitigate the psychological impact of basic needs insecurity.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:29.107878+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Institutional type (inst_type) and age can influence protective mechanisms in students, as indicated by screening data that highlights strengths and well-being alongside symptoms of distress. For instance, understanding specific grade-level trends through school-wide screenings can inform targeted interventions to support students' social-emotional development. Highlighting these factors provides a balanced view of resilience, ensuring equitable supports are provided while addressing the unique needs of different age groups within the institution.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:35.652985+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine learning models like CatBoost may struggle with complex human behavioral data due to issues such as data sparsity, noise, and the non-linear nature of behaviors. These limitations can lead to inaccurate predictions or false positives/negatives in screening outcomes. When communicating these limitations in an expert report, it is crucial to highlight the potential for model errors and the importance of integrating qualitative assessments with quantitative data. Additionally, emphasizing the need for continuous validation and refinement of models based on feedback from real-world applications will help ensure more reliable screening practices.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:42.665864+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When presenting an elevated screening risk to a student or supervising professional, it is crucial to ensure immediate safety protocols are followed. Referrals for students who may be a danger to self or others should be made promptly and without delay. Communication strategies should prioritize clear, non-judgmental language to maintain trust and openness. It is essential to involve the student in the process where appropriate, ensuring they understand their rights and options, while also providing necessary support and resources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:08:49.491564+00:00"
+    }
+  }
+}

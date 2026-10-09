@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_08",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:35:26.450020+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is comprehensive, directly addresses the borderline risk scenario, covers all major XAI contributors and protective factors, aligns with scientific knowledge sources, supports expert report creation, adapts to probability nuances, maintains safety by avoiding diagnostic or causal language, is clear and distinct. All dimensions receive maximum scores."
+}

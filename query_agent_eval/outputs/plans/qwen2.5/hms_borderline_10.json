@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_borderline_10",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:58:48.469189+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_10",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.5012 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of near-threshold predictions in machine learning models",
+        "expected_evidence": [
+          "near-threshold prediction interpretation",
+          "decision-making with calibrated models"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the significance of a probability close to the decision threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the impact of loneliness on depression and anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "elevated depression/anxiety risk due to loneliness in students",
+        "expected_evidence": [
+          "studies linking loneliness to mental health",
+          "surveys measuring loneliness"
+        ],
+        "priority": "high",
+        "rationale": "Understand the specific contribution of loneliness to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the role of weeknight sleep in predicting elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "weeknight sleep patterns and mental health outcomes",
+        "expected_evidence": [
+          "studies on sleep quality and mental health",
+          "surveys correlating sleep with mood"
+        ],
+        "priority": "medium",
+        "rationale": "Explore the specific impact of weeknight sleep on screening risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What evidence is there for the protective effect of current financial situation (fincur) in reducing depression/anxiety screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stability and mental health outcomes",
+        "expected_evidence": [
+          "studies on financial stress and mental well-being",
+          "surveys measuring financial impact"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the specific protective role of current financial situation."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we account for the model's near-threshold prediction in our expert review and decision-making process?",
+        "linked_xai_factor": null,
+        "retrieval_query": "handling near-threshold predictions in machine learning models",
+        "expected_evidence": [
+          "best practices for interpreting calibrated models",
+          "uncertainty quantification methods"
+        ],
+        "priority": "medium",
+        "rationale": "Address the uncertainty associated with a prediction close to the decision threshold."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the potential risks and uncertainties of this screening result to the student in a non-diagnostic manner?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communicating mental health screening results without diagnostic language",
+        "expected_evidence": [
+          "guidelines for communicating screening results",
+          "best practices in mental health communication"
+        ],
+        "priority": "low",
+        "rationale": "Ensure the student is informed about potential risks and uncertainties without causing undue alarm."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account for a student with an elevated screening risk, given the identified features?",
+        "linked_xai_factor": null,
+        "retrieval_query": "support strategies for students with elevated depression/anxiety screening risks",
+        "expected_evidence": [
+          "mental health support services",
+          "student counseling resources"
+        ],
+        "priority": "medium",
+        "rationale": "Identify appropriate support measures based on the identified risk factors."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_10\",\n  \"risk_interpretation\": {\n    \"probability\": 0.5012,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.5012 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of near-threshold predictions in machine learning models\",\n      \"expected_evidence\": [\"near-threshold prediction interpretation\", \"decision-making with calibrated models\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the significance of a probability close to the decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the impact of loneliness on depression and anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"elevated depression/anxiety risk due to loneliness in students\",\n      \"expected_evidence\": [\"studies linking loneliness to mental health\", \"surveys measuring loneliness\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Understand the specific contribution of loneliness to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the role of weeknight sleep in predicting elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"weeknight sleep patterns and mental health outcomes\",\n      \"expected_evidence\": [\"studies on sleep quality and mental health\", \"surveys correlating sleep with mood\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Explore the specific impact of weeknight sleep on screening risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence is there for the protective effect of current financial situation (fincur) in reducing depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stability and mental health outcomes\",\n      \"expected_evidence\": [\"studies on financial stress and mental well-being\", \"surveys measuring financial impact\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the specific protective role of current financial situation.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we account for the model's near-threshold prediction in our expert review and decision-making process?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"handling near-threshold predictions in machine learning models\",\n      \"expected_evidence\": [\"best practices for interpreting calibrated models\", \"uncertainty quantification methods\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Address the uncertainty associated with a prediction close to the decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the potential risks and uncertainties of this screening result to the student in a non-diagnostic manner?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communicating mental health screening results without diagnostic language\",\n      \"expected_evidence\": [\"guidelines for communicating screening results\", \"best practices in mental health communication\"],\n      \"priority\": \"low\",\n      \"rationale\": \"Ensure the student is informed about potential risks and uncertainties without causing undue alarm.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account for a student with an elevated screening risk, given the identified features?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"support strategies for students with elevated depression/anxiety screening risks\",\n      \"expected_evidence\": [\"mental health support services\", \"student counseling resources\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Identify appropriate support measures based on the identified risk factors.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

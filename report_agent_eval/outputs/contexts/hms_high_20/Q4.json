@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_20",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What is the protective role of stable weeknight sleep (sleep_wknight) in mitigating elevated screening risk, and how can maintaining this routine be integrated into support considerations?",
+  "retrieval_query": "protective effect of consistent sleep patterns on depression anxiety screening risk",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:19.941217+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.938537,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 2,
+      "score": 0.870139,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 3,
+      "score": 0.85851,
+      "chunk_id": "DOC_F001_p2_c3",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "among persons with relatively low levels of social sup- port. Similarly, several prospective studies us- ing mental health outcome measures have shown a positive relation between social sup- port and mental health (Aneshensel & Frer- ichs, 1982; Billings & Moos, 1982; Henderson, Byrne, & Duncan-Jones, 1981; Holahan & Moos, 1981; Turner, 1981; Williams, Ware, & Donald, 1981). The mechanisms through which social sup- port is related to mental health outcomes and to serious physical illness outcomes, however, remain to be clarified. At a general level, it can be posited that a lack of positive social rela- tionships leads to negative psychological states such as anxiety or depression. In turn, these psychological states may ultimately influence physical health either through a direct effect on physiological processes that influence sus- ceptibility to disease or through behavioral patterns that increase risk for disease and mortality. In the following section, we outline how social support could be linked to health outcomes on a main effect basis and the mech- anism through which stress-buffering effects could occur. This framework is then used for reviewing literature on stress and support. Support as a Main Effect A generalized beneficial effect of social sup- port could occur because large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also"
+    },
+    {
+      "rank": 4,
+      "score": 0.831672,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 5,
+      "score": 0.83074,
+      "chunk_id": "DOC_G001_p2_c4",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 2,
+      "category_code": "G_screening_communication",
+      "text": "condition. The study design reflects the fact that the GET.FEEDBACK.GP trial is an interventional feedback study and not a depression screening trial: the comparison between the GP- targeted and patient- targeted feedback study arm and the GP- targeted feedback study arm isolates the potential effect of patient- targeted feed- back. The comparison between the GP- targeted feedback study arm and the no feedback study arm tests the poten- tial effect of providing feedback to GPs. The design of this trial therefore separates the effect of feedback after depression screening from depression screening without feedback. The GET.FEEDBACK.GP trial is expected to show the superiority of the GP- targeted feedback and patient- targeted feedback arm compared with the no feedback and GP- targeted feedback only arms regarding the primary endpoint. The primary hypothesis is that patient- targeted feedback combined with GP- targeted feedback leads to a lower depression severity 6 months after depres- sion screening than both GP- targeted feedback only and no feedback at all. Based on the previous single- centre DEPSCREEN- INFO trial, we expect a small effect of the patient- targeted feedback and GP- targeted feedback intervention compared with both other study arms. To detect the underlying effect size through an F- test with a significance level of α=0.05, a power of 1−β=0.8 and group effects (standardised mean difference) of 0 and 0.25, a sample size of n=233 is needed in each group (balanced design). This adds up to a total sample size of n=699 (computations were conducted with PASS 2008). Study sample and recruitment At each of the"
+    }
+  ]
+}

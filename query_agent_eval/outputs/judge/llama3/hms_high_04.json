@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_04",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:11:58.559264+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 2,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant and clear, providing useful context for an expert report. It covers the high‑risk strategy and includes safety communication. However, it only addresses one of several key XAI contributors and relies heavily on case‑specific data rather than general knowledge, limiting its answerability from a scientific database perspective."
+}

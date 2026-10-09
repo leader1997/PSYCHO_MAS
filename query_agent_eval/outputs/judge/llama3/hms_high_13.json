@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_13",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:14:08.854933+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, safe, and useful for expert reporting. It covers key XAI contributors but could include additional features such as Flourishing or Loneliness to strengthen alignment. Clarity is generally good, though some phrasing could be tightened."
+}

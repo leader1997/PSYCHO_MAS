@@ -1,0 +1,6 @@
+model,n_cases,schema_validity,mean_questions,pct_in_band,xai_coverage,protective_coverage,required_type_coverage,unsafe_wording_rate,redundancy_rate,parse_success
+gemma4,50,98.0,6.06,98.0,58.3,100.0,78.8,5.4,0.0,100.0
+llama3,50,100.0,4.68,60.0,31.5,100.0,88.5,0.4,1.7,100.0
+mistral,50,98.0,7.88,92.0,83.6,100.0,98.0,0.0,5.3,100.0
+phi4,50,100.0,6.44,100.0,60.1,100.0,100.0,0.0,0.0,100.0
+qwen2.5,50,100.0,6.44,100.0,46.4,100.0,100.0,0.3,0.2,100.0

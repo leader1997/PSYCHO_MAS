@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_11",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.967) and 'elevated screening risk' label, what is the clinical interpretation of this score in the context of non-diagnostic student mental health screening?",
+      "question_type": "risk_interpretation",
+      "stratum": "high",
+      "answer": "A prediction probability of 0.967 with an “elevated screening risk” label indicates that the student’s PHQ‑9 score is very likely above the threshold commonly used to flag possible major depressive episodes, as the instrument has demonstrated strong reliability and validity in university populations (Context 1). Because PHQ‑9 is a screening tool rather than a diagnostic test, this result should be interpreted as an indication of heightened risk that warrants further clinical evaluation rather than confirmation of a disorder. In practice, students who receive such a high probability are typically referred for a more comprehensive assessment—often at the campus counseling center—to determine whether formal diagnosis and treatment are appropriate (Context 5). If the student is identified as at risk, referral to qualified mental‑health support should be made promptly to facilitate early intervention.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:27:40.296927+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are the established relationships between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, particularly when this feature contributes significantly to the model prediction?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment is consistently linked to higher screening risk for depressive and anxious symptoms. Studies of first‑year university students show that lower grades and poorer academic functioning predict positive screens on PHQ‑9 and GAD‑7, with the effect strongest when depression co‑occurs with an anxiety disorder (Eisenberg et al., 2009). In longitudinal analyses, functional impairment reported by students—rated as “difficult” or “extremely difficult”—was associated with both lower cumulative GPA and reduced well‑being scores. When a predictive model identifies academic impairment as a significant contributor, it reflects that students experiencing academic difficulties are more likely to exhibit clinically relevant depressive or anxiety symptoms, underscoring the need for timely mental‑health referrals in this group.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:28:51.843100+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the recommended resources or interventions for addressing nutritional/financial stress in students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity—reported by 41 % of surveyed students and reaching 52 % among Pell Grant recipients—acts as a statistical contributor to elevated screening risk for anxiety, depression, and academic disengagement (see Context 4). The report links basic‑needs insecurity, including food, to students stopping out or considering leaving college, underscoring its role in mental‑health strain that raises screening concerns (Context 1). Addressing nutritional stress through campus‑based food support (e.g., pantries, emergency meal vouchers) and targeted financial‑aid counseling can reduce the associated anxiety and depression that elevate risk. Integrating these nutrition services with mental‑health resources is recommended to mitigate co‑occurring emotional distress. For students experiencing high food worry, referral to campus counseling centers and community food‑bank networks should be part of a comprehensive risk‑screening plan.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:30:46.977586+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the interplay between loneliness and low flourishing scores in predicting elevated screening risk, and how can these factors be differentiated or assessed further?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The retrieved literature documents loneliness as a risk factor for depressive symptoms and notes that it can mediate the relationship between perceived social support and depression (Contexts 1–2). No study in the provided evidence links flourishing scores to loneliness or to screening‑risk outcomes, so the interaction between these two constructs cannot be inferred from the current data. To differentiate them clinically, assess loneliness with a validated instrument such as the UCLA 3‑item scale (Context 3) and evaluate flourishing separately using an established Flourishing Scale; each measure captures distinct aspects of well‑being. Further research would need to collect both scores concurrently and examine their joint predictive power for elevated screening risk through multivariate or moderated mediation analyses. If a student shows high loneliness and low flourishing, referral to supportive services is advisable, but the evidence base for combined effects remains absent in these sources.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:32:02.856391+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "Considering the negative contribution from weeknight sleep (sleep_wknight), what are evidence-based recommendations for optimizing student sleep hygiene to mitigate screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence from a longitudinal study of first‑year students shows that modifiable lifestyle factors—including sleep regulation—predict later mental‑health screens (Context 3). Therefore, interventions that promote consistent bedtime and wake times, limit caffeine after midafternoon, reduce electronic device use in the hour before sleep, and create a dark, quiet sleeping environment are likely to improve sleep hygiene. Encouraging students to set a fixed sleep schedule even on weekends can help maintain circadian alignment, which has been linked to better mood and academic performance (Context 3). Counselors should monitor students who report persistent poor weeknight sleep for elevated depression risk and refer them to qualified mental‑health support when appropriate.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:33:16.514934+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What specific follow-up assessment components or specialized support considerations should an expert review when a student presents with concurrent risks related to academic impairment, food insecurity, and social isolation?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "When a student shows concurrent academic impairment, food insecurity, and social isolation, an expert should first review objective academic data (grades, attendance) alongside validated psychosocial measures such as the Brief Perceived Stress Scale, Rosenberg Self‑Esteem scale, Social Support subscale of the Resiliency Scale for Adolescence, and Sleep Condition Indicator (Context 3).  Concurrently assess financial strain—an individual‑level determinant linked to academic stress—and screen for food insecurity using a brief self‑report item or established module, noting that financial stress is identified as a key contributor in the socio‑ecological model of student distress (Context 1).  Evaluate interpersonal support by measuring family and friendship ties, which research shows act as protective factors against both isolation and academic decline (Context 1).  Consider classroom‑level data to determine whether multiple students in a specific cohort share similar risks; this can guide targeted group interventions rather than individual referrals alone (Context 5).  Finally, integrate multi‑level supports—link the student to campus nutrition assistance programs, peer support groups, and mental health services—while ensuring that any immediate safety concerns are addressed promptly through timely referral pathways (Contexts 2 & 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:34:43.486949+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What non-diagnostic language and communication strategies must be used when discussing elevated screening risk with a student to ensure safety, maintain rapport, and avoid false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When a student’s screening results indicate elevated risk, begin by framing the conversation around the purpose of the screening as a routine, non‑diagnostic check‑in that helps identify areas where additional support might be helpful (Context 5). Use neutral, supportive language such as “Your responses suggest you may be experiencing some challenges; this does not mean you have a disorder but indicates we should look closer to see how best to help” (avoiding diagnostic labels). Emphasize safety by explaining that the screening flagged potential concerns about self‑harm or other risks and that an immediate follow‑up assessment with the school mental health team will be arranged so the student’s safety can be ensured and appropriate services referred promptly (Context 2, Context 4). Maintain rapport through active listening and validation—acknowledge how difficult it may feel to discuss these issues and reassure the student that help is available and they are not alone. Finally, avoid false reassurance by encouraging ongoing dialogue about their experiences rather than implying everything will be fine on its own, thereby supporting early intervention (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:36:05.796527+00:00"
+    }
+  }
+}

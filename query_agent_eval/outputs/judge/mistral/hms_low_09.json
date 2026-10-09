@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_09",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:46:41.027763+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the model’s XAI contributors and covers both risk and protective factors. It is answerable via scientific literature, avoids diagnostic or treatment language, and includes safety considerations appropriate for a low‑risk student. The questions are clear and distinct, though some phrasing could be tightened for maximum clarity."
+}

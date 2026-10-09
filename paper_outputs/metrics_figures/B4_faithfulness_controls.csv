@@ -1,0 +1,5 @@
+model,base_auc,top5_auc_drop,random5_auc_drop_mean,random5_auc_drop_std,bottom5_auc_drop,n_random_trials
+XGBoost,0.8532,0.1698,0.0129,0.0227,0.0,20
+LightGBM,0.8525,0.1785,0.0137,0.0169,0.0,20
+CatBoost,0.852,0.1615,0.0084,0.0095,0.0,20
+Logistic Regression,0.8469,0.1263,0.0168,0.0205,0.0001,20

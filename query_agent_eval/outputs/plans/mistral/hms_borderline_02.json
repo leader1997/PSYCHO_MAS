@@ -1,0 +1,129 @@
+{
+  "case_id": "hms_borderline_02",
+  "model": "mistral",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:10:35.701065+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_02",
+    "risk_interpretation": {
+      "probability": 0.4997,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a screening risk probability of 0.4997 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening risk probabilities",
+        "expected_evidence": [
+          "interpretation of 0.4997"
+        ],
+        "priority": "high",
+        "rationale": "To understand the student's current risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Loneliness' to this student's screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "'Loneliness' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Loneliness' contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of loneliness on the student's case"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Current financial situation' to this student's screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "'Current financial situation' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Current financial situation' contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of current financial situation on the student's case"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Positive mental health' to this student's screening risk?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "'Positive mental health' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Positive mental health' contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of positive mental health on the student's case"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Age' to this student's screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "'Age' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Age' contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of age on the student's case"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of 'Binge drinking' to this student's screening risk?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "'Binge drinking' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Binge drinking' contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of binge drinking on the student's case"
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective factor 'Flourishing' for this student?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "'Flourishing' evidence for student depression/anxiety screening",
+        "expected_evidence": [
+          "evidence supporting 'Flourishing' protection"
+        ],
+        "priority": "high",
+        "rationale": "To understand the protective role of flourishing in this case"
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "What are the safety considerations for non-diagnostic communication with this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for non-diagnostic communication",
+        "expected_evidence": [
+          "safety considerations"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_borderline_02\",\n     \"risk_interpretation\": {\n       \"probability\": 0.4997,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"borderline\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a screening risk probability of 0.4997 for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening risk probabilities\",\n         \"expected_evidence\": [\"interpretation of 0.4997\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the student's current risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Loneliness' to this student's screening risk?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"'Loneliness' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Loneliness' contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of loneliness on the student's case\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Current financial situation' to this student's screening risk?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"'Current financial situation' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Current financial situation' contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of current financial situation on the student's case\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Positive mental health' to this student's screening risk?\",\n         \"linked_xai_factor\": \"positiveMH\",\n         \"retrieval_query\": \"'Positive mental health' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Positive mental health' contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of positive mental health on the student's case\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Age' to this student's screening risk?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"'Age' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Age' contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of age on the student's case\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of 'Binge drinking' to this student's screening risk?\",\n         \"linked_xai_factor\": \"binge1pl\",\n         \"retrieval_query\": \"'Binge drinking' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Binge drinking' contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of binge drinking on the student's case\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective factor 'Flourishing' for this student?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"'Flourishing' evidence for student depression/anxiety screening\",\n         \"expected_evidence\": [\"evidence supporting 'Flourishing' protection\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the protective role of flourishing in this case\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are the safety considerations for non-diagnostic communication with this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for non-diagnostic communication\",\n         \"expected_evidence\": [\"safety considerations\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

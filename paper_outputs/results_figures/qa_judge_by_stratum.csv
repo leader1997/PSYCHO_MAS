@@ -1,0 +1,4 @@
+stratum,gemma4,llama3,mistral,phi4,qwen2.5
+high,99.2,84.5,97.4,98.6,96.6
+borderline,99.0,86.5,96.2,96.8,97.2
+low,99.1,86.8,96.2,94.5,92.9

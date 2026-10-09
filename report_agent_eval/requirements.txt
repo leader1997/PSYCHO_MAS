@@ -1,0 +1,15 @@
+# Core
+pyyaml
+numpy
+pandas
+requests
+matplotlib
+
+# Contextual retrieval (shared with knowledge_db_contextual_eval)
+pypdf
+
+# RAGAS answer-metric scoring (gpt-oss via Ollama backend)
+# Pinned set lives in ../xai_rag_depression/reproducibility/requirements-ragas.txt
+ragas
+datasets
+langchain-community

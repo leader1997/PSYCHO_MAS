@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_05",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:17:47.970127+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the case, covering key XAI contributors and protective factors while maintaining safety and non‑diagnostic language. It leverages general scientific knowledge for evidence retrieval, ensuring answerability from a knowledge database. The questions are clear, distinct, and support an expert report, though some could be more tightly tailored to the student’s specific profile."
+}

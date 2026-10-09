@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_12",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:43:10.748415+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and safe, providing comprehensive support for an expert-facing report. It effectively covers key XAI contributors and protective factors, though it omits evidence queries for some moderate risk contributors such as flourishing, financial situation, and loneliness, which slightly lowers the XAI alignment score."
+}

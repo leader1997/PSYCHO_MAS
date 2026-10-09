@@ -1,0 +1,17 @@
+{
+  "card_type": "model_performance",
+  "model": "CatBoost",
+  "family": "ML",
+  "metrics": {
+    "auc": 0.852,
+    "accuracy": 0.7718,
+    "f1": 0.7524,
+    "macro_f1": 0.7704,
+    "recall": 0.7718,
+    "pr_auc": 0.8248,
+    "brier": 0.1569
+  },
+  "stability_score": 0.9651,
+  "calibration_score": 0.8431,
+  "model_weight": 0.6268
+}

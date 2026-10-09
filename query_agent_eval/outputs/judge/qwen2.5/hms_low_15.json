@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_15",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:29:53.602044+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is generally well‑aligned with the case, covering risk interpretation, key XAI contributors and protective factors, and includes a safety communication component. It leverages scientific literature for evidence retrieval, ensuring answerability from a knowledge database. The questions are clear, non‑redundant, and avoid diagnostic or causal language. However, some major XAI contributors (e.g., sleep_wknight, inst_public, inst_size) are omitted, slightly reducing alignment with the full set of model explanations."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_16",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T08:54:57.691446+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, well-aligned with the model’s XAI contributors, and fully answerable via scientific literature. It supports expert reporting and adapts appropriately to a high-risk scenario. Questions are clear, distinct, and avoid diagnostic or treatment advice. Minor concern: phrasing that implies causal contribution may slightly breach the no-causal-XAI-language rule."
+}

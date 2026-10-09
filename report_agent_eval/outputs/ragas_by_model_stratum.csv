@@ -1,0 +1,16 @@
+model,stratum,faithfulness,answer_relevancy,answer_correctness,semantic_similarity
+gemma4,borderline,0.7745,0.5934,0.5487,0.9313
+gemma4,high,0.9352,0.5906,0.5638,0.931
+gemma4,low,0.8129,0.4951,0.5503,0.9261
+llama3,borderline,0.3912,0.7311,0.5655,0.9424
+llama3,high,0.3832,0.7725,0.5321,0.9433
+llama3,low,0.602,0.6074,0.5458,0.9251
+mistral,borderline,0.6405,0.7024,0.6136,0.9553
+mistral,high,0.6809,0.7412,0.5314,0.9354
+mistral,low,0.5517,0.7176,0.3994,0.9107
+phi4,borderline,0.6112,0.703,0.6292,0.9532
+phi4,high,0.4916,0.739,0.5963,0.9465
+phi4,low,0.5433,0.6004,0.5845,0.9308
+qwen2.5,borderline,0.4007,0.7195,0.6293,0.9413
+qwen2.5,high,0.4727,0.7254,0.5197,0.9253
+qwen2.5,low,0.2262,0.7233,0.4683,0.9158

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_07",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:17:25.342027+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing useful information for an expert report. It covers key XAI contributors but omits several important features (e.g., flourish, food_worry) and protective factors beyond aca_impa, limiting full alignment with the model’s explanations. All questions can be answered using general scientific knowledge, and they adapt appropriately to the borderline risk level. Safety is largely maintained, though Q3's phrasing could imply causal influence; a more neutral wording would improve compliance."
+}

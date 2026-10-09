@@ -1,0 +1,5 @@
+component,metric,value,n
+Retrieval,hit@10 (bm25),0.29,100
+Retrieval,hit@10 (hybrid_faiss),0.32,100
+Report quality,Safety pass rate,1.0,2
+Report quality,XAI alignment pass rate,1.0,2

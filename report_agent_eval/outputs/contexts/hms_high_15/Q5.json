@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_15",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What are the protective benefits of attending a public institution or having institutional support structures for student mental health?",
+  "retrieval_query": "protective factors in university settings for student well-being",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:19.830683+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.904839,
+      "chunk_id": "DOC_B005_p2_c2",
+      "doc_id": "DOC_B005",
+      "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "associated with student attrition. It is argued by Kenny and Rice (1995) that adaptation to university involves a crisis in stress levels due to changes in attachment patterns (Bowlby, 1973) between caregiver and late adolescent student, suggesting that more positive outcomes occur when higher levels of parental support and family cohesiveness occur. This position is strongly supported by Holmbeck, Grayson & Wandrei, (1993). Adams, Berzonsky and Keating (2006) also suggest that values attitudes and expectations of parents and families remain influential to students, even when a family member is not physically present. In addition, supportive, constructive and positive interactions with university staff and other students have been identified by Adams et al (2006) as laying the foundation for psychosocial maturity, moral development and emotional well-being. A great deal of previous research into the first year university experience has focused on academic success, as well as enhancement of models of learning and teaching. Whilst financial difficulties remain a constant problem for many university students, mental health and emotional well being issues in first year university students, have now been identified at levels much greater than across general populations (Cooke et al, 2006). The research study builds on research previously presented as a round table discussion paper to the First Year in Higher Education Conference - 2007(App A).It’s focus was on discussion of issues and problems relevant to first year university students in the new millennium. The purpose of the current study is to identify the issues and problems relevant to 21 st century tertiary students and whether specific items can be"
+    },
+    {
+      "rank": 2,
+      "score": 0.89664,
+      "chunk_id": "DOC_F004_p2_c5",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "of understanding and enhancing the student learning experiences. The learning experiences of university students involve the synergy of internal and external factors that shape students’ university experience and engagement. Internally, it involves students’ cognitive, social, and value development as they engage in academic and extracurricular activities both inside and outside the classroom. Externally, it includes the learning environment, such as students’ perceptions of assessment, quality teaching, feedback, and clear goals and standards provided by teachers to foster student engagement and achieve desirable educational outcomes. Both internal and external factors of the student learning experiences play a substantial role in wellbeing (Baik et al., 2019; Gilmore et al., 2025). Research highlights the importance of internal factors in student wellbeing. Academic competencies such as critical thinking, problem- solving, and teamwork have been linked to positive outcomes across multiple wellbeing domains, including physical, social, and environmental wellbeing (Baumann et al., 2014; Vázquez-Parra et al., 2023). Academic and social experiences also play a central role in fostering wellbeing ( Brooker and Vu, 2020 ), particularly through students’ sense of purpose and meaningful engagement in learning (Stanton et al., 2016). Social participation and a sense of community further support wellbeing across diverse university contexts"
+    },
+    {
+      "rank": 3,
+      "score": 0.854706,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 4,
+      "score": 0.838185,
+      "chunk_id": "DOC_B001_p1_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders 3 associated with high mor- bidity, including university failure and drop-out, 4 and increased mortality.5 Yet, successful completion of higher education is an important determinant of both healthy individual and societal growth and development. 6 Taken together, entry to university represents a high-risk period for the development of significant mental health problems, but at the same time offers an import- ant opportunity for effective prevention. 7 Globally, university student populations are changing and more closely reflect the gener al population in terms of risk factors and rates of psychopathology, in part driven by increasing enrolment and widening access. 8,9 For example, the World Health Organization Mental Health Survey reported comparable rates of common mental disorders in university student and non-student populations aged 18 – 22 years. 10 Further, a recent study reported an increase in univer- sity student suicide rates since 2009 in England and Wales, although below that of the general non-student population of a similar age. 11 Recent reports from varied higher education institutions and associations in both Canada and the UK have highlighted a substantial dispa rity between the increasing need for university student mental health support and available resources. 8,9,12 Yet, there are little reliable data"
+    },
+    {
+      "rank": 5,
+      "score": 0.831617,
+      "chunk_id": "DOC_F002_p1_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being. Introduction On May 2, 2023, the Surgeon General of the United States stated the country was experiencing an epidemic of loneliness and isolation so severe that the negative health impacts were compa- rable to smoking 15 cigarettes a day [1]. Connecting with others was described as key to over- coming this epidemic, but establishing and maintaining connections is particularly challenging for college students. The transition from high school requires that students, who are already navigating myriad psychological changes during mid- to late-adolescence [2], adapt to unfamiliar academic and social environments while coping with newfound indepen- dence and novel living arrangements [3]. The widespread adoption of virtual instruction since the onset of the COVID-19 pandemic has created new barriers to connecting and increased students’ screen time, which is associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging"
+    }
+  ]
+}

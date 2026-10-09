@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "A probability of 0.9795 indicates a positive screen for depression or anxiety and should be treated as an alert rather than a formal diagnosis. In practice, the next step is to administer a more comprehensive instrument—such as the PHQ‑9 if the initial screen was a PHQ‑2—to quantify symptom severity (Context 1). If the PHQ‑9 score meets or exceeds the threshold of 10, clinicians should consider a brief structured assessment and discuss treatment options while arranging referral to counseling services available at the college health center or primary care practice (Contexts 1 and 4). Evidence from the DEPSCREEN‑INFO trial shows that providing written, patient‑targeted feedback after a positive screen can reduce depression severity and increase engagement in mental health care; similar interventions are being evaluated in the GET.FEEDBACK.GP RCT (Context 5). Thus, an elevated risk score should prompt immediate follow‑up assessment, appropriate referral, and consideration of tailored feedback to enhance patient engagement, while explicitly noting that screening is a non‑diagnostic tool.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:06:40.668059+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Current longitudinal studies consistently show a statistical association between poorer academic performance and higher rates of clinically significant depressive and anxiety symptoms in young adults. In a large U.S. university sample, lower cumulative GPA was significantly predicted by positive depression screens and even more strongly when anxiety co‑occurred (Eisenberg et al., 2009; see Context 2–3). The same cohort found that students who reported depressive or anxious symptoms at the start of their first year were more likely to experience academic impairment—measured as lower GPA and increased dropout risk—by year’s end, with these mental‑health factors accounting for a sizable portion of the variance in academic outcomes (Context 5). Additionally, a study using PHQ‑9 and GAD‑7 scores found that students who screened positive for depression or anxiety reported greater functional impairment in school tasks, reinforcing the link between mental‑health risk and academic difficulty (Context 1). Together, these findings underscore that academic impairment serves as an important statistical contributor to elevated screening risk for depression and anxiety among young adults.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:07:51.122756+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity is a prominent component of basic‑needs insecurity—41 % of surveyed students report it—and it co‑occurs with clinically significant anxiety or depression symptoms in roughly 44 % of respondents, indicating that worry about adequate food supply contributes statistically to elevated mental‑health risk. The data show that students experiencing food insecurity often cite emotional stress and mental‑health concerns as reasons for academic disruption, underscoring its role as a contributor to depressive and anxious symptomatology. While the report does not enumerate specific psychoeducational materials, it implies that institutions typically address these risks through campus counseling services, financial‑aid guidance, and on‑campus food‑pantry or meal‑plan assistance programs. For students identified at higher risk, referral to qualified mental‑health support and informational resources about basic‑needs assistance is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:08:57.304192+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The evidence indicates that school mental‑health screening can reveal strengths and well‑being across the entire student body, including by grade or age group (Context 2). Screening data may show that certain classrooms or age cohorts have higher levels of resilience indicators such as life satisfaction and school belonging, which could be interpreted as protective mechanisms linked to developmental stage. However, none of the retrieved passages explicitly identify institutional type (inst_type) as a contributor to resilience; thus no evidence is available to describe protective factors tied to different school settings. To present a balanced view, highlight that screening can surface both strengths and needs for all students, allowing educators to tailor supports that reinforce identified protective factors while addressing gaps. This approach underscores the importance of early identification and equitable support rather than attributing resilience to specific institutional or age categories without empirical backing.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:10:00.618602+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The retrieved passages focus on depression and school mental‑health screening practices but do not mention machine‑learning algorithms such as CatBoost or describe their performance characteristics. Consequently, there is no evidence in the supplied material to identify specific limitations of these models when applied to complex human behavioral data, nor guidance on how to report them. If an expert report were to discuss ML model constraints, it would need to draw upon additional sources that detail issues such as overfitting, interpretability challenges, bias from uneven training data, and the difficulty of capturing nuanced psychosocial variables—none of which are covered in the current evidence set.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:10:53.322660+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Present the screening result using a strengths‑based, non‑diagnostic tone—emphasize early support rather than labeling and involve the student (and family when appropriate) in discussing next steps, as recommended for comprehensive school mental health screening (Context 1).  \nImmediately respond to any indication of self‑harm or harm to others by conducting a rapid safety assessment and arranging urgent referral to school or community mental health services; this is required to ensure safety (Context 1).  \nUse a defined triage process to determine whether the student requires Tier 2 or Tier 3 supports, ensuring that referrals are made promptly and documented (Context 3).  \nCommunicate findings with empathy, focusing on available resources rather than diagnostic categories, which aligns with the goal of early identification and prevention outlined in multi‑tiered systems (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:12:10.195442+00:00"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_high_01",
+  "arm": "llm_plan",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "answer": "Interpretation of an elevated screening risk score requires a systematic, non-diagnostic approach focused on further evaluation and support. For instance, if a student screens positive using a tool like the PHQ-2, the established protocol suggests further evaluation with a more comprehensive measure, such as the PHQ-9, followed by potential referral to counseling services. Generally, screening for complete mental health, encompassing both strengths and symptoms, may be warranted. Crucially, screening teams must prioritize identifying students who are in the most immediate need of mental health supports, particularly those who endorse suicidal or homicidal ideation or exhibit other signs of danger to self or others. In these high-risk scenarios, immediate assessment is required, and timely referrals to both school and community mental health services must be provided.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "The provided literature suggests that poor academic progress is one factor that screening teams may use to identify students who are at risk for mental health supports. Generally, research indicates that students who report low levels of well-being tend to experience worse current and long-term academic outcomes compared to those with high well-being. While the context establishes that students may experience basic needs insecurity and that mental health issues are prevalent, it does not provide specific scientific literature linking academic impairment directly to an elevated screening risk for depression and anxiety.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "Basic needs insecurity, which includes concerns related to food and housing, is statistically associated with elevated risks for mental health symptoms. For instance, students with disabilities are significantly more likely to experience basic needs insecurity related to food and/or housing compared to their peers. Furthermore, basic needs insecurity—which encompasses emotional stress and mental health concerns—is cited as a contributing factor for students who have previously stopped attending college. To facilitate early identification, screening protocols may utilize tools such as the Patient Health Questionnaire-2 (PHQ-2) for depression, with positive screens warranting further evaluation using the PHQ-9. Psychoeducation and support resources recommended include universal school screening to connect students and families to cost-effective services like individual and group outpatient mental health services and support groups.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not detail specific protective mechanisms associated with institutional type or age. However, to provide a balanced view of student resilience, the context suggests that screening should assess both strengths and symptoms, as students who report average to high levels of well-being tend to experience better current and long-term outcomes. Furthermore, early identification of social, emotional, and behavioral difficulties is emphasized as a cost-effective intervention strategy. When assessing resilience, it is important to note that while various basic needs insecurities—such as mental health, transportation, and childcare—are significant contributors to academic difficulty, the focus should remain on identifying existing strengths alongside symptoms.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided context passages do not contain any information regarding the known limitations of machine learning models, such as CatBoost, when applied to complex human behavioral data. Therefore, it is not possible to advise on how these specific model limitations should be communicated within an expert report using the retrieved evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "answer": "When an elevated screening risk is identified, immediate safety protocols require that any student who may be a danger to self or others—such as those endorsing suicidal or homicidal ideation—must be further assessed immediately to ensure safety. Beyond immediate safety, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner. The screening process itself involves identifying students at risk for mental illness or harm, which includes screening for complete mental health, encompassing both strengths and symptoms. Early identification of emotional and behavioral difficulties is crucial, as early intervention services are less costly than long-term intensive care options.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_high_01"
+    }
+  },
+  "n_contexts": 5
+}

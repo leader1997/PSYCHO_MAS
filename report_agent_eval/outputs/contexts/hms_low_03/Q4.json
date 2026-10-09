@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_03",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "How should the model's positive contributions from 'Institution size' and 'Public institution' be discussed to provide context regarding institutional environment, without implying a direct causal link?",
+  "retrieval_query": "contextual discussion of institutional characteristics (size, public status) in mental health screening reports",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:59.116310+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.815625,
+      "chunk_id": "DOC_A002_p2_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "challenging to derive thorough and valuable insights across a range of contexts because of the fragmented nature of these investigations. Although there are many review articles discussing different aspects of psychological distress among college students, the majority only discuss select features of individual symptoms, demographic factors, or individual intervention approaches [ 5]. The larger social, institutional, and policy environments in which pupils live and learn are ignored in these assessments. Integrative frameworks are urgently needed to reflect the complex- ity of interacting variables, as mental health is a complex and contextually embedded phenomenon [8,9]. One such framework is the Socio-Ecological Model (SEM), which conceptualizes human behavior and health outcomes as the result of dynamic interplays across multiple layers of influence: individual, interpersonal, institutional (organizational), community, and policy. This model has been widely used in public health, education, and psychology to examine health disparities, guide multi-level interventions, and inform system-oriented policy development [10]. The SEM is well suited to understanding college student mental health because it considers how personal characteristics (e.g., coping skills, self-efficacy), social relationships (e.g., peer and family support), institutional environments (e.g., access to mental health"
+    },
+    {
+      "rank": 2,
+      "score": 0.801777,
+      "chunk_id": "DOC_B007_p2_c4",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research objectives and signed an informed consent form. This project was approved by the Ethics Committee of a university in Colombia. A sociodemographic characteristics instrument was applied to all participants, and all of them completed the PHQ -9 (1). The PHQ -9 is a screening scale that measures the presence and severity of depressive symptoms (1) and consists of nine symptoms of the DSM-IV MDE criterion A (74). These nine items are arranged in the form of an adjectival-type scale assessing the presence of the symptom in the last two weeks (\"not at all,” \"several days,” \"more than half of the days\" and \"almost every day\"), which are scored from 0 to 3, reaching a score between 0 and 27 (75). It can be self - or hetero - administered and is used either algorithmically to make a probable diagnosis of an MDE or as a continuous measure of scores ranging from 0 to 27 and cut -off"
+    },
+    {
+      "rank": 3,
+      "score": 0.793959,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable"
+    },
+    {
+      "rank": 4,
+      "score": 0.761951,
+      "chunk_id": "DOC_A007_p6_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few students and getting feedback or starting with a classroom or grade and then making corrections/adjustments to the process rather than starting the screening process with an entire school or district. Mental health screening, Mental health screening, planning, and implementationplanning, and implementation"
+    },
+    {
+      "rank": 5,
+      "score": 0.756822,
+      "chunk_id": "DOC_A003_p7_c1",
+      "doc_id": "DOC_A003",
+      "title": "[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",
+      "page": 7,
+      "category_code": "A_student_mental_health",
+      "text": "vi 3.3 Eligibility Criteria ....................................................................................... 20 3.3.1 Inclusion Criteria: ............................................................................... 20 3.3.2 Exclusion Criteria: ............................................................................... 20 3.4 Pilot study: ................................................................................................. 21 3.5 Study population ......................................................................................... 21 3.6 Study Tool: ................................................................................................. 21 3.7 Sample size calculation and sampling methods ............................................... 23 3.8 Data collection ............................................................................................ 23 3.9 Ethical approval .......................................................................................... 23 3.10 Statistical analysis ..................................................................................... 24 Results ............................................................................................................................. 26 4.1 Sociodemographic data ................................................................................ 26 4.2 Depression, anxiety, stress and other characteristics of the participants ............. 33 4.3 Association of gender with the DASS-21 ....................................................... 34 4.4 Association between participant characteristics and depression: ....................... 38 4.5 Association between participants characteristics and anxiety status: .................. 43 4.6 Association between participants characteristics and stress status: .................... 48 Discussion........................................................................................................................ 54 5.1 Discussion .................................................................................................. 54 Conclusion and Recommendation ................................................................................ 60 6.1 Conclusion ................................................................................................. 60 6.2 Strengths .................................................................................................... 60 6.3 Limitations ................................................................................................. 60 6.4 Recommendations ....................................................................................... 61 References ....................................................................................................................... 62 Appendix ............................................................................................................................. 1.Appendix A: Data Collection Sheet ..................................................................... 2.Appendix B: letter of support for research and ethics approval ............................... الخلاصة ................................................................................................................................ ١"
+    }
+  ]
+}

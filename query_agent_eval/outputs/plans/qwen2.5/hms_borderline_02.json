@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_02",
+  "model": "qwen2.5",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:42:16.811917+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_02",
+    "risk_interpretation": {
+      "probability": 0.4997,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.4997 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of near-threshold probabilities in predictive models",
+        "expected_evidence": [
+          "near-threshold probability interpretation",
+          "decision-making with calibrated models"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the significance of a prediction close to the decision threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the feature 'Loneliness' (42.29% contribution) and its impact on depression/anxiety screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "elevated loneliness and its association with mental health risks",
+        "expected_evidence": [
+          "studies linking loneliness to depression",
+          "surveys measuring loneliness in students"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the specific impact of loneliness on screening risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find more information about how 'Current financial situation' (18.91% contribution) affects mental health and screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stress and its impact on student mental health",
+        "expected_evidence": [
+          "studies on financial stress",
+          "surveys of students with similar financial situations"
+        ],
+        "priority": "medium",
+        "rationale": "Explore the specific contribution of current financial situation to screening risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factors, such as 'Flourishing' (28.18% negative contribution), can we use to support the student's mental health?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "positive mental health indicators and their impact on depression/anxiety risk",
+        "expected_evidence": [
+          "studies on flourishing and mental well-being",
+          "surveys measuring flourishing in students"
+        ],
+        "priority": "medium",
+        "rationale": "Highlight the protective factors that can be leveraged."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we address the uncertainty associated with the model's prediction, especially given its near-threshold status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "handling uncertainty in predictive models and decision-making processes",
+        "expected_evidence": [
+          "uncertainty quantification methods",
+          "best practices for threshold interpretation"
+        ],
+        "priority": "medium",
+        "rationale": "Provide a balanced view of the model's limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the non-diagnostic nature of this screening to the student and their support network?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating mental health screenings without diagnostic implications",
+        "expected_evidence": [
+          "guidelines on non-diagnostic communication",
+          "examples of effective non-diagnostic messaging"
+        ],
+        "priority": "high",
+        "rationale": "Ensure the student and their network understand the screening's purpose."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.4997,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.4997 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of near-threshold probabilities in predictive models\",\n      \"expected_evidence\": [\"near-threshold probability interpretation\", \"decision-making with calibrated models\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the significance of a prediction close to the decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the feature 'Loneliness' (42.29% contribution) and its impact on depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"elevated loneliness and its association with mental health risks\",\n      \"expected_evidence\": [\"studies linking loneliness to depression\", \"surveys measuring loneliness in students\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the specific impact of loneliness on screening risk.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find more information about how 'Current financial situation' (18.91% contribution) affects mental health and screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stress and its impact on student mental health\",\n      \"expected_evidence\": [\"studies on financial stress\", \"surveys of students with similar financial situations\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Explore the specific contribution of current financial situation to screening risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factors, such as 'Flourishing' (28.18% negative contribution), can we use to support the student's mental health?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"positive mental health indicators and their impact on depression/anxiety risk\",\n      \"expected_evidence\": [\"studies on flourishing and mental well-being\", \"surveys measuring flourishing in students\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Highlight the protective factors that can be leveraged.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we address the uncertainty associated with the model's prediction, especially given its near-threshold status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"handling uncertainty in predictive models and decision-making processes\",\n      \"expected_evidence\": [\"uncertainty quantification methods\", \"best practices for threshold interpretation\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Provide a balanced view of the model's limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the non-diagnostic nature of this screening to the student and their support network?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating mental health screenings without diagnostic implications\",\n      \"expected_evidence\": [\"guidelines on non-diagnostic communication\", \"examples of effective non-diagnostic messaging\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure the student and their network understand the screening's purpose.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

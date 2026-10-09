@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_12",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:11:56.586812+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 2,
+    "report_usefulness": 4,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑structured and aligns with the high‑risk strategy, providing clear risk interpretation, contributor evidence for key XAI factors, a protective factor overview, and safety considerations. It scores highly on relevance, clarity, non‑redundancy, probability adaptation, and safety. However, it covers only two of five major contributors and one protective factor, limiting full XAI alignment. Additionally, the questions rely heavily on case‑specific model outputs rather than general scientific knowledge, reducing kdb answerability. Expanding coverage to include all significant contributors (e.g., food_worry, lonely) and framing some queries in a more generic, evidence‑based manner would improve overall effectiveness."
+}

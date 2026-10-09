@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw_pdfs/
+data/faiss_llama3/
+data/faiss_index/
+data/chroma_index/
+results/
+figures/
+*.egg-info/
+.pytest_cache/

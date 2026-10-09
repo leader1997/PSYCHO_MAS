@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_low_02",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:02:41.662792+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_02",
+    "risk_interpretation": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should the low probability (0.0505) be interpreted in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model probabilities near the decision threshold.",
+        "expected_evidence": [
+          "Model calibration and interpretation",
+          "Decision thresholds in predictive models"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the significance of a probability close to but below the decision threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can be found supporting the contribution of 'Exercise frequency' (exerc) to the model's prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Studies on exercise and mental health.",
+        "expected_evidence": [
+          "Research linking exercise with depression/anxiety",
+          "Impact of physical activity on mental well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the scientific basis for this feature's contribution."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the contribution of 'Weekend sleep' (sleep_wkend) to the model's prediction?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "Research on weekend sleep patterns and mental health.",
+        "expected_evidence": [
+          "Impact of sleep quality on mental health",
+          "Sleep habits and depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "Validate the model's interpretation of this feature."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the contribution of 'Institution size' (inst_size) to the model's prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Studies on institutional environment and student mental health.",
+        "expected_evidence": [
+          "Impact of school size on student well-being",
+          "Mental health in large vs. small institutions"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the context-specific factors influencing model predictions."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What evidence can be found supporting the protective effect of 'Academic impairment' (aca_impa) on the student's screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Research on academic performance and mental health.",
+        "expected_evidence": [
+          "Impact of academic stress on depression/anxiety",
+          "Positive correlation between academic success and well-being"
+        ],
+        "priority": "medium",
+        "rationale": "Validate the model's interpretation of this protective factor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "Can we find evidence supporting the protective effect of 'Flourishing' (flourish) on the student's screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Studies on flourishing and mental health.",
+        "expected_evidence": [
+          "Impact of life satisfaction on depression/anxiety",
+          "Positive correlation between well-being and mental health"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the scientific basis for this protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "How should we communicate to stakeholders that the student is not at an elevated risk of depression or anxiety, while still acknowledging potential underlying issues?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices in non-diagnostic communication.",
+        "expected_evidence": [
+          "Guidelines for communicating low-risk screening results",
+          "Strategies for addressing concerns without diagnostic language"
+        ],
+        "priority": "high",
+        "rationale": "Ensure clear and supportive communication to avoid unnecessary concern."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0505,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should the low probability (0.0505) be interpreted in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model probabilities near the decision threshold.\",\n      \"expected_evidence\": [\"Model calibration and interpretation\", \"Decision thresholds in predictive models\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the significance of a probability close to but below the decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can be found supporting the contribution of 'Exercise frequency' (exerc) to the model's prediction?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"Studies on exercise and mental health.\",\n      \"expected_evidence\": [\"Research linking exercise with depression/anxiety\", \"Impact of physical activity on mental well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the scientific basis for this feature's contribution.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the contribution of 'Weekend sleep' (sleep_wkend) to the model's prediction?\",\n      \"linked_xai_factor\": \"sleep_wkend\",\n      \"retrieval_query\": \"Research on weekend sleep patterns and mental health.\",\n      \"expected_evidence\": [\"Impact of sleep quality on mental health\", \"Sleep habits and depression/anxiety\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Validate the model's interpretation of this feature.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence supports the contribution of 'Institution size' (inst_size) to the model's prediction?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"Studies on institutional environment and student mental health.\",\n      \"expected_evidence\": [\"Impact of school size on student well-being\", \"Mental health in large vs. small institutions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the context-specific factors influencing model predictions.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence can be found supporting the protective effect of 'Academic impairment' (aca_impa) on the student's screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Research on academic performance and mental health.\",\n      \"expected_evidence\": [\"Impact of academic stress on depression/anxiety\", \"Positive correlation between academic success and well-being\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Validate the model's interpretation of this protective factor.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"Can we find evidence supporting the protective effect of 'Flourishing' (flourish) on the student's screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"Studies on flourishing and mental health.\",\n      \"expected_evidence\": [\"Impact of life satisfaction on depression/anxiety\", \"Positive correlation between well-being and mental health\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the scientific basis for this protective factor.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate to stakeholders that the student is not at an elevated risk of depression or anxiety, while still acknowledging potential underlying issues?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices in non-diagnostic communication.\",\n      \"expected_evidence\": [\"Guidelines for communicating low-risk screening results\", \"Strategies for addressing concerns without diagnostic language\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure clear and supportive communication to avoid unnecessary concern.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

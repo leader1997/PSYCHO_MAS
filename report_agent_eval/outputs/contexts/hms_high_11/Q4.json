@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_11",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What is the interplay between loneliness and low flourishing scores in predicting elevated screening risk, and how can these factors be differentiated or assessed further?",
+  "retrieval_query": "Relationship between perceived loneliness, lack of flourishing, and mental health screening outcomes",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:26.116150+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.987133,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 2,
+      "score": 0.975215,
+      "chunk_id": "DOC_C001_p2_c3",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further lead to deleterious health outcomes ( 14). Loneliness is suggested to be a precursor of depression ( 15, 16). In addition, research evidence also suggested perceived soc ial support could reduce the feeling of loneliness experienced by adolescents ( 17). Moreover, in a recent study conducted by Liang et al. ( 18), loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants. Therefore, we expect ed that loneliness was not only directly associated with symptoms of depression, but also played a mediation role in the association between social support and depressive symptoms among rural adolescents. Although perceived social support could inﬂuence loneliness among adolescents, not all adolescents with lower levels of perceived social support report higher levels of loneliness. Therefore, it is of great importance to explore the inﬂuential factor that might moderate the relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies ("
+    },
+    {
+      "rank": 3,
+      "score": 0.864583,
+      "chunk_id": "DOC_C003_p3_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 3,
+      "category_code": "C_loneliness_isolation",
+      "text": "3 loneliness is expected during these transitions, national studies indicate that loneliness among college students is widespread and associated with various physical and mental health issues (Bonsaksen et al., 2022), which can affect retention and completion rates (Zhai & Carney, 2024). Findings from the National College Health Assessment Loneliness continues to be an important focus for higher education leaders and practitioners, and monitoring loneliness rates provides important context. The National College Health Assessment provides multi-institutional data on college student loneliness. The American College Health Association (ACHA) conducts the NCHA annually and uses the UCLA 3-item loneliness scale to assess student loneliness (Hughes et al., 2004). The scale is comprised of three questions with the responses “hardly ever”, “some of the time” and “often”. These three options are worth 1, 2 and 3 points, respectively. The scores for each question are added together to create a total score from 3 to 9. Those with a score of six or greater are categorized as “lonely.” Loneliness in the National NCHA Sample Recent data from the national sample of university students taking the National College Health Assessment (NCHA) shows that the percentage of students reporting loneliness nationally has significantly decreased between 2022 and 2024. Table 1 shows differences in loneliness over time in the national NCHA sample between 2022 and 2024 (ACHA, 2022; ACHA, 2024). In 2024, approximately 75% of participating institutions were public universities and 94% of institutions were 4-year universities. The NCHA began including the loneliness scale after the onset of the COVID -19 pandemic. Table 1. NCHA National reference group"
+    },
+    {
+      "rank": 4,
+      "score": 0.830593,
+      "chunk_id": "DOC_C001_p3_c1",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 3,
+      "category_code": "C_loneliness_isolation",
+      "text": "Hou et al. Social Support and Depressive Symptoms loneliness diﬀers between left-behind students and non-left - behind students in rural China during COVID-19 epidemic. A moderated mediation model (see Figure 1) is constructed to address the hypotheses that the eﬀect of perceived social support on depressive symptoms was mediated by loneliness and moderated by left-behind status. Speciﬁcally, the relationship between perceived social support and loneliness would be more powerful in left-behind students than non-left-behind stude nts. METHODS Participants and Procedures The cross-sectional study was conducted from 28 April to 1 May , 2021 in rural regions of Anhui province, China, which is a one of the principal migrant-sending areas of China ( 25). A random cluster sampling was employed to obtain a sample of rural students from 15 classes in ﬁve senior high schools. The inclusion criteria were (a) age ≤ 18 years; (b) no cognitive impairment or/and dyslexia and (c) being born and raised in a rural setti ng. The exclusion criterion was set for subjects who were previou sly diagnosed with psychiatric illness. A total of 831 rural stud ents were invited to take part in the study, with one student refusi ng to answer the questionnaire and 4 students returning incompl ete questionnaire. Finally, a total of 826 rural students were i ncluded in the analysis (eﬀective response rate 99.4%). This research was approved by the Research Ethics Commission of Navy Medical University. The participants aged 18 years or the parent or legal guardian of the participants aged under 18 years provided written informed consent before the"
+    },
+    {
+      "rank": 5,
+      "score": 0.82461,
+      "chunk_id": "DOC_C001_p2_c4",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies ( 20). A large number of rural residents migrated from rural to urban settings for be tter employment opportunities and higher salaries, leaving their children in their hometown on account of high living expenses and huge obstacles to health care and education in urban regions ( 21). Rapid population mobility has placed tremendous burdens on migrants and their families ( 22). As the product of this phenomenon, “left-behind children” has aroused great concern. Left-behind students refer to underage students w ho stayed at rural areas while one or both of their parents leave to work in cities for at least 6 months ( 23). Non-left-behind students might have experienced more parental supervision and more actual parental company ( 24), which might reduce the eﬀect of perceived social support on loneliness. Therefore, we hypothesized that the association between perceived socia l support and loneliness would be strengthened for left-behind students in rural China during COVID-19 pandemic. To date, there is an absence of the studies on the potential mechanisms underlying the association between social suppor t and depressive symptoms among rural Chinese adolescents during COVID-19 pandemic. Therefore, the present study aimed to investigate (a) the prevalence of depressive symptoms among rural adolescents"
+    }
+  ]
+}

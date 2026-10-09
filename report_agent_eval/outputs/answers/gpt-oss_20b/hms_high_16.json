@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_16",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given a high prediction probability (0.9645) resulting in an elevated depression/anxiety screening risk, what are the established clinical guidelines for interpreting this score and determining the necessity of immediate human expert review?",
+      "question_type": "risk_interpretation",
+      "stratum": "high",
+      "answer": "A probability of 0.9645 indicates an elevated risk for depression/anxiety according to the school mental‑health screening framework, which requires a rapid response when potential harm is identified. The guidelines mandate that any student who screens at high risk—especially if suicidal or homicidal ideation is reported—be assessed immediately by a qualified professional and triaged to Tier 2 or Tier 3 services as appropriate. Even in the absence of explicit self‑harm content, a score this high should trigger an expedited human review to confirm the screening result, evaluate safety concerns, and determine whether further assessment or referral is needed. This process aligns with the multi‑tiered system of supports that prioritizes early identification and timely intervention to prevent escalation.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:13:19.902560+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do academic impairment (aca_impa) features contribute to elevated depression/anxiety screening risk, and what is the current literature on the relationship between academic stress and mental health outcomes in students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment features such as procrastination were positively correlated with stress (r = 0.468), anxiety (r = 0.472), and depression (r = 0.401) among medical students during the COVID‑19 pandemic, with p < 0.001 for each association. In that sample, almost 50 % of respondents had high procrastination scores and more than half reported severe to very severe anxiety or depression, indicating a statistical contributor to elevated screening risk. Broader research shows depressive symptoms predict lower GPA and higher dropout rates in college students, with the effect strongest when anxiety is also present (Eisenberg et al., 2009; similar findings in a 2005–2007 longitudinal study). These studies suggest that academic stressors and mental‑health problems are interrelated, where poorer mental health predicts worse academic outcomes and vice versa. For students exhibiting elevated risk on screening, referral to qualified mental‑health support is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:15:08.820542+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the scientific basis for how food insecurity worry (food_worry) contributes to elevated depression/anxiety screening risk, and what are recommended assessment protocols when basic needs instability is identified?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Scientific studies show that food insecurity is a significant contributor to psychological distress, with consistent associations between material hardship and higher rates of depression, anxiety, stress, and suicidal thoughts across age groups (Context 1; Context 2). The chronic uncertainty and limited access to adequate nutrition create sustained physiological and psychosocial strain that elevates screening risk for mood disorders. When basic‑needs instability is identified—typically through validated food‑security questionnaires or brief worry items—clinicians should incorporate a structured assessment of material hardship into routine mental‑health screening, document the severity and frequency of food‑worry, and promptly connect individuals to community resources such as food banks, SNAP enrollment assistance, or university support services. This integrated approach aligns with evidence that addressing underlying hardships can mitigate the mediating effect of material deprivation on depression (Context 2).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:16:18.053391+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective effects of institutional context (e.g., institution type or size) on student mental health, and how should these factors be weighed against high-risk indicators during expert review?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence shows that supportive institutional practices—such as accessible mental‑health services, flexible grading policies, and faculty support—can reduce psychological distress (Context 1; Context 4). The reviewed literature does not provide specific data linking institution type or size to improved student mental health, so any protective effect of these characteristics remains unsubstantiated. High‑risk indicators that consistently emerge across studies include academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre‑existing mental‑health issues (Context 1). During expert review, these risk factors should be weighted heavily; institutional safeguards can act as statistical contributors that may buffer but not replace individual‑level interventions. If a student exhibits elevated risk indicators, referral to qualified support services is advised regardless of the institutional context.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:17:47.516065+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models in predicting mental health outcomes, particularly regarding individual variability and the need for qualitative assessment?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine‑learning models that rely on standardized screening tools inherit the same measurement limitations as those tools themselves.  As Context 1 shows, a complaint‑based approach can miss depression because students mask symptoms or present somatic complaints to avoid stigma; a purely quantitative model would not detect this masking behavior.  Context 4 notes that classical test theory (CTT) methods can give inaccurate diagnoses by ignoring item heterogeneity, and even though item response theory (IRT) improves precision, it still depends on fixed item parameters that may not capture individual or cultural variability.  Therefore, ML predictions should be treated as statistical contributors rather than definitive assessments, and qualitative information—such as narratives about stigma, coping strategies, or contextual risk factors—is essential to interpret and validate model outputs.  If a model flags high risk but the individual's context suggests alternative explanations, referral to qualified support should be considered.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:19:35.180680+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the recommended non-diagnostic and supportive communication strategies to use when informing a student about an elevated screening risk, ensuring they feel supported without causing undue alarm or false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "Begin by thanking the student for their participation and framing the conversation as part of a routine, supportive process rather than a diagnostic label—this aligns with best practice guidelines that recommend informing students in advance about screening procedures (Context 5). Explain that the screening identified an elevated risk but emphasize that this is only one piece of information used to tailor support; it does not define their overall well‑being or predict future outcomes (Contexts 1 and 4). Clearly outline next steps—such as a brief follow‑up with a counselor or referral to tiered supports—while reassuring the student that help is confidential, readily available, and part of an early‑intervention strategy (Context 5). Offer resources in multiple formats (handouts, digital links) and invite questions, reinforcing that the goal is empowerment and prevention rather than alarm (Context 5). Conclude by affirming confidence in their resilience and encouraging them to reach out whenever they need support, consistent with a multi‑tiered system’s emphasis on ongoing prevention and early help (Contexts 2 and 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:21:32.781832+00:00"
+    }
+  }
+}

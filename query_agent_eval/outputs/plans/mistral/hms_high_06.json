@@ -1,0 +1,105 @@
+{
+  "case_id": "hms_high_06",
+  "model": "mistral",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T10:59:59.440289+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_06",
+    "risk_interpretation": {
+      "probability": 0.9721,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a screening risk probability of 0.9721 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening risk probabilities",
+        "expected_evidence": [
+          "interpretation of 0.9721"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the elevated-risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of academic impairment (aca_impa) to this student's elevated screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment contribution",
+        "expected_evidence": [
+          "evidence supporting aca_impa"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor to the elevated risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of food insecurity worry (food_worry) to this student's elevated screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food_worry contribution",
+        "expected_evidence": [
+          "evidence supporting food_worry"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of a major contributor to the elevated risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of substance use (sub_any) for this student?",
+        "linked_xai_factor": "sub_any",
+        "retrieval_query": "Evidence for protective effect of sub_any",
+        "expected_evidence": [
+          "evidence supporting sub_any"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of a protective factor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "un certainty_limitation",
+        "question": "What is the uncertainty or limitations associated with this model's prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainty and limitations of the model",
+        "expected_evidence": [
+          "uncertainty or limitations"
+        ],
+        "priority": "medium",
+        "rationale": "To provide context for the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources are available to support this student during the screening process?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for students",
+        "expected_evidence": [
+          "safety measures or resources"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student's safety during the screening process."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_high_06\",\n     \"risk_interpretation\": {\n       \"probability\": 0.9721,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"high_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a screening risk probability of 0.9721 for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening risk probabilities\",\n         \"expected_evidence\": [\"interpretation of 0.9721\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the elevated-risk level.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of academic impairment (aca_impa) to this student's elevated screening risk?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment contribution\",\n         \"expected_evidence\": [\"evidence supporting aca_impa\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor to the elevated risk.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of food insecurity worry (food_worry) to this student's elevated screening risk?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food_worry contribution\",\n         \"expected_evidence\": [\"evidence supporting food_worry\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of a major contributor to the elevated risk.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of substance use (sub_any) for this student?\",\n         \"linked_xai_factor\": \"sub_any\",\n         \"retrieval_query\": \"Evidence for protective effect of sub_any\",\n         \"expected_evidence\": [\"evidence supporting sub_any\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"un certainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with this model's prediction for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Uncertainty and limitations of the model\",\n         \"expected_evidence\": [\"uncertainty or limitations\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To provide context for the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources are available to support this student during the screening process?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for students\",\n         \"expected_evidence\": [\"safety measures or resources\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the student's safety during the screening process.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

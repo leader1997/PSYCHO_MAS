@@ -1,0 +1,11 @@
+category,context_precision,faithfulness,answer_relevancy,context_recall,answer_correctness,semantic_similarity
+academic_impairment,0.4798,1.0,0.4737,0.3611,0.1788,0.4151
+case_based_explanation,0.75,,0.5869,0.5,,0.4358
+ethics_not_diagnosis,0.6301,0.4452,0.7026,0.5,0.2423,0.4471
+financial_stress,0.5862,0.6845,0.7667,0.5238,0.1349,0.4821
+flourishing_positive_mh,0.5133,0.5612,0.7116,0.3,0.109,0.4356
+help_seeking_counseling,0.3819,0.3614,0.3112,0.4667,0.1807,0.4761
+insufficient_context_safety,,,,,,
+loneliness_belonging,0.6417,0.658,0.7159,0.4375,0.1918,0.4708
+sleep_lifestyle,0.3436,0.3684,0.3881,0.5,0.1448,0.4572
+xai_explanation,0.0333,0.2,0.9444,0.0,0.2825,0.4387

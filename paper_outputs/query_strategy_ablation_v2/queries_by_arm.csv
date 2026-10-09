@@ -1,0 +1,261 @@
+case_id,arm,qid,retrieval_query,source
+hms_high_02,direct,D1,"college student elevated screening risk screening probability 0.9743 XAI contributors: Academic impairment, Flourishing, Current financial situation, Food insecurity worry, Loneliness; protective factors; screening communication",direct
+hms_high_02,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_02,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_02,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_02,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_02,template,T5,Weeknight sleep protective factors college student mental health screening,template
+hms_high_02,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_02,llm_plan,Q1,clinical guidelines interpretation of high depression/anxiety screening risk,llm_plan
+hms_high_02,llm_plan,Q2,academic impairment correlation with student mental health outcomes,llm_plan
+hms_high_02,llm_plan,Q3,link between food insecurity and anxiety/depression in students,llm_plan
+hms_high_02,llm_plan,Q4,low flourishing score correlation with depression/anxiety risk,llm_plan
+hms_high_02,llm_plan,Q5,protective effect of consistent sleep patterns on student mental health,llm_plan
+hms_high_02,llm_plan,Q6,limitations and generalizability of AI screening tools in academic settings,llm_plan
+hms_high_08,direct,D1,"college student elevated screening risk screening probability 0.9713 XAI contributors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry; protective factors; screening communication",direct
+hms_high_08,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_08,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_08,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_08,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_08,template,T5,Exercise frequency protective factors college student mental health screening,template
+hms_high_08,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_08,llm_plan,Q1,clinical guidelines interpretation high prediction probability elevated depression anxiety screening risk,llm_plan
+hms_high_08,llm_plan,Q2,academic impairment correlation with depression anxiety screening risk,llm_plan
+hms_high_08,llm_plan,Q3,impact of food insecurity and financial stress on depression anxiety screening risk intervention,llm_plan
+hms_high_08,llm_plan,Q4,loneliness correlation with depression anxiety screening risk students,llm_plan
+hms_high_08,llm_plan,Q5,exercise frequency as a protective factor against student anxiety and depression,llm_plan
+hms_high_08,llm_plan,Q6,limitations of ML models in mental health screening communication,llm_plan
+hms_high_11,direct,D1,"college student elevated screening risk screening probability 0.967 XAI contributors: Academic impairment, Flourishing, Current financial situation, Food insecurity worry, Loneliness; protective factors; screening communication",direct
+hms_high_11,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_11,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_11,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_11,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_11,template,T5,Weeknight sleep protective factors college student mental health screening,template
+hms_high_11,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_11,llm_plan,Q1,Clinical guidelines for interpreting high scores on depression/anxiety screening tools in university students,llm_plan
+hms_high_11,llm_plan,Q2,Impact of academic impairment on student mental health outcomes and screening risk factors,llm_plan
+hms_high_11,llm_plan,Q3,Mental health impact of food insecurity among college students and available campus support services,llm_plan
+hms_high_11,llm_plan,Q4,"Relationship between perceived loneliness, lack of flourishing, and mental health screening outcomes",llm_plan
+hms_high_11,llm_plan,Q5,Interventions and educational materials for improving college student sleep quality and mental health outcomes,llm_plan
+hms_high_11,llm_plan,Q6,Multifactorial risk assessment protocols for students presenting with socioeconomic and academic distress,llm_plan
+hms_high_12,direct,D1,"college student elevated screening risk screening probability 0.9664 XAI contributors: Academic impairment, Flourishing, Current financial situation, Food insecurity worry, Loneliness; protective factors; screening communication",direct
+hms_high_12,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_12,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_12,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_12,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_12,template,T5,Weeknight sleep protective factors college student mental health screening,template
+hms_high_12,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_12,llm_plan,Q1,clinical guidelines interpretation elevated depression anxiety screening risk high probability,llm_plan
+hms_high_12,llm_plan,Q2,academic impairment relationship with depression anxiety screening risk students,llm_plan
+hms_high_12,llm_plan,Q3,link between food insecurity worry and depression anxiety screening risk interventions,llm_plan
+hms_high_12,llm_plan,Q4,protective role of campus belonging and sleep hygiene against depression anxiety risk,llm_plan
+hms_high_12,llm_plan,Q5,limitations of ML models for depression anxiety prediction causality correlation,llm_plan
+hms_high_12,llm_plan,Q6,non-diagnostic communication protocol elevated depression anxiety screening risk,llm_plan
+hms_high_17,direct,D1,"college student elevated screening risk screening probability 0.9644 XAI contributors: Academic impairment, Flourishing, Current financial situation, Food insecurity worry, Loneliness; protective factors; screening communication",direct
+hms_high_17,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_17,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_17,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_17,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_17,template,T5,Weeknight sleep protective factors college student mental health screening,template
+hms_high_17,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_17,llm_plan,Q1,clinical guidelines elevated depression anxiety screening risk high probability follow up,llm_plan
+hms_high_17,llm_plan,Q2,academic impairment correlation with depression anxiety screening risk intervention strategies,llm_plan
+hms_high_17,llm_plan,Q3,food insecurity worry mental health outcomes college students intervention,llm_plan
+hms_high_17,llm_plan,Q4,protective factors sleep substance use mental health resilience college students,llm_plan
+hms_high_17,llm_plan,Q5,intervention for student loneliness improving social connection mental health,llm_plan
+hms_high_17,llm_plan,Q6,limitations of ML screening tools for depression anxiety differential diagnosis,llm_plan
+hms_high_18,direct,D1,"college student elevated screening risk screening probability 0.9631 XAI contributors: Academic impairment, Flourishing, Current financial situation, Loneliness, Campus belonging (item 2); protective factors; screening communication",direct
+hms_high_18,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_18,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_18,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_18,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_18,template,T5,Food insecurity worry protective factors college student mental health screening,template
+hms_high_18,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_18,llm_plan,Q1,evidence-based support considerations for students with elevated depression/anxiety screening risk,llm_plan
+hms_high_18,llm_plan,Q2,relationship between academic impairment and depression/anxiety screening risk in college students,llm_plan
+hms_high_18,llm_plan,Q3,intervention strategies for loneliness and poor campus belonging related to mental health screening,llm_plan
+hms_high_18,llm_plan,Q4,integrating protective factors into mental health risk assessment for students,llm_plan
+hms_high_18,llm_plan,Q5,limitations and applicability domain of ML models in student depression/anxiety screening,llm_plan
+hms_high_18,llm_plan,Q6,non-diagnostic communication protocols for high mental health screening scores,llm_plan
+hms_high_20,direct,D1,"college student elevated screening risk screening probability 0.9627 XAI contributors: Academic impairment, Flourishing, Current financial situation, Loneliness, Food insecurity worry; protective factors; screening communication",direct
+hms_high_20,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_high_20,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_high_20,template,T3,Flourishing college student mental health screening evidence,template
+hms_high_20,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_high_20,template,T5,Weeknight sleep protective factors college student mental health screening,template
+hms_high_20,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_high_20,llm_plan,Q1,non-diagnostic communication strategies for high depression anxiety screening risk,llm_plan
+hms_high_20,llm_plan,Q2,academic impairment contribution to depression anxiety screening risk interventions,llm_plan
+hms_high_20,llm_plan,Q3,impact of food insecurity and financial stress on depression anxiety symptoms,llm_plan
+hms_high_20,llm_plan,Q4,protective effect of consistent sleep patterns on depression anxiety screening risk,llm_plan
+hms_high_20,llm_plan,Q5,interventions for mitigating loneliness in college students high screening risk,llm_plan
+hms_high_20,llm_plan,Q6,expert guidelines for interpreting high depression anxiety screening scores,llm_plan
+hms_borderline_03,direct,D1,"college student elevated screening risk screening probability 0.5004 XAI contributors: Loneliness, Weeknight sleep, Current financial situation, Past financial stress, Food insecurity worry; protective factors; screening communication",direct
+hms_borderline_03,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_03,template,T2,Loneliness college student depression anxiety screening evidence,template
+hms_borderline_03,template,T3,Weeknight sleep college student mental health screening evidence,template
+hms_borderline_03,template,T4,Current financial situation student depression anxiety screening contributor evidence,template
+hms_borderline_03,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_borderline_03,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_03,llm_plan,Q1,interpreting near-threshold screening risk prediction borderline cases,llm_plan
+hms_borderline_03,llm_plan,Q2,clinical correlation between loneliness and anxiety screening risk in students,llm_plan
+hms_borderline_03,llm_plan,Q3,impact of food insecurity worry on mental health screening risk and intervention strategies,llm_plan
+hms_borderline_03,llm_plan,Q4,protective role of academic engagement in reducing depression anxiety screening risk,llm_plan
+hms_borderline_03,llm_plan,Q5,defining and utilizing flourishing as a protective factor in student mental health screening,llm_plan
+hms_borderline_03,llm_plan,Q6,psychoeducation for improving sleep hygiene and reducing anxiety symptoms,llm_plan
+hms_borderline_04,direct,D1,"college student not elevated screening risk screening probability 0.4995 XAI contributors: Loneliness, Flourishing, Positive mental health, Age, Exercise frequency; protective factors; screening communication",direct
+hms_borderline_04,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_04,template,T2,Loneliness college student depression anxiety screening evidence,template
+hms_borderline_04,template,T3,Flourishing college student mental health screening evidence,template
+hms_borderline_04,template,T4,Positive mental health student depression anxiety screening contributor evidence,template
+hms_borderline_04,template,T5,Current financial situation protective factors college student mental health screening,template
+hms_borderline_04,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_04,llm_plan,Q1,clinical interpretation of borderline mental health screening scores near 0.5 threshold,llm_plan
+hms_borderline_04,llm_plan,Q2,mechanisms linking loneliness to anxiety and depression screening risk,llm_plan
+hms_borderline_04,llm_plan,Q3,protective role of financial security in mental health outcomes for students,llm_plan
+hms_borderline_04,llm_plan,Q4,strategies for enhancing flourishing and positive mental health in college students,llm_plan
+hms_borderline_04,llm_plan,Q5,holistic support planning for students with conflicting mental health risk indicators,llm_plan
+hms_borderline_04,llm_plan,Q6,non-diagnostic communication guidelines for mental health screening results,llm_plan
+hms_borderline_05,direct,D1,"college student elevated screening risk screening probability 0.5006 XAI contributors: Academic impairment, Positive mental health, Substance use, Age, Campus belonging (item 1); protective factors; screening communication",direct
+hms_borderline_05,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_05,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_borderline_05,template,T3,Positive mental health college student mental health screening evidence,template
+hms_borderline_05,template,T4,Substance use student depression anxiety screening contributor evidence,template
+hms_borderline_05,template,T5,Loneliness protective factors college student mental health screening,template
+hms_borderline_05,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_05,llm_plan,Q1,clinical interpretation of near-threshold prediction probability 0.5 vs decision threshold 0.5 for student mental health screening,llm_plan
+hms_borderline_05,llm_plan,Q2,clinical guidelines for assessing substance use impact on depression and anxiety screening in college students,llm_plan
+hms_borderline_05,llm_plan,Q3,differentiating between functional impairment and generalized academic stress in mental health assessment,llm_plan
+hms_borderline_05,llm_plan,Q4,evidence-based interventions leveraging financial stability and flourishing states for mental health resilience,llm_plan
+hms_borderline_05,llm_plan,Q5,frameworks for integrating conflicting risk and resilience data in mental health assessment reports,llm_plan
+hms_borderline_05,llm_plan,Q6,best practices for non-diagnostic communication of mental health screening results to students,llm_plan
+hms_borderline_08,direct,D1,"college student elevated screening risk screening probability 0.5011 XAI contributors: Academic impairment, Positive mental health, Campus belonging (item 1), Public institution; protective factors; screening communication",direct
+hms_borderline_08,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_08,template,T2,Academic impairment college student depression anxiety screening evidence,template
+hms_borderline_08,template,T3,Positive mental health college student mental health screening evidence,template
+hms_borderline_08,template,T4,Campus belonging (item 1) student depression anxiety screening contributor evidence,template
+hms_borderline_08,template,T5,Loneliness protective factors college student mental health screening,template
+hms_borderline_08,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_08,llm_plan,Q1,clinical interpretation of borderline depression anxiety screening scores near 0.5,llm_plan
+hms_borderline_08,llm_plan,Q2,academic impairment impact on student mental health anxiety depression,llm_plan
+hms_borderline_08,llm_plan,Q3,protective effects of reducing loneliness on student mental health outcomes,llm_plan
+hms_borderline_08,llm_plan,Q4,integrating conflicting risk and protective factors in mental health screening reports,llm_plan
+hms_borderline_08,llm_plan,Q5,non-diagnostic communication strategies for mental health screening results,llm_plan
+hms_borderline_08,llm_plan,Q6,enhancing resilience through physical activity and positive mental health practices in college students,llm_plan
+hms_borderline_09,direct,D1,"college student elevated screening risk screening probability 0.5012 XAI contributors: Loneliness, Current financial situation, Food insecurity worry, Positive mental health, Past financial stress; protective factors; screening communication",direct
+hms_borderline_09,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_09,template,T2,Loneliness college student depression anxiety screening evidence,template
+hms_borderline_09,template,T3,Current financial situation college student mental health screening evidence,template
+hms_borderline_09,template,T4,Food insecurity worry student depression anxiety screening contributor evidence,template
+hms_borderline_09,template,T5,Flourishing protective factors college student mental health screening,template
+hms_borderline_09,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_09,llm_plan,Q1,clinical interpretation of elevated screening risk near 50% probability,llm_plan
+hms_borderline_09,llm_plan,Q2,model calibration limitations in high-uncertainty screening contexts,llm_plan
+hms_borderline_09,llm_plan,Q3,clinical evidence linking loneliness to elevated depression anxiety screening risk,llm_plan
+hms_borderline_09,llm_plan,Q4,integrating protective factors into mental health screening reports,llm_plan
+hms_borderline_09,llm_plan,Q5,connection between food insecurity and mental health screening outcomes,llm_plan
+hms_borderline_09,llm_plan,Q6,non-diagnostic communication guidelines for mental health screening results,llm_plan
+hms_borderline_10,direct,D1,"college student elevated screening risk screening probability 0.5012 XAI contributors: Loneliness, Flourishing, Weeknight sleep, Positive mental health, Food insecurity worry; protective factors; screening communication",direct
+hms_borderline_10,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_borderline_10,template,T2,Loneliness college student depression anxiety screening evidence,template
+hms_borderline_10,template,T3,Flourishing college student mental health screening evidence,template
+hms_borderline_10,template,T4,Weeknight sleep student depression anxiety screening contributor evidence,template
+hms_borderline_10,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_borderline_10,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_borderline_10,llm_plan,Q1,interpreting borderline screening risk probability near 0.5,llm_plan
+hms_borderline_10,llm_plan,Q2,clinical significance of loneliness in student mental health screening,llm_plan
+hms_borderline_10,llm_plan,Q3,screening protocol for food insecurity worry and mental health co-occurrence,llm_plan
+hms_borderline_10,llm_plan,Q4,protective effect of academic engagement on mental health outcomes,llm_plan
+hms_borderline_10,llm_plan,Q5,multidimensional approach to mental health support planning for students,llm_plan
+hms_borderline_10,llm_plan,Q6,non-diagnostic communication of mental health screening results,llm_plan
+hms_low_03,direct,D1,"college student not elevated screening risk screening probability 0.0511 XAI contributors: Campus belonging (item 1), Institution size, Public institution; protective factors; screening communication",direct
+hms_low_03,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_03,template,T2,Campus belonging (item 1) college student depression anxiety screening evidence,template
+hms_low_03,template,T3,Institution size college student mental health screening evidence,template
+hms_low_03,template,T4,Public institution student depression anxiety screening contributor evidence,template
+hms_low_03,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_03,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_03,llm_plan,Q1,non-diagnostic communication guidelines for low depression/anxiety screening risk,llm_plan
+hms_low_03,llm_plan,Q2,clinical significance of high flourishing and low academic impairment in depression/anxiety screening,llm_plan
+hms_low_03,llm_plan,Q3,clinical interpretation of campus belonging contribution to mental health risk scores,llm_plan
+hms_low_03,llm_plan,Q4,"contextual discussion of institutional characteristics (size, public status) in mental health screening reports",llm_plan
+hms_low_03,llm_plan,Q5,interpreting low probability scores far from the decision threshold in mental health screening,llm_plan
+hms_low_03,llm_plan,P6,college student depression anxiety screening interpretation non-diagnostic,llm_plan_pad
+hms_low_09,direct,D1,"college student not elevated screening risk screening probability 0.0565 XAI contributors: Exercise frequency, Weekend sleep, Weeknight sleep, Institution size, Public institution; protective factors; screening communication",direct
+hms_low_09,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_09,template,T2,Exercise frequency college student depression anxiety screening evidence,template
+hms_low_09,template,T3,Weekend sleep college student mental health screening evidence,template
+hms_low_09,template,T4,Weeknight sleep student depression anxiety screening contributor evidence,template
+hms_low_09,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_09,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_09,llm_plan,Q1,clinical interpretation of low prediction probability vs threshold,llm_plan
+hms_low_09,llm_plan,Q2,clinical weight of flourishing and age as protective factors for depression/anxiety screening,llm_plan
+hms_low_09,llm_plan,Q3,clinical interpretation of mild sleep pattern deviations in non-elevated depression/anxiety screening,llm_plan
+hms_low_09,llm_plan,Q4,impact of current financial stability and academic status on mental health screening risk,llm_plan
+hms_low_09,llm_plan,Q5,limitations and scope of depression/anxiety screening models,llm_plan
+hms_low_09,llm_plan,Q6,non-diagnostic communication guidelines for mental health screening,llm_plan
+hms_low_10,direct,D1,"college student not elevated screening risk screening probability 0.0566 XAI contributors: Exercise frequency, Weeknight sleep, Campus belonging (item 1), Institution size, Public institution; protective factors; screening communication",direct
+hms_low_10,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_10,template,T2,Exercise frequency college student depression anxiety screening evidence,template
+hms_low_10,template,T3,Weeknight sleep college student mental health screening evidence,template
+hms_low_10,template,T4,Campus belonging (item 1) student depression anxiety screening contributor evidence,template
+hms_low_10,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_10,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_10,llm_plan,Q1,communication guidelines for low-risk mental health screening scores,llm_plan
+hms_low_10,llm_plan,Q2,clinical interpretation of strong protective factors reducing depression/anxiety screening risk,llm_plan
+hms_low_10,llm_plan,Q3,clinical interpretation of moderate positive screening risk features in the context of strong protective factors,llm_plan
+hms_low_10,llm_plan,Q4,low-risk mental health follow-up resources and psychoeducation recommendations,llm_plan
+hms_low_10,llm_plan,Q5,model limitation communication guidelines for predictive screening tools,llm_plan
+hms_low_10,llm_plan,P6,college student depression anxiety screening interpretation non-diagnostic,llm_plan_pad
+hms_low_11,direct,D1,"college student not elevated screening risk screening probability 0.0572 XAI contributors: Campus belonging (item 1), Exercise frequency, Public institution, Institution size; protective factors; screening communication",direct
+hms_low_11,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_11,template,T2,Campus belonging (item 1) college student depression anxiety screening evidence,template
+hms_low_11,template,T3,Exercise frequency college student mental health screening evidence,template
+hms_low_11,template,T4,Public institution student depression anxiety screening contributor evidence,template
+hms_low_11,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_11,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_11,llm_plan,Q1,non-diagnostic communication guidelines for low depression/anxiety screening risk,llm_plan
+hms_low_11,llm_plan,Q2,clinical interpretation of high flourishing scores as protective factors in depression screening.,llm_plan
+hms_low_11,llm_plan,Q3,clinical interpretation of campus belonging as a predictor of depression/anxiety risk.,llm_plan
+hms_low_11,llm_plan,Q4,relationship between exercise frequency and depression/anxiety screening model contribution.,llm_plan
+hms_low_11,llm_plan,Q5,limitations and scope of machine learning in mental health screening.,llm_plan
+hms_low_11,llm_plan,Q6,psychoeducation and preventative support for students with low depression/anxiety screening risk.,llm_plan
+hms_low_13,direct,D1,"college student not elevated screening risk screening probability 0.0577 XAI contributors: Weeknight sleep, Weekend sleep, Exercise frequency, Institution size, Public institution; protective factors; screening communication",direct
+hms_low_13,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_13,template,T2,Weeknight sleep college student depression anxiety screening evidence,template
+hms_low_13,template,T3,Weekend sleep college student mental health screening evidence,template
+hms_low_13,template,T4,Exercise frequency student depression anxiety screening contributor evidence,template
+hms_low_13,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_13,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_13,llm_plan,Q1,non-diagnostic communication guidelines for low screening risk,llm_plan
+hms_low_13,llm_plan,Q2,clinical weight of flourishing and academic impairment in depression/anxiety screening,llm_plan
+hms_low_13,llm_plan,Q3,clinical interpretation of weeknight and weekend sleep variability in student mental health screening,llm_plan
+hms_low_13,llm_plan,Q4,interpreting low-magnitude environmental features in mental health screening models,llm_plan
+hms_low_13,llm_plan,Q5,limitations of predictive screening models when far from decision threshold,llm_plan
+hms_low_13,llm_plan,Q6,follow-up strategies for students with low depression/anxiety screening risk but identified behavioral concerns,llm_plan
+hms_low_15,direct,D1,"college student not elevated screening risk screening probability 0.0579 XAI contributors: Campus belonging (item 1), Exercise frequency, Weeknight sleep, Public institution, Institution size; protective factors; screening communication",direct
+hms_low_15,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_15,template,T2,Campus belonging (item 1) college student depression anxiety screening evidence,template
+hms_low_15,template,T3,Exercise frequency college student mental health screening evidence,template
+hms_low_15,template,T4,Weeknight sleep student depression anxiety screening contributor evidence,template
+hms_low_15,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_15,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_15,llm_plan,Q1,communication guidelines for low screening risk scores,llm_plan
+hms_low_15,llm_plan,Q2,limitations of ML models in depression anxiety screening,llm_plan
+hms_low_15,llm_plan,Q3,protective factors mitigating depression anxiety screening risk,llm_plan
+hms_low_15,llm_plan,Q4,relationship between campus belonging and depression anxiety screening risk in students,llm_plan
+hms_low_15,llm_plan,Q5,exercise frequency contribution to mental health screening model prediction,llm_plan
+hms_low_15,llm_plan,Q6,interpreting prediction confidence intervals in mental health screening,llm_plan
+hms_low_16,direct,D1,"college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",direct
+hms_low_16,template,T1,interpreting college student depression anxiety screening probability threshold non-diagnostic guidelines,template
+hms_low_16,template,T2,Campus belonging (item 1) college student depression anxiety screening evidence,template
+hms_low_16,template,T3,Exercise frequency college student mental health screening evidence,template
+hms_low_16,template,T4,Campus belonging (item 2) student depression anxiety screening contributor evidence,template
+hms_low_16,template,T5,Academic impairment protective factors college student mental health screening,template
+hms_low_16,template,T6,non-diagnostic screening communication limitations referral college counseling support,template
+hms_low_16,llm_plan,Q1,non-diagnostic communication guidelines for low depression/anxiety screening scores,llm_plan
+hms_low_16,llm_plan,Q2,protective role of flourishing and financial stability on student mental health outcomes,llm_plan
+hms_low_16,llm_plan,Q3,contextualizing minor positive XAI contributions in low-risk screening reports,llm_plan
+hms_low_16,llm_plan,Q4,limitations and scope of AI screening tools for mental health,llm_plan
+hms_low_16,llm_plan,Q5,low intensity psychoeducation for college students mental wellness,llm_plan
+hms_low_16,llm_plan,P6,college student depression anxiety screening interpretation non-diagnostic,llm_plan_pad

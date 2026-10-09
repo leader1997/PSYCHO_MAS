@@ -1,0 +1,66 @@
+{
+  "model": "mistral",
+  "case_id": "hms_low_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "low",
+      "answer": "The appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) is to implement a proactive, systematic mental health screening approach such as the Patient Health Questionnaire-2 (PHQ-2). This strategy can help gather valuable information for planning and implementing prevention and early intervention strategies before problems develop or worsen. It is essential to emphasize that a low risk score does not guarantee the absence of depressive symptoms, and continued monitoring and support are necessary. A multi-tiered approach, which includes school mental health screening, can help promote comprehensive school mental health strategies across all tiers, addressing the unique needs of students before they escalate. Referral to counseling services may be appropriate if further evaluation is needed or if symptoms worsen over time.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:17:08.071533+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "In college students, high levels of flourishing (Flourish) and strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in a complex manner. While high levels of Flourish are not directly addressed in the provided context passages, it can be inferred that positive mental health outcomes may contribute to better academic performance and lower screening risks for depression and anxiety.\n\nOn the other hand, strong academic impairment status (ACA Impairment) is associated with increased risk of depressive and anxiety symptoms, as well as lower grades and university well-being (Context 2, 3, & 4). However, it's important to note that these associations do not necessarily imply causality. The context passages suggest that a comprehensive mental health strategy, including prevention and targeted early intervention measures, is justified to address the common and persistent mental health symptoms among first-year university students (Context 2).\n\nIn summary, while high levels of flourishing may lower screening risks for depression and anxiety, strong academic impairment status increases these risks. However, more definitive causal estimates are needed to fully understand this relationship. In cases of strong academic impairment, referral to qualified support is advisable.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:17:18.284440+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "low",
+      "answer": "The provided evidence suggests a general association between attending a public institution and an elevated risk for depression/anxiety screening among college students, although it does not establish causality. This is due to the peak period of risk for onset of mental disorders during emergent adulthood, which coincides with university attendance (Context 3). Additionally, universal school mental health screening, including college students, is employed to identify individual students experiencing or at risk of experiencing social, emotional, and/or behavioral difficulties, some of which may include depression and anxiety (Contexts 1, 2, & 4). However, it's important to note that not all public institution students will experience these issues, as the evidence indicates that mental health screening can connect students and families to cost-effective services, but only about 20% of students show signs and symptoms of a mental health disorder in a given year (Context 2). The evidence also highlights the importance of early identification and intervention for effective prevention and addressing mental health concerns before they escalate (Contexts 1 & 2). If a complaint-based approach to depression screening under-detects and under-treats depression, as suggested in Context 5, implementing a tool like the Patient Health Questionnaire-2 (PHQ-2) could potentially improve early identification of depression among college students. However, further research is needed to confirm this hypothesis. If a student is identified as being at risk or already experiencing a mental health problem, timely referrals to school and community mental health services are crucial for their safety and wellbeing (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:17:29.788049+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "The provided evidence suggests a negative relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults, particularly university students. This relationship is indirect, as financial stability appears to be associated with better academic performance and well-being, which in turn are linked to lower rates of depressive and anxiety symptoms.\n\nIn the context of first-year university students, approximately 28% and 33% screened positive for clinically significant depressive and anxiety symptoms respectively at entry, increasing to 36% and 39% at the completion of first year (Context 4). These mental health outcomes were associated with lower grades and university well-being (Context 1).\n\nMoreover, in the United States, mental health problems among children and adolescents account for a larger burden of disease than any other class of health conditions (Context 2). Understanding the link between mental health and academic success is crucial, as college education has become increasingly important for human capital accumulation and associated with substantially higher earnings (Context 2).\n\nThe evidence also indicates that students who experience average to high levels of well-being are more likely to achieve better current and long-term outcomes, including academic success, than students who report low levels of well-being (Context 3).\n\nIn light of these findings, it is reasonable to infer that higher financial stability could contribute to improved academic performance and well-being, thereby reducing the risk of depression/anxiety in young adults. However, it's important to note that this relationship is complex and influenced by numerous other factors, including psychosocial and lifestyle factors (Context 1).\n\nFor elevated risk cases, referral to qualified support services may be necessary to ensure safety and provide timely mental health interventions (Context 3). Further research is needed to establish more definitive knowledge about the causal effect of mental health on college success.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:17:43.036804+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "low",
+      "answer": "The Patient Health Questionnaire-2 (PHQ-2) has limitations when predicting risk far below the established decision threshold (e.g., 0.05 probability). First, the PHQ-2 is based on CTT models, which may provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (Context 2). Second, the PHQ-2 primarily focuses on identifying depression symptoms, rather than comprehensive mental health screening that includes both strengths and symptoms (Context 3). This could potentially underestimate the risk of other mental health issues. Third, the PHQ-2 is not designed to account for cultural diversity, which may impact its accuracy in culturally diverse settings (implied from Context 2). Lastly, the PHQ-2 does not provide a rich description of the performance of each item or greater detail on the accuracy of a measure, unlike IRT models that offer such advantages (Context 2). Therefore, it is essential to consider these limitations when interpreting results from the PHQ-2 and to potentially complement it with other screening tools for a more comprehensive assessment.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:17:52.377664+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "stratum": "low",
+      "answer": "When interpreting a low screening risk score using the PHQ-9 with university students, an expert should consider factors such as cultural background and heterogeneity among items, as well as the potential limitations of classical test theory (CTT) methods. The use of item response theory (IRT) approaches is recommended for assessing the psychometric properties of screening scales like the PHQ-9, particularly in culturally diverse settings. This is because IRT models offer advantages over CTT, such as providing a richer description of performance, greater detail on measure accuracy, and item-independent scores across different samples (Context 3). Furthermore, it's important to note that only approximately 800 articles have evaluated the psychometric properties of the PHQ-9 using CTT, while only 30 published studies have used IRT models (Context 3). Additionally, understanding the factor structure of the GAD-7 in different contexts, such as Bangladeshi university students, may be beneficial for easy and cost-effective screening of anxiety disorders in this population (Context 5). However, it's essential to acknowledge that the PHQ-9 is a widely accepted tool for major depressive episode (MDE) screening, with good reliability and validity across various populations, including university students (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:02.969064+00:00"
+    }
+  }
+}

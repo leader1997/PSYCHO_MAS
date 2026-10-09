@@ -1,0 +1,117 @@
+{
+  "case_id": "hms_low_12",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:47:31.156069+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_12",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What does a prediction probability of 0.0572 indicate about the student's risk level in comparison to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpretation of low prediction probabilities in depression/anxiety screening models",
+        "expected_evidence": [
+          "Understanding of model thresholds and interpretation of low-risk predictions"
+        ],
+        "priority": "high",
+        "rationale": "Clarifies the meaning of a low probability score relative to the decision threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does binge drinking (binge1pl) contribute to the model's prediction, and what are its implications for student mental health?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "impact of binge drinking on depression/anxiety risk in students",
+        "expected_evidence": [
+          "Research on binge drinking and its association with mental health issues"
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a major positive contributor to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role does campus belonging (belong1) play in influencing the student's predicted screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "effects of campus belonging on mental health outcomes",
+        "expected_evidence": [
+          "Studies linking campus belonging to mental health"
+        ],
+        "priority": "medium",
+        "rationale": "Explores a medium-level positive contributor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does institution size (inst_size) affect the model's prediction of screening risk?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "institution size impact on student mental health risks",
+        "expected_evidence": [
+          "Data or studies about how institution size correlates with mental health"
+        ],
+        "priority": "low",
+        "rationale": "Considers a medium-level positive contributor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the significance of flourishing (flourish) as a protective factor in reducing predicted screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "role of flourishing in mitigating depression/anxiety risks",
+        "expected_evidence": [
+          "Research on flourishing and its protective effects against mental health issues"
+        ],
+        "priority": "high",
+        "rationale": "Addresses a high-level negative contributor."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "How does the student's current financial situation (fincur) contribute to lowering their predicted screening risk?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "impact of financial stability on mental health risks in students",
+        "expected_evidence": [
+          "Studies showing the relationship between financial security and mental well-being"
+        ],
+        "priority": "high",
+        "rationale": "Considers another high-level negative contributor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "Guidelines on conveying the limitations and purpose of non-diagnostic tools"
+        ],
+        "priority": "high",
+        "rationale": "Ensures clarity in communication about the tool's purpose."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_12\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0572,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What does a prediction probability of 0.0572 indicate about the student's risk level in comparison to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpretation of low prediction probabilities in depression/anxiety screening models\",\n      \"expected_evidence\": [\n        \"Understanding of model thresholds and interpretation of low-risk predictions\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarifies the meaning of a low probability score relative to the decision threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does binge drinking (binge1pl) contribute to the model's prediction, and what are its implications for student mental health?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"impact of binge drinking on depression/anxiety risk in students\",\n      \"expected_evidence\": [\n        \"Research on binge drinking and its association with mental health issues\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a major positive contributor to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role does campus belonging (belong1) play in influencing the student's predicted screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"effects of campus belonging on mental health outcomes\",\n      \"expected_evidence\": [\n        \"Studies linking campus belonging to mental health\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Explores a medium-level positive contributor.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does institution size (inst_size) affect the model's prediction of screening risk?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"institution size impact on student mental health risks\",\n      \"expected_evidence\": [\n        \"Data or studies about how institution size correlates with mental health\"\n      ],\n      \"priority\": \"low\",\n      \"rationale\": \"Considers a medium-level positive contributor.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the significance of flourishing (flourish) as a protective factor in reducing predicted screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"role of flourishing in mitigating depression/anxiety risks\",\n      \"expected_evidence\": [\n        \"Research on flourishing and its protective effects against mental health issues\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses a high-level negative contributor.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the student's current financial situation (fincur) contribute to lowering their predicted screening risk?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"impact of financial stability on mental health risks in students\",\n      \"expected_evidence\": [\n        \"Studies showing the relationship between financial security and mental well-being\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Considers another high-level negative contributor.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"Guidelines on conveying the limitations and purpose of non-diagnostic tools\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensures clarity in communication about the tool's purpose.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

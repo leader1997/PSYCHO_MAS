@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_04",
+  "stratum": "low",
+  "qid": "Q2",
+  "question": "What is the clinical significance of high protective factors, such as 'Flourishing' and 'Age', in mitigating predicted screening risk?",
+  "retrieval_query": "Protective role of flourishing and age in student mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:05.935836+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_F004_p1_c3",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "and flourishing holds the promise of better preparing students not only for academic success but also for leading fulfilling lives and contributing meaningfully to society, underscoring that university is not just a pathway to better jobs; it is also a means to better lives (OECD, 2012). Achieving a high state of wellbeing, or student flourishing, is crucial for students to thrive both academically and personally. OPEN ACCESS EDITED BY Eirini Karakasidou, Panteion University, Greece REVIEWED BY Bernhard Schmitz, Darmstadt University of Technology, Germany Athena Daniilidou, University of Macedonia, Greece *CORRESPONDENCE Yue Zhao myzhao@hku.hk RECEIVED 28 February 2025 ACCEPTED 30 June 2025 PUBLISHED 24 July 2025 CITATION Zhao Y and Hua Y (2025) The prediction of student wellbeing and flourishing from university learning experiences. Front. Psychol. 16:1585058. doi: 10.3389/fpsyg.2025.1585058 COPYRIGHT © 2025 Zhao and Hua. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. TYPE Brief Research Report PUBLISHED 24 July 2025 DOI 10.3389/fpsyg.2025.1585058"
+    },
+    {
+      "rank": 2,
+      "score": 0.918071,
+      "chunk_id": "DOC_F004_p2_c1",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Zhao and Hua 10.3389/fpsyg.2025.1585058 Frontiers in Psychology 02 frontiersin.org Universities have been increasingly implementing initiatives that address and assess various aspects of student wellbeing, recognizing its critical role in fostering academic and personal flourishing. These initiatives include positive psychology interventions (e.g., Hall et al., 2024), mental health services (e.g., Osborn et al., 2022), curriculum- embedded activities (e.g., Upsher et al., 2022 ), and wellbeing assessments (e.g., Williams et al., 2017 ). Universities profoundly influence students’ learning experiences, making it crucial to comprehensively understand how university experience, as one of the key factors, shapes student wellbeing and flourishing in order to inform effective institutional practices and policies (Baik et al., 2019; Campbell et al., 2022; Gilmore et al., 2025; Riva et al., 2020). 1.1 University students’ wellbeing Defining wellbeing is complex and multifaceted, with multiple theoretical frameworks present in the literature (Marsh et al., 2020). While definitions of wellbeing vary across frameworks and in the higher education context (e.g., Barkham et al., 2019; Dodd et al., 2021), these frameworks often distinguish between hedonic and eudaimonic wellbeing. Hedonic wellbeing primarily involves happiness and life satisfaction, focusing on the cognitive and affective facets of wellbeing, such as subjective experiences of joy, contentment, and overall life satisfaction, as posited by Diener’s (1984) theory of subjective wellbeing. Eudaimonic wellbeing, rooted in the concept of living a fulfilling and meaningful life (Steger, 2009), involves realizing one’s potential and pursuing personal growth (Ryff, 1989; Ryan and Deci, 2001 ). Additionally, social wellbeing is another crucial dimension, particularly in a university context ( Eloff et al., 2022; Makaremi"
+    },
+    {
+      "rank": 3,
+      "score": 0.88696,
+      "chunk_id": "DOC_F004_p1_c2",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "hedonic wellbeing, eudaimonic wellbeing, social wellbeing 1 Introduction In the evolving landscape of higher education, there is an increasing emphasis on the multifaceted objectives that universities aim to achieve for students. Traditionally, the primary aim of university education has been to develop students’ knowledge, understanding, and cognitive capacities, preparing them for employment. However, there is a growing recognition that education’s role in promoting student wellbeing and flourishing extends beyond cognitive development (Oades et al., 2011; Ellyatt, 2022; Vander Weele, 2022; Kristjánsson, 2023; Curren et al., 2024; Kern et al., 2024). Flourishing, closely related to wellbeing, involves achieving an optimal state where various aspects of a student’s life are thriving (de Ruyter et al., 2024). In higher education, flourishing implies that students are not only surviving but thriving; they are intellectually stimulated, emotionally resilient, and socially connected. In recent years, it has been argued that flourishing should be viewed not only as a significant aim but even as the central aim of all educational endeavors (Kristjánsson and Vander Weele, 2024). In addition to academic achievements, universities should prioritize the holistic development of students, encompassing their social, emotional, and character-related capacities (Vander Weele and Hinton, 2024). Such an emphasis on student wellbeing and flourishing holds the promise of better preparing students not only for academic success but also for leading fulfilling lives and contributing meaningfully to society, underscoring that university is not just a pathway to better jobs; it is also a means to better lives (OECD, 2012). Achieving a high state of wellbeing, or student flourishing, is crucial for students to"
+    },
+    {
+      "rank": 4,
+      "score": 0.857239,
+      "chunk_id": "DOC_B001_p1_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders 3 associated with high mor- bidity, including university failure and drop-out, 4 and increased mortality.5 Yet, successful completion of higher education is an important determinant of both healthy individual and societal growth and development. 6 Taken together, entry to university represents a high-risk period for the development of significant mental health problems, but at the same time offers an import- ant opportunity for effective prevention. 7 Globally, university student populations are changing and more closely reflect the gener al population in terms of risk factors and rates of psychopathology, in part driven by increasing enrolment and widening access. 8,9 For example, the World Health Organization Mental Health Survey reported comparable rates of common mental disorders in university student and non-student populations aged 18 – 22 years. 10 Further, a recent study reported an increase in univer- sity student suicide rates since 2009 in England and Wales, although below that of the general non-student population of a similar age. 11 Recent reports from varied higher education institutions and associations in both Canada and the UK have highlighted a substantial dispa rity between the increasing need for university student mental health support and available resources. 8,9,12 Yet, there are little reliable data"
+    },
+    {
+      "rank": 5,
+      "score": 0.840882,
+      "chunk_id": "DOC_D003_p3_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "3 Americans are inundated with messages about success—in school, in a profession, in parenting, in relationships—without appreciating that successful performance rests on a foundation of mental health. United States Surgeon General’s Report on Mental Health, 1999 1. INTRODUCTION Among children and adolescents in the United States, mental disorders are estimated to account for a larger burden of disease, as measured in disability- adjusted life years (DALYs), than any ot her class of health conditions (Michaud et al., 2006). One of the primary concerns in younger populations is that mental health problems may affect human capital accumulation—in particular, the amount and productivity of schooling—whi ch may in turn have lifelong consequences for employment, income, and other outcomes. Understanding the link between mental health and academic success is therefore a crucial step towards assessing the returns to preventing, detecting, and trea ting mental health issues among young people. In this paper we analyze the conn ection between mental health and detailed measures of academic success during college. In the modern economy, college education has become an increa singly important component of human capital, and is associated with substantially higher earnings (Jaeger & Page, 1996; Kane & Rouse, 1995) and better health outcomes (Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have"
+    }
+  ]
+}

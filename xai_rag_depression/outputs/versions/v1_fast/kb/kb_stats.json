@@ -1,0 +1,7 @@
+{
+  "total_documents": 2741,
+  "literature_chunks": 2698,
+  "embedding_dim": 384,
+  "pdf_count": 29,
+  "corpus": "literature_inventory.csv candidates"
+}

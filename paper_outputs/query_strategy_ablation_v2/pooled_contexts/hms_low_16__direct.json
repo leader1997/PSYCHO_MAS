@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_low_16",
+  "arm": "direct",
+  "n_queries": 1,
+  "n_raw_hits": 5,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.928579,
+      "chunk_id": "DOC_A007_p3_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "3 School mental health screening is defined as the use of a systematic tool or process to identify the strengths and needs of students. Screening is conducted for all students, not just students identified as being at risk for or already displaying mental health concerns. This might involve screening an entire population, such as a school’s student body, or a smaller subset of a population, such as a specific grade level. Most commonly, mental health screening is used to identify individual students who are experiencing or are at risk of experiencing social, emotional, and/or behavioral difficulties. The use of screening as an early identification strategy detects the onset of challenges early so that they can be addressed before they escalate. Screening measures can also ask students about: • indicators of well-being and positive mental health • life satisfaction • school belonging • social determinants of mental health • adverse early life experiences What is School Mental Health Screening? Support a Multi-tiered System of Supports (MTSS) • Screening can help promote comprehensive school mental health strategies across all tiers. As a result, appropriate supports can be provided to more than just those students who present with the highest level of risk. • With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",
+      "pool_rank": 1
+    },
+    {
+      "rank": 2,
+      "score": 0.864898,
+      "chunk_id": "DOC_B007_p2_c3",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have used IRT models to assess the psychometric properties of the PHQ -9 and only one in college students (37,42-68). Given the high prevalence of depression among college students (69,70) it is important to evaluate the validity and utility of the PHQ -9 in this population. The appropriate detection and management of depression in health science students could translate into significant potential benefits if the psychometric properties of screening instruments such as the PHQ-9 are optimized (71,72). Therefore, this study aimed to evaluate the psychometrics of the Colombian version of the PHQ-9 adapted for university students using IRT models and to assess possible item biases as a function of gender. METHODOLOGY Population and sample This cross-sectional observational study evaluated the psychometric performance of the PHQ -9. Stratified random sampling was applied according to academic program, semester, and sex, where each stratum had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",
+      "pool_rank": 2
+    },
+    {
+      "rank": 3,
+      "score": 0.844873,
+      "chunk_id": "DOC_F002_p1_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "RESEA RCH ARTICL E The importance of belonging for well-being in college students Isabella Romeo ID 1 , Harold Stanislaw ID 2 *, Jamie McCreary 2 , Marcus Hawley ID 3 1 Kinesiolog y and Public Health Department and Biologic al Sciences Department, Californi a Polytechn ic State Univers ity, San Luis Obispo, California, United States of America, 2 Department of Psycholog y, Californi a State University , Stanislaus , Turlock, California, United States of America, 3 Materials Engineeri ng Department , California Polytechn ic State University, San Luis Obispo, Californi a, United States of America * HStanis law@csustan .edu Abstract College students are vulnerable to mental health challenges that include depression, anxi- ety, and suicidal thoughts. We examined how subjective well-being in 369 college students in the United States was affected by the number friends or family members who could pro- vide essential needs (instrumental support) or with whom intimate or personal matters could be discussed (emotional support), the frequency of engaging with others, satisfaction with these engagements , and the sense of belonging. Engagem ent satisfaction was affected by emotional support and engagement frequency. Instrumental support had no significant effect, but this could be an artifact of our sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",
+      "pool_rank": 3
+    },
+    {
+      "rank": 4,
+      "score": 0.839462,
+      "chunk_id": "DOC_A007_p4_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "4 Identify concerns specific to certain grades or classrooms • Screening data can also shed light on strengths and concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. • For example, a school-wide screening effort may reveal that several classrooms may have a significant number of students with more intensive social- emotional-behavioral needs. • Rather than take the time to individually follow-up with every student, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed. • Screening data can help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. Identify students with highest well-being There is mounting evidence that asking students about their well-being and so- cial-emotional strengths, in addition to their psychological distress and functioning, has several benefits: • Reduces stigma around asking youth about mental health within the school set- ting • Enhances students’ sense of empowerment and self-esteem • Provides valuable information about all students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",
+      "pool_rank": 4
+    },
+    {
+      "rank": 5,
+      "score": 0.838737,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?",
+      "query_qid": "D1",
+      "retrieval_query": "college student not elevated screening risk screening probability 0.0583 XAI contributors: Campus belonging (item 1), Exercise frequency, Campus belonging (item 2), Institution size; protective factors; screening communication",
+      "pool_rank": 5
+    }
+  ]
+}

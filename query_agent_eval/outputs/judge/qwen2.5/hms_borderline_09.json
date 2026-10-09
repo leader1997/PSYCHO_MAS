@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_09",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T07:58:06.320255+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing useful evidence for expert reporting and adhering to safety guidelines. However, it does not fully cover all major XAI contributors (missing food_worry, positiveMH, finpast and several protective factors), which limits its alignment with the model’s full explanation space."
+}

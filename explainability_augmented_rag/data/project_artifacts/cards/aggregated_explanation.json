@@ -1,0 +1,52 @@
+{
+  "card_type": "aggregated_explanation",
+  "task": "depression_classification",
+  "top_feature_groups": [
+    {
+      "group": "Academic impact",
+      "importance": 0.3,
+      "agreement": "high"
+    },
+    {
+      "group": "Social support and belonging",
+      "importance": 0.1944,
+      "agreement": "low"
+    },
+    {
+      "group": "Positive mental health",
+      "importance": 0.1877,
+      "agreement": "high"
+    },
+    {
+      "group": "Financial stress",
+      "importance": 0.1317,
+      "agreement": "high"
+    },
+    {
+      "group": "Sleep and lifestyle",
+      "importance": 0.0561,
+      "agreement": "medium"
+    },
+    {
+      "group": "Substance use",
+      "importance": 0.0413,
+      "agreement": "low"
+    },
+    {
+      "group": "Demographics",
+      "importance": 0.0374,
+      "agreement": "low"
+    },
+    {
+      "group": "Institution",
+      "importance": 0.0282,
+      "agreement": "low"
+    },
+    {
+      "group": "Discrimination",
+      "importance": 0.0232,
+      "agreement": "low"
+    }
+  ],
+  "final_insight": "The aggregated explanation suggests that academic impact, social support and belonging, positive mental health are the strongest contributors to depression-risk classification."
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_01",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:09:23.907320+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_01",
+    "risk_interpretation": {
+      "probability": 0.05,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for low depression/anxiety screening risk",
+        "expected_evidence": [
+          "Guidelines on communicating low screening risk without minimizing potential concerns.",
+          "Best practices for follow-up care when initial screening is negative."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure safe and responsible communication, especially in a low-risk scenario where false reassurance is a danger."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+        "linked_xai_factor": "flourish, aca_impa",
+        "retrieval_query": "protective factors flourishing academic impairment correlation with student mental health outcomes",
+        "expected_evidence": [
+          "Evidence linking high flourishing scores to resilience and lower screening risk.",
+          "Impact of low academic impairment on overall psychological well-being."
+        ],
+        "priority": "high",
+        "rationale": "Focuses on the strongest protective factors identified, which are key for building a supportive report narrative."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "association between public institution attendance and student mental health screening risk",
+        "expected_evidence": [
+          "Literature review on institutional type (public vs. private) and mental health outcomes.",
+          "Contextualizing the contribution of 'Public institution' feature."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the primary positive XAI contributor, providing context for its influence."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stability impact on student mental health outcomes",
+        "expected_evidence": [
+          "Evidence showing how financial security mitigates psychological distress.",
+          "Contextualizing the protective effect of 'Current financial situation'."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses another strong protective factor, reinforcing the positive aspects of the profile."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of predictive models for low-risk scores in mental health screening",
+        "expected_evidence": [
+          "Model limitations regarding false negatives or lack of sensitivity at low probabilities.",
+          "Guidance on interpreting model output when far from the decision threshold."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for a low-risk case to manage expectations and prevent over-reliance on the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+        "linked_xai_factor": null,
+        "retrieval_query": "contextual factors for expert interpretation of low depression/anxiety screening scores",
+        "expected_evidence": [
+          "Checklist or framework for human experts reviewing student mental health data.",
+          "Importance of non-quantifiable context (e.g., personal history, immediate environment)."
+        ],
+        "priority": "medium",
+        "rationale": "Guides the expert to look beyond the numbers and consider holistic factors."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_01\",\n  \"risk_interpretation\": {\n    \"probability\": 0.05,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for low depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Guidelines on communicating low screening risk without minimizing potential concerns.\",\n        \"Best practices for follow-up care when initial screening is negative.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure safe and responsible communication, especially in a low-risk scenario where false reassurance is a danger.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?\",\n      \"linked_xai_factor\": \"flourish, aca_impa\",\n      \"retrieval_query\": \"protective factors flourishing academic impairment correlation with student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence linking high flourishing scores to resilience and lower screening risk.\",\n        \"Impact of low academic impairment on overall psychological well-being.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Focuses on the strongest protective factors identified, which are key for building a supportive report narrative.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?\",\n      \"linked_xai_factor\": \"inst_public\",\n      \"retrieval_query\": \"association between public institution attendance and student mental health screening risk\",\n      \"expected_evidence\": [\n        \"Literature review on institutional type (public vs. private) and mental health outcomes.\",\n        \"Contextualizing the contribution of 'Public institution' feature.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the primary positive XAI contributor, providing context for its influence.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stability impact on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence showing how financial security mitigates psychological distress.\",\n        \"Contextualizing the protective effect of 'Current financial situation'.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses another strong protective factor, reinforcing the positive aspects of the profile.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of predictive models for low-risk scores in mental health screening\",\n      \"expected_evidence\": [\n        \"Model limitations regarding false negatives or lack of sensitivity at low probabilities.\",\n        \"Guidance on interpreting model output when far from the decision threshold.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for a low-risk case to manage expectations and prevent over-reliance on the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"contextual factors for expert interpretation of low depression/anxiety screening scores\",\n      \"expected_evidence\": [\n        \"Checklist or framework for human experts reviewing student mental health data.\",\n        \"Importance of non-quantifiable context (e.g., personal history, immediate environment).\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Guides the expert to look beyond the numbers and consider holistic factors.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

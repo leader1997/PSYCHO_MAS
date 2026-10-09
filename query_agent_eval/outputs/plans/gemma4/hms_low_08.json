@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_08",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:27:06.320186+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_08",
+    "risk_interpretation": {
+      "probability": 0.0544,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic language to communicate a low screening risk score (0.0544) that falls significantly below the established decision threshold (0.5)?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for low depression/anxiety screening risk scores",
+        "expected_evidence": [
+          "Best practices for communicating negative screening results to students.",
+          "Language to avoid false reassurance or minimizing symptoms."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all cases, especially low-risk ones, ensuring safe and responsible communication."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "Given the strong negative contribution of 'Flourishing' (-0.4325) and 'Academic Impairment' (-0.9399), what is the clinical weight or interpretation of these protective factors in mitigating elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "flourish, aca_impa",
+        "retrieval_query": "clinical significance of flourishing and academic impairment as protective factors against student mental health risks",
+        "expected_evidence": [
+          "Expert guidelines on interpreting high-impact protective factors.",
+          "Contextualizing the role of resilience (flourishing) in screening outcomes."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are highly influential and must be interpreted clinically to support the low risk finding."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should the minor positive contributions from 'Campus belonging' (0.0061), 'Public institution' (0.002), and 'Institution size' (0.0008) be interpreted in the context of a low overall screening risk?",
+        "linked_xai_factor": "belong1, inst_public, inst_size",
+        "retrieval_query": "interpretation of minor institutional features contributing to model prediction for student mental health screening",
+        "expected_evidence": [
+          "Guidelines on interpreting small positive feature contributions.",
+          "Contextualizing institutional factors vs. individual risk."
+        ],
+        "priority": "medium",
+        "rationale": "Covers the main set of XAI contributors, ensuring they are not over-interpreted given the low final score."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the clinical significance of 'Current financial situation' (fincur) being a high protective factor (-0.3063) in relation to student mental health screening?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "relationship between current financial stability and reduced risk of depression/anxiety in college students",
+        "expected_evidence": [
+          "Evidence linking financial security to psychological well-being.",
+          "How socioeconomic status acts as a protective factor."
+        ],
+        "priority": "high",
+        "rationale": "Focuses on another high-impact protective factor, providing depth for the expert report."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the model limitations or considerations when interpreting a low screening risk score that is far from the decision threshold, particularly regarding potential confounding variables not captured by the current features?",
+        "linked_xai_factor": null,
+        "retrieval_query": "model limitations and interpretation of low probability scores in mental health screening",
+        "expected_evidence": [
+          "Discussion on model generalizability and feature omission.",
+          "Guidance on when a 'low risk' score should prompt further qualitative assessment."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses the uncertainty inherent in any ML prediction, crucial for expert review."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_08\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0544,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic language to communicate a low screening risk score (0.0544) that falls significantly below the established decision threshold (0.5)?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for low depression/anxiety screening risk scores\",\n      \"expected_evidence\": [\n        \"Best practices for communicating negative screening results to students.\",\n        \"Language to avoid false reassurance or minimizing symptoms.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all cases, especially low-risk ones, ensuring safe and responsible communication.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"Given the strong negative contribution of 'Flourishing' (-0.4325) and 'Academic Impairment' (-0.9399), what is the clinical weight or interpretation of these protective factors in mitigating elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"flourish, aca_impa\",\n      \"retrieval_query\": \"clinical significance of flourishing and academic impairment as protective factors against student mental health risks\",\n      \"expected_evidence\": [\n        \"Expert guidelines on interpreting high-impact protective factors.\",\n        \"Contextualizing the role of resilience (flourishing) in screening outcomes.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are highly influential and must be interpreted clinically to support the low risk finding.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should the minor positive contributions from 'Campus belonging' (0.0061), 'Public institution' (0.002), and 'Institution size' (0.0008) be interpreted in the context of a low overall screening risk?\",\n      \"linked_xai_factor\": \"belong1, inst_public, inst_size\",\n      \"retrieval_query\": \"interpretation of minor institutional features contributing to model prediction for student mental health screening\",\n      \"expected_evidence\": [\n        \"Guidelines on interpreting small positive feature contributions.\",\n        \"Contextualizing institutional factors vs. individual risk.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Covers the main set of XAI contributors, ensuring they are not over-interpreted given the low final score.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the clinical significance of 'Current financial situation' (fincur) being a high protective factor (-0.3063) in relation to student mental health screening?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"relationship between current financial stability and reduced risk of depression/anxiety in college students\",\n      \"expected_evidence\": [\n        \"Evidence linking financial security to psychological well-being.\",\n        \"How socioeconomic status acts as a protective factor.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Focuses on another high-impact protective factor, providing depth for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the model limitations or considerations when interpreting a low screening risk score that is far from the decision threshold, particularly regarding potential confounding variables not captured by the current features?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"model limitations and interpretation of low probability scores in mental health screening\",\n      \"expected_evidence\": [\n        \"Discussion on model generalizability and feature omission.\",\n        \"Guidance on when a 'low risk' score should prompt further qualitative assessment.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses the uncertainty inherent in any ML prediction, crucial for expert review.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

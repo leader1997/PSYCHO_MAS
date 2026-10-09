@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_05",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T06:13:37.063198+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 2,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is largely relevant and safe, providing clear risk interpretation and XAI contributor insights. It covers key protective factors but omits several other contributors, limiting full alignment with the model’s explanations. Many questions rely on case‑specific data rather than general knowledge database answers, reducing kdb answerability. Overall, it supports an expert report well but could be improved by including additional XAI factors and ensuring more KDB‑driven queries."
+}

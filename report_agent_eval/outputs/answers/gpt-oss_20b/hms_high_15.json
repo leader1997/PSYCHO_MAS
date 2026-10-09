@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_15",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the elevated screening risk (0.9647), what specific clinical guidelines or differential diagnostic considerations should be prioritized for expert review to ensure comprehensive assessment?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "Given the very high screening risk, clinicians should first administer the PHQ‑2 at every encounter as recommended in college health settings (Context 2). A positive PHQ‑2 warrants a full PHQ‑9 evaluation and an immediate safety assessment for suicidal ideation, with prompt referral to counseling services if indicated (Contexts 2–4). Differential diagnostic considerations should include somatic presentations that may mask depression, anxiety disorders that overlap in symptomatology, and cultural or stigma-related factors that influence reporting (Context 1). The screening process should also identify students who may benefit from classroom‑wide social‑emotional supports versus individualized care, as suggested by school‑based data on group dynamics (Context 3). Finally, given the risk of morbidity and mortality associated with untreated depression, a referral to qualified mental health professionals for comprehensive assessment is essential.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:03:44.697508+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific understanding regarding the relationship between academic impairment and elevated screening risk for student mental health?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Studies of medical students during the COVID‑19 pandemic found that almost half reported high academic procrastination, with Spearman correlations showing significant positive associations with stress (r = 0.468), anxiety (r = 0.468) and depression (r = 0.401; all p < 0.001). In a broader university sample, depressive symptoms independently predicted lower GPA and higher dropout risk even after controlling for prior performance, anxiety, eating‑disorder symptoms, and other covariates; the effect was strongest when students also screened positive for an anxiety disorder. These findings indicate that academic impairment—whether measured as procrastination or reduced achievement—is a statistical contributor to elevated mental‑health screening risk, especially for depression and comorbid anxiety. Counselors should consider routine screening for depressive symptoms in students exhibiting chronic procrastination or declining grades and refer those at high risk to qualified support services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:05:15.049582+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do factors related to food insecurity worry contribute to elevated screening risk in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The survey found that 41% of students experience food insecurity (Context 4), and the rate rises to 52% among Pell Grant recipients—an increase of 17 percentage points over non‑Pell students (Context 2). Food‑related basic needs insecurity is strongly linked with mental‑health symptoms; 44% of respondents report clinically significant anxiety or depression (Context 3). The emotional stress associated with uncertain food access can prompt academic disengagement, as 79% of students who stopped out cited basic‑needs insecurity—including food—as a reason (Context 2). These patterns suggest that worry about food availability elevates screening risk by amplifying anxiety, depression, and the likelihood of academic interruption. Therefore, when assessing young adults, indicators of food insecurity should be considered contributors to heightened mental‑health screening needs.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:06:49.623070+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the established risk factors and protective mechanisms associated with feelings of loneliness in college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Risk factors for loneliness among college students include low perceived social support, which research links to higher depressive symptoms and greater loneliness (Context 2). Students who report initial feelings of loneliness at the start of a semester are more likely to experience persistent loneliness later in the term (Context 3). Protective mechanisms identified are strong perceptions of community and supportive relationships; a first‑semester sense of belonging has been shown to predict lower mid‑semester loneliness, and increasing agreement that social ties are supportive over time is associated with reduced loneliness prevalence (Contexts 3 & 2). Loneliness remains a subjective experience independent of actual interaction quantity, underscoring the importance of perceived quality of connections as a protective factor (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:08:07.693537+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the protective benefits of attending a public institution or having institutional support structures for student mental health?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Attending a public institution often provides structured support systems—such as counseling services, peer‑mentoring programs, and academic advising—that are linked to greater psychosocial maturity and emotional well‑being (Context 1).  Institutional learning environments that offer clear goals, quality teaching, timely feedback, and teamwork opportunities foster engagement and correlate with positive outcomes across physical, social, and environmental wellbeing domains (Context 2).  A whole‑university prevention strategy—including early‑intervention measures and systematic monitoring of mental‑health indicators—has been shown to reduce the high prevalence of anxiety, depression, and suicidal ideation that commonly emerge during the first year (Context 3).  Programs designed to build a sense of belonging through curricular and co‑curricular activities have been identified as central to sustaining well‑being, with emotional support from peers and staff mediating this effect (Context 5).  Consequently, public institutions that implement comprehensive, community‑building, and early‑intervention structures act as protective factors for student mental health; students exhibiting persistent symptoms should be referred to qualified support services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:09:55.090710+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the known limitations of using ML screening tools for depression/anxiety, particularly regarding cultural context or co-morbid conditions?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The retrieved passages describe general screening procedures (e.g., PHQ‑2 use in college health centers, universal school screening, and multi‑tiered systems) but do not discuss machine‑learning–based tools or their specific constraints. Consequently, no evidence is available here to identify limitations related to cultural context or comorbid conditions for ML depression/anxiety screens. If you need that information, additional sources focused on algorithmic bias, cross‑cultural validation, and comorbidity handling would be required.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:10:50.557770+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What non-diagnostic language should be used when communicating an elevated screening risk to a student or their guardian?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When a student’s screening results indicate an elevated level of concern, communicate the finding as “identified as at higher risk for mental‑health challenges” rather than diagnosing a disorder. Emphasize that the purpose of the screening is a proactive approach to gather information so that prevention and early‑intervention strategies can be planned before problems develop or worsen (Context 1). Explain that the result reflects an identified need for additional support, not a clinical diagnosis, and invite discussion about resources such as counseling services or classroom coping skills that may help (Context 2). If the screening suggests risk to self or others, note that immediate referral to qualified mental‑health professionals is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:12:15.889219+00:00"
+    }
+  }
+}

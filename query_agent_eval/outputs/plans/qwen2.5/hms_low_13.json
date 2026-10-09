@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_13",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:24:20.318627+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_13",
+    "risk_interpretation": {
+      "probability": 0.0577,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How does the model's prediction probability of 0.0577 compare to the decision threshold of 0.5, and what does this imply about the student's risk level?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Compare model prediction probabilities with decision thresholds in low-risk scenarios.",
+        "expected_evidence": [
+          "Model prediction interpretation",
+          "Risk assessment guidelines"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the risk level based on the probability and threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the contribution of 'Weeknight sleep' to the model's prediction, and how does this factor into the overall risk assessment?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Examine the impact of weeknight sleep on depression/anxiety screening risks.",
+        "expected_evidence": [
+          "Sleep patterns and mental health studies",
+          "Impact of poor sleep on mood"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the role of weeknight sleep in the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does 'Weekend sleep' contribute to the model's prediction, and what additional context can be provided about this feature?",
+        "linked_xai_factor": "sleep_wkend",
+        "retrieval_query": "Explore the influence of weekend sleep on mental health.",
+        "expected_evidence": [
+          "Sleep patterns and mental health studies",
+          "Impact of inconsistent sleep schedules"
+        ],
+        "priority": "medium",
+        "rationale": "Evaluate the role of weekend sleep in the model's prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What is the impact of 'Academic impairment' on the student's risk level, and how does this protective factor influence the overall screening result?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Review studies linking academic performance to mental health.",
+        "expected_evidence": [
+          "Impact of academic stress on mental health",
+          "Academic impairment as a protective factor"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the protective role of academic impairment."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the model is calibrated and near the decision threshold, what potential uncertainties or limitations should be considered in interpreting this prediction?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Identify common uncertainties and limitations in machine learning models used for mental health screening.",
+        "expected_evidence": [
+          "Model calibration methods",
+          "Uncertainty measures in predictive models"
+        ],
+        "priority": "medium",
+        "rationale": "Address the potential uncertainties associated with near-threshold predictions."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we ensure that this low-risk screening result is communicated in a way that supports the student's well-being and does not provide false reassurance?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating low-risk mental health screening results.",
+        "expected_evidence": [
+          "Communication strategies for low-risk screenings",
+          "Supporting students without causing undue concern"
+        ],
+        "priority": "high",
+        "rationale": "Ensure appropriate and supportive communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_13\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0577,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How does the model's prediction probability of 0.0577 compare to the decision threshold of 0.5, and what does this imply about the student's risk level?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Compare model prediction probabilities with decision thresholds in low-risk scenarios.\",\n      \"expected_evidence\": [\"Model prediction interpretation\", \"Risk assessment guidelines\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the risk level based on the probability and threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the contribution of 'Weeknight sleep' to the model's prediction, and how does this factor into the overall risk assessment?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"Examine the impact of weeknight sleep on depression/anxiety screening risks.\",\n      \"expected_evidence\": [\"Sleep patterns and mental health studies\", \"Impact of poor sleep on mood\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the role of weeknight sleep in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does 'Weekend sleep' contribute to the model's prediction, and what additional context can be provided about this feature?\",\n      \"linked_xai_factor\": \"sleep_wkend\",\n      \"retrieval_query\": \"Explore the influence of weekend sleep on mental health.\",\n      \"expected_evidence\": [\"Sleep patterns and mental health studies\", \"Impact of inconsistent sleep schedules\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Evaluate the role of weekend sleep in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the impact of 'Academic impairment' on the student's risk level, and how does this protective factor influence the overall screening result?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Review studies linking academic performance to mental health.\",\n      \"expected_evidence\": [\"Impact of academic stress on mental health\", \"Academic impairment as a protective factor\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the protective role of academic impairment.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the model is calibrated and near the decision threshold, what potential uncertainties or limitations should be considered in interpreting this prediction?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Identify common uncertainties and limitations in machine learning models used for mental health screening.\",\n      \"expected_evidence\": [\"Model calibration methods\", \"Uncertainty measures in predictive models\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Address the potential uncertainties associated with near-threshold predictions.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we ensure that this low-risk screening result is communicated in a way that supports the student's well-being and does not provide false reassurance?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating low-risk mental health screening results.\",\n      \"expected_evidence\": [\"Communication strategies for low-risk screenings\", \"Supporting students without causing undue concern\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensure appropriate and supportive communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

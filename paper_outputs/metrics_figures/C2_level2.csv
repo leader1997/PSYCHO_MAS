@@ -1,0 +1,6 @@
+model,judge_relevance,judge_xai_alignment,judge_kdb_answerability,judge_report_usefulness,judge_probability_adaptation,judge_safety,judge_clarity,judge_non_redundancy,judge_overall
+gemma4,99.6,94.0,100.0,100.0,100.0,99.6,100.0,100.0,99.1
+llama3,88.0,57.6,78.8,91.6,87.6,90.4,92.4,100.0,85.8
+mistral,95.6,92.8,99.2,99.2,88.0,100.0,98.8,100.0,96.7
+phi4,96.4,86.0,100.0,98.8,92.8,98.8,100.0,100.0,96.6
+qwen2.5,96.8,74.0,99.6,98.4,94.0,99.6,99.6,100.0,95.2

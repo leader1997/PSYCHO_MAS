@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_05",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What limitations should be communicated regarding the predictive power of this screening tool (CatBoost model) when interpreting an elevated risk score, especially concerning non-diagnostic status?",
+  "retrieval_query": "limitations of ML screening tools depression anxiety non-diagnostic communication",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:12.867643+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.91626,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 2,
+      "score": 0.893849,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 3,
+      "score": 0.877595,
+      "chunk_id": "DOC_G001_p1_c3",
+      "doc_id": "DOC_G001",
+      "title": "Depression screening using patient-targeted feedback in general",
+      "page": 1,
+      "category_code": "G_screening_communication",
+      "text": "after screening. Secondary outcomes include patient engagement in mental healthcare, professional depression care and cost- effectiveness. According to a statistical analysis plan, the primary endpoint of all randomised patients will be analysed regarding the intention- to- treat principle. Ethics and dissemination The Ethics Committee of the Hamburg Medical Association approved the study. A clinical trial company will ensure data safety, monitoring and supervision. The multicentre GET.FEEDBACK.GP RCT is the first trial in primary care that tests the efficacy of a patient- targeted feedback intervention as an adjunct to depression screening. Its results have the potential to influence future depression guidelines and will be disseminated in scientific as well as patient- friendly language. Trial registration number NCT03988985. INTRODUCTION Major depression is one of the most disabling disorders worldwide and affects one out of ten individuals over their lifetime.1 2 However, major depression is under- recognised, diag- nosed incorrectly and thus often remains untreated.3 4 In turn, undetected depression Strengths and limitations of this study ► GET.FEEDBACK.GP is an extension of the DEPSCREEN- INFO trial, which indicated that pro- viding direct feedback to patients after depression screening reduces depression severity in cardiac patients. ► GET.FEEDBACK.GP is the first multicentre three- arm randomised controlled trial to test the efficacy of patient- targeted feedback as an adjunct to depres- sion screening in primary care. ► The novel feedback intervention is open- source, de- veloped for busy primary care settings and adapted to general practitioners’ and patients’ needs and preferences. ► As depression screening is feasible for primary care, no feasibility study for the feedback"
+    },
+    {
+      "rank": 4,
+      "score": 0.765891,
+      "chunk_id": "DOC_A001_p2_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 2 T able of Contents Abstract ………………………………………………………………………………………... 3-4 Problem Statement …………………………………………………………………………….. 5-6 Local Problem ………………………………………………………………………………….... 6 Clinical Question ………………………………………………………………………………... 6 Specific Aims ……………………………………………………………………………………. 7 Search Methods ……………………………………………………………………………….. 7-8 Available Knowledge/Review of Literature …………………………………………………. 8-14 Summary ……………………………………………………………………………………….. 14 Theoretical Frameworks ……………………………………………………………………. 14-15 Methods …………………………………………………………………………………….. 15-22 Results ……………………………………………………………………………………… 22-31 Discussion …………………………………………………………………………………... 31-34 Interpretation ……………………………………………………………………………….. 34-35 Implications ……………………………………………………………………………….... 35-37 Limitations ………………………………………………………………………………….. 37-38 Conclusions ………………………………………………………………………………… 38-39 Acknowledgements …………………………………………………………………………….. 39 Funding ……………………………………………………………………………………….... 39 References ………………………………………………………………………………….. 40-45 Appendices ………………………………………………………………………………… . 46-93"
+    },
+    {
+      "rank": 5,
+      "score": 0.757887,
+      "chunk_id": "DOC_G002_p7_c1",
+      "doc_id": "DOC_G002",
+      "title": "[PDF] DNP Project - Maryville University",
+      "page": 7,
+      "category_code": "G_screening_communication",
+      "text": "7 DEPRESSION SCREENING OF UNIVERSITY STUDENTS Observed Associations between Outcomes, Interventions, and Elements…………..60 Unintended Consequences…………………………………………………………...61 Details of Missing Data……………………………………………………………...62 Chapter 5 DISCUSSION ………………………………………………………………………..64 Result Meanings.…………………………………………………………………….64 Association to Relevant Studies…………………………………………………….64 Strengths of Project…………………………………………………………………65 Discussion of Limitations…………………………………………………………..66 Generalizability…………………………………………………………………66 Sustainability……………………………………………………………………66 Actins to Minimize Limitations…………………………………………………67 Effects of Limitations on Results………………………………………………..67 Post-Implementation Insights……………………………………………………….67 Barriers………………………………………………………………………….68 Facilitators………………………………………………………………………68 Interpretation………………………………………………………………….……..69 Reasons for Differences between Observed and Expected……………..………69 Inferences of Strength of Data………………………………………………….70 Ways to Improve Outcomes…………………………………………………….70 Implications………………………………………………………………………….71 Practice and Future Research…………………………………………………...71 Healthcare Policy………………………………………………………………71 Quality/Safety………………………………………………………………….72 Recommendations and Conclusions…………………………………….…………..73 REFERENCES…………………………………………………………………………………..75 APPENDIX A……………………………………………………………………………………83 APPENDIX B……………………………………………………………………………………85"
+    }
+  ]
+}

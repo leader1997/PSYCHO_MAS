@@ -1,0 +1,5 @@
+experiment,experiment_description,n_features,model,n_folds,auc_mean,pr_auc_mean,brier_mean,recall_mean,auc_std,pr_auc_std,brier_std,recall_std
+E1_full,Full model (all 25 features),25,CatBoost,5,0.854679,0.82851,0.155257,0.766654,0.004474,0.005026,0.00266,0.011678
+E1_full,Full model (all 25 features),25,XGBoost,5,0.855512,0.829648,0.154766,0.76947,0.0046,0.005065,0.002939,0.010769
+E6_no_institution,Remove institution variables,22,CatBoost,5,0.85448,0.828067,0.1554,0.770398,0.004065,0.005484,0.002439,0.009069
+E6_no_institution,Remove institution variables,22,XGBoost,5,0.855288,0.829422,0.155006,0.770652,0.004137,0.005207,0.002696,0.008029

@@ -1,0 +1,76 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_03",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5004) is extremely close to the decision threshold (0.5), what clinical guidelines or statistical considerations should be used to interpret this 'near-threshold' result, especially when calibration status is confirmed?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Because the predicted probability of 0.5004 is only 0.0004 above a 0.5 cutoff, the case is statistically borderline; even with confirmed calibration, sampling variability could shift it below threshold. In such near‑threshold situations, screening protocols recommend an additional assessment step—such as a follow‑up questionnaire or clinical interview—to confirm risk before triaging to higher‑tier supports (Context 3). Clinically, the school mental‑health framework emphasizes early identification and intervention before problems worsen; thus a borderline score should trigger monitoring rather than immediate exclusion from services (Context 1). Statistically, one can examine the confidence interval of the probability estimate or apply decision‑analytic weighting to decide whether to treat the case as positive or negative, especially when safety is at stake. If the student shows any self‑harm indicators, immediate referral per safety protocols should be enacted regardless of the exact probability (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T12:59:30.282181+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are the established clinical correlations between moderate levels of loneliness and elevated screening risk for depression/anxiety, particularly in a university student population?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Moderate loneliness in university students is consistently linked to a higher likelihood of screening positive for depression. A large student sample found that those reporting lower perceived social support—often indicative of moderate loneliness—were six times more likely to report depressive symptoms (Context 3). National College Health Assessment data show that loneliness correlates with a spectrum of mental health problems, including both depression and anxiety, across university populations (Bonsaksen et al., 2022; Context 2). While the direct evidence connecting moderate loneliness specifically to generalized anxiety disorder is less robust in these studies, loneliness remains identified as a common risk factor for depressive symptoms and broader psychological distress among students (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:01:08.242377+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does high worry regarding food insecurity contribute to elevated screening risk, and what are the recommended psychoeducational resources for addressing this specific stressor?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "High levels of worry about food insecurity signal a basic‑needs deficit that is strongly linked to emotional stress and poorer mental‑health outcomes, as shown by the 62 % of students with disabilities who experience food or housing insecurity and the 52 % of Pell Grant recipients reporting food insecurity (Context 5). This risk factor can elevate screening scores because it reflects a chronic stressor that often co‑occurs with anxiety, depression, and academic disengagement. Screening teams should therefore treat such worry as a statistical contributor to overall risk and use it to trigger timely referrals to school or community mental‑health services. While the evidence does not list specific psychoeducational materials, best practice recommends providing students with coping‑skill instruction (e.g., anxiety‑reduction techniques) and connecting them to resources that address basic needs, such as food assistance programs and counseling support.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:02:34.154804+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of 'Academic Impairment' (low level) contributing negatively to screening risk, and how should this protective factor be framed for expert consideration?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Evidence shows that depressive symptoms predict lower GPA and higher dropout rates (Eisenberg et al., 2009; Duffy et al., 2024), indicating a strong link between mental health problems and academic impairment. The retrieved studies do not directly examine “low level academic impairment” as a protective factor, so there is no empirical basis to assert that it reduces screening risk beyond the inverse relationship implied by better academic functioning. Clinically, a low level of academic impairment may signal relative resilience or effective coping strategies, but it should be interpreted cautiously and in conjunction with other psychosocial indicators. Experts should frame this factor as a potential marker of lower risk rather than a definitive protective element, and continue to monitor for co‑occurring mental health symptoms that could still elevate overall risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:03:42.155896+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "In a screening context, how should 'Flourishing' (medium level) be defined and utilized to support the expert understanding of resilience and positive mental health?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "In a screening framework, flourishing at the medium level is operationalized as scores that reflect average to high levels of well‑being across hedonic (life satisfaction), eudaimonic (personal growth) and social dimensions such as school belonging. Evidence shows that students who report these moderate‑to‑high wellbeing indicators achieve better current and long‑term academic outcomes, independent of their level of psychological distress (Context 1; Context 5). Screening tools that include items on life satisfaction, coping skills, and social connectedness can therefore flag students in the flourishing range for targeted prevention rather than crisis intervention. Within a multi‑tiered system of supports, identifying medium‑level flourishing allows educators to allocate classroom or group interventions that reinforce strengths while monitoring for emerging risk factors (Context 3; Context 4). This approach reduces stigma, empowers students, and provides actionable data for equitable resource planning across grades and classrooms (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:05:09.876879+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the recommended psychoeducational strategies or resources to address low levels of weeknight sleep disruption in relation to elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "The scoping review (Context 3) identifies poor sleep as a key individual‑level determinant of psychological distress among college students, underscoring the need for psychoeducational interventions that target sleep hygiene and stress management. Integrated, multi‑level strategies—such as campus‑wide wellness programs, peer support groups, and accessible counseling services—are recommended to address this risk factor (Context 3). Practical resources include brief validated self‑report tools like the GAD‑7 and PHQ‑9 for early identification of anxiety and depression, which can be paired with educational modules on healthy sleep routines and coping skills. Campus counseling centers frequently offer such psychoeducational workshops and individualized guidance; online platforms also provide free, confidential questionnaires and evidence‑based sleep hygiene guides that students can use independently.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:06:14.772736+00:00"
+    },
+    "Q7": {
+      "qid": "Q7",
+      "question": "What are the mandatory safety guidelines and non-diagnostic communication scripts that must be used when discussing elevated screening risk with a student, ensuring appropriate referral pathways?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "Mandatory safety guidelines include informing students and families about the screening process, obtaining consent or opt‑out options, selecting a reliable tool, rolling out the program gradually, responding immediately to any self‑harm risk, and having a defined triage protocol that directs identified at‑risk students to Tier 2 or Tier 3 services (Context 4). The protocol should document how many students were screened, identified as at‑risk, and referred. When discussing an elevated score, counselors must use non‑diagnostic language—e.g., describing the result as a signal of possible anxiety rather than a diagnosis—and invite the student to explore counseling options, providing contact details for campus mental health services (Context 3). The evidence does not supply specific scripted wording; practitioners should therefore craft supportive, neutral statements that emphasize referral and support while avoiding diagnostic labels. If risk of self‑harm is indicated, immediate safety planning and referral to crisis resources are required.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:08:01.219974+00:00"
+    }
+  }
+}

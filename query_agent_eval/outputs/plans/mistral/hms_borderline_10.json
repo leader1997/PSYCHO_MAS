@@ -1,0 +1,129 @@
+{
+  "case_id": "hms_borderline_10",
+  "model": "mistral",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:26:20.753698+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_10",
+    "risk_interpretation": {
+      "probability": 0.5012,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the elevated screening risk for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of elevated screening risk in student profiles",
+        "expected_evidence": [
+          "Explanation of elevated screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To understand the level of risk associated with this case."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of loneliness to the model's prediction?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for loneliness as a contributor to student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Loneliness evidence"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of loneliness in this case."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of flourishing to the model's prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for flourishing as a contributor to student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Flourishing evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of flourishing in this case."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of weeknight sleep to the model's prediction?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Evidence for weeknight sleep as a contributor to student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Weeknight sleep evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of weeknight sleep in this case."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of positive mental health to the model's prediction?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "Evidence for positive mental health as a contributor to student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Positive mental health evidence"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the role of positive mental health in this case."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of academic impairment on the model's prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment as a protective factor in student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Academic impairment protective evidence"
+        ],
+        "priority": "high",
+        "rationale": "To understand the role of academic impairment as a protective factor in this case."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "uncertainty_limitation",
+        "question": "What is the uncertainty or limitations associated with the model's prediction for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainty and limitations of the model in predicting student depression/anxiety screening risk",
+        "expected_evidence": [
+          "Model uncertainty and limitations"
+        ],
+        "priority": "high",
+        "rationale": "To understand the reliability of the model's prediction."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources are available for this student to address their elevated screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for students with elevated depression/anxiety screening risk",
+        "expected_evidence": [
+          "Safety measures and resources"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the safety of the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_borderline_10\",\n     \"risk_interpretation\": {\n       \"probability\": 0.5012,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"borderline\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the elevated screening risk for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of elevated screening risk in student profiles\",\n         \"expected_evidence\": [\"Explanation of elevated screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the level of risk associated with this case.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of loneliness to the model's prediction?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for loneliness as a contributor to student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Loneliness evidence\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of loneliness in this case.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of flourishing to the model's prediction?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for flourishing as a contributor to student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Flourishing evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of flourishing in this case.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of weeknight sleep to the model's prediction?\",\n         \"linked_xai_factor\": \"sleep_wknight\",\n         \"retrieval_query\": \"Evidence for weeknight sleep as a contributor to student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Weeknight sleep evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of weeknight sleep in this case.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of positive mental health to the model's prediction?\",\n         \"linked_xai_factor\": \"positiveMH\",\n         \"retrieval_query\": \"Evidence for positive mental health as a contributor to student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Positive mental health evidence\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the role of positive mental health in this case.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of academic impairment on the model's prediction?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment as a protective factor in student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Academic impairment protective evidence\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the role of academic impairment as a protective factor in this case.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"uncertainty_limitation\",\n         \"question\": \"What is the uncertainty or limitations associated with the model's prediction for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Uncertainty and limitations of the model in predicting student depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Model uncertainty and limitations\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the reliability of the model's prediction.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources are available for this student to address their elevated screening risk?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for students with elevated depression/anxiety screening risk\",\n         \"expected_evidence\": [\"Safety measures and resources\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the safety of the student.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": true,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

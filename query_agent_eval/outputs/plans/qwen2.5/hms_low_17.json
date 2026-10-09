@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_17",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:32:23.826511+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_17",
+    "risk_interpretation": {
+      "probability": 0.0586,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0586 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting probabilities near the decision threshold.",
+        "expected_evidence": [
+          "Model calibration status",
+          "Decision threshold significance"
+        ],
+        "priority": "medium",
+        "rationale": "To understand if the prediction is within a calibrated range and how close it is to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the feature 'Binge drinking' (binge1pl) contributing positively to the model's risk prediction?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "Elevated depression/anxiety screening risk due to binge drinking.",
+        "expected_evidence": [
+          "Studies linking binge drinking with mental health issues",
+          "Surveys on student behavior and mental health"
+        ],
+        "priority": "high",
+        "rationale": "To confirm the impact of this feature on the prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How does the protective factor 'Flourishing' (flourish) contribute to reducing the model's risk prediction?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Impact of flourishing on mental health and depression/anxiety screening.",
+        "expected_evidence": [
+          "Research on flourishing and its benefits",
+          "Surveys showing correlation between flourishing and reduced mental health risks"
+        ],
+        "priority": "high",
+        "rationale": "To understand the protective effect of this factor."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the potential limitations or uncertainties in the model's prediction, especially given its near-threshold status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Uncertainties and limitations of machine learning models in mental health screening.",
+        "expected_evidence": [
+          "Model validation studies",
+          "Case studies with similar predictions"
+        ],
+        "priority": "medium",
+        "rationale": "To identify any potential biases or inaccuracies in the model."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should we communicate the low risk of elevated depression/anxiety screening to the student and their support network?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating low-risk mental health screenings.",
+        "expected_evidence": [
+          "Guidelines on non-diagnostic communication",
+          "Examples of effective low-risk communication strategies"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student and their network are appropriately informed without causing undue concern."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_17\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0586,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0586 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting probabilities near the decision threshold.\",\n      \"expected_evidence\": [\"Model calibration status\", \"Decision threshold significance\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand if the prediction is within a calibrated range and how close it is to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the feature 'Binge drinking' (binge1pl) contributing positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"Elevated depression/anxiety screening risk due to binge drinking.\",\n      \"expected_evidence\": [\"Studies linking binge drinking with mental health issues\", \"Surveys on student behavior and mental health\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To confirm the impact of this feature on the prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does the protective factor 'Flourishing' (flourish) contribute to reducing the model's risk prediction?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"Impact of flourishing on mental health and depression/anxiety screening.\",\n      \"expected_evidence\": [\"Research on flourishing and its benefits\", \"Surveys showing correlation between flourishing and reduced mental health risks\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To understand the protective effect of this factor.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the potential limitations or uncertainties in the model's prediction, especially given its near-threshold status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Uncertainties and limitations of machine learning models in mental health screening.\",\n      \"expected_evidence\": [\"Model validation studies\", \"Case studies with similar predictions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To identify any potential biases or inaccuracies in the model.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should we communicate the low risk of elevated depression/anxiety screening to the student and their support network?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating low-risk mental health screenings.\",\n      \"expected_evidence\": [\"Guidelines on non-diagnostic communication\", \"Examples of effective low-risk communication strategies\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the student and their network are appropriately informed without causing undue concern.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,153 @@
+{
+  "case_id": "hms_low_12",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:51:27.430893+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_12",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the model's prediction probability for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of prediction probabilities in mental health screening models",
+        "expected_evidence": [
+          "Explanation of 0.0572 prediction probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the student's risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of binge drinking to the model prediction?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "Evidence for the impact of binge drinking on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking binge drinking and depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of this contributing factor"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of campus belonging (item 1) to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Evidence for the impact of campus belonging on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking campus belonging and depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the significance of this contributing factor"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of institution size to the model prediction?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Evidence for the impact of institution size on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking institution size and depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the significance of this contributing factor"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of academic impairment in this student's case?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for the protective effect of academic impairment on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking academic impairment and reduced depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of this protective factor"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of loneliness in this student's case?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for the protective effect of loneliness on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking loneliness and reduced depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the significance of this protective factor"
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of flourishing in this student's case?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for the protective effect of flourishing on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking flourishing and reduced depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of this protective factor"
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of age in this student's case?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Evidence for the protective effect of age on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking age and reduced depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the significance of this protective factor"
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective role of current financial situation in this student's case?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Evidence for the protective effect of current financial situation on mental health screening risk",
+        "expected_evidence": [
+          "Research findings linking current financial situation and reduced depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the significance of this protective factor"
+      },
+      {
+        "question_id": "Q10",
+        "question_type": "safety_communication",
+        "question": "What safety communication should be included when discussing these findings with the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety communication for non-diagnostic mental health screening results",
+        "expected_evidence": [
+          "Guidelines for safe and effective communication about mental health screening results"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safety and non-diagnostic communication"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_12\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0572,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the model's prediction probability for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of prediction probabilities in mental health screening models\",\n         \"expected_evidence\": [\"Explanation of 0.0572 prediction probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the student's risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of binge drinking to the model prediction?\",\n         \"linked_xai_factor\": \"binge1pl\",\n         \"retrieval_query\": \"Evidence for the impact of binge drinking on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking binge drinking and depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the significance of this contributing factor\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of campus belonging (item 1) to the model prediction?\",\n         \"linked_xai_factor\": \"belong1\",\n         \"retrieval_query\": \"Evidence for the impact of campus belonging on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking campus belonging and depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the significance of this contributing factor\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of institution size to the model prediction?\",\n         \"linked_xai_factor\": \"inst_size\",\n         \"retrieval_query\": \"Evidence for the impact of institution size on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking institution size and depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the significance of this contributing factor\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of academic impairment in this student's case?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for the protective effect of academic impairment on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking academic impairment and reduced depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the significance of this protective factor\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of loneliness in this student's case?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for the protective effect of loneliness on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking loneliness and reduced depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the significance of this protective factor\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of flourishing in this student's case?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for the protective effect of flourishing on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking flourishing and reduced depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the significance of this protective factor\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of age in this student's case?\",\n         \"linked_xai_factor\": \"age\",\n         \"retrieval_query\": \"Evidence for the protective effect of age on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking age and reduced depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the significance of this protective factor\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective role of current financial situation in this student's case?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"Evidence for the protective effect of current financial situation on mental health screening risk\",\n         \"expected_evidence\": [\"Research findings linking current financial situation and reduced depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the significance of this protective factor\"\n       },\n       {\n         \"question_id\": \"Q10\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety communication should be included when discussing these findings with the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety communication for non-diagnostic mental health screening results\",\n         \"expected_evidence\": [\"Guidelines for safe and effective communication about mental health screening results\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safety and non-diagnostic communication\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

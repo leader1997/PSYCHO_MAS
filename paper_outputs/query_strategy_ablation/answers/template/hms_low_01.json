@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_low_01",
+  "arm": "template",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "answer": "The provided evidence does not contain specific guidelines regarding the appropriate non-diagnostic communication strategy for a student who screens low risk to prevent false reassurance. The retrieved contexts discuss the necessity of screening for mental health issues, the process for identifying students at risk, and the use of screening tools for positive results. However, they do not offer clinical recommendations for communicating results to a student who screens low risk.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain specific data detailing the correlation between high levels of flourishing or strong academic impairment status and reduced screening risk for depression and anxiety. However, the context does suggest a general relationship between well-being and positive outcomes. Research indicates that students who report average to high levels of well-being tend to experience better current and long-term outcomes, including academic success, compared to those reporting low levels of well-being. Furthermore, screening processes may identify students who are experiencing poor academic progress, which is noted as a factor for potential mental health support. These findings suggest that overall well-being and academic status are related to general student outcomes, but a direct correlation with reduced screening risk for depression and anxiety was not established in the retrieved material.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "The provided evidence does not contain information regarding a general association between attending a public institution and elevated depression or anxiety screening risk among college students. While the context mentions specific public colleges in relation to screening protocols, it does not establish a correlation between the institutional type and the level of risk. The retrieved passages do confirm that depression and anxiety are highly prevalent issues among college students generally, noting that symptoms increased to 34% for anxiety and 38% for depression in recent years. However, the evidence is insufficient to answer the specific question about the association with public institutions.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "answer": "Based on the retrieved evidence, there is no information provided regarding the relationship between high current financial stability (fincur) and reduced screening risk of depression or anxiety in young adults. The context passages discuss the high prevalence of mental health issues among college students and the importance of early screening, but they do not contain data or findings linking financial stability status to screening risk.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided evidence does not contain information regarding the known limitations or scope restrictions of a screening model when predicting risk far below an established decision threshold, such as a 0.05 probability. The context passages discuss the general importance of screening, the prevalence of mental health issues in college students, and the limitations of complaint-based screening approaches, but they do not address the model's performance or restrictions at low probability levels.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "answer": "The provided evidence does not contain specific guidelines detailing contextual factors that an expert should consider when interpreting a low screening risk score. The literature emphasizes the high prevalence of mental health concerns among college students, noting that factors such as moderate to high stress, loneliness, and poor academic progress are significant concerns. While the texts identify various indicators that warrant screening, they do not offer clinical guidance on how to interpret a negative or low screening result in the presence of these contextual stressors.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "template",
+      "case_id": "hms_low_01"
+    }
+  },
+  "n_contexts": 5
+}

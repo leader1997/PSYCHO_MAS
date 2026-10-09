@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_09",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5012) is marginally above the decision threshold (0.5), what clinical guidelines support interpreting 'elevated screening risk' in a borderline context, and what are the next steps for expert review?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "A probability just above the 0.5 threshold signals an elevated but not definitive risk; school‑based screening guidelines recommend treating such borderline results as a cue for additional assessment rather than immediate diagnosis. The PHQ‑2 protocol (Context 2) specifies that a positive screen should be followed by a more comprehensive tool, such as the PHQ‑9, and, if indicated, referral to counseling services. Context 3 further stresses that any student who endorses suicidal or homicidal ideation—or other high‑risk behaviors—must receive an immediate safety assessment and timely referral to school or community mental health resources. In practice, the next step is therefore a tier‑2 evaluation (e.g., PHQ‑9 or equivalent), coupled with a safety check, followed by appropriate placement within a multi‑tiered system of supports (MTSS) as outlined in Context 1. If self‑harm risk is identified, urgent referral to qualified mental health professionals should be initiated.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:49:47.266019+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "Since the model prediction is highly calibrated and near the decision threshold, what are the known limitations or sources of uncertainty associated with using this specific screening tool for borderline risk assessment?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Even when a screening model appears well‑calibrated, several statistical uncertainties remain. First, calibration estimates rely on binning predictions into a finite number of intervals; the accuracy estimate for each bin (acc(Bm)) is an unbiased but noisy estimator that can fluctuate with sample size, especially near the decision threshold where few samples may fall in a given bin (Context 2–3). Second, perfect calibration—P(ˆY=Y|ˆP=p)=p for all p—is unattainable in practice; empirical measures such as Expected Calibration Error (ECE) approximate this relationship but cannot capture all local deviations, so residual miscalibration can persist even when overall ECE is low (Context 1–4). Third, reliability diagrams do not display the proportion of samples per bin, limiting insight into how many borderline cases are actually calibrated (Context 3). Finally, post‑processing techniques like temperature scaling can improve calibration but are single‑parameter adjustments that may not fully correct for architectural or training factors that influence confidence estimates (Context 4–5). Consequently, clinicians should treat borderline risk predictions with caution and consider supplementary evidence or follow‑up assessments.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:51:07.021829+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the established relationship between chronic loneliness (a major positive contributor) and increased screening risk for depression/anxiety, particularly in academic settings?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Chronic loneliness—defined as the gap between desired and actual social relationships—is a well‑established risk factor for depressive symptoms (Context 2). In academic populations, students who report low perceived social support, an indicator of loneliness, are up to six times more likely to exhibit depression than those with high support (Context 1). Meta‑analyses show that loneliness mediates the link between limited social ties and depressive symptoms among college students, contributing to higher rates of anxiety and depression during the pandemic (Context 3). Consequently, chronic loneliness elevates the probability that a student will screen positive for depression or anxiety on brief tools such as the PHQ‑2, underscoring its role as a major contributor to screening risk in academic settings.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:52:32.748842+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "How can existing protective factors, such as 'Flourishing' status or low 'Academic Impairment,' be leveraged in the expert report to provide a balanced view and guide strengths-based support considerations?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "The report should explicitly note students who score in the “Flourishing” range, as research shows that average‑to‑high levels of well‑being are associated with better current and long‑term academic outcomes (Context 3). Highlighting low or absent academic impairment likewise signals resilience in learning and can serve as a baseline for strengths‑based enrichment rather than deficit‑focused remediation. By documenting these protective factors alongside any identified risks, the report offers a balanced view that acknowledges both strengths and areas needing support. This dual presentation aligns with multi‑tiered system principles, where screening data inform prevention and early intervention strategies that build on existing well‑being (Context 4). Finally, using flourishing status and academic resilience as guiding metrics can help educators design supports that reinforce positive mental health and sustain academic success without pathologizing the student.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:54:14.216555+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the potential links between food insecurity worry (a positive contributor) and elevated screening risk, and what resources should be considered for expert referral?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Food‑insecurity worry is a statistically significant contributor to elevated screening risk because research shows that material hardship—including chronic food insecurity—is consistently associated with higher rates of depression, anxiety, stress, sleep disturbance and suicidal ideation (Context 2).  These mental‑health symptoms are the very indicators that screening protocols aim to detect and flag for further assessment.  Moreover, basic‑needs insecurity has been linked to academic disengagement; students who report food insecurity are more likely to stop out or consider stopping out because of emotional stress or financial strain (Context 3).  \n\nWhen a student screens positive for food‑insecurity worry, counselors should promptly refer them to both mental‑health and practical support services.  Appropriate referrals include university counseling centers or community mental‑health agencies for psychological assessment and therapy, the campus health center for screening of physical conditions such as diabetes or hypertension that may accompany chronic food insecurity, and financial‑aid or student‑support offices that can connect students with emergency meal programs, local food banks, or scholarship resources.  If suicidal ideation is present, immediate safety planning and crisis hotline contact should be provided in accordance with the screening guidelines (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:55:43.070933+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language and communication strategies should be used when discussing elevated screening risk with a student to ensure safety, maintain rapport, and avoid false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "Use supportive, non‑diagnostic language that acknowledges the student’s experience without labeling it—e.g., “I notice you’ve been feeling very tired and sad lately” rather than “You’re depressed”—to maintain rapport while still conveying concern (Context 1). Explain that because the screening has flagged elevated risk, a follow‑up assessment will be conducted promptly; if any danger to self or others is identified, safety steps will be taken immediately (Contexts 1 and 5). Offer concrete next steps such as scheduling a brief counseling visit or connecting them with school mental‑health services, making it clear that help is available and confidential (Context 5). Refrain from providing a definitive diagnosis; instead frame the conversation around concerns and potential supports to avoid false reassurance while ensuring the student feels heard and supported (inferred from the emphasis on triaging and timely referral in Contexts 1 and 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:58:05.252591+00:00"
+    }
+  }
+}

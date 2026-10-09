@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_16",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:48:16.751307+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_16",
+    "risk_interpretation": {
+      "probability": 0.0583,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic language to communicate a low screening risk result, ensuring that the student understands this score does not rule out underlying mental health concerns?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for low depression/anxiety screening scores",
+        "expected_evidence": [
+          "Best practices for communicating negative screening results.",
+          "Language to avoid false reassurance or minimizing risk."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all reports, especially low-risk ones, to prevent misinterpretation of the tool's output as a definitive diagnosis."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "What is the scientific literature on how high levels of 'Flourishing' and stable 'Current Financial Situation' act as protective factors against elevated depression/anxiety screening risk in college students?",
+        "linked_xai_factor": "flourish, fincur",
+        "retrieval_query": "protective role of flourishing and financial stability on student mental health outcomes",
+        "expected_evidence": [
+          "Evidence linking high flourishing scores to resilience.",
+          "Impact of stable financial status on psychological well-being in young adults."
+        ],
+        "priority": "high",
+        "rationale": "The case has multiple strong protective factors. Highlighting these provides context and strength to the low risk score, making the report actionable and positive."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should minor increases in screening risk associated with 'Campus Belonging' (belong1/belong2) or 'Exercise Frequency' be contextualized when the overall model prediction is low, without suggesting a causal link?",
+        "linked_xai_factor": "belong1, belong2, exerc",
+        "retrieval_query": "contextualizing minor positive XAI contributions in low-risk screening reports",
+        "expected_evidence": [
+          "Guidelines for interpreting small risk increases from specific features.",
+          "Methods to discuss feature contribution without implying causality."
+        ],
+        "priority": "medium",
+        "rationale": "The model flagged these factors as increasing risk. This question ensures the report addresses them responsibly, acknowledging their minor role while maintaining the overall low-risk conclusion."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the general limitations of using machine learning screening tools for depression/anxiety, particularly regarding population specificity and the need for clinical follow-up?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of AI screening tools for mental health",
+        "expected_evidence": [
+          "General limitations of predictive models in student populations.",
+          "When a low score requires further clinical assessment."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for any screening report. It manages expectations and prevents the model's output from being misinterpreted as definitive proof of wellness or risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "expert_support_consideration",
+        "question": "What are evidence-based, low-intensity psychoeducational resources (e.g., workshops, self-guided modules) that can be recommended to a student with a low screening risk but who exhibits minor areas of concern?",
+        "linked_xai_factor": null,
+        "retrieval_query": "low intensity psychoeducation for college students mental wellness",
+        "expected_evidence": [
+          "Recommended non-clinical interventions (e.g., mindfulness, time management).",
+          "Resources suitable for proactive student support."
+        ],
+        "priority": "medium",
+        "rationale": "Since the risk is low, the report should pivot to proactive wellness recommendations rather than immediate clinical intervention, providing concrete next steps for the expert reviewer."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_16\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0583,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic language to communicate a low screening risk result, ensuring that the student understands this score does not rule out underlying mental health concerns?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for low depression/anxiety screening scores\",\n      \"expected_evidence\": [\n        \"Best practices for communicating negative screening results.\",\n        \"Language to avoid false reassurance or minimizing risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all reports, especially low-risk ones, to prevent misinterpretation of the tool's output as a definitive diagnosis.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What is the scientific literature on how high levels of 'Flourishing' and stable 'Current Financial Situation' act as protective factors against elevated depression/anxiety screening risk in college students?\",\n      \"linked_xai_factor\": \"flourish, fincur\",\n      \"retrieval_query\": \"protective role of flourishing and financial stability on student mental health outcomes\",\n      \"expected_evidence\": [\n        \"Evidence linking high flourishing scores to resilience.\",\n        \"Impact of stable financial status on psychological well-being in young adults.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case has multiple strong protective factors. Highlighting these provides context and strength to the low risk score, making the report actionable and positive.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should minor increases in screening risk associated with 'Campus Belonging' (belong1/belong2) or 'Exercise Frequency' be contextualized when the overall model prediction is low, without suggesting a causal link?\",\n      \"linked_xai_factor\": \"belong1, belong2, exerc\",\n      \"retrieval_query\": \"contextualizing minor positive XAI contributions in low-risk screening reports\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting small risk increases from specific features.\",\n        \"Methods to discuss feature contribution without implying causality.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"The model flagged these factors as increasing risk. This question ensures the report addresses them responsibly, acknowledging their minor role while maintaining the overall low-risk conclusion.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the general limitations of using machine learning screening tools for depression/anxiety, particularly regarding population specificity and the need for clinical follow-up?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of AI screening tools for mental health\",\n      \"expected_evidence\": [\n        \"General limitations of predictive models in student populations.\",\n        \"When a low score requires further clinical assessment.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for any screening report. It manages expectations and prevents the model's output from being misinterpreted as definitive proof of wellness or risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are evidence-based, low-intensity psychoeducational resources (e.g., workshops, self-guided modules) that can be recommended to a student with a low screening risk but who exhibits minor areas of concern?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"low intensity psychoeducation for college students mental wellness\",\n      \"expected_evidence\": [\n        \"Recommended non-clinical interventions (e.g., mindfulness, time management).\",\n        \"Resources suitable for proactive student support.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Since the risk is low, the report should pivot to proactive wellness recommendations rather than immediate clinical intervention, providing concrete next steps for the expert reviewer.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

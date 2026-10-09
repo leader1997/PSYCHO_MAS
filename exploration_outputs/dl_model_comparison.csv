@@ -1,0 +1,7 @@
+,auc,accuracy,f1
+FT-Transformer,0.864,0.7872,0.778
+TabTransformer,0.8636,0.7876,0.7691
+DCNv2,0.8627,0.7816,0.767
+ResNet-MLP,0.8587,0.7793,0.7646
+Logistic Regression (baseline),0.8573,0.783,0.7722
+TabNet,0.852,0.7812,0.7615

@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_08",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What is the protective role of regular exercise (exerc) in mitigating elevated depression/anxiety screening risk among students?",
+  "retrieval_query": "exercise frequency as a protective factor against student anxiety and depression",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:45:51.568084+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.875136,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,"
+    },
+    {
+      "rank": 2,
+      "score": 0.861581,
+      "chunk_id": "DOC_B005_p1_c3",
+      "doc_id": "DOC_B005",
+      "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "a major depressive disorder. The prevalence of high rates of depression and anxiety identified in these studies are indeed a basis for concern. The wide spread heavy use of alcohol by university students has also been reported by many studies (Palombi (2006); Smart & Ogborne (2000)), as well as the study by Orford, Krishnan, Balaam, Everitt and Van Der Graff (2004) from the University of Birmingham, that indicated over 20% of student participants experienced serious levels of depression resulting from their levels of heavy drinking, identified by them as being necessary for social functioning. Illicit"
+    },
+    {
+      "rank": 3,
+      "score": 0.859469,
+      "chunk_id": "DOC_D003_p1_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "1 Mental Health and Academic Success in College (revised and resubmitted to the B.E. Journal of Economic Analysis & Policy) May 2009 (first version January 2009) Daniel Eisenberg (University of Michigan, daneis@umich.edu) Ezra Golberstein (Harvard Medical School, golberstein@hcp.med.harvard.edu) Justin Hunt (University of Michigan, jbhunt@med.umich.edu) Abstract Mental health problems represent a potentially important but relatively unexplored factor in explaining human capital accumulation during college. We conduct the first study, to our knowledge, of how mental health predicts academic success during college in a random longitudina l sample of students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, controlling for prior academic performance and other variables. The association between depression and academic outcomes is strongest among students with a positive anxiety disorder screen. In within-person estimates using our longitudinal sample, we find again th at co-occurring depr ession and anxiety are associated with lower GPA, and we find that symptoms of eating disorders are also associated with lower GPA. Th is descriptive study highlights the policy relevance of generating more definitive cau sal estimates of the effect of mental health on college success, which will likely require a randomized trial."
+    },
+    {
+      "rank": 4,
+      "score": 0.848539,
+      "chunk_id": "DOC_D001_p1_c4",
+      "doc_id": "DOC_D001",
+      "title": "[PDF] Effect of Perceived Academic Stress on Students' Performance",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "Shelley & Whalen, 2005; Misra & McKean, 2000). Undergraduate students stated that stress was the most common factor among all health factors which impact their academic performance, as stress harmfully affects physical and psychological health (Dwyer & Cummings, 2001). Wintre and Yaffe (2000) concluded that high level of stress during the first year of college forecasst lower level of overall adjustment and can make the students more susceptible to many social and psychological problems, thus leading to a lower grade point average (GPA) in the final year. Many studies have addressed this issue and it was found that many psychological problems, such as depression, anxiety, and stress have an impact on the studenst academic achievement. Williamson, Birmaher, Ryan, and Dahl (2005) reported that in anxious and depressed youth, stressful life events are considerably elevated which in turn lead to low performance in academics."
+    },
+    {
+      "rank": 5,
+      "score": 0.844681,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    }
+  ]
+}

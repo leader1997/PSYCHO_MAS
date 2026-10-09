@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_03",
+  "stratum": "borderline",
+  "qid": "Q6",
+  "question": "What are the recommended psychoeducational strategies or resources to address low levels of weeknight sleep disruption in relation to elevated screening risk?",
+  "retrieval_query": "psychoeducation for improving sleep hygiene and reducing anxiety symptoms",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:42:43.560786+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.892106,
+      "chunk_id": "DOC_B003_p2_c1",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "several substantial revisions, GAD was characterized as an independent anxiety disorder with diagnostic description. In the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), GAD has been stated to include both psychological symptoms such as per- sistent worrying and overthinking, difficulty handling uncertainty, restlessness, indecisiveness, etc. as well as physiological symptoms such as fatigue, sleeplessness, muscle tension, nervous- ness, nausea, irritability, etc. [6, 7]. Findings from general population surveys of approximately 150000 adults in 26 countries indicated that DSM-5 GAD had a combined lifetime prevalence of 3.7%, 12-month prevalence of 1.8%, and 30-day prevalence of 0.8% [8]. Among South Asian countries, as of 2017, the prevalence and severity of anxiety disorder is the highest in Bangladesh. 4.4% of the Bangladeshi population is estimated to have this disorder and it contributes to 4% of the total years lived with disability (YLD) [9, 10]. Specifically, a study estimated prevalence of GAD to be around 37.3% among individuals of Bangladesh aged between 13 to 63 years [11]. The prevalence of symptoms of anxiety was particularly high in case of univer- sity students [12, 13]. A recent study conducted by Faisal et al. (2021) indicated that approxi- mately 40% of Bangladeshi students suffered from symptoms of moderate to severe GAD, a rate which is higher than those reported in the studies conducted on general people [14, 15]. Univer- sity students go through significant changes in their emotional (e.g., loneliness, personal auton- omy) and physical environment (e.g., transition from college to university) [16]. They also deal with the pressure of competition for good"
+    },
+    {
+      "rank": 2,
+      "score": 0.885656,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    },
+    {
+      "rank": 3,
+      "score": 0.877859,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 4,
+      "score": 0.876896,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 5,
+      "score": 0.876621,
+      "chunk_id": "DOC_B002_p2_c1",
+      "doc_id": "DOC_B002",
+      "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Introduction Mental health disorders typically emerge in early adulthood (De Lijster et al., 2016) and rates can be especially high in college students (Eisenberg et al., 2013). A survey of 571 college campus counseling centers found that anxiety was the number one reason that students sought counseling (LiViness et al., 2017). Anxiety disorders are the most common mental health conditions reported among college students at 11.9% (Pedrelli et. al, 2015). Many college students likely experience inflated rates of anxiety, related to multiple aspects of collegiate life, such as increased responsibility, financial concerns, academic performance, and acceptance to graduate programs, with rates of anxiety and other disorders (e.g., depression) varying across discipline and class rank (Bieter et al., 2015; Lipson et al., 2016). Identifying students’ mental health disorders can result in earlier intervention and improve their chances of degree completion (Hunt et al., 2010). For students with anxiety, using a self-report questionnaire may be the first step in identifying a problem and encouraging them to seek treatment. Self-report questionnaires allow for both professionals and nonprofessionals to identify a probable disorder and assess the severity of symptoms. Ideally, such questionnaires are brief, accurate, and easy to administer. Many are available online and can be done quickly, privately, and remotely. The GAD-7 is a seven-item questionnaire used as a screening tool for generalized anxiety disorder (GAD) and as a measure for anxiety symptom severity. The GAD-7 began as an anxiety screener for primary care but can be used to measure anxiety symptoms in a variety of individuals including inpatient psychiatric patients (Johnson et"
+    }
+  ]
+}

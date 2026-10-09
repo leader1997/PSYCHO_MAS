@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_08",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:15:34.775627+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing comprehensive support for a low-risk case. It covers key XAI contributors but omits some positive and negative features, resulting in moderate alignment. All questions are answerable via scientific knowledge databases and would enhance an expert-facing report while maintaining safety and avoiding diagnostic or causal language."
+}

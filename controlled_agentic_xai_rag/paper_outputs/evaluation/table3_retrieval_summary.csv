@@ -1,0 +1,3 @@
+retriever,precision@5,recall@5,recall@10,hit@5,hit@10,mrr,ndcg@10
+bm25,0.032,0.0045,0.0097,0.14,0.29,0.0919,0.0367
+hybrid_faiss,0.06,0.0077,0.015,0.23,0.32,0.1236,0.0569

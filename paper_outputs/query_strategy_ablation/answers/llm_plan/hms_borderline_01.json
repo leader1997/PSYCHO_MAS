@@ -1,0 +1,68 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_borderline_01",
+  "arm": "llm_plan",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5001) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting 'near-threshold' results in student mental health screening, especially when calibration confirms proximity?",
+      "question_type": "uncertainty_limitation",
+      "answer": "The provided evidence does not contain specific clinical guidelines for interpreting \"near-threshold\" screening probabilities, such as a result of 0.5001. However, the context emphasizes that mental health screening is a proactive approach designed for prevention and early intervention, which requires follow-up support to detect and address problems before they escalate. When screening identifies students who are in immediate need of support, such as those endorsing suicidal or homicidal ideation or exhibiting risk-taking behaviors, the protocol mandates that these students must be assessed immediately to ensure safety. Furthermore, screening teams are responsible for ensuring that referrals to both school and community mental health services are provided in a timely manner.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What evidence supports the relationship between reported loneliness (lonely) and elevated screening risk in college students, particularly when other protective factors are present?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "Loneliness, defined as the disparity between one’s desired and actual levels of social relationships, is identified as a common risk factor for depressive symptoms. The evidence supports a strong protective role for perceived social support on mental health outcomes, noting that students with lower levels of social support were six times more likely to experience depressive symptoms. Generally, a lack of positive social relationships can lead to negative psychological states, such as anxiety or depression. While the provided context does not detail the interaction of loneliness with specific protective factors, it establishes that perceived social support is generally associated with positive mental health outcomes.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does current financial instability (fincur) contribute to elevated screening risk, and what are evidence-based strategies for mitigating this specific stressor in a student population?",
+      "question_type": "xai_contributor_evidence",
+      "answer": "Financial instability, specifically related to financing studies, is identified as one of the numerous stressors experienced by university students during the transition to higher education. These stressors contribute to common and persistent mental health symptoms that negatively impact academic performance and overall well-being. While the provided evidence does not detail financial-specific mitigation strategies, general evidence-based approaches suggest implementing a comprehensive, whole-university mental health strategy. Such strategies include proactive screening to identify distress early, which allows for targeted prevention and early intervention measures. Furthermore, building perceived social support and teaching coping skills are suggested strategies that can help address student mental health needs before they escalate.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+      "question_type": "protective_factor",
+      "answer": "The provided evidence does not contain information regarding \"Flourishing\" scores or their specific clinical implications in mitigating elevated screening risk. However, the context does suggest that screening for both strengths and symptoms is warranted, noting that students who report average to high levels of well-being tend to experience better current and long-term outcomes, even when reporting psychological distress. Experts should be informed that identifying these strengths, alongside symptoms, allows for a comprehensive mental health strategy. This approach supports the implementation of targeted prevention and early intervention measures.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+      "question_type": "protective_factor",
+      "answer": "Evidence suggests that maintaining positive mental health, particularly through perceived social support, acts as a protective factor against various stressors. Specifically, positive social relationships can provide positive affect, a sense of predictability, and stability, which are posited to contribute to stress-buffering effects. Furthermore, research indicates that perceived social support has a protective effect on mental health outcomes, while loneliness is associated with physiological stress responses, such as increased HPA activation. Generally, students who report average to high levels of well-being experience better current and long-term outcomes, including academic success, regardless of the level of psychological distress they report.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the standardized, non-diagnostic communication guidelines for discussing 'elevated screening risk' with a student and an expert team, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "answer": "The provided evidence does not contain standardized, non-diagnostic communication guidelines for discussing elevated screening risk with a student or an expert team. However, the context does outline necessary procedural steps following the identification of risk. Specifically, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner. Furthermore, any student who may be a danger to self or others requires immediate further assessment to ensure safety.",
+      "error": null,
+      "n_contexts": 5,
+      "arm": "llm_plan",
+      "case_id": "hms_borderline_01"
+    }
+  },
+  "n_contexts": 5
+}

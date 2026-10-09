@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_06",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5006) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'near-threshold' score in an elevated depression/anxiety screening context?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "When a screening probability falls very close to the decision threshold (e.g., 0.5006 vs 0.5), the result is considered uncertain rather than definitive; it signals that the student may be at risk but does not confirm a disorder.  In such cases, school mental‑health protocols recommend a follow‑up assessment or placement in Tier 2 supports while monitoring for any escalation of symptoms (Context 2 and 3).  If the near‑threshold score is accompanied by indicators of self‑harm or other acute risk, an immediate safety evaluation should be conducted as outlined in Context 1.  The triage process described in Context 4 requires that all near‑threshold results be documented, reviewed by a screening team, and used to determine whether further assessment or referral to mental‑health services is warranted.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:26:32.149423+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific evidence regarding the relationship between reported loneliness and elevated screening risk for student depression/anxiety?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Recent cross‑sectional research shows that students who report higher scores on the UCLA 3‑item loneliness scale are more likely to screen positive for depressive symptoms (Cacioppo et al., 2006; Matthews et al., 2016). Lack of belonging has also been identified as a predictor of depressive symptom severity in young adults (Parr et al., 2020). National data link loneliness to broader mental‑health problems and can affect academic outcomes such as retention and completion rates (Bonsaksen et al., 2022; Zhai & Carney, 2024). Although the prevalence of loneliness has declined between 2022 and 2024 in the NCHA sample, a substantial proportion still report loneliness, which remains an important risk marker for depression and anxiety screening. Counselors should treat loneliness as a statistical contributor to elevated screening risk and refer students with persistent loneliness and depressive or anxious symptoms to qualified mental‑health services.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:28:06.957843+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do strong protective factors, such as current financial stability and regular exercise frequency, mitigate the risk associated with elevated screening scores in college students?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Evidence indicates that students who report higher overall well‑being—an umbrella that can include financial security and regular exercise—tend to achieve better academic outcomes even when they also endorse psychological distress (Context 2). Financial stability directly reduces basic needs insecurity, a factor strongly linked to both mental health challenges and academic persistence; thus stable finances likely buffer the adverse effects of elevated screening scores (Context 5). Regular physical activity is associated with achievement orientation and other motivational traits that may support resilience, suggesting exercise could mitigate risk by fostering adaptive coping mechanisms (Context 4). Together, these protective factors appear to attenuate the impact of distress on academic performance without diagnosing or prescribing treatment.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:29:23.293719+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the established academic guidelines regarding the impact of 'flourishing' and general positive mental health indicators on screening risk assessment?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "The retrieved sources focus exclusively on depression screening tools (PHQ‑9, PHQ‑2) and their psychometric properties in university populations; none of the passages discuss “flourishing” or other positive mental‑health indicators or how they influence risk assessment. Consequently, no established academic guidelines regarding the impact of flourishing on screening risk can be drawn from this evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:30:14.699903+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What types of follow-up assessments or psychoeducational resources are most appropriate for a student presenting with an elevated screening risk who also demonstrates strong protective factors?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "Use a defined triage process to determine whether the student requires Tier 2 or Tier 3 services, ensuring that any immediate risk of harm is addressed promptly (Context 1). If the student is safe, provide psychoeducational resources such as classroom‑wide coping‑skills training or resilience workshops, which have been shown to reduce anxiety and support well‑being (Context 2). Because the student demonstrates strong protective factors, pair a strengths‑based individual assessment with group interventions that address broader classroom dynamics identified by screening data (Context 3). Continue monitoring through brief check‑ins or short surveys so that any change in risk can be detected early and referrals made if needed (Context 1). These steps follow the National Center for School Mental Health’s guidance on early identification, prevention, and cost‑effective support (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:31:43.459920+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are best practices for communicating an elevated screening risk to a student in a non-diagnostic, supportive manner that avoids inducing undue anxiety?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When a student’s screen indicates elevated risk, frame the conversation as part of a routine, proactive support system rather than a diagnostic label—emphasizing that the goal is to identify strengths and needs early so challenges can be addressed before they worsen (Context 1 & 2). Use supportive, non‑pathologizing language: describe the result as an indicator that additional coping skills or tiered supports may help them feel more resilient. Offer concrete next steps—such as classroom coping‑skill lessons, a brief check‑in with a counselor, or access to school‑wide mental‑health resources—while respecting the student’s autonomy and providing clear contact information (Context 3). Keep the discussion concise and empathetic, reinforcing that screening is a normal part of wellness planning and not a judgment. If any immediate risk of harm is identified, follow the established urgent response protocol (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:32:47.465784+00:00"
+    }
+  }
+}

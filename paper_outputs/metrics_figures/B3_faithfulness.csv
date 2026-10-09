@@ -1,0 +1,10 @@
+model,base_auc,masked_top5_auc,auc_drop
+DCNv2,0.8499,0.6443,0.2056
+Random Forest,0.8486,0.6523,0.1963
+Extra Trees,0.8482,0.6602,0.188
+LightGBM,0.8525,0.674,0.1785
+XGBoost,0.8532,0.6834,0.1698
+CatBoost,0.852,0.6905,0.1615
+TabTransformer,0.8512,0.7179,0.1333
+Logistic Regression,0.8469,0.7206,0.1263
+FT-Transformer,0.8518,0.7263,0.1255

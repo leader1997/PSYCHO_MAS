@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_06",
+  "stratum": "borderline",
+  "qid": "Q3",
+  "question": "How do strong protective factors, such as current financial stability and regular exercise frequency, mitigate the risk associated with elevated screening scores in college students?",
+  "retrieval_query": "mitigating effect of financial security and physical activity on student mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:18.635596+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.8996,
+      "chunk_id": "DOC_F001_p2_c3",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "among persons with relatively low levels of social sup- port. Similarly, several prospective studies us- ing mental health outcome measures have shown a positive relation between social sup- port and mental health (Aneshensel & Frer- ichs, 1982; Billings & Moos, 1982; Henderson, Byrne, & Duncan-Jones, 1981; Holahan & Moos, 1981; Turner, 1981; Williams, Ware, & Donald, 1981). The mechanisms through which social sup- port is related to mental health outcomes and to serious physical illness outcomes, however, remain to be clarified. At a general level, it can be posited that a lack of positive social rela- tionships leads to negative psychological states such as anxiety or depression. In turn, these psychological states may ultimately influence physical health either through a direct effect on physiological processes that influence sus- ceptibility to disease or through behavioral patterns that increase risk for disease and mortality. In the following section, we outline how social support could be linked to health outcomes on a main effect basis and the mech- anism through which stress-buffering effects could occur. This framework is then used for reviewing literature on stress and support. Support as a Main Effect A generalized beneficial effect of social sup- port could occur because large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also"
+    },
+    {
+      "rank": 2,
+      "score": 0.849589,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups."
+    },
+    {
+      "rank": 3,
+      "score": 0.842238,
+      "chunk_id": "DOC_D003_p3_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "3 Americans are inundated with messages about success—in school, in a profession, in parenting, in relationships—without appreciating that successful performance rests on a foundation of mental health. United States Surgeon General’s Report on Mental Health, 1999 1. INTRODUCTION Among children and adolescents in the United States, mental disorders are estimated to account for a larger burden of disease, as measured in disability- adjusted life years (DALYs), than any ot her class of health conditions (Michaud et al., 2006). One of the primary concerns in younger populations is that mental health problems may affect human capital accumulation—in particular, the amount and productivity of schooling—whi ch may in turn have lifelong consequences for employment, income, and other outcomes. Understanding the link between mental health and academic success is therefore a crucial step towards assessing the returns to preventing, detecting, and trea ting mental health issues among young people. In this paper we analyze the conn ection between mental health and detailed measures of academic success during college. In the modern economy, college education has become an increa singly important component of human capital, and is associated with substantially higher earnings (Jaeger & Page, 1996; Kane & Rouse, 1995) and better health outcomes (Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have"
+    },
+    {
+      "rank": 4,
+      "score": 0.835659,
+      "chunk_id": "DOC_G004_p4_c2",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 4,
+      "category_code": "G_screening_communication",
+      "text": "Hagger, Chatzisarantis, & Biddle, 2002). Adolescents’ physical activity, for example, is more strongly related to personality traits such as achievement orientation and sensation-seeking than it is to specific beliefs about the behavior such as attitudes, outcome expectations, or perceived benefits of physical activity (Sallis, Prochaska, & Taylor, 2000; see Ulleberg & Rundmo, 2003, for similar patterns in the domain of adolescent risky driving behavior). Young adults typically have fewer health problems than their older counterparts, and unrealistic optimism about health risks (cf. Renner, Knoll, & Schwarzer, 2000; Weinstein, 1984). As such, young adults’ beliefs about their health status may be less"
+    },
+    {
+      "rank": 5,
+      "score": 0.834667,
+      "chunk_id": "DOC_E001_p7_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 7,
+      "category_code": "E_financial_food",
+      "text": "7 7 36% of students involved with the carceral system experience homelessness. 72% of former foster youth experience housing insecurity. 62% of students with disabilities experience basic needs insecurity related to food and/or housing—13 percentage points higher than students without disabilities (56%). The link between student basic needs security and persistence is unequivocal: 52% of Pell Grant recipients experience food insecurity—17 percentage points higher than non- Pell Grant recipients (35%). 79% of student respondents to our survey who had previously stopped out of college (and subsequently re-enrolled), or were considering stopping out of college, told us it was due to basic needs insecurity (emotional stress/ mental health, lacking money for living expenses, childcare/caregiver responsibilities, lack of transportation, lack of access to internet/technology) or financial reasons (cost of attendance/ insufficient financial aid, cost of textbooks or course materials, unexpected financial expense/emergency)."
+    }
+  ]
+}

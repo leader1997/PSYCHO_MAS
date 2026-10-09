@@ -1,0 +1,81 @@
+{
+  "case_id": "hms_low_02",
+  "model": "llama3",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:30:25.657286+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_02",
+    "risk_interpretation": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "Is the student's low screening risk a reliable indication of their mental health status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "high",
+        "rationale": "To ensure that the expert review is informed by accurate and reliable information."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role did 'Exercise frequency' play in predicting the student's low screening risk?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "medium",
+        "rationale": "To provide insight into the features that contributed to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How did 'Academic impairment' contribute to the student's low screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "medium",
+        "rationale": "To highlight the importance of protective factors in mental health."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should be taken into account when reviewing this student's case?",
+        "linked_xai_factor": null,
+        "retrieval_query": "",
+        "expected_evidence": [
+          "scientific knowledge database"
+        ],
+        "priority": "high",
+        "rationale": "To ensure that the expert review is informed by relevant and accurate information."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_low_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0505,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"Is the student's low screening risk a reliable indication of their mental health status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure that the expert review is informed by accurate and reliable information.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role did 'Exercise frequency' play in predicting the student's low screening risk?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide insight into the features that contributed to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How did 'Academic impairment' contribute to the student's low screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To highlight the importance of protective factors in mental health.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should be taken into account when reviewing this student's case?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"\",\n      \"expected_evidence\": [\"scientific knowledge database\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure that the expert review is informed by relevant and accurate information.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: Since the case is low risk, I generated questions that focus on safety communication, XAI contributor evidence, and expert support considerations."
+}

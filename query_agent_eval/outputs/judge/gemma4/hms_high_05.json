@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_05",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:28:19.137227+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant and well‑aligned with the case’s risk level. It covers the most significant XAI contributors (academic impairment, loneliness) and a key protective factor (belonging), though it omits some lower‑contribution features; overall alignment remains strong. All questions are answerable from scientific literature, clear, non‑redundant, and safe."
+}

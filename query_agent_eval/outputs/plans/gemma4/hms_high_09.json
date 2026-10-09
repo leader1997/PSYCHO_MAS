@@ -1,0 +1,112 @@
+{
+  "case_id": "hms_high_09",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:37:16.492301+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_09",
+    "risk_interpretation": {
+      "probability": 0.9709,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the elevated screening risk (0.97 probability), what immediate, non-diagnostic support considerations should be prioritized for expert review, focusing on resource linkage rather than clinical diagnosis?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for high-risk student mental health screening follow-up and resource referral",
+        "expected_evidence": [
+          "Tiered intervention models for elevated screening risk.",
+          "Recommended immediate support services (e.g., counseling intake, academic advising).",
+          "Guidelines for coordinating care between campus resources."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory high-risk question to guide actionable, non-diagnostic next steps for the expert report."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does academic impairment (aca_impa) specifically contribute to elevated screening risk, and what evidence-based strategies can be recommended to mitigate the impact of academic stress on student well-being?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment correlation with student mental health outcomes and mitigation strategies",
+        "expected_evidence": [
+          "Literature linking academic pressure/impairment to anxiety/depression symptoms.",
+          "Specific campus resources or interventions for academic support (e.g., tutoring, time management workshops)."
+        ],
+        "priority": "high",
+        "rationale": "Addresses the single strongest positive contributor (1.14) and requires actionable mitigation strategies."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the established links between food insecurity worry and elevated screening risk, and what types of psychoeducational or material support resources should be considered for expert review?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "impact of food insecurity on student mental health and available campus resource linkages",
+        "expected_evidence": [
+          "Evidence linking financial/nutritional stress to psychological distress.",
+          "Available campus resources for food assistance or financial counseling."
+        ],
+        "priority": "high",
+        "rationale": "Addresses a second major positive contributor (0.35) that points toward systemic, non-clinical needs."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How do protective factors such as campus belonging (belong2) and institution type contribute to resilience against elevated screening risk, and how can these strengths be leveraged in the support conversation?",
+        "linked_xai_factor": "belong2, inst_type",
+        "retrieval_query": "role of institutional belonging and environment in student mental health protective factors",
+        "expected_evidence": [
+          "Theoretical framework on resilience using campus resources.",
+          "Communication techniques for reinforcing existing strengths (e.g., 'I noticed you mentioned...')."
+        ],
+        "priority": "medium",
+        "rationale": "Crucial to balance the high risk by interpreting and leveraging protective factors."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations or scope boundaries of this screening model (CatBoost), particularly regarding specific student demographics or co-occurring conditions, to ensure appropriate communication with the expert?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and applicability domain of predictive mental health screening models",
+        "expected_evidence": [
+          "Model validation data regarding specific populations (e.g., international students, first-generation).",
+          "Guidelines on when model results should be considered preliminary or require clinical override."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to manage expectations and prevent over-reliance on the prediction score."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or expert, ensuring that it avoids implying a diagnosis or predicting future outcomes?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for mental health screening results",
+        "expected_evidence": [
+          "Approved scripts and phrasing for discussing risk scores.",
+          "Emphasis on 'screening' vs. 'diagnosis'."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety question to ensure ethical, non-diagnostic communication."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9709,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the elevated screening risk (0.97 probability), what immediate, non-diagnostic support considerations should be prioritized for expert review, focusing on resource linkage rather than clinical diagnosis?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for high-risk student mental health screening follow-up and resource referral\",\n      \"expected_evidence\": [\n        \"Tiered intervention models for elevated screening risk.\",\n        \"Recommended immediate support services (e.g., counseling intake, academic advising).\",\n        \"Guidelines for coordinating care between campus resources.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory high-risk question to guide actionable, non-diagnostic next steps for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does academic impairment (aca_impa) specifically contribute to elevated screening risk, and what evidence-based strategies can be recommended to mitigate the impact of academic stress on student well-being?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment correlation with student mental health outcomes and mitigation strategies\",\n      \"expected_evidence\": [\n        \"Literature linking academic pressure/impairment to anxiety/depression symptoms.\",\n        \"Specific campus resources or interventions for academic support (e.g., tutoring, time management workshops).\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses the single strongest positive contributor (1.14) and requires actionable mitigation strategies.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the established links between food insecurity worry and elevated screening risk, and what types of psychoeducational or material support resources should be considered for expert review?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"impact of food insecurity on student mental health and available campus resource linkages\",\n      \"expected_evidence\": [\n        \"Evidence linking financial/nutritional stress to psychological distress.\",\n        \"Available campus resources for food assistance or financial counseling.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Addresses a second major positive contributor (0.35) that points toward systemic, non-clinical needs.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do protective factors such as campus belonging (belong2) and institution type contribute to resilience against elevated screening risk, and how can these strengths be leveraged in the support conversation?\",\n      \"linked_xai_factor\": \"belong2, inst_type\",\n      \"retrieval_query\": \"role of institutional belonging and environment in student mental health protective factors\",\n      \"expected_evidence\": [\n        \"Theoretical framework on resilience using campus resources.\",\n        \"Communication techniques for reinforcing existing strengths (e.g., 'I noticed you mentioned...').\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Crucial to balance the high risk by interpreting and leveraging protective factors.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations or scope boundaries of this screening model (CatBoost), particularly regarding specific student demographics or co-occurring conditions, to ensure appropriate communication with the expert?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and applicability domain of predictive mental health screening models\",\n      \"expected_evidence\": [\n        \"Model validation data regarding specific populations (e.g., international students, first-generation).\",\n        \"Guidelines on when model results should be considered preliminary or require clinical override.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to manage expectations and prevent over-reliance on the prediction score.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the standardized, non-diagnostic language required when communicating elevated screening risk to a student or expert, ensuring that it avoids implying a diagnosis or predicting future outcomes?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for mental health screening results\",\n      \"expected_evidence\": [\n        \"Approved scripts and phrasing for discussing risk scores.\",\n        \"Emphasis on 'screening' vs. 'diagnosis'.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety question to ensure ethical, non-diagnostic communication.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

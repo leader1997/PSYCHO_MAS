@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_03",
+  "stratum": "borderline",
+  "qid": "Q7",
+  "question": "What are the mandatory safety guidelines and non-diagnostic communication scripts that must be used when discussing elevated screening risk with a student, ensuring appropriate referral pathways?",
+  "retrieval_query": "non-diagnostic communication protocols for high anxiety screening risk",
+  "question_type": "safety_communication",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:42:45.677413+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.891913,
+      "chunk_id": "DOC_B002_p2_c1",
+      "doc_id": "DOC_B002",
+      "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "Introduction Mental health disorders typically emerge in early adulthood (De Lijster et al., 2016) and rates can be especially high in college students (Eisenberg et al., 2013). A survey of 571 college campus counseling centers found that anxiety was the number one reason that students sought counseling (LiViness et al., 2017). Anxiety disorders are the most common mental health conditions reported among college students at 11.9% (Pedrelli et. al, 2015). Many college students likely experience inflated rates of anxiety, related to multiple aspects of collegiate life, such as increased responsibility, financial concerns, academic performance, and acceptance to graduate programs, with rates of anxiety and other disorders (e.g., depression) varying across discipline and class rank (Bieter et al., 2015; Lipson et al., 2016). Identifying students’ mental health disorders can result in earlier intervention and improve their chances of degree completion (Hunt et al., 2010). For students with anxiety, using a self-report questionnaire may be the first step in identifying a problem and encouraging them to seek treatment. Self-report questionnaires allow for both professionals and nonprofessionals to identify a probable disorder and assess the severity of symptoms. Ideally, such questionnaires are brief, accurate, and easy to administer. Many are available online and can be done quickly, privately, and remotely. The GAD-7 is a seven-item questionnaire used as a screening tool for generalized anxiety disorder (GAD) and as a measure for anxiety symptom severity. The GAD-7 began as an anxiety screener for primary care but can be used to measure anxiety symptoms in a variety of individuals including inpatient psychiatric patients (Johnson et"
+    },
+    {
+      "rank": 2,
+      "score": 0.866075,
+      "chunk_id": "DOC_B003_p2_c2",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "suffered from symptoms of moderate to severe GAD, a rate which is higher than those reported in the studies conducted on general people [14, 15]. Univer- sity students go through significant changes in their emotional (e.g., loneliness, personal auton- omy) and physical environment (e.g., transition from college to university) [16]. They also deal with the pressure of competition for good grades, carefully plan for future career, participate in extracurricular activities and are more involved in family matters as an adult [17]. Therefore, it is not unexpected for students to be more vulnerable to symptoms of anxiety disorders. Despite high prevalence and potentially severe consequences including decreased quality of life, multiple somatic complaints, maladaptive personality traits, and increased mortality due to suicide, cardiovascular, and cerebrovascular causes, GAD has been largely ignored as a men- tal health condition [18–21]. One important barrier to effective treatment has been inaccurate or no assessment. People who suffer from anxiety disorders are often under-diagnosed and/or treated inadequately [17]. To overcome the hurdles, there is a need for a reliable, valid, and rel- atively brief screening tool for anxiety disorders, particularly for university students. The seven-item Generalized Anxiety Disorder scale (GAD-7) was developed with the purpose of screening for, and assessing the severity of GAD symptoms in both clinical and research con- texts [22]. Conducted on a large primary care sample, the first validation study of GAD-7 found good reliability, as well as criterion, construct, factorial, and procedural validity. Subse- quently, the psychometric properties of GAD-7 have been evaluated in different sample of patients, including other primary"
+    },
+    {
+      "rank": 3,
+      "score": 0.839015,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?"
+    },
+    {
+      "rank": 4,
+      "score": 0.813043,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    },
+    {
+      "rank": 5,
+      "score": 0.809533,
+      "chunk_id": "DOC_G004_p5_c1",
+      "doc_id": "DOC_G004",
+      "title": "[PDF] Message Framing for Health: Moderation by Perceived Susceptibility",
+      "page": 5,
+      "category_code": "G_screening_communication",
+      "text": "MESSAGE FRAMING FOR HEALTH 5 dominant in shaping their responses to health communications than their dispositional motivations. Perceived Susceptibility Perceived susceptibility is another key moderator of people’s responses to framed health messages. When people perceive themselves as susceptible to a health condition, they may be especially vigilant against possibility of negative health outcomes; in regulatory focus terms, they are prevention-focused concerning the health issue. In contrast, when people perceive low susceptibility to a health condition, they may be especially eager to achieve and maintain positive outcomes; they are promotion-focused concerning the health issue. This regulatory focus-based account (cf. Lee & Aaker, 2004) predicts that gain-framed messages should be more effective for those who perceive low susceptibility to a health problem, but loss-framed messages should be more effective for those who perceive high susceptibility. In a study that manipulated young adults’ perceptions of risk for mononucleosis, Lee and Aaker (2004) found that a gain-framed message promoted more interest in a preventive supplement against mononucleosis than a loss-framed message among people told that they were at low risk; in contrast, a loss-framed message promoted more interest for those told that they were at high risk. Naturally occurring beliefs about susceptibility likewise moderate message framing effects, as shown in studies of middle-to-older-aged women considering mammography screening (Gallagher, Updegraff, Rothman, & Sims, 2011), middle-aged adults considering colorectal cancer screening (Ferrer, Klein, Zajac, Land, & Ling, 2012), and young adults considering HIV-testing (Hull, 2012). Hull (2012) also showed that perceived susceptibility interacted with message framing to increase participants’ elaboration of the message, which mediated the"
+    }
+  ]
+}

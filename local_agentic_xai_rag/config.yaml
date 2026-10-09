@@ -1,0 +1,38 @@
+project:
+  name: local_agentic_xai_rag
+  random_seed: 42
+
+# Shared Phase 2 assets (no data duplication)
+phase2_root: "../explainability_augmented_rag"
+
+paths:
+  processed_chunks_csv: "${phase2_root}/data/processed_chunks.csv"
+  xai_cards_jsonl: "${phase2_root}/xai/xai_cards.jsonl"
+  case_profiles: "${phase2_root}/data/case_profiles.json"
+  benchmark_gold_csv: "${phase2_root}/data/rag_benchmark_100_questions.csv"
+  benchmark_advisory_xlsx: "${phase2_root}/data/agentic_xai_rag_100q_benchmark.xlsx"
+  faiss_index: "data/faiss_llama3"
+  results_dir: "results"
+  figures_dir: "figures"
+  paper_outputs: "paper_outputs"
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "llama3"  # ONLY model: generation, structured JSON, embeddings, verification
+
+retrieval:
+  default: "hybrid"  # bm25 + llama3 dense; set bm25_only: true to skip embed index build
+  bm25_only: false
+  top_k: 8
+  rrf_k: 60
+  embed_batch_size: 32
+
+safety:
+  mandatory_disclaimer: "This is a model-based screening signal and not a clinical diagnosis."
+  elevated_risk_referral: "Consider speaking with a qualified counselor, mental-health professional, or student support service."
+
+pipeline:
+  max_revision_attempts: 1
+  use_query_planning_agent: true
+  risk_threshold: 0.5
+  near_threshold_band: 0.1

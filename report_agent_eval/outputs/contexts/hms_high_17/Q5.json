@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_17",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "In the context of loneliness (lonely), what are evidence-based community or peer support strategies that can be recommended to improve social connection and reduce screening risk?",
+  "retrieval_query": "intervention for student loneliness improving social connection mental health",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:47:45.531661+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.968597,
+      "chunk_id": "DOC_C003_p2_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "2 INTRODUCTION Following the peak of the COVID-19 pandemic, former Surgeon General Vivek Murthy declared loneliness as a public health issue due to its association with mental and physical well-being (US HHS, 2023). Research studies consistently show that young adults report the highest rates of loneliness across the population (Ellard et al., 2022). Loneliness is described as a personal feeling of insufficient close connections in social relationships or having fewer social interactions than one wishes, regardless of the actual level of social engagement one has (Ellard et al., 2023; Yang, 2019). It should therefore be understood as a subjective experience that is not entirely dependent on the number of social interactions. Loneliness has widespread effects on mental health and well-being, and is associated with heart disease and premature death (US HHS, 2023). This report summarizes findings about student loneliness from research studies conducted at The Ohio State University. HIGHLIGHTS • Nationally, the prevalence of loneliness in students is on the decline (p < .001). • At Ohio State, the proportion of students categorized as lonely has significantly declined over time, with 53.2% of students categorized as lonely in 2022 and 43.2% of students categorized as lonely in 2025. • At Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive"
+    },
+    {
+      "rank": 2,
+      "score": 0.959422,
+      "chunk_id": "DOC_F003_p3_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 3,
+      "category_code": "F_sleep_wellbeing",
+      "text": "1050 Dutcher et al. opportunities for socialization and growth. Understand- ing the factors that lead to depression in students would help identify targets of intervention. Furthermore, using experience sampling in daily life allows for earlier detection of risk and thus could lead to earlier imple- mentation of interventions to help students thrive on campus. Social factors emerge as a possible target of interven- tion because of their relationship with a variety of men- tal health and success outcomes. However, greater work needs to be done to determine whether loneliness inter- ventions are effective or that interventions can increase social contact among young adults (Masi et al., 2011). However, there are effective interventions for belonging in this developmental context (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011), suggesting that probing the relationship between feelings of belonging and depression could yield insight for effec- tive future interventions. Importantly, belonging is not the same as feeling like one is socially connected or supported by other people. Theories on belonging note that belonging is about not just having close relation- ships but rather whether someone feels as if they belong in a certain social context (Walton & Brady, 2017). Although close relationships can be a source of belonging in a context (Shook & Clay, 2012), individu- als’ subjective feelings of belonging may not always overlap with their feelings of social connection. Because belonging appears to be a unique facet of social life, it is important to examine the unique contributions that feelings of belonging have to mental health beyond"
+    },
+    {
+      "rank": 3,
+      "score": 0.902338,
+      "chunk_id": "DOC_C003_p2_c2",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "Ohio State, feelings of loneliness at the beginning of a first-year student's first semester significantly predicts feelings of loneliness later in the semester. • During a first-year student’s first semester at Ohio State, strong start-of-semester feelings of community predicted less loneliness mid-semester (p < .05). • Between 2022 and 2025, significantly more students agreed that their social relationships are supportive and rewarding. FINDINGS This report begins by explaining the state of current research in student loneliness in higher education and includes trend data on student loneliness in higher education broadly. The report then displays findings on student loneliness from three different research studies conducted at Ohio State and concludes by exploring how to address student loneliness. General Research on Loneliness in Higher Education College students are in a unique stage of life and encounter factors that contribute to loneliness as they join new social circles (Asher & Weeks, 2014; Eccles & Roeser, 2003; Renn & Arnold, 2003), experience increased academic stress (Jenkins et al., 2013) and engage in discourse about different ideas (Baxter Magolda, 2008). Although some degree of *p < .05, **p < .01, ***p < .001"
+    },
+    {
+      "rank": 4,
+      "score": 0.895831,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 5,
+      "score": 0.888142,
+      "chunk_id": "DOC_C003_p3_c1",
+      "doc_id": "DOC_C003",
+      "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+      "page": 3,
+      "category_code": "C_loneliness_isolation",
+      "text": "3 loneliness is expected during these transitions, national studies indicate that loneliness among college students is widespread and associated with various physical and mental health issues (Bonsaksen et al., 2022), which can affect retention and completion rates (Zhai & Carney, 2024). Findings from the National College Health Assessment Loneliness continues to be an important focus for higher education leaders and practitioners, and monitoring loneliness rates provides important context. The National College Health Assessment provides multi-institutional data on college student loneliness. The American College Health Association (ACHA) conducts the NCHA annually and uses the UCLA 3-item loneliness scale to assess student loneliness (Hughes et al., 2004). The scale is comprised of three questions with the responses “hardly ever”, “some of the time” and “often”. These three options are worth 1, 2 and 3 points, respectively. The scores for each question are added together to create a total score from 3 to 9. Those with a score of six or greater are categorized as “lonely.” Loneliness in the National NCHA Sample Recent data from the national sample of university students taking the National College Health Assessment (NCHA) shows that the percentage of students reporting loneliness nationally has significantly decreased between 2022 and 2024. Table 1 shows differences in loneliness over time in the national NCHA sample between 2022 and 2024 (ACHA, 2022; ACHA, 2024). In 2024, approximately 75% of participating institutions were public universities and 94% of institutions were 4-year universities. The NCHA began including the loneliness scale after the onset of the COVID -19 pandemic. Table 1. NCHA National reference group"
+    }
+  ]
+}

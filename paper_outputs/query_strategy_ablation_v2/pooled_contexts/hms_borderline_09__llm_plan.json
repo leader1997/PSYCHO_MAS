@@ -1,0 +1,69 @@
+{
+  "case_id": "hms_borderline_09",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 0.981738,
+      "chunk_id": "DOC_H002_p2_c5",
+      "doc_id": "DOC_H002",
+      "title": "On Calibration of Modern Neural Networks",
+      "page": 2,
+      "category_code": "H_xai_calibration",
+      "text": "comprehensive, previous works have proposed variants, each with a unique emphasis. One notion of miscalibration is the difference in expectation between conﬁdence and accuracy, i.e. E ˆP [⏐⏐⏐P ( ˆY =Y | ˆP =p ) −p ⏐⏐⏐ ] (2) Expected Calibration Error (Naeini et al., 2015) – or ECE – approximates (2) by partitioning predictions into M equally-spaced bins (similar to the reliability diagrams) and",
+      "query_qid": "Q2",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 0.945123,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in",
+      "query_qid": "Q5",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 0.944703,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further",
+      "query_qid": "Q3",
+      "pool_rank": 3
+    },
+    {
+      "rank": 2,
+      "score": 0.930772,
+      "chunk_id": "DOC_C001_p2_c3",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further lead to deleterious health outcomes ( 14). Loneliness is suggested to be a precursor of depression ( 15, 16). In addition, research evidence also suggested perceived soc ial support could reduce the feeling of loneliness experienced by adolescents ( 17). Moreover, in a recent study conducted by Liang et al. ( 18), loneliness partially mediated the association between perceived social support and depressive symptoms among Chinese rural-to-urban migrants. Therefore, we expect ed that loneliness was not only directly associated with symptoms of depression, but also played a mediation role in the association between social support and depressive symptoms among rural adolescents. Although perceived social support could inﬂuence loneliness among adolescents, not all adolescents with lower levels of perceived social support report higher levels of loneliness. Therefore, it is of great importance to explore the inﬂuential factor that might moderate the relationship between social support and loneliness. Over the last three decades, the rapid urbanization of China has led to a large scale of domestic migration ( 19). Due to the fast development of public transportation systems, rural migrant workers could move fro m rural to urban areas at relatively low cost and easily stay connected with their sending societies (",
+      "query_qid": "Q3",
+      "pool_rank": 4
+    },
+    {
+      "rank": 2,
+      "score": 0.925304,
+      "chunk_id": "DOC_E002_p2_c1",
+      "doc_id": "DOC_E002",
+      "title": "The impact of material hardship severity and frequency on health",
+      "page": 2,
+      "category_code": "E_financial_food",
+      "text": "PLOS One | https://doi.org/10.1371/journal.pone.0335790 October 30, 2025 2 / 16 directly, rather than relying on traditional measures of household income or poverty rates, which are often not fully reflective of lived experience. Material hardship matters not only as an indicator of economic disadvantage, but also as a determinant of health. A growing body of research links hardship to higher rates of adverse mental and physical health consequences, especially among vulner- able populations. Studies of families and their children [2–4], young and working-age adults [5,6], and the elderly [7] have found a consistent association between facing one or more material hardships and health outcomes, such as depression, stress, trouble sleeping, and suicidal thoughts. While the mental health effects appear to be relatively consistent across hardship indicators, e.g., all contribute to issues like anxiety and depression, the physical health effects may be more specific. Evidence shows, for example, chronic food inse- curity contributes to issues of diabetes and hypertension [8], while energy insecurity exposes households to environmental toxins and indoor pollution [9], and health insecurity can exacerbate the physical health conditions an individual already experi- ences due to delayed or avoided care [10]. While the prevalence of material hardship is well studied, the consequences to health are less comprehensively understood. Much of the extant literature relies on cross-sectional data, limited sample sizes, and/or individual hardships in isolation. Further, little existing research on the relationship between material hardship and health examines hardships comparatively within models (e.g., the relative effect of food versus housing hardship on mental health) or between models (e.g., the relative",
+      "query_qid": "Q5",
+      "pool_rank": 5
+    }
+  ]
+}

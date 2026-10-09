@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_02",
+  "stratum": "high",
+  "qid": "Q6",
+  "question": "What are the known limitations or scope restrictions of using ML models like CatBoost for screening student mental health, especially regarding cultural variability or comorbidity?",
+  "retrieval_query": "limitations and generalizability of AI screening tools in academic settings",
+  "question_type": "uncertainty_limitation",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:36.165116+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.835373,
+      "chunk_id": "DOC_B007_p2_c3",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have used IRT models to assess the psychometric properties of the PHQ -9 and only one in college students (37,42-68). Given the high prevalence of depression among college students (69,70) it is important to evaluate the validity and utility of the PHQ -9 in this population. The appropriate detection and management of depression in health science students could translate into significant potential benefits if the psychometric properties of screening instruments such as the PHQ-9 are optimized (71,72). Therefore, this study aimed to evaluate the psychometrics of the Colombian version of the PHQ-9 adapted for university students using IRT models and to assess possible item biases as a function of gender. METHODOLOGY Population and sample This cross-sectional observational study evaluated the psychometric performance of the PHQ -9. Stratified random sampling was applied according to academic program, semester, and sex, where each stratum had several subjects proportional to its size. The participants were health science students from the University of Cartagena (Colombia). A non-probabilistic sample size of 550 participants was considered good for confirmatory factor analysis (73). Of these 550 subjects, 9 were excluded because of a significant number of failed responses. Procedures and instruments All the participants were informed of the research"
+    },
+    {
+      "rank": 2,
+      "score": 0.799746,
+      "chunk_id": "DOC_A007_p6_c1",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "6 9 Include students and families in informing the screening, planning, and implementation process. 9 Use a selection process for a screening tool that considers reliability, feasibility, cost, and fit with the goals of screening. 9 Share information about screening in multiple formats prior to implementation. 9 Inform students and families about screening procedures in advance and offer the opportunity to consent or opt out. 9 Roll out initial screening efforts gradually to ensure the effectiveness of all processes before scaling up. 9 Respond to risk of harm to self and others immediately. 9 Have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports. Indicate the number of students: • enrolled in school. • formally screened in the absence of known risk factors. • identified as being at-risk or already experiencing a mental health problem. • referred to a mental health services following identification. Document how many students were screened for each specific screening area: depression, suicidality, substance use, trauma, and other mental health concerns (e.g., ADHD, conduct, life satisfaction, academic engagement). Tips Start small: Many schools and districts have found that piloting screening procedures with small groups of students is helpful to best understand and adapt screening procedures. Starting small and scaling up to the entire student population in a gradual way allows school and district teams to make course corrections and build on successes. For example, many school district leaders have pointed to the usefulness of piloting a screener with a few"
+    },
+    {
+      "rank": 3,
+      "score": 0.797929,
+      "chunk_id": "DOC_I006_p2_c1",
+      "doc_id": "DOC_I006",
+      "title": "Holistic Evaluation of Language Models (HELM)",
+      "page": 2,
+      "category_code": "I_rag_llm_eval",
+      "text": "Published in Transactions on Machine Learning Research (08/2023) Figure 1: Language model. A language model takes text (a prompt) and generates text (a completion) probabilistically. Despite their simple interface, language models can be adapted to a wide range of language tasks from question answering to summarization. 1 Introduction Benchmarks orient AI. They encode values and priorities (Ethayarajh & Jurafsky, 2020; Birhane et al., 2022) that specify directions for the AI community to improve upon (Spärck Jones & Galliers, 1995; Spärck Jones, 2005; Kiela et al., 2021; Bowman & Dahl, 2021; Raji et al., 2021). When implemented and interpreted appropriately, they enable the broader community to better understand AI technology and influence its trajectory. In recent years, the AI technology that has arguably advanced the most is foundation models (Bommasani et al., 2021), headlined by the rise of language models (LMs; Peters et al., 2018; Devlin et al., 2019; Brown et al., 2020; Rae et al., 2021; Chowdhery et al., 2022). At its core, a language model is a box that takes in text and generates text (Figure 1). Despite their simplicity, when these models are trained on broad data at immense scale, they can be adapted (e.g. prompted or fine-tuned) to myriad downstream scenarios. Yet the immense surface of model capabilities, limitations, and risks remains poorly understood. The rapid development, rising impact, and inadequate understanding demand that we benchmark language models holistically. But what does it mean to benchmark language models holistically? Language models are general-purpose text interfaces that could be applied across a vast expanse of scenarios. And for"
+    },
+    {
+      "rank": 4,
+      "score": 0.790481,
+      "chunk_id": "DOC_B007_p2_c2",
+      "doc_id": "DOC_B007",
+      "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "reviews on the PHQ-9 published to date, approxi mately 800 articles evaluated the psychometric properties of the PHQ -9 using the CTT model (4,5,8,21-29). CTT -based techniques could provide inaccurate diagnoses and do not consider the heterogeneity in each specific item (30, 31). Currently, these CCT-based methods are being complemented and, in some cases, replaced by item response theory (IRT) approaches, considered by many researchers to be the \"measurement paradigm of the 21st century\" (19, 32 -35). IRT -based models offer several advantages over CTT and are considered the most appropriate and robust methods for assessing the psychometric properties of screening scales such as the PHQ-9 (36,37). The idea of IRT is that test -response behavior (i.e., solving an item or choosing a specific category) can be explained by underlying person parameters (latent ability or trait) and item parameters (difficulty) (34). The relationship between the latent trait and probability of response to a given item can be expressed by different estimation models for both dichotomous and polytomous items (32,38). This approach estimates item and person parameters from the obtained data and is considered independent of the sample and test (39). In addition, IRT-based models provide a richer description of the performance of each item, greater detail on the accuracy of a measure, and when assumptions are met, scores are item - independent and invariant across different samples (33,34,40,41). Consequently, the use of IRT models may increase the validity and utility of depression screening when the PHQ-9 is used in culturally diverse settings (42,43). To date, only 30 published studies have"
+    },
+    {
+      "rank": 5,
+      "score": 0.76096,
+      "chunk_id": "DOC_I006_p3_c2",
+      "doc_id": "DOC_I006",
+      "title": "Holistic Evaluation of Language Models (HELM)",
+      "page": 3,
+      "category_code": "I_rag_llm_eval",
+      "text": "ofscenarios and metrics to define the design space for language model evaluation and (ii) a concrete set of implemented scenarios and metrics that were selected to prioritize coverage (e.g. different English varieties), value (e.g. user-facing applications), and feasibility (e.g. limited engineering resources). Recognition of incompleteness. Benchmarks across AI, including those for language models like Su- perGLUE (Wang et al., 2019a), the EleutherAI LM Harness (Gao et al., 2021b), and BIG-bench (Srivastava et al., 2022), are defined by specific choices of scenarios and metrics. Different benchmarks make different decisions on what to prioritize, how to make these decisions, and to what extent these processes are made clear in presenting the benchmark. Since our aim is holistic evaluation, we believe it is necessary to be explicit on the relationship between what we aspire to evaluate and what we actually evaluate. The construction of HELM starts top-down with a taxonomy over scenarios and metrics (see Figure 2). The taxonomy not only facilitates the systematic selection of scenarios and metrics, but it also make explicit what is missing. We view HELM as a living benchmark, and we hope that both the abstract taxonomy and the concrete selection of scenarios and metrics will evolve according to the technology, applications, and social concerns. In §10: missing, we explicitly highlight evaluations HELM lacks that should be prioritized. Often these are ones the entire AI field has historically neglected. Multi-metric measurement. HELM currently implements a core3 set of 16 scenarios and 7 (categories of) metrics. Our scenarios, which are triples of (task, domain, language), span 6 user-facing tasks"
+    }
+  ]
+}

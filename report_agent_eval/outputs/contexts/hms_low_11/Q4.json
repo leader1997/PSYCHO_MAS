@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_11",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "What is the scientific literature on how 'Exercise frequency' (exerc) contributes positively to screening risk, and what are best practices for discussing this feature when it represents a minor risk factor?",
+  "retrieval_query": "relationship between exercise frequency and depression/anxiety screening model contribution.",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:50:28.172873+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.997534,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 2,
+      "score": 0.900448,
+      "chunk_id": "DOC_D003_p4_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with lower GPA. This study is best characterized as a detailed descriptive analysis of the association between mental health and academic outcomes in college, rather than a causal analysis. In the final section of the paper we illustrate that, if the estimates were assumed to be reasonable approximations of causal relationships, then they would imply sizeable economic returns, relative to the likely costs, from programs to increase the detection and treatment of depression among college students. This exercise underscores th e policy relevance of acquiring more definitive knowledge about the causal effect of mental health on college success, which will likely require a randomized tria l of mental health treatment that collects detailed academic outcomes. 2. CONCEPTUAL FRAMEWORK AND RELATED LITERATURE CONCEPTUAL FRAMEWORK Mental health may affect college students’ academic outcomes along two margins: 1) the decision to remain in school; 2) productivit y, or performance,"
+    },
+    {
+      "rank": 3,
+      "score": 0.88855,
+      "chunk_id": "DOC_B002_p2_c2",
+      "doc_id": "DOC_B002",
+      "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "can be done quickly, privately, and remotely. The GAD-7 is a seven-item questionnaire used as a screening tool for generalized anxiety disorder (GAD) and as a measure for anxiety symptom severity. The GAD-7 began as an anxiety screener for primary care but can be used to measure anxiety symptoms in a variety of individuals including inpatient psychiatric patients (Johnson et al., 2019; Beard & Bjorgvinsson, 2014), infertility patients (Omani-Samani et al., 2018), Veterans (Shepardson et al., 2019), college students (Fu et al., 2020; Byrd-Bredbenner et al., 2020), and the general population (Lowe et al., 2008). Prior psychometric research has shown the GAD-7 to have excellent internal consistency (α=0.92), good test-retest reliability (r=0.83), construct validity, and good sensitivity/specificity when detecting GAD (Spitzer, 2006). The GAD-7 was developed to produce a single score, aligning with a one-factor model, but a two-factor model has also been proposed (Kertz et al., 2012). The one-factor model involves all seven items loading onto a single factor of generalized anxiety, whereas the two-factor model splits anxiety symptoms into two correlated constructs: cognitive-emotional (e.g., nervousness, worry, and fear) and somatic tension (i.e., e.g., restlessness and irritability). Psychometric evidence within a specific population of interest (e.g., college students) represents an important contribution of psychological science to assessment practice. When clinicians and researchers appreciate the reliability and validity of a test score within a specific population, they have a stronger empirical foundation to support the use of a psychological test or questionnaire with an individual from that population. Whereas some studies, such as those in Korea (Lee & Kim, 2019),"
+    },
+    {
+      "rank": 4,
+      "score": 0.880615,
+      "chunk_id": "DOC_A001_p5_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 5,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 5 The Importance of Screening and Early Identification of Depression in College Students In the United States, more than 33.3% of first-year college students reported symptoms that are consistent with a diagnosable mental health disorder, according to the American Psychological Association (Auerbach et al., 2018). Mental health problems among college students have consistently increased over time and it poses a threat to their health and academic performance (Lipson, Lattie, & Eisenberg, 2019). Identification of mental health disorders among college students have been overlooked. Depression is the second most common mental health disorder among college students in the United States (Oswalt et al., 2018). College students are a key population for determining the economic growth and success of the nation. Thus, primary healthcare providers are the front line to early screening and identification of depression amongst college students. Problem Statement The prevalence of depression has risen in the college population in the past decade. There is an estimation of 33.3% of college students exhibiting significant symptoms of depression, generalized anxiety disorder, or suicide ideation (Oswalt et al., 2018). Depression is one of the most common mental health conditions among college students. In the United States, approximately 26% of individuals ages 18 and older live with a diagnosable mental health disorder in a given year (Oswalt et al., 2018). College students with depression can experience a decrease in physical health, negatively impact mental health, hinder relationships, impede academic endeavors, and decrease quality of life (Pedrelli, Nyer, Yeung, Zulauf, & Wilens, 2015). Without proper management and treatment of"
+    },
+    {
+      "rank": 5,
+      "score": 0.878032,
+      "chunk_id": "DOC_F003_p1_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "across the academic term predicted higher depressive symptoms at the end of the term. Furthermore, these relationships held when models controlled for baseline depressive symptoms, sense of social fit, and other social factors (loneliness and frequency of social interactions). These results highlight the relationship between feelings of belonging and depressive symptoms over and above other social factors. This work underscores the importance of daily-assessed feelings of belonging in predicting subsequent depressive symptoms and has implications for early detection and mental health interventions among young adults. Keywords depression, social behavior, preregistered Received 5/28/21; Revision accepted 12/12/21"
+    }
+  ]
+}

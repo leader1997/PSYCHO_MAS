@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_17",
+  "stratum": "low",
+  "qid": "Q3",
+  "question": "How should the high contribution of Flourishing (flourish) and Age be leveraged in the expert report to support considerations for expert review, emphasizing resilience?",
+  "retrieval_query": "interpreting flourishing scores as protective factors against depression anxiety screening risk",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:51:39.418714+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.878476,
+      "chunk_id": "DOC_B003_p3_c1",
+      "doc_id": "DOC_B003",
+      "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+      "page": 3,
+      "category_code": "B_college_depression_anxiety",
+      "text": "indicated a two-dimensional factor structure [25, 27]. Given the lack of consensus regarding the factor structure of GAD-7 in different contexts, a comprehensive validation study for Ban- gladeshi university students may be beneficial for an easy and cost-effective screening of anxi- ety disorders in this population. Against this backdrop, we conducted this study with the objective of investigating the reli- ability and factorial validity of GAD-7 in the context of university students in Bangladesh. To this effect, the research mainly aimed to assess whether the original one-dimensional model or a model containing both somatic and cognitive-emotional factors is appropriate for both public and private university students. We further examined the convergent validity of GAD-7 with other relevant measures of mental health conditions, namely Patient Health Questionnaire-9 (PHQ-9) and Patient Health Questionnaire Anxiety-Depression Scale (PHQ-ADS). Finally, we examined the mean GAD-7 score of the students across different demographic and socioeco- nomic correlates. We expect that the study will contribute to the growing body of literature per- taining to validation studies assessing symptoms of anxiety disorders in university students. Methods Procedure and sampling A repeated cross-sectional survey design was used to collect responses among the university students of Bangladesh. Data was collected in two waves: July 18-July 31, 2020 and February 10-February 22, 2021; the survey Administration software Google Form [48]. Snowball sam- pling strategy was utilized to capture both public and private university students. To be eligible for the study, the participants had to meet the following criteria: (a) be willing to participate in the study; (b) be enrolled in any"
+    },
+    {
+      "rank": 2,
+      "score": 0.863631,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 3,
+      "score": 0.853534,
+      "chunk_id": "DOC_A001_p6_c1",
+      "doc_id": "DOC_A001",
+      "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "DEPRESSION SCREENING IN COLLEGE STUDENTS 6 injury, and possibly suicide (Pedrelli el al., 2015). Mental illnesses such as depression has been associated with significant morbidity, mortality, disability, and increased risk of suicide (Khubchandani, Brey, Kotecki, Kleinfelder, & Anderson, 2016). Efforts to increase awareness and screening of depression among college students should be a priority. Local Problem An identified public college health center had a complaint-based approach to depression screening. A complaint-based approach screens for depression if a patient presented with depression-related symptoms. Patients may mask their depressive symptoms and suicidal intent by complaining of other health issues. Patients may report somatic symptoms in an attempt to avoid mental health stigma. Thus, the complaint-based approach may under-detect and under- treat depression. The Patient Health Questionnaire-2 (PHQ-2) could be utilized as a first step approach to screen college students for depression during every visit at the college health center. The PHQ-2 has two questions and can easily be administered by healthcare providers at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services at the identified public college. The counseling center at the identified public college provides an array of mental health services that could be beneficial for college students who are experiencing depression, but college students should first be screened and identified. Clinical Question In college-aged students (P), how does screening for depression with the Patient Health Questionnaire-2 (PHQ-2) (I) compared to current practice (C) affect early identification of depression (O)?"
+    },
+    {
+      "rank": 4,
+      "score": 0.851005,
+      "chunk_id": "DOC_A003_p6_c1",
+      "doc_id": "DOC_A003",
+      "title": "[PDF] The Prevalence of Depression, Anxiety, and Stress and Their",
+      "page": 6,
+      "category_code": "A_student_mental_health",
+      "text": "v Table of Contents Dedication ......................................................................................................................... ii Acknowledgments .......................................................................................................... iii Abstract ............................................................................................................................ iv List of abbreviation and acronyms ................................................................................ ix Introduction ...................................................................................................................... 2 1.1 Background .................................................................................................. 2 1.1.1 General anxiety disorder ....................................................................... 2 1.1.1.1 Epidemiology ................................................................................... 2 1.1.1.2 Causes Of Anxiety ............................................................................ 3 1.1.1.3 Risk factors ...................................................................................... 3 1.1.2 Depression ........................................................................................... 4 1.1.2.1 Epidemiology ................................................................................... 4 1.1.2.2 Common causes of depression among students .................................... 4 1.1.2.3 Risk Factors of Depression ................................................................ 5 1.1.3 Stress: .................................................................................................. 5 1.1.3.1 Epidemiology ................................................................................... 6 1.1.3.2 Causes of stress ................................................................................ 6 1.1.3.3 Risk Factors ..................................................................................... 7 1.2 Problem Statement ........................................................................................ 8 1.3 Justification of study ..................................................................................... 9 1.4 Rationale of this study ................................................................................... 9 1.5 Significance of this study ............................................................................... 9 1.6 Study Objectives ......................................................................................... 10 1.6.1 General objective ................................................................................ 10 1.6.2 Specific objective ............................................................................... 10 Literature Review .......................................................................................................... 11 Literature review ............................................................................................................ 12 2.1 Literature review ......................................................................................... 12 Methods ........................................................................................................................... 20 3.1 Study design ............................................................................................... 20 3.2 Study Setting and Duration: ......................................................................... 20"
+    },
+    {
+      "rank": 5,
+      "score": 0.84653,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    }
+  ]
+}

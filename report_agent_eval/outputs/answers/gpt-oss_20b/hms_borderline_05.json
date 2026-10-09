@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_05",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.5006) is marginally above the decision threshold (0.5), what are the clinical guidelines for interpreting a 'near-threshold' result in elevated depression/anxiety screening risk, especially when calibration confirms proximity to the cutoff?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "A probability only slightly above the threshold signals uncertainty; it should be treated as a potential risk indicator rather than a definitive diagnosis. In line with school‑based screening protocols, such near‑threshold results warrant a follow‑up assessment—ideally using a more detailed tool (e.g., PHQ‑9) or a brief clinical interview—to clarify the student’s status. If any signs of self‑harm or significant functional impairment are present, an immediate safety evaluation and referral to mental‑health services is required, as recommended for students at risk of harm. Within a multi‑tiered system, these students can be placed in Tier 2 preventive interventions (such as coping‑skills training) while monitoring progress, thereby addressing needs before escalation. Early identification through repeated screening reduces long‑term costs and improves outcomes, supporting the cost‑effective approach highlighted in the evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:18:26.185125+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What specific clinical context or assessment tools are needed to better understand the contribution of 'Substance use' (sub_any), which is a high-impact feature contributing positively to the elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Evidence indicates that depression in college students is associated with higher rates of smoking and alcohol misuse (Context 5). To clarify how the “Substance use” feature contributes to elevated screening risk, clinicians should add a structured substance‑use assessment to routine mental‑health evaluations. While the retrieved sources do not specify particular instruments, incorporating a validated substance‑use screen alongside PHQ‑2/PHQ‑9 would allow simultaneous measurement of depressive symptoms and substance‑related behaviors. If a student screens positive for significant substance misuse, referral to specialized counseling or addiction services is recommended.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:19:52.929771+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How should 'Academic impairment' (aca_impa), identified as a strong positive contributor to elevated screening risk, be differentiated from general academic stress or performance anxiety in the context of depression/anxiety screening?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Academic‑impairment is captured by the functional‑impairment item used alongside PHQ‑9 and GAD‑7 (Context 1): respondents rate how difficult their symptoms make it to “do your work” on a 0–3 scale, with scores of 2 or 3 indicating significant impairment. This contrasts with general academic stress or performance anxiety, which are measured by the GAD‑7 or self‑reported stress levels in Contexts 2 and 5; those scales quantify symptom severity but do not directly assess whether the symptoms hinder academic functioning. Objective indicators such as cumulative GPA and school connectedness (also reported in Context 1) can further help distinguish true impairment—low GPA coupled with high functional‑impairment scores suggests a real impact, whereas high stress alone may coexist with adequate performance. Thus, differentiate by combining subjective functional‑impairment ratings with objective academic metrics, rather than relying solely on anxiety or stress severity.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:21:31.321388+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "Considering the protective contributions from 'Current financial situation' (fincur) and 'Flourishing', what are evidence-based strategies to leverage these existing strengths in the support considerations for expert review?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "Evidence shows that a stable current financial situation reduces exposure to material hardship, which is linked to poorer physical and mental health (Context 2–3).  Therefore, support plans should include resources that maintain or improve financial stability—such as budgeting workshops, access to emergency funds, or housing‑affordability counseling—to buffer future stressors.  Flourishing, defined by high levels of well‑being, predicts better academic outcomes and long‑term health (Context 5).  Strengths‑based interventions that build on these positive affective states—e.g., goal‑setting activities, peer‑support groups, or autonomy‑enhancing counseling—can reinforce flourishing while simultaneously encouraging continued financial resilience.  Together, these strategies leverage existing protective factors to promote sustained mental and physical health without diagnosing or prescribing treatment.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:22:56.846322+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "Given the conflicting signals—high risk contributors (substance use, academic impairment) versus strong protective factors (financial stability, flourishing)—what is the optimal framework for synthesizing these elements into a cohesive support consideration for expert review?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "Use a systematic screening tool that records both risk indicators—such as substance misuse and academic impairment measured by validated scales (PHQ‑9, GAD‑7, and substance use items in Context 1)—and protective factors like financial stability and flourishing captured through well‑being or life‑satisfaction questions (Context 4). Apply a multi‑tiered system of supports (MTSS): Tier 1 delivers universal preventive strategies; Tier 2 offers targeted interventions for students flagged with moderate risk; Tier 3 provides intensive services for those at high risk or exhibiting self‑harm behaviors. The screening process should include immediate response protocols for any indication of self‑harm or suicidal ideation, with a clear triage pathway to higher‑tier supports (Context 5). Document the number of students screened, identified as at risk, and referred, using this data to inform ongoing prevention and early‑intervention strategies for expert review. No diagnosis or prescription is made; the framework focuses on identification, triage, and appropriate support allocation.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:24:42.612823+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language should be used when communicating the elevated screening risk to the student or their guardian, ensuring appropriate urgency without causing undue alarm?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When a student’s screening results indicate an elevated risk, communicate that the findings suggest they may be experiencing challenges that could benefit from additional support rather than labeling them with a diagnosis. Explain that the school has protocols to respond promptly to any signs of harm and will arrange for a more detailed assessment if needed. Emphasize that early identification helps connect students to timely, cost‑effective services such as counseling or group supports. Reassure families that this information is used solely to guide appropriate interventions and that confidentiality is maintained. Invite the student and guardian to discuss next steps together with a school mental health professional at their earliest convenience.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T13:25:15.377255+00:00"
+    }
+  }
+}

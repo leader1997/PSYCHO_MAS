@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "embed_model": "nomic-embed-text",
+    "context_model": "qwen2.5:latest",
+    "limit_docs": 18,
+    "doc_ids": "DOC_B002,DOC_H001,DOC_I001",
+    "max_pages": 2,
+    "chunks_per_doc": 1,
+    "top_k": 3,
+    "context_mode": "ollama"
+  },
+  "doc_count": 3,
+  "chunk_count": 3,
+  "elapsed_seconds": 61.15,
+  "plain": {
+    "mrr": 0.42857142857142855,
+    "recall_at_k": 0.42857142857142855
+  },
+  "contextual": {
+    "mrr": 0.42857142857142855,
+    "recall_at_k": 0.42857142857142855
+  },
+  "contextual_examples": [
+    {
+      "chunk_id": "DOC_B002_p1_c1",
+      "context": "This chunk is about the psychometric properties of the GAD-7 among college students, including reliability, validity, factor structure, and measurement invariance, and how these properties support the use of both a one-factor and two-factor model for assessing anxiety in this population.",
+      "preview": "Psychometric Properties of the GAD-7 among College Students: Reliability, Validity, Factor Structure, and Measurement Invariance Agnes E. White, Justin E. Karr Department of Psychology, University of Kentucky. Abstract T"
+    },
+    {
+      "chunk_id": "DOC_H001_p1_c1",
+      "context": "This chunk introduces a method to enhance the interpretability of ensemble tree-based models by providing optimal explanations for predictions, measuring local feature interactions, and understanding global model structure, fitting well with the document's topic of extending SHAP to ensemble/tree models for both local and global explainability.",
+      "preview": "Explainable AI for Trees: From Local Explanations to Global Understanding Scott M. Lundberg 1, Gabriel Erion 1,2, Hugh Chen 1, Alex DeGrave 1,2, Jordan M. Prutkin 3, Bala Nair 4,5, Ronit Katz 6, Jonathan Himmelfarb 6, Ni"
+    },
+    {
+      "chunk_id": "DOC_I001_p1_c1",
+      "context": "This chunk introduces Retrieval-Augmented Generation (RAG) for knowledge-intensive NLP tasks, describing its approach and evaluation, fitting well with the document's topic as a seminal paper on RAG.",
+      "preview": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks Patrick Lewis\u2020\u2021, Ethan Perez\u22c6, Aleksandra Piktus\u2020, Fabio Petroni\u2020, Vladimir Karpukhin\u2020, Naman Goyal\u2020, Heinrich K\u00fcttler\u2020, Mike Lewis\u2020, Wen-tau Yih\u2020, Tim Roc"
+    }
+  ]
+}

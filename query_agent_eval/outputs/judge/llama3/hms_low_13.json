@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_13",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:51:45.816574+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is largely relevant and useful for a low‑risk student, providing reassurance, evidence on key XAI contributors, protective factor context, and next‑step guidance. It aligns with the model’s risk interpretation but could cover additional contributors (e.g., weekend sleep) to improve XAI alignment. The questions are clear, non‑redundant, and safely framed without diagnostic or treatment language."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_09",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:31:06.364405+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant to the low‑risk case, covers the major XAI contributors and protective factors, and is fully answerable using scientific literature. It supports a useful expert report, adapts appropriately to the low probability context, maintains safety by avoiding diagnostic or causal language, and is clear and non‑redundant. The only minor shortfall in XAI alignment is that very small contributors such as exercise frequency and institution size/public are not explicitly queried."
+}

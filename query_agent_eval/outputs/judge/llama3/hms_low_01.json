@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_01",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:29:57.727070+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 3,
+    "report_usefulness": 4,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the low‑risk context, providing clear safety communication and actionable next steps. It covers one key XAI contributor and a protective factor but omits other contributors (e.g., institution size) and several protective factors, limiting full alignment with the model’s explanation space. The questions are generally answerable via scientific literature, though some rely on internal model details that may not be fully supported by an external knowledge database. Overall, the plan is safe, non‑diagnostic, clear, and useful for expert reporting."
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_low_07",
+  "stratum": "low",
+  "qid": "Q4",
+  "question": "How do institutional characteristics, such as 'Institution size' and 'Public institution' status, contribute to the model's prediction of elevated depression/anxiety screening risk in a general population context?",
+  "retrieval_query": "Systemic factors (institution size, public status) and mental health vulnerability among students",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:49:42.819263+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.943244,
+      "chunk_id": "DOC_A002_p3_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "on psychological distress, specifically stress, anxiety, and depression, among college students. It is unique in applying the Socio-Ecological Model as the organizing framework to catego- rize the determinants of psychological distress across five interrelated levels. By focusing on review articles, this study draws on aggregated evidence from hundreds of primary studies, providing a high-level yet comprehensive synthesis of the factors contributing to student mental health outcomes in the pre- and post-pandemic eras. It aims to highlight where the literature has concentrated and, crucially, where it remains underdeveloped, particularly regarding structural and policy-level interventions. The following objectives guided this review. 1. To identify and map the determinants of stress, anxiety, and depression among college students, as reported in review articles published between 2015 and 2024. 2. To categorize these determinants using the five levels of the Socio-Ecological Model: individual, interpersonal, institutional, community, and policy. 3. To identify research gaps and opportunities for future inquiry, particularly about underexplored SEM levels and vulnerable student populations. 4. To generate evidence-informed recommendations for higher education institutions, public health agencies, and policymakers. Individual-level characteristics, such as gender, personality traits, coping mechanisms, and academic stress, have been the primary focus of previous assessments of college stu- dents’ mental health [6,7,11]. Even if they are unquestionably significant, focusing on this limit runs the risk of pathologizing children without addressing the larger systemic pres- sures they encounter. Institutional policies on grading, online teaching platforms, faculty support, and mental health services significantly shape students’ day-to-day experiences. However, they are often treated as peripheral in psychological research [ 11]. Similarly, community"
+    },
+    {
+      "rank": 2,
+      "score": 0.925604,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 3,
+      "score": 0.902443,
+      "chunk_id": "DOC_D003_p3_c2",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "(Cutler & Lleras-Muney, 2006; Ross & Mirowsky, 1999). Approximately two thirds of high school graduates attend college (U.S. Department of Education, 2006), but fewer than 50 percent of college enrollees graduate (Knapp, 2007), and this pr oportion is 12-18 percent lower among students who are black, Hi spanic, American-Indian, or lower socioeconomic status (Horn & Berger, 2004). Previous studies have considered a range of factors—such as financial aid (Dynarski, 1999) and academic and social involvement (Tinto, 1998)—that affect re maining in and completing college. Another important factor may be mental health. Mental disorders frequently have firs t onset shortly befo re or during the typical college age range (18-24) (Kessler et al., 2005), yet relatively little is known about the link between mental heal th and academic success in college. Understanding this connection could be va luable due to the many ways in which college settings can reach young people; co llege represents the only time in many people’s lives when a single setting enco mpasses their main activities, social networks, and a range of supportive services and organizations. We examine how symptoms of me ntal disorders predict academic outcomes during college using unique data collected at a large, academically"
+    },
+    {
+      "rank": 4,
+      "score": 0.894171,
+      "chunk_id": "DOC_A002_p2_c3",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 2,
+      "category_code": "A_student_mental_health",
+      "text": "challenging to derive thorough and valuable insights across a range of contexts because of the fragmented nature of these investigations. Although there are many review articles discussing different aspects of psychological distress among college students, the majority only discuss select features of individual symptoms, demographic factors, or individual intervention approaches [ 5]. The larger social, institutional, and policy environments in which pupils live and learn are ignored in these assessments. Integrative frameworks are urgently needed to reflect the complex- ity of interacting variables, as mental health is a complex and contextually embedded phenomenon [8,9]. One such framework is the Socio-Ecological Model (SEM), which conceptualizes human behavior and health outcomes as the result of dynamic interplays across multiple layers of influence: individual, interpersonal, institutional (organizational), community, and policy. This model has been widely used in public health, education, and psychology to examine health disparities, guide multi-level interventions, and inform system-oriented policy development [10]. The SEM is well suited to understanding college student mental health because it considers how personal characteristics (e.g., coping skills, self-efficacy), social relationships (e.g., peer and family support), institutional environments (e.g., access to mental health"
+    },
+    {
+      "rank": 5,
+      "score": 0.862147,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    }
+  ]
+}

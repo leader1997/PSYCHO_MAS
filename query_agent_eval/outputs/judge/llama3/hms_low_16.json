@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_16",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:57:07.720502+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 4,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is largely relevant and useful for an expert report, with clear, non-redundant questions that adapt well to the low-risk context. It covers key XAI contributors but omits some positive factors (e.g., exercise frequency, belonging item 2) and could include more explicit uncertainty statements. Safety considerations are generally respected, though the phrasing of Q1 might be tightened to avoid any diagnostic implication."
+}

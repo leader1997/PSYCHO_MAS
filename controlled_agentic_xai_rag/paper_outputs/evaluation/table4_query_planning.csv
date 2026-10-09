@@ -1,0 +1,2 @@
+case_id,n_report_questions,n_retrieval_queries,xai_factor_coverage,n_xai_factors_in_card,n_xai_factors_covered,has_risk_communication_slot,has_safety_slot
+high_risk_case,1,8,1.0,5,5,True,True

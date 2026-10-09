@@ -1,0 +1,85 @@
+{
+  "case_id": "hms_low_17",
+  "model": "llama3",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:57:36.540357+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_17",
+    "risk_interpretation": {
+      "probability": 0.0586,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "Is the student's low screening risk a reliable indication of their mental health status?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To ensure that the expert review is informed by a thorough understanding of the student's risk level."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What role did binge drinking play in contributing to the model's predicted screening risk?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert review with a clear understanding of the features contributing to the model's prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How did academic impairment contribute to reducing the predicted screening risk?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To highlight the importance of protective factors in mitigating mental health risks."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "expert_support_consideration",
+        "question": "What additional support or resources might be beneficial for this student to maintain their low screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert review with actionable recommendations for supporting the student's mental health."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_low_17\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0586,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"Is the student's low screening risk a reliable indication of their mental health status?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure that the expert review is informed by a thorough understanding of the student's risk level.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What role did binge drinking play in contributing to the model's predicted screening risk?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert review with a clear understanding of the features contributing to the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How did academic impairment contribute to reducing the predicted screening risk?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To highlight the importance of protective factors in mitigating mental health risks.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What additional support or resources might be beneficial for this student to maintain their low screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert review with actionable recommendations for supporting the student's mental health.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: The question plan is designed to provide expert review with a clear understanding of the student's risk level, the features contributing to the model's prediction, and the protective factors mitigating mental health risks."
+}

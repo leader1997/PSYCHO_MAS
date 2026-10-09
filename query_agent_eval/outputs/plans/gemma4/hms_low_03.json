@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_03",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:14:35.299597+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_03",
+    "risk_interpretation": {
+      "probability": 0.0511,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic language to communicate a low screening risk result (P=0.0511) to an expert, ensuring that the communication does not imply a definitive absence of symptoms or need for intervention?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication guidelines for low depression/anxiety screening risk",
+        "expected_evidence": [
+          "Guidelines on communicating screening results without false reassurance.",
+          "Best practices for framing 'not elevated risk' in a clinical context."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure safety and ethical communication standards are met, especially when the probability is far below the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How do strong protective factors, such as high flourishing scores or low academic impairment, contextually modify the interpretation of a low screening risk score?",
+        "linked_xai_factor": "aca_impa, flourish",
+        "retrieval_query": "clinical significance of high flourishing and low academic impairment in depression/anxiety screening",
+        "expected_evidence": [
+          "Literature review on the mitigating effect of resilience factors (e.g., flourishing) on mental health risk scores.",
+          "Interpretation guidelines for protective contributors in screening reports."
+        ],
+        "priority": "high",
+        "rationale": "The presence of multiple, strong negative contributors requires specific guidance to contextualize the low risk score and prevent oversimplification."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the clinical interpretation of a positive contribution from 'Campus belonging' (belong1) in the context of elevated depression/anxiety screening risk, given that this factor was identified as contributing positively to the model prediction?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "clinical interpretation of campus belonging contribution to mental health risk scores",
+        "expected_evidence": [
+          "Academic literature linking sense of belonging to mental well-being.",
+          "Guidance on interpreting positive contributions from social factors in screening reports."
+        ],
+        "priority": "high",
+        "rationale": "This is the strongest contributing factor (0.0236) and requires specific evidence to explain its role, even if minor, in the final prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "How should the model's positive contributions from 'Institution size' and 'Public institution' be discussed to provide context regarding institutional environment, without implying a direct causal link?",
+        "linked_xai_factor": "inst_size, inst_public",
+        "retrieval_query": "contextual discussion of institutional characteristics (size, public status) in mental health screening reports",
+        "expected_evidence": [
+          "Guidelines for discussing environmental/institutional features in risk assessment.",
+          "Academic context linking institution type to student well-being."
+        ],
+        "priority": "medium",
+        "rationale": "These factors are minor contributors, but they must be addressed to fully explain the model's mechanics and maintain scientific rigor."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "Given that the prediction probability (0.0511) is significantly below the decision threshold (0.5), what are the appropriate statements regarding model uncertainty or limitations of the screening tool's scope?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting low probability scores far from the decision threshold in mental health screening",
+        "expected_evidence": [
+          "Model limitation statements for screening tools.",
+          "Guidance on interpreting prediction confidence when probabilities are low."
+        ],
+        "priority": "high",
+        "rationale": "Since the score is very far from the threshold, addressing model uncertainty or limitations is crucial to prevent over-reliance on the result."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_03\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0511,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic language to communicate a low screening risk result (P=0.0511) to an expert, ensuring that the communication does not imply a definitive absence of symptoms or need for intervention?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication guidelines for low depression/anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Guidelines on communicating screening results without false reassurance.\",\n        \"Best practices for framing 'not elevated risk' in a clinical context.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure safety and ethical communication standards are met, especially when the probability is far below the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do strong protective factors, such as high flourishing scores or low academic impairment, contextually modify the interpretation of a low screening risk score?\",\n      \"linked_xai_factor\": \"aca_impa, flourish\",\n      \"retrieval_query\": \"clinical significance of high flourishing and low academic impairment in depression/anxiety screening\",\n      \"expected_evidence\": [\n        \"Literature review on the mitigating effect of resilience factors (e.g., flourishing) on mental health risk scores.\",\n        \"Interpretation guidelines for protective contributors in screening reports.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The presence of multiple, strong negative contributors requires specific guidance to contextualize the low risk score and prevent oversimplification.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the clinical interpretation of a positive contribution from 'Campus belonging' (belong1) in the context of elevated depression/anxiety screening risk, given that this factor was identified as contributing positively to the model prediction?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"clinical interpretation of campus belonging contribution to mental health risk scores\",\n      \"expected_evidence\": [\n        \"Academic literature linking sense of belonging to mental well-being.\",\n        \"Guidance on interpreting positive contributions from social factors in screening reports.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the strongest contributing factor (0.0236) and requires specific evidence to explain its role, even if minor, in the final prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How should the model's positive contributions from 'Institution size' and 'Public institution' be discussed to provide context regarding institutional environment, without implying a direct causal link?\",\n      \"linked_xai_factor\": \"inst_size, inst_public\",\n      \"retrieval_query\": \"contextual discussion of institutional characteristics (size, public status) in mental health screening reports\",\n      \"expected_evidence\": [\n        \"Guidelines for discussing environmental/institutional features in risk assessment.\",\n        \"Academic context linking institution type to student well-being.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"These factors are minor contributors, but they must be addressed to fully explain the model's mechanics and maintain scientific rigor.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given that the prediction probability (0.0511) is significantly below the decision threshold (0.5), what are the appropriate statements regarding model uncertainty or limitations of the screening tool's scope?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting low probability scores far from the decision threshold in mental health screening\",\n      \"expected_evidence\": [\n        \"Model limitation statements for screening tools.\",\n        \"Guidance on interpreting prediction confidence when probabilities are low.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Since the score is very far from the threshold, addressing model uncertainty or limitations is crucial to prevent over-reliance on the result.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

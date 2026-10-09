@@ -1,0 +1,66 @@
+{
+  "model": "mistral",
+  "case_id": "hms_high_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9795), what are the established clinical guidelines for interpreting an elevated depression/anxiety screening risk score in a non-diagnostic, expert-facing context?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "In a non-diagnostic expert-facing context, elevated depression/anxiety screening risk scores in college students should be addressed proactively using established clinical guidelines. The Patient Health Questionnaire-2 (PHQ-2) can serve as an initial screening tool during every visit at the college health center to identify potential cases of depression among college students. Those who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services. This approach aims to increase early identification of depression in college students, potentially reducing associated morbidity, mortality, disability, and increased risk of suicide. It is important to note that this screening process does not replace a formal diagnosis but serves as a first step towards identifying at-risk individuals who may benefit from further evaluation and support. For optimal results, the feedback provided should be tailored according to patients' needs and preferences.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:11.564826+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific literature linking academic impairment (aca_impa) to elevated screening risk for depression and anxiety in young adults?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "The current scientific literature indicates a link between academic impairment (aca_impa) in young adults and elevated screening risk for depression and anxiety. In a study by Eisenberg et al., depression was found to be a significant predictor of lower GPA and higher probability of dropping out, even after controlling for prior academic performance and other variables. This association was particularly strong among students with an anxiety disorder screen. Furthermore, co-occurring depression and anxiety were consistently associated with lower GPA in both cross-sectional and within-person analyses. The study by Duffy et al., focusing on first-year university students, reported that 28% and 33% screened positive for clinically significant depressive and anxiety symptoms at entry, respectively, which increased to 36% and 39% at the completion of first year. These mental health outcomes were associated with lower academic grades. However, it is important to note that these studies do not establish causality but rather identify statistical contributors to the observed associations. Given the potential impact on lifelong outcomes, further research is needed to confirm these findings and explore interventions for early detection and treatment of mental health issues among young adults.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:21.423072+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does food insecurity worry contribute to elevated screening risk for depression/anxiety, and what are the recommended psychoeducational resources?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Food insecurity worry significantly contributes to elevated screening risk for depression and anxiety among students, particularly those with structurally marginalized identities and those who have trouble accessing higher education. This is evident from the findings that 41% of survey participants experience food insecurity, 48% experience housing insecurity, and 59% experience at least one form of basic needs insecurity. The link between student basic needs security and mental health issues is clear: 44% of students experience clinically significant symptoms of anxiety and/or depression, and 57% of respondents who had previously stopped out of college due to basic needs insecurity reported mental health issues as a primary reason.\n\nRecommended psychoeducational resources for addressing this issue include:\n1. The Hope Center Student Basic Needs Survey, which provides comprehensive data on food and housing insecurity among students across various demographics.\n2. Resources aimed at addressing the intersectional needs of specific student populations, such as parenting students, part-time and working students, Pell Grant recipients, LGBTQIA+ students, students who have been involved in the carceral system, former foster youth, and students with disabilities.\n3. Mental health support services tailored to the unique challenges faced by students experiencing basic needs insecurity, such as counseling, stress management workshops, and mental health first aid training for campus staff.\n4. Campus-wide initiatives focused on improving access to affordable housing, food assistance programs, transportation resources, childcare services, and technology support for students in need.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:32.276778+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the protective mechanisms associated with institutional type (inst_type) and age, and how can these factors be highlighted to provide a balanced view of the student's resilience?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The protective mechanisms associated with institutional type (inst_type) and age can be highlighted through school mental health screening, which identifies strengths and needs of students across all tiers. Institutional type, in this context, refers to a multi-tiered system of supports (MTSS), where students are more likely to learn core social-emotional-behavioral skills and have their mental health needs addressed before they escalate. This approach promotes comprehensive school mental health strategies across all tiers, ensuring appropriate supports for a broader student population.\n\nAge-related protective mechanisms can be observed by understanding possible trends specific to certain subsets of the school's population, such as a single grade or age group. Screening data can shed light on strengths and concerns within these groups, which is critical for providing equitable supports within a school. For instance, screening may reveal that several classrooms have a significant number of students with more intensive social-emotional-behavioral needs, allowing for targeted classroom interventions rather than individual follow-ups.\n\nMoreover, asking students about their well-being and social-emotional strengths, in addition to psychological distress, has benefits such as reducing stigma, enhancing self-esteem, providing valuable information about all students, and being more acceptable across cultural groups. Research suggests that students who experience average to high levels of well-being have better current and long-term outcomes, including academic success.\n\nIt is essential to note that school mental health screening does not replace clinical diagnosis or treatment but serves as an early identification strategy to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups. For students at risk for a mental illness or harm to self or others, timely referrals to school and community mental health services are crucial.\n\nIn summary, by focusing on protective mechanisms associated with institutional type (MTSS) and age (well-being and social-emotional strengths), school mental health screening can provide a balanced view of the student's resilience, enabling early intervention strategies and equitable supports within a school setting.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:46.002233+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of machine learning models (e.g., CatBoost) when applied to complex human behavioral data, and how should these limitations be communicated in an expert report?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "Machine learning models like CatBoost, when applied to complex human behavioral data such as depression screening in college students, have several known limitations. Firstly, these models may not accurately detect or predict depression in students who mask their symptoms by complaining of other health issues (Context 1). Secondly, they might overlook the importance of considering well-being and positive mental health indicators, which are crucial for academic success and long-term outcomes (Context 2).\n\nIn an expert report, these limitations should be communicated clearly to emphasize the need for a comprehensive approach that considers both strengths and symptoms. It is essential to highlight the potential under-detection of depression due to masked symptoms and the importance of screening tools like the PHQ-2 as a first step in identifying students at risk (Context 1). Additionally, the report should stress the significance of school mental health screening as an early identification strategy that detects onset challenges before they escalate (Context 3).\n\nTo mitigate these limitations, it is recommended to pilot screeners with small groups of students and gradually scale up to the entire student population (Context 5). This approach allows for course corrections and builds on successes, ensuring a more effective and accurate depression screening process.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:18:55.624768+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the non-diagnostic communication strategies and immediate safety protocols required when presenting an elevated screening risk to a student or supervising professional?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "In the context provided, when presenting an elevated screening risk to a student or supervising professional, the following non-diagnostic communication strategies and immediate safety protocols are required:\n\n1. Use a systematic tool or process for mental health screening that considers reliability, feasibility, cost, and fit with the goals of screening. This may involve screening an entire population or a subset of students.\n2. Inform students and families about screening procedures in advance, offer the opportunity to consent or opt out, and share information about screening in multiple formats prior to implementation.\n3. Respond to risk of harm to self and others immediately by providing referrals to school and community mental health services in a timely manner and further assessing students who may be a danger to themselves or others for safety purposes.\n4. Implement a multi-tiered system of supports (MTSS) to promote comprehensive school mental health strategies across all tiers, ensuring appropriate supports are provided to more than just those students who present with the highest level of risk.\n5. Gather valuable information for planning and implementing prevention and early intervention strategies by asking students about indicators of well-being and social-emotional distress. This enables schools to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community.\n6. If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate.\n7. For elevated risk situations, it is essential to have a defined process to assess screening/assessment results that allows for triaging students to further assess the need for Tiers 2 and 3 services and supports.\n8. In the case of college students, using tools like the Patient Health Questionnaire-2 (PHQ-2) can aid in early identification of depression during every visit at the college health center. College students who screen positive should be further evaluated with the PHQ-9 and possibly referred to counseling services.\n\nIn all cases, it is crucial to note that these strategies are not intended for diagnosis or treatment but rather for identifying students at risk and implementing early intervention strategies. For situations involving immediate risk of harm to self or others, qualified support should be sought promptly.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:19:10.654572+00:00"
+    }
+  }
+}

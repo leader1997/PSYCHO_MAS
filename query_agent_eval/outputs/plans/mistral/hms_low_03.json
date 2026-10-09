@@ -1,0 +1,129 @@
+{
+  "case_id": "hms_low_03",
+  "model": "mistral",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T11:33:29.341698+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_03",
+    "risk_interpretation": {
+      "probability": 0.0511,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of the model's prediction probability for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of model prediction probabilities",
+        "expected_evidence": [
+          "Explanation of 0.0511 probability"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the student's risk level"
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the contribution of 'belong1' to the model prediction?",
+        "linked_xai_factor": "'belong1'",
+        "retrieval_query": "Evidence for 'belong1' contribution",
+        "expected_evidence": [
+          "Relevant studies or research on 'Campus belonging (item 1)' and its impact on student depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the rationale behind this significant contributor"
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the contribution of 'inst_size' to the model prediction?",
+        "linked_xai_factor": "'inst_size'",
+        "retrieval_query": "Evidence for 'Institution size' contribution",
+        "expected_evidence": [
+          "Relevant studies or research on institution size and its impact on student depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the rationale behind this minor contributor"
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence supports the contribution of 'inst_public' to the model prediction?",
+        "linked_xai_factor": "'inst_public'",
+        "retrieval_query": "Evidence for 'Public institution' contribution",
+        "expected_evidence": [
+          "Relevant studies or research on public institutions and their impact on student depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the rationale behind this moderate contributor"
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What evidence supports the protective effect of 'aca_impa' for this student?",
+        "linked_xai_factor": "'aca_impa'",
+        "retrieval_query": "Evidence for 'Academic impairment' as a protective factor",
+        "expected_evidence": [
+          "Relevant studies or research on academic impairment and its protective effect on student depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "To understand the rationale behind this significant protective factor"
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What evidence supports the protective effect of 'age' for this student?",
+        "linked_xai_factor": "'age'",
+        "retrieval_query": "Evidence for 'Age' as a protective factor",
+        "expected_evidence": [
+          "Relevant studies or research on age and its protective effect on student depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the rationale behind this significant protective factor"
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What evidence supports the protective effect of 'lonely' for this student?",
+        "linked_xai_factor": "'lonely'",
+        "retrieval_query": "Evidence for 'Loneliness' as a protective factor",
+        "expected_evidence": [
+          "Relevant studies or research on loneliness and its protective effect on student depression/anxiety"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the rationale behind this minor protective factor"
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "safety_communication",
+        "question": "What safety measures or resources are available for students who may be experiencing depression/anxiety symptoms?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety measures and resources for students with depression/anxiety",
+        "expected_evidence": [
+          "List of safety measures and resources available"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student is aware of available support"
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_low_03\",\n     \"risk_interpretation\": {\n       \"probability\": 0.0511,\n       \"threshold\": 0.5,\n       \"risk_level\": \"not_elevated_screening_risk\",\n       \"planning_strategy\": \"low_risk\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of the model's prediction probability for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of model prediction probabilities\",\n         \"expected_evidence\": [\"Explanation of 0.0511 probability\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the student's risk level\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What evidence supports the contribution of 'belong1' to the model prediction?\",\n         \"linked_xai_factor\": \"'belong1'\",\n         \"retrieval_query\": \"Evidence for 'belong1' contribution\",\n         \"expected_evidence\": [\"Relevant studies or research on 'Campus belonging (item 1)' and its impact on student depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the rationale behind this significant contributor\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What evidence supports the contribution of 'inst_size' to the model prediction?\",\n         \"linked_xai_factor\": \"'inst_size'\",\n         \"retrieval_query\": \"Evidence for 'Institution size' contribution\",\n         \"expected_evidence\": [\"Relevant studies or research on institution size and its impact on student depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the rationale behind this minor contributor\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What evidence supports the contribution of 'inst_public' to the model prediction?\",\n         \"linked_xai_factor\": \"'inst_public'\",\n         \"retrieval_query\": \"Evidence for 'Public institution' contribution\",\n         \"expected_evidence\": [\"Relevant studies or research on public institutions and their impact on student depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the rationale behind this moderate contributor\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What evidence supports the protective effect of 'aca_impa' for this student?\",\n         \"linked_xai_factor\": \"'aca_impa'\",\n         \"retrieval_query\": \"Evidence for 'Academic impairment' as a protective factor\",\n         \"expected_evidence\": [\"Relevant studies or research on academic impairment and its protective effect on student depression/anxiety\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the rationale behind this significant protective factor\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What evidence supports the protective effect of 'age' for this student?\",\n         \"linked_xai_factor\": \"'age'\",\n         \"retrieval_query\": \"Evidence for 'Age' as a protective factor\",\n         \"expected_evidence\": [\"Relevant studies or research on age and its protective effect on student depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the rationale behind this significant protective factor\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What evidence supports the protective effect of 'lonely' for this student?\",\n         \"linked_xai_factor\": \"'lonely'\",\n         \"retrieval_query\": \"Evidence for 'Loneliness' as a protective factor\",\n         \"expected_evidence\": [\"Relevant studies or research on loneliness and its protective effect on student depression/anxiety\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the rationale behind this minor protective factor\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What safety measures or resources are available for students who may be experiencing depression/anxiety symptoms?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety measures and resources for students with depression/anxiety\",\n         \"expected_evidence\": [\"List of safety measures and resources available\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure the student is aware of available support\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

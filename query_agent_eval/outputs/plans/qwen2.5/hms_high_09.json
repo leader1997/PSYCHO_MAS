@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_09",
+  "model": "qwen2.5",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T06:35:55.472652+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_09",
+    "risk_interpretation": {
+      "probability": 0.9709,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.9709 in relation to the decision threshold of 0.5 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near or above a high risk threshold",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Risk assessment frameworks"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the correct understanding of the elevated screening risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather to support the contribution of 'Academic impairment' (aca_impa) to the model's prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Impact of academic performance on mental health screening outcomes",
+        "expected_evidence": [
+          "Studies linking academic performance and depression/anxiety",
+          "Surveys measuring academic stress"
+        ],
+        "priority": "high",
+        "rationale": "To validate the importance of this factor in the student's case."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the contribution of 'Food insecurity worry' (food_worry) to the model's prediction?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Impact of food insecurity on mental health screening outcomes",
+        "expected_evidence": [
+          "Research linking food insecurity and depression/anxiety",
+          "Surveys measuring food insecurity"
+        ],
+        "priority": "high",
+        "rationale": "To confirm the relevance of this factor in the student's situation."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factors, such as 'Institution size' (inst_size), can we leverage to support the student?",
+        "linked_xai_factor": "inst_size",
+        "retrieval_query": "Impact of institutional environment on mental health screening outcomes",
+        "expected_evidence": [
+          "Studies examining the role of institution size in mental health",
+          "Surveys measuring campus environment"
+        ],
+        "priority": "medium",
+        "rationale": "To understand how these factors might mitigate risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we address the model's calibration status, which is 'calibrated' and not near the threshold, in our expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting calibrated models with respect to risk thresholds",
+        "expected_evidence": [
+          "Model calibration guidelines",
+          "Best practices for interpreting calibrated predictions"
+        ],
+        "priority": "medium",
+        "rationale": "To ensure the reliability of our interpretation."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the elevated screening risk to the student and their support network without causing undue alarm?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating mental health risks",
+        "expected_evidence": [
+          "Guidelines for non-diagnostic communication",
+          "Strategies for supporting students with potential mental health issues"
+        ],
+        "priority": "high",
+        "rationale": "To ensure the student feels supported and informed."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "expert_support_consideration",
+        "question": "What support considerations should we take into account for a student with an elevated screening risk, given their specific profile?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Support strategies for students at high risk of depression/anxiety",
+        "expected_evidence": [
+          "Best practices for supporting students",
+          "Case management approaches"
+        ],
+        "priority": "high",
+        "rationale": "To develop a comprehensive support plan."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_09\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9709,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.9709 in relation to the decision threshold of 0.5 for this student?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near or above a high risk threshold\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Risk assessment frameworks\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the correct understanding of the elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather to support the contribution of 'Academic impairment' (aca_impa) to the model's prediction?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Impact of academic performance on mental health screening outcomes\",\n      \"expected_evidence\": [\"Studies linking academic performance and depression/anxiety\", \"Surveys measuring academic stress\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To validate the importance of this factor in the student's case.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the contribution of 'Food insecurity worry' (food_worry) to the model's prediction?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"Impact of food insecurity on mental health screening outcomes\",\n      \"expected_evidence\": [\"Research linking food insecurity and depression/anxiety\", \"Surveys measuring food insecurity\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To confirm the relevance of this factor in the student's situation.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factors, such as 'Institution size' (inst_size), can we leverage to support the student?\",\n      \"linked_xai_factor\": \"inst_size\",\n      \"retrieval_query\": \"Impact of institutional environment on mental health screening outcomes\",\n      \"expected_evidence\": [\"Studies examining the role of institution size in mental health\", \"Surveys measuring campus environment\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To understand how these factors might mitigate risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we address the model's calibration status, which is 'calibrated' and not near the threshold, in our expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting calibrated models with respect to risk thresholds\",\n      \"expected_evidence\": [\"Model calibration guidelines\", \"Best practices for interpreting calibrated predictions\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To ensure the reliability of our interpretation.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the elevated screening risk to the student and their support network without causing undue alarm?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating mental health risks\",\n      \"expected_evidence\": [\"Guidelines for non-diagnostic communication\", \"Strategies for supporting students with potential mental health issues\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To ensure the student feels supported and informed.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What support considerations should we take into account for a student with an elevated screening risk, given their specific profile?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Support strategies for students at high risk of depression/anxiety\",\n      \"expected_evidence\": [\"Best practices for supporting students\", \"Case management approaches\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To develop a comprehensive support plan.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

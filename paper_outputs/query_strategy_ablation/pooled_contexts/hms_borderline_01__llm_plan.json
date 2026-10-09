@@ -1,0 +1,74 @@
+{
+  "case_id": "hms_borderline_01",
+  "arm": "llm_plan",
+  "n_queries": 6,
+  "n_raw_hits": 30,
+  "final_budget": 5,
+  "pooled": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further",
+      "query_qid": "Q2",
+      "retrieval_query": "impact of social isolation and loneliness on student depression and anxiety screening risk",
+      "pool_rank": 1
+    },
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_A007_p4_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 4,
+      "category_code": "A_student_mental_health",
+      "text": "students • More acceptable to youth and families across cultural groups due to varying perspectives on mental health. Research suggests that students who experience average to high levels of well-be- ing also experience better current and long-term outcomes, including academic success, than students who report low levels of well-being. These findings remain true regardless of level of psychological distress and impairment reported by stu- dents. Thus, screening for complete mental health, including both strengths and symptoms may be warranted. Identify students at risk for a mental illness or harm to self or others • Some school teams might screen to identify students who are in the most immediate need of mental health supports. • This can include students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress. • As part of the screening process, screening teams must ensure that referrals to school and community mental health services are provided in a timely manner and that any student who may be a danger to self or others is further assessed immediately to ensure safety. Make economically sound decisions • Early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. • Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.",
+      "query_qid": "Q3",
+      "retrieval_query": "relationship between current financial strain and mental health screening risk in students",
+      "pool_rank": 2
+    },
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_F001_p2_c3",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "among persons with relatively low levels of social sup- port. Similarly, several prospective studies us- ing mental health outcome measures have shown a positive relation between social sup- port and mental health (Aneshensel & Frer- ichs, 1982; Billings & Moos, 1982; Henderson, Byrne, & Duncan-Jones, 1981; Holahan & Moos, 1981; Turner, 1981; Williams, Ware, & Donald, 1981). The mechanisms through which social sup- port is related to mental health outcomes and to serious physical illness outcomes, however, remain to be clarified. At a general level, it can be posited that a lack of positive social rela- tionships leads to negative psychological states such as anxiety or depression. In turn, these psychological states may ultimately influence physical health either through a direct effect on physiological processes that influence sus- ceptibility to disease or through behavioral patterns that increase risk for disease and mortality. In the following section, we outline how social support could be linked to health outcomes on a main effect basis and the mech- anism through which stress-buffering effects could occur. This framework is then used for reviewing literature on stress and support. Support as a Main Effect A generalized beneficial effect of social sup- port could occur because large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also",
+      "query_qid": "Q4",
+      "retrieval_query": "protective role of flourishing and positive psychological resources against depression/anxiety",
+      "pool_rank": 3
+    },
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_A007_p3_c2",
+      "doc_id": "DOC_A007",
+      "title": "[PDF] School Mental Health Quality Guide Screening",
+      "page": 3,
+      "category_code": "A_student_mental_health",
+      "text": "• With a multi-tiered approach, students are more likely to learn core social- emotional-behavioral skills and may have their mental health needs addressed before they escalate. Inform Prevention and Early Intervention Strategies • About 20% of students show signs and symptoms of a mental health disorder in a given year. Mental health screening is a proactive approach to gathering valuable information for planning and implementing prevention and early intervention strategies for the other 80% before problems develop or worsen. • When schools systematically ask students about indicators of well-being and social-emotional distress, they gather information that enables them to implement targeted prevention and early intervention strategies that can address the unique needs of a school or community. • Example: If screening reveals high levels of student stress and anxiety, teaching coping skills to help reduce anxiety may be a helpful strategy to implement in classrooms. Screening with follow-up support can also detect and address student mental health problems early before they escalate. Why Screen?",
+      "query_qid": "Q6",
+      "retrieval_query": "non-diagnostic communication strategies for elevated mental health screening results",
+      "pool_rank": 4
+    },
+    {
+      "rank": 1,
+      "score": 0.962655,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders",
+      "query_qid": "Q5",
+      "retrieval_query": "role of positive mental health in buffering environmental stressors for students",
+      "pool_rank": 5
+    }
+  ]
+}

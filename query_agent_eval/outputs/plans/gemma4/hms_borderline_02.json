@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_borderline_02",
+  "model": "gemma4",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-01T21:04:38.619838+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_02",
+    "risk_interpretation": {
+      "probability": 0.4997,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "uncertainty_limitation",
+        "question": "Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' screening result, especially when the model is calibrated?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical interpretation of borderline depression anxiety screening scores near 0.5",
+        "expected_evidence": [
+          "Guidelines for interpreting probabilities near the decision threshold.",
+          "Recommended follow-up steps for students with marginal screening results."
+        ],
+        "priority": "high",
+        "rationale": "The case is borderline, requiring specific guidance on how to interpret a score so close to the cutoff point despite being classified as 'not elevated risk.' This addresses model uncertainty and limitation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are evidence-based strategies for addressing moderate levels of loneliness in college students, particularly when this feature is identified as a major contributor to elevated screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "intervention strategies for student loneliness and mental health support",
+        "expected_evidence": [
+          "Evidence-based interventions targeting social isolation in young adults.",
+          "Best practices for connecting students experiencing loneliness with campus resources."
+        ],
+        "priority": "high",
+        "rationale": "Loneliness is the single largest positive contributor (0.4229) and requires detailed, actionable evidence for the expert report."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How can existing protective factors, such as high exercise frequency and reported flourishing levels, be leveraged in initial support conversations to build resilience and mitigate screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "leveraging student strengths and protective factors in mental health support",
+        "expected_evidence": [
+          "Techniques for strength-based interviewing.",
+          "Examples of how to reinforce positive coping mechanisms (e.g., exercise, flourishing) during screening follow-up."
+        ],
+        "priority": "high",
+        "rationale": "The presence of strong protective factors is critical for a comprehensive report and should guide the support considerations."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the differential risk assessment guidelines for high levels of binge drinking in conjunction with elevated depression/anxiety screening risk?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "risk assessment protocols for substance use and mental health co-occurrence",
+        "expected_evidence": [
+          "Clinical guidelines linking binge drinking to increased anxiety/depression risk.",
+          "Appropriate screening tools or referral pathways for alcohol misuse."
+        ],
+        "priority": "medium",
+        "rationale": "Binge drinking is a high-risk feature that needs specific clinical context, even if its contribution was low relative to the overall score. This ensures comprehensive safety coverage."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "expert_support_consideration",
+        "question": "What are general support considerations for expert review when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening?",
+        "linked_xai_factor": null,
+        "retrieval_query": "holistic approach to mental health screening follow-up with conflicting data",
+        "expected_evidence": [
+          "Frameworks for synthesizing complex risk profiles.",
+          "Recommendations for multi-modal support (e.g., academic, social, clinical)."
+        ],
+        "priority": "high",
+        "rationale": "This synthesizes the entire case complexity into actionable advice for the expert reviewer."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What is the recommended non-diagnostic language and communication strategy to use when discussing screening results with a student, ensuring empathy while maintaining professional boundaries?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for mental health screening results",
+        "expected_evidence": [
+          "Scripts or guidelines for communicating risk scores without pathologizing the student.",
+          "Emphasis on psychoeducation and self-efficacy."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure ethical, non-diagnostic communication is part of the final report."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_borderline_02\",\n  \"risk_interpretation\": {\n    \"probability\": 0.4997,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"borderline\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' screening result, especially when the model is calibrated?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical interpretation of borderline depression anxiety screening scores near 0.5\",\n      \"expected_evidence\": [\n        \"Guidelines for interpreting probabilities near the decision threshold.\",\n        \"Recommended follow-up steps for students with marginal screening results.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is borderline, requiring specific guidance on how to interpret a score so close to the cutoff point despite being classified as 'not elevated risk.' This addresses model uncertainty and limitation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are evidence-based strategies for addressing moderate levels of loneliness in college students, particularly when this feature is identified as a major contributor to elevated screening risk?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"intervention strategies for student loneliness and mental health support\",\n      \"expected_evidence\": [\n        \"Evidence-based interventions targeting social isolation in young adults.\",\n        \"Best practices for connecting students experiencing loneliness with campus resources.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Loneliness is the single largest positive contributor (0.4229) and requires detailed, actionable evidence for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How can existing protective factors, such as high exercise frequency and reported flourishing levels, be leveraged in initial support conversations to build resilience and mitigate screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"leveraging student strengths and protective factors in mental health support\",\n      \"expected_evidence\": [\n        \"Techniques for strength-based interviewing.\",\n        \"Examples of how to reinforce positive coping mechanisms (e.g., exercise, flourishing) during screening follow-up.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The presence of strong protective factors is critical for a comprehensive report and should guide the support considerations.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the differential risk assessment guidelines for high levels of binge drinking in conjunction with elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"risk assessment protocols for substance use and mental health co-occurrence\",\n      \"expected_evidence\": [\n        \"Clinical guidelines linking binge drinking to increased anxiety/depression risk.\",\n        \"Appropriate screening tools or referral pathways for alcohol misuse.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Binge drinking is a high-risk feature that needs specific clinical context, even if its contribution was low relative to the overall score. This ensures comprehensive safety coverage.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are general support considerations for expert review when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"holistic approach to mental health screening follow-up with conflicting data\",\n      \"expected_evidence\": [\n        \"Frameworks for synthesizing complex risk profiles.\",\n        \"Recommendations for multi-modal support (e.g., academic, social, clinical).\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This synthesizes the entire case complexity into actionable advice for the expert reviewer.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the recommended non-diagnostic language and communication strategy to use when discussing screening results with a student, ensuring empathy while maintaining professional boundaries?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for mental health screening results\",\n      \"expected_evidence\": [\n        \"Scripts or guidelines for communicating risk scores without pathologizing the student.\",\n        \"Emphasis on psychoeducation and self-efficacy.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure ethical, non-diagnostic communication is part of the final report.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

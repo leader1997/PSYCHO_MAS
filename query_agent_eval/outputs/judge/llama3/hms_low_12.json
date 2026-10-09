@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_12",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T05:49:59.615230+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 3,
+    "xai_alignment": 2,
+    "kdb_answerability": 4,
+    "report_usefulness": 3,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is clear, non-redundant, and safely framed, providing useful general guidance for a low-risk student. However, it covers only two of the three main XAI contributors (binge drinking and academic impairment) and omits other relevant factors such as campus belonging and institution size, limiting its alignment with the model’s full explanation. The questions are answerable via scientific literature and adapt appropriately to the low-risk probability, but broader coverage of all contributors would enhance relevance and report usefulness."
+}

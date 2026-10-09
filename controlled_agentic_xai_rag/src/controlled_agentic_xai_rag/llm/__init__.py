@@ -1,0 +1,33 @@
+from controlled_agentic_xai_rag.llm.ollama_client import (
+    chat,
+    embed,
+    EmbeddingUnavailableError,
+    embeddings_available,
+    ensure_llama3,
+    ensure_model,
+    format_for_embedding,
+    get_embed_model,
+    get_model,
+    list_embedding_models,
+    list_installed_models,
+    structured_json,
+    use_embed_model,
+    use_model,
+)
+
+__all__ = [
+    "chat",
+    "embed",
+    "EmbeddingUnavailableError",
+    "embeddings_available",
+    "ensure_llama3",
+    "ensure_model",
+    "format_for_embedding",
+    "get_embed_model",
+    "get_model",
+    "list_embedding_models",
+    "list_installed_models",
+    "structured_json",
+    "use_embed_model",
+    "use_model",
+]

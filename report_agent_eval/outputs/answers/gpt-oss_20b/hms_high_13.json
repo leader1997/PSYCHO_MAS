@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_13",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the high prediction probability (0.9661) and elevated screening risk, what are the established clinical guidelines for immediate expert review and follow-up assessment in a non-diagnostic setting?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "In a non‑diagnostic screening context, a probability of 0.9661 indicates a positive screen that warrants immediate follow‑up. The established guideline is to administer a more comprehensive assessment—such as the PHQ‑9 for depression—and arrange prompt referral to campus counseling or community mental health services (Context 1). If the student reports suicidal or homicidal ideation, or other signs of imminent risk, an urgent safety assessment by qualified professionals should be conducted without delay, ensuring timely intervention and monitoring (Context 4). These steps prioritize early identification, safety, and cost‑effective support rather than formal diagnosis.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:45:32.363116+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the current scientific understanding regarding the relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety, specifically when this feature contributes highly to the model prediction?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Current research indicates that academic impairment is a strong statistical contributor to elevated screening risk for depression and anxiety. Studies of college students show that depressive symptoms predict lower GPA and higher dropout rates, with the effect being strongest among those who also screen positive for anxiety (Eisenberg et al., 2009). Within‑person analyses further demonstrate that co‑occurring depression and anxiety are linked to poorer academic performance, while anxiety alone is associated with lower grades (Context 5). These findings suggest a bidirectional relationship: poor academic outcomes both reflect underlying mental health distress and serve as an indicator that increases the probability of a positive depression/anxiety screen in predictive models.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:47:08.137566+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How do social factors, such as reported loneliness (lonely) and low flourishing scores (flourish), contribute to the model's prediction of elevated screening risk in college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Loneliness scores (UCLA 3‑item scale ≥ 6) are a key statistical contributor because national studies link loneliness to mental and physical health problems—including depression, heart disease, and premature death—making it a strong predictor of elevated screening risk (Bonsaksen et al., 2022; US HHS, 2023). Early‑semester loneliness predicts later loneliness and is associated with higher depressive symptoms even after controlling for the number of social interactions (Ohio State reports, 2025). Low flourishing scores reflect diminished overall well‑being; research shows that reduced perceived social support and lower flourishing are linked to increased depressive symptomatology and poorer academic outcomes (Hysenbegasi et al., 2005; Dalton & Hammen, 2018). Together, these variables capture aspects of social disconnection that the model identifies as contributors to a higher screening risk. If a student reports loneliness or low flourishing, the model assigns greater weight to those features when estimating risk.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:48:45.515943+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the established benefits of high exercise frequency (exerc) as a protective factor against elevated depression/anxiety screening risk in young adults?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "The excerpts provided do not contain any explicit findings linking higher exercise frequency to lower rates of depression or anxiety screening in young adults. Context 3 reports that exercise was measured as an ordinal variable but does not present results on its association with PHQ‑9 or GAD‑7 outcomes. Context 5 notes that modifiable psychosocial and lifestyle factors at entry were associated with positive mental‑health screens, yet it does not specify which factors—exercise included or excluded. Therefore, based solely on the retrieved evidence, no established benefit of high exercise frequency as a protective factor against elevated depression/anxiety risk can be confirmed.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:49:59.090002+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations of predictive screening models (like CatBoost) when interpreting elevated depression/anxiety screening risk, particularly regarding correlation versus causation?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "The provided sources describe the purpose and implementation of universal mental‑health screening in schools and colleges, emphasizing early identification and referral processes. None of the excerpts discuss machine‑learning algorithms such as CatBoost, nor do they address statistical issues like correlation versus causation in predictive models. Consequently, I cannot identify specific limitations of predictive screening models from these documents. If you need evidence on model interpretability or causal inference concerns, additional literature that directly examines predictive analytics for depression/anxiety would be required.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:51:08.009062+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What non-diagnostic language and communication strategies should be used when discussing elevated depression/anxiety screening risk with a student to ensure safety, reduce stigma, and encourage help-seeking behavior?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When a student screens at elevated risk for depression or anxiety, frame the conversation as part of a routine well‑being check that helps identify strengths and areas where additional support might be useful—emphasizing that it is not a diagnostic label (Context 1 & 2). Use neutral, non‑pathologizing language such as “I’ve noticed you may feel more stressed or anxious lately” rather than labeling the student with a disorder; this reduces stigma and acknowledges that many students experience similar feelings (Context 5). Highlight that the goal is to offer coping strategies—like classroom skills for managing stress—or referral to counseling services, which can benefit everyone (Context 1). Invite the student to share concerns in a confidential setting, explaining that information will be used only to tailor support and that they have options for further assessment if needed (Context 3). If the student indicates self‑harm or high risk, promptly explain that you will connect them with immediate professional help as part of the safety protocol (Context 3).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T15:53:21.178908+00:00"
+    }
+  }
+}

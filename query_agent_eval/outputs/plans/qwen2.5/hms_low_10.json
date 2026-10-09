@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_10",
+  "model": "qwen2.5",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:18:15.196458+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_10",
+    "risk_interpretation": {
+      "probability": 0.0566,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "How should we interpret the model's prediction probability of 0.0566 in relation to the decision threshold of 0.5?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpreting model predictions near the decision threshold.",
+        "expected_evidence": [
+          "Model interpretation guidelines",
+          "Threshold impact on risk classification"
+        ],
+        "priority": "high",
+        "rationale": "Clarify the significance of the prediction probability relative to the threshold."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What evidence can we gather about the feature 'Exercise frequency' contributing positively to the model's risk prediction?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Studies on exercise and mental health.",
+        "expected_evidence": [
+          "Research articles",
+          "Meta-analyses"
+        ],
+        "priority": "medium",
+        "rationale": "Understand the impact of exercise frequency on depression/anxiety screening risk."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "Can we find evidence supporting the contribution of 'Weeknight sleep' to the model's prediction?",
+        "linked_xai_factor": "sleep_wknight",
+        "retrieval_query": "Research on sleep patterns and mental health.",
+        "expected_evidence": [
+          "Sleep studies",
+          "Clinical trials"
+        ],
+        "priority": "medium",
+        "rationale": "Evaluate the role of weeknight sleep in predicting elevated screening risk."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What evidence can we find to support the protective effect of 'Academic impairment' on the model's prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Studies on academic performance and mental health.",
+        "expected_evidence": [
+          "Research articles",
+          "Surveys"
+        ],
+        "priority": "medium",
+        "rationale": "Understand how academic impairment mitigates screening risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "How should we account for the model's calibration status and near-threshold prediction in our expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Guidelines on handling calibrated models with near-threshold predictions.",
+        "expected_evidence": [
+          "Model calibration documentation",
+          "Uncertainty management practices"
+        ],
+        "priority": "medium",
+        "rationale": "Ensure appropriate consideration of model limitations and uncertainty."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "How can we communicate the low-risk status to the student while ensuring they understand the importance of ongoing support?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices in non-diagnostic communication.",
+        "expected_evidence": [
+          "Communication guidelines",
+          "Case studies"
+        ],
+        "priority": "high",
+        "rationale": "Provide clear, supportive communication to the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_10\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0566,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"How should we interpret the model's prediction probability of 0.0566 in relation to the decision threshold of 0.5?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Interpreting model predictions near the decision threshold.\",\n      \"expected_evidence\": [\"Model interpretation guidelines\", \"Threshold impact on risk classification\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Clarify the significance of the prediction probability relative to the threshold.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What evidence can we gather about the feature 'Exercise frequency' contributing positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"Studies on exercise and mental health.\",\n      \"expected_evidence\": [\"Research articles\", \"Meta-analyses\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand the impact of exercise frequency on depression/anxiety screening risk.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"Can we find evidence supporting the contribution of 'Weeknight sleep' to the model's prediction?\",\n      \"linked_xai_factor\": \"sleep_wknight\",\n      \"retrieval_query\": \"Research on sleep patterns and mental health.\",\n      \"expected_evidence\": [\"Sleep studies\", \"Clinical trials\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Evaluate the role of weeknight sleep in predicting elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What evidence can we find to support the protective effect of 'Academic impairment' on the model's prediction?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"Studies on academic performance and mental health.\",\n      \"expected_evidence\": [\"Research articles\", \"Surveys\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Understand how academic impairment mitigates screening risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"How should we account for the model's calibration status and near-threshold prediction in our expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Guidelines on handling calibrated models with near-threshold predictions.\",\n      \"expected_evidence\": [\"Model calibration documentation\", \"Uncertainty management practices\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"Ensure appropriate consideration of model limitations and uncertainty.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How can we communicate the low-risk status to the student while ensuring they understand the importance of ongoing support?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices in non-diagnostic communication.\",\n      \"expected_evidence\": [\"Communication guidelines\", \"Case studies\"],\n      \"priority\": \"high\",\n      \"rationale\": \"Provide clear, supportive communication to the student.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

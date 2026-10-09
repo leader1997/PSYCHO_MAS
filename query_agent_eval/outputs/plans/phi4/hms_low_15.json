@@ -1,0 +1,98 @@
+{
+  "case_id": "hms_low_15",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:57:30.242578+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_15",
+    "risk_interpretation": {
+      "probability": 0.0579,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.0579 in relation to the decision threshold of 0.5 for elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Implications of low prediction probabilities below decision thresholds",
+        "expected_evidence": [
+          "Interpretation of low-risk predictions",
+          "Decision-making based on probability-threshold comparison"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the risk interpretation is crucial for contextualizing the model's output."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How does a high level of 'Campus belonging (item 1)' contribute to the predicted screening risk?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "Impact of campus belonging on mental health risks in students",
+        "expected_evidence": [
+          "Studies linking campus belonging with depression/anxiety",
+          "Psychological theories explaining belonging and mental health"
+        ],
+        "priority": "medium",
+        "rationale": "This feature has a high contribution level, making it significant for understanding the prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the role of 'Flourishing' as a protective factor in reducing predicted screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Role of flourishing in mental health protection for students",
+        "expected_evidence": [
+          "Research on flourishing and its impact on student mental health",
+          "Psychological benefits associated with high levels of flourishing"
+        ],
+        "priority": "medium",
+        "rationale": "Flourishing is a major protective factor, crucial for understanding risk reduction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "How does 'Age' as a high-level feature contribute to decreasing the predicted screening risk?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "Impact of age on depression/anxiety risks in students",
+        "expected_evidence": [
+          "Studies showing age-related differences in mental health risks",
+          "Developmental psychology insights into age and mental health"
+        ],
+        "priority": "medium",
+        "rationale": "Age is a significant protective factor, important for understanding its impact on risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "Guidelines on interpreting non-diagnostic screening results",
+          "Communication strategies for mental health professionals"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring correct interpretation of the tool's purpose is essential for safety and clarity."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_15\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0579,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.0579 in relation to the decision threshold of 0.5 for elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Implications of low prediction probabilities below decision thresholds\",\n      \"expected_evidence\": [\n        \"Interpretation of low-risk predictions\",\n        \"Decision-making based on probability-threshold comparison\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the risk interpretation is crucial for contextualizing the model's output.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How does a high level of 'Campus belonging (item 1)' contribute to the predicted screening risk?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"Impact of campus belonging on mental health risks in students\",\n      \"expected_evidence\": [\n        \"Studies linking campus belonging with depression/anxiety\",\n        \"Psychological theories explaining belonging and mental health\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"This feature has a high contribution level, making it significant for understanding the prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the role of 'Flourishing' as a protective factor in reducing predicted screening risk?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"Role of flourishing in mental health protection for students\",\n      \"expected_evidence\": [\n        \"Research on flourishing and its impact on student mental health\",\n        \"Psychological benefits associated with high levels of flourishing\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Flourishing is a major protective factor, crucial for understanding risk reduction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does 'Age' as a high-level feature contribute to decreasing the predicted screening risk?\",\n      \"linked_xai_factor\": \"age\",\n      \"retrieval_query\": \"Impact of age on depression/anxiety risks in students\",\n      \"expected_evidence\": [\n        \"Studies showing age-related differences in mental health risks\",\n        \"Developmental psychology insights into age and mental health\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Age is a significant protective factor, important for understanding its impact on risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"Best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"Guidelines on interpreting non-diagnostic screening results\",\n        \"Communication strategies for mental health professionals\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring correct interpretation of the tool's purpose is essential for safety and clarity.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

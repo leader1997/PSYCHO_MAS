@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_01",
+  "stratum": "borderline",
+  "qid": "Q4",
+  "question": "What are the clinical implications of high 'Flourishing' scores (flourish) in mitigating elevated screening risk? How should this strong protective factor be emphasized to the expert reviewer?",
+  "retrieval_query": "protective role of flourishing and positive psychological resources against depression/anxiety",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T08:28:26.375107+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "chunk_id": "DOC_F001_p2_c3",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "among persons with relatively low levels of social sup- port. Similarly, several prospective studies us- ing mental health outcome measures have shown a positive relation between social sup- port and mental health (Aneshensel & Frer- ichs, 1982; Billings & Moos, 1982; Henderson, Byrne, & Duncan-Jones, 1981; Holahan & Moos, 1981; Turner, 1981; Williams, Ware, & Donald, 1981). The mechanisms through which social sup- port is related to mental health outcomes and to serious physical illness outcomes, however, remain to be clarified. At a general level, it can be posited that a lack of positive social rela- tionships leads to negative psychological states such as anxiety or depression. In turn, these psychological states may ultimately influence physical health either through a direct effect on physiological processes that influence sus- ceptibility to disease or through behavioral patterns that increase risk for disease and mortality. In the following section, we outline how social support could be linked to health outcomes on a main effect basis and the mech- anism through which stress-buffering effects could occur. This framework is then used for reviewing literature on stress and support. Support as a Main Effect A generalized beneficial effect of social sup- port could occur because large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also"
+    },
+    {
+      "rank": 2,
+      "score": 0.897469,
+      "chunk_id": "DOC_F001_p2_c4",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also help one to avoid negative experiences (e.g., economic or legal problems) that otherwise would increase the probability of psychological or physical disorder. This view of support has been conceptualized from a so-"
+    },
+    {
+      "rank": 3,
+      "score": 0.872741,
+      "chunk_id": "DOC_F001_p1_c1",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Psychologkal Bulletin 1985, Vol. 98. No. 2, 31 Copyright 1985 by the American Psychological Association, Inc. 0033-2909/85/$00.75 Stress, Social Support, and the Buffering Hypothesis Sheldon Cohen Carnegie-Mellon University Thomas Ashby Wills Cornell University Medical College The purpose of this article is to determine whether the positive association between social support and well-being is attributable more to an overall beneficial effect of support (main- or direct-effect model) or to a process of support protecting persons from potentially adverse effects of stressful events (buffering model). The review of studies is organized according to (a) whether a measure assesses support structure or function, and (b) the degree of specificity (vs. globality) of the scale. By structure we mean simply the existence of relationships, and by function we mean the extent to which one's interpersonal relationships provide particular resources. Special at- tention is paid to methodological characteristics that are requisite for a fair com- parison of the models. The review concludes that there is evidence consistent with both models. Evidence for a buffering model is found when the social support measure assesses the perceived availability of interpersonal resources that are re- sponsive to the needs elicited by stressful events. Evidence for a main effect model is found when the support measure assesses a person's degree of integration in a large social network. Both conceptualizations of social support are correct in some respects, but each represents a different process through which social support may affect well-being. Implications of these conclusions for theories of social support processes and for the design of preventive interventions are discussed."
+    },
+    {
+      "rank": 4,
+      "score": 0.814787,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    },
+    {
+      "rank": 5,
+      "score": 0.786457,
+      "chunk_id": "DOC_F002_p2_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of social support is instrumental support, which is the provision of tangible assis- tance such as resources and practical help [22]. This enhances the well-being of the provider and the recipient–if the provider is emotionally engaged when supporting the recipient [23]. Students often receive instrumental support from family in the form of financial resources such as tuition and allowances, and from friends who may share food, cars, and even a couch for sleeping. In academic settings, students also receive instrumental support from teachers through the clarification of concepts, correction of misconceptions, elaboration on discussed topics, and demonstrations of problem solving and skill development behaviors. This form of instrumental support can reduce anxiety and increase help-seeking behavior, intrinsic motiva- tion, and effort [22]. Another form of social support is emotional support, which is the provision of care, con- cern, and empathy [24]. This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved"
+    }
+  ]
+}

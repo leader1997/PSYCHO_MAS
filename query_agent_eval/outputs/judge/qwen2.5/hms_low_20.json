@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_20",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:39:40.632462+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 3,
+    "xai_alignment": 2,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is clear, non-redundant, and fully answerable from a scientific knowledge base. It effectively addresses risk interpretation, evidence for key XAI contributors (finpast and aca_impa), uncertainty considerations, and safe communication practices, which supports an expert-facing report. However, it falls short in covering all major XAI factors listed in the case—particularly other risk contributors such as campus belonging, exercise frequency, institution type/size—and protective factors beyond academic impairment. This limits its alignment with the full set of model explanations and reduces overall relevance."
+}

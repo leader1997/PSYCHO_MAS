@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_high_17",
+  "model": "llama3",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T05:20:51.494093+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_17",
+    "risk_interpretation": {
+      "probability": 0.9644,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the elevated screening risk indicating about this student's mental health?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert support, it is essential to understand the implications of the elevated screening risk."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "How did 'aca_impa' contribute positively to the model's risk prediction?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert support, it is essential to understand how each XAI contributor contributed to the model's risk prediction."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How did 'food_worry' contribute positively to the model's risk prediction?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "high",
+        "rationale": "To provide expert support, it is essential to understand how each XAI contributor contributed to the model's risk prediction."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "What protective factor might have decreased the predicted screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert support, it is essential to consider potential protective factors that may have mitigated the elevated screening risk."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the limitations of the model's prediction in this case?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "medium",
+        "rationale": "To provide expert support, it is essential to consider potential limitations and uncertainties in the model's prediction."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic communication strategies can be used when discussing this student's mental health with them?",
+        "linked_xai_factor": null,
+        "retrieval_query": "...",
+        "expected_evidence": [
+          "...",
+          "..."
+        ],
+        "priority": "low",
+        "rationale": "To provide expert support, it is essential to consider non-diagnostic communication strategies that can be used when discussing this student's mental health with them."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "Here is the autonomous question plan for the structured case:\n\n{\n  \"case_id\": \"hms_high_17\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9644,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What is the elevated screening risk indicating about this student's mental health?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert support, it is essential to understand the implications of the elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How did 'aca_impa' contribute positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert support, it is essential to understand how each XAI contributor contributed to the model's risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How did 'food_worry' contribute positively to the model's risk prediction?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"high\",\n      \"rationale\": \"To provide expert support, it is essential to understand how each XAI contributor contributed to the model's risk prediction.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What protective factor might have decreased the predicted screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert support, it is essential to consider potential protective factors that may have mitigated the elevated screening risk.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the limitations of the model's prediction in this case?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"medium\",\n      \"rationale\": \"To provide expert support, it is essential to consider potential limitations and uncertainties in the model's prediction.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic communication strategies can be used when discussing this student's mental health with them?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"...\",\n      \"expected_evidence\": [\"...\", \"...\"],\n      \"priority\": \"low\",\n      \"rationale\": \"To provide expert support, it is essential to consider non-diagnostic communication strategies that can be used when discussing this student's mental health with them.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n\nNote: I have generated 6 questions that cover the prediction/risk interpretation, XAI contributors, protective factors, uncertainty/limitation, and safety/non-diagnostic communication. The questions are designed to be relevant to the student case and can guide contextual hybrid retrieval."
+}

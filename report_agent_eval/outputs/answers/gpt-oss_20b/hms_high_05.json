@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_high_05",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What are the current clinical guidelines and best practices for interpreting an elevated depression/anxiety screening risk (P > 0.9) in a university student population, particularly regarding immediate follow-up steps?",
+      "question_type": "expert_support_consideration",
+      "stratum": "high",
+      "answer": "In university health settings, a PHQ‑2 score indicating an elevated risk (P > 0.9) is treated as a positive screen and should trigger immediate follow‑up with the PHQ‑9 to gauge severity and assess for suicidal ideation (Context 1). If the PHQ‑9 reveals moderate or severe depression or any suicidality, students should be referred promptly to campus counseling services, where evidence shows improved early identification and outcomes (Contexts 1 and 5). Because many students mask depressive symptoms with somatic complaints, routine screening at every visit—rather than a complaint‑based approach—is recommended to avoid under‑detection (Context 1). Should the student report active suicidal thoughts or intent during the PHQ‑9, an urgent safety plan and referral to crisis services should be initiated in accordance with standard mental‑health safety protocols.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:40:59.018463+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What is the established relationship between academic impairment (aca_impa) and elevated screening risk for depression/anxiety in young adults, focusing on mechanisms beyond simple correlation?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Academic impairment in young adults is strongly linked to elevated screening risk for depression and anxiety, but the association operates through several mechanisms beyond simple correlation. Depression predicts lower GPA and higher dropout rates even after controlling for prior performance; this effect is especially pronounced when anhedonia—loss of pleasure—is present, indicating that diminished motivation and engagement drive academic decline rather than negative affect alone (Context 1, 3). Co‑occurring anxiety amplifies the impact of depression on grades, suggesting a synergistic increase in cognitive load and attentional demands that further impair learning (Context 1, 2). Stress is another key mediator: high stress levels during college forecast lower academic adjustment and poorer GPA, and anxious or depressed students report heightened stressful life events that undermine performance (Context 5). Finally, robust social support mitigates mental‑health challenges and is associated with better academic outcomes, acting as a protective buffer against the detrimental effects of depression and anxiety on learning (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:42:18.251661+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How does chronic loneliness contribute to elevated depression/anxiety screening risk in college students, and what are the associated psychological mechanisms?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "high",
+      "answer": "Chronic loneliness in college students elevates screening risk for depression and anxiety by creating persistent feelings of social isolation that have been linked to higher rates of depressive symptoms in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Daily assessments show that low belongingness predicts subsequent depressive symptoms even after controlling for baseline mood and other social factors, indicating loneliness as a distinct contributor. The psychological mechanisms involve both cognitive and affective pathways—loneliness is defined as the gap between desired and actual relationships, leading to negative affect and perceived rejection, which are captured in self‑report depression scales (Lewinsohn et al., 1997; Context 2). Physiologically, chronic loneliness activates sympathetic tone and the hypothalamic–pituitary–adrenal axis, reduces inflammatory regulation, and downregulates glucocorticoid‑responsive genes, all of which can foster depressive symptomatology. Because perceived social support is protective, students with low support are up to six times more likely to report depression, underscoring loneliness as a risk factor that diminishes buffering effects of supportive relationships (Context 4).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:43:50.571035+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are effective, evidence-based campus interventions or support strategies that leverage a student's sense of belonging (belong1) to mitigate elevated screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "high",
+      "answer": "Evidence shows that interventions explicitly designed to increase students’ subjective sense of belonging can reduce depressive symptoms and improve overall well‑being (Walton & Cohen 2007, 2011; Brady et al. 2020; Murphy et al. 2020). Campus programs that create structured peer‑mentoring or small learning communities—activities that foster a feeling of inclusion—have been linked to lower anxiety and depression in first‑year students (Dutcher et al., 2021). High levels of social support, closely tied to belonging, are associated with reduced suicide risk and greater life satisfaction (Durkheim; Durkheim’s work cited in Context 2) and can be promoted through group counseling, peer‑support groups, or community events. Daily experience sampling of belonging predicts end‑of‑term depressive symptoms even after controlling for loneliness and interaction frequency (Context 5), indicating that early detection systems could trigger timely belonging‑enhancing interventions. When screening indicates elevated risk, referral to qualified mental health professionals should accompany any belonging‑focused support.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:45:23.378850+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What limitations should be communicated regarding the predictive power of this screening tool (CatBoost model) when interpreting an elevated risk score, especially concerning non-diagnostic status?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "high",
+      "answer": "An elevated risk score from the CatBoost model signals a higher probability of depression, but it does not constitute a clinical diagnosis. Screening tools such as PHQ‑2 and PHQ‑9 are intended for early identification; a positive result should prompt completion of the PHQ‑9 or a formal diagnostic interview (Context 1). Traditional CTT‑based scoring can misclassify individuals because it ignores item heterogeneity, whereas IRT approaches offer more accurate estimates but still require validation across diverse populations (Context 2). Therefore, clinicians should treat an elevated score as a cue for further assessment rather than definitive evidence of depression and remain aware that stigma or somatic presentations may lead to under‑detection.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:46:32.288595+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What are the recommended communication scripts or approaches for discussing elevated depression/anxiety screening risk with a student, ensuring empathy while avoiding false reassurance or alarm?",
+      "question_type": "safety_communication",
+      "stratum": "high",
+      "answer": "When you first speak with the student, begin by acknowledging how they might be feeling—“I can see this is a difficult conversation, and I’m glad you’re here.” Then share the screening outcome in clear, non‑technical language: “The results show that your scores for depression/anxiety are higher than typical, which means we should look at additional supports.” Explain the next steps using the school’s multi‑tiered system: “We’ll refer you to Tier 2 counseling services right away so you can start working on coping strategies, and if needed we can move to more intensive support (Tier 3) later” (Context 3). Emphasize that this is a normal part of early identification and that help is available—“It’s not something to panic about, but it does mean we’re going to give you extra resources so you feel better.” Finally invite the student to discuss any concerns with a trusted counselor or teacher and remind them that referrals will be made promptly (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T14:48:25.257764+00:00"
+    }
+  }
+}

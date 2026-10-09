@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_high_01",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-02T10:51:53.144176+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is highly relevant, clear, and non-redundant, providing comprehensive evidence-based inquiries that align well with the model’s key XAI contributors. It covers risk interpretation, major contributor evidence, protective factors, model limitations, safety communication, and expert support considerations, all of which are answerable via a scientific knowledge database and would meaningfully inform an expert-facing report. The only minor shortfall is the omission of some lower‑contribution XAI factors (e.g., food_worry, loneliness), hence a score of 4 for xai_alignment."
+}

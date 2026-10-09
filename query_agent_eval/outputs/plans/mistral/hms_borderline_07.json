@@ -1,0 +1,141 @@
+{
+  "case_id": "hms_borderline_07",
+  "model": "mistral",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:20:29.681144+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_borderline_07",
+    "risk_interpretation": {
+      "probability": 0.501,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "borderline"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What is the interpretation of a screening risk probability of 0.501 for this student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Interpretation of screening risk probability",
+        "expected_evidence": [
+          "interpretation of 0.501 screening risk"
+        ],
+        "priority": "high",
+        "rationale": "To provide context for the elevated-risk interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of loneliness to this student's screening risk?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "Evidence for loneliness contribution to screening risk",
+        "expected_evidence": [
+          "evidence for loneliness contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of a major contributor to the elevated-risk interpretation."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of flourishing to this student's screening risk?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "Evidence for flourishing contribution to screening risk",
+        "expected_evidence": [
+          "evidence for flourishing contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of a contributor to the elevated-risk interpretation."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of food insecurity worry to this student's screening risk?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "Evidence for food insecurity worry contribution to screening risk",
+        "expected_evidence": [
+          "evidence for food insecurity worry contribution"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of a significant contributor to the elevated-risk interpretation."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the evidence supporting the contribution of positive mental health to this student's screening risk?",
+        "linked_xai_factor": "positiveMH",
+        "retrieval_query": "Evidence for positive mental health contribution to screening risk",
+        "expected_evidence": [
+          "evidence for positive mental health contribution"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of a contributor to the elevated-risk interpretation."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of academic impairment for this student?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "Evidence for academic impairment as a protective factor",
+        "expected_evidence": [
+          "evidence for academic impairment as a protective factor"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of a protective factor."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of current financial situation for this student?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "Evidence for current financial situation as a protective factor",
+        "expected_evidence": [
+          "evidence for current financial situation as a protective factor"
+        ],
+        "priority": "medium",
+        "rationale": "To understand the impact of a protective factor."
+      },
+      {
+        "question_id": "Q8",
+        "question_type": "protective_factor",
+        "question": "What is the evidence supporting the protective effect of exercise frequency for this student?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "Evidence for exercise frequency as a protective factor",
+        "expected_evidence": [
+          "evidence for exercise frequency as a protective factor"
+        ],
+        "priority": "high",
+        "rationale": "To understand the impact of a protective factor."
+      },
+      {
+        "question_id": "Q9",
+        "question_type": "safety_communication",
+        "question": "What are some important safety considerations when communicating this elevated screening risk to the student?",
+        "linked_xai_factor": null,
+        "retrieval_query": "Safety considerations for non-diagnostic communication",
+        "expected_evidence": [
+          "safety considerations for non-diagnostic communication"
+        ],
+        "priority": "high",
+        "rationale": "To ensure safe and appropriate communication with the student."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": " {\n     \"case_id\": \"hms_borderline_07\",\n     \"risk_interpretation\": {\n       \"probability\": 0.501,\n       \"threshold\": 0.5,\n       \"risk_level\": \"elevated_screening_risk\",\n       \"planning_strategy\": \"borderline\"\n     },\n     \"question_plan\": [\n       {\n         \"question_id\": \"Q1\",\n         \"question_type\": \"risk_interpretation\",\n         \"question\": \"What is the interpretation of a screening risk probability of 0.501 for this student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Interpretation of screening risk probability\",\n         \"expected_evidence\": [\"interpretation of 0.501 screening risk\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To provide context for the elevated-risk interpretation.\"\n       },\n       {\n         \"question_id\": \"Q2\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of loneliness to this student's screening risk?\",\n         \"linked_xai_factor\": \"lonely\",\n         \"retrieval_query\": \"Evidence for loneliness contribution to screening risk\",\n         \"expected_evidence\": [\"evidence for loneliness contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of a major contributor to the elevated-risk interpretation.\"\n       },\n       {\n         \"question_id\": \"Q3\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of flourishing to this student's screening risk?\",\n         \"linked_xai_factor\": \"flourish\",\n         \"retrieval_query\": \"Evidence for flourishing contribution to screening risk\",\n         \"expected_evidence\": [\"evidence for flourishing contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of a contributor to the elevated-risk interpretation.\"\n       },\n       {\n         \"question_id\": \"Q4\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of food insecurity worry to this student's screening risk?\",\n         \"linked_xai_factor\": \"food_worry\",\n         \"retrieval_query\": \"Evidence for food insecurity worry contribution to screening risk\",\n         \"expected_evidence\": [\"evidence for food insecurity worry contribution\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of a significant contributor to the elevated-risk interpretation.\"\n       },\n       {\n         \"question_id\": \"Q5\",\n         \"question_type\": \"xai_contributor_evidence\",\n         \"question\": \"What is the evidence supporting the contribution of positive mental health to this student's screening risk?\",\n         \"linked_xai_factor\": \"positiveMH\",\n         \"retrieval_query\": \"Evidence for positive mental health contribution to screening risk\",\n         \"expected_evidence\": [\"evidence for positive mental health contribution\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of a contributor to the elevated-risk interpretation.\"\n       },\n       {\n         \"question_id\": \"Q6\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of academic impairment for this student?\",\n         \"linked_xai_factor\": \"aca_impa\",\n         \"retrieval_query\": \"Evidence for academic impairment as a protective factor\",\n         \"expected_evidence\": [\"evidence for academic impairment as a protective factor\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q7\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of current financial situation for this student?\",\n         \"linked_xai_factor\": \"fincur\",\n         \"retrieval_query\": \"Evidence for current financial situation as a protective factor\",\n         \"expected_evidence\": [\"evidence for current financial situation as a protective factor\"],\n         \"priority\": \"medium\",\n         \"rationale\": \"To understand the impact of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q8\",\n         \"question_type\": \"protective_factor\",\n         \"question\": \"What is the evidence supporting the protective effect of exercise frequency for this student?\",\n         \"linked_xai_factor\": \"exerc\",\n         \"retrieval_query\": \"Evidence for exercise frequency as a protective factor\",\n         \"expected_evidence\": [\"evidence for exercise frequency as a protective factor\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To understand the impact of a protective factor.\"\n       },\n       {\n         \"question_id\": \"Q9\",\n         \"question_type\": \"safety_communication\",\n         \"question\": \"What are some important safety considerations when communicating this elevated screening risk to the student?\",\n         \"linked_xai_factor\": null,\n         \"retrieval_query\": \"Safety considerations for non-diagnostic communication\",\n         \"expected_evidence\": [\"safety considerations for non-diagnostic communication\"],\n         \"priority\": \"high\",\n         \"rationale\": \"To ensure safe and appropriate communication with the student.\"\n       }\n     ],\n     \"self_check\": {\n       \"risk_interpretation_included\": true,\n       \"all_major_xai_factors_covered\": true,\n       \"protective_factors_covered\": true,\n       \"uncertainty_or_limitation_included\": false,\n       \"safety_question_included\": true,\n       \"no_diagnostic_language\": true,\n       \"no_treatment_advice\": true,\n       \"no_causal_xai_language\": true,\n       \"non_redundant_questions\": true\n     },\n     \"missing_information\": [],\n     \"ready_for_retrieval\": true\n   }"
+}

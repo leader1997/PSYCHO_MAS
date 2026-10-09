@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_07",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:39:25.301159+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing comprehensive risk interpretation, contributor evidence, protective factor insights, model limitations, and safe communication guidance. It leverages general scientific knowledge effectively and supports expert reporting. However, it does not cover all XAI contributors listed in the case (e.g., flourish, positiveMH, finpast, aca_impa, belong1, sleep_wknight), which limits full alignment with the model’s explanatory factors."
+}

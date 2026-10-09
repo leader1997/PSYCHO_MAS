@@ -1,0 +1,66 @@
+{
+  "model": "mistral",
+  "case_id": "hms_borderline_02",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' screening result, especially when the model is calibrated?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "Given the provided context, a 'borderline' screening result on the Patient Health Questionnaire 9 (PHQ-9) for university students in Colombia, when the prediction probability is extremely close to the decision threshold (0.4997), suggests ambiguity in the assessment of depressive symptoms. The PHQ-9, while widely used and reliable, has limitations when evaluated using classical test theory (CTT). CTT-based methods may provide inaccurate diagnoses and do not consider the heterogeneity in each specific item.\n\nHowever, recent trends are moving towards item response theory (IRT) approaches, which offer several advantages over CTT and are considered more appropriate for assessing the psychometric properties of screening scales like the PHQ-9. IRT models provide a richer description of item performance, greater detail on the accuracy of a measure, and scores that are invariant across different samples when assumptions are met.\n\nIn this context, it is recommended to consider both CTT and IRT approaches for a comprehensive evaluation of borderline screening results. If resources allow, it would be beneficial to utilize IRT models to increase the validity and utility of depression screening in culturally diverse settings like Colombia. Regardless of the approach used, it is crucial to exercise caution when interpreting borderline results and consider referring students for further evaluation by qualified support services if necessary.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:42:41.475311+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are evidence-based strategies for addressing moderate levels of loneliness in college students, particularly when this feature is identified as a major contributor to elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "To address moderate levels of loneliness in college students, particularly when it is a major contributor to elevated screening risk, evidence-based strategies include:\n\n1. Implementing multi-tiered prevention and early intervention strategies that focus on teaching core social-emotional-behavioral skills (Context 1). This approach can help address mental health needs before they escalate.\n\n2. Screening students for loneliness using validated tools like the UCLA 3-item loneliness scale, and providing follow-up support to those who score high (Context 2 & 3).\n\n3. Encouraging a sense of community among first-year students, as strong start-of-semester feelings of community can predict less loneliness mid-semester (Context 3).\n\n4. Focusing on perceived social support, which has been shown to have a protective effect on mental health and may reduce depressive symptoms (Context 5). This could involve creating opportunities for students to build supportive relationships and fostering a sense of belonging within the college community.\n\nReferral to qualified support services may be necessary for students experiencing elevated levels of loneliness, as persistent feelings of loneliness can have negative impacts on mental and physical health.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:42:51.801943+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How can existing protective factors, such as high exercise frequency and reported flourishing levels, be leveraged in initial support conversations to build resilience and mitigate screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "In initial support conversations with students, leveraging existing protective factors such as high exercise frequency and reported flourishing levels can help build resilience and mitigate screening risk. The benefits of asking about well-being and social-emotional strengths, as outlined in Context 2, include reducing stigma, enhancing students' sense of empowerment, providing valuable information about all students, and promoting better academic success.\n\nSchool mental health screening (Context 3), which identifies the strengths and needs of all students, can help promote a multi-tiered system of supports (MTSS). This approach ensures that appropriate supports are provided to more than just those students who present with the highest level of risk. By understanding the many factors contributing to psychological discomfort at individual, interpersonal, institutional, and community levels (Context 4), preventative and intervention strategies can be informed, fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity.\n\nMoreover, early identification of social, emotional, and behavioral difficulties through school mental health screening (Context 1) is less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. By addressing these challenges early, escalation can be prevented, making it essential to screen all students, not just those identified as being at risk for or already displaying mental health concerns.\n\nIn cases where students exhibit elevated risk, it is crucial to refer them to qualified support services immediately to ensure safety (Context 1). Creating successful preventative and intervention plans requires an understanding of the multi-level factors contributing to psychological discomfort (Context 4), which can help tailor supports to individual student needs.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:43:04.153372+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the differential risk assessment guidelines for high levels of binge drinking in conjunction with elevated depression/anxiety screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "In the context provided, high levels of binge drinking in conjunction with elevated depression/anxiety screening risk can be assessed using a systematic tool or process, such as school mental health screening. This screening is conducted for all students and involves measuring indicators of well-being, life satisfaction, social determinants of mental health, adverse early life experiences, and substance use, including binge drinking.\n\nStudents who endorse high levels of binge drinking and elevated depression/anxiety symptoms are at risk and may require further assessment and support. The primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7, respectively. These students were identified as being at-risk or already experiencing a mental health problem.\n\nIt is important to note that early identification of social, emotional, and behavioral difficulties and early intervention services are less costly than long-term, intensive mental health care options such as emergency department care and inpatient hospitalization. Universal school screening has been shown to connect students and families to cost-effective services such as individual and group outpatient mental health services and support groups.\n\nHowever, for students who endorse suicidal or homicidal ideation, have a certain number of risk-taking behaviors, or office discipline referrals, and/or experience poor academic progress, immediate assessment and referral to qualified support are necessary due to the elevated risk of harm to self or others.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:43:15.486129+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are general support considerations for expert review when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "In the context provided, when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening, it is recommended to implement a multi-tiered approach for support consideration. This approach involves systematic mental health screening for all students, not just those identified as being at risk, using reliable and feasible tools such as the Patient Health Questionnaire-2 (PHQ-2).\n\nThe screening data can help identify concerns specific to certain subsets of a school’s population, such as a single grade or age group. Understanding these possible trends can be critical for providing equitable supports within a school. For example, if screening reveals high levels of student stress and anxiety in a particular classroom, it may be helpful to provide classroom supports directly to the group to assess if there are larger group dynamics and classroom factors that can be addressed.\n\nScreening data can also help prioritize which students may benefit from more individualized services versus those who can have their needs addressed as part of a classroom intervention. It is important to note that asking students about their well-being, in addition to their psychological distress, has several benefits, including reducing stigma and enhancing students’ sense of empowerment and self-esteem.\n\nIn cases where a student screens positive for depression, further evaluation with the PHQ-9 may be necessary, and they should be referred to counseling services if needed. However, it is crucial to respond immediately to any risk of harm to self or others.\n\nLastly, it is essential to include students and families in the screening, planning, and implementation process, share information about screening in multiple formats prior to implementation, inform students and families about screening procedures in advance, and offer the opportunity to consent or opt out. Gradual rollout of initial screening efforts can ensure the effectiveness of all processes before scaling up.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:43:28.396326+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the recommended non-diagnostic language and communication strategy to use when discussing screening results with a student, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "Recommended non-diagnostic language and communication strategy when discussing screening results with a student involves empathy, transparency, and maintaining professional boundaries. The screening process is presented as a proactive approach to gather valuable information for planning and implementing prevention and early intervention strategies (Context 1). Schools use systematic tools or processes to identify the strengths and needs of students, not just those at risk for mental health concerns (Context 2).\n\nWhen discussing results, it's essential to explain that screening is a way to help address unique mental health needs before they escalate (Context 1 & 2) and emphasize that the student's well-being is a priority. It's also crucial to involve students and families in the screening, planning, and implementation process (Context 3).\n\nWhen discussing high levels of stress or anxiety, for example, it can be helpful to explain that teaching coping skills may be implemented in classrooms as a strategy to help reduce anxiety (Context 1). If a student is identified as being at-risk or already experiencing a mental health problem, they should be referred to appropriate mental health services (Context 3).\n\nIn the case of college students, using a screening tool like the Patient Health Questionnaire-2 (PHQ-2) can help in early identification of depression (Context 5). It's important to note that this is just a first step and further evaluation may be necessary if a student screens positive. The goal is to increase awareness and screening of depression among college students, ultimately aiming to provide beneficial mental health services for those experiencing depression (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:43:39.874690+00:00"
+    }
+  }
+}

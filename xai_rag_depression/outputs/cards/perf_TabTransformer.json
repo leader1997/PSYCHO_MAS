@@ -1,0 +1,17 @@
+{
+  "card_type": "model_performance",
+  "model": "TabTransformer",
+  "family": "DL",
+  "metrics": {
+    "auc": 0.8512,
+    "accuracy": 0.7693,
+    "f1": 0.7252,
+    "macro_f1": 0.7632,
+    "recall": 0.6776,
+    "pr_auc": 0.8238,
+    "brier": 0.1574
+  },
+  "stability_score": 0.8456,
+  "calibration_score": 0.8426,
+  "model_weight": 0.5438
+}

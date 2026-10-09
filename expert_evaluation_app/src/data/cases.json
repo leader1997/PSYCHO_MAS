@@ -1,0 +1,2025 @@
+[
+  {
+    "id": "HMS_001",
+    "source_case_id": "hms_high_01",
+    "stratum": "high",
+    "test_index": 477,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 33.0,
+        "value_display": "33"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": 8.0,
+        "value_display": "8"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 6.0,
+        "value_display": "6"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 6.0,
+        "value_display": "6"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 15.0,
+        "value_display": "15"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 1.0,
+        "value_display": "1"
+      }
+    ],
+    "screening": {
+      "probability": 0.9795,
+      "threshold": 0.5,
+      "label": "Above threshold",
+      "risk_label": "elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": 1.2582
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "shap": 0.7275
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.4153
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.3445
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "shap": 0.3241
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "shap": -0.0289
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+        "doc_id": "DOC_E001",
+        "score": 0.9899
+      },
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.936
+      },
+      {
+        "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+        "doc_id": "DOC_A001",
+        "score": 0.9344
+      },
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 0.9219
+      },
+      {
+        "title": "[PDF] Mental Health and Academic Success in College (revised and",
+        "doc_id": "DOC_D003",
+        "score": 0.8715
+      }
+    ],
+    "report_summary": "Q1: The retrieved evidence does not provide general established clinical guidelines for interpreting an arbitrary high prediction probability score in a non-diagnostic setting. However, specific protocols are detailed based on screening tools and settings. For college students who screen positive using the PHQ-2, the recommended approach is further evaluation with the PHQ-9, followed by possible referral to…\n\nQ2: The scientific literature suggests a consistent association between elevated screening risk for depression and anxiety and lower academic outcomes in young adults. Specifically, studies have found that depression is a significant predictor of both lower Grade Point Average (GPA) and an increased probability of dropping out during college years. This link is further supported by findings indicating that…\n\nQ3: The retrieved evidence indicates that basic needs insecurity, which includes food and housing concerns, is highly prevalent among various student populations, but it does not describe the specific mechanism by which worry about food insecurity contributes to an elevated screening risk for depression or anxiety. While the context notes that mental health issues are a significant factor leading students to stop out…\n\nQ4: The provided context does not contain information regarding protective mechanisms associated with institutional type ($\\text{inst\\_type}$). However, screening data can shed light on strengths and concerns specific to subsets of a population, such as certain grade or age groups, which is critical for providing equitable supports. To provide a balanced view of resilience, it is beneficial to systematically gather…\n\nQ5: The provided context passages do not contain any information regarding the known limitations of machine learning models, such as CatBoost, when applied to complex human behavioral data. Therefore, it is not possible to advise on how these specific technical limitations should be communicated within an expert report based solely on the retrieved evidence.\n\nQ6: Non-diagnostic communication strategies require involving students and families in the planning, implementation, and informing processes by sharing information about screening procedures in multiple formats prior to the effort [Context 3]. It is recommended that these communications offer the opportunity for consent or opt-out. Regarding immediate safety protocols, any risk of harm to self or others must be…",
+    "report_source": "report_agent_answers:gemma4"
+  },
+  {
+    "id": "HMS_002",
+    "source_case_id": "hms_high_02",
+    "stratum": "high",
+    "test_index": 1651,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 24.0,
+        "value_display": "24"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 29.0,
+        "value_display": "29"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 0.0,
+        "value_display": "0"
+      }
+    ],
+    "screening": {
+      "probability": 0.9743,
+      "threshold": 0.5,
+      "label": "Above threshold",
+      "risk_label": "elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": 1.1747
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "shap": 0.821
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.401
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "shap": 0.389
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.3416
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "shap": -0.0366
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9984
+      },
+      {
+        "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+        "doc_id": "DOC_E001",
+        "score": 0.9653
+      },
+      {
+        "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+        "doc_id": "DOC_D004",
+        "score": 0.9651
+      },
+      {
+        "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+        "doc_id": "DOC_A002",
+        "score": 0.9252
+      },
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 0.9219
+      }
+    ],
+    "report_summary": "Q1: A probability of 0.9743 with an elevated risk label constitutes a positive screen according to college‑based depression‐screening protocols.  The PHQ‑2 is intended only as a brief initial screener; the next step is to administer the PHQ‑9 to gauge symptom severity and confirm whether depressive symptoms meet clinical thresholds.  If the PHQ‑9 indicates moderate or greater severity, clinicians should refer the…\n\nQ2: Current literature consistently shows that students who screen positive for depression or anxiety experience academic impairment, reflected in lower GPAs and higher dropout rates. In a longitudinal study of college students, Eisenberg et al. found depressive symptoms predicted a lower GPA and an increased probability of dropping out after controlling for prior performance (Context 2). The same authors reported…\n\nQ3: Food‑worry elevates screening risk because it is strongly associated with the mental‑health indicators that trigger a positive screen.  In the Hope Center surveys, 41 % of students reported food insecurity and 62 % of those with disabilities—who are already at higher risk for basic‑needs gaps—experienced food or housing insecurity (Context 5; Context 2).  These insecurities were linked to “emotional stress/mental…\n\nQ4: The retrieved data show strong positive correlations between academic procrastination and elevated stress, anxiety, and depression among medical students (r ≈ 0.4–0.47, p < 0.001). These negative mental‑health indicators are linked to poorer academic outcomes in other studies, suggesting that lower well‑being may increase the likelihood of screening positive for clinical symptoms. However, none of the provided…\n\nQ5: Adequate weeknight sleep appears to act as a statistical contributor that mitigates the likelihood of positive depression and anxiety screens among college students.  The scoping review identified poor sleep as an individual‑level determinant of psychological distress, alongside academic pressure and financial stress (Context 1).  Modifiable psychosocial factors—including sleep patterns—were linked to higher…\n\nQ6: Machine‑learning classifiers such as CatBoost are only as valid as the data on which they are trained; if a training set lacks representation from diverse cultural groups, the model can inherit systematic item biases that have been shown to affect depression screening tools (e.g., PHQ‑9) and reduce validity in culturally heterogeneous settings (see evidence on IRT improving cross‑cultural invariance). Because…\n\nQ7: Begin by thanking the student for sharing their information, noting that participation in screening helps identify areas where additional support may be beneficial (Context 3). Explain that the result indicates a higher likelihood of needing further check‑in rather than a diagnosis, using neutral language such as “your responses suggest you might benefit from an additional conversation about coping strategies”…",
+    "report_source": "report_agent_answers:gpt-oss_20b"
+  },
+  {
+    "id": "HMS_003",
+    "source_case_id": "hms_high_03",
+    "stratum": "high",
+    "test_index": 1905,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 19.0,
+        "value_display": "19"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 6.0,
+        "value_display": "6"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 6.0,
+        "value_display": "6"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 23.0,
+        "value_display": "23"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 1.0,
+        "value_display": "1"
+      }
+    ],
+    "screening": {
+      "probability": 0.9737,
+      "threshold": 0.5,
+      "label": "Above threshold",
+      "risk_label": "elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": 1.1158
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "shap": 0.755
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.4063
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.3476
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "shap": 0.3394
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "shap": -0.0394
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+        "doc_id": "DOC_E001",
+        "score": 0.9789
+      },
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9764
+      },
+      {
+        "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+        "doc_id": "DOC_A001",
+        "score": 0.9679
+      },
+      {
+        "title": "[PDF] The importance of belonging for well-being in college students",
+        "doc_id": "DOC_F002",
+        "score": 0.9538
+      },
+      {
+        "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+        "doc_id": "DOC_C003",
+        "score": 0.9462
+      }
+    ],
+    "report_summary": "Q1: In this setting, a high probability and an “elevated screening risk” label indicate that the brief PHQ‑2 screen has identified a likely case of depression. The next evidence‑based step is to administer the full PHQ‑9 to determine symptom severity and functional impact (Context 1). If the PHQ‑9 score reaches moderate or greater severity—or if any suicidal ideation or safety concerns are noted—the student should be…\n\nQ2: Scientific studies show that academic impairment is a significant contributor to the likelihood of screening positive for depressive and anxiety symptoms. In a longitudinal Canadian university cohort, students who reported lower grades during their first year were more likely to screen positive for clinically significant depression (28 % at entry rising to 36 %) and anxiety (33 % to 39 %), indicating a strong…\n\nQ3: Food‑worry contributes to elevated screening risk because the survey data show that 41 % of students experience food insecurity and 44 % report clinically significant anxiety or depression, indicating a strong association between basic‑needs stress and mental‑health symptoms. Students who are Pell Grant recipients—who already face higher financial strain—are 17 percentage points more likely to be food insecure…\n\nQ4: Loneliness among college‑aged young adults is a well‑documented risk factor for physical and mental health problems, including depression, anxiety, and lower academic retention (Bonsaksen et al., 2022; Zhai & Carney, 2024). The National College Health Assessment flags students as lonely when their UCLA 3‑item score reaches six or more, a threshold that correlates with heightened screening risk for depressive…\n\nQ5: Evidence shows that disrupted or inadequate sleep is a significant contributor to depressive and anxious symptoms among college students (Context 2) and is listed as an individual‑level risk factor for psychological distress in a recent scoping review (Context 5). While the retrieved sources do not directly quantify the protective effect of *stable* weeknight sleep patterns, the inverse relationship between poor…\n\nQ6: The provided passages do not describe the CatBoost model itself, so no specific limitations of that algorithm are documented here.  \nIn general, school‑based screening tools can show reduced accuracy if they have not been validated across diverse cultural groups; the text notes that acceptability varies by culture (Context 2).  \nStudent wellbeing levels and risk behaviors such as suicidal ideation or poor…\n\nQ7: Based on the screening results, it appears that you may be experiencing some concerns related to your emotional well‑being. We want to ensure your safety and will arrange for a more detailed assessment with our mental health team as soon as possible—this is part of the school’s defined process for triaging students who may need higher‑tier supports (Context 4). In the meantime, please let us know if you feel…",
+    "report_source": "report_agent_answers:gpt-oss_20b"
+  },
+  {
+    "id": "HMS_004",
+    "source_case_id": "hms_borderline_01",
+    "stratum": "borderline",
+    "test_index": 6192,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 22.0,
+        "value_display": "22"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 50.0,
+        "value_display": "50"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 1.0,
+        "value_display": "1"
+      }
+    ],
+    "screening": {
+      "probability": 0.5001,
+      "threshold": 0.5,
+      "label": "Above threshold",
+      "risk_label": "elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.4561
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.4305
+      },
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "shap": 0.0412
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Campus belonging (item 1)",
+        "shap": 0.0352
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "shap": 0.0147
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "shap": -0.3898
+      }
+    ],
+    "evidence": [
+      {
+        "title": "The Mediating Role of Loneliness Between Social Support and",
+        "doc_id": "DOC_C001",
+        "score": 1.0
+      },
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 1.0
+      },
+      {
+        "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+        "doc_id": "DOC_F001",
+        "score": 1.0
+      },
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 0.9627
+      },
+      {
+        "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+        "doc_id": "DOC_B005",
+        "score": 0.95
+      }
+    ],
+    "report_summary": "Q1: The retrieved evidence does not provide specific clinical guidelines for interpreting 'near-threshold' results or address the implications of calibration confirming proximity to a decision threshold. However, general screening protocols mentioned suggest that students who screen positive on initial tools should undergo further evaluation. For instance, when using the PHQ-2, college students who screen positive…\n\nQ2: Evidence suggests that loneliness is recognized as a common risk factor for depressive symptoms in college students. This association is often viewed in contrast to perceived social support, which has been documented to have a protective effect on mental health outcomes. Specifically, previous literature indicates that lower levels of social support were associated with increased likelihoods of experiencing…\n\nQ3: Current financial instability is identified as one of several stressors that contribute to elevated mental health risks during university entry. Specifically, students are exposed to numerous stressors related to financing their studies, which contributes to the high-risk period for developing significant mental health problems. While screening itself serves as a proactive opportunity for effective prevention and…\n\nQ4: The retrieved context passages do not contain any information regarding \"Flourishing\" scores or how they relate to mitigating elevated screening risk. Therefore, it is not possible to provide clinical implications or guidance on emphasizing this specific protective factor based solely on the provided evidence. The available literature focuses broadly on the role of social support—such as emotional and…\n\nQ5: Evidence suggests that positive social support contributes to mental health outcomes, with a theoretical framework outlining how such support can mediate stress-buffering effects. Specifically, a lack of positive social relationships has been linked to negative psychological states, such as anxiety or depression. In student populations, positive social interaction has been shown to predict fewer academic…\n\nQ6: The provided context passages do not contain standardized communication guidelines for discussing elevated screening risk with a student or an expert team regarding empathy and professional boundaries. The retrieved information focuses on the purpose of mental health screening, defining it as a systematic tool to identify strengths and needs, and outlines procedural steps such as involving families in the process…",
+    "report_source": "report_agent_answers:gemma4"
+  },
+  {
+    "id": "HMS_005",
+    "source_case_id": "hms_borderline_02",
+    "stratum": "borderline",
+    "test_index": 2956,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 19.0,
+        "value_display": "19"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 46.0,
+        "value_display": "46"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 0.0,
+        "value_display": "0"
+      }
+    ],
+    "screening": {
+      "probability": 0.4997,
+      "threshold": 0.5,
+      "label": "Near threshold (borderline)",
+      "risk_label": "not_elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.4229
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.1891
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "shap": 0.1045
+      },
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "shap": 0.0317
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "shap": 0.016
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "shap": -0.2818
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 1.0
+      },
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9984
+      },
+      {
+        "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+        "doc_id": "DOC_B007",
+        "score": 0.9338
+      },
+      {
+        "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+        "doc_id": "DOC_A001",
+        "score": 0.8767
+      },
+      {
+        "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+        "doc_id": "DOC_A002",
+        "score": 0.8747
+      }
+    ],
+    "report_summary": "Q1: The retrieved passages describe the PHQ‑9 as a validated screening instrument with algorithmic cut‑offs and continuous scoring, but they do not provide specific instructions for interpreting probabilities that lie very close to a decision threshold. Because the model is calibrated, the probability estimate of 0.4997 can be considered an accurate reflection of risk; however, its proximity to 0.5 indicates…\n\nQ2: Screening with the UCLA 3‑item loneliness scale (Context 2) flags students scoring ≥6, allowing early intervention before risk escalates (Context 1). A multi‑tiered approach that begins with universal community‑building activities at the start of the semester has been shown to reduce later loneliness, as stronger initial feelings of community predict lower mid‑semester loneliness (Context 4). Targeted programs…\n\nQ3: In initial support conversations, frame high exercise frequency as a concrete protective behavior that students already use successfully, linking it to research showing that students who report average or high well‑being experience better academic and long‑term outcomes. Highlight their reported flourishing levels as evidence of existing resilience, noting that acknowledging these strengths reduces stigma and…\n\nQ4: Screening protocols that combine PHQ‑9/GAD‑7 (cut‑off ≥10) with a substance misuse item defining binge drinking as ≥4 drinks on one occasion provide the data needed to flag students at elevated risk. When a student screens positive for clinically significant depressive or anxiety symptoms and also reports frequent binge drinking, the screening team should trigger an immediate safety assessment per Tier 2/3…\n\nQ5: When a student displays both high‑risk indicators and strong protective factors, experts should treat the profile as an opportunity for targeted prevention rather than immediate crisis intervention, consistent with a multi‑tiered approach that addresses needs before they worsen (Context 4). Screening data can inform whether to provide individualized services or classroom‑wide supports, especially if other…\n\nQ6: When sharing screening results, use a supportive tone that frames the findings as part of a routine, non‑diagnostic assessment aimed at identifying strengths and areas where additional support may be helpful (Context 1). Avoid labeling the student with a disorder; instead describe specific indicators (e.g., “you reported higher levels of stress and anxiety”) and explain that these are signals used to guide…",
+    "report_source": "report_agent_answers:gpt-oss_20b"
+  },
+  {
+    "id": "HMS_006",
+    "source_case_id": "hms_borderline_03",
+    "stratum": "borderline",
+    "test_index": 1222,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 18.0,
+        "value_display": "18"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": 7.0,
+        "value_display": "7"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 44.0,
+        "value_display": "44"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 0.0,
+        "value_display": "0"
+      }
+    ],
+    "screening": {
+      "probability": 0.5004,
+      "threshold": 0.5,
+      "label": "Above threshold",
+      "risk_label": "elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": 0.4493
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "shap": 0.2785
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "shap": 0.1678
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "shap": 0.1301
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "shap": 0.1037
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": -1.0793
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9751
+      },
+      {
+        "title": "[PDF] Examining Student Loneliness at The Ohio State University",
+        "doc_id": "DOC_C003",
+        "score": 0.9053
+      },
+      {
+        "title": "Validity and reliability of the Generalized Anxiety Disorder-7 (GAD-7",
+        "doc_id": "DOC_B003",
+        "score": 0.8921
+      },
+      {
+        "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+        "doc_id": "DOC_B002",
+        "score": 0.8919
+      },
+      {
+        "title": "The prediction of student wellbeing and flourishing from university",
+        "doc_id": "DOC_F004",
+        "score": 0.8859
+      }
+    ],
+    "report_summary": "Q1: Because the predicted probability of 0.5004 is only 0.0004 above a 0.5 cutoff, the case is statistically borderline; even with confirmed calibration, sampling variability could shift it below threshold. In such near‑threshold situations, screening protocols recommend an additional assessment step—such as a follow‑up questionnaire or clinical interview—to confirm risk before triaging to higher‑tier supports…\n\nQ2: Moderate loneliness in university students is consistently linked to a higher likelihood of screening positive for depression. A large student sample found that those reporting lower perceived social support—often indicative of moderate loneliness—were six times more likely to report depressive symptoms (Context 3). National College Health Assessment data show that loneliness correlates with a spectrum of mental…\n\nQ3: High levels of worry about food insecurity signal a basic‑needs deficit that is strongly linked to emotional stress and poorer mental‑health outcomes, as shown by the 62 % of students with disabilities who experience food or housing insecurity and the 52 % of Pell Grant recipients reporting food insecurity (Context 5). This risk factor can elevate screening scores because it reflects a chronic stressor that often…\n\nQ4: Evidence shows that depressive symptoms predict lower GPA and higher dropout rates (Eisenberg et al., 2009; Duffy et al., 2024), indicating a strong link between mental health problems and academic impairment. The retrieved studies do not directly examine “low level academic impairment” as a protective factor, so there is no empirical basis to assert that it reduces screening risk beyond the inverse relationship…\n\nQ5: In a screening framework, flourishing at the medium level is operationalized as scores that reflect average to high levels of well‑being across hedonic (life satisfaction), eudaimonic (personal growth) and social dimensions such as school belonging. Evidence shows that students who report these moderate‑to‑high wellbeing indicators achieve better current and long‑term academic outcomes, independent of their level…\n\nQ6: The scoping review (Context 3) identifies poor sleep as a key individual‑level determinant of psychological distress among college students, underscoring the need for psychoeducational interventions that target sleep hygiene and stress management. Integrated, multi‑level strategies—such as campus‑wide wellness programs, peer support groups, and accessible counseling services—are recommended to address this risk…\n\nQ7: Mandatory safety guidelines include informing students and families about the screening process, obtaining consent or opt‑out options, selecting a reliable tool, rolling out the program gradually, responding immediately to any self‑harm risk, and having a defined triage protocol that directs identified at‑risk students to Tier 2 or Tier 3 services (Context 4). The protocol should document how many students were…",
+    "report_source": "report_agent_answers:gpt-oss_20b"
+  },
+  {
+    "id": "HMS_007",
+    "source_case_id": "hms_low_01",
+    "stratum": "low",
+    "test_index": 1952,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 57.0,
+        "value_display": "57"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 56.0,
+        "value_display": "56"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 1.0,
+        "value_display": "1"
+      }
+    ],
+    "screening": {
+      "probability": 0.05,
+      "threshold": 0.5,
+      "label": "Below threshold",
+      "risk_label": "not_elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "shap": 0.002
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "shap": 0.0001
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": -0.9604
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "shap": -0.4252
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+        "doc_id": "DOC_B007",
+        "score": 0.9803
+      },
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9633
+      },
+      {
+        "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+        "doc_id": "DOC_A001",
+        "score": 0.9553
+      },
+      {
+        "title": "[PDF] DNP Project - Maryville University",
+        "doc_id": "DOC_G002",
+        "score": 0.9107
+      },
+      {
+        "title": "[PDF] Mental Health and Academic Success in College (revised and",
+        "doc_id": "DOC_D003",
+        "score": 0.9053
+      }
+    ],
+    "report_summary": "Q1: The provided evidence details the implementation and purpose of depression screening protocols using tools like the PHQ-2 and PHQ-9, emphasizing early identification and referral for students who screen positive. However, none of the retrieved contexts offer specific guidance or communication strategies regarding how to speak with a student who screens low risk (such as 0.05 probability) to prevent false…\n\nQ2: Based on the retrieved evidence, there is insufficient context to describe how high levels of flourishing or strong academic impairment status correlate with reduced screening risk for depression and anxiety in college students. The provided passages discuss general associations between mental health symptoms—such as co-occurring depression and anxiety—and lower GPA or university well-being. However, none of the…\n\nQ3: The provided evidence does not establish a general association between attending any public institution and elevated depression or anxiety risk among college students. However, regarding screening practices in an identified public college health center, the context suggests that relying on a complaint-based approach for depression screening is inadequate because patients may mask depressive symptoms or report…\n\nQ4: Based on the provided evidence, there is insufficient information to describe the specific relationship between high current financial stability and a reduced screening risk of depression or anxiety in young adults. While some contexts note that stressors related to financing studies are common among university students, none of the retrieved passages quantify or establish how having high current financial…\n\nQ5: The provided context passages do not contain information regarding the known limitations or scope restrictions of screening models when predicting risk far below an established decision threshold, such as a 0.05 probability. The retrieved evidence discusses various aspects of depression screening, including the comparison between different psychometric models like CTT and IRT for the PHQ-9, general…\n\nQ6: The provided context does not specify which contextual factors, such as academic stress or social support systems, an expert should consider when interpreting a low screening risk score. The literature suggests that psychometric interpretation must account for test limitations, noting that a low score may potentially be due to a person's lower ability or the difficulty of the test itself. Furthermore, some…",
+    "report_source": "report_agent_answers:gemma4"
+  },
+  {
+    "id": "HMS_008",
+    "source_case_id": "hms_low_02",
+    "stratum": "low",
+    "test_index": 3711,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 68.0,
+        "value_display": "68"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": 7.0,
+        "value_display": "7"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": 7.0,
+        "value_display": "7"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 56.0,
+        "value_display": "56"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 0.0,
+        "value_display": "0"
+      }
+    ],
+    "screening": {
+      "probability": 0.0505,
+      "threshold": 0.5,
+      "label": "Below threshold",
+      "risk_label": "not_elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "exerc",
+        "display_name": "Exercise frequency",
+        "shap": 0.015
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "shap": 0.0055
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "shap": 0.003
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": -0.9396
+      },
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "shap": -0.4815
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.9729
+      },
+      {
+        "title": "Depression screening using patient-targeted feedback in general",
+        "doc_id": "DOC_G001",
+        "score": 0.9295
+      },
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 0.9161
+      },
+      {
+        "title": "[PDF] Running head: DEPRESSION SCREENING IN COLLEGE STUDENTS",
+        "doc_id": "DOC_A001",
+        "score": 0.8806
+      },
+      {
+        "title": "[PDF] The importance of belonging for well-being in college students",
+        "doc_id": "DOC_F002",
+        "score": 0.8765
+      }
+    ],
+    "report_summary": "Screening probability 0.0505 vs threshold 0.50 (not elevated screening risk). Leading statistical contributors include Exercise frequency (+0.01), Weekend sleep (+0.01), Institution size (+0.00). Retrieved evidence titles include: [PDF] School Mental Health Quality Guide Screening; Depression screening using patient-targeted feedback in general; Predictors of mental health and academic outcomes in first-year. This output is for expert review of a non-diagnostic screening decision-support pipeline; it is not a clinical diagnosis.",
+    "report_source": "profile_evidence_fallback"
+  },
+  {
+    "id": "HMS_009",
+    "source_case_id": "hms_low_03",
+    "stratum": "low",
+    "test_index": 4498,
+    "student_profile": [
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "value": 68.0,
+        "value_display": "68"
+      },
+      {
+        "feature": "gender_male",
+        "display_name": "Gender (male)",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "gender_female",
+        "display_name": "Gender (female)",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "international",
+        "display_name": "International student",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "fincur",
+        "display_name": "Current financial situation",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "finpast",
+        "display_name": "Past financial stress",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "food_worry",
+        "display_name": "Food insecurity worry",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sleep_wknight",
+        "display_name": "Weeknight sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "sleep_wkend",
+        "display_name": "Weekend sleep",
+        "value": null,
+        "value_display": "missing"
+      },
+      {
+        "feature": "exerc",
+        "display_name": "Exercise",
+        "value": 5.0,
+        "value_display": "5"
+      },
+      {
+        "feature": "belong1",
+        "display_name": "Belonging (1)",
+        "value": 4.0,
+        "value_display": "4"
+      },
+      {
+        "feature": "belong2",
+        "display_name": "Belonging (2)",
+        "value": 2.0,
+        "value_display": "2"
+      },
+      {
+        "feature": "lonely",
+        "display_name": "Loneliness",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "flourish",
+        "display_name": "Flourishing",
+        "value": 51.0,
+        "value_display": "51"
+      },
+      {
+        "feature": "positiveMH",
+        "display_name": "Positive mental health",
+        "value": 1.0,
+        "value_display": "1"
+      },
+      {
+        "feature": "sub_any",
+        "display_name": "Substance use",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "binge1pl",
+        "display_name": "Binge drinking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "smok_cig",
+        "display_name": "Cigarette smoking",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_race",
+        "display_name": "Racial discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_gender",
+        "display_name": "Gender discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "discrim_sexual",
+        "display_name": "Sexual-orientation discrimination",
+        "value": 0.0,
+        "value_display": "0"
+      },
+      {
+        "feature": "inst_type",
+        "display_name": "Institution type",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "value": 3.0,
+        "value_display": "3"
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "value": 1.0,
+        "value_display": "1"
+      }
+    ],
+    "screening": {
+      "probability": 0.0511,
+      "threshold": 0.5,
+      "label": "Below threshold",
+      "risk_label": "not_elevated_screening_risk",
+      "disclaimer": "This is a screening result, not a diagnosis.",
+      "model_name": "CatBoost"
+    },
+    "xai": [
+      {
+        "feature": "belong1",
+        "display_name": "Campus belonging (item 1)",
+        "shap": 0.0236
+      },
+      {
+        "feature": "inst_size",
+        "display_name": "Institution size",
+        "shap": 0.0023
+      },
+      {
+        "feature": "inst_public",
+        "display_name": "Public institution",
+        "shap": 0.002
+      },
+      {
+        "feature": "aca_impa",
+        "display_name": "Academic impairment",
+        "shap": -0.9523
+      },
+      {
+        "feature": "age",
+        "display_name": "Age",
+        "shap": -0.4575
+      }
+    ],
+    "evidence": [
+      {
+        "title": "[PDF] School Mental Health Quality Guide Screening",
+        "doc_id": "DOC_A007",
+        "score": 0.938
+      },
+      {
+        "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+        "doc_id": "DOC_F003",
+        "score": 0.9079
+      },
+      {
+        "title": "[PDF] Construct validity of the PHQ-9 in university students in Colombia",
+        "doc_id": "DOC_B007",
+        "score": 0.9074
+      },
+      {
+        "title": "Predictors of mental health and academic outcomes in first-year",
+        "doc_id": "DOC_B001",
+        "score": 0.9048
+      },
+      {
+        "title": "[PDF] The importance of belonging for well-being in college students",
+        "doc_id": "DOC_F002",
+        "score": 0.896
+      }
+    ],
+    "report_summary": "Screening probability 0.0511 vs threshold 0.50 (not elevated screening risk). Leading statistical contributors include Campus belonging (item 1) (+0.02), Institution size (+0.00), Public institution (+0.00). Retrieved evidence titles include: [PDF] School Mental Health Quality Guide Screening; [PDF] Lack of Belonging Predicts Depressive Symptomatology in College; [PDF] Construct validity of the PHQ-9 in university students in Colombia. This output is for expert review of a non-diagnostic screening decision-support pipeline; it is not a clinical diagnosis.",
+    "report_source": "profile_evidence_fallback"
+  }
+]

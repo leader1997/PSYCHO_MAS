@@ -1,0 +1,3 @@
+case_id,schema_valid,safety_pass,xai_alignment_pass,n_citations,question_coverage,n_report_questions,safety_status,has_disclaimer,narrative_chars
+high_risk_case,True,True,True,0,0.0,1,draft_unvalidated,True,369
+low_risk_case,True,True,True,8,,0,accepted,True,896

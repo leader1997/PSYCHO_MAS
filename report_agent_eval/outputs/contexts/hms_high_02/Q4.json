@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_02",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "What is the theoretical relationship between low flourishing scores and increased screening risk, particularly in the context of student mental health?",
+  "retrieval_query": "low flourishing score correlation with depression/anxiety risk",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:31.878701+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.96512,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 2,
+      "score": 0.818894,
+      "chunk_id": "DOC_D004_p2_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 150 students. Questionnaires were distributed via google form, then descriptive analysis and correlation tests were carried out. The Spearman's test was used for the correlation test. RESULTS Table 1. Characteristics of Respondents (n=184) Variable Median (min- max) Sum(n) (percentage) P Age 19,0 (17 – 21) Gender - Male - Female 55 (29,9%) 129 (70,1%) Family history of mental disorders - Yes - No 6 (3,3%) 178 (96,7%) Academic procrastination level - Low - High 14,0 (0 – 32) 94 (51,1%) 90 (48,9%) 0,017 Stress level - Normal - Mild - Moderate - Severe - Very Severe 77 (41,8%) 34 (18,5%) 33 (17,9%) 19 (10,3%) 21 (11,4%) Anxiety level - Normal - Mild - Moderate - Severe - Very Severe 36 (19,6%) 11 (6%) 35 (19%) 25 (13,6%) 77 (41,8%) Depression level - Normal - Mild - Moderate - Severe - Very Severe 33 (17,9%) 22 (12,0%) 36 (19,6%) 37 (20,1%) 56 (30,4%) Based on the data obtained, the respondents consisted of 184 UNDIP medical students, class of 2020, ranging from 17 -21. The majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of"
+    },
+    {
+      "rank": 3,
+      "score": 0.816612,
+      "chunk_id": "DOC_B002_p1_c2",
+      "doc_id": "DOC_B002",
+      "title": "Psychometric Properties of the GAD-7 among College Students - PMC",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "the one-factor model (RMSEA=.098, CFI=.994) and the two-factor model (RMSEA=.069, CFI=.997), albeit with a high inter-factor correlation (r=.91). Measurement invariance was supported across gender, race/ethnicity, and college class for both models. The findings support using the GAD-7 total score among U.S. college students, as is common in practice, but also provided evidence for the two-factor model in this population. Considering its parsimony, the total score would be preferable in applied settings for a quick measurement of anxiety symptom severity. Keywords GAD-7; Anxiety; Young Adult; Gender Identity; Racial Groups; Psychometrics; Factor Analysis; Statistical Correspondence concerning this article should be directed to Justin E. Karr, Ph.D., Department of Psychology, University of Kentucky, 171 Funkhouser Drive, 012D Kastle Hall, Lexington, KY 40506-0044 (jkarr@uky.edu). Declaration of Interest Statement The authors have no conflicts of interests to disclose. HHS Public Access Author manuscript Transl Issues Psychol Sci. Author manuscript; available in PMC 2025 July 02. Author Manuscript Author Manuscript Author Manuscript Author Manuscript"
+    },
+    {
+      "rank": 4,
+      "score": 0.79985,
+      "chunk_id": "DOC_D003_p4_c1",
+      "doc_id": "DOC_D003",
+      "title": "[PDF] Mental Health and Academic Success in College (revised and",
+      "page": 4,
+      "category_code": "D_academic_impairment",
+      "text": "4 competitive, public university. We surveyed a random sample of approximately 2,800 undergraduate and graduate students abou t a range of mental health issues in fall 2005, and we conducted a follow-up survey with a subset of the sample in fall 2007. In this paper we focus on thre e of the most common types of mental disorders among adolescents and young adu lts: depression, anxiety disorders, and eating disorders. We link the survey data on mental health to academic measures collected from the university’s administrative records. This is the first study, to our knowledge, that examines how mental health predicts GPA and dropping out in a random sample of college students. We find that depression is a significant predictor of lower GPA and higher probability of dropping out, even after controlling for symptoms of anxiety and eating disorders, prior academic performance, and other cova riates. Depression also appears to interact with anxiety; the association between depression and academic outcomes is particularly strong among students who also have a positive screen for an anxiety disorder. Among the symptoms of depression, the strongest negative predictor of academic performance is anhe donia (lack of pleasure and interest in usual activities). By contrast, negativ e affect per se (feeling depressed or hopeless) is not independently associated with a lower GPA. Finally, in fixed effects (within-person) regr essions of GPA on mental health variables using the longitudinal sample, we find again that co-occurring depressi on and anxiety are associated with lower GPA, and we also find that symptoms of eating disorders are associated with"
+    },
+    {
+      "rank": 5,
+      "score": 0.799143,
+      "chunk_id": "DOC_B001_p2_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "to complete the time 2 survey that asked about anxiety and depressive symptoms, self-harm, suicidal thoughts and attempts, and univer- sity well-being. After final grades were posted, survey data were linked to grades abstracted from the university database. Measures Proximal psychosocial and lifestyle risk factors at time 1 Proximal psychosocial and lifestyle risk factors at time 1 were mea- sured by brief validated scales including: the Brief Perceived Stress scale, 15 the Rosenberg Self-Esteem scale,16 the Social Support subscale of the Resiliency Scale for Adolescence 17 and the Sleep Condition Indicator.18 The amount of exercise was reported as an ordinal vari- able (never, less than weekly, once a week, 2 – 3t i m e saw e e ka n d≥4 times a week). Substance misuse was defined as engaging in any of the following at least once a week over the past month: binge drinking (≥4 drinks on one occasion), cannabis use, use of non-prescribed sleeping or wake-up pills or stimulants, pain killers, opiates or other. Depressive and anxiety symptoms at time 1 were measured by the 9-item Patient Health Questionnaire (PHQ-9) 19 and 7-item Generalized Anxiety Disorder assessment (GAD-7),20 respectively. Primary mental health outcomes at time 2 Primary mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever"
+    }
+  ]
+}

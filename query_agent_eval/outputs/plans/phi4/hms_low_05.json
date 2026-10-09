@@ -1,0 +1,94 @@
+{
+  "case_id": "hms_low_05",
+  "model": "phi4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:24:15.745748+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_05",
+    "risk_interpretation": {
+      "probability": 0.0531,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "risk_interpretation",
+        "question": "What are the implications of a prediction probability of 0.0531 in relation to the decision threshold of 0.5 for interpreting screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "implications of low prediction probability in depression/anxiety screening models",
+        "expected_evidence": [
+          "interpretation guidelines for low-risk probabilities",
+          "contextual understanding of decision thresholds"
+        ],
+        "priority": "high",
+        "rationale": "Understanding the implications of a low risk score is crucial for accurate interpretation."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "protective_factor",
+        "question": "How does high flourishing contribute to decreasing predicted screening risk in depression/anxiety models?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "impact of flourishing on mental health screening outcomes",
+        "expected_evidence": [
+          "research on flourishing and its protective effects against depression/anxiety"
+        ],
+        "priority": "high",
+        "rationale": "Flourishing is a major protective factor with high contribution, requiring detailed understanding."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "What role does the current financial situation play in reducing predicted screening risk for depression/anxiety?",
+        "linked_xai_factor": "fincur",
+        "retrieval_query": "financial stability and its impact on mental health risks",
+        "expected_evidence": [
+          "studies linking financial security to lower depression/anxiety risk"
+        ],
+        "priority": "medium",
+        "rationale": "Financial situation is a significant protective factor with high contribution."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "protective_factor",
+        "question": "In what ways does age contribute to decreasing predicted screening risk for depression/anxiety?",
+        "linked_xai_factor": "age",
+        "retrieval_query": "effects of age on mental health screening predictions",
+        "expected_evidence": [
+          "literature on age-related changes in depression/anxiety prevalence"
+        ],
+        "priority": "medium",
+        "rationale": "Age is a high-level protective factor, necessitating exploration."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "safety_communication",
+        "question": "How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?",
+        "linked_xai_factor": null,
+        "retrieval_query": "best practices for communicating non-diagnostic mental health screenings",
+        "expected_evidence": [
+          "guidelines on conveying limitations and scope of depression/anxiety screenings"
+        ],
+        "priority": "high",
+        "rationale": "Ensuring clear communication about the tool's non-diagnostic nature is essential."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": false,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": false,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_05\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0531,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"risk_interpretation\",\n      \"question\": \"What are the implications of a prediction probability of 0.0531 in relation to the decision threshold of 0.5 for interpreting screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"implications of low prediction probability in depression/anxiety screening models\",\n      \"expected_evidence\": [\n        \"interpretation guidelines for low-risk probabilities\",\n        \"contextual understanding of decision thresholds\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Understanding the implications of a low risk score is crucial for accurate interpretation.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How does high flourishing contribute to decreasing predicted screening risk in depression/anxiety models?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"impact of flourishing on mental health screening outcomes\",\n      \"expected_evidence\": [\n        \"research on flourishing and its protective effects against depression/anxiety\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Flourishing is a major protective factor with high contribution, requiring detailed understanding.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What role does the current financial situation play in reducing predicted screening risk for depression/anxiety?\",\n      \"linked_xai_factor\": \"fincur\",\n      \"retrieval_query\": \"financial stability and its impact on mental health risks\",\n      \"expected_evidence\": [\n        \"studies linking financial security to lower depression/anxiety risk\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Financial situation is a significant protective factor with high contribution.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"In what ways does age contribute to decreasing predicted screening risk for depression/anxiety?\",\n      \"linked_xai_factor\": \"age\",\n      \"retrieval_query\": \"effects of age on mental health screening predictions\",\n      \"expected_evidence\": [\n        \"literature on age-related changes in depression/anxiety prevalence\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Age is a high-level protective factor, necessitating exploration.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"How should the non-diagnostic nature of this screening tool be communicated to ensure appropriate interpretation?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"best practices for communicating non-diagnostic mental health screenings\",\n      \"expected_evidence\": [\n        \"guidelines on conveying limitations and scope of depression/anxiety screenings\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Ensuring clear communication about the tool's non-diagnostic nature is essential.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": false,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": false,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

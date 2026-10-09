@@ -1,0 +1,30 @@
+{
+  "versions": [
+    {
+      "version": "v1",
+      "label": "Baseline v1 \u2014 FAST mode",
+      "description": "Current FAST-mode pipeline (60 trees, 4 DL epochs, 300 SHAP rows)",
+      "frozen_at": "2026-06-15T13:30:41.172141+00:00",
+      "env": {
+        "XAI_FAST": "1"
+      },
+      "snapshot_dir": "outputs\\versions\\v1_fast",
+      "artifacts_copied": [
+        "model_performance.csv",
+        "global_importance_per_model.csv",
+        "aggregated_importance.csv",
+        "stability_scores.csv",
+        "faithfulness.csv",
+        "local_explanations.json",
+        "rag_ablation_evaluation.csv",
+        "rag_evaluation.csv",
+        "llm_example_answers.json",
+        "xai_method_per_model.csv",
+        "lr_and_perm_extras.json",
+        "cards/",
+        "kb/"
+      ],
+      "artifacts_missing": []
+    }
+  ]
+}

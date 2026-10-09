@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_02",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T10:21:37.325792+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 4,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and useful for expert reporting. It covers most XAI contributors but omits some risk factors (fincur, positiveMH, age) and protective factors beyond exercise, resulting in moderate alignment. All questions are answerable from scientific literature and avoid diagnostic or treatment advice, though a few causal phrasing could be refined. Overall, the plan is strong with minor gaps."
+}

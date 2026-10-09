@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_01",
+  "stratum": "borderline",
+  "qid": "Q5",
+  "question": "What evidence supports how maintaining positive mental health (positiveMH) acts as a buffer against other identified stressors (e.g., loneliness, financial strain)?",
+  "retrieval_query": "role of positive mental health in buffering environmental stressors for students",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T08:28:28.502075+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.962655,
+      "chunk_id": "DOC_B001_p1_c2",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "of first year. Over the academic year, 14% of students reported suicidal thoughts and 1.6% suicide attempts. Moreover, there was persistence and overlap in these mental health out- comes. Modifiable psychosocial and lifestyle factors at entry were associated with positive screens for mental health out- comes at completion of first year, while anxiety and depressive symptoms were associated with lower grades and university well-being. Conclusions Clinically significant mental health symptoms are common and persistent among first-year university students and have a negative impact on academic performance and well-being. A comprehensive mental health strategy that includes a whole university approach to prevention and targeted early-interven- tion measures and associated research is justified. Keywords Student mental health; risk factors; anxiety symptoms; depres- sive symptoms; prevention and early-intervention. Copyright and usage © The Author(s) 2020. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http:/ /creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. Background The transition to university coincides with a critical develop- mental period during which young people are expected to sep- arate from family and take on increased responsibility for regulating their sleep, daily schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders"
+    },
+    {
+      "rank": 2,
+      "score": 0.950049,
+      "chunk_id": "DOC_B005_p1_c1",
+      "doc_id": "DOC_B005",
+      "title": "[PDF] Emotional wellbeing of first year university students: Critical for",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "“Emotional Wellbeing of first year university students: Critical for determining future academic success”.” Libbie Douglass & Mir Rabiul Islam”. “Non refereed paper”. P a g e 1 Emotional wellbeing of first year university students: Critical for determining future academic success. Libbie Douglass & Mir Rabiul Islam School Social Sciences & Liberal Studies - Charles Sturt University Stressors and challenges faced by first year university students were investigated with the aims being to identify issues that may impact on emotional wellbeing of students, and also to assess whether issues impacting on emotional wellbeing affect academic performance. A sample of 181 students at an Australian regional university voluntarily completed a self report purpose made questionnaire. Results indicated that mental health problems and negative experiences for female students were strong predictors of academic difficulties, but similar findings were not found for male students. In male students, positive social interaction predicted less academic difficulties. These unusual findings are discussed in relation to strategy development for support structures provided by tertiary institutions. First year university students have historically faced a wide range of stressors and challenges whilst embracing new direction in their lives. The complexity of these stressors, however, appears to be ballooning as we enter a new millennium. A number of studies suggest that higher rates of psychological morbidity are being recorded among first year university students throughout the world. Research by Cooke, Bewick, Barkham, Bradley & Audin (2006) in the United Kingdom, identified increased financial and academic pressure as the basis for increased levels of anxiety in first year university students, who they"
+    },
+    {
+      "rank": 3,
+      "score": 0.909702,
+      "chunk_id": "DOC_B001_p1_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 1,
+      "category_code": "B_college_depression_anxiety",
+      "text": "schedules and lifestyle; all while the brain is undergoing accelerated growth and shows increased sensitivity to stress. 1 University students are exposed to numer- ous stressors related to financing their studies, making new friends and living away from home and local supports. 2 At the same time, emergent adulthood represents the peak period of risk for onset of mental disorders 3 associated with high mor- bidity, including university failure and drop-out, 4 and increased mortality.5 Yet, successful completion of higher education is an important determinant of both healthy individual and societal growth and development. 6 Taken together, entry to university represents a high-risk period for the development of significant mental health problems, but at the same time offers an import- ant opportunity for effective prevention. 7 Globally, university student populations are changing and more closely reflect the gener al population in terms of risk factors and rates of psychopathology, in part driven by increasing enrolment and widening access. 8,9 For example, the World Health Organization Mental Health Survey reported comparable rates of common mental disorders in university student and non-student populations aged 18 – 22 years. 10 Further, a recent study reported an increase in univer- sity student suicide rates since 2009 in England and Wales, although below that of the general non-student population of a similar age. 11 Recent reports from varied higher education institutions and associations in both Canada and the UK have highlighted a substantial dispa rity between the increasing need for university student mental health support and available resources. 8,9,12 Yet, there are little reliable data"
+    },
+    {
+      "rank": 4,
+      "score": 0.895744,
+      "chunk_id": "DOC_F001_p2_c3",
+      "doc_id": "DOC_F001",
+      "title": "[PDF] Stress, Social Support, and the Buffering Hypothesis",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "among persons with relatively low levels of social sup- port. Similarly, several prospective studies us- ing mental health outcome measures have shown a positive relation between social sup- port and mental health (Aneshensel & Frer- ichs, 1982; Billings & Moos, 1982; Henderson, Byrne, & Duncan-Jones, 1981; Holahan & Moos, 1981; Turner, 1981; Williams, Ware, & Donald, 1981). The mechanisms through which social sup- port is related to mental health outcomes and to serious physical illness outcomes, however, remain to be clarified. At a general level, it can be posited that a lack of positive social rela- tionships leads to negative psychological states such as anxiety or depression. In turn, these psychological states may ultimately influence physical health either through a direct effect on physiological processes that influence sus- ceptibility to disease or through behavioral patterns that increase risk for disease and mortality. In the following section, we outline how social support could be linked to health outcomes on a main effect basis and the mech- anism through which stress-buffering effects could occur. This framework is then used for reviewing literature on stress and support. Support as a Main Effect A generalized beneficial effect of social sup- port could occur because large social networks provide persons with regular positive experi- ences and a set of stable, socially rewarded roles in the community. This kind of support could be related to overall well-being because it pro- vides positive affect, a sense of predictability and stability in one's life situation, and a rec- ognition of self-worth. Integration in a social network may also"
+    },
+    {
+      "rank": 5,
+      "score": 0.891391,
+      "chunk_id": "DOC_F004_p2_c5",
+      "doc_id": "DOC_F004",
+      "title": "The prediction of student wellbeing and flourishing from university",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "of understanding and enhancing the student learning experiences. The learning experiences of university students involve the synergy of internal and external factors that shape students’ university experience and engagement. Internally, it involves students’ cognitive, social, and value development as they engage in academic and extracurricular activities both inside and outside the classroom. Externally, it includes the learning environment, such as students’ perceptions of assessment, quality teaching, feedback, and clear goals and standards provided by teachers to foster student engagement and achieve desirable educational outcomes. Both internal and external factors of the student learning experiences play a substantial role in wellbeing (Baik et al., 2019; Gilmore et al., 2025). Research highlights the importance of internal factors in student wellbeing. Academic competencies such as critical thinking, problem- solving, and teamwork have been linked to positive outcomes across multiple wellbeing domains, including physical, social, and environmental wellbeing (Baumann et al., 2014; Vázquez-Parra et al., 2023). Academic and social experiences also play a central role in fostering wellbeing ( Brooker and Vu, 2020 ), particularly through students’ sense of purpose and meaningful engagement in learning (Stanton et al., 2016). Social participation and a sense of community further support wellbeing across diverse university contexts"
+    }
+  ]
+}

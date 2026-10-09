@@ -1,0 +1,124 @@
+{
+  "case_id": "hms_high_15",
+  "model": "gemma4",
+  "stratum": "high",
+  "timestamp_utc": "2026-07-01T19:53:22.274611+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_high_15",
+    "risk_interpretation": {
+      "probability": 0.9647,
+      "threshold": 0.5,
+      "risk_level": "elevated_screening_risk",
+      "planning_strategy": "high_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "expert_support_consideration",
+        "question": "Given the elevated screening risk (0.9647), what specific clinical guidelines or differential diagnostic considerations should be prioritized for expert review to ensure comprehensive assessment?",
+        "linked_xai_factor": null,
+        "retrieval_query": "clinical guidelines for high-risk student depression and anxiety screening follow-up",
+        "expected_evidence": [
+          "Recommended next steps for elevated screening risk.",
+          "Differential diagnosis considerations in academic settings."
+        ],
+        "priority": "high",
+        "rationale": "The case is high risk, requiring immediate guidance on expert action and clinical protocol adherence. This question guides the actionable part of the report."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current scientific understanding regarding the relationship between academic impairment and elevated screening risk for student mental health?",
+        "linked_xai_factor": "aca_impa",
+        "retrieval_query": "academic impairment correlation with depression anxiety in students",
+        "expected_evidence": [
+          "Evidence linking academic difficulties to emotional distress.",
+          "Contextualizing 'Academic Impairment' as a risk feature."
+        ],
+        "priority": "high",
+        "rationale": "This is the strongest positive contributor (1.1311) and must be thoroughly contextualized for the expert report, moving beyond simple correlation to potential mechanisms."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "xai_contributor_evidence",
+        "question": "How do factors related to food insecurity worry contribute to elevated screening risk in young adults?",
+        "linked_xai_factor": "food_worry",
+        "retrieval_query": "impact of food insecurity on mental health outcomes for students",
+        "expected_evidence": [
+          "Psychosocial mechanisms linking nutritional stress and anxiety.",
+          "Severity levels of food worry and associated risk."
+        ],
+        "priority": "high",
+        "rationale": "Food worry is a significant contributor (0.3088) indicating potential underlying socioeconomic or physical stressors that need expert attention."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the established risk factors and protective mechanisms associated with feelings of loneliness in college students?",
+        "linked_xai_factor": "lonely",
+        "retrieval_query": "psychological impact of loneliness on student mental health screening",
+        "expected_evidence": [
+          "Differentiating between 'loneliness' and social isolation.",
+          "Interventions or mitigating factors for perceived loneliness."
+        ],
+        "priority": "medium",
+        "rationale": "Loneliness is a key contributor (0.3119). Understanding its nuances helps the expert move beyond just identifying the symptom to understanding the underlying need."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "protective_factor",
+        "question": "What are the protective benefits of attending a public institution or having institutional support structures for student mental health?",
+        "linked_xai_factor": "inst_public",
+        "retrieval_query": "protective factors in university settings for student well-being",
+        "expected_evidence": [
+          "Evidence supporting the role of institutional resources.",
+          "How public/large institutions mitigate risk."
+        ],
+        "priority": "medium",
+        "rationale": "Protective factors must be included to provide a balanced view. This question leverages the 'Public institution' factor (-0.0062) to guide discussion on resilience and support systems."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of using ML screening tools for depression/anxiety, particularly regarding cultural context or co-morbid conditions?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of AI screening tools for mental health",
+        "expected_evidence": [
+          "Bias or limitations based on demographic/cultural groups.",
+          "Need for clinical validation beyond the model's prediction."
+        ],
+        "priority": "medium",
+        "rationale": "Even with good calibration, acknowledging model limitations is crucial for responsible expert reporting and managing expectations."
+      },
+      {
+        "question_id": "Q7",
+        "question_type": "safety_communication",
+        "question": "What non-diagnostic language should be used when communicating an elevated screening risk to a student or their guardian?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for mental health screening results",
+        "expected_evidence": [
+          "Empathetic and non-judgmental phrasing.",
+          "Focus on 'support considerations' rather than 'diagnosis'."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory safety check. Ensures the report maintains a supportive, non-diagnostic tone."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_high_15\",\n  \"risk_interpretation\": {\n    \"probability\": 0.9647,\n    \"threshold\": 0.5,\n    \"risk_level\": \"elevated_screening_risk\",\n    \"planning_strategy\": \"high_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"Given the elevated screening risk (0.9647), what specific clinical guidelines or differential diagnostic considerations should be prioritized for expert review to ensure comprehensive assessment?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"clinical guidelines for high-risk student depression and anxiety screening follow-up\",\n      \"expected_evidence\": [\n        \"Recommended next steps for elevated screening risk.\",\n        \"Differential diagnosis considerations in academic settings.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"The case is high risk, requiring immediate guidance on expert action and clinical protocol adherence. This question guides the actionable part of the report.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current scientific understanding regarding the relationship between academic impairment and elevated screening risk for student mental health?\",\n      \"linked_xai_factor\": \"aca_impa\",\n      \"retrieval_query\": \"academic impairment correlation with depression anxiety in students\",\n      \"expected_evidence\": [\n        \"Evidence linking academic difficulties to emotional distress.\",\n        \"Contextualizing 'Academic Impairment' as a risk feature.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the strongest positive contributor (1.1311) and must be thoroughly contextualized for the expert report, moving beyond simple correlation to potential mechanisms.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"How do factors related to food insecurity worry contribute to elevated screening risk in young adults?\",\n      \"linked_xai_factor\": \"food_worry\",\n      \"retrieval_query\": \"impact of food insecurity on mental health outcomes for students\",\n      \"expected_evidence\": [\n        \"Psychosocial mechanisms linking nutritional stress and anxiety.\",\n        \"Severity levels of food worry and associated risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Food worry is a significant contributor (0.3088) indicating potential underlying socioeconomic or physical stressors that need expert attention.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the established risk factors and protective mechanisms associated with feelings of loneliness in college students?\",\n      \"linked_xai_factor\": \"lonely\",\n      \"retrieval_query\": \"psychological impact of loneliness on student mental health screening\",\n      \"expected_evidence\": [\n        \"Differentiating between 'loneliness' and social isolation.\",\n        \"Interventions or mitigating factors for perceived loneliness.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Loneliness is a key contributor (0.3119). Understanding its nuances helps the expert move beyond just identifying the symptom to understanding the underlying need.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"What are the protective benefits of attending a public institution or having institutional support structures for student mental health?\",\n      \"linked_xai_factor\": \"inst_public\",\n      \"retrieval_query\": \"protective factors in university settings for student well-being\",\n      \"expected_evidence\": [\n        \"Evidence supporting the role of institutional resources.\",\n        \"How public/large institutions mitigate risk.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Protective factors must be included to provide a balanced view. This question leverages the 'Public institution' factor (-0.0062) to guide discussion on resilience and support systems.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of using ML screening tools for depression/anxiety, particularly regarding cultural context or co-morbid conditions?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of AI screening tools for mental health\",\n      \"expected_evidence\": [\n        \"Bias or limitations based on demographic/cultural groups.\",\n        \"Need for clinical validation beyond the model's prediction.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Even with good calibration, acknowledging model limitations is crucial for responsible expert reporting and managing expectations.\"\n    },\n    {\n      \"question_id\": \"Q7\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What non-diagnostic language should be used when communicating an elevated screening risk to a student or their guardian?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for mental health screening results\",\n      \"expected_evidence\": [\n        \"Empathetic and non-judgmental phrasing.\",\n        \"Focus on 'support considerations' rather than 'diagnosis'.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory safety check. Ensures the report maintains a supportive, non-diagnostic tone.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,5 @@
+System,faithfulness,answer_relevancy,hallucination_rate,context_precision,context_recall
+S0 baseline,1.0,1.0,0.2,,
+S1 rag_xai,1.0,1.0,0.167,0.5,0.633
+S2 rag_agg_xai,1.0,1.0,0.167,0.5,0.533
+S3 full,1.0,1.0,0.2,0.5,0.567

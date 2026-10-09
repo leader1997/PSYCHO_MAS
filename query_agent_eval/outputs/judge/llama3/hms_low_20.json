@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_20",
+  "generator_model": "llama3",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T06:04:23.576569+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 3,
+    "xai_alignment": 2,
+    "kdb_answerability": 4,
+    "report_usefulness": 3,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 4,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is generally safe and clear, with a good balance of non‑diagnostic framing. It covers the low‑risk strategy appropriately but only addresses one XAI contributor (Past financial stress) in depth, leaving other significant contributors unexamined. The questions are answerable via scientific knowledge sources and provide some useful context for an expert report, yet they could be expanded to include additional risk and protective factors for a more comprehensive assessment."
+}

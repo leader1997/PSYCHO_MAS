@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_03",
+  "stratum": "high",
+  "qid": "Q5",
+  "question": "What is the clinical significance of stable weeknight sleep patterns (sleep_wknight) as a protective factor against elevated screening risk, and what are best practices for promoting healthy sleep hygiene?",
+  "retrieval_query": "protective role of adequate sleep in mitigating depression anxiety symptoms",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:44:46.901502+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.953791,
+      "chunk_id": "DOC_F002_p2_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "academic performance and post-graduation plans [7], contribute to the poor mental health of many undergraduates. This context sheds light on why one in four incoming freshman college students leave within one year of arriving on campus [8], with a similar proportion diagnosed or treated for depression and anxiety annually [9]. These disturbing trends existed before 2020 but were exacerbated by the COVID-19 pandemic. A meta-analysis found that 31% of college students worldwide reported symptoms of anxiety and 34% reported symptoms of depression during the early stages of the pandemic [10]. Rates varied between countries (partly due to methodo- logical differences), but American college students reported the highest rates of both anxiety (52%) and depression (69%). At one university in the United States, 18% of students had sui- cidal thoughts [11]. In studies that disaggregated data by gender, males were somewhat more likely than females to report symptoms of anxiety (36% compared to 30%), while females were much more likely than males to report symptoms of depression (56% compared to 34%). More recent research provides strong evidence for higher rates of both anxiety and depression among female college students compared to males [12–14]. A substantial body of research, dating back more than a century to Durkheim’s ground- breaking work on factors contributing to suicide, has shown that mental health challenges are mitigated by social support [15–17]. Among college students, high levels of social support are associated with reduced levels of depression and anxiety [18, 19], lower suicide risk [17], and enhanced life satisfaction and subjective well-being [20, 21]. One form of"
+    },
+    {
+      "rank": 2,
+      "score": 0.89662,
+      "chunk_id": "DOC_D002_p3_c2",
+      "doc_id": "DOC_D002",
+      "title": "[PDF] Depression and College Students - Counseling Center",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "symptoms of depression vary. If you are depressed, you may feel: Sad Anxious Empty Hopeless Guilty Worthless Helpless Irritable Restless. You may also experience one or more of the following: Loss of interest in activities you used to enjoy Lack of energy Problems concentrating, remembering information, or making decisions Problems falling sleep, staying asleep, or sleeping too much Loss of appetite or eating too much Thoughts of suicide or suicide attempts Aches, pains, headaches, cramps, or digestive problems that do not go away."
+    },
+    {
+      "rank": 3,
+      "score": 0.892733,
+      "chunk_id": "DOC_F003_p2_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Psychological Science 33(7) 1049 The Need to Belong and Mental Health Among Young Adults in College Over the past 10 years, there has been a significant increase in the prevalence of depression, anxiety, and suicide in young adults (Duffy et al., 2019; Twenge et al., 2019). Indeed, nearly 19% of first-year college students globally are diagnosed with depression each year (Auerbach et al., 2018), and research suggests that rates are rising more for younger birth cohorts (Kessler et al., 2005; Twenge, 2015). From the early 2000s to now, rates of major depressive episodes have nearly doubled in young adults between the ages of 18 and 25 years (Twenge et al., 2019). It is well known that stressful life events and health behaviors (e.g., sleep) play an important role in predicting increases in depres- sive symptomatology and psychological distress among young adults (Breslau et al., 1996; Kendler et al., 1999; Monroe et al., 1999). Adolescence and young adulthood are also a critical time for developing and maintaining social connections, particularly among first-year uni- versity students as they build their social networks and adjust to a new lifestyle away from home. Greater feel- ings of social connectedness are associated with greater well-being in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This"
+    },
+    {
+      "rank": 4,
+      "score": 0.838396,
+      "chunk_id": "DOC_C001_p2_c2",
+      "doc_id": "DOC_C001",
+      "title": "The Mediating Role of Loneliness Between Social Support and",
+      "page": 2,
+      "category_code": "C_loneliness_isolation",
+      "text": "phase for the formation of identity ( 5). Compared with adults, adolescents are more likely to experience intense emotions with greater frequency and ﬂuctuation ( 6). Perceived social support refers to an individual’s cognitive appraisal of the quality and quantity of social connections. Evidence suggested that social and community ties played a critical role in the etiology of disease through the underly ing psychological and physiologic mechanisms ( 7). There is a long history in psychological studies which has investigated the association between perceived social support and mental healt h outcomes. Evidence suggested the protective eﬀect of perceive d social support on mental health ( 8, 9). Previous literature found students with lower levels of social support were six times mor e likely to experience symptoms of depression than those with higher levels of social support ( 9). Recently, a substantial body of research has investigated the role of perceived social suppo rt during the COVID-19 pandemic ( 10). Negative associations between perceived social support and depressive symptoms amid the COVID-19 outbreak have been documented ( 10, 11). Hence, we speculated that perceived social support was negatively associated with depressive symptoms among rural students during COVID-19 pandemic. Loneliness, also termed perceived social isolation ( 12), is a common risk factor of depressive symptoms. Loneliness is deﬁned as the disparity between one’s desired and actual leve ls of social relationships ( 13). Perceived social isolation in humans is associated with enhanced sympathetic tonus, increased HPA activation, reduced inﬂammatory control and decreased expression of genes regulating glucocorticoid responses, wh ich might further"
+    },
+    {
+      "rank": 5,
+      "score": 0.83375,
+      "chunk_id": "DOC_A002_p1_c2",
+      "doc_id": "DOC_A002",
+      "title": "[PDF] Stress, Anxiety, and Depression as Psychological Distress Among",
+      "page": 1,
+      "category_code": "A_student_mental_health",
+      "text": "have a significant negative influence on their academic performance, social interactions, and general well-being. Creating successful preventative and intervention plans requires an understanding of the many, multi-level factors that contribute to psychological discomfort. The objective of this scoping review was to use the Socio-Ecological Model (SEM) to map the determinants of psychological distress among college students in a comprehensive manner. Methods: A total of 15 review publi- cations published between 2015 and 2024, including narrative reviews, systematic reviews, meta-analyses, and umbrella reviews, were analyzed under the guidance of PRISMA ScR. These studies synthesized evidence across various countries, including China, Iran, India, Canada, Egypt, Nigeria, Saudi Arabia, and the United States. Results: Academic pressure, financial stress, poor sleep, unhealthy coping mechanisms, and pre-existing mental health issues were all individual-level concerns, with female and minority students being more vulnerable. Strong familial ties and friendships served as protective interpersonal support. Heavy academic workloads, strict grading guidelines, a lack of mental health resources, and unwelcoming campus environments were among the institutional factors. Stigma and socioeconomic disparities are examples of community-level variables that make mental health issues worse. Conclusions: Student mental health is shaped by interrelated factors across all SEM levels. Integrated, multi-level strategies are essential to fostering supportive campuses, strengthening community networks, and implementing inclusive policies that promote mental health equity. Keywords: college students; stress; anxiety; depression; mental health; scoping review; socio-ecological model 1. Introduction Mental health among college students has become a significant public health concern in the 21st century [1]. Higher education students are increasingly reporting psychological distress symptoms, such as stress,"
+    }
+  ]
+}

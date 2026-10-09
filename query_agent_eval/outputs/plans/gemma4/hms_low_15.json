@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_15",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:45:48.134980+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_15",
+    "risk_interpretation": {
+      "probability": 0.0579,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "Given the low predicted screening risk (0.0579) which is significantly below the decision threshold of 0.5, what specific communication strategies should be employed to ensure that the student does not interpret this result as a definitive absence of elevated depression/anxiety screening risk?",
+        "linked_xai_factor": null,
+        "retrieval_query": "communication guidelines for low screening risk scores",
+        "expected_evidence": [
+          "Best practices for communicating negative predictive value in mental health screening.",
+          "Language to avoid false reassurance when reporting low risk."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question for all cases, especially low-risk ones, to prevent misinterpretation and ensure appropriate non-diagnostic communication."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "expert_support_consideration",
+        "question": "What are the general limitations of this machine learning model (CatBoost) when interpreting screening results, particularly regarding individual student context and non-clinical assessment data?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations of ML models in depression anxiety screening",
+        "expected_evidence": [
+          "Model scope limitations (e.g., not a diagnostic tool).",
+          "Need for clinical judgment to contextualize scores."
+        ],
+        "priority": "high",
+        "rationale": "Essential for grounding the expert report in scientific caution and acknowledging that the model is only one piece of evidence."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How do strong protective factors, such as high 'Flourishing' scores or positive 'Age' contributions, mitigate the overall predicted screening risk in a scientifically supported manner?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "protective factors mitigating depression anxiety screening risk",
+        "expected_evidence": [
+          "Mechanism by which flourishing or age reduces perceived risk.",
+          "Clinical significance of high protective factor contributions."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are highly influential here and must be explained to the expert reviewer to build confidence in the low-risk assessment."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What is the current understanding of why 'Campus belonging' (belong1) contributes positively to the model's prediction of elevated screening risk, despite being a generally positive student attribute?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "relationship between campus belonging and depression anxiety screening risk in students",
+        "expected_evidence": [
+          "Contextual interpretation of 'belonging' as a risk factor.",
+          "Potential confounding variables related to belonging."
+        ],
+        "priority": "high",
+        "rationale": "This is the single largest positive contributor (0.0676) and requires detailed contextual explanation for the expert report."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "xai_contributor_evidence",
+        "question": "In what specific contexts does 'Exercise frequency' (exerc) contribute positively to predicted screening risk, and how should this be interpreted when the student profile data is unknown?",
+        "linked_xai_factor": "exerc",
+        "retrieval_query": "exercise frequency contribution to mental health screening model prediction",
+        "expected_evidence": [
+          "Potential inverse relationship between exercise and risk.",
+          "Guidelines for interpreting missing or 'unknown' feature data in XAI reports."
+        ],
+        "priority": "medium",
+        "rationale": "Addresses a major positive contributor whose associated student data is unknown, requiring cautious interpretation guidance."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "uncertainty_limitation",
+        "question": "Since the model was calibrated and not near the threshold, what are the appropriate guidelines for discussing the predictive confidence interval of this low-risk score without implying absolute certainty?",
+        "linked_xai_factor": null,
+        "retrieval_query": "interpreting prediction confidence intervals in mental health screening",
+        "expected_evidence": [
+          "How to communicate calibrated scores when far from the threshold.",
+          "Language for expressing predictive uncertainty."
+        ],
+        "priority": "medium",
+        "rationale": "Although low risk, addressing calibration and confidence helps build a robust, scientifically grounded report structure."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_15\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0579,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"Given the low predicted screening risk (0.0579) which is significantly below the decision threshold of 0.5, what specific communication strategies should be employed to ensure that the student does not interpret this result as a definitive absence of elevated depression/anxiety screening risk?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"communication guidelines for low screening risk scores\",\n      \"expected_evidence\": [\n        \"Best practices for communicating negative predictive value in mental health screening.\",\n        \"Language to avoid false reassurance when reporting low risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question for all cases, especially low-risk ones, to prevent misinterpretation and ensure appropriate non-diagnostic communication.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"What are the general limitations of this machine learning model (CatBoost) when interpreting screening results, particularly regarding individual student context and non-clinical assessment data?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations of ML models in depression anxiety screening\",\n      \"expected_evidence\": [\n        \"Model scope limitations (e.g., not a diagnostic tool).\",\n        \"Need for clinical judgment to contextualize scores.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Essential for grounding the expert report in scientific caution and acknowledging that the model is only one piece of evidence.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do strong protective factors, such as high 'Flourishing' scores or positive 'Age' contributions, mitigate the overall predicted screening risk in a scientifically supported manner?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"protective factors mitigating depression anxiety screening risk\",\n      \"expected_evidence\": [\n        \"Mechanism by which flourishing or age reduces perceived risk.\",\n        \"Clinical significance of high protective factor contributions.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are highly influential here and must be explained to the expert reviewer to build confidence in the low-risk assessment.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What is the current understanding of why 'Campus belonging' (belong1) contributes positively to the model's prediction of elevated screening risk, despite being a generally positive student attribute?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"relationship between campus belonging and depression anxiety screening risk in students\",\n      \"expected_evidence\": [\n        \"Contextual interpretation of 'belonging' as a risk factor.\",\n        \"Potential confounding variables related to belonging.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"This is the single largest positive contributor (0.0676) and requires detailed contextual explanation for the expert report.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"In what specific contexts does 'Exercise frequency' (exerc) contribute positively to predicted screening risk, and how should this be interpreted when the student profile data is unknown?\",\n      \"linked_xai_factor\": \"exerc\",\n      \"retrieval_query\": \"exercise frequency contribution to mental health screening model prediction\",\n      \"expected_evidence\": [\n        \"Potential inverse relationship between exercise and risk.\",\n        \"Guidelines for interpreting missing or 'unknown' feature data in XAI reports.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Addresses a major positive contributor whose associated student data is unknown, requiring cautious interpretation guidance.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"Since the model was calibrated and not near the threshold, what are the appropriate guidelines for discussing the predictive confidence interval of this low-risk score without implying absolute certainty?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"interpreting prediction confidence intervals in mental health screening\",\n      \"expected_evidence\": [\n        \"How to communicate calibrated scores when far from the threshold.\",\n        \"Language for expressing predictive uncertainty.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Although low risk, addressing calibration and confidence helps build a robust, scientifically grounded report structure.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_17",
+  "generator_model": "qwen2.5",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T07:33:43.340773+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is highly relevant, clear, and non-redundant, providing useful evidence for a low‑risk student case. It covers key XAI contributors (binge drinking and flourishing) but omits other moderate contributors such as campus belonging and sleep patterns, which slightly lowers the XAI alignment score. All questions are answerable via scientific literature and support an expert report without diagnostic or causal language."
+}

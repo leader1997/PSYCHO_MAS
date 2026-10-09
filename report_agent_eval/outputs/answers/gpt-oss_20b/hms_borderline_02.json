@@ -1,0 +1,66 @@
+{
+  "model": "gpt-oss:20b",
+  "case_id": "hms_borderline_02",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "Given the prediction probability (0.4997) is extremely close to the decision threshold (0.5), what are the clinical guidelines for interpreting a 'borderline' screening result, especially when the model is calibrated?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "borderline",
+      "answer": "The retrieved passages describe the PHQ‑9 as a validated screening instrument with algorithmic cut‑offs and continuous scoring, but they do not provide specific instructions for interpreting probabilities that lie very close to a decision threshold. Because the model is calibrated, the probability estimate of 0.4997 can be considered an accurate reflection of risk; however, its proximity to 0.5 indicates uncertainty about class membership. The evidence does not specify how clinicians should proceed with such borderline results, so any decision would rely on clinical judgment and potentially additional assessment or repeat screening.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:36:21.802299+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "What are evidence-based strategies for addressing moderate levels of loneliness in college students, particularly when this feature is identified as a major contributor to elevated screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Screening with the UCLA 3‑item loneliness scale (Context 2) flags students scoring ≥6, allowing early intervention before risk escalates (Context 1). A multi‑tiered approach that begins with universal community‑building activities at the start of the semester has been shown to reduce later loneliness, as stronger initial feelings of community predict lower mid‑semester loneliness (Context 4). Targeted programs such as peer‑mentoring or small‑group workshops that explicitly teach coping skills for managing loneliness can be delivered following screening, aligning with evidence that teaching coping skills reduces anxiety and may similarly help loneliness (Context 1). Enhancing perceived social support—an inverse predictor of depressive symptoms and a protective factor against loneliness—can be achieved through counseling services or structured peer‑support groups (Context 5). Ongoing monitoring of loneliness scores allows adjustment of interventions, ensuring students who remain at risk receive additional support (Context 1).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:37:29.486471+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "How can existing protective factors, such as high exercise frequency and reported flourishing levels, be leveraged in initial support conversations to build resilience and mitigate screening risk?",
+      "question_type": "protective_factor",
+      "stratum": "borderline",
+      "answer": "In initial support conversations, frame high exercise frequency as a concrete protective behavior that students already use successfully, linking it to research showing that students who report average or high well‑being experience better academic and long‑term outcomes. Highlight their reported flourishing levels as evidence of existing resilience, noting that acknowledging these strengths reduces stigma and enhances self‑esteem—benefits documented in screening studies. Encourage the student to continue and expand such healthy habits while integrating them into broader coping strategies, thereby reinforcing a sense of agency. By foregrounding these positive factors, counselors can build resilience and mitigate risk signals identified through screening, aligning with evidence that strengths‑based approaches support early intervention and sustained well‑being.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:38:11.815753+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What are the differential risk assessment guidelines for high levels of binge drinking in conjunction with elevated depression/anxiety screening risk?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "borderline",
+      "answer": "Screening protocols that combine PHQ‑9/GAD‑7 (cut‑off ≥10) with a substance misuse item defining binge drinking as ≥4 drinks on one occasion provide the data needed to flag students at elevated risk. When a student screens positive for clinically significant depressive or anxiety symptoms and also reports frequent binge drinking, the screening team should trigger an immediate safety assessment per Tier 2/3 guidelines: assess for self‑harm ideation, suicidal thoughts, and potential harm to others, and if any are present, refer urgently to mental health services. If no imminent danger is identified, the student should be triaged to a higher intensity support tier (e.g., counseling or brief intervention) that addresses both mood symptoms and alcohol use patterns. Documentation of the number of students screened for each domain and the referrals made supports accountability and continuous quality improvement. Finally, early identification through universal screening can reduce long‑term costs by connecting students to outpatient or group services before crises develop.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:39:05.671892+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are general support considerations for expert review when a student presents with mixed risk signals (high-risk features alongside strong protective factors) in the context of depression/anxiety screening?",
+      "question_type": "expert_support_consideration",
+      "stratum": "borderline",
+      "answer": "When a student displays both high‑risk indicators and strong protective factors, experts should treat the profile as an opportunity for targeted prevention rather than immediate crisis intervention, consistent with a multi‑tiered approach that addresses needs before they worsen (Context 4). Screening data can inform whether to provide individualized services or classroom‑wide supports, especially if other students in the same grade show similar patterns (Context 2). Protective factors such as high well‑being, self‑esteem, and school belonging should be reinforced through strengths‑based counseling or skill‑building activities while continuing to monitor risk signals (Contexts 1 and 4). A rapid response protocol must still be ready to address any emergent danger; if the student’s high‑risk features suggest imminent harm, immediate referral to qualified mental health services is warranted (Context 5). Throughout this process, clear communication with students and families about screening outcomes, consent options, and available supports helps reduce stigma and promotes empowerment (Context 5).",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:40:01.879228+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What is the recommended non-diagnostic language and communication strategy to use when discussing screening results with a student, ensuring empathy while maintaining professional boundaries?",
+      "question_type": "safety_communication",
+      "stratum": "borderline",
+      "answer": "When sharing screening results, use a supportive tone that frames the findings as part of a routine, non‑diagnostic assessment aimed at identifying strengths and areas where additional support may be helpful (Context 1). Avoid labeling the student with a disorder; instead describe specific indicators (e.g., “you reported higher levels of stress and anxiety”) and explain that these are signals used to guide prevention and early intervention strategies (Context 2). Maintain professional boundaries by clarifying your role, ensuring confidentiality, and outlining next steps—such as additional assessment or referral to Tier‑2 services if needed (Context 3). If any risk of harm is detected, respond immediately according to the established protocol while offering appropriate resources or referrals (Context 3). This approach balances empathy with clear professional limits and aligns with best practices for school mental‑health screening.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T08:41:08.724067+00:00"
+    }
+  }
+}

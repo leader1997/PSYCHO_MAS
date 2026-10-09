@@ -1,0 +1,66 @@
+{
+  "model": "gemma4",
+  "case_id": "hms_low_01",
+  "answers": {
+    "Q1": {
+      "qid": "Q1",
+      "question": "What is the appropriate non-diagnostic communication strategy for a student with a low screening risk (0.05 probability) to ensure they do not receive false reassurance?",
+      "question_type": "safety_communication",
+      "stratum": "low",
+      "answer": "The provided evidence details the implementation and purpose of depression screening protocols using tools like the PHQ-2 and PHQ-9, emphasizing early identification and referral for students who screen positive. However, none of the retrieved contexts offer specific guidance or communication strategies regarding how to speak with a student who screens low risk (such as 0.05 probability) to prevent false reassurance. The available information focuses on the systematic nature of screening and the subsequent steps taken when elevated risk is detected.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:58:39.496292+00:00"
+    },
+    "Q2": {
+      "qid": "Q2",
+      "question": "How do high levels of flourishing (Flourish) or strong academic impairment status (ACA Impairment) generally correlate with reduced screening risk for depression and anxiety in college students?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "Based on the retrieved evidence, there is insufficient context to describe how high levels of flourishing or strong academic impairment status correlate with reduced screening risk for depression and anxiety in college students. The provided passages discuss general associations between mental health symptoms—such as co-occurring depression and anxiety—and lower GPA or university well-being. However, none of the contexts mention or define \"flourishing (Flourish)\" or \"ACA Impairment\" status, making it impossible to answer this specific correlation question using only the provided material.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:58:57.703156+00:00"
+    },
+    "Q3": {
+      "qid": "Q3",
+      "question": "What is the general association between attending a public institution (inst_public) and elevated depression/anxiety screening risk among college students?",
+      "question_type": "xai_contributor_evidence",
+      "stratum": "low",
+      "answer": "The provided evidence does not establish a general association between attending any public institution and elevated depression or anxiety risk among college students. However, regarding screening practices in an identified public college health center, the context suggests that relying on a complaint-based approach for depression screening is inadequate because patients may mask depressive symptoms or report somatic complaints to avoid mental health stigma. To improve early identification of depression, it is recommended that tools like the Patient Health Questionnaire-2 (PHQ-2) be utilized as a first step during every visit at the college health center. College students who screen positive should then undergo further evaluation and potential referral to counseling services provided by the institution.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:59:18.107383+00:00"
+    },
+    "Q4": {
+      "qid": "Q4",
+      "question": "What is the relationship between high current financial stability (fincur) and reduced screening risk of depression/anxiety in young adults?",
+      "question_type": "protective_factor",
+      "stratum": "low",
+      "answer": "Based on the provided evidence, there is insufficient information to describe the specific relationship between high current financial stability and a reduced screening risk of depression or anxiety in young adults. While some contexts note that stressors related to financing studies are common among university students, none of the retrieved passages quantify or establish how having high current financial stability acts as a protective factor against positive mental health screens.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:59:36.559643+00:00"
+    },
+    "Q5": {
+      "qid": "Q5",
+      "question": "What are the known limitations or scope restrictions of this screening model when predicting risk far below the established decision threshold (e.g., 0.05 probability)?",
+      "question_type": "uncertainty_limitation",
+      "stratum": "low",
+      "answer": "The provided context passages do not contain information regarding the known limitations or scope restrictions of screening models when predicting risk far below an established decision threshold, such as a 0.05 probability. The retrieved evidence discusses various aspects of depression screening, including the comparison between different psychometric models like CTT and IRT for the PHQ-9, general recommendations for universal screening in college settings, and appropriate implementation strategies like piloting screeners. However, none of the passages address the specific predictive accuracy or scope limitations associated with low-probability risk predictions.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T16:59:55.535760+00:00"
+    },
+    "Q6": {
+      "qid": "Q6",
+      "question": "What contextual factors (e.g., academic stress, social support systems) should an expert review consider when interpreting a low screening risk score?",
+      "question_type": "expert_support_consideration",
+      "stratum": "low",
+      "answer": "The provided context does not specify which contextual factors, such as academic stress or social support systems, an expert should consider when interpreting a low screening risk score. The literature suggests that psychometric interpretation must account for test limitations, noting that a low score may potentially be due to a person's lower ability or the difficulty of the test itself. Furthermore, some research has examined mean scores across various demographic and socioeconomic correlates within university student populations. Therefore, while context is acknowledged in validation studies, specific guidelines linking contextual factors to the interpretation of a low risk score are not available in this evidence.",
+      "error": null,
+      "n_contexts": 5,
+      "timestamp_utc": "2026-07-14T17:00:17.470976+00:00"
+    }
+  }
+}

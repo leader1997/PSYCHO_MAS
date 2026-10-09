@@ -1,0 +1,40 @@
+{
+  "card_type": "local_explanation",
+  "task": "depression_classification",
+  "case_id": "borderline_case",
+  "predicted_probability": 0.5,
+  "predicted_class": "elevated depression/anxiety risk",
+  "explainer": "CatBoost TreeSHAP",
+  "top_contributing_factors": [
+    {
+      "feature": "fincur",
+      "level": "low",
+      "direction": "increases risk",
+      "shap_value": 0.4561
+    },
+    {
+      "feature": "lonely",
+      "level": "medium",
+      "direction": "increases risk",
+      "shap_value": 0.4305
+    },
+    {
+      "feature": "flourish",
+      "level": "high",
+      "direction": "decreases risk",
+      "shap_value": -0.3898
+    },
+    {
+      "feature": "aca_impa",
+      "level": "low",
+      "direction": "decreases risk",
+      "shap_value": -0.249
+    },
+    {
+      "feature": "positiveMH",
+      "level": "medium",
+      "direction": "decreases risk",
+      "shap_value": -0.1783
+    }
+  ]
+}

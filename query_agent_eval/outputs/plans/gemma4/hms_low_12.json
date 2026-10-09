@@ -1,0 +1,111 @@
+{
+  "case_id": "hms_low_12",
+  "model": "gemma4",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:37:18.126421+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "plan": {
+    "case_id": "hms_low_12",
+    "risk_interpretation": {
+      "probability": 0.0572,
+      "threshold": 0.5,
+      "risk_level": "not_elevated_screening_risk",
+      "planning_strategy": "low_risk"
+    },
+    "question_plan": [
+      {
+        "question_id": "Q1",
+        "question_type": "safety_communication",
+        "question": "What is the appropriate non-diagnostic communication strategy for a student who falls below the elevated screening risk threshold but exhibits specific concerning behaviors?",
+        "linked_xai_factor": null,
+        "retrieval_query": "non-diagnostic communication strategies for low depression/anxiety screening scores",
+        "expected_evidence": [
+          "Guidelines on communicating low risk without false reassurance.",
+          "Best practices for follow-up care when screening is negative but behavioral red flags exist."
+        ],
+        "priority": "high",
+        "rationale": "Mandatory question to ensure safety and appropriate communication tone, especially in a low-risk context where vigilance against false reassurance is critical."
+      },
+      {
+        "question_id": "Q2",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are the current evidence-based recommendations for mitigating risks associated with binge drinking in college student populations?",
+        "linked_xai_factor": "binge1pl",
+        "retrieval_query": "intervention strategies for binge drinking among university students",
+        "expected_evidence": [
+          "Evidence on psychoeducation and skill-building interventions.",
+          "Recommendations for campus policies related to alcohol use."
+        ],
+        "priority": "high",
+        "rationale": "Binge drinking is the strongest positive contributor, requiring specific clinical guidance despite the low overall score. This guides targeted intervention planning."
+      },
+      {
+        "question_id": "Q3",
+        "question_type": "protective_factor",
+        "question": "How do high levels of flourishing and stable current financial situations act as protective factors against elevated depression/anxiety screening risk in young adults?",
+        "linked_xai_factor": "flourish",
+        "retrieval_query": "relationship between flourishing, financial stability, and mental health resilience in college students",
+        "expected_evidence": [
+          "Theoretical models linking positive psychological states (e.g., flourishing) to resilience.",
+          "Impact of socioeconomic security on mental well-being."
+        ],
+        "priority": "high",
+        "rationale": "Protective factors are highly influential and must be highlighted in the report to provide context and support for the low risk determination, preventing over-pathologizing the student."
+      },
+      {
+        "question_id": "Q4",
+        "question_type": "xai_contributor_evidence",
+        "question": "What are effective psychoeducational approaches to improving campus belonging and social integration for students who report medium or low levels of belonging?",
+        "linked_xai_factor": "belong1",
+        "retrieval_query": "interventions to enhance sense of belonging on college campuses",
+        "expected_evidence": [
+          "Program models for peer support and community building.",
+          "The role of social integration in mental health outcomes."
+        ],
+        "priority": "medium",
+        "rationale": "Belonging is a key psycho-social domain. Even if the score is low, addressing this contributor provides actionable, non-clinical support considerations."
+      },
+      {
+        "question_id": "Q5",
+        "question_type": "uncertainty_limitation",
+        "question": "What are the known limitations of using screening tools (like the one used) to assess depression/anxiety risk in a general student population, particularly when scores are near zero?",
+        "linked_xai_factor": null,
+        "retrieval_query": "limitations and scope of college mental health screening tools",
+        "expected_evidence": [
+          "Discussion on the difference between screening results and clinical diagnosis.",
+          "Factors that may lead to false negatives or underestimation of risk."
+        ],
+        "priority": "high",
+        "rationale": "Crucial for managing expectations and ensuring the expert understands that a low score is not a guarantee of wellness, addressing model limitations."
+      },
+      {
+        "question_id": "Q6",
+        "question_type": "expert_support_consideration",
+        "question": "For students with mixed risk profiles (e.g., high protective factors but concerning behaviors), what is the optimal balance between psychoeducation and referral for expert review?",
+        "linked_xai_factor": null,
+        "retrieval_query": "balancing psychoeducation vs clinical referral in low-risk screening follow-up",
+        "expected_evidence": [
+          "Clinical guidelines on tiered support systems.",
+          "Criteria for escalating care when risk factors are mixed."
+        ],
+        "priority": "medium",
+        "rationale": "Synthesizes the conflicting signals (low overall score vs. high binge drinking) into a practical, expert-level recommendation framework."
+      }
+    ],
+    "self_check": {
+      "risk_interpretation_included": true,
+      "all_major_xai_factors_covered": true,
+      "protective_factors_covered": true,
+      "uncertainty_or_limitation_included": true,
+      "safety_question_included": true,
+      "no_diagnostic_language": true,
+      "no_treatment_advice": true,
+      "no_causal_xai_language": true,
+      "non_redundant_questions": true
+    },
+    "missing_information": [],
+    "ready_for_retrieval": true
+  },
+  "raw": "```json\n{\n  \"case_id\": \"hms_low_12\",\n  \"risk_interpretation\": {\n    \"probability\": 0.0572,\n    \"threshold\": 0.5,\n    \"risk_level\": \"not_elevated_screening_risk\",\n    \"planning_strategy\": \"low_risk\"\n  },\n  \"question_plan\": [\n    {\n      \"question_id\": \"Q1\",\n      \"question_type\": \"safety_communication\",\n      \"question\": \"What is the appropriate non-diagnostic communication strategy for a student who falls below the elevated screening risk threshold but exhibits specific concerning behaviors?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"non-diagnostic communication strategies for low depression/anxiety screening scores\",\n      \"expected_evidence\": [\n        \"Guidelines on communicating low risk without false reassurance.\",\n        \"Best practices for follow-up care when screening is negative but behavioral red flags exist.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Mandatory question to ensure safety and appropriate communication tone, especially in a low-risk context where vigilance against false reassurance is critical.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are the current evidence-based recommendations for mitigating risks associated with binge drinking in college student populations?\",\n      \"linked_xai_factor\": \"binge1pl\",\n      \"retrieval_query\": \"intervention strategies for binge drinking among university students\",\n      \"expected_evidence\": [\n        \"Evidence on psychoeducation and skill-building interventions.\",\n        \"Recommendations for campus policies related to alcohol use.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Binge drinking is the strongest positive contributor, requiring specific clinical guidance despite the low overall score. This guides targeted intervention planning.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"question_type\": \"protective_factor\",\n      \"question\": \"How do high levels of flourishing and stable current financial situations act as protective factors against elevated depression/anxiety screening risk in young adults?\",\n      \"linked_xai_factor\": \"flourish\",\n      \"retrieval_query\": \"relationship between flourishing, financial stability, and mental health resilience in college students\",\n      \"expected_evidence\": [\n        \"Theoretical models linking positive psychological states (e.g., flourishing) to resilience.\",\n        \"Impact of socioeconomic security on mental well-being.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Protective factors are highly influential and must be highlighted in the report to provide context and support for the low risk determination, preventing over-pathologizing the student.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"question_type\": \"xai_contributor_evidence\",\n      \"question\": \"What are effective psychoeducational approaches to improving campus belonging and social integration for students who report medium or low levels of belonging?\",\n      \"linked_xai_factor\": \"belong1\",\n      \"retrieval_query\": \"interventions to enhance sense of belonging on college campuses\",\n      \"expected_evidence\": [\n        \"Program models for peer support and community building.\",\n        \"The role of social integration in mental health outcomes.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Belonging is a key psycho-social domain. Even if the score is low, addressing this contributor provides actionable, non-clinical support considerations.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"question_type\": \"uncertainty_limitation\",\n      \"question\": \"What are the known limitations of using screening tools (like the one used) to assess depression/anxiety risk in a general student population, particularly when scores are near zero?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"limitations and scope of college mental health screening tools\",\n      \"expected_evidence\": [\n        \"Discussion on the difference between screening results and clinical diagnosis.\",\n        \"Factors that may lead to false negatives or underestimation of risk.\"\n      ],\n      \"priority\": \"high\",\n      \"rationale\": \"Crucial for managing expectations and ensuring the expert understands that a low score is not a guarantee of wellness, addressing model limitations.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"question_type\": \"expert_support_consideration\",\n      \"question\": \"For students with mixed risk profiles (e.g., high protective factors but concerning behaviors), what is the optimal balance between psychoeducation and referral for expert review?\",\n      \"linked_xai_factor\": null,\n      \"retrieval_query\": \"balancing psychoeducation vs clinical referral in low-risk screening follow-up\",\n      \"expected_evidence\": [\n        \"Clinical guidelines on tiered support systems.\",\n        \"Criteria for escalating care when risk factors are mixed.\"\n      ],\n      \"priority\": \"medium\",\n      \"rationale\": \"Synthesizes the conflicting signals (low overall score vs. high binge drinking) into a practical, expert-level recommendation framework.\"\n    }\n  ],\n  \"self_check\": {\n    \"risk_interpretation_included\": true,\n    \"all_major_xai_factors_covered\": true,\n    \"protective_factors_covered\": true,\n    \"uncertainty_or_limitation_included\": true,\n    \"safety_question_included\": true,\n    \"no_diagnostic_language\": true,\n    \"no_treatment_advice\": true,\n    \"no_causal_xai_language\": true,\n    \"non_redundant_questions\": true\n  },\n  \"missing_information\": [],\n  \"ready_for_retrieval\": true\n}\n```"
+}

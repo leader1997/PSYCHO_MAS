@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_10",
+  "stratum": "high",
+  "qid": "Q3",
+  "question": "How does food insecurity worry (food_worry) contribute to elevated screening risk, and what are the established connections between nutritional stress and mood disorders in young adults?",
+  "retrieval_query": "food insecurity worry link to depression anxiety screening risk young adults",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:46:10.976418+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.977844,
+      "chunk_id": "DOC_F003_p2_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is associated with higher rates of depression, par - ticularly in young adults (Cacioppo et al., 2006, 2010; Matthews et al., 2016). Initial cross-sectional work has also identified lack of belonging as a predictor of depressive symptoms (Parr et al., 2020). Many self-report assessments of depressive symptoms include questions that assess social functioning; for example, the Center for Epidemiological Studies-Depression (CES-D) scale asks participants to rate social-functioning statements such as “I talked less than usual,” “People were unfriendly,” “I felt that people dislike me,” and “I felt lonely” (Lewinsohn et al., 1997), suggesting that depres- sive symptoms overlap with social experiences as well. The relationship between social factors and depression in young adults specifically has important implications as well. College students often have access to mental health treatment on campus, but the majority with mood disorders do not seek treatment (Blanco et al., 2008). When left untreated, depression in university students can have serious negative consequences on academic performance (Hysenbegasi et al., 2005) and physical health (Dalton & Hammen, 2018) and can lead to suicidal ideation (Beck et al., 1993; Garlow et al., 2008). Universities, however, may be a unique environ- ment for helping improve student wellness because campuses offer health"
+    },
+    {
+      "rank": 2,
+      "score": 0.946778,
+      "chunk_id": "DOC_E001_p6_c1",
+      "doc_id": "DOC_E001",
+      "title": "[PDF] The Hope Center 2023-2024 Student Basic Needs Survey Report",
+      "page": 6,
+      "category_code": "E_financial_food",
+      "text": "6 6 Below are other key findings we explore throughout this report: in of students experience basic needs insecurity related to food and/or housing. 67% of parenting students experience housing insecurity. 60% of Black students experience housing insecurity. 66% of LGBTQIA+ students experience depression and/or anxiety. Indigenous students experience homelessness, which is twice as high as the rate for White students. in"
+    },
+    {
+      "rank": 3,
+      "score": 0.915072,
+      "chunk_id": "DOC_F003_p1_c3",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "across the academic term predicted higher depressive symptoms at the end of the term. Furthermore, these relationships held when models controlled for baseline depressive symptoms, sense of social fit, and other social factors (loneliness and frequency of social interactions). These results highlight the relationship between feelings of belonging and depressive symptoms over and above other social factors. This work underscores the importance of daily-assessed feelings of belonging in predicting subsequent depressive symptoms and has implications for early detection and mental health interventions among young adults. Keywords depression, social behavior, preregistered Received 5/28/21; Revision accepted 12/12/21"
+    },
+    {
+      "rank": 4,
+      "score": 0.906118,
+      "chunk_id": "DOC_F003_p2_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "Psychological Science 33(7) 1049 The Need to Belong and Mental Health Among Young Adults in College Over the past 10 years, there has been a significant increase in the prevalence of depression, anxiety, and suicide in young adults (Duffy et al., 2019; Twenge et al., 2019). Indeed, nearly 19% of first-year college students globally are diagnosed with depression each year (Auerbach et al., 2018), and research suggests that rates are rising more for younger birth cohorts (Kessler et al., 2005; Twenge, 2015). From the early 2000s to now, rates of major depressive episodes have nearly doubled in young adults between the ages of 18 and 25 years (Twenge et al., 2019). It is well known that stressful life events and health behaviors (e.g., sleep) play an important role in predicting increases in depres- sive symptomatology and psychological distress among young adults (Breslau et al., 1996; Kendler et al., 1999; Monroe et al., 1999). Adolescence and young adulthood are also a critical time for developing and maintaining social connections, particularly among first-year uni- versity students as they build their social networks and adjust to a new lifestyle away from home. Greater feel- ings of social connectedness are associated with greater well-being in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This"
+    },
+    {
+      "rank": 5,
+      "score": 0.887075,
+      "chunk_id": "DOC_E002_p3_c2",
+      "doc_id": "DOC_E002",
+      "title": "The impact of material hardship severity and frequency on health",
+      "page": 3,
+      "category_code": "E_financial_food",
+      "text": "lead to negative consequences to health, long-term financial stability, and social outcomes [4,17,18]. Individuals who struggle to meet their basic needs, like living in stable housing conditions or having enough food to eat, are more likely to report poor health and psychological distress. These associations have been documented among children, working age adults, and the elderly [5,7,19]. Among adults, material hardship has been significantly associated with lower self-reported health, problems falling and staying asleep, higher rates of depression, stress, and suicidal thoughts [19]. In their study of depression among low-income adults, Heflin and Iceland [4] found that material hardship played the largest mediating role in reported rates of depression after controlling for numerous other sociodemographic factors. Additional scholarship has found that elderly Americans are especially vulnerable to the negative physical and mental health consequences of material hardship because they are more reliant on the healthcare system [20]. Similar findings have been shown across specific domains of material hardship. Children, the elderly, and pregnant women are particularly susceptible to severe negative physical and mental health consequences of food hardship, includ- ing diabetes, hypertension, and higher reports of anxiety and depression [21–23]. Housing hardship, which has risen in recent years with an increase in the average rent-to-income ratio (RTI) [24], is associated with physical health maladies the come from living in poor housing conditions [9,25] and mental health stressors resulting from facing the threat of eviction [26,27]. Further, because housing makes up a large share of the expenses for many lower-income households, housing hardship is correlated with other forms of hardship like"
+    }
+  ]
+}

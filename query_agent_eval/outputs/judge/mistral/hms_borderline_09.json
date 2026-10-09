@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_09",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:25:39.663571+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 3,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is largely relevant and useful for an expert-facing report, covering key risk interpretation, contributor evidence, protective factors, uncertainty, and safety resources. It aligns well with the model’s XAI contributors but omits several lower‑contribution features (e.g., positiveMH, finpast, age) that could further enrich the explanation. The questions are clear, non‑redundant, and safely framed without diagnostic or treatment language."
+}

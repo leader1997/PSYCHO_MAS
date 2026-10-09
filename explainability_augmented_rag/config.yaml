@@ -1,0 +1,82 @@
+project:
+  name: explainability_augmented_rag
+  random_seed: 42
+  phase1_source: "../xai_rag_depression"
+
+paths:
+  raw_pdfs: data/raw_pdfs
+  project_artifacts: data/project_artifacts
+  processed_chunks_csv: data/processed_chunks.csv
+  processed_chunks_jsonl: data/processed_chunks.jsonl
+  corpus_metadata_csv: data/corpus_metadata.csv
+  xai_cards_jsonl: xai/xai_cards.jsonl
+  benchmark_csv: data/rag_benchmark_100_questions.csv
+  benchmark_jsonl: data/rag_benchmark_100_questions.jsonl
+  faiss_index: data/faiss_index
+  results_dir: results
+  paper_outputs: paper_outputs
+
+corpus:
+  chunk_target_tokens: 450
+  chunk_overlap_tokens: 75
+  min_chunk_chars: 120
+  chars_per_token: 4
+
+retrieval:
+  dense_top_k: 20
+  bm25_top_k: 20
+  hybrid_top_k: 30
+  rerank_top_k: 8
+  rrf_k: 60
+  embedding_model: text-embedding-3-small
+  cross_encoder_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+
+llm:
+  backend: openai
+  generation_model: gpt-4o
+  judge_model: gpt-4o
+  synthesis_model: gpt-4o
+  temperature: 0.2
+  max_retries: 2
+
+ragas:
+  model: gpt-4o
+  embedding_model: text-embedding-3-small
+  batch_size: 10
+
+safety:
+  mandatory_disclaimer: "This is a model-based screening signal and not a clinical diagnosis."
+  elevated_risk_referral: "Consider speaking with a qualified counselor, mental-health professional, or student support service."
+  forbidden_patterns:
+    - "has depression"
+    - "has anxiety"
+    - "diagnosed with"
+    - "you should take"
+    - "prescribe"
+    - "medication for"
+
+evaluation:
+  benchmark_limit: 100
+  smoke_limit: 5
+  ablation_cases:
+    - high_risk_case
+    - low_risk_case
+    - borderline_risk_case
+
+systems:
+  ragas:
+    S1: dense
+    S2: bm25
+    S3: hybrid
+    S4: hybrid_rerank
+    S5: hybrid_rerank_synthesis
+    S6: full
+  ablation:
+    A1: profile_only
+    A2: profile_prediction
+    A3: profile_prediction_local_xai
+    A4: profile_prediction_agg_xai
+    A5: rag_only
+    A6: prediction_rag
+    A7: prediction_xai_rag
+    A8: prediction_xai_rag_safety

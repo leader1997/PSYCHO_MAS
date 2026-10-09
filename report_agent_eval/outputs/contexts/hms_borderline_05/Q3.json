@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_borderline_05",
+  "stratum": "borderline",
+  "qid": "Q3",
+  "question": "How should 'Academic impairment' (aca_impa), identified as a strong positive contributor to elevated screening risk, be differentiated from general academic stress or performance anxiety in the context of depression/anxiety screening?",
+  "retrieval_query": "differentiating between functional impairment and generalized academic stress in mental health assessment",
+  "question_type": "xai_contributor_evidence",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:43:05.673535+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.973449,
+      "chunk_id": "DOC_B001_p2_c3",
+      "doc_id": "DOC_B001",
+      "title": "Predictors of mental health and academic outcomes in first-year",
+      "page": 2,
+      "category_code": "B_college_depression_anxiety",
+      "text": "mental health outcomes at time 2 were defined as positive screens for clinically significant depressive and anxiety symptoms measured by the PHQ-9 and GAD-7 examined as binary outcomes using the established cut-off score of 10. Self-harm, suicidal ideation and attempts were measured as binary outcomes (yes/no) to ques- tions from the Columbia Suicide Severity Rating Scale: 21 ‘have you ever harmed yourself without the intent of ending your life ’, ‘have you had any thoughts of ending your life ’ and ‘have you made a suicide attempt.’ Owing to the bias associated with dichotomising variables and decreased power, we examined secondary mental health outcomes as total symptom scores on the PHQ-9 and GAD- 7. Functional impairment related to depressive and anxiety symp- toms was assessed by asking ‘how difficult have these symptoms made it for you to do your work, take care of things at home, or get along with others? ’ rated from 0 (not difficult at all) to 3 (extremely difficult). Respondents rating 2 or 3 were considered to have significant impairment associated with their symptoms. Academic outcomes Academic outcomes included cumulative grade point average (GPA) abstracted from the university database and well-being at university indexed by the School Connectedness subscale of the College Student Subjective Well-Being questionnaire 22 at time 2. Statistical analysis Chi-square tests were used to compare the time 1 participants ( n = 3029) with the final analysis participants with complete data at both time 1 and time 2 (n = 1530). Linear mixed-effects models with inter- action were used to assess differences between"
+    },
+    {
+      "rank": 2,
+      "score": 0.903515,
+      "chunk_id": "DOC_D004_p2_c2",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of respondents had very severe anxiety levels (41.8%) and very severe depression levels (30.4%) (see table 1). Table 2. The relationship between academic procrastination scores and stress, anxiety, and depression Variable Academic Procrastination Score Correlation coefficient (r)# Significance (p) Stress score r=0,468 p<0,001* Anxiety score r=0,472 p<0,001* Depression score r=0,401 p<0,001* Description = *Significant #Spearman Correlation Test The level of academic procrastination was correlated positively with stress levels (r=0.468), anxiety levels (r=0.468), and depression levels (r=0.401). (See table 4). Table 3. The relationship between academic procrastination scores and levels of stress, anxiety, and depression Variable Academic Procrastination Level Correlation coefficient (r)# Significance (p) Stress level r=0,449 p<0,001* Anxiety level r=0,403 p<0,001* Depression level r=0,369 p<0,001* Description= *Significant, #Spearman Correlation Test"
+    },
+    {
+      "rank": 3,
+      "score": 0.866237,
+      "chunk_id": "DOC_D004_p3_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 3,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 151 Table 4. Levels of academic procrastination, stress, anxiety, and depression by gender Variable Gender Male (n) (percentage) Female (n) (percentage) Procrastination - Low - High 32 (58,1%) 23 (41,8%) 62 (48,0%) 67 (51,9%) Stress - Normal - Mild - Moderate - Severe - Very severe 23 (41,8%) 12 (21,8%) 12 (21,8%) 4 (7,2%) 4 (7,2%) 54 (41,8%) 22 (17,0%) 21 (16,2%) 15 (11,62%) 17 (13,1%) Anxiety - Normal - Mild - Moderate - Severe - Very severe Depression - Normal - Mild - Moderate - Severe - Very severe 14 (25,4%) 4 (7,2%) 7 (12,7%) 8 (14,5%) 22 (40,0%) 16 (29,0%) 4 (7,2%) 8 (14,5%) 14 (25,4%) 13 (23,6%) 22 (17,0%) 7 (5,4%) 28 (21,7%) 17 (13,1%) 55 (42,6%) 17 (13,1%) 18 (13,9%) 28 (21,7%) 23 (17,8%) 43 (33,3%) Based on the data, high levels of procrastination were experienced by 41.8% of male students and 51.9% of female students. There were more female students with very severe stress (13.1%) than male students (7.2%). The majority of female experienced very severe anxiety (42.6%) and very severe depression (33.3%). (See table 4). DISCUSSION This study found that 48.9% of respondents had a high level of academic procrastination and female respondents had a higher level of procrastination than males. This may be caused by a larger number of female respondents than males. This result is different from a study conducted in Iran using the PASS"
+    },
+    {
+      "rank": 4,
+      "score": 0.852417,
+      "chunk_id": "DOC_D001_p1_c4",
+      "doc_id": "DOC_D001",
+      "title": "[PDF] Effect of Perceived Academic Stress on Students' Performance",
+      "page": 1,
+      "category_code": "D_academic_impairment",
+      "text": "Shelley & Whalen, 2005; Misra & McKean, 2000). Undergraduate students stated that stress was the most common factor among all health factors which impact their academic performance, as stress harmfully affects physical and psychological health (Dwyer & Cummings, 2001). Wintre and Yaffe (2000) concluded that high level of stress during the first year of college forecasst lower level of overall adjustment and can make the students more susceptible to many social and psychological problems, thus leading to a lower grade point average (GPA) in the final year. Many studies have addressed this issue and it was found that many psychological problems, such as depression, anxiety, and stress have an impact on the studenst academic achievement. Williamson, Birmaher, Ryan, and Dahl (2005) reported that in anxious and depressed youth, stressful life events are considerably elevated which in turn lead to low performance in academics."
+    },
+    {
+      "rank": 5,
+      "score": 0.850498,
+      "chunk_id": "DOC_D004_p2_c1",
+      "doc_id": "DOC_D004",
+      "title": "[PDF] THE RELATIONSHIP OF ACADEMIC PROCRASTINATION WITH",
+      "page": 2,
+      "category_code": "D_academic_impairment",
+      "text": "JURNAL KEDOKTERAN DIPONEGORO Online : http://ejournal3.undip.ac.id/index.php/medico E-ISSN : 2540-8844 JKD, Volume 11, Nomor 3, Mei 2022 Melania Tiara Cahyaratri, Fanti Saktini, Hang Gunawan Asikin, Tanjung Ayu Sumekar 150 students. Questionnaires were distributed via google form, then descriptive analysis and correlation tests were carried out. The Spearman's test was used for the correlation test. RESULTS Table 1. Characteristics of Respondents (n=184) Variable Median (min- max) Sum(n) (percentage) P Age 19,0 (17 – 21) Gender - Male - Female 55 (29,9%) 129 (70,1%) Family history of mental disorders - Yes - No 6 (3,3%) 178 (96,7%) Academic procrastination level - Low - High 14,0 (0 – 32) 94 (51,1%) 90 (48,9%) 0,017 Stress level - Normal - Mild - Moderate - Severe - Very Severe 77 (41,8%) 34 (18,5%) 33 (17,9%) 19 (10,3%) 21 (11,4%) Anxiety level - Normal - Mild - Moderate - Severe - Very Severe 36 (19,6%) 11 (6%) 35 (19%) 25 (13,6%) 77 (41,8%) Depression level - Normal - Mild - Moderate - Severe - Very Severe 33 (17,9%) 22 (12,0%) 36 (19,6%) 37 (20,1%) 56 (30,4%) Based on the data obtained, the respondents consisted of 184 UNDIP medical students, class of 2020, ranging from 17 -21. The majority of respondents were femal e (70.1%). Only 3.3% of respondents had a family history of mental disorders (see table 1). The range of respondents' procrastination level had a score of 0-32, with a median of 14.0 so 48.9% of respondents had a high level of procrastination. The majority of respondents had normal stress levels (41.8%), while the majority of"
+    }
+  ]
+}

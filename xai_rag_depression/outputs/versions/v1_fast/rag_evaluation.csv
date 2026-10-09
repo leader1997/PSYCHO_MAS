@@ -1,0 +1,13 @@
+case,system,llm_backend,llm_model,faithfulness,answer_relevancy,hallucination_rate,context_precision,context_recall
+high_risk_case,baseline,openai,gpt-4o-mini,1.0,1.0,0.2,,
+high_risk_case,rag_xai,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.8
+high_risk_case,rag_agg_xai,openai,gpt-4o-mini,1.0,1.0,0.1,0.5,0.8
+high_risk_case,full,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.8
+low_risk_case,baseline,openai,gpt-4o-mini,1.0,1.0,0.2,,
+low_risk_case,rag_xai,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.2
+low_risk_case,rag_agg_xai,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.4
+low_risk_case,full,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.4
+borderline_case,baseline,openai,gpt-4o-mini,1.0,1.0,0.2,,
+borderline_case,rag_xai,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.8
+borderline_case,rag_agg_xai,openai,gpt-4o-mini,1.0,1.0,0.1,0.5,0.8
+borderline_case,full,openai,gpt-4o-mini,1.0,1.0,0.2,0.5,0.6

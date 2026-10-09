@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_18",
+  "generator_model": "gemma4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-01T20:55:17.130085+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 5,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 5,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is comprehensive, well-aligned with the case specifics, and adheres to safety and non-diagnostic guidelines. It covers all major XAI contributors, protective factors, uncertainty considerations, and communication protocols, making it highly suitable for generating an expert-facing support report."
+}

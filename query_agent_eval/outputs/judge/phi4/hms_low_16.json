@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_16",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T10:01:51.356336+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 4,
+    "probability_adaptation": 3,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the case, covering key XAI contributors and protective factors while maintaining safety and clarity. It could improve probability adaptation by explicitly addressing low‑risk follow‑up recommendations."
+}

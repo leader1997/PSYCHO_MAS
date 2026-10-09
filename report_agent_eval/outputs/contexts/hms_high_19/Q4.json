@@ -1,0 +1,64 @@
+{
+  "case_id": "hms_high_19",
+  "stratum": "high",
+  "qid": "Q4",
+  "question": "How does campus belonging (belong2) function as a protective factor against elevated screening risk, and what institutional supports can be leveraged to enhance this sense of connection?",
+  "retrieval_query": "protective role of campus belonging in student mental health outcomes",
+  "question_type": "protective_factor",
+  "condition": "ollama_context",
+  "mode": "hybrid",
+  "top_k": 5,
+  "timestamp_utc": "2026-07-14T12:48:07.048441+00:00",
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.97511,
+      "chunk_id": "DOC_F002_p1_c2",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in curricular and co-curricular activities that are intentionally designed to promote belonging and well-being. Introduction On May 2, 2023, the Surgeon General of the United States stated the country was experiencing an epidemic of loneliness and isolation so severe that the negative health impacts were compa- rable to smoking 15 cigarettes a day [1]. Connecting with others was described as key to over- coming this epidemic, but establishing and maintaining connections is particularly challenging for college students. The transition from high school requires that students, who are already navigating myriad psychological changes during mid- to late-adolescence [2], adapt to unfamiliar academic and social environments while coping with newfound indepen- dence and novel living arrangements [3]. The widespread adoption of virtual instruction since the onset of the COVID-19 pandemic has created new barriers to connecting and increased students’ screen time, which is associated with depression, anxiety, and stress [4, 5]. These fac- tors, coupled with increased sedentary time [6], pressure to succeed, and stress related to PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 1 / 20 a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 OPEN ACCESS Citation: Romeo I, Stanislaw H, McCrear y J, Hawley M (2024) The importance of belonging"
+    },
+    {
+      "rank": 2,
+      "score": 0.972029,
+      "chunk_id": "DOC_F002_p1_c1",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 1,
+      "category_code": "F_sleep_wellbeing",
+      "text": "RESEA RCH ARTICL E The importance of belonging for well-being in college students Isabella Romeo ID 1 , Harold Stanislaw ID 2 *, Jamie McCreary 2 , Marcus Hawley ID 3 1 Kinesiolog y and Public Health Department and Biologic al Sciences Department, Californi a Polytechn ic State Univers ity, San Luis Obispo, California, United States of America, 2 Department of Psycholog y, Californi a State University , Stanislaus , Turlock, California, United States of America, 3 Materials Engineeri ng Department , California Polytechn ic State University, San Luis Obispo, Californi a, United States of America * HStanis law@csustan .edu Abstract College students are vulnerable to mental health challenges that include depression, anxi- ety, and suicidal thoughts. We examined how subjective well-being in 369 college students in the United States was affected by the number friends or family members who could pro- vide essential needs (instrumental support) or with whom intimate or personal matters could be discussed (emotional support), the frequency of engaging with others, satisfaction with these engagements , and the sense of belonging. Engagem ent satisfaction was affected by emotional support and engagement frequency. Instrumental support had no significant effect, but this could be an artifact of our sample. Emotional support affected belonging, which in turn affected well-being. These results highlight the central role of belonging in establishing and maintaining well-being. Some characteristics may act as well-being risk or protective factors, but these effects are small; all students may experience low levels of well-being. We recommend that institutions monitor the well-being of their students and require participation in"
+    },
+    {
+      "rank": 3,
+      "score": 0.916548,
+      "chunk_id": "DOC_F003_p2_c2",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "in this age group (Jose et al., 2012). One social factor that is quite important to young adults is belonging. Belonging is a feeling that one has a sufficient number of social relationships and connec- tions to a community or social context (Allen et al., 2018). For first-year college students, much of their social life is their university community. This connec- tion to the university community is often referred to as “school belonging,” which is thought to be the extent to which students feel personally accepted, respected, included, and supported by others in the school social environment (Goodenow & Grady, 1993). Indeed, initial research into feelings of belonging in adolescents and young adults has begun to examine school belonging and the consequences of low feelings of belonging. This work has found that lack of belonging is both increasing in this population and associated with greater negative affect (Twenge et al., 2021) and worse self-reported mental health (Gopalan & Brady, 2020). On the other hand, higher levels of school belonging are also linked to better academic outcomes (Pittman & Richmond, 2007) and greater persistence in engineer - ing (Marra et al., 2012), which has influenced our understanding of the important role that feelings of belonging have in the success and wellness of adoles- cents and young adults. Research has begun to investigate the role that social factors play in the development of depression. Previous research has identified social stressors (e.g., relation- ship breakup) as risk factors for depression (Kendler et al., 1999, 2003; Monroe et al., 1999). Similarly, loneli- ness is"
+    },
+    {
+      "rank": 4,
+      "score": 0.892635,
+      "chunk_id": "DOC_F003_p3_c1",
+      "doc_id": "DOC_F003",
+      "title": "[PDF] Lack of Belonging Predicts Depressive Symptomatology in College",
+      "page": 3,
+      "category_code": "F_sleep_wellbeing",
+      "text": "1050 Dutcher et al. opportunities for socialization and growth. Understand- ing the factors that lead to depression in students would help identify targets of intervention. Furthermore, using experience sampling in daily life allows for earlier detection of risk and thus could lead to earlier imple- mentation of interventions to help students thrive on campus. Social factors emerge as a possible target of interven- tion because of their relationship with a variety of men- tal health and success outcomes. However, greater work needs to be done to determine whether loneliness inter- ventions are effective or that interventions can increase social contact among young adults (Masi et al., 2011). However, there are effective interventions for belonging in this developmental context (Brady et al., 2020; Murphy et al., 2020; Walton & Cohen, 2007, 2011), suggesting that probing the relationship between feelings of belonging and depression could yield insight for effec- tive future interventions. Importantly, belonging is not the same as feeling like one is socially connected or supported by other people. Theories on belonging note that belonging is about not just having close relation- ships but rather whether someone feels as if they belong in a certain social context (Walton & Brady, 2017). Although close relationships can be a source of belonging in a context (Shook & Clay, 2012), individu- als’ subjective feelings of belonging may not always overlap with their feelings of social connection. Because belonging appears to be a unique facet of social life, it is important to examine the unique contributions that feelings of belonging have to mental health beyond"
+    },
+    {
+      "rank": 5,
+      "score": 0.881291,
+      "chunk_id": "DOC_F002_p2_c3",
+      "doc_id": "DOC_F002",
+      "title": "[PDF] The importance of belonging for well-being in college students",
+      "page": 2,
+      "category_code": "F_sleep_wellbeing",
+      "text": "This promotes well-being by providing recipients with a safe space to express feelings and voice fears [25], which helps them cope with stress [26]. Emotional sup- port is also essential for developing a sense of belonging, which involves feeling connections with groups, people, and places. Research shows that belonging is associated with a variety of positive psychosocial outcomes, including improved well-being [27–29]. In college students, increases in belonging are associated with improved psychological well- being [30, 31] and reduced depressive symptoms, even after controlling for other social factors such as loneliness and frequency of social interactions [32]. Belonging does not emerge simply from being around others or having a social support network; engagement with the members of that network through communication or other interactions is also required [33]. Most social support and engagement studies focus on their links to depression and anxiety (e.g. [18]). However, mental health should not be conceptualized merely as the absence of mental illness; subjective well-being (SWB) and other positive experiences are also important (e.g., [34, 35]). SWB is a construct that encompasses life satisfaction, optimism, the absence of negative emotions, and the presence of positive emotions [36]. Increases in SWB are associated with a variety of positive outcomes, including good health, work success, more prosocial behavior, and better relationships with others [37, 38]. PLOS MENT AL HEALTH Well-being in college students PLOS Mental Health | https://doi.o rg/10.1371/jo urnal.pm en.0000057 June 13, 2024 2 / 20 independen t consultan t to Seity. IR and MH are related to the founders of Seity Health and were reimburse"
+    }
+  ]
+}

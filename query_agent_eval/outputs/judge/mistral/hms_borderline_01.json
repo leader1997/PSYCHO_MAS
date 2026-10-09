@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_borderline_01",
+  "generator_model": "mistral",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "borderline",
+  "timestamp_utc": "2026-07-02T12:09:54.127471+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 5,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question plan is well‑aligned with the model’s XAI contributors, covers protective factors and uncertainty, and uses safe, non‑diagnostic language. It is largely relevant to the borderline risk case, though it could include a few more tailored prompts that directly address the student’s specific profile (e.g., high belonging, low financial stress). Overall, it provides comprehensive, clear, and distinct questions suitable for generating an expert support report."
+}

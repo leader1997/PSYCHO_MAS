@@ -1,0 +1,20 @@
+{
+  "case_id": "hms_low_08",
+  "generator_model": "phi4",
+  "judge_model": "gpt-oss:20b",
+  "stratum": "low",
+  "timestamp_utc": "2026-07-02T09:35:47.806544+00:00",
+  "parsed_ok": true,
+  "error": null,
+  "scores": {
+    "relevance": 4,
+    "xai_alignment": 4,
+    "kdb_answerability": 5,
+    "report_usefulness": 5,
+    "probability_adaptation": 4,
+    "safety": 5,
+    "clarity": 5,
+    "non_redundancy": 5
+  },
+  "overall_comment": "The question set is well‑aligned with the case, covering key XAI contributors and protective factors, and is grounded in general scientific literature. It avoids diagnostic or treatment language, maintains clarity, and provides useful information for an expert report. Minor gaps remain in covering all protective factors, but overall it meets high standards."
+}
